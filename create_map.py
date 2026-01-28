@@ -212,7 +212,7 @@ def create_map(results):
             var stations = {js_stations};
 
             stations.forEach(function(s) {{
-                // Create the 500m radius circle (hidden by default)
+                // Create the 500m radius circle (hidden by default, non-interactive)
                 var circle = L.circle([s.lat, s.lon], {{
                     radius: 500,
                     color: s.line_color,
@@ -220,7 +220,8 @@ def create_map(results):
                     fill: true,
                     fillColor: s.fill_color,
                     fillOpacity: 0,
-                    opacity: 0
+                    opacity: 0,
+                    interactive: false  // Don't capture mouse events - let them pass through to markers
                 }});
 
                 // Create the station marker (always visible)
