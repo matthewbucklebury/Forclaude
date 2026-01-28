@@ -4,23 +4,38 @@ An interactive visualization showing population density around London Undergroun
 
 ## Results Summary
 
-Based on analysis using 2021 Census population data:
+Based on analysis using 2021 Census Output Area level population data:
 
-| Rank | Line | Stations | Population (500m) |
-|------|------|----------|------------------|
-| 1 | **Piccadilly** | 53 | **161,156** |
-| 2 | District | 60 | 154,582 |
-| 3 | Central | 49 | 138,088 |
-| 4 | Northern | 52 | 138,004 |
-| 5 | Metropolitan | 35 | 82,877 |
-| 6 | Jubilee | 27 | 76,927 |
-| 7 | Hammersmith & City | 29 | 71,361 |
-| 8 | Circle | 36 | 70,549 |
-| 9 | Bakerloo | 25 | 63,994 |
-| 10 | Victoria | 16 | 41,975 |
-| 11 | Waterloo & City | 2 | 2,966 |
+| Rank | Line | Stations | Population (500m) | Avg/Station |
+|------|------|----------|------------------|-------------|
+| 1 | **District** | 60 | **455,035** | 7,583 |
+| 2 | Northern | 52 | 389,804 | 7,496 |
+| 3 | Piccadilly | 53 | 315,354 | 5,950 |
+| 4 | Hammersmith & City | 29 | 292,272 | 10,078 |
+| 5 | Central | 49 | 256,654 | 5,237 |
+| 6 | Circle | 36 | 249,341 | 6,926 |
+| 7 | Bakerloo | 25 | 190,862 | 7,634 |
+| 8 | Jubilee | 27 | 171,409 | 6,348 |
+| 9 | Metropolitan | 35 | 159,468 | 4,556 |
+| 10 | Victoria | 16 | 139,882 | 8,742 |
+| 11 | Waterloo & City | 2 | 3,731 | 1,865 |
 
-**Winner: The Piccadilly line** with approximately 161,000 people living within 500m of its 53 stations.
+**Winner: The District line** with 455,035 people living within 500m of its 60 stations.
+
+### Top 10 Stations by Catchment Population
+
+| Rank | Station | Population |
+|------|---------|------------|
+| 1 | Upton Park | 17,400 |
+| 2 | Pimlico | 16,198 |
+| 3 | Marylebone | 16,061 |
+| 4 | Edgware Road (Bakerloo) | 14,886 |
+| 5 | Earl's Court | 14,457 |
+| 6 | Westbourne Park | 14,099 |
+| 7 | Royal Oak | 13,823 |
+| 8 | West Kensington | 13,772 |
+| 9 | Stockwell | 13,590 |
+| 10 | Bethnal Green | 13,550 |
 
 ## Quick Start
 
@@ -56,23 +71,23 @@ Then open `tube_population_map.html` in your browser.
 - Includes which lines serve each station
 
 ### Population Data
-- Based on [2021 Census](https://www.ons.gov.uk/census) borough-level population totals
-- Population distributed using a 200m grid weighted by distance to borough centroids
-- Total London population: ~8.8 million (matching census figures)
-
-For more accurate analysis, the code can be configured to use:
-- [ONS Output Area Population Weighted Centroids](https://geoportal.statistics.gov.uk/)
-- [Nomis Census 2021 Bulk Data](https://www.nomisweb.co.uk/sources/census_2021_bulk)
+- Source: [ONS 2021 Census](https://www.ons.gov.uk/census) at Output Area (OA) level
+- Dataset: TS001 - Number of usual residents from [Nomis Bulk Data](https://www.nomisweb.co.uk/sources/census_2021_bulk)
+- Geography: [Output Area Population Weighted Centroids](https://geoportal.statistics.gov.uk/)
+- Coverage: 30,925 Output Areas in Greater London
+- Total population: 10.3 million
 
 ## Methodology
 
-1. **Station Data Collection**: Fetched all tube stations from TfL API with coordinates and line assignments
+1. **Station Data Collection**: Fetched all 272 tube stations from TfL API with coordinates and line assignments
 
-2. **Population Grid**: Created a 200m resolution grid covering Greater London, with population weights based on 2021 Census borough totals
+2. **Census Data Processing**: Downloaded 2021 Census Output Area population data (TS001) and population-weighted centroids, filtered to Greater London
 
-3. **Catchment Analysis**: For each station, summed the population of all grid cells whose centroids fall within 500m (using Haversine distance)
+3. **Coordinate Conversion**: Converted OA centroids from British National Grid to WGS84 (lat/lon)
 
-4. **Line Aggregation**: Totaled catchment populations for all stations on each line
+4. **Catchment Analysis**: For each station, summed populations of all OA centroids within 500m (using Haversine distance)
+
+5. **Line Aggregation**: Totaled catchment populations for all stations on each line
 
 ### Note on Overlap
 Stations that serve multiple lines are counted for each line they serve. This means:
@@ -82,17 +97,17 @@ Stations that serve multiple lines are counted for each line they serve. This me
 ## File Structure
 
 ```
-├── run_analysis.py           # Main runner script
-├── fetch_data.py             # TfL API data fetcher
-├── download_population_data.py # Population data preparation
-├── analyze_population.py     # GIS analysis
-├── create_map.py             # Interactive map generator
-├── tube_population_map.html  # Output: Interactive map
-├── requirements.txt          # Python dependencies
+├── run_analysis.py            # Main runner script
+├── fetch_data.py              # TfL API data fetcher
+├── process_census_data.py     # Census data processor (OA centroids + population)
+├── analyze_population.py      # GIS analysis (500m buffer calculation)
+├── create_map.py              # Interactive map generator
+├── tube_population_map.html   # Output: Interactive map
+├── requirements.txt           # Python dependencies
 └── data/
-    ├── tube_stations.json    # Station coordinates
-    ├── london_population.json # Population grid
-    └── analysis_results.json # Analysis output
+    ├── tube_stations.json     # Station coordinates from TfL
+    ├── london_population.json # OA centroids with population (30,925 areas)
+    └── analysis_results.json  # Analysis output
 ```
 
 ## Requirements
