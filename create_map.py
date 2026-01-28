@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-Create an interactive map showing London tube station catchment populations.
+Create an interactive map showing London TfL rail station catchment populations.
+Includes Tube, Overground, Elizabeth Line, and DLR.
 Supports toggle between 500m and 1km radius analysis.
 """
 
@@ -406,7 +407,7 @@ def create_map_with_toggle(results_500m, results_1km):
         font-family: Arial, sans-serif;
         width: 280px;
     ">
-        <h3 style="margin: 0 0 5px 0; font-size: 14px;">Tube Line Population Rankings</h3>
+        <h3 style="margin: 0 0 5px 0; font-size: 14px;">TfL Rail Population Rankings</h3>
         <p id="legend-subtitle" style="font-size: 11px; color: #666; margin: 0 0 10px 0;">Population within 500m of stations</p>
 
         <div class="radius-toggle">
@@ -453,7 +454,7 @@ def create_map_with_toggle(results_500m, results_1km):
         </table>
         <div style="margin-top: 10px; padding-top: 10px; border-top: 1px solid #ddd;">
             <p style="font-size: 10px; color: #666; margin: 0;">
-                Data: TfL station locations, 2021 Census.<br>
+                Data: TfL (Tube, Overground, Elizabeth, DLR) + 2021 Census.<br>
                 Toggle radius to compare catchment areas.
             </p>
         </div>
@@ -473,7 +474,7 @@ def create_map_with_toggle(results_500m, results_1km):
         box-shadow: 0 2px 10px rgba(0,0,0,0.2);
         font-family: Arial, sans-serif;
     ">
-        <h2 style="margin: 0; font-size: 16px; color: #333;">London Tube Station Population Catchment</h2>
+        <h2 style="margin: 0; font-size: 16px; color: #333;">London TfL Rail Population Catchment</h2>
         <p id="title-subtitle" style="margin: 5px 0 0 0; font-size: 12px; color: #666;">Hover over a station to see its 500m catchment area</p>
     </div>
     """

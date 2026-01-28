@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Fetch tube station data from TfL API and census population data from ONS.
+Fetch TfL station data (Tube, Overground, Elizabeth Line, DLR) and census population data from ONS.
 """
 
 import json
@@ -14,12 +14,18 @@ DATA_DIR.mkdir(exist_ok=True)
 
 TFL_API_BASE = "https://api.tfl.gov.uk"
 
+# Tube lines
 TUBE_LINES = [
     "bakerloo", "central", "circle", "district", "hammersmith-city",
     "jubilee", "metropolitan", "northern", "piccadilly", "victoria", "waterloo-city"
 ]
 
+# Other TfL rail modes
+OTHER_MODES = ["overground", "elizabeth-line", "dlr"]
+
+# Official TfL line colors
 LINE_COLORS = {
+    # Tube lines
     "bakerloo": "#B36305",
     "central": "#E32017",
     "circle": "#FFD300",
@@ -30,16 +36,22 @@ LINE_COLORS = {
     "northern": "#000000",
     "piccadilly": "#003688",
     "victoria": "#0098D4",
-    "waterloo-city": "#95CDBA"
+    "waterloo-city": "#95CDBA",
+    # Other TfL rail services
+    "london-overground": "#EE7C0E",
+    "elizabeth": "#9364CD",
+    "dlr": "#00A4A7"
 }
 
-def fetch_tube_stations():
-    """Fetch all tube station data from TfL API."""
-    print("Fetching tube station data from TfL API...")
+def fetch_tfl_stations():
+    """Fetch all TfL rail station data (Tube, Overground, Elizabeth Line, DLR) from TfL API."""
+    print("Fetching TfL station data from TfL API...")
 
     all_stations = {}  # naptanId -> station data
     station_lines = {}  # naptanId -> set of lines
 
+    # Fetch tube stations by line
+    print("\n--- Tube Lines ---")
     for line_id in TUBE_LINES:
         print(f"  Fetching stations for {line_id} line...")
         url = f"{TFL_API_BASE}/Line/{line_id}/StopPoints"
@@ -59,15 +71,20 @@ def fetch_tube_stations():
                     print(f"    Failed to fetch {line_id}: {e}")
                     stations = []
 
+        count = 0
         for station in stations:
             naptan_id = station.get("naptanId")
             if not naptan_id:
                 continue
 
             if naptan_id not in all_stations:
+                name = station.get("commonName", "")
+                # Clean up station names
+                for suffix in [" Underground Station", " Rail Station", " DLR Station"]:
+                    name = name.replace(suffix, "")
                 all_stations[naptan_id] = {
                     "naptanId": naptan_id,
-                    "name": station.get("commonName", "").replace(" Underground Station", ""),
+                    "name": name,
                     "lat": station.get("lat"),
                     "lon": station.get("lon"),
                     "lines": []
@@ -75,7 +92,73 @@ def fetch_tube_stations():
                 station_lines[naptan_id] = set()
 
             station_lines[naptan_id].add(line_id)
+            count += 1
 
+        print(f"    Found {count} stations")
+        time.sleep(0.5)  # Rate limiting
+
+    # Fetch other modes (Overground, Elizabeth Line, DLR)
+    print("\n--- Other TfL Rail Services ---")
+    for mode in OTHER_MODES:
+        print(f"  Fetching stations for {mode}...")
+        url = f"{TFL_API_BASE}/StopPoint/Mode/{mode}"
+
+        for attempt in range(4):
+            try:
+                response = requests.get(url, timeout=60)
+                response.raise_for_status()
+                data = response.json()
+                stations = data.get("stopPoints", []) if isinstance(data, dict) else data
+                break
+            except requests.RequestException as e:
+                if attempt < 3:
+                    wait_time = 2 ** (attempt + 1)
+                    print(f"    Retry in {wait_time}s due to: {e}")
+                    time.sleep(wait_time)
+                else:
+                    print(f"    Failed to fetch {mode}: {e}")
+                    stations = []
+
+        # Map mode to line name for consistency
+        if mode == "overground":
+            line_name = "london-overground"
+        elif mode == "elizabeth-line":
+            line_name = "elizabeth"
+        else:
+            line_name = mode  # dlr stays as dlr
+
+        count_new = 0
+        count_existing = 0
+        for station in stations:
+            naptan_id = station.get("naptanId")
+            if not naptan_id:
+                continue
+
+            # Skip non-station stop types if present
+            stop_type = station.get("stopType", "")
+            if stop_type and "Station" not in stop_type and stop_type != "NaptanMetroStation":
+                continue
+
+            if naptan_id not in all_stations:
+                name = station.get("commonName", "")
+                # Clean up station names
+                for suffix in [" Underground Station", " Rail Station", " DLR Station", " Station"]:
+                    name = name.replace(suffix, "")
+                all_stations[naptan_id] = {
+                    "naptanId": naptan_id,
+                    "name": name,
+                    "lat": station.get("lat"),
+                    "lon": station.get("lon"),
+                    "lines": []
+                }
+                station_lines[naptan_id] = set()
+                count_new += 1
+            else:
+                count_existing += 1
+
+            station_lines[naptan_id].add(line_name)
+
+        print(f"    Found {count_new} new stations, {count_existing} shared with other lines")
         time.sleep(0.5)  # Rate limiting
 
     # Add lines to each station
@@ -83,9 +166,21 @@ def fetch_tube_stations():
         all_stations[naptan_id]["lines"] = sorted(list(lines))
 
     stations_list = list(all_stations.values())
-    print(f"  Found {len(stations_list)} unique stations")
 
-    # Save to file
+    # Count by service type
+    tube_count = sum(1 for s in stations_list if any(l in TUBE_LINES for l in s["lines"]))
+    overground_count = sum(1 for s in stations_list if "london-overground" in s["lines"])
+    elizabeth_count = sum(1 for s in stations_list if "elizabeth" in s["lines"])
+    dlr_count = sum(1 for s in stations_list if "dlr" in s["lines"])
+
+    print(f"\n--- Summary ---")
+    print(f"  Total unique stations: {len(stations_list)}")
+    print(f"  Tube stations: {tube_count}")
+    print(f"  Overground stations: {overground_count}")
+    print(f"  Elizabeth Line stations: {elizabeth_count}")
+    print(f"  DLR stations: {dlr_count}")
+
+    # Save to file (keep same filename for compatibility)
     output_file = DATA_DIR / "tube_stations.json"
     with open(output_file, "w") as f:
         json.dump({
@@ -93,7 +188,7 @@ def fetch_tube_stations():
             "line_colors": LINE_COLORS
         }, f, indent=2)
 
-    print(f"  Saved to {output_file}")
+    print(f"\n  Saved to {output_file}")
     return stations_list
 
 
@@ -244,11 +339,11 @@ def download_oa_boundaries():
 
 if __name__ == "__main__":
     print("=" * 60)
-    print("London Tube Station Population Data Fetcher")
+    print("London TfL Rail Station Population Data Fetcher")
     print("=" * 60)
 
-    # Fetch tube stations
-    stations = fetch_tube_stations()
+    # Fetch all TfL rail stations
+    stations = fetch_tfl_stations()
 
     # Download census population data
     download_census_data()
