@@ -12,7 +12,7 @@
         "jubilee",
         "metropolitan"
       ],
-      "population": 31696
+      "population": 28205
     },
     {
       "naptanId": "940GZZLUCHX",
@@ -23,7 +23,7 @@
         "bakerloo",
         "northern"
       ],
-      "population": 8797
+      "population": 11760
     },
     {
       "naptanId": "940GZZLUEAC",
@@ -34,7 +34,7 @@
         "bakerloo",
         "northern"
       ],
-      "population": 51489
+      "population": 51023
     },
     {
       "naptanId": "940GZZLUEMB",
@@ -47,7 +47,7 @@
         "district",
         "northern"
       ],
-      "population": 10516
+      "population": 10651
     },
     {
       "naptanId": "940GZZLUERB",
@@ -57,7 +57,7 @@
       "lines": [
         "bakerloo"
       ],
-      "population": 49643
+      "population": 43225
     },
     {
       "naptanId": "940GZZLUHAW",
@@ -67,7 +67,7 @@
       "lines": [
         "bakerloo"
       ],
-      "population": 28820
+      "population": 28442
     },
     {
       "naptanId": "940GZZLUHSN",
@@ -77,7 +77,7 @@
       "lines": [
         "bakerloo"
       ],
-      "population": 22533
+      "population": 27418
     },
     {
       "naptanId": "940GZZLUKEN",
@@ -87,7 +87,7 @@
       "lines": [
         "bakerloo"
       ],
-      "population": 18418
+      "population": 17532
     },
     {
       "naptanId": "940GZZLUKPK",
@@ -97,7 +97,7 @@
       "lines": [
         "bakerloo"
       ],
-      "population": 52924
+      "population": 49794
     },
     {
       "naptanId": "940GZZLUKSL",
@@ -107,7 +107,7 @@
       "lines": [
         "bakerloo"
       ],
-      "population": 26201
+      "population": 26574
     },
     {
       "naptanId": "940GZZLULBN",
@@ -117,7 +117,7 @@
       "lines": [
         "bakerloo"
       ],
-      "population": 25387
+      "population": 23541
     },
     {
       "naptanId": "940GZZLUMVL",
@@ -127,7 +127,7 @@
       "lines": [
         "bakerloo"
       ],
-      "population": 52745
+      "population": 49834
     },
     {
       "naptanId": "940GZZLUMYB",
@@ -137,7 +137,7 @@
       "lines": [
         "bakerloo"
       ],
-      "population": 40184
+      "population": 35533
     },
     {
       "naptanId": "940GZZLUNWY",
@@ -147,7 +147,7 @@
       "lines": [
         "bakerloo"
       ],
-      "population": 23420
+      "population": 21992
     },
     {
       "naptanId": "940GZZLUOXC",
@@ -159,7 +159,7 @@
         "central",
         "victoria"
       ],
-      "population": 18954
+      "population": 19582
     },
     {
       "naptanId": "940GZZLUPAC",
@@ -171,7 +171,7 @@
         "circle",
         "district"
       ],
-      "population": 42992
+      "population": 46921
     },
     {
       "naptanId": "940GZZLUPCC",
@@ -182,7 +182,7 @@
         "bakerloo",
         "piccadilly"
       ],
-      "population": 10577
+      "population": 14011
     },
     {
       "naptanId": "940GZZLUQPS",
@@ -192,7 +192,7 @@
       "lines": [
         "bakerloo"
       ],
-      "population": 47521
+      "population": 45883
     },
     {
       "naptanId": "940GZZLURGP",
@@ -202,7 +202,7 @@
       "lines": [
         "bakerloo"
       ],
-      "population": 26332
+      "population": 24583
     },
     {
       "naptanId": "940GZZLUSGP",
@@ -212,7 +212,7 @@
       "lines": [
         "bakerloo"
       ],
-      "population": 19021
+      "population": 20088
     },
     {
       "naptanId": "940GZZLUSKT",
@@ -222,7 +222,7 @@
       "lines": [
         "bakerloo"
       ],
-      "population": 14279
+      "population": 15326
     },
     {
       "naptanId": "940GZZLUWJN",
@@ -232,7 +232,7 @@
       "lines": [
         "bakerloo"
       ],
-      "population": 21438
+      "population": 23400
     },
     {
       "naptanId": "940GZZLUWKA",
@@ -242,7 +242,7 @@
       "lines": [
         "bakerloo"
       ],
-      "population": 52718
+      "population": 50962
     },
     {
       "naptanId": "940GZZLUWLO",
@@ -255,7 +255,7 @@
         "northern",
         "waterloo-city"
       ],
-      "population": 15794
+      "population": 15952
     },
     {
       "naptanId": "940GZZLUWYC",
@@ -265,7 +265,7 @@
       "lines": [
         "bakerloo"
       ],
-      "population": 32421
+      "population": 34468
     },
     {
       "naptanId": "940GZZLUBKE",
@@ -275,7 +275,7 @@
       "lines": [
         "central"
       ],
-      "population": 14903
+      "population": 11187
     },
     {
       "naptanId": "940GZZLUBKH",
@@ -285,7 +285,7 @@
       "lines": [
         "central"
       ],
-      "population": 10505
+      "population": 10274
     },
     {
       "naptanId": "940GZZLUBLG",
@@ -295,7 +295,7 @@
       "lines": [
         "central"
       ],
-      "population": 51731
+      "population": 51212
     },
     {
       "naptanId": "940GZZLUBND",
@@ -306,7 +306,7 @@
         "central",
         "jubilee"
       ],
-      "population": 20142
+      "population": 21403
     },
     {
       "naptanId": "940GZZLUBNK",
@@ -318,7 +318,7 @@
         "northern",
         "waterloo-city"
       ],
-      "population": 9326
+      "population": 11485
     },
     {
       "naptanId": "940GZZLUCHL",
@@ -328,7 +328,7 @@
       "lines": [
         "central"
       ],
-      "population": 22521
+      "population": 26942
     },
     {
       "naptanId": "940GZZLUCWL",
@@ -338,7 +338,7 @@
       "lines": [
         "central"
       ],
-      "population": 3973
+      "population": 3700
     },
     {
       "naptanId": "940GZZLUDBN",
@@ -348,7 +348,7 @@
       "lines": [
         "central"
       ],
-      "population": 11057
+      "population": 10343
     },
     {
       "naptanId": "940GZZLUEAN",
@@ -358,7 +358,7 @@
       "lines": [
         "central"
       ],
-      "population": 21077
+      "population": 17944
     },
     {
       "naptanId": "940GZZLUEBY",
@@ -369,7 +369,7 @@
         "central",
         "district"
       ],
-      "population": 21527
+      "population": 20549
     },
     {
       "naptanId": "940GZZLUEPG",
@@ -379,7 +379,7 @@
       "lines": [
         "central"
       ],
-      "population": 8450
+      "population": 8981
     },
     {
       "naptanId": "940GZZLUFLP",
@@ -389,7 +389,7 @@
       "lines": [
         "central"
       ],
-      "population": 12502
+      "population": 13411
     },
     {
       "naptanId": "940GZZLUGFD",
@@ -399,7 +399,7 @@
       "lines": [
         "central"
       ],
-      "population": 12477
+      "population": 11720
     },
     {
       "naptanId": "940GZZLUGGH",
@@ -409,7 +409,7 @@
       "lines": [
         "central"
       ],
-      "population": 11965
+      "population": 10178
     },
     {
       "naptanId": "940GZZLUGTH",
@@ -419,7 +419,7 @@
       "lines": [
         "central"
       ],
-      "population": 26847
+      "population": 27560
     },
     {
       "naptanId": "940GZZLUHBN",
@@ -430,7 +430,7 @@
         "central",
         "piccadilly"
       ],
-      "population": 24713
+      "population": 28102
     },
     {
       "naptanId": "940GZZLUHGR",
@@ -440,7 +440,7 @@
       "lines": [
         "central"
       ],
-      "population": 17102
+      "population": 18549
     },
     {
       "naptanId": "940GZZLUHLT",
@@ -450,7 +450,7 @@
       "lines": [
         "central"
       ],
-      "population": 19348
+      "population": 19586
     },
     {
       "naptanId": "940GZZLUHPK",
@@ -460,7 +460,7 @@
       "lines": [
         "central"
       ],
-      "population": 39128
+      "population": 39872
     },
     {
       "naptanId": "940GZZLULGN",
@@ -470,7 +470,7 @@
       "lines": [
         "central"
       ],
-      "population": 10918
+      "population": 12192
     },
     {
       "naptanId": "940GZZLULGT",
@@ -480,7 +480,7 @@
       "lines": [
         "central"
       ],
-      "population": 25666
+      "population": 31625
     },
     {
       "naptanId": "940GZZLULVT",
@@ -493,7 +493,7 @@
         "hammersmith-city",
         "metropolitan"
       ],
-      "population": 18861
+      "population": 23737
     },
     {
       "naptanId": "940GZZLULYN",
@@ -503,7 +503,7 @@
       "lines": [
         "central"
       ],
-      "population": 33237
+      "population": 36109
     },
     {
       "naptanId": "940GZZLULYS",
@@ -513,7 +513,7 @@
       "lines": [
         "central"
       ],
-      "population": 32191
+      "population": 26203
     },
     {
       "naptanId": "940GZZLUMBA",
@@ -523,7 +523,7 @@
       "lines": [
         "central"
       ],
-      "population": 22879
+      "population": 26289
     },
     {
       "naptanId": "940GZZLUMED",
@@ -535,7 +535,7 @@
         "district",
         "hammersmith-city"
       ],
-      "population": 53337
+      "population": 51962
     },
     {
       "naptanId": "940GZZLUNAN",
@@ -545,7 +545,7 @@
       "lines": [
         "central"
       ],
-      "population": 14198
+      "population": 12210
     },
     {
       "naptanId": "940GZZLUNBP",
@@ -555,7 +555,7 @@
       "lines": [
         "central"
       ],
-      "population": 27065
+      "population": 25264
     },
     {
       "naptanId": "940GZZLUNHG",
@@ -567,7 +567,7 @@
         "circle",
         "district"
       ],
-      "population": 37367
+      "population": 41584
     },
     {
       "naptanId": "940GZZLUNHT",
@@ -577,7 +577,7 @@
       "lines": [
         "central"
       ],
-      "population": 20519
+      "population": 22134
     },
     {
       "naptanId": "940GZZLUPVL",
@@ -587,7 +587,7 @@
       "lines": [
         "central"
       ],
-      "population": 10894
+      "population": 11871
     },
     {
       "naptanId": "940GZZLUQWY",
@@ -597,7 +597,7 @@
       "lines": [
         "central"
       ],
-      "population": 35548
+      "population": 35914
     },
     {
       "naptanId": "940GZZLURBG",
@@ -607,7 +607,7 @@
       "lines": [
         "central"
       ],
-      "population": 17514
+      "population": 16163
     },
     {
       "naptanId": "940GZZLURSG",
@@ -617,7 +617,7 @@
       "lines": [
         "central"
       ],
-      "population": 12661
+      "population": 15385
     },
     {
       "naptanId": "940GZZLURVY",
@@ -627,7 +627,7 @@
       "lines": [
         "central"
       ],
-      "population": 10008
+      "population": 9999
     },
     {
       "naptanId": "940GZZLUSBC",
@@ -637,7 +637,7 @@
       "lines": [
         "central"
       ],
-      "population": 43834
+      "population": 40883
     },
     {
       "naptanId": "940GZZLUSNB",
@@ -647,7 +647,7 @@
       "lines": [
         "central"
       ],
-      "population": 15645
+      "population": 16784
     },
     {
       "naptanId": "940GZZLUSPU",
@@ -657,7 +657,7 @@
       "lines": [
         "central"
       ],
-      "population": 13770
+      "population": 17235
     },
     {
       "naptanId": "940GZZLUSRP",
@@ -667,7 +667,7 @@
       "lines": [
         "central"
       ],
-      "population": 12094
+      "population": 14782
     },
     {
       "naptanId": "940GZZLUSTD",
@@ -678,7 +678,7 @@
         "central",
         "jubilee"
       ],
-      "population": 31885
+      "population": 35179
     },
     {
       "naptanId": "940GZZLUSWF",
@@ -688,7 +688,7 @@
       "lines": [
         "central"
       ],
-      "population": 21783
+      "population": 22708
     },
     {
       "naptanId": "940GZZLUTCR",
@@ -699,7 +699,7 @@
         "central",
         "northern"
       ],
-      "population": 22300
+      "population": 26245
     },
     {
       "naptanId": "940GZZLUTHB",
@@ -719,7 +719,7 @@
       "lines": [
         "central"
       ],
-      "population": 36415
+      "population": 35344
     },
     {
       "naptanId": "940GZZLUWOF",
@@ -729,7 +729,7 @@
       "lines": [
         "central"
       ],
-      "population": 19134
+      "population": 18060
     },
     {
       "naptanId": "940GZZLUWRP",
@@ -739,7 +739,7 @@
       "lines": [
         "central"
       ],
-      "population": 10175
+      "population": 9528
     },
     {
       "naptanId": "940GZZLUWSD",
@@ -749,7 +749,7 @@
       "lines": [
         "central"
       ],
-      "population": 13270
+      "population": 14555
     },
     {
       "naptanId": "940GZZLUWTA",
@@ -759,7 +759,7 @@
       "lines": [
         "central"
       ],
-      "population": 14579
+      "population": 13490
     },
     {
       "naptanId": "940GZZLUALD",
@@ -770,7 +770,7 @@
         "circle",
         "metropolitan"
       ],
-      "population": 25367
+      "population": 30999
     },
     {
       "naptanId": "940GZZLUBBN",
@@ -782,7 +782,7 @@
         "hammersmith-city",
         "metropolitan"
       ],
-      "population": 30868
+      "population": 35144
     },
     {
       "naptanId": "940GZZLUBKF",
@@ -793,7 +793,7 @@
         "circle",
         "district"
       ],
-      "population": 10759
+      "population": 13170
     },
     {
       "naptanId": "940GZZLUBWT",
@@ -804,7 +804,7 @@
         "circle",
         "district"
       ],
-      "population": 40120
+      "population": 41261
     },
     {
       "naptanId": "940GZZLUCST",
@@ -815,7 +815,7 @@
         "circle",
         "district"
       ],
-      "population": 7810
+      "population": 8928
     },
     {
       "naptanId": "940GZZLUERC",
@@ -827,7 +827,7 @@
         "district",
         "hammersmith-city"
       ],
-      "population": 46347
+      "population": 43325
     },
     {
       "naptanId": "940GZZLUESQ",
@@ -839,7 +839,7 @@
         "hammersmith-city",
         "metropolitan"
       ],
-      "population": 33442
+      "population": 34395
     },
     {
       "naptanId": "940GZZLUFCN",
@@ -851,7 +851,7 @@
         "hammersmith-city",
         "metropolitan"
       ],
-      "population": 30004
+      "population": 34927
     },
     {
       "naptanId": "940GZZLUGHK",
@@ -862,7 +862,7 @@
         "circle",
         "hammersmith-city"
       ],
-      "population": 44643
+      "population": 45281
     },
     {
       "naptanId": "940GZZLUGPS",
@@ -874,7 +874,7 @@
         "hammersmith-city",
         "metropolitan"
       ],
-      "population": 24645
+      "population": 25828
     },
     {
       "naptanId": "940GZZLUGTR",
@@ -886,7 +886,7 @@
         "district",
         "piccadilly"
       ],
-      "population": 39320
+      "population": 33191
     },
     {
       "naptanId": "940GZZLUHSC",
@@ -897,7 +897,7 @@
         "circle",
         "hammersmith-city"
       ],
-      "population": 33453
+      "population": 38249
     },
     {
       "naptanId": "940GZZLUHSK",
@@ -908,7 +908,7 @@
         "circle",
         "district"
       ],
-      "population": 31662
+      "population": 28403
     },
     {
       "naptanId": "940GZZLUKSX",
@@ -923,7 +923,7 @@
         "piccadilly",
         "victoria"
       ],
-      "population": 39772
+      "population": 41635
     },
     {
       "naptanId": "940GZZLULAD",
@@ -934,7 +934,7 @@
         "circle",
         "hammersmith-city"
       ],
-      "population": 46564
+      "population": 49489
     },
     {
       "naptanId": "940GZZLULRD",
@@ -945,7 +945,7 @@
         "circle",
         "hammersmith-city"
       ],
-      "population": 38635
+      "population": 39905
     },
     {
       "naptanId": "940GZZLUMGT",
@@ -958,7 +958,7 @@
         "metropolitan",
         "northern"
       ],
-      "population": 19798
+      "population": 24552
     },
     {
       "naptanId": "940GZZLUMMT",
@@ -969,7 +969,7 @@
         "circle",
         "district"
       ],
-      "population": 7073
+      "population": 8642
     },
     {
       "naptanId": "940GZZLUMSH",
@@ -980,7 +980,7 @@
         "circle",
         "district"
       ],
-      "population": 9649
+      "population": 11641
     },
     {
       "naptanId": "940GZZLUPAH",
@@ -991,7 +991,7 @@
         "circle",
         "hammersmith-city"
       ],
-      "population": 48057
+      "population": 51683
     },
     {
       "naptanId": "940GZZLURYO",
@@ -1002,7 +1002,7 @@
         "circle",
         "hammersmith-city"
       ],
-      "population": 54957
+      "population": 56275
     },
     {
       "naptanId": "940GZZLUSBM",
@@ -1013,7 +1013,7 @@
         "circle",
         "hammersmith-city"
       ],
-      "population": 45673
+      "population": 44057
     },
     {
       "naptanId": "940GZZLUSJP",
@@ -1024,7 +1024,7 @@
         "circle",
         "district"
       ],
-      "population": 17810
+      "population": 12599
     },
     {
       "naptanId": "940GZZLUSKS",
@@ -1036,7 +1036,7 @@
         "district",
         "piccadilly"
       ],
-      "population": 32218
+      "population": 28702
     },
     {
       "naptanId": "940GZZLUSSQ",
@@ -1047,7 +1047,7 @@
         "circle",
         "district"
       ],
-      "population": 28825
+      "population": 26083
     },
     {
       "naptanId": "940GZZLUTMP",
@@ -1058,7 +1058,7 @@
         "circle",
         "district"
       ],
-      "population": 12980
+      "population": 15268
     },
     {
       "naptanId": "940GZZLUTWH",
@@ -1069,7 +1069,7 @@
         "circle",
         "district"
       ],
-      "population": 21413
+      "population": 26485
     },
     {
       "naptanId": "940GZZLUVIC",
@@ -1081,7 +1081,7 @@
         "district",
         "victoria"
       ],
-      "population": 27271
+      "population": 21571
     },
     {
       "naptanId": "940GZZLUWLA",
@@ -1092,7 +1092,7 @@
         "circle",
         "hammersmith-city"
       ],
-      "population": 39403
+      "population": 38572
     },
     {
       "naptanId": "940GZZLUWSM",
@@ -1104,7 +1104,7 @@
         "district",
         "jubilee"
       ],
-      "population": 13313
+      "population": 10060
     },
     {
       "naptanId": "940GZZLUWSP",
@@ -1115,7 +1115,7 @@
         "circle",
         "hammersmith-city"
       ],
-      "population": 59746
+      "population": 61692
     },
     {
       "naptanId": "940GZZLUACT",
@@ -1126,7 +1126,7 @@
         "district",
         "piccadilly"
       ],
-      "population": 21498
+      "population": 23893
     },
     {
       "naptanId": "940GZZLUADE",
@@ -1137,7 +1137,7 @@
         "district",
         "hammersmith-city"
       ],
-      "population": 34002
+      "population": 38309
     },
     {
       "naptanId": "940GZZLUBBB",
@@ -1148,7 +1148,7 @@
         "district",
         "hammersmith-city"
       ],
-      "population": 37294
+      "population": 32418
     },
     {
       "naptanId": "940GZZLUBEC",
@@ -1158,7 +1158,7 @@
       "lines": [
         "district"
       ],
-      "population": 25215
+      "population": 27207
     },
     {
       "naptanId": "940GZZLUBKG",
@@ -1169,7 +1169,7 @@
         "district",
         "hammersmith-city"
       ],
-      "population": 32367
+      "population": 33454
     },
     {
       "naptanId": "940GZZLUBSC",
@@ -1180,7 +1180,7 @@
         "district",
         "piccadilly"
       ],
-      "population": 44903
+      "population": 45156
     },
     {
       "naptanId": "940GZZLUBWR",
@@ -1191,7 +1191,7 @@
         "district",
         "hammersmith-city"
       ],
-      "population": 52810
+      "population": 50866
     },
     {
       "naptanId": "940GZZLUCWP",
@@ -1201,7 +1201,7 @@
       "lines": [
         "district"
       ],
-      "population": 28410
+      "population": 29640
     },
     {
       "naptanId": "940GZZLUDGE",
@@ -1211,7 +1211,7 @@
       "lines": [
         "district"
       ],
-      "population": 18925
+      "population": 16148
     },
     {
       "naptanId": "940GZZLUDGY",
@@ -1221,7 +1221,7 @@
       "lines": [
         "district"
       ],
-      "population": 28531
+      "population": 27639
     },
     {
       "naptanId": "940GZZLUECM",
@@ -1232,7 +1232,7 @@
         "district",
         "piccadilly"
       ],
-      "population": 20551
+      "population": 18635
     },
     {
       "naptanId": "940GZZLUECT",
@@ -1243,7 +1243,7 @@
         "district",
         "piccadilly"
       ],
-      "population": 47086
+      "population": 43899
     },
     {
       "naptanId": "940GZZLUEHM",
@@ -1254,7 +1254,7 @@
         "district",
         "hammersmith-city"
       ],
-      "population": 57358
+      "population": 53833
     },
     {
       "naptanId": "940GZZLUEPK",
@@ -1264,7 +1264,7 @@
       "lines": [
         "district"
       ],
-      "population": 16190
+      "population": 16418
     },
     {
       "naptanId": "940GZZLUEPY",
@@ -1274,7 +1274,7 @@
       "lines": [
         "district"
       ],
-      "population": 29208
+      "population": 28532
     },
     {
       "naptanId": "940GZZLUFBY",
@@ -1284,7 +1284,7 @@
       "lines": [
         "district"
       ],
-      "population": 44459
+      "population": 45675
     },
     {
       "naptanId": "940GZZLUGBY",
@@ -1294,7 +1294,7 @@
       "lines": [
         "district"
       ],
-      "population": 19844
+      "population": 23329
     },
     {
       "naptanId": "940GZZLUHCH",
@@ -1304,7 +1304,7 @@
       "lines": [
         "district"
       ],
-      "population": 15567
+      "population": 15376
     },
     {
       "naptanId": "940GZZLUHSD",
@@ -1315,7 +1315,7 @@
         "district",
         "piccadilly"
       ],
-      "population": 33920
+      "population": 38409
     },
     {
       "naptanId": "940GZZLUKOY",
@@ -1325,7 +1325,7 @@
       "lines": [
         "district"
       ],
-      "population": 37580
+      "population": 39209
     },
     {
       "naptanId": "940GZZLUKWG",
@@ -1335,7 +1335,7 @@
       "lines": [
         "district"
       ],
-      "population": 12377
+      "population": 13142
     },
     {
       "naptanId": "940GZZLUPLW",
@@ -1346,7 +1346,7 @@
         "district",
         "hammersmith-city"
       ],
-      "population": 38447
+      "population": 41420
     },
     {
       "naptanId": "940GZZLUPSG",
@@ -1356,7 +1356,7 @@
       "lines": [
         "district"
       ],
-      "population": 44425
+      "population": 46255
     },
     {
       "naptanId": "940GZZLUPYB",
@@ -1366,7 +1366,7 @@
       "lines": [
         "district"
       ],
-      "population": 27758
+      "population": 28831
     },
     {
       "naptanId": "940GZZLURMD",
@@ -1376,7 +1376,7 @@
       "lines": [
         "district"
       ],
-      "population": 15598
+      "population": 13768
     },
     {
       "naptanId": "940GZZLURVP",
@@ -1386,7 +1386,7 @@
       "lines": [
         "district"
       ],
-      "population": 28962
+      "population": 34908
     },
     {
       "naptanId": "940GZZLUSFB",
@@ -1396,7 +1396,7 @@
       "lines": [
         "district"
       ],
-      "population": 30676
+      "population": 33618
     },
     {
       "naptanId": "940GZZLUSFS",
@@ -1406,7 +1406,7 @@
       "lines": [
         "district"
       ],
-      "population": 31712
+      "population": 31663
     },
     {
       "naptanId": "940GZZLUSGN",
@@ -1417,7 +1417,7 @@
         "district",
         "hammersmith-city"
       ],
-      "population": 52925
+      "population": 53387
     },
     {
       "naptanId": "940GZZLUTNG",
@@ -1428,7 +1428,7 @@
         "district",
         "piccadilly"
       ],
-      "population": 32421
+      "population": 32840
     },
     {
       "naptanId": "940GZZLUUPB",
@@ -1438,7 +1438,7 @@
       "lines": [
         "district"
       ],
-      "population": 12668
+      "population": 12175
     },
     {
       "naptanId": "940GZZLUUPK",
@@ -1449,7 +1449,7 @@
         "district",
         "hammersmith-city"
       ],
-      "population": 61919
+      "population": 63018
     },
     {
       "naptanId": "940GZZLUUPM",
@@ -1459,7 +1459,7 @@
       "lines": [
         "district"
       ],
-      "population": 10584
+      "population": 7685
     },
     {
       "naptanId": "940GZZLUUPY",
@@ -1469,7 +1469,7 @@
       "lines": [
         "district"
       ],
-      "population": 25326
+      "population": 24733
     },
     {
       "naptanId": "940GZZLUWBN",
@@ -1479,7 +1479,7 @@
       "lines": [
         "district"
       ],
-      "population": 49686
+      "population": 48308
     },
     {
       "naptanId": "940GZZLUWHM",
@@ -1491,7 +1491,7 @@
         "hammersmith-city",
         "jubilee"
       ],
-      "population": 22579
+      "population": 27766
     },
     {
       "naptanId": "940GZZLUWIM",
@@ -1501,7 +1501,7 @@
       "lines": [
         "district"
       ],
-      "population": 21280
+      "population": 21475
     },
     {
       "naptanId": "940GZZLUWIP",
@@ -1511,7 +1511,7 @@
       "lines": [
         "district"
       ],
-      "population": 16937
+      "population": 19634
     },
     {
       "naptanId": "940GZZLUWKN",
@@ -1521,7 +1521,7 @@
       "lines": [
         "district"
       ],
-      "population": 47063
+      "population": 45195
     },
     {
       "naptanId": "940GZZLUWPL",
@@ -1532,7 +1532,7 @@
         "district",
         "hammersmith-city"
       ],
-      "population": 59560
+      "population": 54714
     },
     {
       "naptanId": "940GZZLUBMY",
@@ -1542,7 +1542,7 @@
       "lines": [
         "jubilee"
       ],
-      "population": 40121
+      "population": 38728
     },
     {
       "naptanId": "940GZZLUCGT",
@@ -1552,7 +1552,7 @@
       "lines": [
         "jubilee"
       ],
-      "population": 28198
+      "population": 34322
     },
     {
       "naptanId": "940GZZLUCPK",
@@ -1562,7 +1562,7 @@
       "lines": [
         "jubilee"
       ],
-      "population": 15535
+      "population": 14779
     },
     {
       "naptanId": "940GZZLUCWR",
@@ -1572,7 +1572,7 @@
       "lines": [
         "jubilee"
       ],
-      "population": 31519
+      "population": 29359
     },
     {
       "naptanId": "940GZZLUCYF",
@@ -1582,7 +1582,7 @@
       "lines": [
         "jubilee"
       ],
-      "population": 40855
+      "population": 43803
     },
     {
       "naptanId": "940GZZLUDOH",
@@ -1592,7 +1592,7 @@
       "lines": [
         "jubilee"
       ],
-      "population": 27569
+      "population": 28909
     },
     {
       "naptanId": "940GZZLUFYR",
@@ -1603,7 +1603,7 @@
         "jubilee",
         "metropolitan"
       ],
-      "population": 39888
+      "population": 37982
     },
     {
       "naptanId": "940GZZLUGPK",
@@ -1615,7 +1615,7 @@
         "piccadilly",
         "victoria"
       ],
-      "population": 6963
+      "population": 6846
     },
     {
       "naptanId": "940GZZLUKBN",
@@ -1625,7 +1625,7 @@
       "lines": [
         "jubilee"
       ],
-      "population": 38128
+      "population": 37463
     },
     {
       "naptanId": "940GZZLUKBY",
@@ -1635,7 +1635,7 @@
       "lines": [
         "jubilee"
       ],
-      "population": 19395
+      "population": 21814
     },
     {
       "naptanId": "940GZZLULNB",
@@ -1646,7 +1646,7 @@
         "jubilee",
         "northern"
       ],
-      "population": 19954
+      "population": 13566
     },
     {
       "naptanId": "940GZZLUNDN",
@@ -1656,7 +1656,7 @@
       "lines": [
         "jubilee"
       ],
-      "population": 23821
+      "population": 23510
     },
     {
       "naptanId": "940GZZLUNGW",
@@ -1666,7 +1666,7 @@
       "lines": [
         "jubilee"
       ],
-      "population": 15743
+      "population": 13948
     },
     {
       "naptanId": "940GZZLUQBY",
@@ -1676,7 +1676,7 @@
       "lines": [
         "jubilee"
       ],
-      "population": 28296
+      "population": 27105
     },
     {
       "naptanId": "940GZZLUSJW",
@@ -1686,7 +1686,7 @@
       "lines": [
         "jubilee"
       ],
-      "population": 35245
+      "population": 31879
     },
     {
       "naptanId": "940GZZLUSTM",
@@ -1696,7 +1696,7 @@
       "lines": [
         "jubilee"
       ],
-      "population": 10567
+      "population": 9598
     },
     {
       "naptanId": "940GZZLUSWC",
@@ -1706,7 +1706,7 @@
       "lines": [
         "jubilee"
       ],
-      "population": 37420
+      "population": 36849
     },
     {
       "naptanId": "940GZZLUSWK",
@@ -1716,7 +1716,7 @@
       "lines": [
         "jubilee"
       ],
-      "population": 22952
+      "population": 21166
     },
     {
       "naptanId": "940GZZLUWHP",
@@ -1726,7 +1726,7 @@
       "lines": [
         "jubilee"
       ],
-      "population": 46250
+      "population": 41556
     },
     {
       "naptanId": "940GZZLUWIG",
@@ -1737,7 +1737,7 @@
         "jubilee",
         "metropolitan"
       ],
-      "population": 33594
+      "population": 33857
     },
     {
       "naptanId": "940GZZLUWYP",
@@ -1748,7 +1748,7 @@
         "jubilee",
         "metropolitan"
       ],
-      "population": 24939
+      "population": 23582
     },
     {
       "naptanId": "940GZZLUAMS",
@@ -1758,7 +1758,7 @@
       "lines": [
         "metropolitan"
       ],
-      "population": 0
+      "population": 7424
     },
     {
       "naptanId": "940GZZLUCAL",
@@ -1768,7 +1768,7 @@
       "lines": [
         "metropolitan"
       ],
-      "population": 0
+      "population": 5027
     },
     {
       "naptanId": "940GZZLUCSM",
@@ -1778,7 +1778,7 @@
       "lines": [
         "metropolitan"
       ],
-      "population": 0
+      "population": 11047
     },
     {
       "naptanId": "940GZZLUCXY",
@@ -1788,7 +1788,7 @@
       "lines": [
         "metropolitan"
       ],
-      "population": 11748
+      "population": 12348
     },
     {
       "naptanId": "940GZZLUCYD",
@@ -1798,7 +1798,7 @@
       "lines": [
         "metropolitan"
       ],
-      "population": 2414
+      "population": 4431
     },
     {
       "naptanId": "940GZZLUEAE",
@@ -1809,7 +1809,7 @@
         "metropolitan",
         "piccadilly"
       ],
-      "population": 17221
+      "population": 16727
     },
     {
       "naptanId": "940GZZLUHGD",
@@ -1820,7 +1820,7 @@
         "metropolitan",
         "piccadilly"
       ],
-      "population": 8308
+      "population": 8401
     },
     {
       "naptanId": "940GZZLUHOH",
@@ -1830,7 +1830,7 @@
       "lines": [
         "metropolitan"
       ],
-      "population": 25944
+      "population": 26889
     },
     {
       "naptanId": "940GZZLUICK",
@@ -1841,7 +1841,7 @@
         "metropolitan",
         "piccadilly"
       ],
-      "population": 9670
+      "population": 9613
     },
     {
       "naptanId": "940GZZLUMPK",
@@ -1861,7 +1861,7 @@
       "lines": [
         "metropolitan"
       ],
-      "population": 18608
+      "population": 19435
     },
     {
       "naptanId": "940GZZLUNKP",
@@ -1871,7 +1871,7 @@
       "lines": [
         "metropolitan"
       ],
-      "population": 15125
+      "population": 15574
     },
     {
       "naptanId": "940GZZLUNOW",
@@ -1881,7 +1881,7 @@
       "lines": [
         "metropolitan"
       ],
-      "population": 11844
+      "population": 10502
     },
     {
       "naptanId": "940GZZLUNWH",
@@ -1891,7 +1891,7 @@
       "lines": [
         "metropolitan"
       ],
-      "population": 13100
+      "population": 12606
     },
     {
       "naptanId": "940GZZLUPNR",
@@ -1901,7 +1901,7 @@
       "lines": [
         "metropolitan"
       ],
-      "population": 12790
+      "population": 10829
     },
     {
       "naptanId": "940GZZLUPRD",
@@ -1911,7 +1911,7 @@
       "lines": [
         "metropolitan"
       ],
-      "population": 19259
+      "population": 19009
     },
     {
       "naptanId": "940GZZLURKW",
@@ -1921,7 +1921,7 @@
       "lines": [
         "metropolitan"
       ],
-      "population": 6742
+      "population": 6227
     },
     {
       "naptanId": "940GZZLURSM",
@@ -1932,7 +1932,7 @@
         "metropolitan",
         "piccadilly"
       ],
-      "population": 16699
+      "population": 15311
     },
     {
       "naptanId": "940GZZLURSP",
@@ -1943,7 +1943,7 @@
         "metropolitan",
         "piccadilly"
       ],
-      "population": 14216
+      "population": 14545
     },
     {
       "naptanId": "940GZZLURYL",
@@ -1954,7 +1954,7 @@
         "metropolitan",
         "piccadilly"
       ],
-      "population": 21271
+      "population": 20389
     },
     {
       "naptanId": "940GZZLUUXB",
@@ -1965,7 +1965,7 @@
         "metropolitan",
         "piccadilly"
       ],
-      "population": 14446
+      "population": 12290
     },
     {
       "naptanId": "940GZZLUWAF",
@@ -1975,7 +1975,7 @@
       "lines": [
         "metropolitan"
       ],
-      "population": 13121
+      "population": 12444
     },
     {
       "naptanId": "940GZZLUWHW",
@@ -1985,7 +1985,7 @@
       "lines": [
         "metropolitan"
       ],
-      "population": 23353
+      "population": 24470
     },
     {
       "naptanId": "940GZZBPSUST",
@@ -1995,7 +1995,7 @@
       "lines": [
         "northern"
       ],
-      "population": 31027
+      "population": 35192
     },
     {
       "naptanId": "940GZZLUACY",
@@ -2005,7 +2005,7 @@
       "lines": [
         "northern"
       ],
-      "population": 36336
+      "population": 37633
     },
     {
       "naptanId": "940GZZLUAGL",
@@ -2015,7 +2015,7 @@
       "lines": [
         "northern"
       ],
-      "population": 48357
+      "population": 48243
     },
     {
       "naptanId": "940GZZLUBLM",
@@ -2025,7 +2025,7 @@
       "lines": [
         "northern"
       ],
-      "population": 36539
+      "population": 38068
     },
     {
       "naptanId": "940GZZLUBOR",
@@ -2035,7 +2035,7 @@
       "lines": [
         "northern"
       ],
-      "population": 36821
+      "population": 32687
     },
     {
       "naptanId": "940GZZLUBTK",
@@ -2045,7 +2045,7 @@
       "lines": [
         "northern"
       ],
-      "population": 28979
+      "population": 29159
     },
     {
       "naptanId": "940GZZLUBTX",
@@ -2055,7 +2055,7 @@
       "lines": [
         "northern"
       ],
-      "population": 20177
+      "population": 22981
     },
     {
       "naptanId": "940GZZLUBZP",
@@ -2065,7 +2065,7 @@
       "lines": [
         "northern"
       ],
-      "population": 37764
+      "population": 35389
     },
     {
       "naptanId": "940GZZLUCFM",
@@ -2075,7 +2075,7 @@
       "lines": [
         "northern"
       ],
-      "population": 38838
+      "population": 41087
     },
     {
       "naptanId": "940GZZLUCND",
@@ -2085,7 +2085,7 @@
       "lines": [
         "northern"
       ],
-      "population": 37350
+      "population": 36236
     },
     {
       "naptanId": "940GZZLUCPC",
@@ -2095,7 +2095,7 @@
       "lines": [
         "northern"
       ],
-      "population": 36469
+      "population": 40186
     },
     {
       "naptanId": "940GZZLUCPN",
@@ -2105,7 +2105,7 @@
       "lines": [
         "northern"
       ],
-      "population": 48466
+      "population": 50007
     },
     {
       "naptanId": "940GZZLUCPS",
@@ -2115,7 +2115,7 @@
       "lines": [
         "northern"
       ],
-      "population": 31283
+      "population": 31320
     },
     {
       "naptanId": "940GZZLUCSD",
@@ -2125,7 +2125,7 @@
       "lines": [
         "northern"
       ],
-      "population": 30587
+      "population": 31916
     },
     {
       "naptanId": "940GZZLUCTN",
@@ -2135,7 +2135,7 @@
       "lines": [
         "northern"
       ],
-      "population": 35871
+      "population": 38368
     },
     {
       "naptanId": "940GZZLUEFY",
@@ -2145,7 +2145,7 @@
       "lines": [
         "northern"
       ],
-      "population": 18743
+      "population": 19656
     },
     {
       "naptanId": "940GZZLUEGW",
@@ -2155,7 +2155,7 @@
       "lines": [
         "northern"
       ],
-      "population": 22175
+      "population": 21554
     },
     {
       "naptanId": "940GZZLUEUS",
@@ -2166,7 +2166,7 @@
         "northern",
         "victoria"
       ],
-      "population": 35702
+      "population": 38860
     },
     {
       "naptanId": "940GZZLUFYC",
@@ -2176,7 +2176,7 @@
       "lines": [
         "northern"
       ],
-      "population": 21395
+      "population": 20551
     },
     {
       "naptanId": "940GZZLUGDG",
@@ -2186,7 +2186,7 @@
       "lines": [
         "northern"
       ],
-      "population": 28342
+      "population": 31510
     },
     {
       "naptanId": "940GZZLUGGN",
@@ -2196,7 +2196,7 @@
       "lines": [
         "northern"
       ],
-      "population": 18690
+      "population": 17427
     },
     {
       "naptanId": "940GZZLUHBT",
@@ -2206,7 +2206,7 @@
       "lines": [
         "northern"
       ],
-      "population": 16515
+      "population": 14800
     },
     {
       "naptanId": "940GZZLUHCL",
@@ -2216,7 +2216,7 @@
       "lines": [
         "northern"
       ],
-      "population": 22787
+      "population": 23302
     },
     {
       "naptanId": "940GZZLUHGT",
@@ -2226,7 +2226,7 @@
       "lines": [
         "northern"
       ],
-      "population": 14745
+      "population": 15613
     },
     {
       "naptanId": "940GZZLUHTD",
@@ -2236,7 +2236,7 @@
       "lines": [
         "northern"
       ],
-      "population": 20081
+      "population": 15542
     },
     {
       "naptanId": "940GZZLUKNG",
@@ -2246,7 +2246,7 @@
       "lines": [
         "northern"
       ],
-      "population": 47526
+      "population": 49716
     },
     {
       "naptanId": "940GZZLUKSH",
@@ -2256,7 +2256,7 @@
       "lines": [
         "northern"
       ],
-      "population": 43914
+      "population": 41746
     },
     {
       "naptanId": "940GZZLULSQ",
@@ -2267,7 +2267,7 @@
         "northern",
         "piccadilly"
       ],
-      "population": 12504
+      "population": 15298
     },
     {
       "naptanId": "940GZZLUMDN",
@@ -2277,7 +2277,7 @@
       "lines": [
         "northern"
       ],
-      "population": 16595
+      "population": 15309
     },
     {
       "naptanId": "940GZZLUMHL",
@@ -2287,7 +2287,7 @@
       "lines": [
         "northern"
       ],
-      "population": 10567
+      "population": 9965
     },
     {
       "naptanId": "940GZZLUMTC",
@@ -2297,7 +2297,7 @@
       "lines": [
         "northern"
       ],
-      "population": 34302
+      "population": 33741
     },
     {
       "naptanId": "940GZZLUODS",
@@ -2307,7 +2307,7 @@
       "lines": [
         "northern"
       ],
-      "population": 45414
+      "population": 49421
     },
     {
       "naptanId": "940GZZLUOVL",
@@ -2317,7 +2317,7 @@
       "lines": [
         "northern"
       ],
-      "population": 49992
+      "population": 47879
     },
     {
       "naptanId": "940GZZLUSKW",
@@ -2328,7 +2328,7 @@
         "northern",
         "victoria"
       ],
-      "population": 53770
+      "population": 55934
     },
     {
       "naptanId": "940GZZLUSWN",
@@ -2348,7 +2348,7 @@
       "lines": [
         "northern"
       ],
-      "population": 11715
+      "population": 11673
     },
     {
       "naptanId": "940GZZLUTBC",
@@ -2358,7 +2358,7 @@
       "lines": [
         "northern"
       ],
-      "population": 35258
+      "population": 34018
     },
     {
       "naptanId": "940GZZLUTBY",
@@ -2368,7 +2368,7 @@
       "lines": [
         "northern"
       ],
-      "population": 38211
+      "population": 38220
     },
     {
       "naptanId": "940GZZLUTFP",
@@ -2378,7 +2378,7 @@
       "lines": [
         "northern"
       ],
-      "population": 36482
+      "population": 38220
     },
     {
       "naptanId": "940GZZLUWFN",
@@ -2388,7 +2388,7 @@
       "lines": [
         "northern"
       ],
-      "population": 21243
+      "population": 21554
     },
     {
       "naptanId": "940GZZLUWOP",
@@ -2398,7 +2398,7 @@
       "lines": [
         "northern"
       ],
-      "population": 18896
+      "population": 18697
     },
     {
       "naptanId": "940GZZLUWRR",
@@ -2409,7 +2409,7 @@
         "northern",
         "victoria"
       ],
-      "population": 31114
+      "population": 33394
     },
     {
       "naptanId": "940GZZNEUGST",
@@ -2419,7 +2419,7 @@
       "lines": [
         "northern"
       ],
-      "population": 40114
+      "population": 38204
     },
     {
       "naptanId": "940GZZLUALP",
@@ -2429,7 +2429,7 @@
       "lines": [
         "piccadilly"
       ],
-      "population": 28554
+      "population": 31657
     },
     {
       "naptanId": "940GZZLUASG",
@@ -2439,7 +2439,7 @@
       "lines": [
         "piccadilly"
       ],
-      "population": 18737
+      "population": 18986
     },
     {
       "naptanId": "940GZZLUASL",
@@ -2449,7 +2449,7 @@
       "lines": [
         "piccadilly"
       ],
-      "population": 50615
+      "population": 49529
     },
     {
       "naptanId": "940GZZLUBDS",
@@ -2459,7 +2459,7 @@
       "lines": [
         "piccadilly"
       ],
-      "population": 27822
+      "population": 27555
     },
     {
       "naptanId": "940GZZLUBOS",
@@ -2469,7 +2469,7 @@
       "lines": [
         "piccadilly"
       ],
-      "population": 11842
+      "population": 17903
     },
     {
       "naptanId": "940GZZLUCAR",
@@ -2479,7 +2479,7 @@
       "lines": [
         "piccadilly"
       ],
-      "population": 46452
+      "population": 46714
     },
     {
       "naptanId": "940GZZLUCGN",
@@ -2489,7 +2489,7 @@
       "lines": [
         "piccadilly"
       ],
-      "population": 14764
+      "population": 17850
     },
     {
       "naptanId": "940GZZLUCKS",
@@ -2499,7 +2499,7 @@
       "lines": [
         "piccadilly"
       ],
-      "population": 9367
+      "population": 6795
     },
     {
       "naptanId": "940GZZLUFPK",
@@ -2510,7 +2510,7 @@
         "piccadilly",
         "victoria"
       ],
-      "population": 45454
+      "population": 41365
     },
     {
       "naptanId": "940GZZLUHNX",
@@ -2520,7 +2520,7 @@
       "lines": [
         "piccadilly"
       ],
-      "population": 1177
+      "population": 703
     },
     {
       "naptanId": "940GZZLUHPC",
@@ -2530,7 +2530,7 @@
       "lines": [
         "piccadilly"
       ],
-      "population": 8534
+      "population": 7396
     },
     {
       "naptanId": "940GZZLUHR4",
@@ -2540,7 +2540,7 @@
       "lines": [
         "piccadilly"
       ],
-      "population": 2959
+      "population": 3138
     },
     {
       "naptanId": "940GZZLUHR5",
@@ -2550,7 +2550,7 @@
       "lines": [
         "piccadilly"
       ],
-      "population": 0
+      "population": 366
     },
     {
       "naptanId": "940GZZLUHRC",
@@ -2570,7 +2570,7 @@
       "lines": [
         "piccadilly"
       ],
-      "population": 33724
+      "population": 31718
     },
     {
       "naptanId": "940GZZLUHWE",
@@ -2580,7 +2580,7 @@
       "lines": [
         "piccadilly"
       ],
-      "population": 28446
+      "population": 27911
     },
     {
       "naptanId": "940GZZLUHWT",
@@ -2590,7 +2590,7 @@
       "lines": [
         "piccadilly"
       ],
-      "population": 27092
+      "population": 28174
     },
     {
       "naptanId": "940GZZLUHWY",
@@ -2600,7 +2600,7 @@
       "lines": [
         "piccadilly"
       ],
-      "population": 46529
+      "population": 48414
     },
     {
       "naptanId": "940GZZLUKNB",
@@ -2610,7 +2610,7 @@
       "lines": [
         "piccadilly"
       ],
-      "population": 12034
+      "population": 9128
     },
     {
       "naptanId": "940GZZLUMRH",
@@ -2620,7 +2620,7 @@
       "lines": [
         "piccadilly"
       ],
-      "population": 35622
+      "population": 34384
     },
     {
       "naptanId": "940GZZLUNEN",
@@ -2630,7 +2630,7 @@
       "lines": [
         "piccadilly"
       ],
-      "population": 17651
+      "population": 15482
     },
     {
       "naptanId": "940GZZLUNFD",
@@ -2640,7 +2640,7 @@
       "lines": [
         "piccadilly"
       ],
-      "population": 27237
+      "population": 28056
     },
     {
       "naptanId": "940GZZLUOAK",
@@ -2650,7 +2650,7 @@
       "lines": [
         "piccadilly"
       ],
-      "population": 10307
+      "population": 7879
     },
     {
       "naptanId": "940GZZLUOSY",
@@ -2660,7 +2660,7 @@
       "lines": [
         "piccadilly"
       ],
-      "population": 14830
+      "population": 11587
     },
     {
       "naptanId": "940GZZLUPKR",
@@ -2670,7 +2670,7 @@
       "lines": [
         "piccadilly"
       ],
-      "population": 11752
+      "population": 10876
     },
     {
       "naptanId": "940GZZLURSQ",
@@ -2680,7 +2680,7 @@
       "lines": [
         "piccadilly"
       ],
-      "population": 30843
+      "population": 32940
     },
     {
       "naptanId": "940GZZLUSEA",
@@ -2690,7 +2690,7 @@
       "lines": [
         "piccadilly"
       ],
-      "population": 25835
+      "population": 26634
     },
     {
       "naptanId": "940GZZLUSGT",
@@ -2700,7 +2700,7 @@
       "lines": [
         "piccadilly"
       ],
-      "population": 17749
+      "population": 16177
     },
     {
       "naptanId": "940GZZLUSHH",
@@ -2710,7 +2710,7 @@
       "lines": [
         "piccadilly"
       ],
-      "population": 23037
+      "population": 21500
     },
     {
       "naptanId": "940GZZLUSUH",
@@ -2720,7 +2720,7 @@
       "lines": [
         "piccadilly"
       ],
-      "population": 18915
+      "population": 18308
     },
     {
       "naptanId": "940GZZLUSUT",
@@ -2730,7 +2730,7 @@
       "lines": [
         "piccadilly"
       ],
-      "population": 18991
+      "population": 20211
     },
     {
       "naptanId": "940GZZLUTPN",
@@ -2740,7 +2740,7 @@
       "lines": [
         "piccadilly"
       ],
-      "population": 38417
+      "population": 38346
     },
     {
       "naptanId": "940GZZLUWOG",
@@ -2750,7 +2750,7 @@
       "lines": [
         "piccadilly"
       ],
-      "population": 30738
+      "population": 31654
     },
     {
       "naptanId": "940GZZLUBLR",
@@ -2760,7 +2760,7 @@
       "lines": [
         "victoria"
       ],
-      "population": 23840
+      "population": 25416
     },
     {
       "naptanId": "940GZZLUBXN",
@@ -2770,7 +2770,7 @@
       "lines": [
         "victoria"
       ],
-      "population": 50402
+      "population": 50313
     },
     {
       "naptanId": "940GZZLUHAI",
@@ -2780,7 +2780,7 @@
       "lines": [
         "victoria"
       ],
-      "population": 45088
+      "population": 45642
     },
     {
       "naptanId": "940GZZLUPCO",
@@ -2790,7 +2790,7 @@
       "lines": [
         "victoria"
       ],
-      "population": 41737
+      "population": 39553
     },
     {
       "naptanId": "940GZZLUSVS",
@@ -2800,7 +2800,7 @@
       "lines": [
         "victoria"
       ],
-      "population": 44100
+      "population": 39965
     },
     {
       "naptanId": "940GZZLUTMH",
@@ -2810,7 +2810,7 @@
       "lines": [
         "victoria"
       ],
-      "population": 27267
+      "population": 26519
     },
     {
       "naptanId": "940GZZLUVXL",
@@ -2820,7 +2820,7 @@
       "lines": [
         "victoria"
       ],
-      "population": 44183
+      "population": 41525
     },
     {
       "naptanId": "940GZZLUWWL",
@@ -2830,7 +2830,7 @@
       "lines": [
         "victoria"
       ],
-      "population": 42843
+      "population": 41144
     },
     {
       "naptanId": "910GACTNCTL",
@@ -2840,7 +2840,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 33684
+      "population": 34187
     },
     {
       "naptanId": "910GANERLEY",
@@ -2850,7 +2850,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 23311
+      "population": 23096
     },
     {
       "naptanId": "910GBARKING",
@@ -2860,7 +2860,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 32036
+      "population": 33394
     },
     {
       "naptanId": "910GBARKRIV",
@@ -2870,7 +2870,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 10333
+      "population": 10807
     },
     {
       "naptanId": "910GBHILLPK",
@@ -2880,7 +2880,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 22179
+      "population": 22986
     },
     {
       "naptanId": "910GBLCHSRD",
@@ -2890,7 +2890,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 22259
+      "population": 25078
     },
     {
       "naptanId": "910GBRBY",
@@ -2900,7 +2900,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 40228
+      "population": 41842
     },
     {
       "naptanId": "910GBRBYPK",
@@ -2910,7 +2910,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 29637
+      "population": 30360
     },
     {
       "naptanId": "910GBROCKLY",
@@ -2920,7 +2920,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 29499
+      "population": 30242
     },
     {
       "naptanId": "910GBRUCGRV",
@@ -2930,7 +2930,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 40177
+      "population": 40143
     },
     {
       "naptanId": "910GBTHNLGR",
@@ -2940,7 +2940,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 56695
+      "population": 53462
     },
     {
       "naptanId": "910GBUSHEY",
@@ -2950,7 +2950,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 13794
+      "population": 13849
     },
     {
       "naptanId": "910GBUSHYDC",
@@ -2960,7 +2960,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 13725
+      "population": 14186
     },
     {
       "naptanId": "910GCAMHTH",
@@ -2970,7 +2970,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 48355
+      "population": 48014
     },
     {
       "naptanId": "910GCHESHNT",
@@ -2980,7 +2980,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 11227
+      "population": 8705
     },
     {
       "naptanId": "910GCHINGFD",
@@ -2990,7 +2990,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 9802
+      "population": 7230
     },
     {
       "naptanId": "910GCLAPTON",
@@ -3000,7 +3000,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 44770
+      "population": 39227
     },
     {
       "naptanId": "910GCLDNNRB",
@@ -3010,7 +3010,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 44173
+      "population": 46429
     },
     {
       "naptanId": "910GCLPHHS",
@@ -3020,7 +3020,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 44225
+      "population": 48074
     },
     {
       "naptanId": "910GCLPHMJ1",
@@ -3030,7 +3030,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 42042
+      "population": 43996
     },
     {
       "naptanId": "910GCLPHMJC",
@@ -3040,7 +3040,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 42275
+      "population": 44525
     },
     {
       "naptanId": "910GCMDNRD",
@@ -3050,7 +3050,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 39174
+      "population": 41905
     },
     {
       "naptanId": "910GCNDAW",
@@ -3060,7 +3060,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 31484
+      "population": 28993
     },
     {
       "naptanId": "910GCNNB",
@@ -3070,7 +3070,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 46268
+      "population": 45056
     },
     {
       "naptanId": "910GCROUCHH",
@@ -3080,7 +3080,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 42978
+      "population": 38450
     },
     {
       "naptanId": "910GCRPNDPK",
@@ -3090,7 +3090,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 14392
+      "population": 11907
     },
     {
       "naptanId": "910GCRYSTLP",
@@ -3100,7 +3100,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 21718
+      "population": 21153
     },
     {
       "naptanId": "910GCSEAH",
@@ -3110,7 +3110,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 39619
+      "population": 38469
     },
     {
       "naptanId": "910GDALS",
@@ -3120,7 +3120,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 51492
+      "population": 50868
     },
     {
       "naptanId": "910GDALSKLD",
@@ -3130,7 +3130,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 51804
+      "population": 50896
     },
     {
       "naptanId": "910GDENMRKH",
@@ -3140,7 +3140,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 38721
+      "population": 40487
     },
     {
       "naptanId": "910GEDMNGRN",
@@ -3150,7 +3150,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 33848
+      "population": 33005
     },
     {
       "naptanId": "910GEMRSPKH",
@@ -3160,7 +3160,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 13353
+      "population": 12543
     },
     {
       "naptanId": "910GENFLDTN",
@@ -3170,7 +3170,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 19425
+      "population": 19955
     },
     {
       "naptanId": "910GEUSTON",
@@ -3180,7 +3180,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 36263
+      "population": 36551
     },
     {
       "naptanId": "910GFNCHLYR",
@@ -3190,7 +3190,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 34754
+      "population": 31579
     },
     {
       "naptanId": "910GFORESTH",
@@ -3200,7 +3200,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 26014
+      "population": 26351
     },
     {
       "naptanId": "910GGNRSBRY",
@@ -3210,7 +3210,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 20114
+      "population": 23716
     },
     {
       "naptanId": "910GGOSPLOK",
@@ -3220,7 +3220,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 30809
+      "population": 30157
     },
     {
       "naptanId": "910GHACKNYC",
@@ -3230,7 +3230,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 47777
+      "population": 47615
     },
     {
       "naptanId": "910GHACKNYW",
@@ -3240,7 +3240,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 17725
+      "population": 18388
     },
     {
       "naptanId": "910GHAGGERS",
@@ -3250,7 +3250,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 50697
+      "population": 49727
     },
     {
       "naptanId": "910GHAKNYNM",
@@ -3260,7 +3260,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 47203
+      "population": 47746
     },
     {
       "naptanId": "910GHARLSDN",
@@ -3270,7 +3270,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 22954
+      "population": 27869
     },
     {
       "naptanId": "910GHEDSTNL",
@@ -3280,7 +3280,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 12902
+      "population": 13963
     },
     {
       "naptanId": "910GHGHI",
@@ -3290,7 +3290,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 45419
+      "population": 45961
     },
     {
       "naptanId": "910GHGHMSPK",
@@ -3300,7 +3300,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 19546
+      "population": 19456
     },
     {
       "naptanId": "910GHMPSTDH",
@@ -3310,7 +3310,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 25741
+      "population": 21094
     },
     {
       "naptanId": "910GHOMRTON",
@@ -3320,7 +3320,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 45775
+      "population": 43805
     },
     {
       "naptanId": "910GHONROPK",
@@ -3330,7 +3330,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 23330
+      "population": 24411
     },
     {
       "naptanId": "910GHOXTON",
@@ -3340,7 +3340,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 53352
+      "population": 54801
     },
     {
       "naptanId": "910GHRGYGL",
@@ -3350,7 +3350,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 34373
+      "population": 35812
     },
     {
       "naptanId": "910GHROW",
@@ -3360,7 +3360,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 28738
+      "population": 26797
     },
     {
       "naptanId": "910GHTCHEND",
@@ -3370,7 +3370,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 9469
+      "population": 7621
     },
     {
       "naptanId": "910GKENOLYM",
@@ -3380,7 +3380,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 37695
+      "population": 40392
     },
     {
       "naptanId": "910GKENR",
@@ -3390,7 +3390,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 27081
+      "population": 27318
     },
     {
       "naptanId": "910GKENSLG",
@@ -3400,7 +3400,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 26201
+      "population": 26574
     },
     {
       "naptanId": "910GKEWGRDN",
@@ -3410,7 +3410,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 12762
+      "population": 13396
     },
     {
       "naptanId": "910GKLBRNHR",
@@ -3420,7 +3420,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 48757
+      "population": 47885
     },
     {
       "naptanId": "910GKNTSHTW",
@@ -3430,7 +3430,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 42539
+      "population": 42601
     },
     {
       "naptanId": "910GKTON",
@@ -3440,7 +3440,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 18418
+      "population": 17532
     },
     {
       "naptanId": "910GLEYTNMR",
@@ -3450,7 +3450,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 46413
+      "population": 43759
     },
     {
       "naptanId": "910GLIVST",
@@ -3461,7 +3461,7 @@
         "elizabeth",
         "london-overground"
       ],
-      "population": 22479
+      "population": 27748
     },
     {
       "naptanId": "910GLNDNBDC",
@@ -3471,7 +3471,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 22688
+      "population": 17644
     },
     {
       "naptanId": "910GLONFLDS",
@@ -3481,7 +3481,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 48213
+      "population": 47455
     },
     {
       "naptanId": "910GLYTNSHR",
@@ -3491,7 +3491,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 35496
+      "population": 31840
     },
     {
       "naptanId": "910GNEWXGTE",
@@ -3501,7 +3501,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 36438
+      "population": 36828
     },
     {
       "naptanId": "910GNORWDJ",
@@ -3511,7 +3511,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 29781
+      "population": 29030
     },
     {
       "naptanId": "910GNWCRELL",
@@ -3521,7 +3521,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 37498
+      "population": 35241
     },
     {
       "naptanId": "910GNWEMBLY",
@@ -3531,7 +3531,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 23420
+      "population": 21992
     },
     {
       "naptanId": "910GPCKHMQD",
@@ -3541,7 +3541,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 41200
+      "population": 41854
     },
     {
       "naptanId": "910GPCKHMRY",
@@ -3551,7 +3551,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 42155
+      "population": 42679
     },
     {
       "naptanId": "910GPENEW",
@@ -3561,7 +3561,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 24698
+      "population": 23491
     },
     {
       "naptanId": "910GQPRK",
@@ -3571,7 +3571,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 47520
+      "population": 45263
     },
     {
       "naptanId": "910GRCTRYRD",
@@ -3581,7 +3581,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 48269
+      "population": 51434
     },
     {
       "naptanId": "910GRICHMND",
@@ -3591,7 +3591,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 16101
+      "population": 13661
     },
     {
       "naptanId": "910GROMFORD",
@@ -3602,7 +3602,7 @@
         "elizabeth",
         "london-overground"
       ],
-      "population": 21511
+      "population": 20687
     },
     {
       "naptanId": "910GRTHERHI",
@@ -3612,7 +3612,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 30525
+      "population": 32639
     },
     {
       "naptanId": "910GSACTON",
@@ -3622,7 +3622,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 31844
+      "population": 31886
     },
     {
       "naptanId": "910GSBURY",
@@ -3632,7 +3632,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 19437
+      "population": 20703
     },
     {
       "naptanId": "910GSEVNSIS",
@@ -3642,7 +3642,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 43982
+      "population": 43269
     },
     {
       "naptanId": "910GSHADWEL",
@@ -3652,7 +3652,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 54003
+      "population": 56059
     },
     {
       "naptanId": "910GSHMPSTD",
@@ -3662,7 +3662,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 40282
+      "population": 39063
     },
     {
       "naptanId": "910GSHPDSB",
@@ -3672,7 +3672,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 42145
+      "population": 38648
     },
     {
       "naptanId": "910GSHRDHST",
@@ -3682,7 +3682,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 40969
+      "population": 43731
     },
     {
       "naptanId": "910GSIVRST",
@@ -3692,7 +3692,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 34607
+      "population": 35600
     },
     {
       "naptanId": "910GSKENTON",
@@ -3702,7 +3702,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 14279
+      "population": 15326
     },
     {
       "naptanId": "910GSTFD",
@@ -3713,7 +3713,7 @@
         "elizabeth",
         "london-overground"
       ],
-      "population": 32021
+      "population": 35179
     },
     {
       "naptanId": "910GSTJMSST",
@@ -3723,7 +3723,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 34381
+      "population": 38712
     },
     {
       "naptanId": "910GSTKNWNG",
@@ -3733,7 +3733,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 46217
+      "population": 48333
     },
     {
       "naptanId": "910GSTMFDHL",
@@ -3743,7 +3743,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 47039
+      "population": 43869
     },
     {
       "naptanId": "910GSTNBGPK",
@@ -3753,7 +3753,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 19457
+      "population": 20542
     },
     {
       "naptanId": "910GSTOTNHM",
@@ -3763,7 +3763,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 42979
+      "population": 40847
     },
     {
       "naptanId": "910GSURREYQ",
@@ -3773,7 +3773,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 35761
+      "population": 36248
     },
     {
       "naptanId": "910GSYDENHM",
@@ -3783,7 +3783,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 26091
+      "population": 28927
     },
     {
       "naptanId": "910GTHBLDSG",
@@ -3793,7 +3793,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 13794
+      "population": 14701
     },
     {
       "naptanId": "910GTURKYST",
@@ -3803,7 +3803,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 19399
+      "population": 19386
     },
     {
       "naptanId": "910GUPMNSTR",
@@ -3813,7 +3813,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 10584
+      "population": 7685
     },
     {
       "naptanId": "910GUPRHLWY",
@@ -3823,7 +3823,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 44124
+      "population": 45503
     },
     {
       "naptanId": "910GWAPPING",
@@ -3833,7 +3833,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 41762
+      "population": 41321
     },
     {
       "naptanId": "910GWATFDHS",
@@ -3843,7 +3843,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 17883
+      "population": 18841
     },
     {
       "naptanId": "910GWATFDJ",
@@ -3853,7 +3853,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 20801
+      "population": 21002
     },
     {
       "naptanId": "910GWATFJDC",
@@ -3863,7 +3863,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 20801
+      "population": 21456
     },
     {
       "naptanId": "910GWBRMPTN",
@@ -3873,7 +3873,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 49733
+      "population": 47903
     },
     {
       "naptanId": "910GWCHAPEL",
@@ -3883,7 +3883,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 60122
+      "population": 54377
     },
     {
       "naptanId": "910GWCROYDN",
@@ -3893,7 +3893,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 36070
+      "population": 36542
     },
     {
       "naptanId": "910GWDGRNPK",
@@ -3903,7 +3903,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 38220
+      "population": 33625
     },
     {
       "naptanId": "910GWDST",
@@ -3913,7 +3913,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 29756
+      "population": 25828
     },
     {
       "naptanId": "910GWHHRTLA",
@@ -3923,7 +3923,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 31355
+      "population": 30885
     },
     {
       "naptanId": "910GWHMDSTD",
@@ -3933,7 +3933,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 43518
+      "population": 38984
     },
     {
       "naptanId": "910GWLSDJHL",
@@ -3943,7 +3943,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 21400
+      "population": 23125
     },
     {
       "naptanId": "910GWLTHQRD",
@@ -3953,7 +3953,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 44359
+      "population": 44463
     },
     {
       "naptanId": "910GWLTWCEN",
@@ -3963,7 +3963,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 42746
+      "population": 41144
     },
     {
       "naptanId": "910GWMBY",
@@ -3973,7 +3973,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 33163
+      "population": 35739
     },
     {
       "naptanId": "910GWNDSWRD",
@@ -3983,7 +3983,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 39809
+      "population": 39475
     },
     {
       "naptanId": "910GWNSTDPK",
@@ -3993,7 +3993,7 @@
       "lines": [
         "london-overground"
       ],
-      "population": 30752
+      "population": 23509
     },
     {
       "naptanId": "910GABWDXR",
@@ -4003,7 +4003,7 @@
       "lines": [
         "elizabeth"
       ],
-      "population": 22735
+      "population": 22328
     },
     {
       "naptanId": "910GACTONML",
@@ -4013,7 +4013,7 @@
       "lines": [
         "elizabeth"
       ],
-      "population": 25279
+      "population": 20712
     },
     {
       "naptanId": "910GBNHAM",
@@ -4023,7 +4023,7 @@
       "lines": [
         "elizabeth"
       ],
-      "population": 0
+      "population": 16243
     },
     {
       "naptanId": "910GBONDST",
@@ -4033,7 +4033,7 @@
       "lines": [
         "elizabeth"
       ],
-      "population": 17335
+      "population": 19825
     },
     {
       "naptanId": "910GBRTWOOD",
@@ -4043,7 +4043,7 @@
       "lines": [
         "elizabeth"
       ],
-      "population": 14551
+      "population": 14737
     },
     {
       "naptanId": "910GCANWHRF",
@@ -4053,7 +4053,7 @@
       "lines": [
         "elizabeth"
       ],
-      "population": 40977
+      "population": 41807
     },
     {
       "naptanId": "910GCHDWLHT",
@@ -4063,7 +4063,7 @@
       "lines": [
         "elizabeth"
       ],
-      "population": 29488
+      "population": 30090
     },
     {
       "naptanId": "910GCUSTMHS",
@@ -4073,7 +4073,7 @@
       "lines": [
         "elizabeth"
       ],
-      "population": 29016
+      "population": 31256
     },
     {
       "naptanId": "910GEALINGB",
@@ -4083,7 +4083,7 @@
       "lines": [
         "elizabeth"
       ],
-      "population": 22234
+      "population": 21159
     },
     {
       "naptanId": "910GFRNDXR",
@@ -4093,7 +4093,7 @@
       "lines": [
         "elizabeth"
       ],
-      "population": 29233
+      "population": 34195
     },
     {
       "naptanId": "910GFRSTGT",
@@ -4103,7 +4103,7 @@
       "lines": [
         "elizabeth"
       ],
-      "population": 39792
+      "population": 33309
     },
     {
       "naptanId": "910GGIDEAPK",
@@ -4113,7 +4113,7 @@
       "lines": [
         "elizabeth"
       ],
-      "population": 16065
+      "population": 14791
     },
     {
       "naptanId": "910GGODMAYS",
@@ -4123,7 +4123,7 @@
       "lines": [
         "elizabeth"
       ],
-      "population": 30222
+      "population": 29191
     },
     {
       "naptanId": "910GHANWELL",
@@ -4133,7 +4133,7 @@
       "lines": [
         "elizabeth"
       ],
-      "population": 23276
+      "population": 23769
     },
     {
       "naptanId": "910GHAYESAH",
@@ -4143,7 +4143,7 @@
       "lines": [
         "elizabeth"
       ],
-      "population": 20098
+      "population": 18900
     },
     {
       "naptanId": "910GHRLDWOD",
@@ -4153,7 +4153,7 @@
       "lines": [
         "elizabeth"
       ],
-      "population": 14155
+      "population": 13984
     },
     {
       "naptanId": "910GHTRWAPT",
@@ -4163,7 +4163,7 @@
       "lines": [
         "elizabeth"
       ],
-      "population": 0
+      "population": 358
     },
     {
       "naptanId": "910GHTRWTM4",
@@ -4173,7 +4173,7 @@
       "lines": [
         "elizabeth"
       ],
-      "population": 3810
+      "population": 3632
     },
     {
       "naptanId": "910GHTRWTM5",
@@ -4183,7 +4183,7 @@
       "lines": [
         "elizabeth"
       ],
-      "population": 0
+      "population": 366
     },
     {
       "naptanId": "910GILFORD",
@@ -4193,7 +4193,7 @@
       "lines": [
         "elizabeth"
       ],
-      "population": 34023
+      "population": 31676
     },
     {
       "naptanId": "910GIVER",
@@ -4203,7 +4203,7 @@
       "lines": [
         "elizabeth"
       ],
-      "population": 2774
+      "population": 3385
     },
     {
       "naptanId": "910GLANGLEY",
@@ -4213,7 +4213,7 @@
       "lines": [
         "elizabeth"
       ],
-      "population": 0
+      "population": 8098
     },
     {
       "naptanId": "910GLIVSTLL",
@@ -4223,7 +4223,7 @@
       "lines": [
         "elizabeth"
       ],
-      "population": 20898
+      "population": 26463
     },
     {
       "naptanId": "910GMANRPK",
@@ -4233,7 +4233,7 @@
       "lines": [
         "elizabeth"
       ],
-      "population": 29230
+      "population": 22727
     },
     {
       "naptanId": "910GMDNHEAD",
@@ -4243,7 +4243,7 @@
       "lines": [
         "elizabeth"
       ],
-      "population": 0
+      "population": 13200
     },
     {
       "naptanId": "910GMRYLAND",
@@ -4253,7 +4253,7 @@
       "lines": [
         "elizabeth"
       ],
-      "population": 42114
+      "population": 45346
     },
     {
       "naptanId": "910GPADTLL",
@@ -4263,7 +4263,7 @@
       "lines": [
         "elizabeth"
       ],
-      "population": 42890
+      "population": 47944
     },
     {
       "naptanId": "910GPADTON",
@@ -4273,7 +4273,7 @@
       "lines": [
         "elizabeth"
       ],
-      "population": 40358
+      "population": 46044
     },
     {
       "naptanId": "910GRDNGSTN",
@@ -4283,7 +4283,7 @@
       "lines": [
         "elizabeth"
       ],
-      "population": 0
+      "population": 14147
     },
     {
       "naptanId": "910GSHENFLD",
@@ -4293,7 +4293,7 @@
       "lines": [
         "elizabeth"
       ],
-      "population": 6883
+      "population": 6868
     },
     {
       "naptanId": "910GSLOUGH",
@@ -4303,7 +4303,7 @@
       "lines": [
         "elizabeth"
       ],
-      "population": 0
+      "population": 23972
     },
     {
       "naptanId": "910GSTHALL",
@@ -4313,7 +4313,7 @@
       "lines": [
         "elizabeth"
       ],
-      "population": 31824
+      "population": 33443
     },
     {
       "naptanId": "910GSVNKNGS",
@@ -4323,7 +4323,7 @@
       "lines": [
         "elizabeth"
       ],
-      "population": 33739
+      "population": 33539
     },
     {
       "naptanId": "910GTAPLOW",
@@ -4333,7 +4333,7 @@
       "lines": [
         "elizabeth"
       ],
-      "population": 0
+      "population": 3870
     },
     {
       "naptanId": "910GTOTCTRD",
@@ -4343,7 +4343,7 @@
       "lines": [
         "elizabeth"
       ],
-      "population": 18689
+      "population": 23246
     },
     {
       "naptanId": "910GTWYFORD",
@@ -4353,7 +4353,7 @@
       "lines": [
         "elizabeth"
       ],
-      "population": 0
+      "population": 6435
     },
     {
       "naptanId": "910GWCHAPXR",
@@ -4363,7 +4363,7 @@
       "lines": [
         "elizabeth"
       ],
-      "population": 59894
+      "population": 54405
     },
     {
       "naptanId": "910GWDRYTON",
@@ -4373,7 +4373,7 @@
       "lines": [
         "elizabeth"
       ],
-      "population": 18042
+      "population": 18637
     },
     {
       "naptanId": "910GWEALING",
@@ -4383,7 +4383,7 @@
       "lines": [
         "elizabeth"
       ],
-      "population": 31489
+      "population": 30637
     },
     {
       "naptanId": "910GWOLWXR",
@@ -4393,7 +4393,7 @@
       "lines": [
         "elizabeth"
       ],
-      "population": 30959
+      "population": 27977
     },
     {
       "naptanId": "940GZZDLABR",
@@ -4403,7 +4403,7 @@
       "lines": [
         "dlr"
       ],
-      "population": 27877
+      "population": 32202
     },
     {
       "naptanId": "940GZZDLALL",
@@ -4413,7 +4413,7 @@
       "lines": [
         "dlr"
       ],
-      "population": 47094
+      "population": 48101
     },
     {
       "naptanId": "940GZZDLBEC",
@@ -4423,7 +4423,7 @@
       "lines": [
         "dlr"
       ],
-      "population": 19404
+      "population": 20754
     },
     {
       "naptanId": "940GZZDLBLA",
@@ -4433,7 +4433,7 @@
       "lines": [
         "dlr"
       ],
-      "population": 31372
+      "population": 31976
     },
     {
       "naptanId": "940GZZDLBNK",
@@ -4443,7 +4443,7 @@
       "lines": [
         "dlr"
       ],
-      "population": 8192
+      "population": 11216
     },
     {
       "naptanId": "940GZZDLBOW",
@@ -4453,7 +4453,7 @@
       "lines": [
         "dlr"
       ],
-      "population": 50227
+      "population": 43068
     },
     {
       "naptanId": "940GZZDLBPK",
@@ -4463,7 +4463,7 @@
       "lines": [
         "dlr"
       ],
-      "population": 13877
+      "population": 15369
     },
     {
       "naptanId": "940GZZDLCAN",
@@ -4473,7 +4473,7 @@
       "lines": [
         "dlr"
       ],
-      "population": 39981
+      "population": 40242
     },
     {
       "naptanId": "940GZZDLCGT",
@@ -4483,7 +4483,7 @@
       "lines": [
         "dlr"
       ],
-      "population": 29590
+      "population": 33960
     },
     {
       "naptanId": "940GZZDLCLA",
@@ -4493,7 +4493,7 @@
       "lines": [
         "dlr"
       ],
-      "population": 40170
+      "population": 36104
     },
     {
       "naptanId": "940GZZDLCUS",
@@ -4503,7 +4503,7 @@
       "lines": [
         "dlr"
       ],
-      "population": 30493
+      "population": 33009
     },
     {
       "naptanId": "940GZZDLCUT",
@@ -4513,7 +4513,7 @@
       "lines": [
         "dlr"
       ],
-      "population": 28769
+      "population": 29190
     },
     {
       "naptanId": "940GZZDLCYP",
@@ -4523,7 +4523,7 @@
       "lines": [
         "dlr"
       ],
-      "population": 13500
+      "population": 12000
     },
     {
       "naptanId": "940GZZDLDEP",
@@ -4533,7 +4533,7 @@
       "lines": [
         "dlr"
       ],
-      "population": 41123
+      "population": 41380
     },
     {
       "naptanId": "940GZZDLDEV",
@@ -4543,7 +4543,7 @@
       "lines": [
         "dlr"
       ],
-      "population": 55899
+      "population": 48409
     },
     {
       "naptanId": "940GZZDLEIN",
@@ -4553,7 +4553,7 @@
       "lines": [
         "dlr"
       ],
-      "population": 26303
+      "population": 27589
     },
     {
       "naptanId": "940GZZDLELV",
@@ -4563,7 +4563,7 @@
       "lines": [
         "dlr"
       ],
-      "population": 36385
+      "population": 37533
     },
     {
       "naptanId": "940GZZDLGAL",
@@ -4573,7 +4573,7 @@
       "lines": [
         "dlr"
       ],
-      "population": 12009
+      "population": 9568
     },
     {
       "naptanId": "940GZZDLGRE",
@@ -4583,7 +4583,7 @@
       "lines": [
         "dlr"
       ],
-      "population": 33672
+      "population": 32908
     },
     {
       "naptanId": "940GZZDLHEQ",
@@ -4593,7 +4593,7 @@
       "lines": [
         "dlr"
       ],
-      "population": 38373
+      "population": 39961
     },
     {
       "naptanId": "940GZZDLISL",
@@ -4603,7 +4603,7 @@
       "lines": [
         "dlr"
       ],
-      "population": 31564
+      "population": 30935
     },
     {
       "naptanId": "940GZZDLKGV",
@@ -4613,7 +4613,7 @@
       "lines": [
         "dlr"
       ],
-      "population": 9696
+      "population": 11395
     },
     {
       "naptanId": "940GZZDLLCA",
@@ -4623,7 +4623,7 @@
       "lines": [
         "dlr"
       ],
-      "population": 7747
+      "population": 9889
     },
     {
       "naptanId": "940GZZDLLDP",
@@ -4633,7 +4633,7 @@
       "lines": [
         "dlr"
       ],
-      "population": 52044
+      "population": 51564
     },
     {
       "naptanId": "940GZZDLLEW",
@@ -4643,7 +4643,7 @@
       "lines": [
         "dlr"
       ],
-      "population": 33569
+      "population": 32657
     },
     {
       "naptanId": "940GZZDLLIM",
@@ -4653,7 +4653,7 @@
       "lines": [
         "dlr"
       ],
-      "population": 49496
+      "population": 52360
     },
     {
       "naptanId": "940GZZDLMUD",
@@ -4663,7 +4663,7 @@
       "lines": [
         "dlr"
       ],
-      "population": 38423
+      "population": 38227
     },
     {
       "naptanId": "940GZZDLPDK",
@@ -4673,7 +4673,7 @@
       "lines": [
         "dlr"
       ],
-      "population": 14801
+      "population": 17950
     },
     {
       "naptanId": "940GZZDLPOP",
@@ -4683,7 +4683,7 @@
       "lines": [
         "dlr"
       ],
-      "population": 40618
+      "population": 41319
     },
     {
       "naptanId": "940GZZDLPRE",
@@ -4693,7 +4693,7 @@
       "lines": [
         "dlr"
       ],
-      "population": 24879
+      "population": 20814
     },
     {
       "naptanId": "940GZZDLPUD",
@@ -4703,7 +4703,7 @@
       "lines": [
         "dlr"
       ],
-      "population": 27745
+      "population": 22468
     },
     {
       "naptanId": "940GZZDLRAL",
@@ -4713,7 +4713,7 @@
       "lines": [
         "dlr"
       ],
-      "population": 14735
+      "population": 16588
     },
     {
       "naptanId": "940GZZDLRVC",
@@ -4723,7 +4723,7 @@
       "lines": [
         "dlr"
       ],
-      "population": 28335
+      "population": 34180
     },
     {
       "naptanId": "940GZZDLSHA",
@@ -4733,7 +4733,7 @@
       "lines": [
         "dlr"
       ],
-      "population": 53781
+      "population": 57522
     },
     {
       "naptanId": "940GZZDLSHS",
@@ -4743,7 +4743,7 @@
       "lines": [
         "dlr"
       ],
-      "population": 27349
+      "population": 33526
     },
     {
       "naptanId": "940GZZDLSIT",
@@ -4753,7 +4753,7 @@
       "lines": [
         "dlr"
       ],
-      "population": 20766
+      "population": 22521
     },
     {
       "naptanId": "940GZZDLSOQ",
@@ -4763,7 +4763,7 @@
       "lines": [
         "dlr"
       ],
-      "population": 34160
+      "population": 37663
     },
     {
       "naptanId": "940GZZDLSTD",
@@ -4773,7 +4773,7 @@
       "lines": [
         "dlr"
       ],
-      "population": 32224
+      "population": 35179
     },
     {
       "naptanId": "940GZZDLSTL",
@@ -4783,7 +4783,7 @@
       "lines": [
         "dlr"
       ],
-      "population": 21375
+      "population": 17968
     },
     {
       "naptanId": "940GZZDLTWG",
@@ -4793,7 +4793,7 @@
       "lines": [
         "dlr"
       ],
-      "population": 25466
+      "population": 31650
     },
     {
       "naptanId": "940GZZDLWFE",
@@ -4803,7 +4803,7 @@
       "lines": [
         "dlr"
       ],
-      "population": 41227
+      "population": 47722
     },
     {
       "naptanId": "940GZZDLWHM",
@@ -4813,7 +4813,7 @@
       "lines": [
         "dlr"
       ],
-      "population": 22667
+      "population": 26742
     },
     {
       "naptanId": "940GZZDLWIQ",
@@ -4823,7 +4823,7 @@
       "lines": [
         "dlr"
       ],
-      "population": 40937
+      "population": 41233
     },
     {
       "naptanId": "940GZZDLWLA",
@@ -4833,7 +4833,7 @@
       "lines": [
         "dlr"
       ],
-      "population": 31651
+      "population": 30215
     },
     {
       "naptanId": "940GZZDLWSV",
@@ -4843,7 +4843,7 @@
       "lines": [
         "dlr"
       ],
-      "population": 20573
+      "population": 20202
     }
   ],
   "line_stats": {
@@ -4851,108 +4851,108 @@
       "name": "Bakerloo",
       "color": "#B36305",
       "station_count": 25,
-      "total_population": 744820,
-      "avg_population_per_station": 29792,
+      "total_population": 736700,
+      "avg_population_per_station": 29468,
       "stations": [
         [
-          "Kilburn Park",
-          52924
-        ],
-        [
-          "Maida Vale",
-          52745
+          "Elephant & Castle",
+          51023
         ],
         [
           "Warwick Avenue",
-          52718
+          50962
         ],
         [
-          "Elephant & Castle",
-          51489
+          "Maida Vale",
+          49834
         ],
         [
-          "Edgware Road (Bakerloo)",
-          49643
-        ],
-        [
-          "Queen's Park",
-          47521
+          "Kilburn Park",
+          49794
         ],
         [
           "Paddington",
-          42992
+          46921
+        ],
+        [
+          "Queen's Park",
+          45883
+        ],
+        [
+          "Edgware Road (Bakerloo)",
+          43225
         ],
         [
           "Marylebone",
-          40184
+          35533
         ],
         [
           "Wembley Central",
-          32421
-        ],
-        [
-          "Baker Street",
-          31696
+          34468
         ],
         [
           "Harrow & Wealdstone",
-          28820
+          28442
         ],
         [
-          "Regent's Park",
-          26332
-        ],
-        [
-          "Kensal Green",
-          26201
-        ],
-        [
-          "Lambeth North",
-          25387
-        ],
-        [
-          "North Wembley",
-          23420
+          "Baker Street",
+          28205
         ],
         [
           "Harlesden",
-          22533
+          27418
+        ],
+        [
+          "Kensal Green",
+          26574
+        ],
+        [
+          "Regent's Park",
+          24583
+        ],
+        [
+          "Lambeth North",
+          23541
         ],
         [
           "Willesden Junction",
-          21438
+          23400
+        ],
+        [
+          "North Wembley",
+          21992
         ],
         [
           "Stonebridge Park",
-          19021
+          20088
         ],
         [
           "Oxford Circus",
-          18954
+          19582
         ],
         [
           "Kenton",
-          18418
+          17532
         ],
         [
           "Waterloo",
-          15794
+          15952
         ],
         [
           "South Kenton",
-          14279
+          15326
         ],
         [
           "Piccadilly Circus",
-          10577
-        ],
-        [
-          "Embankment",
-          10516
+          14011
         ],
         [
           "Charing Cross",
-          8797
+          11760
+        ],
+        [
+          "Embankment",
+          10651
         ]
       ]
     },
@@ -4960,196 +4960,196 @@
       "name": "Central",
       "color": "#E32017",
       "station_count": 49,
-      "total_population": 1020180,
-      "avg_population_per_station": 20820,
+      "total_population": 1050199,
+      "avg_population_per_station": 21432,
       "stations": [
         [
           "Mile End",
-          53337
+          51962
         ],
         [
           "Bethnal Green",
-          51731
-        ],
-        [
-          "Shepherd's Bush (Central)",
-          43834
-        ],
-        [
-          "Holland Park",
-          39128
+          51212
         ],
         [
           "Notting Hill Gate",
-          37367
+          41584
         ],
         [
-          "White City",
-          36415
+          "Shepherd's Bush (Central)",
+          40883
         ],
         [
-          "Queensway",
-          35548
+          "Holland Park",
+          39872
         ],
         [
           "Leyton",
-          33237
+          36109
         ],
         [
-          "Leytonstone",
-          32191
+          "Queensway",
+          35914
+        ],
+        [
+          "White City",
+          35344
         ],
         [
           "Stratford",
-          31885
-        ],
-        [
-          "Newbury Park",
-          27065
-        ],
-        [
-          "Gants Hill",
-          26847
+          35179
         ],
         [
           "Lancaster Gate",
-          25666
+          31625
         ],
         [
           "Holborn",
-          24713
+          28102
         ],
         [
-          "Marble Arch",
-          22879
+          "Gants Hill",
+          27560
         ],
         [
           "Chancery Lane",
-          22521
+          26942
+        ],
+        [
+          "Marble Arch",
+          26289
         ],
         [
           "Tottenham Court Road",
-          22300
+          26245
         ],
         [
-          "South Woodford",
-          21783
+          "Leytonstone",
+          26203
         ],
         [
-          "Ealing Broadway",
-          21527
-        ],
-        [
-          "East Acton",
-          21077
-        ],
-        [
-          "Northolt",
-          20519
-        ],
-        [
-          "Bond Street",
-          20142
-        ],
-        [
-          "Hainault",
-          19348
-        ],
-        [
-          "Woodford",
-          19134
-        ],
-        [
-          "Oxford Circus",
-          18954
+          "Newbury Park",
+          25264
         ],
         [
           "Liverpool Street",
-          18861
+          23737
         ],
         [
-          "Redbridge",
-          17514
+          "South Woodford",
+          22708
+        ],
+        [
+          "Northolt",
+          22134
+        ],
+        [
+          "Bond Street",
+          21403
+        ],
+        [
+          "Ealing Broadway",
+          20549
+        ],
+        [
+          "Hainault",
+          19586
+        ],
+        [
+          "Oxford Circus",
+          19582
         ],
         [
           "Hanger Lane",
-          17102
+          18549
         ],
         [
-          "Snaresbrook",
-          15645
+          "Woodford",
+          18060
         ],
         [
-          "Barkingside",
-          14903
-        ],
-        [
-          "West Acton",
-          14579
-        ],
-        [
-          "North Acton",
-          14198
+          "East Acton",
+          17944
         ],
         [
           "St. Paul's",
-          13770
+          17235
         ],
         [
-          "Wanstead",
-          13270
+          "Snaresbrook",
+          16784
+        ],
+        [
+          "Redbridge",
+          16163
         ],
         [
           "Ruislip Gardens",
-          12661
-        ],
-        [
-          "Fairlop",
-          12502
-        ],
-        [
-          "Greenford",
-          12477
+          15385
         ],
         [
           "South Ruislip",
-          12094
+          14782
         ],
         [
-          "Grange Hill",
-          11965
+          "Wanstead",
+          14555
         ],
         [
-          "Debden",
-          11057
+          "West Acton",
+          13490
+        ],
+        [
+          "Fairlop",
+          13411
+        ],
+        [
+          "North Acton",
+          12210
         ],
         [
           "Loughton",
-          10918
+          12192
         ],
         [
           "Perivale",
-          10894
+          11871
         ],
         [
-          "Buckhurst Hill",
-          10505
-        ],
-        [
-          "West Ruislip",
-          10175
-        ],
-        [
-          "Roding Valley",
-          10008
+          "Greenford",
+          11720
         ],
         [
           "Bank",
-          9326
+          11485
+        ],
+        [
+          "Barkingside",
+          11187
+        ],
+        [
+          "Debden",
+          10343
+        ],
+        [
+          "Buckhurst Hill",
+          10274
+        ],
+        [
+          "Grange Hill",
+          10178
+        ],
+        [
+          "Roding Valley",
+          9999
+        ],
+        [
+          "West Ruislip",
+          9528
         ],
         [
           "Epping",
-          8450
+          8981
         ],
         [
           "Theydon Bois",
@@ -5157,7 +5157,7 @@
         ],
         [
           "Chigwell",
-          3973
+          3700
         ]
       ]
     },
@@ -5165,152 +5165,152 @@
       "name": "Circle",
       "color": "#FFD300",
       "station_count": 36,
-      "total_population": 1103029,
-      "avg_population_per_station": 30639,
+      "total_population": 1133110,
+      "avg_population_per_station": 31475,
       "stations": [
         [
           "Westbourne Park",
-          59746
+          61692
         ],
         [
           "Royal Oak",
-          54957
+          56275
         ],
         [
           "Paddington (H&C Line)-Underground",
-          48057
+          51683
         ],
         [
           "Ladbroke Grove",
-          46564
-        ],
-        [
-          "Edgware Road (Circle Line)",
-          46347
-        ],
-        [
-          "Shepherd's Bush Market",
-          45673
-        ],
-        [
-          "Goldhawk Road",
-          44643
+          49489
         ],
         [
           "Paddington",
-          42992
+          46921
         ],
         [
-          "Bayswater",
-          40120
+          "Goldhawk Road",
+          45281
+        ],
+        [
+          "Shepherd's Bush Market",
+          44057
+        ],
+        [
+          "Edgware Road (Circle Line)",
+          43325
         ],
         [
           "King's Cross St. Pancras",
-          39772
-        ],
-        [
-          "Wood Lane",
-          39403
-        ],
-        [
-          "Gloucester Road",
-          39320
-        ],
-        [
-          "Latimer Road",
-          38635
+          41635
         ],
         [
           "Notting Hill Gate",
-          37367
+          41584
+        ],
+        [
+          "Bayswater",
+          41261
+        ],
+        [
+          "Latimer Road",
+          39905
+        ],
+        [
+          "Wood Lane",
+          38572
         ],
         [
           "Hammersmith (H&C Line)",
-          33453
-        ],
-        [
-          "Euston Square",
-          33442
-        ],
-        [
-          "South Kensington",
-          32218
-        ],
-        [
-          "Baker Street",
-          31696
-        ],
-        [
-          "High Street Kensington",
-          31662
+          38249
         ],
         [
           "Barbican",
-          30868
+          35144
         ],
         [
           "Farringdon",
-          30004
+          34927
         ],
         [
-          "Sloane Square",
-          28825
+          "Euston Square",
+          34395
         ],
         [
-          "Victoria",
-          27271
+          "Gloucester Road",
+          33191
         ],
         [
           "Aldgate",
-          25367
+          30999
         ],
         [
-          "Great Portland Street",
-          24645
+          "South Kensington",
+          28702
+        ],
+        [
+          "High Street Kensington",
+          28403
+        ],
+        [
+          "Baker Street",
+          28205
         ],
         [
           "Tower Hill",
-          21413
+          26485
+        ],
+        [
+          "Sloane Square",
+          26083
+        ],
+        [
+          "Great Portland Street",
+          25828
         ],
         [
           "Moorgate",
-          19798
+          24552
         ],
         [
           "Liverpool Street",
-          18861
+          23737
         ],
         [
-          "St. James's Park",
-          17810
-        ],
-        [
-          "Westminster",
-          13313
+          "Victoria",
+          21571
         ],
         [
           "Temple",
-          12980
+          15268
         ],
         [
           "Blackfriars",
-          10759
+          13170
         ],
         [
-          "Embankment",
-          10516
+          "St. James's Park",
+          12599
         ],
         [
           "Mansion House",
-          9649
+          11641
+        ],
+        [
+          "Embankment",
+          10651
+        ],
+        [
+          "Westminster",
+          10060
         ],
         [
           "Cannon Street",
-          7810
+          8928
         ],
         [
           "Monument",
-          7073
+          8642
         ]
       ]
     },
@@ -5318,248 +5318,248 @@
       "name": "District",
       "color": "#00782A",
       "station_count": 60,
-      "total_population": 1800930,
-      "avg_population_per_station": 30015,
+      "total_population": 1803576,
+      "avg_population_per_station": 30059,
       "stations": [
         [
           "Upton Park",
-          61919
+          63018
         ],
         [
           "Whitechapel",
-          59560
+          54714
         ],
         [
           "East Ham",
-          57358
-        ],
-        [
-          "Mile End",
-          53337
+          53833
         ],
         [
           "Stepney Green",
-          52925
+          53387
+        ],
+        [
+          "Mile End",
+          51962
         ],
         [
           "Bow Road",
-          52810
+          50866
         ],
         [
           "West Brompton",
-          49686
-        ],
-        [
-          "Earl's Court",
-          47086
-        ],
-        [
-          "West Kensington",
-          47063
-        ],
-        [
-          "Edgware Road (Circle Line)",
-          46347
-        ],
-        [
-          "Barons Court",
-          44903
-        ],
-        [
-          "Fulham Broadway",
-          44459
-        ],
-        [
-          "Parsons Green",
-          44425
+          48308
         ],
         [
           "Paddington",
-          42992
+          46921
         ],
         [
-          "Bayswater",
-          40120
+          "Parsons Green",
+          46255
         ],
         [
-          "Gloucester Road",
-          39320
+          "Fulham Broadway",
+          45675
         ],
         [
-          "Plaistow",
-          38447
+          "West Kensington",
+          45195
         ],
         [
-          "Kensington (Olympia)",
-          37580
+          "Barons Court",
+          45156
+        ],
+        [
+          "Earl's Court",
+          43899
+        ],
+        [
+          "Edgware Road (Circle Line)",
+          43325
         ],
         [
           "Notting Hill Gate",
-          37367
+          41584
         ],
         [
-          "Bromley-by-Bow",
-          37294
+          "Plaistow",
+          41420
         ],
         [
-          "Aldgate East",
-          34002
+          "Bayswater",
+          41261
+        ],
+        [
+          "Kensington (Olympia)",
+          39209
         ],
         [
           "Hammersmith (Dist&Picc Line)",
-          33920
+          38409
         ],
         [
-          "Turnham Green",
-          32421
-        ],
-        [
-          "Barking",
-          32367
-        ],
-        [
-          "South Kensington",
-          32218
-        ],
-        [
-          "Southfields",
-          31712
-        ],
-        [
-          "High Street Kensington",
-          31662
-        ],
-        [
-          "Stamford Brook",
-          30676
-        ],
-        [
-          "East Putney",
-          29208
+          "Aldgate East",
+          38309
         ],
         [
           "Ravenscourt Park",
-          28962
+          34908
         ],
         [
-          "Sloane Square",
-          28825
+          "Stamford Brook",
+          33618
         ],
         [
-          "Dagenham Heathway",
-          28531
+          "Barking",
+          33454
+        ],
+        [
+          "Gloucester Road",
+          33191
+        ],
+        [
+          "Turnham Green",
+          32840
+        ],
+        [
+          "Bromley-by-Bow",
+          32418
+        ],
+        [
+          "Southfields",
+          31663
         ],
         [
           "Chiswick Park",
-          28410
+          29640
         ],
         [
           "Putney Bridge",
-          27758
+          28831
         ],
         [
-          "Victoria",
-          27271
+          "South Kensington",
+          28702
         ],
         [
-          "Upney",
-          25326
+          "East Putney",
+          28532
         ],
         [
-          "Becontree",
-          25215
+          "High Street Kensington",
+          28403
         ],
         [
           "West Ham",
-          22579
+          27766
         ],
         [
-          "Ealing Broadway",
-          21527
+          "Dagenham Heathway",
+          27639
         ],
         [
-          "Acton Town",
-          21498
+          "Becontree",
+          27207
         ],
         [
           "Tower Hill",
-          21413
+          26485
         ],
         [
-          "Wimbledon",
-          21280
+          "Sloane Square",
+          26083
         ],
         [
-          "Ealing Common",
-          20551
+          "Upney",
+          24733
+        ],
+        [
+          "Acton Town",
+          23893
         ],
         [
           "Gunnersbury",
-          19844
+          23329
         ],
         [
-          "Dagenham East",
-          18925
+          "Victoria",
+          21571
         ],
         [
-          "St. James's Park",
-          17810
+          "Wimbledon",
+          21475
+        ],
+        [
+          "Ealing Broadway",
+          20549
         ],
         [
           "Wimbledon Park",
-          16937
+          19634
+        ],
+        [
+          "Ealing Common",
+          18635
         ],
         [
           "Elm Park",
-          16190
+          16418
         ],
         [
-          "Richmond",
-          15598
+          "Dagenham East",
+          16148
         ],
         [
           "Hornchurch",
-          15567
-        ],
-        [
-          "Westminster",
-          13313
+          15376
         ],
         [
           "Temple",
-          12980
+          15268
         ],
         [
-          "Upminster Bridge",
-          12668
-        ],
-        [
-          "Kew Gardens",
-          12377
+          "Richmond",
+          13768
         ],
         [
           "Blackfriars",
-          10759
+          13170
         ],
         [
-          "Upminster",
-          10584
+          "Kew Gardens",
+          13142
         ],
         [
-          "Embankment",
-          10516
+          "St. James's Park",
+          12599
+        ],
+        [
+          "Upminster Bridge",
+          12175
         ],
         [
           "Mansion House",
-          9649
+          11641
+        ],
+        [
+          "Embankment",
+          10651
+        ],
+        [
+          "Westminster",
+          10060
         ],
         [
           "Cannon Street",
-          7810
+          8928
         ],
         [
           "Monument",
-          7073
+          8642
+        ],
+        [
+          "Upminster",
+          7685
         ]
       ]
     },
@@ -5567,124 +5567,124 @@
       "name": "Hammersmith City",
       "color": "#F3A9BB",
       "station_count": 29,
-      "total_population": 1189162,
-      "avg_population_per_station": 41005,
+      "total_population": 1218098,
+      "avg_population_per_station": 42003,
       "stations": [
         [
           "Upton Park",
-          61919
+          63018
         ],
         [
           "Westbourne Park",
-          59746
-        ],
-        [
-          "Whitechapel",
-          59560
-        ],
-        [
-          "East Ham",
-          57358
+          61692
         ],
         [
           "Royal Oak",
-          54957
+          56275
         ],
         [
-          "Mile End",
-          53337
+          "Whitechapel",
+          54714
+        ],
+        [
+          "East Ham",
+          53833
         ],
         [
           "Stepney Green",
-          52925
+          53387
         ],
         [
-          "Bow Road",
-          52810
+          "Mile End",
+          51962
         ],
         [
           "Paddington (H&C Line)-Underground",
-          48057
+          51683
+        ],
+        [
+          "Bow Road",
+          50866
         ],
         [
           "Ladbroke Grove",
-          46564
-        ],
-        [
-          "Edgware Road (Circle Line)",
-          46347
-        ],
-        [
-          "Shepherd's Bush Market",
-          45673
+          49489
         ],
         [
           "Goldhawk Road",
-          44643
+          45281
+        ],
+        [
+          "Shepherd's Bush Market",
+          44057
+        ],
+        [
+          "Edgware Road (Circle Line)",
+          43325
         ],
         [
           "King's Cross St. Pancras",
-          39772
-        ],
-        [
-          "Wood Lane",
-          39403
-        ],
-        [
-          "Latimer Road",
-          38635
+          41635
         ],
         [
           "Plaistow",
-          38447
+          41420
         ],
         [
-          "Bromley-by-Bow",
-          37294
+          "Latimer Road",
+          39905
+        ],
+        [
+          "Wood Lane",
+          38572
         ],
         [
           "Aldgate East",
-          34002
+          38309
         ],
         [
           "Hammersmith (H&C Line)",
-          33453
-        ],
-        [
-          "Euston Square",
-          33442
-        ],
-        [
-          "Barking",
-          32367
-        ],
-        [
-          "Baker Street",
-          31696
+          38249
         ],
         [
           "Barbican",
-          30868
+          35144
         ],
         [
           "Farringdon",
-          30004
+          34927
         ],
         [
-          "Great Portland Street",
-          24645
+          "Euston Square",
+          34395
+        ],
+        [
+          "Barking",
+          33454
+        ],
+        [
+          "Bromley-by-Bow",
+          32418
+        ],
+        [
+          "Baker Street",
+          28205
         ],
         [
           "West Ham",
-          22579
+          27766
+        ],
+        [
+          "Great Portland Street",
+          25828
         ],
         [
           "Moorgate",
-          19798
+          24552
         ],
         [
           "Liverpool Street",
-          18861
+          23737
         ]
       ]
     },
@@ -5692,116 +5692,116 @@
       "name": "Jubilee",
       "color": "#A0A5A9",
       "station_count": 27,
-      "total_population": 722361,
-      "avg_population_per_station": 26754,
+      "total_population": 709186,
+      "avg_population_per_station": 26266,
       "stations": [
         [
-          "West Hampstead",
-          46250
+          "Canary Wharf",
+          43803
         ],
         [
-          "Canary Wharf",
-          40855
+          "West Hampstead",
+          41556
         ],
         [
           "Bermondsey",
-          40121
+          38728
         ],
         [
           "Finchley Road",
-          39888
+          37982
         ],
         [
           "Kilburn",
-          38128
+          37463
         ],
         [
           "Swiss Cottage",
-          37420
-        ],
-        [
-          "St. John's Wood",
-          35245
-        ],
-        [
-          "Willesden Green",
-          33594
+          36849
         ],
         [
           "Stratford",
-          31885
-        ],
-        [
-          "Baker Street",
-          31696
-        ],
-        [
-          "Canada Water",
-          31519
-        ],
-        [
-          "Queensbury",
-          28296
+          35179
         ],
         [
           "Canning Town",
-          28198
+          34322
+        ],
+        [
+          "Willesden Green",
+          33857
+        ],
+        [
+          "St. John's Wood",
+          31879
+        ],
+        [
+          "Canada Water",
+          29359
         ],
         [
           "Dollis Hill",
-          27569
+          28909
         ],
         [
-          "Wembley Park",
-          24939
-        ],
-        [
-          "Neasden",
-          23821
-        ],
-        [
-          "Southwark",
-          22952
+          "Baker Street",
+          28205
         ],
         [
           "West Ham",
-          22579
+          27766
         ],
         [
-          "Bond Street",
-          20142
+          "Queensbury",
+          27105
         ],
         [
-          "London Bridge",
-          19954
+          "Wembley Park",
+          23582
+        ],
+        [
+          "Neasden",
+          23510
         ],
         [
           "Kingsbury",
-          19395
+          21814
+        ],
+        [
+          "Bond Street",
+          21403
+        ],
+        [
+          "Southwark",
+          21166
         ],
         [
           "Waterloo",
-          15794
-        ],
-        [
-          "North Greenwich",
-          15743
+          15952
         ],
         [
           "Canons Park",
-          15535
+          14779
+        ],
+        [
+          "North Greenwich",
+          13948
+        ],
+        [
+          "London Bridge",
+          13566
         ],
         [
           "Westminster",
-          13313
+          10060
         ],
         [
           "Stanmore",
-          10567
+          9598
         ],
         [
           "Green Park",
-          6963
+          6846
         ]
       ]
     },
@@ -5809,148 +5809,148 @@
       "name": "Metropolitan",
       "color": "#9B0056",
       "station_count": 35,
-      "total_population": 630515,
-      "avg_population_per_station": 18014,
+      "total_population": 672143,
+      "avg_population_per_station": 19204,
       "stations": [
         [
-          "Finchley Road",
-          39888
-        ],
-        [
           "King's Cross St. Pancras",
-          39772
+          41635
         ],
         [
-          "Willesden Green",
-          33594
-        ],
-        [
-          "Euston Square",
-          33442
-        ],
-        [
-          "Baker Street",
-          31696
+          "Finchley Road",
+          37982
         ],
         [
           "Barbican",
-          30868
+          35144
         ],
         [
           "Farringdon",
-          30004
+          34927
         ],
         [
-          "Harrow-on-the-Hill",
-          25944
+          "Euston Square",
+          34395
+        ],
+        [
+          "Willesden Green",
+          33857
         ],
         [
           "Aldgate",
-          25367
+          30999
         ],
         [
-          "Wembley Park",
-          24939
+          "Baker Street",
+          28205
+        ],
+        [
+          "Harrow-on-the-Hill",
+          26889
         ],
         [
           "Great Portland Street",
-          24645
-        ],
-        [
-          "West Harrow",
-          23353
-        ],
-        [
-          "Rayners Lane",
-          21271
+          25828
         ],
         [
           "Moorgate",
-          19798
+          24552
         ],
         [
-          "Preston Road",
-          19259
+          "West Harrow",
+          24470
         ],
         [
           "Liverpool Street",
-          18861
+          23737
+        ],
+        [
+          "Wembley Park",
+          23582
+        ],
+        [
+          "Rayners Lane",
+          20389
         ],
         [
           "North Harrow",
-          18608
+          19435
+        ],
+        [
+          "Preston Road",
+          19009
         ],
         [
           "Eastcote",
-          17221
-        ],
-        [
-          "Ruislip Manor",
-          16699
+          16727
         ],
         [
           "Northwick Park",
-          15125
+          15574
         ],
         [
-          "Uxbridge",
-          14446
+          "Ruislip Manor",
+          15311
         ],
         [
           "Ruislip",
-          14216
-        ],
-        [
-          "Watford",
-          13121
+          14545
         ],
         [
           "Northwood Hills",
-          13100
+          12606
         ],
         [
-          "Pinner",
-          12790
-        ],
-        [
-          "Northwood",
-          11844
+          "Watford",
+          12444
         ],
         [
           "Croxley",
-          11748
+          12348
+        ],
+        [
+          "Uxbridge",
+          12290
+        ],
+        [
+          "Chesham",
+          11047
+        ],
+        [
+          "Pinner",
+          10829
+        ],
+        [
+          "Northwood",
+          10502
         ],
         [
           "Ickenham",
-          9670
+          9613
         ],
         [
           "Hillingdon",
-          8308
+          8401
+        ],
+        [
+          "Amersham",
+          7424
         ],
         [
           "Rickmansworth",
-          6742
+          6227
+        ],
+        [
+          "Chalfont & Latimer",
+          5027
         ],
         [
           "Chorleywood",
-          2414
+          4431
         ],
         [
           "Moor Park",
           1762
-        ],
-        [
-          "Amersham",
-          0
-        ],
-        [
-          "Chalfont & Latimer",
-          0
-        ],
-        [
-          "Chesham",
-          0
         ]
       ]
     },
@@ -5958,216 +5958,216 @@
       "name": "Northern",
       "color": "#000000",
       "station_count": 52,
-      "total_population": 1525494,
-      "avg_population_per_station": 29336,
+      "total_population": 1553237,
+      "avg_population_per_station": 29869,
       "stations": [
         [
           "Stockwell",
-          53770
+          55934
         ],
         [
           "Elephant & Castle",
-          51489
-        ],
-        [
-          "Oval",
-          49992
+          51023
         ],
         [
           "Clapham North",
-          48466
-        ],
-        [
-          "Angel",
-          48357
+          50007
         ],
         [
           "Kennington",
-          47526
+          49716
         ],
         [
           "Old Street",
-          45414
+          49421
+        ],
+        [
+          "Angel",
+          48243
+        ],
+        [
+          "Oval",
+          47879
         ],
         [
           "Kentish Town",
-          43914
-        ],
-        [
-          "Nine Elms",
-          40114
+          41746
         ],
         [
           "King's Cross St. Pancras",
-          39772
+          41635
         ],
         [
           "Chalk Farm",
-          38838
-        ],
-        [
-          "Tooting Broadway",
-          38211
-        ],
-        [
-          "Belsize Park",
-          37764
-        ],
-        [
-          "Colindale",
-          37350
-        ],
-        [
-          "Borough",
-          36821
-        ],
-        [
-          "Balham",
-          36539
-        ],
-        [
-          "Tufnell Park",
-          36482
+          41087
         ],
         [
           "Clapham Common",
-          36469
-        ],
-        [
-          "Archway",
-          36336
-        ],
-        [
-          "Camden Town",
-          35871
+          40186
         ],
         [
           "Euston",
-          35702
+          38860
         ],
         [
-          "Tooting Bec",
-          35258
+          "Camden Town",
+          38368
         ],
         [
-          "Mornington Crescent",
-          34302
+          "Tooting Broadway",
+          38220
         ],
         [
-          "Clapham South",
-          31283
+          "Tufnell Park",
+          38220
         ],
         [
-          "Warren Street",
-          31114
+          "Nine Elms",
+          38204
+        ],
+        [
+          "Balham",
+          38068
+        ],
+        [
+          "Archway",
+          37633
+        ],
+        [
+          "Colindale",
+          36236
+        ],
+        [
+          "Belsize Park",
+          35389
         ],
         [
           "Battersea Power Station",
-          31027
+          35192
+        ],
+        [
+          "Tooting Bec",
+          34018
+        ],
+        [
+          "Mornington Crescent",
+          33741
+        ],
+        [
+          "Warren Street",
+          33394
+        ],
+        [
+          "Borough",
+          32687
         ],
         [
           "Colliers Wood",
-          30587
-        ],
-        [
-          "Burnt Oak",
-          28979
+          31916
         ],
         [
           "Goodge Street",
-          28342
+          31510
+        ],
+        [
+          "Clapham South",
+          31320
+        ],
+        [
+          "Burnt Oak",
+          29159
+        ],
+        [
+          "Tottenham Court Road",
+          26245
         ],
         [
           "South Wimbledon",
           26092
         ],
         [
+          "Moorgate",
+          24552
+        ],
+        [
           "Hendon Central",
-          22787
-        ],
-        [
-          "Tottenham Court Road",
-          22300
-        ],
-        [
-          "Edgware",
-          22175
-        ],
-        [
-          "Finchley Central",
-          21395
-        ],
-        [
-          "West Finchley",
-          21243
+          23302
         ],
         [
           "Brent Cross",
-          20177
+          22981
         ],
         [
-          "Hampstead",
-          20081
+          "Edgware",
+          21554
         ],
         [
-          "London Bridge",
-          19954
+          "West Finchley",
+          21554
         ],
         [
-          "Moorgate",
-          19798
-        ],
-        [
-          "Woodside Park",
-          18896
+          "Finchley Central",
+          20551
         ],
         [
           "East Finchley",
-          18743
+          19656
+        ],
+        [
+          "Woodside Park",
+          18697
         ],
         [
           "Golders Green",
-          18690
-        ],
-        [
-          "Morden",
-          16595
-        ],
-        [
-          "High Barnet",
-          16515
+          17427
         ],
         [
           "Waterloo",
-          15794
+          15952
         ],
         [
           "Highgate",
-          14745
+          15613
+        ],
+        [
+          "Hampstead",
+          15542
+        ],
+        [
+          "Morden",
+          15309
         ],
         [
           "Leicester Square",
-          12504
+          15298
         ],
         [
-          "Totteridge & Whetstone",
-          11715
+          "High Barnet",
+          14800
         ],
         [
-          "Mill Hill East",
-          10567
-        ],
-        [
-          "Embankment",
-          10516
-        ],
-        [
-          "Bank",
-          9326
+          "London Bridge",
+          13566
         ],
         [
           "Charing Cross",
-          8797
+          11760
+        ],
+        [
+          "Totteridge & Whetstone",
+          11673
+        ],
+        [
+          "Bank",
+          11485
+        ],
+        [
+          "Embankment",
+          10651
+        ],
+        [
+          "Mill Hill East",
+          9965
         ]
       ]
     },
@@ -6175,216 +6175,216 @@
       "name": "Piccadilly",
       "color": "#003688",
       "station_count": 53,
-      "total_population": 1204303,
-      "avg_population_per_station": 22722,
+      "total_population": 1197229,
+      "avg_population_per_station": 22589,
       "stations": [
         [
           "Arsenal",
-          50615
-        ],
-        [
-          "Earl's Court",
-          47086
+          49529
         ],
         [
           "Holloway Road",
-          46529
+          48414
         ],
         [
           "Caledonian Road",
-          46452
-        ],
-        [
-          "Finsbury Park",
-          45454
+          46714
         ],
         [
           "Barons Court",
-          44903
+          45156
+        ],
+        [
+          "Earl's Court",
+          43899
         ],
         [
           "King's Cross St. Pancras",
-          39772
+          41635
         ],
         [
-          "Gloucester Road",
-          39320
-        ],
-        [
-          "Turnpike Lane",
-          38417
-        ],
-        [
-          "Manor House",
-          35622
+          "Finsbury Park",
+          41365
         ],
         [
           "Hammersmith (Dist&Picc Line)",
-          33920
+          38409
         ],
         [
-          "Hounslow Central",
-          33724
+          "Turnpike Lane",
+          38346
         ],
         [
-          "Turnham Green",
-          32421
+          "Manor House",
+          34384
         ],
         [
-          "South Kensington",
-          32218
+          "Gloucester Road",
+          33191
         ],
         [
           "Russell Square",
-          30843
+          32940
         ],
         [
-          "Wood Green",
-          30738
+          "Turnham Green",
+          32840
+        ],
+        [
+          "Hounslow Central",
+          31718
         ],
         [
           "Alperton",
-          28554
+          31657
         ],
         [
-          "Hounslow East",
-          28446
+          "Wood Green",
+          31654
         ],
         [
-          "Bounds Green",
-          27822
-        ],
-        [
-          "Northfields",
-          27237
+          "South Kensington",
+          28702
         ],
         [
           "Hounslow West",
-          27092
-        ],
-        [
-          "South Ealing",
-          25835
+          28174
         ],
         [
           "Holborn",
-          24713
+          28102
         ],
         [
-          "South Harrow",
-          23037
+          "Northfields",
+          28056
+        ],
+        [
+          "Hounslow East",
+          27911
+        ],
+        [
+          "Bounds Green",
+          27555
+        ],
+        [
+          "South Ealing",
+          26634
         ],
         [
           "Acton Town",
-          21498
+          23893
+        ],
+        [
+          "South Harrow",
+          21500
         ],
         [
           "Rayners Lane",
-          21271
-        ],
-        [
-          "Ealing Common",
-          20551
+          20389
         ],
         [
           "Sudbury Town",
-          18991
-        ],
-        [
-          "Sudbury Hill",
-          18915
+          20211
         ],
         [
           "Arnos Grove",
-          18737
+          18986
         ],
         [
-          "Southgate",
-          17749
+          "Ealing Common",
+          18635
         ],
         [
-          "North Ealing",
-          17651
-        ],
-        [
-          "Eastcote",
-          17221
-        ],
-        [
-          "Ruislip Manor",
-          16699
-        ],
-        [
-          "Osterley",
-          14830
-        ],
-        [
-          "Covent Garden",
-          14764
-        ],
-        [
-          "Uxbridge",
-          14446
-        ],
-        [
-          "Ruislip",
-          14216
-        ],
-        [
-          "Leicester Square",
-          12504
-        ],
-        [
-          "Knightsbridge",
-          12034
+          "Sudbury Hill",
+          18308
         ],
         [
           "Boston Manor",
-          11842
+          17903
         ],
         [
-          "Park Royal",
-          11752
+          "Covent Garden",
+          17850
+        ],
+        [
+          "Eastcote",
+          16727
+        ],
+        [
+          "Southgate",
+          16177
+        ],
+        [
+          "North Ealing",
+          15482
+        ],
+        [
+          "Ruislip Manor",
+          15311
+        ],
+        [
+          "Leicester Square",
+          15298
+        ],
+        [
+          "Ruislip",
+          14545
         ],
         [
           "Piccadilly Circus",
-          10577
+          14011
         ],
         [
-          "Oakwood",
-          10307
+          "Uxbridge",
+          12290
+        ],
+        [
+          "Osterley",
+          11587
+        ],
+        [
+          "Park Royal",
+          10876
         ],
         [
           "Ickenham",
-          9670
+          9613
         ],
         [
-          "Cockfosters",
-          9367
-        ],
-        [
-          "Hyde Park Corner",
-          8534
+          "Knightsbridge",
+          9128
         ],
         [
           "Hillingdon",
-          8308
+          8401
+        ],
+        [
+          "Oakwood",
+          7879
+        ],
+        [
+          "Hyde Park Corner",
+          7396
         ],
         [
           "Green Park",
-          6963
+          6846
+        ],
+        [
+          "Cockfosters",
+          6795
         ],
         [
           "Heathrow Terminal 4",
-          2959
+          3138
         ],
         [
           "Hatton Cross",
-          1177
+          703
         ],
         [
           "Heathrow Terminal 5",
-          0
+          366
         ],
         [
           "Heathrow Terminals 2 & 3",
@@ -6396,72 +6396,72 @@
       "name": "Victoria",
       "color": "#0098D4",
       "station_count": 16,
-      "total_population": 578460,
-      "avg_population_per_station": 36153,
+      "total_population": 569264,
+      "avg_population_per_station": 35579,
       "stations": [
         [
           "Stockwell",
-          53770
+          55934
         ],
         [
           "Brixton",
-          50402
-        ],
-        [
-          "Finsbury Park",
-          45454
+          50313
         ],
         [
           "Highbury & Islington",
-          45088
-        ],
-        [
-          "Vauxhall",
-          44183
-        ],
-        [
-          "Seven Sisters",
-          44100
-        ],
-        [
-          "Walthamstow Central",
-          42843
-        ],
-        [
-          "Pimlico",
-          41737
+          45642
         ],
         [
           "King's Cross St. Pancras",
-          39772
+          41635
+        ],
+        [
+          "Vauxhall",
+          41525
+        ],
+        [
+          "Finsbury Park",
+          41365
+        ],
+        [
+          "Walthamstow Central",
+          41144
+        ],
+        [
+          "Seven Sisters",
+          39965
+        ],
+        [
+          "Pimlico",
+          39553
         ],
         [
           "Euston",
-          35702
+          38860
         ],
         [
           "Warren Street",
-          31114
-        ],
-        [
-          "Victoria",
-          27271
+          33394
         ],
         [
           "Tottenham Hale",
-          27267
+          26519
         ],
         [
           "Blackhorse Road",
-          23840
+          25416
+        ],
+        [
+          "Victoria",
+          21571
         ],
         [
           "Oxford Circus",
-          18954
+          19582
         ],
         [
           "Green Park",
-          6963
+          6846
         ]
       ]
     },
@@ -6469,16 +6469,16 @@
       "name": "Waterloo City",
       "color": "#95CDBA",
       "station_count": 2,
-      "total_population": 25120,
-      "avg_population_per_station": 12560,
+      "total_population": 27437,
+      "avg_population_per_station": 13718,
       "stations": [
         [
           "Waterloo",
-          15794
+          15952
         ],
         [
           "Bank",
-          9326
+          11485
         ]
       ]
     },
@@ -6486,472 +6486,472 @@
       "name": "London Overground",
       "color": "#EE7C0E",
       "station_count": 116,
-      "total_population": 3815160,
-      "avg_population_per_station": 32889,
+      "total_population": 3788318,
+      "avg_population_per_station": 32657,
       "stations": [
         [
-          "Whitechapel",
-          60122
-        ],
-        [
-          "Bethnal Green",
-          56695
-        ],
-        [
           "Shadwell",
-          54003
+          56059
         ],
         [
           "Hoxton",
-          53352
+          54801
         ],
         [
-          "Dalston Kingsland",
-          51804
+          "Whitechapel",
+          54377
         ],
         [
-          "Dalston Junction",
-          51492
-        ],
-        [
-          "Haggerston",
-          50697
-        ],
-        [
-          "West Brompton",
-          49733
-        ],
-        [
-          "Kilburn High Road",
-          48757
-        ],
-        [
-          "Cambridge Heath (London)",
-          48355
+          "Bethnal Green",
+          53462
         ],
         [
           "Rectory Road",
-          48269
+          51434
         ],
         [
-          "London Fields",
-          48213
+          "Dalston Kingsland",
+          50896
         ],
         [
-          "Hackney Central",
-          47777
+          "Dalston Junction",
+          50868
         ],
         [
-          "Queens Park (London)",
-          47520
-        ],
-        [
-          "Hackney Downs",
-          47203
-        ],
-        [
-          "Stamford Hill",
-          47039
-        ],
-        [
-          "Leyton Midland Road",
-          46413
-        ],
-        [
-          "Canonbury",
-          46268
+          "Haggerston",
+          49727
         ],
         [
           "Stoke Newington",
-          46217
-        ],
-        [
-          "Homerton",
-          45775
-        ],
-        [
-          "Highbury & Islington",
-          45419
-        ],
-        [
-          "Clapton",
-          44770
-        ],
-        [
-          "Walthamstow Queens Road",
-          44359
+          48333
         ],
         [
           "Clapham High Street",
-          44225
+          48074
+        ],
+        [
+          "Cambridge Heath (London)",
+          48014
+        ],
+        [
+          "West Brompton",
+          47903
+        ],
+        [
+          "Kilburn High Road",
+          47885
+        ],
+        [
+          "Hackney Downs",
+          47746
+        ],
+        [
+          "Hackney Central",
+          47615
+        ],
+        [
+          "London Fields",
+          47455
         ],
         [
           "Caledonian Road & Barnsbury",
-          44173
+          46429
+        ],
+        [
+          "Highbury & Islington",
+          45961
         ],
         [
           "Upper Holloway",
-          44124
+          45503
         ],
         [
-          "Seven Sisters",
-          43982
+          "Queens Park (London)",
+          45263
         ],
         [
-          "West Hampstead",
-          43518
-        ],
-        [
-          "South Tottenham",
-          42979
-        ],
-        [
-          "Crouch Hill",
-          42978
-        ],
-        [
-          "Walthamstow Central",
-          42746
-        ],
-        [
-          "Kentish Town West",
-          42539
+          "Canonbury",
+          45056
         ],
         [
           "Clapham Junction",
-          42275
+          44525
         ],
         [
-          "Peckham Rye",
-          42155
-        ],
-        [
-          "Shepherds Bush",
-          42145
+          "Walthamstow Queens Road",
+          44463
         ],
         [
           "Clapham Junction",
-          42042
+          43996
         ],
         [
-          "Wapping",
-          41762
+          "Stamford Hill",
+          43869
         ],
         [
-          "Queens Road Peckham",
-          41200
+          "Homerton",
+          43805
+        ],
+        [
+          "Leyton Midland Road",
+          43759
         ],
         [
           "Shoreditch High Street",
-          40969
+          43731
         ],
         [
-          "South Hampstead",
-          40282
+          "Seven Sisters",
+          43269
         ],
         [
-          "Brondesbury",
-          40228
+          "Peckham Rye",
+          42679
         ],
         [
-          "Bruce Grove",
-          40177
-        ],
-        [
-          "Wandsworth Road",
-          39809
-        ],
-        [
-          "Imperial Wharf",
-          39619
+          "Kentish Town West",
+          42601
         ],
         [
           "Camden Road",
-          39174
+          41905
+        ],
+        [
+          "Queens Road Peckham",
+          41854
+        ],
+        [
+          "Brondesbury",
+          41842
+        ],
+        [
+          "Wapping",
+          41321
+        ],
+        [
+          "Walthamstow Central",
+          41144
+        ],
+        [
+          "South Tottenham",
+          40847
         ],
         [
           "Denmark Hill",
-          38721
-        ],
-        [
-          "Woodgrange Park",
-          38220
+          40487
         ],
         [
           "Kensington (Olympia)",
-          37695
+          40392
         ],
         [
-          "New Cross ELL",
-          37498
+          "Bruce Grove",
+          40143
         ],
         [
-          "New Cross Gate",
-          36438
+          "Wandsworth Road",
+          39475
         ],
         [
-          "London Euston",
-          36263
+          "Clapton",
+          39227
         ],
         [
-          "West Croydon",
-          36070
+          "South Hampstead",
+          39063
         ],
         [
-          "Surrey Quays",
-          35761
-        ],
-        [
-          "Leytonstone High Road",
-          35496
-        ],
-        [
-          "Finchley Road & Frognal",
-          34754
-        ],
-        [
-          "Silver Street",
-          34607
+          "West Hampstead",
+          38984
         ],
         [
           "St James Street (London)",
-          34381
+          38712
+        ],
+        [
+          "Shepherds Bush",
+          38648
+        ],
+        [
+          "Imperial Wharf",
+          38469
+        ],
+        [
+          "Crouch Hill",
+          38450
+        ],
+        [
+          "New Cross Gate",
+          36828
+        ],
+        [
+          "London Euston",
+          36551
+        ],
+        [
+          "West Croydon",
+          36542
+        ],
+        [
+          "Surrey Quays",
+          36248
         ],
         [
           "Harringay Green Lanes",
-          34373
-        ],
-        [
-          "Edmonton Green",
-          33848
-        ],
-        [
-          "Acton Central",
-          33684
+          35812
         ],
         [
           "Wembley Central",
-          33163
+          35739
         ],
         [
-          "Barking",
-          32036
+          "Silver Street",
+          35600
+        ],
+        [
+          "New Cross ELL",
+          35241
         ],
         [
           "Stratford (London)",
-          32021
+          35179
         ],
         [
-          "South Acton",
-          31844
+          "Acton Central",
+          34187
         ],
         [
-          "Canada Water",
-          31484
+          "Woodgrange Park",
+          33625
         ],
         [
-          "White Hart Lane",
-          31355
+          "Barking",
+          33394
         ],
         [
-          "Gospel Oak",
-          30809
-        ],
-        [
-          "Wanstead Park",
-          30752
+          "Edmonton Green",
+          33005
         ],
         [
           "Rotherhithe",
-          30525
+          32639
         ],
         [
-          "Norwood Junction",
-          29781
+          "South Acton",
+          31886
         ],
         [
-          "Wood Street",
-          29756
+          "Leytonstone High Road",
+          31840
+        ],
+        [
+          "Finchley Road & Frognal",
+          31579
+        ],
+        [
+          "White Hart Lane",
+          30885
         ],
         [
           "Brondesbury Park",
-          29637
+          30360
         ],
         [
           "Brockley",
-          29499
+          30242
         ],
         [
-          "Harrow & Wealdstone",
-          28738
+          "Gospel Oak",
+          30157
         ],
         [
-          "Kensal Rise",
-          27081
+          "Norwood Junction",
+          29030
         ],
         [
-          "Kensal Green",
-          26201
+          "Canada Water",
+          28993
         ],
         [
           "Sydenham",
-          26091
-        ],
-        [
-          "Forest Hill",
-          26014
-        ],
-        [
-          "Hampstead Heath",
-          25741
-        ],
-        [
-          "Penge West",
-          24698
-        ],
-        [
-          "North Wembley",
-          23420
-        ],
-        [
-          "Honor Oak Park",
-          23330
-        ],
-        [
-          "Anerley",
-          23311
+          28927
         ],
         [
           "Harlesden",
-          22954
-        ],
-        [
-          "London Bridge",
-          22688
+          27869
         ],
         [
           "London Liverpool Street",
-          22479
+          27748
+        ],
+        [
+          "Kensal Rise",
+          27318
+        ],
+        [
+          "Harrow & Wealdstone",
+          26797
+        ],
+        [
+          "Kensal Green",
+          26574
+        ],
+        [
+          "Forest Hill",
+          26351
+        ],
+        [
+          "Wood Street",
+          25828
         ],
         [
           "Blackhorse Road",
-          22259
+          25078
         ],
         [
-          "Bush Hill Park",
-          22179
-        ],
-        [
-          "Crystal Palace",
-          21718
-        ],
-        [
-          "Romford",
-          21511
-        ],
-        [
-          "Willesden Junction",
-          21400
-        ],
-        [
-          "Watford Junction",
-          20801
-        ],
-        [
-          "Watford Junction",
-          20801
+          "Honor Oak Park",
+          24411
         ],
         [
           "Gunnersbury",
-          20114
+          23716
         ],
         [
-          "Highams Park",
-          19546
+          "Wanstead Park",
+          23509
         ],
         [
-          "Stonebridge Park",
-          19457
+          "Penge West",
+          23491
+        ],
+        [
+          "Willesden Junction",
+          23125
+        ],
+        [
+          "Anerley",
+          23096
+        ],
+        [
+          "Bush Hill Park",
+          22986
+        ],
+        [
+          "North Wembley",
+          21992
+        ],
+        [
+          "Watford Junction",
+          21456
+        ],
+        [
+          "Crystal Palace",
+          21153
+        ],
+        [
+          "Hampstead Heath",
+          21094
+        ],
+        [
+          "Watford Junction",
+          21002
         ],
         [
           "Southbury",
-          19437
+          20703
+        ],
+        [
+          "Romford",
+          20687
+        ],
+        [
+          "Stonebridge Park",
+          20542
         ],
         [
           "Enfield Town",
-          19425
+          19955
+        ],
+        [
+          "Highams Park",
+          19456
         ],
         [
           "Turkey Street",
-          19399
-        ],
-        [
-          "Kenton",
-          18418
+          19386
         ],
         [
           "Watford High Street",
-          17883
+          18841
         ],
         [
           "Hackney Wick",
-          17725
+          18388
         ],
         [
-          "Richmond (London)",
-          16101
+          "London Bridge",
+          17644
         ],
         [
-          "Carpenders Park",
-          14392
+          "Kenton",
+          17532
         ],
         [
           "South Kenton",
-          14279
-        ],
-        [
-          "Bushey",
-          13794
+          15326
         ],
         [
           "Theobalds Grove",
-          13794
+          14701
         ],
         [
           "Bushey",
-          13725
-        ],
-        [
-          "Emerson Park",
-          13353
+          14186
         ],
         [
           "Headstone Lane",
-          12902
+          13963
+        ],
+        [
+          "Bushey",
+          13849
+        ],
+        [
+          "Richmond (London)",
+          13661
         ],
         [
           "Kew Gardens",
-          12762
+          13396
         ],
         [
-          "Cheshunt",
-          11227
+          "Emerson Park",
+          12543
         ],
         [
-          "Upminster",
-          10584
+          "Carpenders Park",
+          11907
         ],
         [
           "Barking Riverside",
-          10333
+          10807
         ],
         [
-          "Chingford",
-          9802
+          "Cheshunt",
+          8705
+        ],
+        [
+          "Upminster",
+          7685
         ],
         [
           "Hatch End",
-          9469
+          7621
+        ],
+        [
+          "Chingford",
+          7230
         ]
       ]
     },
@@ -6959,180 +6959,180 @@
       "name": "Elizabeth",
       "color": "#9364CD",
       "station_count": 43,
-      "total_population": 898083,
-      "avg_population_per_station": 20885,
+      "total_population": 996325,
+      "avg_population_per_station": 23170,
       "stations": [
         [
           "Whitechapel",
-          59894
+          54405
         ],
         [
           "Paddington",
-          42890
-        ],
-        [
-          "Maryland",
-          42114
-        ],
-        [
-          "Canary Wharf",
-          40977
+          47944
         ],
         [
           "London Paddington",
-          40358
+          46044
         ],
         [
-          "Forest Gate",
-          39792
+          "Maryland",
+          45346
         ],
         [
-          "Ilford",
-          34023
-        ],
-        [
-          "Seven Kings",
-          33739
+          "Canary Wharf",
+          41807
         ],
         [
           "Stratford (London)",
-          32021
-        ],
-        [
-          "Southall",
-          31824
-        ],
-        [
-          "West Ealing",
-          31489
-        ],
-        [
-          "Woolwich",
-          30959
-        ],
-        [
-          "Goodmayes",
-          30222
-        ],
-        [
-          "Chadwell Heath",
-          29488
+          35179
         ],
         [
           "Farringdon",
-          29233
+          34195
         ],
         [
-          "Manor Park",
-          29230
+          "Seven Kings",
+          33539
+        ],
+        [
+          "Southall",
+          33443
+        ],
+        [
+          "Forest Gate",
+          33309
+        ],
+        [
+          "Ilford",
+          31676
         ],
         [
           "Custom House",
-          29016
+          31256
         ],
         [
-          "Acton Main Line",
-          25279
+          "West Ealing",
+          30637
         ],
         [
-          "Hanwell",
-          23276
+          "Chadwell Heath",
+          30090
         ],
         [
-          "Abbey Wood",
-          22735
+          "Goodmayes",
+          29191
+        ],
+        [
+          "Woolwich",
+          27977
         ],
         [
           "London Liverpool Street",
-          22479
-        ],
-        [
-          "Ealing Broadway",
-          22234
-        ],
-        [
-          "Romford",
-          21511
+          27748
         ],
         [
           "Liverpool Street",
-          20898
-        ],
-        [
-          "Hayes & Harlington",
-          20098
-        ],
-        [
-          "Tottenham Court Road",
-          18689
-        ],
-        [
-          "West Drayton",
-          18042
-        ],
-        [
-          "Bond Street",
-          17335
-        ],
-        [
-          "Gidea Park",
-          16065
-        ],
-        [
-          "Brentwood",
-          14551
-        ],
-        [
-          "Harold Wood",
-          14155
-        ],
-        [
-          "Shenfield",
-          6883
-        ],
-        [
-          "Heathrow Terminal 4",
-          3810
-        ],
-        [
-          "Iver",
-          2774
-        ],
-        [
-          "Burnham (Berks)",
-          0
-        ],
-        [
-          "Heathrow Terminals 2 & 3",
-          0
-        ],
-        [
-          "Heathrow Terminal 5",
-          0
-        ],
-        [
-          "Langley (Berks)",
-          0
-        ],
-        [
-          "Maidenhead",
-          0
-        ],
-        [
-          "Reading",
-          0
+          26463
         ],
         [
           "Slough",
-          0
+          23972
         ],
         [
-          "Taplow",
-          0
+          "Hanwell",
+          23769
+        ],
+        [
+          "Tottenham Court Road",
+          23246
+        ],
+        [
+          "Manor Park",
+          22727
+        ],
+        [
+          "Abbey Wood",
+          22328
+        ],
+        [
+          "Ealing Broadway",
+          21159
+        ],
+        [
+          "Acton Main Line",
+          20712
+        ],
+        [
+          "Romford",
+          20687
+        ],
+        [
+          "Bond Street",
+          19825
+        ],
+        [
+          "Hayes & Harlington",
+          18900
+        ],
+        [
+          "West Drayton",
+          18637
+        ],
+        [
+          "Burnham (Berks)",
+          16243
+        ],
+        [
+          "Gidea Park",
+          14791
+        ],
+        [
+          "Brentwood",
+          14737
+        ],
+        [
+          "Reading",
+          14147
+        ],
+        [
+          "Harold Wood",
+          13984
+        ],
+        [
+          "Maidenhead",
+          13200
+        ],
+        [
+          "Langley (Berks)",
+          8098
+        ],
+        [
+          "Shenfield",
+          6868
         ],
         [
           "Twyford",
-          0
+          6435
+        ],
+        [
+          "Taplow",
+          3870
+        ],
+        [
+          "Heathrow Terminal 4",
+          3632
+        ],
+        [
+          "Iver",
+          3385
+        ],
+        [
+          "Heathrow Terminal 5",
+          366
+        ],
+        [
+          "Heathrow Terminals 2 & 3",
+          358
         ]
       ]
     },
@@ -7140,188 +7140,188 @@
       "name": "Dlr",
       "color": "#00A4A7",
       "station_count": 45,
-      "total_population": 1370138,
-      "avg_population_per_station": 30447,
+      "total_population": 1407028,
+      "avg_population_per_station": 31267,
       "stations": [
         [
-          "Devons Road",
-          55899
-        ],
-        [
           "Shadwell",
-          53781
-        ],
-        [
-          "Langdon Park",
-          52044
-        ],
-        [
-          "Bow Church",
-          50227
+          57522
         ],
         [
           "Limehouse",
-          49496
+          52360
+        ],
+        [
+          "Langdon Park",
+          51564
+        ],
+        [
+          "Devons Road",
+          48409
         ],
         [
           "All Saints",
-          47094
+          48101
         ],
         [
           "Westferry",
-          41227
+          47722
+        ],
+        [
+          "Bow Church",
+          43068
         ],
         [
           "Deptford Bridge",
-          41123
-        ],
-        [
-          "West India Quay",
-          40937
+          41380
         ],
         [
           "Poplar",
-          40618
+          41319
         ],
         [
-          "Crossharbour",
-          40170
+          "West India Quay",
+          41233
         ],
         [
           "Canary Wharf",
-          39981
-        ],
-        [
-          "Mudchute",
-          38423
+          40242
         ],
         [
           "Heron Quays",
-          38373
+          39961
         ],
         [
-          "Elverson Road",
-          36385
+          "Mudchute",
+          38227
         ],
         [
           "South Quay",
-          34160
+          37663
         ],
         [
-          "Greenwich",
-          33672
+          "Elverson Road",
+          37533
         ],
         [
-          "Lewisham",
-          33569
+          "Crossharbour",
+          36104
         ],
         [
           "Stratford",
-          32224
-        ],
-        [
-          "Woolwich Arsenal",
-          31651
-        ],
-        [
-          "Island Gardens",
-          31564
-        ],
-        [
-          "Blackwall",
-          31372
-        ],
-        [
-          "Custom House (for ExCel)",
-          30493
-        ],
-        [
-          "Canning Town",
-          29590
-        ],
-        [
-          "Cutty Sark (for Maritime Greenwich)",
-          28769
+          35179
         ],
         [
           "Royal Victoria",
-          28335
+          34180
         ],
         [
-          "Abbey Road",
-          27877
-        ],
-        [
-          "Pudding Mill Lane",
-          27745
+          "Canning Town",
+          33960
         ],
         [
           "Stratford High Street",
-          27349
+          33526
         ],
         [
-          "East India",
-          26303
+          "Custom House (for ExCel)",
+          33009
+        ],
+        [
+          "Greenwich",
+          32908
+        ],
+        [
+          "Lewisham",
+          32657
+        ],
+        [
+          "Abbey Road",
+          32202
+        ],
+        [
+          "Blackwall",
+          31976
         ],
         [
           "Tower Gateway",
-          25466
+          31650
         ],
         [
-          "Prince Regent",
-          24879
+          "Island Gardens",
+          30935
+        ],
+        [
+          "Woolwich Arsenal",
+          30215
+        ],
+        [
+          "Cutty Sark (for Maritime Greenwich)",
+          29190
+        ],
+        [
+          "East India",
+          27589
         ],
         [
           "West Ham",
-          22667
-        ],
-        [
-          "Star Lane",
-          21375
+          26742
         ],
         [
           "Stratford International",
-          20766
+          22521
         ],
         [
-          "West Silvertown",
-          20573
+          "Pudding Mill Lane",
+          22468
+        ],
+        [
+          "Prince Regent",
+          20814
         ],
         [
           "Beckton",
-          19404
+          20754
+        ],
+        [
+          "West Silvertown",
+          20202
+        ],
+        [
+          "Star Lane",
+          17968
         ],
         [
           "Pontoon Dock",
-          14801
+          17950
         ],
         [
           "Royal Albert",
-          14735
+          16588
         ],
         [
           "Beckton Park",
-          13877
+          15369
         ],
         [
           "Cyprus",
-          13500
-        ],
-        [
-          "Gallions Reach",
-          12009
+          12000
         ],
         [
           "King George V",
-          9696
+          11395
         ],
         [
           "Bank",
-          8192
+          11216
         ],
         [
           "London City Airport",
-          7747
+          9889
+        ],
+        [
+          "Gallions Reach",
+          9568
         ]
       ]
     }

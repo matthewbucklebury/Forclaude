@@ -31,7 +31,7 @@ def load_data():
     with open(DATA_DIR / "tube_stations.json") as f:
         station_data = json.load(f)
 
-    with open(DATA_DIR / "london_population.json") as f:
+    with open(DATA_DIR / "london_population_extended.json") as f:
         pop_data = json.load(f)
 
     return station_data, pop_data
