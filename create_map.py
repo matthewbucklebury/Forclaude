@@ -169,8 +169,16 @@ def create_map(results):
         # Get primary line color for border
         line_color = get_line_color(station, line_stats)
 
-        # Tooltip text
-        tooltip_text = f"{station['name']}: {station['population']:,} people"
+        # Format line names for tooltip
+        line_names = [line_id.replace("-", " ").title() for line_id in station.get("lines", [])]
+        lines_text = ", ".join(line_names) if line_names else "Unknown"
+
+        # Create enhanced HTML tooltip
+        tooltip_html = f"""<div style="font-family: Arial, sans-serif; padding: 4px;">
+            <strong style="font-size: 13px;">{station['name']}</strong><br>
+            <span style="color: #666; font-size: 11px;">Population within 500m:</span> <strong>{station['population']:,}</strong><br>
+            <span style="color: #666; font-size: 11px;">Lines:</span> {lines_text}
+        </div>"""
 
         station_data.append({
             'id': i,
@@ -181,13 +189,25 @@ def create_map(results):
             'line_color': line_color,
             'fill_color': fill_color,
             'popup_html': popup_html_escaped,
-            'tooltip': tooltip_text
+            'tooltip': tooltip_html
         })
 
     # Generate JavaScript to create all markers and circles with hover behavior
     js_stations = json.dumps(station_data)
 
     hover_script = f"""
+    <style>
+    .station-tooltip {{
+        background-color: white;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+        padding: 0;
+    }}
+    .station-tooltip .leaflet-tooltip-content {{
+        margin: 0;
+    }}
+    </style>
     <script>
     document.addEventListener('DOMContentLoaded', function() {{
         // Wait for map to be ready
@@ -235,8 +255,12 @@ def create_map(results):
                     opacity: 1
                 }}).addTo(map);
 
-                // Add tooltip to marker
-                marker.bindTooltip(s.tooltip);
+                // Add tooltip to marker (with HTML support)
+                marker.bindTooltip(s.tooltip, {{
+                    direction: 'top',
+                    offset: [0, -10],
+                    className: 'station-tooltip'
+                }});
 
                 // Add popup to marker
                 marker.bindPopup(s.popup_html, {{maxWidth: 300}});
