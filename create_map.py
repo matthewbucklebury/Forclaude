@@ -161,9 +161,8 @@ def create_map(results):
         if station["lat"] is None or station["lon"] is None:
             continue
 
-        # Create popup
+        # Create popup HTML content
         popup_html = create_popup_content(station, line_stats)
-        popup = folium.Popup(popup_html, max_width=300)
 
         # Get station color based on population
         pop = station["population"]
@@ -172,7 +171,10 @@ def create_map(results):
         # Get primary line color for border
         line_color = get_line_color(station, line_stats)
 
-        # Add 500m radius circle
+        # Tooltip text
+        tooltip_text = f"{station['name']}: {station['population']:,} people"
+
+        # Add 500m radius circle (with its own popup instance)
         folium.Circle(
             location=[station["lat"], station["lon"]],
             radius=500,
@@ -181,11 +183,11 @@ def create_map(results):
             fill=True,
             fill_color=fill_color,
             fill_opacity=0.4,
-            popup=popup,
-            tooltip=f"{station['name']}: {station['population']:,} people"
+            popup=folium.Popup(popup_html, max_width=300),
+            tooltip=tooltip_text
         ).add_to(m)
 
-        # Add station marker
+        # Add station marker (with its own popup instance)
         folium.CircleMarker(
             location=[station["lat"], station["lon"]],
             radius=6,
@@ -194,8 +196,8 @@ def create_map(results):
             fill=True,
             fill_color='white',
             fill_opacity=1,
-            popup=popup,
-            tooltip=f"{station['name']}"
+            popup=folium.Popup(popup_html, max_width=300),
+            tooltip=tooltip_text
         ).add_to(m)
 
     # Add colormap legend
