@@ -122,7 +122,7 @@ def get_line_color(station, line_stats):
 
 
 def create_map(results):
-    """Create the interactive Folium map."""
+    """Create the interactive Folium map with hover-to-show circles."""
     print("Creating interactive map...")
 
     stations = results["stations"]
@@ -139,7 +139,7 @@ def create_map(results):
         colors=['#fee8c8', '#fdbb84', '#e34a33'],
         vmin=min_pop,
         vmax=max_pop,
-        caption='Station Catchment Population (500m radius)'
+        caption='Station Catchment Population (500m radius) - Hover over station to see area'
     )
 
     # Create base map centered on London
@@ -150,19 +150,17 @@ def create_map(results):
         tiles='cartodbpositron'
     )
 
-    # Create feature groups for each line
-    line_groups = {}
-    for line_id in line_colors.keys():
-        line_name = line_id.replace("-", " ").title()
-        line_groups[line_id] = folium.FeatureGroup(name=line_name, show=True)
+    # Build JavaScript for hover interactions
+    js_code_parts = []
+    station_data = []
 
-    # Add stations to map
-    for station in stations:
+    for i, station in enumerate(stations):
         if station["lat"] is None or station["lon"] is None:
             continue
 
-        # Create popup HTML content
+        # Create popup HTML content (escape for JS)
         popup_html = create_popup_content(station, line_stats)
+        popup_html_escaped = popup_html.replace('\\', '\\\\').replace("'", "\\'").replace('\n', ' ')
 
         # Get station color based on population
         pop = station["population"]
@@ -174,31 +172,106 @@ def create_map(results):
         # Tooltip text
         tooltip_text = f"{station['name']}: {station['population']:,} people"
 
-        # Add 500m radius circle (with its own popup instance)
-        folium.Circle(
-            location=[station["lat"], station["lon"]],
-            radius=500,
-            color=line_color,
-            weight=2,
-            fill=True,
-            fill_color=fill_color,
-            fill_opacity=0.4,
-            popup=folium.Popup(popup_html, max_width=300),
-            tooltip=tooltip_text
-        ).add_to(m)
+        station_data.append({
+            'id': i,
+            'lat': station['lat'],
+            'lon': station['lon'],
+            'name': station['name'],
+            'population': station['population'],
+            'line_color': line_color,
+            'fill_color': fill_color,
+            'popup_html': popup_html_escaped,
+            'tooltip': tooltip_text
+        })
 
-        # Add station marker (with its own popup instance)
-        folium.CircleMarker(
-            location=[station["lat"], station["lon"]],
-            radius=6,
-            color=line_color,
-            weight=2,
-            fill=True,
-            fill_color='white',
-            fill_opacity=1,
-            popup=folium.Popup(popup_html, max_width=300),
-            tooltip=tooltip_text
-        ).add_to(m)
+    # Generate JavaScript to create all markers and circles with hover behavior
+    js_stations = json.dumps(station_data)
+
+    hover_script = f"""
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {{
+        // Wait for map to be ready
+        setTimeout(function() {{
+            var mapElement = document.querySelector('.folium-map');
+            if (!mapElement) return;
+
+            // Find the Leaflet map instance
+            var mapId = mapElement.id;
+            var map = window[mapId];
+            if (!map) {{
+                // Try to find map in different way
+                for (var key in window) {{
+                    if (window[key] && window[key]._leaflet_id && window[key].getCenter) {{
+                        map = window[key];
+                        break;
+                    }}
+                }}
+            }}
+            if (!map) return;
+
+            var stations = {js_stations};
+
+            stations.forEach(function(s) {{
+                // Create the 500m radius circle (hidden by default)
+                var circle = L.circle([s.lat, s.lon], {{
+                    radius: 500,
+                    color: s.line_color,
+                    weight: 2,
+                    fill: true,
+                    fillColor: s.fill_color,
+                    fillOpacity: 0,
+                    opacity: 0
+                }});
+
+                // Create the station marker (always visible)
+                var marker = L.circleMarker([s.lat, s.lon], {{
+                    radius: 6,
+                    color: s.line_color,
+                    weight: 2,
+                    fill: true,
+                    fillColor: 'white',
+                    fillOpacity: 1,
+                    opacity: 1
+                }}).addTo(map);
+
+                // Add tooltip to marker
+                marker.bindTooltip(s.tooltip);
+
+                // Add popup to marker
+                marker.bindPopup(s.popup_html, {{maxWidth: 300}});
+
+                // Show circle on hover
+                marker.on('mouseover', function(e) {{
+                    if (!map.hasLayer(circle)) {{
+                        circle.addTo(map);
+                    }}
+                    circle.setStyle({{opacity: 1, fillOpacity: 0.4}});
+                }});
+
+                // Hide circle when mouse leaves (but not if popup is open)
+                marker.on('mouseout', function(e) {{
+                    if (!marker.isPopupOpen()) {{
+                        circle.setStyle({{opacity: 0, fillOpacity: 0}});
+                    }}
+                }});
+
+                // Keep circle visible while popup is open
+                marker.on('popupopen', function(e) {{
+                    if (!map.hasLayer(circle)) {{
+                        circle.addTo(map);
+                    }}
+                    circle.setStyle({{opacity: 1, fillOpacity: 0.4}});
+                }});
+
+                // Hide circle when popup closes
+                marker.on('popupclose', function(e) {{
+                    circle.setStyle({{opacity: 0, fillOpacity: 0}});
+                }});
+            }});
+        }}, 500);
+    }});
+    </script>
+    """
 
     # Add colormap legend
     colormap.add_to(m)
@@ -221,10 +294,13 @@ def create_map(results):
         font-family: Arial, sans-serif;
     ">
         <h2 style="margin: 0; font-size: 16px; color: #333;">London Tube Station Population Catchment</h2>
-        <p style="margin: 5px 0 0 0; font-size: 12px; color: #666;">Population within 500m radius of each station</p>
+        <p style="margin: 5px 0 0 0; font-size: 12px; color: #666;">Hover over a station to see its 500m catchment area</p>
     </div>
     """
     m.get_root().html.add_child(folium.Element(title_html))
+
+    # Add the hover interaction script
+    m.get_root().html.add_child(folium.Element(hover_script))
 
     # Save map
     output_file = OUTPUT_DIR / "tube_population_map.html"
