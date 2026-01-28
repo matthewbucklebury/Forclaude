@@ -479,8 +479,22 @@ def create_map_with_toggle(results_500m, results_1km):
     </div>
     """
 
+    # CSS to move colormap legend to bottom right
+    colormap_position_css = """
+    <style>
+    .legend {
+        position: fixed !important;
+        bottom: 30px !important;
+        right: 10px !important;
+        top: auto !important;
+        left: auto !important;
+    }
+    </style>
+    """
+
     # Add all elements to map
     colormap.add_to(m)
+    m.get_root().html.add_child(folium.Element(colormap_position_css))
     m.get_root().html.add_child(folium.Element(legend_html))
     m.get_root().html.add_child(folium.Element(title_html))
     m.get_root().html.add_child(folium.Element(main_script))
