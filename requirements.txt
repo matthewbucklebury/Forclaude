@@ -1,0 +1,22 @@
+# UK Mobility Dashboard - Requirements
+# Core web framework
+dash>=2.14.0
+dash-bootstrap-components>=1.5.0
+plotly>=5.18.0
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Database
+sqlalchemy>=2.0.0
+
+# HTTP requests and data fetching
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+
+# Scheduling for data refresh
+schedule>=1.2.0
+
+# Development
+python-dotenv>=1.0.0
