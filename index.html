@@ -354,8 +354,12 @@
                     <label>Smoothing</label>
                     <div class="checkbox-group">
                         <label class="checkbox-item">
-                            <input type="checkbox" id="smoothing">
-                            3-period rolling average
+                            <input type="checkbox" id="smoothing3">
+                            3-period rolling avg
+                        </label>
+                        <label class="checkbox-item">
+                            <input type="checkbox" id="smoothing12">
+                            12-period rolling avg
                         </label>
                     </div>
                 </div>
@@ -441,8 +445,9 @@
                 radio.addEventListener('change', updateChart);
             });
 
-            // Smoothing checkbox
-            document.getElementById('smoothing').addEventListener('change', updateChart);
+            // Smoothing checkboxes
+            document.getElementById('smoothing3').addEventListener('change', updateChart);
+            document.getElementById('smoothing12').addEventListener('change', updateChart);
 
             // Date inputs
             document.getElementById('startDate').addEventListener('change', updateChart);
@@ -498,8 +503,11 @@
             return document.querySelector('[name="viewType"]:checked').value;
         }
 
-        function isSmoothing() {
-            return document.getElementById('smoothing').checked;
+        function getSmoothingWindow() {
+            // 12-period takes precedence if both are checked
+            if (document.getElementById('smoothing12').checked) return 12;
+            if (document.getElementById('smoothing3').checked) return 3;
+            return 0;
         }
 
         function getDateRange() {
@@ -521,13 +529,14 @@
             });
         }
 
-        function applySmoothing(data, mode) {
+        function applySmoothing(data, mode, windowSize) {
             const modeData = data.filter(d => d.mode === mode).sort((a, b) => new Date(a.date) - new Date(b.date));
             const smoothed = [];
+            const halfWindow = Math.floor(windowSize / 2);
 
             for (let i = 0; i < modeData.length; i++) {
-                const start = Math.max(0, i - 1);
-                const end = Math.min(modeData.length, i + 2);
+                const start = Math.max(0, i - halfWindow);
+                const end = Math.min(modeData.length, i + halfWindow + 1);
                 const window = modeData.slice(start, end);
 
                 const avgJourneys = window.reduce((sum, d) => sum + d.journeys, 0) / window.length;
@@ -546,7 +555,7 @@
         function updateChart() {
             const modes = getSelectedModes();
             const viewType = getViewType();
-            const smoothing = isSmoothing();
+            const smoothingWindow = getSmoothingWindow();
 
             filteredData = filterData();
 
@@ -561,8 +570,8 @@
             }
 
             const traces = modes.map(mode => {
-                let modeData = smoothing
-                    ? applySmoothing(filteredData, mode)
+                let modeData = smoothingWindow > 0
+                    ? applySmoothing(filteredData, mode, smoothingWindow)
                     : filteredData.filter(d => d.mode === mode).sort((a, b) => new Date(a.date) - new Date(b.date));
 
                 const yValues = viewType === 'indexed'
