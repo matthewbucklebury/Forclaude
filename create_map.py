@@ -26,6 +26,15 @@ def load_dual_results():
     return results_500m, results_1km
 
 
+def load_enhanced_stations():
+    """Load enhanced station data with usage information."""
+    enhanced_file = DATA_DIR / "tube_stations_enhanced.json"
+    if enhanced_file.exists():
+        with open(enhanced_file) as f:
+            return json.load(f)
+    return None
+
+
 def get_line_color(station, line_stats):
     """Get the primary line color for a station."""
     if station["lines"]:
@@ -38,7 +47,7 @@ def get_line_color(station, line_stats):
     return "#666666"
 
 
-def create_map_with_toggle(results_500m, results_1km):
+def create_map_with_toggle(results_500m, results_1km, enhanced_data=None):
     """Create the interactive Folium map with radius toggle."""
     print("Creating interactive map with radius toggle...")
 
@@ -47,6 +56,12 @@ def create_map_with_toggle(results_500m, results_1km):
     line_stats_500 = results_500m["line_stats"]
     line_stats_1km = results_1km["line_stats"]
     line_colors = results_500m["line_colors"]
+
+    # Build enhanced station lookup if available
+    enhanced_lookup = {}
+    if enhanced_data:
+        enhanced_lookup = {s["naptanId"]: s for s in enhanced_data.get("stations", [])}
+        print(f"  Loaded usage data for {len(enhanced_lookup)} stations")
 
     # Find population range for color scaling (use max from 1km for full range)
     pops_500 = [s["population"] for s in results_500m["stations"] if s["population"] > 0]
@@ -62,6 +77,16 @@ def create_map_with_toggle(results_500m, results_1km):
         caption='Station Catchment Population - Hover to see area'
     )
 
+    # Station type colors
+    type_colors = {
+        'commuter_hub': '#3498db',      # Blue
+        'residential_hub': '#27ae60',   # Green
+        'balanced': '#9b59b6',          # Purple
+        'low_activity': '#95a5a6',      # Grey
+        'no_usage_data': '#bdc3c7',     # Light grey
+        'no_population_data': '#ecf0f1' # Very light grey
+    }
+
     # Create base map
     london_center = [51.509, -0.118]
     m = folium.Map(
@@ -70,8 +95,10 @@ def create_map_with_toggle(results_500m, results_1km):
         tiles='cartodbpositron'
     )
 
-    # Build merged station data with both populations
+    # Build merged station data with both populations and usage
     station_data = []
+    busiest_stations = []
+
     for naptan_id, s500 in stations_500.items():
         if s500["lat"] is None or s500["lon"] is None:
             continue
@@ -87,7 +114,14 @@ def create_map_with_toggle(results_500m, results_1km):
         fill_color_500 = colormap(s500["population"]) if s500["population"] > 0 else '#cccccc'
         fill_color_1km = colormap(s1km["population"]) if s1km["population"] > 0 else '#cccccc'
 
-        station_data.append({
+        # Get enhanced data if available
+        enhanced = enhanced_lookup.get(naptan_id, {})
+        annual_usage = enhanced.get('annual_usage', 0)
+        daily_usage = enhanced.get('daily_usage', 0)
+        usage_per_capita = enhanced.get('usage_per_capita_500m', 0)
+        station_type = enhanced.get('station_type', 'no_usage_data')
+
+        station_entry = {
             'naptanId': naptan_id,
             'lat': s500['lat'],
             'lon': s500['lon'],
@@ -98,8 +132,27 @@ def create_map_with_toggle(results_500m, results_1km):
             'population_1km': s1km['population'],
             'line_color': line_color,
             'fill_color_500m': fill_color_500,
-            'fill_color_1km': fill_color_1km
-        })
+            'fill_color_1km': fill_color_1km,
+            'annual_usage': annual_usage,
+            'daily_usage': daily_usage,
+            'usage_per_capita': usage_per_capita,
+            'station_type': station_type,
+            'type_color': type_colors.get(station_type, '#bdc3c7')
+        }
+
+        station_data.append(station_entry)
+
+        # Track busiest stations
+        if annual_usage > 0:
+            busiest_stations.append({
+                'name': s500['name'],
+                'annual_usage': annual_usage,
+                'daily_usage': daily_usage
+            })
+
+    # Sort busiest stations
+    busiest_stations.sort(key=lambda x: -x['annual_usage'])
+    top_10_busiest = busiest_stations[:10]
 
     # Convert line stats to JSON-friendly format
     line_stats_500_json = {lid: {
@@ -224,18 +277,40 @@ def create_map_with_toggle(results_500m, results_1km):
                 return num.toString().replace(/\\B(?=(\\d{{3}})+(?!\\d))/g, ",");
             }}
 
-            // Create tooltip HTML
+            // Get station type label
+            function getTypeLabel(type) {{
+                var labels = {{
+                    'commuter_hub': 'Commuter Hub',
+                    'residential_hub': 'Residential',
+                    'balanced': 'Balanced',
+                    'low_activity': 'Low Activity',
+                    'no_usage_data': 'No Data',
+                    'no_population_data': 'No Pop Data'
+                }};
+                return labels[type] || type;
+            }}
+
+            // Create tooltip HTML with usage data
             function createTooltip(s, radius) {{
                 var pop = radius === 500 ? s.population_500m : s.population_1km;
+                var usageHtml = '';
+                if (s.daily_usage > 0) {{
+                    usageHtml = '<span style="color: #666; font-size: 11px;">Daily usage:</span> <strong>' + formatNumber(s.daily_usage) + '</strong><br>';
+                }}
+                var typeHtml = '';
+                if (s.station_type && s.station_type !== 'no_usage_data') {{
+                    typeHtml = '<span style="background:' + s.type_color + ';color:white;padding:1px 4px;border-radius:3px;font-size:9px;">' + getTypeLabel(s.station_type) + '</span><br>';
+                }}
                 return '<div style="font-family: Arial, sans-serif; padding: 4px;">' +
                     '<strong style="font-size: 13px;">' + s.name + '</strong><br>' +
-                    '<span style="color: #666; font-size: 11px;">Population within ' + radius + 'm:</span> ' +
-                    '<strong>' + formatNumber(pop) + '</strong><br>' +
-                    '<span style="color: #666; font-size: 11px;">Lines:</span> ' + s.lines_text +
+                    typeHtml +
+                    '<span style="color: #666; font-size: 11px;">Population (' + radius + 'm):</span> <strong>' + formatNumber(pop) + '</strong><br>' +
+                    usageHtml +
+                    '<span style="color: #666; font-size: 10px;">' + s.lines_text + '</span>' +
                     '</div>';
             }}
 
-            // Create popup HTML
+            // Create popup HTML with full usage data
             function createPopup(s, radius) {{
                 var pop = radius === 500 ? s.population_500m : s.population_1km;
                 var linesHtml = '';
@@ -245,11 +320,30 @@ def create_map_with_toggle(results_500m, results_1km):
                     var name = lid.replace(/-/g, ' ').replace(/\\b\\w/g, function(l) {{ return l.toUpperCase(); }});
                     linesHtml += '<span style="background-color:' + color + ';color:white;padding:2px 6px;margin:2px;border-radius:3px;font-size:11px;">' + name + '</span> ';
                 }});
-                return '<div style="font-family: Arial, sans-serif; min-width: 200px;">' +
-                    '<h4 style="margin:0 0 8px 0; color: #333;">' + s.name + '</h4>' +
-                    '<p style="margin:4px 0;"><strong>Population within ' + radius + 'm:</strong></p>' +
+
+                var usageSection = '';
+                if (s.daily_usage > 0) {{
+                    var usageRatio = s.usage_per_capita > 0 ? s.usage_per_capita.toFixed(1) + 'x' : 'N/A';
+                    usageSection = '<div style="margin-top:10px; padding-top:10px; border-top:1px solid #eee;">' +
+                        '<p style="margin:4px 0;"><strong>Station Usage (2024)</strong></p>' +
+                        '<p style="margin:2px 0;"><span style="color:#666;font-size:11px;">Annual:</span> ' + formatNumber(s.annual_usage) + '</p>' +
+                        '<p style="margin:2px 0;"><span style="color:#666;font-size:11px;">Daily avg:</span> <strong style="color:#e74c3c;">' + formatNumber(s.daily_usage) + '</strong></p>' +
+                        '<p style="margin:2px 0;"><span style="color:#666;font-size:11px;">Usage/capita:</span> ' + usageRatio + '</p>' +
+                        '</div>';
+                }}
+
+                var typeHtml = '';
+                if (s.station_type && s.station_type !== 'no_usage_data') {{
+                    typeHtml = '<p style="margin:4px 0;"><span style="background:' + s.type_color + ';color:white;padding:2px 6px;border-radius:3px;font-size:10px;">' + getTypeLabel(s.station_type) + '</span></p>';
+                }}
+
+                return '<div style="font-family: Arial, sans-serif; min-width: 220px;">' +
+                    '<h4 style="margin:0 0 4px 0; color: #333;">' + s.name + '</h4>' +
+                    typeHtml +
+                    '<p style="margin:8px 0 4px 0;"><strong>Population within ' + radius + 'm:</strong></p>' +
                     '<p style="font-size: 24px; font-weight: bold; color: #1a73e8; margin: 4px 0;">' + formatNumber(pop) + '</p>' +
-                    '<p style="margin:8px 0 4px 0;"><strong>Lines:</strong></p>' +
+                    usageSection +
+                    '<p style="margin:10px 0 4px 0;"><strong>Lines:</strong></p>' +
                     '<p style="margin:4px 0;">' + linesHtml + '</p>' +
                     '</div>';
             }}
@@ -452,10 +546,42 @@ def create_map_with_toggle(results_500m, results_1km):
 
     legend_html += """
         </table>
-        <div style="margin-top: 10px; padding-top: 10px; border-top: 1px solid #ddd;">
-            <p style="font-size: 10px; color: #666; margin: 0;">
-                Data: TfL (Tube, Overground, Elizabeth, DLR) + 2021 Census.<br>
-                Toggle radius to compare catchment areas.
+    """
+
+    # Add busiest stations section if we have usage data
+    if top_10_busiest:
+        legend_html += """
+        <div style="margin-top: 12px; padding-top: 10px; border-top: 1px solid #ddd;">
+            <h4 style="margin: 0 0 8px 0; font-size: 12px; color: #333;">Busiest Stations (2024)</h4>
+            <table style="width: 100%; font-size: 10px; border-collapse: collapse;">
+        """
+        for i, station in enumerate(top_10_busiest[:10], 1):
+            legend_html += f"""
+                <tr style="border-bottom: 1px solid #f0f0f0;">
+                    <td style="padding: 2px 4px; color: #666;">{i}.</td>
+                    <td style="padding: 2px 4px;">{station['name'][:18]}</td>
+                    <td style="padding: 2px 4px; text-align: right; font-weight: bold;">{station['annual_usage']/1000000:.1f}M</td>
+                </tr>
+            """
+        legend_html += """
+            </table>
+        </div>
+        """
+
+    # Add station type legend
+    legend_html += """
+        <div style="margin-top: 12px; padding-top: 10px; border-top: 1px solid #ddd;">
+            <h4 style="margin: 0 0 6px 0; font-size: 11px; color: #333;">Station Types</h4>
+            <div style="font-size: 9px; line-height: 1.6;">
+                <span style="background:#3498db;color:white;padding:1px 4px;border-radius:2px;">Commuter</span> Low pop, high usage<br>
+                <span style="background:#27ae60;color:white;padding:1px 4px;border-radius:2px;">Residential</span> High pop, low usage<br>
+                <span style="background:#9b59b6;color:white;padding:1px 4px;border-radius:2px;">Balanced</span> High pop, high usage<br>
+                <span style="background:#95a5a6;color:white;padding:1px 4px;border-radius:2px;">Low Activity</span> Outer areas
+            </div>
+        </div>
+        <div style="margin-top: 8px; padding-top: 8px; border-top: 1px solid #ddd;">
+            <p style="font-size: 9px; color: #666; margin: 0;">
+                Data: TfL + 2021 Census + Wikipedia Usage 2024
             </p>
         </div>
     </div>
@@ -494,7 +620,12 @@ def create_map_with_toggle(results_500m, results_1km):
 
 def main():
     results_500m, results_1km = load_dual_results()
-    create_map_with_toggle(results_500m, results_1km)
+    enhanced_data = load_enhanced_stations()
+
+    if enhanced_data:
+        print(f"Loaded enhanced station data with usage information")
+
+    create_map_with_toggle(results_500m, results_1km, enhanced_data)
 
     print("\n" + "=" * 60)
     print("MAP CREATION COMPLETE")
@@ -502,9 +633,11 @@ def main():
     print("Open 'tube_population_map.html' in a browser to view the interactive map.")
     print("\nFeatures:")
     print("- Toggle between 500m and 1km radius analysis")
-    print("- Hover over stations to see catchment circles")
-    print("- Click stations for detailed popup")
+    print("- Hover over stations to see catchment circles and usage data")
+    print("- Click stations for detailed popup with annual/daily usage")
     print("- Line rankings update with radius toggle")
+    print("- Busiest stations list (top 10 by annual usage)")
+    print("- Station type classification (Commuter/Residential/Balanced)")
 
 
 if __name__ == "__main__":
