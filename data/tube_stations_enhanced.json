@@ -18,7 +18,8 @@
       "annual_usage": 22920000,
       "daily_usage": 62794,
       "usage_per_capita_500m": 11.95,
-      "usage_per_capita_1km": 2.23
+      "usage_per_capita_1km": 2.23,
+      "station_type": "commuter_hub"
     },
     {
       "naptanId": "940GZZLUCHX",
@@ -34,7 +35,8 @@
       "annual_usage": 16510000,
       "daily_usage": 45232,
       "usage_per_capita_500m": 17.4,
-      "usage_per_capita_1km": 3.85
+      "usage_per_capita_1km": 3.85,
+      "station_type": "commuter_hub"
     },
     {
       "naptanId": "940GZZLUEAC",
@@ -50,7 +52,8 @@
       "annual_usage": 14130000,
       "daily_usage": 38712,
       "usage_per_capita_500m": 2.73,
-      "usage_per_capita_1km": 0.76
+      "usage_per_capita_1km": 0.76,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUEMB",
@@ -68,7 +71,8 @@
       "annual_usage": 17970000,
       "daily_usage": 49232,
       "usage_per_capita_500m": 23.62,
-      "usage_per_capita_1km": 4.62
+      "usage_per_capita_1km": 4.62,
+      "station_type": "commuter_hub"
     },
     {
       "naptanId": "940GZZLUERB",
@@ -83,7 +87,8 @@
       "annual_usage": 3720000,
       "daily_usage": 10191,
       "usage_per_capita_500m": 0.64,
-      "usage_per_capita_1km": 0.24
+      "usage_per_capita_1km": 0.24,
+      "station_type": "residential_hub"
     },
     {
       "naptanId": "940GZZLUHAW",
@@ -98,7 +103,8 @@
       "annual_usage": 5140000,
       "daily_usage": 14082,
       "usage_per_capita_500m": 1.49,
-      "usage_per_capita_1km": 0.5
+      "usage_per_capita_1km": 0.5,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUHSN",
@@ -113,7 +119,8 @@
       "annual_usage": 2700000,
       "daily_usage": 7397,
       "usage_per_capita_500m": 0.92,
-      "usage_per_capita_1km": 0.27
+      "usage_per_capita_1km": 0.27,
+      "station_type": "residential_hub"
     },
     {
       "naptanId": "940GZZLUKEN",
@@ -128,7 +135,8 @@
       "annual_usage": 1730000,
       "daily_usage": 4739,
       "usage_per_capita_500m": 1.28,
-      "usage_per_capita_1km": 0.27
+      "usage_per_capita_1km": 0.27,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUKPK",
@@ -143,7 +151,8 @@
       "annual_usage": 2740000,
       "daily_usage": 7506,
       "usage_per_capita_500m": 0.57,
-      "usage_per_capita_1km": 0.15
+      "usage_per_capita_1km": 0.15,
+      "station_type": "residential_hub"
     },
     {
       "naptanId": "940GZZLUKSL",
@@ -158,7 +167,8 @@
       "annual_usage": 1980000,
       "daily_usage": 5424,
       "usage_per_capita_500m": 0.57,
-      "usage_per_capita_1km": 0.2
+      "usage_per_capita_1km": 0.2,
+      "station_type": "residential_hub"
     },
     {
       "naptanId": "940GZZLULBN",
@@ -173,7 +183,8 @@
       "annual_usage": 2730000,
       "daily_usage": 7479,
       "usage_per_capita_500m": 0.98,
-      "usage_per_capita_1km": 0.32
+      "usage_per_capita_1km": 0.32,
+      "station_type": "residential_hub"
     },
     {
       "naptanId": "940GZZLUMVL",
@@ -188,7 +199,8 @@
       "annual_usage": 2870000,
       "daily_usage": 7863,
       "usage_per_capita_500m": 0.8,
-      "usage_per_capita_1km": 0.16
+      "usage_per_capita_1km": 0.16,
+      "station_type": "residential_hub"
     },
     {
       "naptanId": "940GZZLUMYB",
@@ -203,7 +215,8 @@
       "annual_usage": 8860000,
       "daily_usage": 24273,
       "usage_per_capita_500m": 1.9,
-      "usage_per_capita_1km": 0.68
+      "usage_per_capita_1km": 0.68,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUNWY",
@@ -218,7 +231,8 @@
       "annual_usage": 1390000,
       "daily_usage": 3808,
       "usage_per_capita_500m": 0.61,
-      "usage_per_capita_1km": 0.17
+      "usage_per_capita_1km": 0.17,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUOXC",
@@ -235,7 +249,8 @@
       "annual_usage": 53180000,
       "daily_usage": 145698,
       "usage_per_capita_500m": 28.73,
-      "usage_per_capita_1km": 7.44
+      "usage_per_capita_1km": 7.44,
+      "station_type": "commuter_hub"
     },
     {
       "naptanId": "940GZZLUPAC",
@@ -252,7 +267,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "940GZZLUPCC",
@@ -268,7 +284,8 @@
       "annual_usage": 28490000,
       "daily_usage": 78054,
       "usage_per_capita_500m": 20.45,
-      "usage_per_capita_1km": 5.57
+      "usage_per_capita_1km": 5.57,
+      "station_type": "commuter_hub"
     },
     {
       "naptanId": "940GZZLUQPS",
@@ -283,7 +300,8 @@
       "annual_usage": 4740000,
       "daily_usage": 12986,
       "usage_per_capita_500m": 1.43,
-      "usage_per_capita_1km": 0.28
+      "usage_per_capita_1km": 0.28,
+      "station_type": "residential_hub"
     },
     {
       "naptanId": "940GZZLURGP",
@@ -298,7 +316,8 @@
       "annual_usage": 2310000,
       "daily_usage": 6328,
       "usage_per_capita_500m": 1.02,
-      "usage_per_capita_1km": 0.26
+      "usage_per_capita_1km": 0.26,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUSGP",
@@ -313,7 +332,8 @@
       "annual_usage": 2490000,
       "daily_usage": 6821,
       "usage_per_capita_500m": 1.71,
-      "usage_per_capita_1km": 0.34
+      "usage_per_capita_1km": 0.34,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUSKT",
@@ -328,7 +348,8 @@
       "annual_usage": 990000,
       "daily_usage": 2712,
       "usage_per_capita_500m": 0.69,
-      "usage_per_capita_1km": 0.18
+      "usage_per_capita_1km": 0.18,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUWJN",
@@ -343,7 +364,8 @@
       "annual_usage": 4610000,
       "daily_usage": 12630,
       "usage_per_capita_500m": 1.61,
-      "usage_per_capita_1km": 0.54
+      "usage_per_capita_1km": 0.54,
+      "station_type": "residential_hub"
     },
     {
       "naptanId": "940GZZLUWKA",
@@ -358,7 +380,8 @@
       "annual_usage": 3130000,
       "daily_usage": 8575,
       "usage_per_capita_500m": 0.71,
-      "usage_per_capita_1km": 0.17
+      "usage_per_capita_1km": 0.17,
+      "station_type": "residential_hub"
     },
     {
       "naptanId": "940GZZLUWLO",
@@ -376,7 +399,8 @@
       "annual_usage": 77390000,
       "daily_usage": 212027,
       "usage_per_capita_500m": 64.37,
-      "usage_per_capita_1km": 13.29
+      "usage_per_capita_1km": 13.29,
+      "station_type": "commuter_hub"
     },
     {
       "naptanId": "940GZZLUWYC",
@@ -391,7 +415,8 @@
       "annual_usage": 4940000,
       "daily_usage": 13534,
       "usage_per_capita_500m": 1.38,
-      "usage_per_capita_1km": 0.39
+      "usage_per_capita_1km": 0.39,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUBKE",
@@ -406,7 +431,8 @@
       "annual_usage": 1260000,
       "daily_usage": 3452,
       "usage_per_capita_500m": 0.99,
-      "usage_per_capita_1km": 0.31
+      "usage_per_capita_1km": 0.31,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUBKH",
@@ -421,7 +447,8 @@
       "annual_usage": 2240000,
       "daily_usage": 6136,
       "usage_per_capita_500m": 1.65,
-      "usage_per_capita_1km": 0.6
+      "usage_per_capita_1km": 0.6,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUBLG",
@@ -436,7 +463,8 @@
       "annual_usage": 10120000,
       "daily_usage": 27726,
       "usage_per_capita_500m": 2.09,
-      "usage_per_capita_1km": 0.54
+      "usage_per_capita_1km": 0.54,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUBND",
@@ -452,7 +480,8 @@
       "annual_usage": 41110000,
       "daily_usage": 112630,
       "usage_per_capita_500m": 28.56,
-      "usage_per_capita_1km": 5.26
+      "usage_per_capita_1km": 5.26,
+      "station_type": "commuter_hub"
     },
     {
       "naptanId": "940GZZLUBNK",
@@ -469,7 +498,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "940GZZLUCHL",
@@ -484,7 +514,8 @@
       "annual_usage": 8720000,
       "daily_usage": 23890,
       "usage_per_capita_500m": 3.62,
-      "usage_per_capita_1km": 0.89
+      "usage_per_capita_1km": 0.89,
+      "station_type": "commuter_hub"
     },
     {
       "naptanId": "940GZZLUCWL",
@@ -499,7 +530,8 @@
       "annual_usage": 310000,
       "daily_usage": 849,
       "usage_per_capita_500m": 0.57,
-      "usage_per_capita_1km": 0.23
+      "usage_per_capita_1km": 0.23,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUDBN",
@@ -514,7 +546,8 @@
       "annual_usage": 1980000,
       "daily_usage": 5424,
       "usage_per_capita_500m": 1.77,
-      "usage_per_capita_1km": 0.52
+      "usage_per_capita_1km": 0.52,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUEAN",
@@ -529,7 +562,8 @@
       "annual_usage": 3690000,
       "daily_usage": 10109,
       "usage_per_capita_500m": 1.92,
-      "usage_per_capita_1km": 0.56
+      "usage_per_capita_1km": 0.56,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUEBY",
@@ -545,7 +579,8 @@
       "annual_usage": 17080000,
       "daily_usage": 46794,
       "usage_per_capita_500m": 9.29,
-      "usage_per_capita_1km": 2.28
+      "usage_per_capita_1km": 2.28,
+      "station_type": "commuter_hub"
     },
     {
       "naptanId": "940GZZLUEPG",
@@ -560,7 +595,8 @@
       "annual_usage": 3400000,
       "daily_usage": 9315,
       "usage_per_capita_500m": 3.33,
-      "usage_per_capita_1km": 1.04
+      "usage_per_capita_1km": 1.04,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUFLP",
@@ -575,7 +611,8 @@
       "annual_usage": 960000,
       "daily_usage": 2630,
       "usage_per_capita_500m": 1.83,
-      "usage_per_capita_1km": 0.2
+      "usage_per_capita_1km": 0.2,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUGFD",
@@ -590,7 +627,8 @@
       "annual_usage": 3270000,
       "daily_usage": 8958,
       "usage_per_capita_500m": 5.54,
-      "usage_per_capita_1km": 0.76
+      "usage_per_capita_1km": 0.76,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUGGH",
@@ -605,7 +643,8 @@
       "annual_usage": 350000,
       "daily_usage": 958,
       "usage_per_capita_500m": 0.46,
-      "usage_per_capita_1km": 0.09
+      "usage_per_capita_1km": 0.09,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUGTH",
@@ -620,7 +659,8 @@
       "annual_usage": 4880000,
       "daily_usage": 13369,
       "usage_per_capita_500m": 1.62,
-      "usage_per_capita_1km": 0.49
+      "usage_per_capita_1km": 0.49,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUHBN",
@@ -636,7 +676,8 @@
       "annual_usage": 20840000,
       "daily_usage": 57095,
       "usage_per_capita_500m": 8.6,
-      "usage_per_capita_1km": 2.03
+      "usage_per_capita_1km": 2.03,
+      "station_type": "commuter_hub"
     },
     {
       "naptanId": "940GZZLUHGR",
@@ -651,7 +692,8 @@
       "annual_usage": 2890000,
       "daily_usage": 7917,
       "usage_per_capita_500m": 1.69,
-      "usage_per_capita_1km": 0.43
+      "usage_per_capita_1km": 0.43,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUHLT",
@@ -666,7 +708,8 @@
       "annual_usage": 3030000,
       "daily_usage": 8301,
       "usage_per_capita_500m": 1.06,
-      "usage_per_capita_1km": 0.42
+      "usage_per_capita_1km": 0.42,
+      "station_type": "residential_hub"
     },
     {
       "naptanId": "940GZZLUHPK",
@@ -681,7 +724,8 @@
       "annual_usage": 2950000,
       "daily_usage": 8082,
       "usage_per_capita_500m": 1.06,
-      "usage_per_capita_1km": 0.2
+      "usage_per_capita_1km": 0.2,
+      "station_type": "residential_hub"
     },
     {
       "naptanId": "940GZZLULGN",
@@ -696,7 +740,8 @@
       "annual_usage": 2790000,
       "daily_usage": 7643,
       "usage_per_capita_500m": 2.43,
-      "usage_per_capita_1km": 0.63
+      "usage_per_capita_1km": 0.63,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLULGT",
@@ -711,7 +756,8 @@
       "annual_usage": 3090000,
       "daily_usage": 8465,
       "usage_per_capita_500m": 1.06,
-      "usage_per_capita_1km": 0.27
+      "usage_per_capita_1km": 0.27,
+      "station_type": "residential_hub"
     },
     {
       "naptanId": "940GZZLULVT",
@@ -729,7 +775,8 @@
       "annual_usage": 61200000,
       "daily_usage": 167671,
       "usage_per_capita_500m": 58.24,
-      "usage_per_capita_1km": 7.06
+      "usage_per_capita_1km": 7.06,
+      "station_type": "commuter_hub"
     },
     {
       "naptanId": "940GZZLULYN",
@@ -744,7 +791,8 @@
       "annual_usage": 8950000,
       "daily_usage": 24520,
       "usage_per_capita_500m": 2.38,
-      "usage_per_capita_1km": 0.68
+      "usage_per_capita_1km": 0.68,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLULYS",
@@ -759,7 +807,8 @@
       "annual_usage": 7150000,
       "daily_usage": 19589,
       "usage_per_capita_500m": 2.71,
-      "usage_per_capita_1km": 0.75
+      "usage_per_capita_1km": 0.75,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUMBA",
@@ -774,7 +823,8 @@
       "annual_usage": 9200000,
       "daily_usage": 25205,
       "usage_per_capita_500m": 3.45,
-      "usage_per_capita_1km": 0.96
+      "usage_per_capita_1km": 0.96,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUMED",
@@ -791,7 +841,8 @@
       "annual_usage": 11280000,
       "daily_usage": 30904,
       "usage_per_capita_500m": 2.62,
-      "usage_per_capita_1km": 0.59
+      "usage_per_capita_1km": 0.59,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUNAN",
@@ -806,7 +857,8 @@
       "annual_usage": 6110000,
       "daily_usage": 16739,
       "usage_per_capita_500m": 4.57,
-      "usage_per_capita_1km": 1.37
+      "usage_per_capita_1km": 1.37,
+      "station_type": "commuter_hub"
     },
     {
       "naptanId": "940GZZLUNBP",
@@ -821,7 +873,8 @@
       "annual_usage": 3310000,
       "daily_usage": 9068,
       "usage_per_capita_500m": 1.33,
-      "usage_per_capita_1km": 0.36
+      "usage_per_capita_1km": 0.36,
+      "station_type": "residential_hub"
     },
     {
       "naptanId": "940GZZLUNHG",
@@ -838,7 +891,8 @@
       "annual_usage": 12830000,
       "daily_usage": 35150,
       "usage_per_capita_500m": 3.25,
-      "usage_per_capita_1km": 0.85
+      "usage_per_capita_1km": 0.85,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUNHT",
@@ -853,7 +907,8 @@
       "annual_usage": 4280000,
       "daily_usage": 11726,
       "usage_per_capita_500m": 2.09,
-      "usage_per_capita_1km": 0.53
+      "usage_per_capita_1km": 0.53,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUPVL",
@@ -868,7 +923,8 @@
       "annual_usage": 1760000,
       "daily_usage": 4821,
       "usage_per_capita_500m": 1.45,
-      "usage_per_capita_1km": 0.41
+      "usage_per_capita_1km": 0.41,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUQWY",
@@ -883,7 +939,8 @@
       "annual_usage": 6010000,
       "daily_usage": 16465,
       "usage_per_capita_500m": 1.49,
-      "usage_per_capita_1km": 0.46
+      "usage_per_capita_1km": 0.46,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLURBG",
@@ -898,7 +955,8 @@
       "annual_usage": 2060000,
       "daily_usage": 5643,
       "usage_per_capita_500m": 1.24,
-      "usage_per_capita_1km": 0.35
+      "usage_per_capita_1km": 0.35,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLURSG",
@@ -913,7 +971,8 @@
       "annual_usage": 860000,
       "daily_usage": 2356,
       "usage_per_capita_500m": 0.49,
-      "usage_per_capita_1km": 0.15
+      "usage_per_capita_1km": 0.15,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLURVY",
@@ -928,7 +987,8 @@
       "annual_usage": 170000,
       "daily_usage": 465,
       "usage_per_capita_500m": 0.17,
-      "usage_per_capita_1km": 0.05
+      "usage_per_capita_1km": 0.05,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUSBC",
@@ -943,7 +1003,8 @@
       "annual_usage": 13250000,
       "daily_usage": 36301,
       "usage_per_capita_500m": 4.02,
-      "usage_per_capita_1km": 0.89
+      "usage_per_capita_1km": 0.89,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUSNB",
@@ -958,7 +1019,8 @@
       "annual_usage": 1890000,
       "daily_usage": 5178,
       "usage_per_capita_500m": 1.04,
-      "usage_per_capita_1km": 0.31
+      "usage_per_capita_1km": 0.31,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUSPU",
@@ -973,7 +1035,8 @@
       "annual_usage": 9420000,
       "daily_usage": 25808,
       "usage_per_capita_500m": 5.79,
-      "usage_per_capita_1km": 1.5
+      "usage_per_capita_1km": 1.5,
+      "station_type": "commuter_hub"
     },
     {
       "naptanId": "940GZZLUSRP",
@@ -988,7 +1051,8 @@
       "annual_usage": 1620000,
       "daily_usage": 4438,
       "usage_per_capita_500m": 1.04,
-      "usage_per_capita_1km": 0.3
+      "usage_per_capita_1km": 0.3,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUSTD",
@@ -1004,7 +1068,8 @@
       "annual_usage": 55720000,
       "daily_usage": 152657,
       "usage_per_capita_500m": 17.48,
-      "usage_per_capita_1km": 4.34
+      "usage_per_capita_1km": 4.34,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUSWF",
@@ -1019,7 +1084,8 @@
       "annual_usage": 4150000,
       "daily_usage": 11369,
       "usage_per_capita_500m": 1.7,
-      "usage_per_capita_1km": 0.5
+      "usage_per_capita_1km": 0.5,
+      "station_type": "residential_hub"
     },
     {
       "naptanId": "940GZZLUTCR",
@@ -1035,7 +1101,8 @@
       "annual_usage": 62060000,
       "daily_usage": 170027,
       "usage_per_capita_500m": 30.3,
-      "usage_per_capita_1km": 6.48
+      "usage_per_capita_1km": 6.48,
+      "station_type": "commuter_hub"
     },
     {
       "naptanId": "940GZZLUTHB",
@@ -1050,7 +1117,8 @@
       "annual_usage": 740000,
       "daily_usage": 2027,
       "usage_per_capita_500m": 1.08,
-      "usage_per_capita_1km": 0.48
+      "usage_per_capita_1km": 0.48,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUWCY",
@@ -1065,7 +1133,8 @@
       "annual_usage": 8180000,
       "daily_usage": 22410,
       "usage_per_capita_500m": 3.4,
-      "usage_per_capita_1km": 0.63
+      "usage_per_capita_1km": 0.63,
+      "station_type": "commuter_hub"
     },
     {
       "naptanId": "940GZZLUWOF",
@@ -1080,7 +1149,8 @@
       "annual_usage": 4590000,
       "daily_usage": 12575,
       "usage_per_capita_500m": 2.8,
-      "usage_per_capita_1km": 0.7
+      "usage_per_capita_1km": 0.7,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUWRP",
@@ -1095,7 +1165,8 @@
       "annual_usage": 1480000,
       "daily_usage": 4054,
       "usage_per_capita_500m": 1.19,
-      "usage_per_capita_1km": 0.43
+      "usage_per_capita_1km": 0.43,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUWSD",
@@ -1110,7 +1181,8 @@
       "annual_usage": 1980000,
       "daily_usage": 5424,
       "usage_per_capita_500m": 1.1,
-      "usage_per_capita_1km": 0.37
+      "usage_per_capita_1km": 0.37,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUWTA",
@@ -1125,7 +1197,8 @@
       "annual_usage": 1110000,
       "daily_usage": 3041,
       "usage_per_capita_500m": 0.91,
-      "usage_per_capita_1km": 0.23
+      "usage_per_capita_1km": 0.23,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUALD",
@@ -1141,7 +1214,8 @@
       "annual_usage": 7590000,
       "daily_usage": 20794,
       "usage_per_capita_500m": 2.44,
-      "usage_per_capita_1km": 0.67
+      "usage_per_capita_1km": 0.67,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUBBN",
@@ -1158,7 +1232,8 @@
       "annual_usage": 5380000,
       "daily_usage": 14739,
       "usage_per_capita_500m": 1.21,
-      "usage_per_capita_1km": 0.42
+      "usage_per_capita_1km": 0.42,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUBKF",
@@ -1174,7 +1249,8 @@
       "annual_usage": 11140000,
       "daily_usage": 30520,
       "usage_per_capita_500m": 22.84,
-      "usage_per_capita_1km": 2.32
+      "usage_per_capita_1km": 2.32,
+      "station_type": "commuter_hub"
     },
     {
       "naptanId": "940GZZLUBWT",
@@ -1190,7 +1266,8 @@
       "annual_usage": 3860000,
       "daily_usage": 10575,
       "usage_per_capita_500m": 0.69,
-      "usage_per_capita_1km": 0.26
+      "usage_per_capita_1km": 0.26,
+      "station_type": "residential_hub"
     },
     {
       "naptanId": "940GZZLUCST",
@@ -1206,7 +1283,8 @@
       "annual_usage": 4310000,
       "daily_usage": 11808,
       "usage_per_capita_500m": 0,
-      "usage_per_capita_1km": 1.32
+      "usage_per_capita_1km": 1.32,
+      "station_type": "no_population_data"
     },
     {
       "naptanId": "940GZZLUERC",
@@ -1223,7 +1301,8 @@
       "annual_usage": 3720000,
       "daily_usage": 10191,
       "usage_per_capita_500m": 0.61,
-      "usage_per_capita_1km": 0.24
+      "usage_per_capita_1km": 0.24,
+      "station_type": "residential_hub"
     },
     {
       "naptanId": "940GZZLUESQ",
@@ -1240,7 +1319,8 @@
       "annual_usage": 12260000,
       "daily_usage": 33589,
       "usage_per_capita_500m": 3.53,
-      "usage_per_capita_1km": 0.98
+      "usage_per_capita_1km": 0.98,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUFCN",
@@ -1257,7 +1337,8 @@
       "annual_usage": 41260000,
       "daily_usage": 113041,
       "usage_per_capita_500m": 12.12,
-      "usage_per_capita_1km": 3.24
+      "usage_per_capita_1km": 3.24,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUGHK",
@@ -1273,7 +1354,8 @@
       "annual_usage": 1900000,
       "daily_usage": 5205,
       "usage_per_capita_500m": 0.47,
-      "usage_per_capita_1km": 0.11
+      "usage_per_capita_1km": 0.11,
+      "station_type": "residential_hub"
     },
     {
       "naptanId": "940GZZLUGPS",
@@ -1290,7 +1372,8 @@
       "annual_usage": 5920000,
       "daily_usage": 16219,
       "usage_per_capita_500m": 1.88,
-      "usage_per_capita_1km": 0.63
+      "usage_per_capita_1km": 0.63,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUGTR",
@@ -1307,7 +1390,8 @@
       "annual_usage": 12030000,
       "daily_usage": 32958,
       "usage_per_capita_500m": 3.76,
-      "usage_per_capita_1km": 0.99
+      "usage_per_capita_1km": 0.99,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUHSC",
@@ -1323,7 +1407,8 @@
       "annual_usage": 9920000,
       "daily_usage": 27178,
       "usage_per_capita_500m": 3.48,
-      "usage_per_capita_1km": 0.71
+      "usage_per_capita_1km": 0.71,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUHSK",
@@ -1339,7 +1424,8 @@
       "annual_usage": 10200000,
       "daily_usage": 27945,
       "usage_per_capita_500m": 3.18,
-      "usage_per_capita_1km": 0.98
+      "usage_per_capita_1km": 0.98,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUKSX",
@@ -1359,7 +1445,8 @@
       "annual_usage": 77130000,
       "daily_usage": 211315,
       "usage_per_capita_500m": 37.86,
-      "usage_per_capita_1km": 5.08
+      "usage_per_capita_1km": 5.08,
+      "station_type": "commuter_hub"
     },
     {
       "naptanId": "940GZZLULAD",
@@ -1375,7 +1462,8 @@
       "annual_usage": 6130000,
       "daily_usage": 16794,
       "usage_per_capita_500m": 1.25,
-      "usage_per_capita_1km": 0.34
+      "usage_per_capita_1km": 0.34,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLULRD",
@@ -1391,7 +1479,8 @@
       "annual_usage": 3090000,
       "daily_usage": 8465,
       "usage_per_capita_500m": 0.76,
-      "usage_per_capita_1km": 0.21
+      "usage_per_capita_1km": 0.21,
+      "station_type": "residential_hub"
     },
     {
       "naptanId": "940GZZLUMGT",
@@ -1409,7 +1498,8 @@
       "annual_usage": 26930000,
       "daily_usage": 73780,
       "usage_per_capita_500m": 15.88,
-      "usage_per_capita_1km": 3.01
+      "usage_per_capita_1km": 3.01,
+      "station_type": "commuter_hub"
     },
     {
       "naptanId": "940GZZLUMMT",
@@ -1425,7 +1515,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "940GZZLUMSH",
@@ -1441,7 +1532,8 @@
       "annual_usage": 4500000,
       "daily_usage": 12328,
       "usage_per_capita_500m": 22.83,
-      "usage_per_capita_1km": 1.06
+      "usage_per_capita_1km": 1.06,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUPAH",
@@ -1457,7 +1549,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "940GZZLURYO",
@@ -1473,7 +1566,8 @@
       "annual_usage": 2230000,
       "daily_usage": 6109,
       "usage_per_capita_500m": 0.47,
-      "usage_per_capita_1km": 0.11
+      "usage_per_capita_1km": 0.11,
+      "station_type": "residential_hub"
     },
     {
       "naptanId": "940GZZLUSBM",
@@ -1489,7 +1583,8 @@
       "annual_usage": 3400000,
       "daily_usage": 9315,
       "usage_per_capita_500m": 1.08,
-      "usage_per_capita_1km": 0.21
+      "usage_per_capita_1km": 0.21,
+      "station_type": "residential_hub"
     },
     {
       "naptanId": "940GZZLUSJP",
@@ -1505,7 +1600,8 @@
       "annual_usage": 10570000,
       "daily_usage": 28958,
       "usage_per_capita_500m": 14.31,
-      "usage_per_capita_1km": 2.3
+      "usage_per_capita_1km": 2.3,
+      "station_type": "commuter_hub"
     },
     {
       "naptanId": "940GZZLUSKS",
@@ -1522,7 +1618,8 @@
       "annual_usage": 29480000,
       "daily_usage": 80767,
       "usage_per_capita_500m": 13.89,
-      "usage_per_capita_1km": 2.81
+      "usage_per_capita_1km": 2.81,
+      "station_type": "commuter_hub"
     },
     {
       "naptanId": "940GZZLUSSQ",
@@ -1538,7 +1635,8 @@
       "annual_usage": 14240000,
       "daily_usage": 39013,
       "usage_per_capita_500m": 5.57,
-      "usage_per_capita_1km": 1.5
+      "usage_per_capita_1km": 1.5,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUTMP",
@@ -1554,7 +1652,8 @@
       "annual_usage": 8250000,
       "daily_usage": 22602,
       "usage_per_capita_500m": 12.15,
-      "usage_per_capita_1km": 1.48
+      "usage_per_capita_1km": 1.48,
+      "station_type": "commuter_hub"
     },
     {
       "naptanId": "940GZZLUTWH",
@@ -1570,7 +1669,8 @@
       "annual_usage": 16399999,
       "daily_usage": 44931,
       "usage_per_capita_500m": 11.77,
-      "usage_per_capita_1km": 1.7
+      "usage_per_capita_1km": 1.7,
+      "station_type": "commuter_hub"
     },
     {
       "naptanId": "940GZZLUVIC",
@@ -1587,7 +1687,8 @@
       "annual_usage": 62690000,
       "daily_usage": 171753,
       "usage_per_capita_500m": 44.27,
-      "usage_per_capita_1km": 7.96
+      "usage_per_capita_1km": 7.96,
+      "station_type": "commuter_hub"
     },
     {
       "naptanId": "940GZZLUWLA",
@@ -1603,7 +1704,8 @@
       "annual_usage": 5200000,
       "daily_usage": 14246,
       "usage_per_capita_500m": 2.63,
-      "usage_per_capita_1km": 0.37
+      "usage_per_capita_1km": 0.37,
+      "station_type": "commuter_hub"
     },
     {
       "naptanId": "940GZZLUWSM",
@@ -1620,7 +1722,8 @@
       "annual_usage": 19610000,
       "daily_usage": 53726,
       "usage_per_capita_500m": 151.34,
-      "usage_per_capita_1km": 5.34
+      "usage_per_capita_1km": 5.34,
+      "station_type": "commuter_hub"
     },
     {
       "naptanId": "940GZZLUWSP",
@@ -1636,7 +1739,8 @@
       "annual_usage": 3920000,
       "daily_usage": 10739,
       "usage_per_capita_500m": 0.7,
-      "usage_per_capita_1km": 0.17
+      "usage_per_capita_1km": 0.17,
+      "station_type": "residential_hub"
     },
     {
       "naptanId": "940GZZLUACT",
@@ -1652,7 +1756,8 @@
       "annual_usage": 5060000,
       "daily_usage": 13863,
       "usage_per_capita_500m": 2.05,
-      "usage_per_capita_1km": 0.58
+      "usage_per_capita_1km": 0.58,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUADE",
@@ -1668,7 +1773,8 @@
       "annual_usage": 12320000,
       "daily_usage": 33753,
       "usage_per_capita_500m": 2.48,
-      "usage_per_capita_1km": 0.88
+      "usage_per_capita_1km": 0.88,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUBBB",
@@ -1684,7 +1790,8 @@
       "annual_usage": 3920000,
       "daily_usage": 10739,
       "usage_per_capita_500m": 0.93,
-      "usage_per_capita_1km": 0.33
+      "usage_per_capita_1km": 0.33,
+      "station_type": "residential_hub"
     },
     {
       "naptanId": "940GZZLUBEC",
@@ -1699,7 +1806,8 @@
       "annual_usage": 2960000,
       "daily_usage": 8109,
       "usage_per_capita_500m": 1.99,
-      "usage_per_capita_1km": 0.3
+      "usage_per_capita_1km": 0.3,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUBKG",
@@ -1715,7 +1823,8 @@
       "annual_usage": 18230000,
       "daily_usage": 49945,
       "usage_per_capita_500m": 4.95,
-      "usage_per_capita_1km": 1.49
+      "usage_per_capita_1km": 1.49,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUBSC",
@@ -1731,7 +1840,8 @@
       "annual_usage": 5730000,
       "daily_usage": 15698,
       "usage_per_capita_500m": 1.57,
-      "usage_per_capita_1km": 0.35
+      "usage_per_capita_1km": 0.35,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUBWR",
@@ -1747,7 +1857,8 @@
       "annual_usage": 4350000,
       "daily_usage": 11917,
       "usage_per_capita_500m": 0.79,
-      "usage_per_capita_1km": 0.23
+      "usage_per_capita_1km": 0.23,
+      "station_type": "residential_hub"
     },
     {
       "naptanId": "940GZZLUCWP",
@@ -1762,7 +1873,8 @@
       "annual_usage": 2190000,
       "daily_usage": 6000,
       "usage_per_capita_500m": 0.76,
-      "usage_per_capita_1km": 0.2
+      "usage_per_capita_1km": 0.2,
+      "station_type": "residential_hub"
     },
     {
       "naptanId": "940GZZLUDGE",
@@ -1777,7 +1889,8 @@
       "annual_usage": 2700000,
       "daily_usage": 7397,
       "usage_per_capita_500m": 1.72,
-      "usage_per_capita_1km": 0.46
+      "usage_per_capita_1km": 0.46,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUDGY",
@@ -1792,7 +1905,8 @@
       "annual_usage": 4920000,
       "daily_usage": 13479,
       "usage_per_capita_500m": 1.52,
-      "usage_per_capita_1km": 0.49
+      "usage_per_capita_1km": 0.49,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUECM",
@@ -1808,7 +1922,8 @@
       "annual_usage": 1930000,
       "daily_usage": 5287,
       "usage_per_capita_500m": 1.16,
-      "usage_per_capita_1km": 0.28
+      "usage_per_capita_1km": 0.28,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUECT",
@@ -1824,7 +1939,8 @@
       "annual_usage": 16590000,
       "daily_usage": 45452,
       "usage_per_capita_500m": 3.23,
-      "usage_per_capita_1km": 1.04
+      "usage_per_capita_1km": 1.04,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUEHM",
@@ -1840,7 +1956,8 @@
       "annual_usage": 11120000,
       "daily_usage": 30465,
       "usage_per_capita_500m": 2.89,
-      "usage_per_capita_1km": 0.57
+      "usage_per_capita_1km": 0.57,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUEPK",
@@ -1855,7 +1972,8 @@
       "annual_usage": 2640000,
       "daily_usage": 7232,
       "usage_per_capita_500m": 1.46,
-      "usage_per_capita_1km": 0.44
+      "usage_per_capita_1km": 0.44,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUEPY",
@@ -1870,7 +1988,8 @@
       "annual_usage": 6110000,
       "daily_usage": 16739,
       "usage_per_capita_500m": 1.83,
-      "usage_per_capita_1km": 0.59
+      "usage_per_capita_1km": 0.59,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUFBY",
@@ -1885,7 +2004,8 @@
       "annual_usage": 6890000,
       "daily_usage": 18876,
       "usage_per_capita_500m": 1.81,
-      "usage_per_capita_1km": 0.41
+      "usage_per_capita_1km": 0.41,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUGBY",
@@ -1900,7 +2020,8 @@
       "annual_usage": 3850000,
       "daily_usage": 10547,
       "usage_per_capita_500m": 2.42,
-      "usage_per_capita_1km": 0.45
+      "usage_per_capita_1km": 0.45,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUHCH",
@@ -1915,7 +2036,8 @@
       "annual_usage": 1650000,
       "daily_usage": 4520,
       "usage_per_capita_500m": 1.1,
-      "usage_per_capita_1km": 0.29
+      "usage_per_capita_1km": 0.29,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUHSD",
@@ -1931,7 +2053,8 @@
       "annual_usage": 9920000,
       "daily_usage": 27178,
       "usage_per_capita_500m": 4.11,
-      "usage_per_capita_1km": 0.71
+      "usage_per_capita_1km": 0.71,
+      "station_type": "commuter_hub"
     },
     {
       "naptanId": "940GZZLUKOY",
@@ -1946,7 +2069,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "940GZZLUKWG",
@@ -1961,7 +2085,8 @@
       "annual_usage": 3080000,
       "daily_usage": 8438,
       "usage_per_capita_500m": 1.76,
-      "usage_per_capita_1km": 0.64
+      "usage_per_capita_1km": 0.64,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUPLW",
@@ -1977,7 +2102,8 @@
       "annual_usage": 4660000,
       "daily_usage": 12767,
       "usage_per_capita_500m": 0.93,
-      "usage_per_capita_1km": 0.31
+      "usage_per_capita_1km": 0.31,
+      "station_type": "residential_hub"
     },
     {
       "naptanId": "940GZZLUPSG",
@@ -1992,7 +2118,8 @@
       "annual_usage": 5800000,
       "daily_usage": 15890,
       "usage_per_capita_500m": 1.3,
-      "usage_per_capita_1km": 0.34
+      "usage_per_capita_1km": 0.34,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUPYB",
@@ -2007,7 +2134,8 @@
       "annual_usage": 4940000,
       "daily_usage": 13534,
       "usage_per_capita_500m": 1.98,
-      "usage_per_capita_1km": 0.47
+      "usage_per_capita_1km": 0.47,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLURMD",
@@ -2022,7 +2150,8 @@
       "annual_usage": 11970000,
       "daily_usage": 32794,
       "usage_per_capita_500m": 7.63,
-      "usage_per_capita_1km": 2.38
+      "usage_per_capita_1km": 2.38,
+      "station_type": "commuter_hub"
     },
     {
       "naptanId": "940GZZLURVP",
@@ -2037,7 +2166,8 @@
       "annual_usage": 2730000,
       "daily_usage": 7479,
       "usage_per_capita_500m": 0.81,
-      "usage_per_capita_1km": 0.21
+      "usage_per_capita_1km": 0.21,
+      "station_type": "residential_hub"
     },
     {
       "naptanId": "940GZZLUSFB",
@@ -2052,7 +2182,8 @@
       "annual_usage": 2270000,
       "daily_usage": 6219,
       "usage_per_capita_500m": 0.89,
-      "usage_per_capita_1km": 0.18
+      "usage_per_capita_1km": 0.18,
+      "station_type": "residential_hub"
     },
     {
       "naptanId": "940GZZLUSFS",
@@ -2067,7 +2198,8 @@
       "annual_usage": 5140000,
       "daily_usage": 14082,
       "usage_per_capita_500m": 1.51,
-      "usage_per_capita_1km": 0.44
+      "usage_per_capita_1km": 0.44,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUSGN",
@@ -2083,7 +2215,8 @@
       "annual_usage": 5450000,
       "daily_usage": 14931,
       "usage_per_capita_500m": 1.15,
-      "usage_per_capita_1km": 0.28
+      "usage_per_capita_1km": 0.28,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUTNG",
@@ -2099,7 +2232,8 @@
       "annual_usage": 5030000,
       "daily_usage": 13780,
       "usage_per_capita_500m": 2.14,
-      "usage_per_capita_1km": 0.42
+      "usage_per_capita_1km": 0.42,
+      "station_type": "commuter_hub"
     },
     {
       "naptanId": "940GZZLUUPB",
@@ -2114,7 +2248,8 @@
       "annual_usage": 740000,
       "daily_usage": 2027,
       "usage_per_capita_500m": 0.54,
-      "usage_per_capita_1km": 0.17
+      "usage_per_capita_1km": 0.17,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUUPK",
@@ -2130,7 +2265,8 @@
       "annual_usage": 11750000,
       "daily_usage": 32191,
       "usage_per_capita_500m": 1.91,
-      "usage_per_capita_1km": 0.51
+      "usage_per_capita_1km": 0.51,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUUPM",
@@ -2145,7 +2281,8 @@
       "annual_usage": 4680000,
       "daily_usage": 12821,
       "usage_per_capita_500m": 6.1,
-      "usage_per_capita_1km": 1.67
+      "usage_per_capita_1km": 1.67,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUUPY",
@@ -2160,7 +2297,8 @@
       "annual_usage": 2270000,
       "daily_usage": 6219,
       "usage_per_capita_500m": 0.98,
-      "usage_per_capita_1km": 0.25
+      "usage_per_capita_1km": 0.25,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUWBN",
@@ -2175,7 +2313,8 @@
       "annual_usage": 5080000,
       "daily_usage": 13917,
       "usage_per_capita_500m": 1.18,
-      "usage_per_capita_1km": 0.29
+      "usage_per_capita_1km": 0.29,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUWHM",
@@ -2192,7 +2331,8 @@
       "annual_usage": 5490000,
       "daily_usage": 15041,
       "usage_per_capita_500m": 2.68,
-      "usage_per_capita_1km": 0.54
+      "usage_per_capita_1km": 0.54,
+      "station_type": "commuter_hub"
     },
     {
       "naptanId": "940GZZLUWIM",
@@ -2207,7 +2347,8 @@
       "annual_usage": 17400000,
       "daily_usage": 47671,
       "usage_per_capita_500m": 9.09,
-      "usage_per_capita_1km": 2.22
+      "usage_per_capita_1km": 2.22,
+      "station_type": "commuter_hub"
     },
     {
       "naptanId": "940GZZLUWIP",
@@ -2222,7 +2363,8 @@
       "annual_usage": 1920000,
       "daily_usage": 5260,
       "usage_per_capita_500m": 1.02,
-      "usage_per_capita_1km": 0.27
+      "usage_per_capita_1km": 0.27,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUWKN",
@@ -2237,7 +2379,8 @@
       "annual_usage": 3990000,
       "daily_usage": 10931,
       "usage_per_capita_500m": 0.78,
-      "usage_per_capita_1km": 0.24
+      "usage_per_capita_1km": 0.24,
+      "station_type": "residential_hub"
     },
     {
       "naptanId": "940GZZLUWPL",
@@ -2253,7 +2396,8 @@
       "annual_usage": 18280000,
       "daily_usage": 50082,
       "usage_per_capita_500m": 4.29,
-      "usage_per_capita_1km": 0.92
+      "usage_per_capita_1km": 0.92,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUBMY",
@@ -2268,7 +2412,8 @@
       "annual_usage": 7320000,
       "daily_usage": 20054,
       "usage_per_capita_500m": 1.97,
-      "usage_per_capita_1km": 0.52
+      "usage_per_capita_1km": 0.52,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUCGT",
@@ -2283,7 +2428,8 @@
       "annual_usage": 12620000,
       "daily_usage": 34575,
       "usage_per_capita_500m": 3.71,
-      "usage_per_capita_1km": 1.01
+      "usage_per_capita_1km": 1.01,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUCPK",
@@ -2298,7 +2444,8 @@
       "annual_usage": 2220000,
       "daily_usage": 6082,
       "usage_per_capita_500m": 1.32,
-      "usage_per_capita_1km": 0.41
+      "usage_per_capita_1km": 0.41,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUCWR",
@@ -2313,7 +2460,8 @@
       "annual_usage": 10150000,
       "daily_usage": 27808,
       "usage_per_capita_500m": 3.07,
-      "usage_per_capita_1km": 0.95
+      "usage_per_capita_1km": 0.95,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUCYF",
@@ -2328,7 +2476,8 @@
       "annual_usage": 33180000,
       "daily_usage": 90904,
       "usage_per_capita_500m": 26.2,
-      "usage_per_capita_1km": 2.08
+      "usage_per_capita_1km": 2.08,
+      "station_type": "commuter_hub"
     },
     {
       "naptanId": "940GZZLUDOH",
@@ -2343,7 +2492,8 @@
       "annual_usage": 3180000,
       "daily_usage": 8712,
       "usage_per_capita_500m": 1.45,
-      "usage_per_capita_1km": 0.3
+      "usage_per_capita_1km": 0.3,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUFYR",
@@ -2359,7 +2509,8 @@
       "annual_usage": 7600000,
       "daily_usage": 20821,
       "usage_per_capita_500m": 2.39,
-      "usage_per_capita_1km": 0.55
+      "usage_per_capita_1km": 0.55,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUGPK",
@@ -2376,7 +2527,8 @@
       "annual_usage": 31100000,
       "daily_usage": 85205,
       "usage_per_capita_500m": 58.04,
-      "usage_per_capita_1km": 12.45
+      "usage_per_capita_1km": 12.45,
+      "station_type": "commuter_hub"
     },
     {
       "naptanId": "940GZZLUKBN",
@@ -2391,7 +2543,8 @@
       "annual_usage": 5550000,
       "daily_usage": 15205,
       "usage_per_capita_500m": 1.51,
-      "usage_per_capita_1km": 0.41
+      "usage_per_capita_1km": 0.41,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUKBY",
@@ -2406,7 +2559,8 @@
       "annual_usage": 3950000,
       "daily_usage": 10821,
       "usage_per_capita_500m": 1.62,
-      "usage_per_capita_1km": 0.5
+      "usage_per_capita_1km": 0.5,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLULNB",
@@ -2422,7 +2576,8 @@
       "annual_usage": 57890000,
       "daily_usage": 158602,
       "usage_per_capita_500m": 171.83,
-      "usage_per_capita_1km": 11.69
+      "usage_per_capita_1km": 11.69,
+      "station_type": "commuter_hub"
     },
     {
       "naptanId": "940GZZLUNDN",
@@ -2437,7 +2592,8 @@
       "annual_usage": 2640000,
       "daily_usage": 7232,
       "usage_per_capita_500m": 1.3,
-      "usage_per_capita_1km": 0.31
+      "usage_per_capita_1km": 0.31,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUNGW",
@@ -2452,7 +2608,8 @@
       "annual_usage": 23730000,
       "daily_usage": 65013,
       "usage_per_capita_500m": 40.94,
-      "usage_per_capita_1km": 4.66
+      "usage_per_capita_1km": 4.66,
+      "station_type": "commuter_hub"
     },
     {
       "naptanId": "940GZZLUQBY",
@@ -2467,7 +2624,8 @@
       "annual_usage": 3150000,
       "daily_usage": 8630,
       "usage_per_capita_500m": 1.15,
-      "usage_per_capita_1km": 0.32
+      "usage_per_capita_1km": 0.32,
+      "station_type": "residential_hub"
     },
     {
       "naptanId": "940GZZLUSJW",
@@ -2482,7 +2640,8 @@
       "annual_usage": 6170000,
       "daily_usage": 16904,
       "usage_per_capita_500m": 2.39,
-      "usage_per_capita_1km": 0.53
+      "usage_per_capita_1km": 0.53,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUSTM",
@@ -2497,7 +2656,8 @@
       "annual_usage": 3250000,
       "daily_usage": 8904,
       "usage_per_capita_500m": 4.91,
-      "usage_per_capita_1km": 0.93
+      "usage_per_capita_1km": 0.93,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUSWC",
@@ -2512,7 +2672,8 @@
       "annual_usage": 5620000,
       "daily_usage": 15397,
       "usage_per_capita_500m": 1.43,
-      "usage_per_capita_1km": 0.42
+      "usage_per_capita_1km": 0.42,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUSWK",
@@ -2527,7 +2688,8 @@
       "annual_usage": 9100000,
       "daily_usage": 24931,
       "usage_per_capita_500m": 4.22,
-      "usage_per_capita_1km": 1.18
+      "usage_per_capita_1km": 1.18,
+      "station_type": "commuter_hub"
     },
     {
       "naptanId": "940GZZLUWHP",
@@ -2542,7 +2704,8 @@
       "annual_usage": 8430000,
       "daily_usage": 23095,
       "usage_per_capita_500m": 2.19,
-      "usage_per_capita_1km": 0.56
+      "usage_per_capita_1km": 0.56,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUWIG",
@@ -2558,7 +2721,8 @@
       "annual_usage": 5800000,
       "daily_usage": 15890,
       "usage_per_capita_500m": 2.04,
-      "usage_per_capita_1km": 0.47
+      "usage_per_capita_1km": 0.47,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUWYP",
@@ -2574,7 +2738,8 @@
       "annual_usage": 16530000,
       "daily_usage": 45287,
       "usage_per_capita_500m": 6.94,
-      "usage_per_capita_1km": 1.92
+      "usage_per_capita_1km": 1.92,
+      "station_type": "commuter_hub"
     },
     {
       "naptanId": "940GZZLUAMS",
@@ -2589,7 +2754,8 @@
       "annual_usage": 1900000,
       "daily_usage": 5205,
       "usage_per_capita_500m": 2.03,
-      "usage_per_capita_1km": 0.7
+      "usage_per_capita_1km": 0.7,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUCAL",
@@ -2604,7 +2770,8 @@
       "annual_usage": 1520000,
       "daily_usage": 4164,
       "usage_per_capita_500m": 1.92,
-      "usage_per_capita_1km": 0.83
+      "usage_per_capita_1km": 0.83,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUCSM",
@@ -2619,7 +2786,8 @@
       "annual_usage": 1020000,
       "daily_usage": 2794,
       "usage_per_capita_500m": 0.88,
-      "usage_per_capita_1km": 0.25
+      "usage_per_capita_1km": 0.25,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUCXY",
@@ -2634,7 +2802,8 @@
       "annual_usage": 900000,
       "daily_usage": 2465,
       "usage_per_capita_500m": 0.52,
-      "usage_per_capita_1km": 0.2
+      "usage_per_capita_1km": 0.2,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUCYD",
@@ -2649,7 +2818,8 @@
       "annual_usage": 1400000,
       "daily_usage": 3835,
       "usage_per_capita_500m": 2.18,
-      "usage_per_capita_1km": 0.87
+      "usage_per_capita_1km": 0.87,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUEAE",
@@ -2665,7 +2835,8 @@
       "annual_usage": 2210000,
       "daily_usage": 6054,
       "usage_per_capita_500m": 1.41,
-      "usage_per_capita_1km": 0.36
+      "usage_per_capita_1km": 0.36,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUHGD",
@@ -2681,7 +2852,8 @@
       "annual_usage": 1440000,
       "daily_usage": 3945,
       "usage_per_capita_500m": 2.65,
-      "usage_per_capita_1km": 0.47
+      "usage_per_capita_1km": 0.47,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUHOH",
@@ -2696,7 +2868,8 @@
       "annual_usage": 8640000,
       "daily_usage": 23671,
       "usage_per_capita_500m": 2.69,
-      "usage_per_capita_1km": 0.88
+      "usage_per_capita_1km": 0.88,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUICK",
@@ -2712,7 +2885,8 @@
       "annual_usage": 870000,
       "daily_usage": 2383,
       "usage_per_capita_500m": 0.82,
-      "usage_per_capita_1km": 0.25
+      "usage_per_capita_1km": 0.25,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUMPK",
@@ -2727,7 +2901,8 @@
       "annual_usage": 830000,
       "daily_usage": 2273,
       "usage_per_capita_500m": 6.48,
-      "usage_per_capita_1km": 1.29
+      "usage_per_capita_1km": 1.29,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUNHA",
@@ -2742,7 +2917,8 @@
       "annual_usage": 1480000,
       "daily_usage": 4054,
       "usage_per_capita_500m": 0.82,
-      "usage_per_capita_1km": 0.21
+      "usage_per_capita_1km": 0.21,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUNKP",
@@ -2757,7 +2933,8 @@
       "annual_usage": 3220000,
       "daily_usage": 8821,
       "usage_per_capita_500m": 2.47,
-      "usage_per_capita_1km": 0.57
+      "usage_per_capita_1km": 0.57,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUNOW",
@@ -2772,7 +2949,8 @@
       "annual_usage": 2190000,
       "daily_usage": 6000,
       "usage_per_capita_500m": 1.97,
-      "usage_per_capita_1km": 0.57
+      "usage_per_capita_1km": 0.57,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUNWH",
@@ -2787,7 +2965,8 @@
       "annual_usage": 1400000,
       "daily_usage": 3835,
       "usage_per_capita_500m": 0.94,
-      "usage_per_capita_1km": 0.3
+      "usage_per_capita_1km": 0.3,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUPNR",
@@ -2802,7 +2981,8 @@
       "annual_usage": 2530000,
       "daily_usage": 6931,
       "usage_per_capita_500m": 3.25,
-      "usage_per_capita_1km": 0.64
+      "usage_per_capita_1km": 0.64,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUPRD",
@@ -2817,7 +2997,8 @@
       "annual_usage": 2520000,
       "daily_usage": 6904,
       "usage_per_capita_500m": 1.58,
-      "usage_per_capita_1km": 0.36
+      "usage_per_capita_1km": 0.36,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLURKW",
@@ -2832,7 +3013,8 @@
       "annual_usage": 1880000,
       "daily_usage": 5150,
       "usage_per_capita_500m": 3.33,
-      "usage_per_capita_1km": 0.83
+      "usage_per_capita_1km": 0.83,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLURSM",
@@ -2848,7 +3030,8 @@
       "annual_usage": 1420000,
       "daily_usage": 3890,
       "usage_per_capita_500m": 1.06,
-      "usage_per_capita_1km": 0.25
+      "usage_per_capita_1km": 0.25,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLURSP",
@@ -2864,7 +3047,8 @@
       "annual_usage": 1490000,
       "daily_usage": 4082,
       "usage_per_capita_500m": 0.99,
-      "usage_per_capita_1km": 0.28
+      "usage_per_capita_1km": 0.28,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLURYL",
@@ -2880,7 +3064,8 @@
       "annual_usage": 3390000,
       "daily_usage": 9287,
       "usage_per_capita_500m": 2.19,
-      "usage_per_capita_1km": 0.46
+      "usage_per_capita_1km": 0.46,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUUXB",
@@ -2896,7 +3081,8 @@
       "annual_usage": 5430000,
       "daily_usage": 14876,
       "usage_per_capita_500m": 3.44,
-      "usage_per_capita_1km": 1.21
+      "usage_per_capita_1km": 1.21,
+      "station_type": "commuter_hub"
     },
     {
       "naptanId": "940GZZLUWAF",
@@ -2911,7 +3097,8 @@
       "annual_usage": 1700000,
       "daily_usage": 4657,
       "usage_per_capita_500m": 2.09,
-      "usage_per_capita_1km": 0.37
+      "usage_per_capita_1km": 0.37,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUWHW",
@@ -2926,7 +3113,8 @@
       "annual_usage": 1220000,
       "daily_usage": 3342,
       "usage_per_capita_500m": 0.46,
-      "usage_per_capita_1km": 0.14
+      "usage_per_capita_1km": 0.14,
+      "station_type": "residential_hub"
     },
     {
       "naptanId": "940GZZBPSUST",
@@ -2941,7 +3129,8 @@
       "annual_usage": 9230000,
       "daily_usage": 25287,
       "usage_per_capita_500m": 3.58,
-      "usage_per_capita_1km": 0.72
+      "usage_per_capita_1km": 0.72,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUACY",
@@ -2956,7 +3145,8 @@
       "annual_usage": 7330000,
       "daily_usage": 20082,
       "usage_per_capita_500m": 1.83,
-      "usage_per_capita_1km": 0.53
+      "usage_per_capita_1km": 0.53,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUAGL",
@@ -2971,7 +3161,8 @@
       "annual_usage": 12680000,
       "daily_usage": 34739,
       "usage_per_capita_500m": 3.42,
-      "usage_per_capita_1km": 0.72
+      "usage_per_capita_1km": 0.72,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUBLM",
@@ -2986,7 +3177,8 @@
       "annual_usage": 10240000,
       "daily_usage": 28054,
       "usage_per_capita_500m": 2.51,
-      "usage_per_capita_1km": 0.74
+      "usage_per_capita_1km": 0.74,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUBOR",
@@ -3001,7 +3193,8 @@
       "annual_usage": 4179999,
       "daily_usage": 11452,
       "usage_per_capita_500m": 1.33,
-      "usage_per_capita_1km": 0.35
+      "usage_per_capita_1km": 0.35,
+      "station_type": "residential_hub"
     },
     {
       "naptanId": "940GZZLUBTK",
@@ -3016,7 +3209,8 @@
       "annual_usage": 4690000,
       "daily_usage": 12849,
       "usage_per_capita_500m": 1.79,
-      "usage_per_capita_1km": 0.44
+      "usage_per_capita_1km": 0.44,
+      "station_type": "residential_hub"
     },
     {
       "naptanId": "940GZZLUBTX",
@@ -3031,7 +3225,8 @@
       "annual_usage": 1820000,
       "daily_usage": 4986,
       "usage_per_capita_500m": 0.65,
-      "usage_per_capita_1km": 0.22
+      "usage_per_capita_1km": 0.22,
+      "station_type": "residential_hub"
     },
     {
       "naptanId": "940GZZLUBZP",
@@ -3046,7 +3241,8 @@
       "annual_usage": 5270000,
       "daily_usage": 14438,
       "usage_per_capita_500m": 1.56,
-      "usage_per_capita_1km": 0.41
+      "usage_per_capita_1km": 0.41,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUCFM",
@@ -3061,7 +3257,8 @@
       "annual_usage": 4940000,
       "daily_usage": 13534,
       "usage_per_capita_500m": 1.16,
-      "usage_per_capita_1km": 0.33
+      "usage_per_capita_1km": 0.33,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUCND",
@@ -3076,7 +3273,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "940GZZLUCPC",
@@ -3091,7 +3289,8 @@
       "annual_usage": 8119999,
       "daily_usage": 22246,
       "usage_per_capita_500m": 2.36,
-      "usage_per_capita_1km": 0.55
+      "usage_per_capita_1km": 0.55,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUCPN",
@@ -3106,7 +3305,8 @@
       "annual_usage": 5180000,
       "daily_usage": 14191,
       "usage_per_capita_500m": 1.13,
-      "usage_per_capita_1km": 0.28
+      "usage_per_capita_1km": 0.28,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUCPS",
@@ -3121,7 +3321,8 @@
       "annual_usage": 6610000,
       "daily_usage": 18109,
       "usage_per_capita_500m": 2.87,
-      "usage_per_capita_1km": 0.58
+      "usage_per_capita_1km": 0.58,
+      "station_type": "commuter_hub"
     },
     {
       "naptanId": "940GZZLUCSD",
@@ -3136,7 +3337,8 @@
       "annual_usage": 5540000,
       "daily_usage": 15178,
       "usage_per_capita_500m": 1.81,
-      "usage_per_capita_1km": 0.48
+      "usage_per_capita_1km": 0.48,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUCTN",
@@ -3151,7 +3353,8 @@
       "annual_usage": 18770000,
       "daily_usage": 51424,
       "usage_per_capita_500m": 5.09,
-      "usage_per_capita_1km": 1.34
+      "usage_per_capita_1km": 1.34,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUEFY",
@@ -3166,7 +3369,8 @@
       "annual_usage": 5510000,
       "daily_usage": 15095,
       "usage_per_capita_500m": 2.23,
-      "usage_per_capita_1km": 0.77
+      "usage_per_capita_1km": 0.77,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUEGW",
@@ -3181,7 +3385,8 @@
       "annual_usage": 4030000,
       "daily_usage": 11041,
       "usage_per_capita_500m": 2.16,
-      "usage_per_capita_1km": 0.51
+      "usage_per_capita_1km": 0.51,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUEUS",
@@ -3197,7 +3402,8 @@
       "annual_usage": 33189999,
       "daily_usage": 90931,
       "usage_per_capita_500m": 12.87,
-      "usage_per_capita_1km": 2.34
+      "usage_per_capita_1km": 2.34,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUFYC",
@@ -3212,7 +3418,8 @@
       "annual_usage": 5180000,
       "daily_usage": 14191,
       "usage_per_capita_500m": 1.84,
-      "usage_per_capita_1km": 0.69
+      "usage_per_capita_1km": 0.69,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUGDG",
@@ -3227,7 +3434,8 @@
       "annual_usage": 5440000,
       "daily_usage": 14904,
       "usage_per_capita_500m": 2.7,
-      "usage_per_capita_1km": 0.47
+      "usage_per_capita_1km": 0.47,
+      "station_type": "commuter_hub"
     },
     {
       "naptanId": "940GZZLUGGN",
@@ -3242,7 +3450,8 @@
       "annual_usage": 6240000,
       "daily_usage": 17095,
       "usage_per_capita_500m": 3.41,
-      "usage_per_capita_1km": 0.98
+      "usage_per_capita_1km": 0.98,
+      "station_type": "commuter_hub"
     },
     {
       "naptanId": "940GZZLUHBT",
@@ -3257,7 +3466,8 @@
       "annual_usage": 3710000,
       "daily_usage": 10164,
       "usage_per_capita_500m": 3.34,
-      "usage_per_capita_1km": 0.69
+      "usage_per_capita_1km": 0.69,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUHCL",
@@ -3272,7 +3482,8 @@
       "annual_usage": 7330000,
       "daily_usage": 20082,
       "usage_per_capita_500m": 3.53,
-      "usage_per_capita_1km": 0.86
+      "usage_per_capita_1km": 0.86,
+      "station_type": "commuter_hub"
     },
     {
       "naptanId": "940GZZLUHGT",
@@ -3287,7 +3498,8 @@
       "annual_usage": 4640000,
       "daily_usage": 12712,
       "usage_per_capita_500m": 3.23,
-      "usage_per_capita_1km": 0.81
+      "usage_per_capita_1km": 0.81,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUHTD",
@@ -3302,7 +3514,8 @@
       "annual_usage": 4110000,
       "daily_usage": 11260,
       "usage_per_capita_500m": 1.89,
-      "usage_per_capita_1km": 0.72
+      "usage_per_capita_1km": 0.72,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUKNG",
@@ -3317,7 +3530,8 @@
       "annual_usage": 4930000,
       "daily_usage": 13506,
       "usage_per_capita_500m": 0.96,
-      "usage_per_capita_1km": 0.27
+      "usage_per_capita_1km": 0.27,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUKSH",
@@ -3332,7 +3546,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "940GZZLULSQ",
@@ -3348,7 +3563,8 @@
       "annual_usage": 27560000,
       "daily_usage": 75506,
       "usage_per_capita_500m": 12.64,
-      "usage_per_capita_1km": 4.94
+      "usage_per_capita_1km": 4.94,
+      "station_type": "commuter_hub"
     },
     {
       "naptanId": "940GZZLUMDN",
@@ -3363,7 +3579,8 @@
       "annual_usage": 8700000,
       "daily_usage": 23835,
       "usage_per_capita_500m": 6.63,
-      "usage_per_capita_1km": 1.56
+      "usage_per_capita_1km": 1.56,
+      "station_type": "commuter_hub"
     },
     {
       "naptanId": "940GZZLUMHL",
@@ -3378,7 +3595,8 @@
       "annual_usage": 1620000,
       "daily_usage": 4438,
       "usage_per_capita_500m": 1.03,
-      "usage_per_capita_1km": 0.45
+      "usage_per_capita_1km": 0.45,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUMTC",
@@ -3393,7 +3611,8 @@
       "annual_usage": 2960000,
       "daily_usage": 8109,
       "usage_per_capita_500m": 0.65,
-      "usage_per_capita_1km": 0.24
+      "usage_per_capita_1km": 0.24,
+      "station_type": "residential_hub"
     },
     {
       "naptanId": "940GZZLUODS",
@@ -3408,7 +3627,8 @@
       "annual_usage": 16540000,
       "daily_usage": 45315,
       "usage_per_capita_500m": 3.01,
-      "usage_per_capita_1km": 0.92
+      "usage_per_capita_1km": 0.92,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUOVL",
@@ -3423,7 +3643,8 @@
       "annual_usage": 5410000,
       "daily_usage": 14821,
       "usage_per_capita_500m": 1.81,
-      "usage_per_capita_1km": 0.31
+      "usage_per_capita_1km": 0.31,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUSKW",
@@ -3439,7 +3660,8 @@
       "annual_usage": 7600000,
       "daily_usage": 20821,
       "usage_per_capita_500m": 1.62,
-      "usage_per_capita_1km": 0.37
+      "usage_per_capita_1km": 0.37,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUSWN",
@@ -3454,7 +3676,8 @@
       "annual_usage": 3800000,
       "daily_usage": 10410,
       "usage_per_capita_500m": 1.17,
-      "usage_per_capita_1km": 0.4
+      "usage_per_capita_1km": 0.4,
+      "station_type": "residential_hub"
     },
     {
       "naptanId": "940GZZLUTAW",
@@ -3469,7 +3692,8 @@
       "annual_usage": 2040000,
       "daily_usage": 5589,
       "usage_per_capita_500m": 1.92,
-      "usage_per_capita_1km": 0.48
+      "usage_per_capita_1km": 0.48,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUTBC",
@@ -3484,7 +3708,8 @@
       "annual_usage": 6520000,
       "daily_usage": 17863,
       "usage_per_capita_500m": 1.6,
-      "usage_per_capita_1km": 0.53
+      "usage_per_capita_1km": 0.53,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUTBY",
@@ -3499,7 +3724,8 @@
       "annual_usage": 12710000,
       "daily_usage": 34821,
       "usage_per_capita_500m": 3.38,
-      "usage_per_capita_1km": 0.91
+      "usage_per_capita_1km": 0.91,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUTFP",
@@ -3514,7 +3740,8 @@
       "annual_usage": 4910000,
       "daily_usage": 13452,
       "usage_per_capita_500m": 1.39,
-      "usage_per_capita_1km": 0.35
+      "usage_per_capita_1km": 0.35,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUWFN",
@@ -3529,7 +3756,8 @@
       "annual_usage": 1370000,
       "daily_usage": 3753,
       "usage_per_capita_500m": 0.66,
-      "usage_per_capita_1km": 0.17
+      "usage_per_capita_1km": 0.17,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUWOP",
@@ -3544,7 +3772,8 @@
       "annual_usage": 3230000,
       "daily_usage": 8849,
       "usage_per_capita_500m": 2.04,
-      "usage_per_capita_1km": 0.47
+      "usage_per_capita_1km": 0.47,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUWRR",
@@ -3560,7 +3789,8 @@
       "annual_usage": 14780000,
       "daily_usage": 40493,
       "usage_per_capita_500m": 4.6,
-      "usage_per_capita_1km": 1.21
+      "usage_per_capita_1km": 1.21,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZNEUGST",
@@ -3575,7 +3805,8 @@
       "annual_usage": 4110000,
       "daily_usage": 11260,
       "usage_per_capita_500m": 1.11,
-      "usage_per_capita_1km": 0.29
+      "usage_per_capita_1km": 0.29,
+      "station_type": "residential_hub"
     },
     {
       "naptanId": "940GZZLUALP",
@@ -3590,7 +3821,8 @@
       "annual_usage": 2590000,
       "daily_usage": 7095,
       "usage_per_capita_500m": 0.68,
-      "usage_per_capita_1km": 0.22
+      "usage_per_capita_1km": 0.22,
+      "station_type": "residential_hub"
     },
     {
       "naptanId": "940GZZLUASG",
@@ -3605,7 +3837,8 @@
       "annual_usage": 3290000,
       "daily_usage": 9013,
       "usage_per_capita_500m": 2.36,
-      "usage_per_capita_1km": 0.47
+      "usage_per_capita_1km": 0.47,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUASL",
@@ -3620,7 +3853,8 @@
       "annual_usage": 2270000,
       "daily_usage": 6219,
       "usage_per_capita_500m": 0.52,
-      "usage_per_capita_1km": 0.13
+      "usage_per_capita_1km": 0.13,
+      "station_type": "residential_hub"
     },
     {
       "naptanId": "940GZZLUBDS",
@@ -3635,7 +3869,8 @@
       "annual_usage": 4320000,
       "daily_usage": 11835,
       "usage_per_capita_500m": 1.46,
-      "usage_per_capita_1km": 0.43
+      "usage_per_capita_1km": 0.43,
+      "station_type": "residential_hub"
     },
     {
       "naptanId": "940GZZLUBOS",
@@ -3650,7 +3885,8 @@
       "annual_usage": 1420000,
       "daily_usage": 3890,
       "usage_per_capita_500m": 0.99,
-      "usage_per_capita_1km": 0.22
+      "usage_per_capita_1km": 0.22,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUCAR",
@@ -3665,7 +3901,8 @@
       "annual_usage": 3850000,
       "daily_usage": 10547,
       "usage_per_capita_500m": 0.79,
-      "usage_per_capita_1km": 0.23
+      "usage_per_capita_1km": 0.23,
+      "station_type": "residential_hub"
     },
     {
       "naptanId": "940GZZLUCGN",
@@ -3680,7 +3917,8 @@
       "annual_usage": 13520000,
       "daily_usage": 37041,
       "usage_per_capita_500m": 6.22,
-      "usage_per_capita_1km": 2.08
+      "usage_per_capita_1km": 2.08,
+      "station_type": "commuter_hub"
     },
     {
       "naptanId": "940GZZLUCKS",
@@ -3695,7 +3933,8 @@
       "annual_usage": 1470000,
       "daily_usage": 4027,
       "usage_per_capita_500m": 3.66,
-      "usage_per_capita_1km": 0.59
+      "usage_per_capita_1km": 0.59,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUFPK",
@@ -3711,7 +3950,8 @@
       "annual_usage": 21220000,
       "daily_usage": 58136,
       "usage_per_capita_500m": 5.26,
-      "usage_per_capita_1km": 1.41
+      "usage_per_capita_1km": 1.41,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUHNX",
@@ -3726,7 +3966,8 @@
       "annual_usage": 3270000,
       "daily_usage": 8958,
       "usage_per_capita_500m": 0,
-      "usage_per_capita_1km": 12.74
+      "usage_per_capita_1km": 12.74,
+      "station_type": "no_population_data"
     },
     {
       "naptanId": "940GZZLUHPC",
@@ -3741,7 +3982,8 @@
       "annual_usage": 3610000,
       "daily_usage": 9890,
       "usage_per_capita_500m": 7.96,
-      "usage_per_capita_1km": 1.34
+      "usage_per_capita_1km": 1.34,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUHR4",
@@ -3756,7 +3998,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "940GZZLUHR5",
@@ -3771,7 +4014,8 @@
       "annual_usage": 4099999,
       "daily_usage": 11232,
       "usage_per_capita_500m": 0,
-      "usage_per_capita_1km": 30.69
+      "usage_per_capita_1km": 30.69,
+      "station_type": "no_population_data"
     },
     {
       "naptanId": "940GZZLUHRC",
@@ -3786,7 +4030,8 @@
       "annual_usage": 6040000,
       "daily_usage": 16547,
       "usage_per_capita_500m": 0,
-      "usage_per_capita_1km": 0
+      "usage_per_capita_1km": 0,
+      "station_type": "no_population_data"
     },
     {
       "naptanId": "940GZZLUHWC",
@@ -3801,7 +4046,8 @@
       "annual_usage": 3240000,
       "daily_usage": 8876,
       "usage_per_capita_500m": 1.27,
-      "usage_per_capita_1km": 0.28
+      "usage_per_capita_1km": 0.28,
+      "station_type": "residential_hub"
     },
     {
       "naptanId": "940GZZLUHWE",
@@ -3816,7 +4062,8 @@
       "annual_usage": 3460000,
       "daily_usage": 9479,
       "usage_per_capita_500m": 1.05,
-      "usage_per_capita_1km": 0.34
+      "usage_per_capita_1km": 0.34,
+      "station_type": "residential_hub"
     },
     {
       "naptanId": "940GZZLUHWT",
@@ -3831,7 +4078,8 @@
       "annual_usage": 2930000,
       "daily_usage": 8027,
       "usage_per_capita_500m": 0.9,
-      "usage_per_capita_1km": 0.28
+      "usage_per_capita_1km": 0.28,
+      "station_type": "residential_hub"
     },
     {
       "naptanId": "940GZZLUHWY",
@@ -3846,7 +4094,8 @@
       "annual_usage": 5270000,
       "daily_usage": 14438,
       "usage_per_capita_500m": 1.24,
-      "usage_per_capita_1km": 0.3
+      "usage_per_capita_1km": 0.3,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUKNB",
@@ -3861,7 +4110,8 @@
       "annual_usage": 14260000,
       "daily_usage": 39068,
       "usage_per_capita_500m": 19.1,
-      "usage_per_capita_1km": 4.28
+      "usage_per_capita_1km": 4.28,
+      "station_type": "commuter_hub"
     },
     {
       "naptanId": "940GZZLUMRH",
@@ -3876,7 +4126,8 @@
       "annual_usage": 6000000,
       "daily_usage": 16438,
       "usage_per_capita_500m": 1.75,
-      "usage_per_capita_1km": 0.48
+      "usage_per_capita_1km": 0.48,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUNEN",
@@ -3891,7 +4142,8 @@
       "annual_usage": 620000,
       "daily_usage": 1698,
       "usage_per_capita_500m": 0.55,
-      "usage_per_capita_1km": 0.11
+      "usage_per_capita_1km": 0.11,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUNFD",
@@ -3906,7 +4158,8 @@
       "annual_usage": 2580000,
       "daily_usage": 7068,
       "usage_per_capita_500m": 0.97,
-      "usage_per_capita_1km": 0.25
+      "usage_per_capita_1km": 0.25,
+      "station_type": "residential_hub"
     },
     {
       "naptanId": "940GZZLUOAK",
@@ -3921,7 +4174,8 @@
       "annual_usage": 2310000,
       "daily_usage": 6328,
       "usage_per_capita_500m": 3.81,
-      "usage_per_capita_1km": 0.8
+      "usage_per_capita_1km": 0.8,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUOSY",
@@ -3936,7 +4190,8 @@
       "annual_usage": 1710000,
       "daily_usage": 4684,
       "usage_per_capita_500m": 2.33,
-      "usage_per_capita_1km": 0.4
+      "usage_per_capita_1km": 0.4,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUPKR",
@@ -3951,7 +4206,8 @@
       "annual_usage": 1720000,
       "daily_usage": 4712,
       "usage_per_capita_500m": 1.24,
-      "usage_per_capita_1km": 0.43
+      "usage_per_capita_1km": 0.43,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLURSQ",
@@ -3966,7 +4222,8 @@
       "annual_usage": 8940000,
       "daily_usage": 24493,
       "usage_per_capita_500m": 2.39,
-      "usage_per_capita_1km": 0.74
+      "usage_per_capita_1km": 0.74,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUSEA",
@@ -3981,7 +4238,8 @@
       "annual_usage": 2240000,
       "daily_usage": 6136,
       "usage_per_capita_500m": 1.02,
-      "usage_per_capita_1km": 0.23
+      "usage_per_capita_1km": 0.23,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUSGT",
@@ -3996,7 +4254,8 @@
       "annual_usage": 4080000,
       "daily_usage": 11178,
       "usage_per_capita_500m": 1.92,
-      "usage_per_capita_1km": 0.69
+      "usage_per_capita_1km": 0.69,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUSHH",
@@ -4011,7 +4270,8 @@
       "annual_usage": 2080000,
       "daily_usage": 5698,
       "usage_per_capita_500m": 0.67,
-      "usage_per_capita_1km": 0.27
+      "usage_per_capita_1km": 0.27,
+      "station_type": "residential_hub"
     },
     {
       "naptanId": "940GZZLUSUH",
@@ -4026,7 +4286,8 @@
       "annual_usage": 1700000,
       "daily_usage": 4657,
       "usage_per_capita_500m": 0.89,
-      "usage_per_capita_1km": 0.25
+      "usage_per_capita_1km": 0.25,
+      "station_type": "low_activity"
     },
     {
       "naptanId": "940GZZLUSUT",
@@ -4041,7 +4302,8 @@
       "annual_usage": 1670000,
       "daily_usage": 4575,
       "usage_per_capita_500m": 0.61,
-      "usage_per_capita_1km": 0.23
+      "usage_per_capita_1km": 0.23,
+      "station_type": "residential_hub"
     },
     {
       "naptanId": "940GZZLUTPN",
@@ -4056,7 +4318,8 @@
       "annual_usage": 8170000,
       "daily_usage": 22383,
       "usage_per_capita_500m": 2.09,
-      "usage_per_capita_1km": 0.58
+      "usage_per_capita_1km": 0.58,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUWOG",
@@ -4071,7 +4334,8 @@
       "annual_usage": 8990000,
       "daily_usage": 24630,
       "usage_per_capita_500m": 2.68,
-      "usage_per_capita_1km": 0.78
+      "usage_per_capita_1km": 0.78,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUBLR",
@@ -4086,7 +4350,8 @@
       "annual_usage": 9470000,
       "daily_usage": 25945,
       "usage_per_capita_500m": 3.41,
-      "usage_per_capita_1km": 1.02
+      "usage_per_capita_1km": 1.02,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUBXN",
@@ -4101,7 +4366,8 @@
       "annual_usage": 21390000,
       "daily_usage": 58602,
       "usage_per_capita_500m": 5.23,
-      "usage_per_capita_1km": 1.16
+      "usage_per_capita_1km": 1.16,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUHAI",
@@ -4116,7 +4382,8 @@
       "annual_usage": 15050000,
       "daily_usage": 41232,
       "usage_per_capita_500m": 4.94,
-      "usage_per_capita_1km": 0.9
+      "usage_per_capita_1km": 0.9,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUPCO",
@@ -4131,7 +4398,8 @@
       "annual_usage": 7660000,
       "daily_usage": 20986,
       "usage_per_capita_500m": 1.37,
-      "usage_per_capita_1km": 0.53
+      "usage_per_capita_1km": 0.53,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUSVS",
@@ -4146,7 +4414,8 @@
       "annual_usage": 12710000,
       "daily_usage": 34821,
       "usage_per_capita_500m": 3.73,
-      "usage_per_capita_1km": 0.87
+      "usage_per_capita_1km": 0.87,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUTMH",
@@ -4161,7 +4430,8 @@
       "annual_usage": 13850000,
       "daily_usage": 37945,
       "usage_per_capita_500m": 4.73,
-      "usage_per_capita_1km": 1.43
+      "usage_per_capita_1km": 1.43,
+      "station_type": "balanced"
     },
     {
       "naptanId": "940GZZLUVXL",
@@ -4176,7 +4446,8 @@
       "annual_usage": 22140000,
       "daily_usage": 60657,
       "usage_per_capita_500m": 10.2,
-      "usage_per_capita_1km": 1.46
+      "usage_per_capita_1km": 1.46,
+      "station_type": "commuter_hub"
     },
     {
       "naptanId": "940GZZLUWWL",
@@ -4191,7 +4462,8 @@
       "annual_usage": 13440000,
       "daily_usage": 36821,
       "usage_per_capita_500m": 3.34,
-      "usage_per_capita_1km": 0.89
+      "usage_per_capita_1km": 0.89,
+      "station_type": "balanced"
     },
     {
       "naptanId": "910GACTNCTL",
@@ -4206,7 +4478,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GANERLEY",
@@ -4221,7 +4494,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GBARKING",
@@ -4236,7 +4510,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GBARKRIV",
@@ -4251,7 +4526,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GBHILLPK",
@@ -4266,7 +4542,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GBLCHSRD",
@@ -4281,7 +4558,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GBRBY",
@@ -4296,7 +4574,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GBRBYPK",
@@ -4311,7 +4590,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GBROCKLY",
@@ -4326,7 +4606,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GBRUCGRV",
@@ -4341,7 +4622,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GBTHNLGR",
@@ -4356,7 +4638,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GBUSHEY",
@@ -4371,7 +4654,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GBUSHYDC",
@@ -4386,7 +4670,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GCAMHTH",
@@ -4401,7 +4686,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GCHESHNT",
@@ -4416,7 +4702,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GCHINGFD",
@@ -4431,7 +4718,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GCLAPTON",
@@ -4446,7 +4734,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GCLDNNRB",
@@ -4461,7 +4750,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GCLPHHS",
@@ -4476,7 +4766,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GCLPHMJ1",
@@ -4491,7 +4782,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GCLPHMJC",
@@ -4506,7 +4798,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GCMDNRD",
@@ -4521,7 +4814,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GCNDAW",
@@ -4536,7 +4830,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GCNNB",
@@ -4551,7 +4846,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GCROUCHH",
@@ -4566,7 +4862,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GCRPNDPK",
@@ -4581,7 +4878,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GCRYSTLP",
@@ -4596,7 +4894,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GCSEAH",
@@ -4611,7 +4910,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GDALS",
@@ -4626,7 +4926,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GDALSKLD",
@@ -4641,7 +4942,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GDENMRKH",
@@ -4656,7 +4958,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GEDMNGRN",
@@ -4671,7 +4974,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GEMRSPKH",
@@ -4686,7 +4990,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GENFLDTN",
@@ -4701,7 +5006,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GEUSTON",
@@ -4716,7 +5022,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GFNCHLYR",
@@ -4731,7 +5038,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GFORESTH",
@@ -4746,7 +5054,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GGNRSBRY",
@@ -4761,7 +5070,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GGOSPLOK",
@@ -4776,7 +5086,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GHACKNYC",
@@ -4791,7 +5102,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GHACKNYW",
@@ -4806,7 +5118,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GHAGGERS",
@@ -4821,7 +5134,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GHAKNYNM",
@@ -4836,7 +5150,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GHARLSDN",
@@ -4851,7 +5166,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GHEDSTNL",
@@ -4866,7 +5182,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GHGHI",
@@ -4881,7 +5198,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GHGHMSPK",
@@ -4896,7 +5214,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GHMPSTDH",
@@ -4911,7 +5230,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GHOMRTON",
@@ -4926,7 +5246,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GHONROPK",
@@ -4941,7 +5262,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GHOXTON",
@@ -4956,7 +5278,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GHRGYGL",
@@ -4971,7 +5294,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GHROW",
@@ -4986,7 +5310,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GHTCHEND",
@@ -5001,7 +5326,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GKENOLYM",
@@ -5016,7 +5342,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GKENR",
@@ -5031,7 +5358,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GKENSLG",
@@ -5046,7 +5374,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GKEWGRDN",
@@ -5061,7 +5390,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GKLBRNHR",
@@ -5076,7 +5406,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GKNTSHTW",
@@ -5091,7 +5422,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GKTON",
@@ -5106,7 +5438,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GLEYTNMR",
@@ -5121,7 +5454,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GLIVST",
@@ -5137,7 +5471,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GLNDNBDC",
@@ -5152,7 +5487,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GLONFLDS",
@@ -5167,7 +5503,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GLYTNSHR",
@@ -5182,7 +5519,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GNEWXGTE",
@@ -5197,7 +5535,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GNORWDJ",
@@ -5212,7 +5551,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GNWCRELL",
@@ -5227,7 +5567,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GNWEMBLY",
@@ -5242,7 +5583,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GPCKHMQD",
@@ -5257,7 +5599,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GPCKHMRY",
@@ -5272,7 +5615,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GPENEW",
@@ -5287,7 +5631,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GQPRK",
@@ -5302,7 +5647,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GRCTRYRD",
@@ -5317,7 +5663,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GRICHMND",
@@ -5332,7 +5679,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GROMFORD",
@@ -5348,7 +5696,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GRTHERHI",
@@ -5363,7 +5712,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GSACTON",
@@ -5378,7 +5728,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GSBURY",
@@ -5393,7 +5744,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GSEVNSIS",
@@ -5408,7 +5760,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GSHADWEL",
@@ -5423,7 +5776,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GSHMPSTD",
@@ -5438,7 +5792,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GSHPDSB",
@@ -5453,7 +5808,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GSHRDHST",
@@ -5468,7 +5824,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GSIVRST",
@@ -5483,7 +5840,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GSKENTON",
@@ -5498,7 +5856,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GSTFD",
@@ -5514,7 +5873,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GSTJMSST",
@@ -5529,7 +5889,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GSTKNWNG",
@@ -5544,7 +5905,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GSTMFDHL",
@@ -5559,7 +5921,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GSTNBGPK",
@@ -5574,7 +5937,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GSTOTNHM",
@@ -5589,7 +5953,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GSURREYQ",
@@ -5604,7 +5969,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GSYDENHM",
@@ -5619,7 +5985,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GTHBLDSG",
@@ -5634,7 +6001,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GTURKYST",
@@ -5649,7 +6017,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GUPMNSTR",
@@ -5664,7 +6033,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GUPRHLWY",
@@ -5679,7 +6049,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GWAPPING",
@@ -5694,7 +6065,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GWATFDHS",
@@ -5709,7 +6081,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GWATFDJ",
@@ -5724,7 +6097,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GWATFJDC",
@@ -5739,7 +6113,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GWBRMPTN",
@@ -5754,7 +6129,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GWCHAPEL",
@@ -5769,7 +6145,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GWCROYDN",
@@ -5784,7 +6161,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GWDGRNPK",
@@ -5799,7 +6177,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GWDST",
@@ -5814,7 +6193,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GWHHRTLA",
@@ -5829,7 +6209,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GWHMDSTD",
@@ -5844,7 +6225,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GWLSDJHL",
@@ -5859,7 +6241,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GWLTHQRD",
@@ -5874,7 +6257,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GWLTWCEN",
@@ -5889,7 +6273,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GWMBY",
@@ -5904,7 +6289,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GWNDSWRD",
@@ -5919,7 +6305,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GWNSTDPK",
@@ -5934,7 +6321,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GABWDXR",
@@ -5949,7 +6337,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GACTONML",
@@ -5964,7 +6353,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GBNHAM",
@@ -5979,7 +6369,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GBONDST",
@@ -5994,7 +6385,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GBRTWOOD",
@@ -6009,7 +6401,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GCANWHRF",
@@ -6024,7 +6417,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GCHDWLHT",
@@ -6039,7 +6433,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GCUSTMHS",
@@ -6054,7 +6449,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GEALINGB",
@@ -6069,7 +6465,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GFRNDXR",
@@ -6084,7 +6481,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GFRSTGT",
@@ -6099,7 +6497,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GGIDEAPK",
@@ -6114,7 +6513,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GGODMAYS",
@@ -6129,7 +6529,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GHANWELL",
@@ -6144,7 +6545,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GHAYESAH",
@@ -6159,7 +6561,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GHRLDWOD",
@@ -6174,7 +6577,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GHTRWAPT",
@@ -6189,7 +6593,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GHTRWTM4",
@@ -6204,7 +6609,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GHTRWTM5",
@@ -6219,7 +6625,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GILFORD",
@@ -6234,7 +6641,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GIVER",
@@ -6249,7 +6657,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GLANGLEY",
@@ -6264,7 +6673,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GLIVSTLL",
@@ -6279,7 +6689,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GMANRPK",
@@ -6294,7 +6705,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GMDNHEAD",
@@ -6309,7 +6721,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GMRYLAND",
@@ -6324,7 +6737,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GPADTLL",
@@ -6339,7 +6753,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GPADTON",
@@ -6354,7 +6769,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GRDNGSTN",
@@ -6369,7 +6785,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GSHENFLD",
@@ -6384,7 +6801,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GSLOUGH",
@@ -6399,7 +6817,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GSTHALL",
@@ -6414,7 +6833,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GSVNKNGS",
@@ -6429,7 +6849,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GTAPLOW",
@@ -6444,7 +6865,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GTOTCTRD",
@@ -6459,7 +6881,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GTWYFORD",
@@ -6474,7 +6897,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GWCHAPXR",
@@ -6489,7 +6913,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GWDRYTON",
@@ -6504,7 +6929,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GWEALING",
@@ -6519,7 +6945,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "910GWOLWXR",
@@ -6534,7 +6961,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "940GZZDLABR",
@@ -6549,7 +6977,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "940GZZDLALL",
@@ -6564,7 +6993,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "940GZZDLBEC",
@@ -6579,7 +7009,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "940GZZDLBLA",
@@ -6594,7 +7025,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "940GZZDLBNK",
@@ -6609,7 +7041,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "940GZZDLBOW",
@@ -6624,7 +7057,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "940GZZDLBPK",
@@ -6639,7 +7073,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "940GZZDLCAN",
@@ -6654,7 +7089,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "940GZZDLCGT",
@@ -6669,7 +7105,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "940GZZDLCLA",
@@ -6684,7 +7121,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "940GZZDLCUS",
@@ -6699,7 +7137,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "940GZZDLCUT",
@@ -6714,7 +7153,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "940GZZDLCYP",
@@ -6729,7 +7169,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "940GZZDLDEP",
@@ -6744,7 +7185,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "940GZZDLDEV",
@@ -6759,7 +7201,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "940GZZDLEIN",
@@ -6774,7 +7217,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "940GZZDLELV",
@@ -6789,7 +7233,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "940GZZDLGAL",
@@ -6804,7 +7249,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "940GZZDLGRE",
@@ -6819,7 +7265,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "940GZZDLHEQ",
@@ -6834,7 +7281,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "940GZZDLISL",
@@ -6849,7 +7297,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "940GZZDLKGV",
@@ -6864,7 +7313,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "940GZZDLLCA",
@@ -6879,7 +7329,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "940GZZDLLDP",
@@ -6894,7 +7345,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "940GZZDLLEW",
@@ -6909,7 +7361,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "940GZZDLLIM",
@@ -6924,7 +7377,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "940GZZDLMUD",
@@ -6939,7 +7393,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "940GZZDLPDK",
@@ -6954,7 +7409,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "940GZZDLPOP",
@@ -6969,7 +7425,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "940GZZDLPRE",
@@ -6984,7 +7441,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "940GZZDLPUD",
@@ -6999,7 +7457,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "940GZZDLRAL",
@@ -7014,7 +7473,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "940GZZDLRVC",
@@ -7029,7 +7489,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "940GZZDLSHA",
@@ -7044,7 +7505,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "940GZZDLSHS",
@@ -7059,7 +7521,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "940GZZDLSIT",
@@ -7074,7 +7537,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "940GZZDLSOQ",
@@ -7089,7 +7553,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "940GZZDLSTD",
@@ -7104,7 +7569,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "940GZZDLSTL",
@@ -7119,7 +7585,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "940GZZDLTWG",
@@ -7134,7 +7601,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "940GZZDLWFE",
@@ -7149,7 +7617,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "940GZZDLWHM",
@@ -7164,7 +7633,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "940GZZDLWIQ",
@@ -7179,7 +7649,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "940GZZDLWLA",
@@ -7194,7 +7665,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     },
     {
       "naptanId": "940GZZDLWSV",
@@ -7209,7 +7681,8 @@
       "annual_usage": 0,
       "daily_usage": 0,
       "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0
+      "usage_per_capita_1km": 0.0,
+      "station_type": "no_usage_data"
     }
   ],
   "line_colors": {
@@ -7227,5 +7700,13 @@
     "london-overground": "#EE7C0E",
     "elizabeth": "#9364CD",
     "dlr": "#00A4A7"
+  },
+  "thresholds": {
+    "population_threshold": 6697,
+    "usage_threshold": 13369,
+    "pop_25": 4080,
+    "pop_75": 9515,
+    "usage_25": 6931,
+    "usage_75": 25945
   }
 }
