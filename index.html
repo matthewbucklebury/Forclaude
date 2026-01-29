@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UK Mobility Dashboard - London Transport Trends</title>
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background: linear-gradient(135deg, #003688 0%, #0019a8 100%);
+            color: white;
+            padding: 30px 0;
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        header p {
+            opacity: 0.9;
+            font-size: 1.1rem;
+        }
+
+        .controls {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 24px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        .controls-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            align-items: end;
+        }
+
+        .control-group {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .control-group label {
+            font-weight: 600;
+            font-size: 0.875rem;
+            color: #555;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .checkbox-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .checkbox-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            cursor: pointer;
+        }
+
+        .checkbox-item input {
+            width: 18px;
+            height: 18px;
+            cursor: pointer;
+        }
+
+        .mode-label {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.9rem;
+        }
+
+        .mode-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+        }
+
+        select, input[type="date"] {
+            padding: 10px 14px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 0.95rem;
+            background: white;
+            cursor: pointer;
+            transition: border-color 0.2s;
+        }
+
+        select:hover, input[type="date"]:hover {
+            border-color: #003688;
+        }
+
+        select:focus, input[type="date"]:focus {
+            outline: none;
+            border-color: #003688;
+        }
+
+        .radio-group {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .radio-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            cursor: pointer;
+        }
+
+        .radio-item input {
+            width: 18px;
+            height: 18px;
+            cursor: pointer;
+        }
+
+        .btn-group {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 8px 16px;
+            border: 2px solid #003688;
+            background: white;
+            color: #003688;
+            border-radius: 6px;
+            font-size: 0.875rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .btn:hover {
+            background: #003688;
+            color: white;
+        }
+
+        .btn.active {
+            background: #003688;
+            color: white;
+        }
+
+        .chart-container {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 24px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        #main-chart {
+            width: 100%;
+            height: 500px;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+
+        .stat-card {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            border-top: 4px solid #003688;
+        }
+
+        .stat-card h3 {
+            font-size: 0.875rem;
+            color: #666;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .stat-card .value {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: #003688;
+        }
+
+        .stat-card .change {
+            font-size: 0.875rem;
+            margin-top: 4px;
+        }
+
+        .stat-card .change.positive {
+            color: #16a34a;
+        }
+
+        .stat-card .change.negative {
+            color: #dc2626;
+        }
+
+        .export-section {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+
+        .export-btn {
+            padding: 12px 24px;
+            background: #003688;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        .export-btn:hover {
+            background: #002266;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 0;
+            color: #666;
+            font-size: 0.875rem;
+        }
+
+        footer a {
+            color: #003688;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.5rem;
+            }
+
+            .controls-grid {
+                grid-template-columns: 1fr;
+            }
+
+            #main-chart {
+                height: 400px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>UK Mobility Dashboard</h1>
+            <p>London transport ridership trends 2019-2025 | TfL data visualization</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="controls">
+            <div class="controls-grid">
+                <div class="control-group">
+                    <label>Transport Modes</label>
+                    <div class="checkbox-group">
+                        <label class="checkbox-item">
+                            <input type="checkbox" id="mode-tube" value="tube" checked>
+                            <span class="mode-label">
+                                <span class="mode-dot" style="background: #003688;"></span>
+                                Tube
+                            </span>
+                        </label>
+                        <label class="checkbox-item">
+                            <input type="checkbox" id="mode-bus" value="bus" checked>
+                            <span class="mode-label">
+                                <span class="mode-dot" style="background: #DC241F;"></span>
+                                Bus
+                            </span>
+                        </label>
+                        <label class="checkbox-item">
+                            <input type="checkbox" id="mode-dlr" value="dlr" checked>
+                            <span class="mode-label">
+                                <span class="mode-dot" style="background: #00A4A7;"></span>
+                                DLR
+                            </span>
+                        </label>
+                        <label class="checkbox-item">
+                            <input type="checkbox" id="mode-overground" value="overground" checked>
+                            <span class="mode-label">
+                                <span class="mode-dot" style="background: #EE7C0E;"></span>
+                                Overground
+                            </span>
+                        </label>
+                        <label class="checkbox-item">
+                            <input type="checkbox" id="mode-tram" value="tram">
+                            <span class="mode-label">
+                                <span class="mode-dot" style="background: #84B817;"></span>
+                                Tram
+                            </span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label>View Type</label>
+                    <div class="radio-group">
+                        <label class="radio-item">
+                            <input type="radio" name="viewType" value="absolute" checked>
+                            Absolute (millions)
+                        </label>
+                        <label class="radio-item">
+                            <input type="radio" name="viewType" value="indexed">
+                            Indexed (100 = 2019)
+                        </label>
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label>Smoothing</label>
+                    <div class="checkbox-group">
+                        <label class="checkbox-item">
+                            <input type="checkbox" id="smoothing">
+                            3-period rolling average
+                        </label>
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label>Quick Select</label>
+                    <div class="btn-group">
+                        <button class="btn" data-range="2019">2019</button>
+                        <button class="btn" data-range="2022">2022+</button>
+                        <button class="btn" data-range="1y">Last Year</button>
+                        <button class="btn active" data-range="all">All Time</button>
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label>Date Range</label>
+                    <div style="display: flex; gap: 10px; align-items: center;">
+                        <input type="date" id="startDate" value="2019-04-01">
+                        <span>to</span>
+                        <input type="date" id="endDate" value="2025-03-03">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="chart-container">
+            <div id="main-chart"></div>
+        </div>
+
+        <div class="stats-grid" id="stats-container">
+            <!-- Stats cards will be generated dynamically -->
+        </div>
+
+        <div class="export-section">
+            <div>
+                <strong>Export Data</strong>
+                <p style="color: #666; font-size: 0.875rem;">Download the current view as a CSV file</p>
+            </div>
+            <button class="export-btn" onclick="exportCSV()">Export to CSV</button>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>
+                Data source: <a href="https://data.london.gov.uk/dataset/public-transport-journeys-type-transport/" target="_blank">Transport for London via London Datastore</a>
+                <br>
+                UK Mobility Dashboard - Phase 1
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // Embedded mobility data
+        const rawData = [{"date":"2019-04-01","mode":"bus","journeys":148.92,"indexed":104.4},{"date":"2019-04-01","mode":"dlr","journeys":9.72,"indexed":101.2},{"date":"2019-04-01","mode":"overground","journeys":13.43,"indexed":99.2},{"date":"2019-04-01","mode":"tram","journeys":2.29,"indexed":96.4},{"date":"2019-04-01","mode":"tube","journeys":103.19,"indexed":97.6},{"date":"2019-04-29","mode":"bus","journeys":143.37,"indexed":100.5},{"date":"2019-04-29","mode":"dlr","journeys":10.37,"indexed":107.9},{"date":"2019-04-29","mode":"overground","journeys":14.14,"indexed":104.4},{"date":"2019-04-29","mode":"tram","journeys":2.55,"indexed":107.4},{"date":"2019-04-29","mode":"tube","journeys":106.22,"indexed":100.4},{"date":"2019-05-27","mode":"bus","journeys":157.05,"indexed":110.1},{"date":"2019-05-27","mode":"dlr","journeys":10.33,"indexed":107.5},{"date":"2019-05-27","mode":"overground","journeys":13.6,"indexed":100.5},{"date":"2019-05-27","mode":"tram","journeys":2.42,"indexed":101.9},{"date":"2019-05-27","mode":"tube","journeys":104.73,"indexed":99.0},{"date":"2019-06-24","mode":"bus","journeys":139.71,"indexed":97.9},{"date":"2019-06-24","mode":"dlr","journeys":9.52,"indexed":99.1},{"date":"2019-06-24","mode":"overground","journeys":13.21,"indexed":97.6},{"date":"2019-06-24","mode":"tram","journeys":2.33,"indexed":98.1},{"date":"2019-06-24","mode":"tube","journeys":101.19,"indexed":95.7},{"date":"2019-07-22","mode":"bus","journeys":122.9,"indexed":86.2},{"date":"2019-07-22","mode":"dlr","journeys":8.32,"indexed":86.6},{"date":"2019-07-22","mode":"overground","journeys":11.74,"indexed":86.7},{"date":"2019-07-22","mode":"tram","journeys":2.12,"indexed":89.2},{"date":"2019-07-22","mode":"tube","journeys":94.55,"indexed":89.4},{"date":"2019-08-19","mode":"bus","journeys":123.67,"indexed":86.7},{"date":"2019-08-19","mode":"dlr","journeys":8.51,"indexed":88.6},{"date":"2019-08-19","mode":"overground","journeys":12.01,"indexed":88.7},{"date":"2019-08-19","mode":"tram","journeys":2.03,"indexed":85.5},{"date":"2019-08-19","mode":"tube","journeys":96.17,"indexed":90.9},{"date":"2019-09-16","mode":"bus","journeys":145.06,"indexed":101.7},{"date":"2019-09-16","mode":"dlr","journeys":9.57,"indexed":99.6},{"date":"2019-09-16","mode":"overground","journeys":14.63,"indexed":108.1},{"date":"2019-09-16","mode":"tram","journeys":2.62,"indexed":110.3},{"date":"2019-09-16","mode":"tube","journeys":111.18,"indexed":105.1},{"date":"2019-10-14","mode":"bus","journeys":154.42,"indexed":108.3},{"date":"2019-10-14","mode":"dlr","journeys":10.08,"indexed":104.9},{"date":"2019-10-14","mode":"overground","journeys":14.97,"indexed":110.6},{"date":"2019-10-14","mode":"tram","journeys":2.61,"indexed":109.9},{"date":"2019-10-14","mode":"tube","journeys":119.06,"indexed":112.6},{"date":"2019-11-11","mode":"bus","journeys":157.42,"indexed":110.4},{"date":"2019-11-11","mode":"dlr","journeys":10.01,"indexed":104.2},{"date":"2019-11-11","mode":"overground","journeys":15.3,"indexed":113.0},{"date":"2019-11-11","mode":"tram","journeys":2.56,"indexed":107.8},{"date":"2019-11-11","mode":"tube","journeys":111.13,"indexed":105.1},{"date":"2019-12-09","mode":"bus","journeys":139.82,"indexed":98.0},{"date":"2019-12-09","mode":"dlr","journeys":9.52,"indexed":99.1},{"date":"2019-12-09","mode":"overground","journeys":13.36,"indexed":98.7},{"date":"2019-12-09","mode":"tram","journeys":2.3,"indexed":96.8},{"date":"2019-12-09","mode":"tube","journeys":106.2,"indexed":100.4},{"date":"2020-01-06","mode":"bus","journeys":138.71,"indexed":97.2},{"date":"2020-01-06","mode":"dlr","journeys":9.4,"indexed":97.8},{"date":"2020-01-06","mode":"overground","journeys":13.1,"indexed":96.8},{"date":"2020-01-06","mode":"tram","journeys":2.27,"indexed":95.6},{"date":"2020-01-06","mode":"tube","journeys":103.65,"indexed":98.0},{"date":"2020-02-03","mode":"bus","journeys":136.64,"indexed":95.8},{"date":"2020-02-03","mode":"dlr","journeys":9.21,"indexed":95.9},{"date":"2020-02-03","mode":"overground","journeys":12.7,"indexed":93.8},{"date":"2020-02-03","mode":"tram","journeys":2.33,"indexed":98.1},{"date":"2020-02-03","mode":"tube","journeys":108.91,"indexed":103.0},{"date":"2020-03-03","mode":"bus","journeys":146.57,"indexed":102.8},{"date":"2020-03-03","mode":"dlr","journeys":10.33,"indexed":107.5},{"date":"2020-03-03","mode":"overground","journeys":13.8,"indexed":101.9},{"date":"2020-03-03","mode":"tram","journeys":2.45,"indexed":103.1},{"date":"2020-03-03","mode":"tube","journeys":108.78,"indexed":102.8},{"date":"2020-04-01","mode":"bus","journeys":48.08,"indexed":33.7},{"date":"2020-04-01","mode":"dlr","journeys":3.43,"indexed":35.7},{"date":"2020-04-01","mode":"overground","journeys":4.46,"indexed":32.9},{"date":"2020-04-01","mode":"tram","journeys":0.87,"indexed":36.6},{"date":"2020-04-01","mode":"tube","journeys":36.73,"indexed":34.7},{"date":"2020-04-29","mode":"bus","journeys":50.92,"indexed":35.7},{"date":"2020-04-29","mode":"dlr","journeys":3.33,"indexed":34.7},{"date":"2020-04-29","mode":"overground","journeys":5.05,"indexed":37.3},{"date":"2020-04-29","mode":"tram","journeys":0.89,"indexed":37.5},{"date":"2020-04-29","mode":"tube","journeys":39.55,"indexed":37.4},{"date":"2020-05-27","mode":"bus","journeys":53.92,"indexed":37.8},{"date":"2020-05-27","mode":"dlr","journeys":3.35,"indexed":34.9},{"date":"2020-05-27","mode":"overground","journeys":4.83,"indexed":35.7},{"date":"2020-05-27","mode":"tram","journeys":0.84,"indexed":35.4},{"date":"2020-05-27","mode":"tube","journeys":39.38,"indexed":37.2},{"date":"2020-06-24","mode":"bus","journeys":50.49,"indexed":35.4},{"date":"2020-06-24","mode":"dlr","journeys":3.27,"indexed":34.0},{"date":"2020-06-24","mode":"overground","journeys":4.45,"indexed":32.9},{"date":"2020-06-24","mode":"tram","journeys":0.82,"indexed":34.5},{"date":"2020-06-24","mode":"tube","journeys":37.9,"indexed":35.8},{"date":"2020-07-22","mode":"bus","journeys":45.65,"indexed":32.0},{"date":"2020-07-22","mode":"dlr","journeys":3.02,"indexed":31.4},{"date":"2020-07-22","mode":"overground","journeys":4.33,"indexed":32.0},{"date":"2020-07-22","mode":"tram","journeys":0.74,"indexed":31.2},{"date":"2020-07-22","mode":"tube","journeys":32.15,"indexed":30.4},{"date":"2020-08-19","mode":"bus","journeys":45.58,"indexed":32.0},{"date":"2020-08-19","mode":"dlr","journeys":3.05,"indexed":31.7},{"date":"2020-08-19","mode":"overground","journeys":4.19,"indexed":31.0},{"date":"2020-08-19","mode":"tram","journeys":0.76,"indexed":32.0},{"date":"2020-08-19","mode":"tube","journeys":31.48,"indexed":29.8},{"date":"2020-09-16","mode":"bus","journeys":52.62,"indexed":36.9},{"date":"2020-09-16","mode":"dlr","journeys":3.47,"indexed":36.1},{"date":"2020-09-16","mode":"overground","journeys":4.67,"indexed":34.5},{"date":"2020-09-16","mode":"tram","journeys":0.84,"indexed":35.4},{"date":"2020-09-16","mode":"tube","journeys":38.48,"indexed":36.4},{"date":"2020-10-14","mode":"bus","journeys":55.88,"indexed":39.2},{"date":"2020-10-14","mode":"dlr","journeys":3.61,"indexed":37.6},{"date":"2020-10-14","mode":"overground","journeys":5.15,"indexed":38.0},{"date":"2020-10-14","mode":"tram","journeys":0.96,"indexed":40.4},{"date":"2020-10-14","mode":"tube","journeys":38.53,"indexed":36.4},{"date":"2020-11-11","mode":"bus","journeys":54.63,"indexed":38.3},{"date":"2020-11-11","mode":"dlr","journeys":3.77,"indexed":39.2},{"date":"2020-11-11","mode":"overground","journeys":5.01,"indexed":37.0},{"date":"2020-11-11","mode":"tram","journeys":0.88,"indexed":37.0},{"date":"2020-11-11","mode":"tube","journeys":39.41,"indexed":37.3},{"date":"2020-12-09","mode":"bus","journeys":48.19,"indexed":33.8},{"date":"2020-12-09","mode":"dlr","journeys":3.47,"indexed":36.1},{"date":"2020-12-09","mode":"overground","journeys":4.8,"indexed":35.5},{"date":"2020-12-09","mode":"tram","journeys":0.84,"indexed":35.4},{"date":"2020-12-09","mode":"tube","journeys":35.81,"indexed":33.9},{"date":"2021-01-06","mode":"bus","journeys":48.68,"indexed":34.1},{"date":"2021-01-06","mode":"dlr","journeys":3.05,"indexed":31.7},{"date":"2021-01-06","mode":"overground","journeys":4.58,"indexed":33.8},{"date":"2021-01-06","mode":"tram","journeys":0.79,"indexed":33.3},{"date":"2021-01-06","mode":"tube","journeys":35.94,"indexed":34.0},{"date":"2021-02-03","mode":"bus","journeys":51.85,"indexed":36.4},{"date":"2021-02-03","mode":"dlr","journeys":3.26,"indexed":33.9},{"date":"2021-02-03","mode":"overground","journeys":4.47,"indexed":33.0},{"date":"2021-02-03","mode":"tram","journeys":0.81,"indexed":34.1},{"date":"2021-02-03","mode":"tube","journeys":37.7,"indexed":35.6},{"date":"2021-03-03","mode":"bus","journeys":54.17,"indexed":38.0},{"date":"2021-03-03","mode":"dlr","journeys":3.63,"indexed":37.8},{"date":"2021-03-03","mode":"overground","journeys":4.66,"indexed":34.4},{"date":"2021-03-03","mode":"tram","journeys":0.88,"indexed":37.0},{"date":"2021-03-03","mode":"tube","journeys":38.22,"indexed":36.1},{"date":"2021-04-01","mode":"bus","journeys":76.2,"indexed":53.4},{"date":"2021-04-01","mode":"dlr","journeys":5.03,"indexed":52.4},{"date":"2021-04-01","mode":"overground","journeys":7.2,"indexed":53.2},{"date":"2021-04-01","mode":"tram","journeys":1.36,"indexed":57.3},{"date":"2021-04-01","mode":"tube","journeys":57.0,"indexed":53.9},{"date":"2021-04-29","mode":"bus","journeys":82.66,"indexed":58.0},{"date":"2021-04-29","mode":"dlr","journeys":5.61,"indexed":58.4},{"date":"2021-04-29","mode":"overground","journeys":7.59,"indexed":56.1},{"date":"2021-04-29","mode":"tram","journeys":1.44,"indexed":60.6},{"date":"2021-04-29","mode":"tube","journeys":59.43,"indexed":56.2},{"date":"2021-05-27","mode":"bus","journeys":80.45,"indexed":56.4},{"date":"2021-05-27","mode":"dlr","journeys":5.5,"indexed":57.3},{"date":"2021-05-27","mode":"overground","journeys":7.55,"indexed":55.8},{"date":"2021-05-27","mode":"tram","journeys":1.35,"indexed":56.8},{"date":"2021-05-27","mode":"tube","journeys":63.3,"indexed":59.8},{"date":"2021-06-24","mode":"bus","journeys":79.23,"indexed":55.5},{"date":"2021-06-24","mode":"dlr","journeys":5.23,"indexed":54.4},{"date":"2021-06-24","mode":"overground","journeys":6.99,"indexed":51.6},{"date":"2021-06-24","mode":"tram","journeys":1.28,"indexed":53.9},{"date":"2021-06-24","mode":"tube","journeys":54.81,"indexed":51.8},{"date":"2021-07-22","mode":"bus","journeys":68.3,"indexed":47.9},{"date":"2021-07-22","mode":"dlr","journeys":4.51,"indexed":46.9},{"date":"2021-07-22","mode":"overground","journeys":6.54,"indexed":48.3},{"date":"2021-07-22","mode":"tram","journeys":1.23,"indexed":51.8},{"date":"2021-07-22","mode":"tube","journeys":53.52,"indexed":50.6},{"date":"2021-08-19","mode":"bus","journeys":71.33,"indexed":50.0},{"date":"2021-08-19","mode":"dlr","journeys":4.8,"indexed":50.0},{"date":"2021-08-19","mode":"overground","journeys":6.37,"indexed":47.1},{"date":"2021-08-19","mode":"tram","journeys":1.2,"indexed":50.5},{"date":"2021-08-19","mode":"tube","journeys":50.1,"indexed":47.4},{"date":"2021-09-16","mode":"bus","journeys":83.59,"indexed":58.6},{"date":"2021-09-16","mode":"dlr","journeys":5.57,"indexed":58.0},{"date":"2021-09-16","mode":"overground","journeys":7.73,"indexed":57.1},{"date":"2021-09-16","mode":"tram","journeys":1.32,"indexed":55.6},{"date":"2021-09-16","mode":"tube","journeys":59.7,"indexed":56.4},{"date":"2021-10-14","mode":"bus","journeys":85.07,"indexed":59.6},{"date":"2021-10-14","mode":"dlr","journeys":5.59,"indexed":58.2},{"date":"2021-10-14","mode":"overground","journeys":7.71,"indexed":57.0},{"date":"2021-10-14","mode":"tram","journeys":1.46,"indexed":61.5},{"date":"2021-10-14","mode":"tube","journeys":65.66,"indexed":62.1},{"date":"2021-11-11","mode":"bus","journeys":82.44,"indexed":57.8},{"date":"2021-11-11","mode":"dlr","journeys":5.78,"indexed":60.2},{"date":"2021-11-11","mode":"overground","journeys":7.86,"indexed":58.1},{"date":"2021-11-11","mode":"tram","journeys":1.46,"indexed":61.5},{"date":"2021-11-11","mode":"tube","journeys":64.65,"indexed":61.1},{"date":"2021-12-09","mode":"bus","journeys":79.87,"indexed":56.0},{"date":"2021-12-09","mode":"dlr","journeys":5.17,"indexed":53.8},{"date":"2021-12-09","mode":"overground","journeys":7.63,"indexed":56.4},{"date":"2021-12-09","mode":"tram","journeys":1.26,"indexed":53.0},{"date":"2021-12-09","mode":"tube","journeys":55.6,"indexed":52.6},{"date":"2022-01-06","mode":"bus","journeys":71.38,"indexed":50.0},{"date":"2022-01-06","mode":"dlr","journeys":5.16,"indexed":53.7},{"date":"2022-01-06","mode":"overground","journeys":7.19,"indexed":53.1},{"date":"2022-01-06","mode":"tram","journeys":1.21,"indexed":50.9},{"date":"2022-01-06","mode":"tube","journeys":53.58,"indexed":50.7},{"date":"2022-02-03","mode":"bus","journeys":80.86,"indexed":56.7},{"date":"2022-02-03","mode":"dlr","journeys":5.25,"indexed":54.6},{"date":"2022-02-03","mode":"overground","journeys":7.34,"indexed":54.2},{"date":"2022-02-03","mode":"tram","journeys":1.27,"indexed":53.5},{"date":"2022-02-03","mode":"tube","journeys":58.39,"indexed":55.2},{"date":"2022-03-03","mode":"bus","journeys":85.78,"indexed":60.1},{"date":"2022-03-03","mode":"dlr","journeys":5.72,"indexed":59.5},{"date":"2022-03-03","mode":"overground","journeys":7.8,"indexed":57.6},{"date":"2022-03-03","mode":"tram","journeys":1.35,"indexed":56.8},{"date":"2022-03-03","mode":"tube","journeys":58.04,"indexed":54.9},{"date":"2022-04-01","mode":"bus","journeys":109.29,"indexed":76.6},{"date":"2022-04-01","mode":"dlr","journeys":7.41,"indexed":77.1},{"date":"2022-04-01","mode":"overground","journeys":10.36,"indexed":76.5},{"date":"2022-04-01","mode":"tram","journeys":1.83,"indexed":77.0},{"date":"2022-04-01","mode":"tube","journeys":77.19,"indexed":73.0},{"date":"2022-04-29","mode":"bus","journeys":107.82,"indexed":75.6},{"date":"2022-04-29","mode":"dlr","journeys":7.25,"indexed":75.5},{"date":"2022-04-29","mode":"overground","journeys":10.92,"indexed":80.7},{"date":"2022-04-29","mode":"tram","journeys":1.89,"indexed":79.6},{"date":"2022-04-29","mode":"tube","journeys":83.67,"indexed":79.1},{"date":"2022-05-27","mode":"bus","journeys":108.02,"indexed":75.7},{"date":"2022-05-27","mode":"dlr","journeys":7.62,"indexed":79.3},{"date":"2022-05-27","mode":"overground","journeys":9.98,"indexed":73.7},{"date":"2022-05-27","mode":"tram","journeys":1.81,"indexed":76.2},{"date":"2022-05-27","mode":"tube","journeys":78.45,"indexed":74.2},{"date":"2022-06-24","mode":"bus","journeys":108.93,"indexed":76.4},{"date":"2022-06-24","mode":"dlr","journeys":7.23,"indexed":75.3},{"date":"2022-06-24","mode":"overground","journeys":9.7,"indexed":71.7},{"date":"2022-06-24","mode":"tram","journeys":1.82,"indexed":76.6},{"date":"2022-06-24","mode":"tube","journeys":78.76,"indexed":74.5},{"date":"2022-07-22","mode":"bus","journeys":93.96,"indexed":65.9},{"date":"2022-07-22","mode":"dlr","journeys":6.53,"indexed":68.0},{"date":"2022-07-22","mode":"overground","journeys":9.06,"indexed":66.9},{"date":"2022-07-22","mode":"tram","journeys":1.65,"indexed":69.5},{"date":"2022-07-22","mode":"tube","journeys":68.28,"indexed":64.6},{"date":"2022-08-19","mode":"bus","journeys":96.28,"indexed":67.5},{"date":"2022-08-19","mode":"dlr","journeys":6.12,"indexed":63.7},{"date":"2022-08-19","mode":"overground","journeys":8.81,"indexed":65.1},{"date":"2022-08-19","mode":"tram","journeys":1.56,"indexed":65.7},{"date":"2022-08-19","mode":"tube","journeys":71.23,"indexed":67.3},{"date":"2022-09-16","mode":"bus","journeys":117.82,"indexed":82.6},{"date":"2022-09-16","mode":"dlr","journeys":7.42,"indexed":77.2},{"date":"2022-09-16","mode":"overground","journeys":10.91,"indexed":80.6},{"date":"2022-09-16","mode":"tram","journeys":1.9,"indexed":80.0},{"date":"2022-09-16","mode":"tube","journeys":80.39,"indexed":76.0},{"date":"2022-10-14","mode":"bus","journeys":118.16,"indexed":82.8},{"date":"2022-10-14","mode":"dlr","journeys":7.94,"indexed":82.6},{"date":"2022-10-14","mode":"overground","journeys":11.02,"indexed":81.4},{"date":"2022-10-14","mode":"tram","journeys":1.91,"indexed":80.4},{"date":"2022-10-14","mode":"tube","journeys":89.18,"indexed":84.3},{"date":"2022-11-11","mode":"bus","journeys":115.54,"indexed":81.0},{"date":"2022-11-11","mode":"dlr","journeys":7.5,"indexed":78.1},{"date":"2022-11-11","mode":"overground","journeys":11.19,"indexed":82.7},{"date":"2022-11-11","mode":"tram","journeys":1.91,"indexed":80.4},{"date":"2022-11-11","mode":"tube","journeys":88.55,"indexed":83.7},{"date":"2022-12-09","mode":"bus","journeys":111.73,"indexed":78.3},{"date":"2022-12-09","mode":"dlr","journeys":7.42,"indexed":77.2},{"date":"2022-12-09","mode":"overground","journeys":9.85,"indexed":72.8},{"date":"2022-12-09","mode":"tram","journeys":1.69,"indexed":71.1},{"date":"2022-12-09","mode":"tube","journeys":81.83,"indexed":77.4},{"date":"2023-01-06","mode":"bus","journeys":100.52,"indexed":70.5},{"date":"2023-01-06","mode":"dlr","journeys":7.06,"indexed":73.5},{"date":"2023-01-06","mode":"overground","journeys":9.89,"indexed":73.1},{"date":"2023-01-06","mode":"tram","journeys":1.75,"indexed":73.7},{"date":"2023-01-06","mode":"tube","journeys":77.43,"indexed":73.2},{"date":"2023-02-03","mode":"bus","journeys":105.65,"indexed":74.1},{"date":"2023-02-03","mode":"dlr","journeys":7.38,"indexed":76.8},{"date":"2023-02-03","mode":"overground","journeys":9.79,"indexed":72.3},{"date":"2023-02-03","mode":"tram","journeys":1.72,"indexed":72.4},{"date":"2023-02-03","mode":"tube","journeys":76.76,"indexed":72.6},{"date":"2023-03-03","mode":"bus","journeys":117.41,"indexed":82.3},{"date":"2023-03-03","mode":"dlr","journeys":7.65,"indexed":79.6},{"date":"2023-03-03","mode":"overground","journeys":10.57,"indexed":78.1},{"date":"2023-03-03","mode":"tram","journeys":1.8,"indexed":75.8},{"date":"2023-03-03","mode":"tube","journeys":82.97,"indexed":78.4},{"date":"2023-04-01","mode":"bus","journeys":127.06,"indexed":89.1},{"date":"2023-04-01","mode":"dlr","journeys":7.78,"indexed":81.0},{"date":"2023-04-01","mode":"overground","journeys":11.33,"indexed":83.7},{"date":"2023-04-01","mode":"tram","journeys":2.09,"indexed":88.0},{"date":"2023-04-01","mode":"tube","journeys":89.85,"indexed":85.0},{"date":"2023-04-29","mode":"bus","journeys":130.01,"indexed":91.1},{"date":"2023-04-29","mode":"dlr","journeys":8.67,"indexed":90.2},{"date":"2023-04-29","mode":"overground","journeys":11.73,"indexed":86.6},{"date":"2023-04-29","mode":"tram","journeys":2.08,"indexed":87.6},{"date":"2023-04-29","mode":"tube","journeys":95.75,"indexed":90.5},{"date":"2023-05-27","mode":"bus","journeys":131.45,"indexed":92.2},{"date":"2023-05-27","mode":"dlr","journeys":8.81,"indexed":91.7},{"date":"2023-05-27","mode":"overground","journeys":12.39,"indexed":91.5},{"date":"2023-05-27","mode":"tram","journeys":2.13,"indexed":89.7},{"date":"2023-05-27","mode":"tube","journeys":96.39,"indexed":91.1},{"date":"2023-06-24","mode":"bus","journeys":124.74,"indexed":87.5},{"date":"2023-06-24","mode":"dlr","journeys":8.2,"indexed":85.4},{"date":"2023-06-24","mode":"overground","journeys":11.53,"indexed":85.2},{"date":"2023-06-24","mode":"tram","journeys":2.08,"indexed":87.6},{"date":"2023-06-24","mode":"tube","journeys":88.84,"indexed":84.0},{"date":"2023-07-22","mode":"bus","journeys":106.62,"indexed":74.8},{"date":"2023-07-22","mode":"dlr","journeys":7.14,"indexed":74.3},{"date":"2023-07-22","mode":"overground","journeys":9.7,"indexed":71.7},{"date":"2023-07-22","mode":"tram","journeys":1.82,"indexed":76.6},{"date":"2023-07-22","mode":"tube","journeys":82.57,"indexed":78.1},{"date":"2023-08-19","mode":"bus","journeys":108.0,"indexed":75.7},{"date":"2023-08-19","mode":"dlr","journeys":7.26,"indexed":75.6},{"date":"2023-08-19","mode":"overground","journeys":9.9,"indexed":73.1},{"date":"2023-08-19","mode":"tram","journeys":1.82,"indexed":76.6},{"date":"2023-08-19","mode":"tube","journeys":75.79,"indexed":71.7},{"date":"2023-09-16","mode":"bus","journeys":121.6,"indexed":85.3},{"date":"2023-09-16","mode":"dlr","journeys":8.77,"indexed":91.3},{"date":"2023-09-16","mode":"overground","journeys":11.73,"indexed":86.6},{"date":"2023-09-16","mode":"tram","journeys":2.05,"indexed":86.3},{"date":"2023-09-16","mode":"tube","journeys":89.11,"indexed":84.3},{"date":"2023-10-14","mode":"bus","journeys":137.49,"indexed":96.4},{"date":"2023-10-14","mode":"dlr","journeys":8.67,"indexed":90.2},{"date":"2023-10-14","mode":"overground","journeys":12.65,"indexed":93.4},{"date":"2023-10-14","mode":"tram","journeys":2.14,"indexed":90.1},{"date":"2023-10-14","mode":"tube","journeys":98.39,"indexed":93.0},{"date":"2023-11-11","mode":"bus","journeys":134.29,"indexed":94.1},{"date":"2023-11-11","mode":"dlr","journeys":8.96,"indexed":93.3},{"date":"2023-11-11","mode":"overground","journeys":12.67,"indexed":93.6},{"date":"2023-11-11","mode":"tram","journeys":2.28,"indexed":96.0},{"date":"2023-11-11","mode":"tube","journeys":93.77,"indexed":88.7},{"date":"2023-12-09","mode":"bus","journeys":121.32,"indexed":85.1},{"date":"2023-12-09","mode":"dlr","journeys":7.93,"indexed":82.5},{"date":"2023-12-09","mode":"overground","journeys":11.64,"indexed":86.0},{"date":"2023-12-09","mode":"tram","journeys":1.97,"indexed":82.9},{"date":"2023-12-09","mode":"tube","journeys":93.05,"indexed":88.0},{"date":"2024-01-06","mode":"bus","journeys":109.91,"indexed":77.1},{"date":"2024-01-06","mode":"dlr","journeys":7.29,"indexed":75.9},{"date":"2024-01-06","mode":"overground","journeys":11.21,"indexed":82.8},{"date":"2024-01-06","mode":"tram","journeys":1.98,"indexed":83.4},{"date":"2024-01-06","mode":"tube","journeys":83.64,"indexed":79.1},{"date":"2024-02-03","mode":"bus","journeys":120.02,"indexed":84.1},{"date":"2024-02-03","mode":"dlr","journeys":7.81,"indexed":81.3},{"date":"2024-02-03","mode":"overground","journeys":10.92,"indexed":80.7},{"date":"2024-02-03","mode":"tram","journeys":1.97,"indexed":82.9},{"date":"2024-02-03","mode":"tube","journeys":90.57,"indexed":85.6},{"date":"2024-03-03","mode":"bus","journeys":130.24,"indexed":91.3},{"date":"2024-03-03","mode":"dlr","journeys":8.64,"indexed":89.9},{"date":"2024-03-03","mode":"overground","journeys":11.64,"indexed":86.0},{"date":"2024-03-03","mode":"tram","journeys":2.22,"indexed":93.5},{"date":"2024-03-03","mode":"tube","journeys":93.96,"indexed":88.8},{"date":"2024-04-01","mode":"bus","journeys":131.81,"indexed":92.4},{"date":"2024-04-01","mode":"dlr","journeys":8.84,"indexed":92.0},{"date":"2024-04-01","mode":"overground","journeys":12.14,"indexed":89.7},{"date":"2024-04-01","mode":"tram","journeys":2.13,"indexed":89.7},{"date":"2024-04-01","mode":"tube","journeys":98.43,"indexed":93.1},{"date":"2024-04-29","mode":"bus","journeys":141.56,"indexed":99.2},{"date":"2024-04-29","mode":"dlr","journeys":8.75,"indexed":91.1},{"date":"2024-04-29","mode":"overground","journeys":12.39,"indexed":91.5},{"date":"2024-04-29","mode":"tram","journeys":2.2,"indexed":92.6},{"date":"2024-04-29","mode":"tube","journeys":99.74,"indexed":94.3},{"date":"2024-05-27","mode":"bus","journeys":142.91,"indexed":100.2},{"date":"2024-05-27","mode":"dlr","journeys":9.39,"indexed":97.7},{"date":"2024-05-27","mode":"overground","journeys":12.85,"indexed":94.9},{"date":"2024-05-27","mode":"tram","journeys":2.21,"indexed":93.0},{"date":"2024-05-27","mode":"tube","journeys":96.55,"indexed":91.3},{"date":"2024-06-24","mode":"bus","journeys":130.75,"indexed":91.7},{"date":"2024-06-24","mode":"dlr","journeys":8.45,"indexed":88.0},{"date":"2024-06-24","mode":"overground","journeys":12.16,"indexed":89.8},{"date":"2024-06-24","mode":"tram","journeys":2.16,"indexed":90.9},{"date":"2024-06-24","mode":"tube","journeys":96.06,"indexed":90.8},{"date":"2024-07-22","mode":"bus","journeys":118.88,"indexed":83.3},{"date":"2024-07-22","mode":"dlr","journeys":7.46,"indexed":77.7},{"date":"2024-07-22","mode":"overground","journeys":10.81,"indexed":79.9},{"date":"2024-07-22","mode":"tram","journeys":1.98,"indexed":83.4},{"date":"2024-07-22","mode":"tube","journeys":87.02,"indexed":82.3},{"date":"2024-08-19","mode":"bus","journeys":121.48,"indexed":85.2},{"date":"2024-08-19","mode":"dlr","journeys":7.94,"indexed":82.6},{"date":"2024-08-19","mode":"overground","journeys":10.58,"indexed":78.2},{"date":"2024-08-19","mode":"tram","journeys":1.87,"indexed":78.7},{"date":"2024-08-19","mode":"tube","journeys":86.05,"indexed":81.4},{"date":"2024-09-16","mode":"bus","journeys":131.47,"indexed":92.2},{"date":"2024-09-16","mode":"dlr","journeys":9.28,"indexed":96.6},{"date":"2024-09-16","mode":"overground","journeys":13.45,"indexed":99.4},{"date":"2024-09-16","mode":"tram","journeys":2.32,"indexed":97.7},{"date":"2024-09-16","mode":"tube","journeys":102.64,"indexed":97.0},{"date":"2024-10-14","mode":"bus","journeys":146.98,"indexed":103.0},{"date":"2024-10-14","mode":"dlr","journeys":9.62,"indexed":100.1},{"date":"2024-10-14","mode":"overground","journeys":13.59,"indexed":100.4},{"date":"2024-10-14","mode":"tram","journeys":2.52,"indexed":106.1},{"date":"2024-10-14","mode":"tube","journeys":105.07,"indexed":99.3},{"date":"2024-11-11","mode":"bus","journeys":151.58,"indexed":106.3},{"date":"2024-11-11","mode":"dlr","journeys":10.05,"indexed":104.6},{"date":"2024-11-11","mode":"overground","journeys":13.11,"indexed":96.8},{"date":"2024-11-11","mode":"tram","journeys":2.31,"indexed":97.2},{"date":"2024-11-11","mode":"tube","journeys":105.05,"indexed":99.3},{"date":"2024-12-09","mode":"bus","journeys":124.78,"indexed":87.5},{"date":"2024-12-09","mode":"dlr","journeys":8.39,"indexed":87.3},{"date":"2024-12-09","mode":"overground","journeys":12.46,"indexed":92.0},{"date":"2024-12-09","mode":"tram","journeys":2.09,"indexed":88.0},{"date":"2024-12-09","mode":"tube","journeys":92.3,"indexed":87.3},{"date":"2025-01-06","mode":"bus","journeys":128.48,"indexed":90.1},{"date":"2025-01-06","mode":"dlr","journeys":7.89,"indexed":82.1},{"date":"2025-01-06","mode":"overground","journeys":11.96,"indexed":88.3},{"date":"2025-01-06","mode":"tram","journeys":2.02,"indexed":85.0},{"date":"2025-01-06","mode":"tube","journeys":89.43,"indexed":84.6},{"date":"2025-02-03","mode":"bus","journeys":133.68,"indexed":93.7},{"date":"2025-02-03","mode":"dlr","journeys":8.85,"indexed":92.1},{"date":"2025-02-03","mode":"overground","journeys":12.7,"indexed":93.8},{"date":"2025-02-03","mode":"tram","journeys":2.24,"indexed":94.3},{"date":"2025-02-03","mode":"tube","journeys":92.47,"indexed":87.4},{"date":"2025-03-03","mode":"bus","journeys":134.99,"indexed":94.6},{"date":"2025-03-03","mode":"dlr","journeys":8.9,"indexed":92.6},{"date":"2025-03-03","mode":"overground","journeys":13.2,"indexed":97.5},{"date":"2025-03-03","mode":"tram","journeys":2.37,"indexed":99.8},{"date":"2025-03-03","mode":"tube","journeys":104.27,"indexed":98.6}];
+
+        // Mode configuration
+        const modeConfig = {
+            tube: { name: 'London Underground', color: '#003688' },
+            bus: { name: 'London Buses', color: '#DC241F' },
+            dlr: { name: 'DLR', color: '#00A4A7' },
+            overground: { name: 'London Overground', color: '#EE7C0E' },
+            tram: { name: 'Tramlink', color: '#84B817' }
+        };
+
+        // State
+        let filteredData = [];
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', () => {
+            setupEventListeners();
+            updateChart();
+        });
+
+        function setupEventListeners() {
+            // Mode checkboxes
+            document.querySelectorAll('[id^="mode-"]').forEach(cb => {
+                cb.addEventListener('change', updateChart);
+            });
+
+            // View type radios
+            document.querySelectorAll('[name="viewType"]').forEach(radio => {
+                radio.addEventListener('change', updateChart);
+            });
+
+            // Smoothing checkbox
+            document.getElementById('smoothing').addEventListener('change', updateChart);
+
+            // Date inputs
+            document.getElementById('startDate').addEventListener('change', updateChart);
+            document.getElementById('endDate').addEventListener('change', updateChart);
+
+            // Quick select buttons
+            document.querySelectorAll('[data-range]').forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    document.querySelectorAll('[data-range]').forEach(b => b.classList.remove('active'));
+                    e.target.classList.add('active');
+                    setDateRange(e.target.dataset.range);
+                });
+            });
+        }
+
+        function setDateRange(range) {
+            const startInput = document.getElementById('startDate');
+            const endInput = document.getElementById('endDate');
+            const today = new Date();
+
+            switch(range) {
+                case '2019':
+                    startInput.value = '2019-04-01';
+                    endInput.value = '2019-12-31';
+                    break;
+                case '2022':
+                    startInput.value = '2022-01-01';
+                    endInput.value = today.toISOString().split('T')[0];
+                    break;
+                case '1y':
+                    const oneYearAgo = new Date(today);
+                    oneYearAgo.setFullYear(oneYearAgo.getFullYear() - 1);
+                    startInput.value = oneYearAgo.toISOString().split('T')[0];
+                    endInput.value = today.toISOString().split('T')[0];
+                    break;
+                case 'all':
+                    startInput.value = '2019-04-01';
+                    endInput.value = '2025-03-03';
+                    break;
+            }
+            updateChart();
+        }
+
+        function getSelectedModes() {
+            const modes = [];
+            document.querySelectorAll('[id^="mode-"]').forEach(cb => {
+                if (cb.checked) modes.push(cb.value);
+            });
+            return modes;
+        }
+
+        function getViewType() {
+            return document.querySelector('[name="viewType"]:checked').value;
+        }
+
+        function isSmoothing() {
+            return document.getElementById('smoothing').checked;
+        }
+
+        function getDateRange() {
+            return {
+                start: document.getElementById('startDate').value,
+                end: document.getElementById('endDate').value
+            };
+        }
+
+        function filterData() {
+            const modes = getSelectedModes();
+            const { start, end } = getDateRange();
+
+            return rawData.filter(d => {
+                const date = new Date(d.date);
+                const startDate = new Date(start);
+                const endDate = new Date(end);
+                return modes.includes(d.mode) && date >= startDate && date <= endDate;
+            });
+        }
+
+        function applySmoothing(data, mode) {
+            const modeData = data.filter(d => d.mode === mode).sort((a, b) => new Date(a.date) - new Date(b.date));
+            const smoothed = [];
+
+            for (let i = 0; i < modeData.length; i++) {
+                const start = Math.max(0, i - 1);
+                const end = Math.min(modeData.length, i + 2);
+                const window = modeData.slice(start, end);
+
+                const avgJourneys = window.reduce((sum, d) => sum + d.journeys, 0) / window.length;
+                const avgIndexed = window.reduce((sum, d) => sum + d.indexed, 0) / window.length;
+
+                smoothed.push({
+                    ...modeData[i],
+                    journeys: avgJourneys,
+                    indexed: avgIndexed
+                });
+            }
+
+            return smoothed;
+        }
+
+        function updateChart() {
+            const modes = getSelectedModes();
+            const viewType = getViewType();
+            const smoothing = isSmoothing();
+
+            filteredData = filterData();
+
+            if (modes.length === 0 || filteredData.length === 0) {
+                Plotly.newPlot('main-chart', [], {
+                    title: 'Select at least one transport mode',
+                    xaxis: { title: 'Date' },
+                    yaxis: { title: 'Journeys' }
+                });
+                updateStats([]);
+                return;
+            }
+
+            const traces = modes.map(mode => {
+                let modeData = smoothing
+                    ? applySmoothing(filteredData, mode)
+                    : filteredData.filter(d => d.mode === mode).sort((a, b) => new Date(a.date) - new Date(b.date));
+
+                const yValues = viewType === 'indexed'
+                    ? modeData.map(d => d.indexed)
+                    : modeData.map(d => d.journeys);
+
+                return {
+                    x: modeData.map(d => d.date),
+                    y: yValues,
+                    name: modeConfig[mode].name,
+                    type: 'scatter',
+                    mode: 'lines+markers',
+                    line: { color: modeConfig[mode].color, width: 2 },
+                    marker: { size: 5 },
+                    hovertemplate: `<b>${modeConfig[mode].name}</b><br>` +
+                        `Date: %{x|%b %Y}<br>` +
+                        `${viewType === 'indexed' ? 'Index' : 'Journeys'}: %{y:.1f}${viewType === 'indexed' ? '' : 'M'}<extra></extra>`
+                };
+            });
+
+            const layout = {
+                title: {
+                    text: 'London Transport Ridership',
+                    font: { size: 18, color: '#333' }
+                },
+                xaxis: {
+                    title: 'Date',
+                    gridcolor: '#f0f0f0',
+                    tickformat: '%b %Y'
+                },
+                yaxis: {
+                    title: viewType === 'indexed' ? 'Index (100 = 2019 average)' : 'Journeys (millions)',
+                    gridcolor: '#f0f0f0'
+                },
+                hovermode: 'x unified',
+                legend: {
+                    orientation: 'h',
+                    y: 1.12,
+                    x: 0.5,
+                    xanchor: 'center'
+                },
+                margin: { t: 80, r: 20, b: 60, l: 70 },
+                plot_bgcolor: 'white',
+                paper_bgcolor: 'white',
+                shapes: viewType === 'indexed' ? [{
+                    type: 'line',
+                    x0: 0,
+                    x1: 1,
+                    xref: 'paper',
+                    y0: 100,
+                    y1: 100,
+                    line: { color: 'gray', width: 1, dash: 'dash' }
+                }] : [],
+                annotations: viewType === 'indexed' ? [{
+                    x: 1,
+                    xref: 'paper',
+                    y: 100,
+                    text: '2019 baseline',
+                    showarrow: false,
+                    xanchor: 'left',
+                    font: { color: 'gray', size: 11 }
+                }] : []
+            };
+
+            const config = {
+                responsive: true,
+                displayModeBar: true,
+                toImageButtonOptions: {
+                    format: 'png',
+                    filename: 'uk_mobility_chart',
+                    height: 600,
+                    width: 1200,
+                    scale: 2
+                }
+            };
+
+            Plotly.newPlot('main-chart', traces, layout, config);
+            updateStats(modes);
+        }
+
+        function updateStats(modes) {
+            const container = document.getElementById('stats-container');
+            const viewType = getViewType();
+
+            if (modes.length === 0) {
+                container.innerHTML = '';
+                return;
+            }
+
+            const cards = modes.map(mode => {
+                const modeData = filteredData.filter(d => d.mode === mode).sort((a, b) => new Date(a.date) - new Date(b.date));
+
+                if (modeData.length === 0) return '';
+
+                const values = viewType === 'indexed'
+                    ? modeData.map(d => d.indexed)
+                    : modeData.map(d => d.journeys);
+
+                const latest = values[values.length - 1];
+                const avg = values.reduce((a, b) => a + b, 0) / values.length;
+                const min = Math.min(...values);
+                const max = Math.max(...values);
+
+                // Trend calculation
+                let trend = 0;
+                let trendClass = '';
+                if (modeData.length >= 6) {
+                    const recent = values.slice(-3).reduce((a, b) => a + b, 0) / 3;
+                    const prior = values.slice(-6, -3).reduce((a, b) => a + b, 0) / 3;
+                    trend = ((recent - prior) / prior) * 100;
+                    trendClass = trend > 0 ? 'positive' : 'negative';
+                }
+
+                const unit = viewType === 'indexed' ? '' : 'M';
+
+                return `
+                    <div class="stat-card" style="border-top-color: ${modeConfig[mode].color};">
+                        <h3>${modeConfig[mode].name}</h3>
+                        <div class="value">${latest.toFixed(1)}${unit}</div>
+                        <div style="font-size: 0.875rem; color: #666; margin-top: 8px;">
+                            <div>Avg: ${avg.toFixed(1)}${unit}</div>
+                            <div>Range: ${min.toFixed(1)} - ${max.toFixed(1)}${unit}</div>
+                            ${modeData.length >= 6 ? `<div class="change ${trendClass}">Trend: ${trend > 0 ? '+' : ''}${trend.toFixed(1)}%</div>` : ''}
+                        </div>
+                    </div>
+                `;
+            }).join('');
+
+            container.innerHTML = cards;
+        }
+
+        function exportCSV() {
+            if (filteredData.length === 0) {
+                alert('No data to export. Please select at least one mode and date range.');
+                return;
+            }
+
+            const headers = ['date', 'mode', 'mode_name', 'journeys_millions', 'indexed_value'];
+            const rows = filteredData.map(d => [
+                d.date,
+                d.mode,
+                modeConfig[d.mode].name,
+                d.journeys,
+                d.indexed
+            ]);
+
+            const csv = [headers.join(','), ...rows.map(r => r.join(','))].join('\n');
+            const blob = new Blob([csv], { type: 'text/csv' });
+            const url = URL.createObjectURL(blob);
+
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `uk_mobility_data_${new Date().toISOString().split('T')[0]}.csv`;
+            a.click();
+            URL.revokeObjectURL(url);
+        }
+    </script>
+</body>
+</html>
