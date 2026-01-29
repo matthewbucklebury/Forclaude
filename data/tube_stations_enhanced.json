@@ -1,0 +1,7231 @@
+{
+  "source": "TfL API + Wikipedia Usage Data (2024)",
+  "stations": [
+    {
+      "naptanId": "940GZZLUBST",
+      "name": "Baker Street",
+      "lat": 51.522883,
+      "lon": -0.15713,
+      "lines": [
+        "bakerloo",
+        "circle",
+        "hammersmith-city",
+        "jubilee",
+        "metropolitan"
+      ],
+      "population_500m": 5254,
+      "population_1km": 28205,
+      "annual_usage": 22920000,
+      "daily_usage": 62794,
+      "usage_per_capita_500m": 11.95,
+      "usage_per_capita_1km": 2.23
+    },
+    {
+      "naptanId": "940GZZLUCHX",
+      "name": "Charing Cross",
+      "lat": 51.50741,
+      "lon": -0.127277,
+      "lines": [
+        "bakerloo",
+        "northern"
+      ],
+      "population_500m": 2600,
+      "population_1km": 11760,
+      "annual_usage": 16510000,
+      "daily_usage": 45232,
+      "usage_per_capita_500m": 17.4,
+      "usage_per_capita_1km": 3.85
+    },
+    {
+      "naptanId": "940GZZLUEAC",
+      "name": "Elephant & Castle",
+      "lat": 51.494536,
+      "lon": -0.100606,
+      "lines": [
+        "bakerloo",
+        "northern"
+      ],
+      "population_500m": 14169,
+      "population_1km": 51023,
+      "annual_usage": 14130000,
+      "daily_usage": 38712,
+      "usage_per_capita_500m": 2.73,
+      "usage_per_capita_1km": 0.76
+    },
+    {
+      "naptanId": "940GZZLUEMB",
+      "name": "Embankment",
+      "lat": 51.507058,
+      "lon": -0.122666,
+      "lines": [
+        "bakerloo",
+        "circle",
+        "district",
+        "northern"
+      ],
+      "population_500m": 2084,
+      "population_1km": 10651,
+      "annual_usage": 17970000,
+      "daily_usage": 49232,
+      "usage_per_capita_500m": 23.62,
+      "usage_per_capita_1km": 4.62
+    },
+    {
+      "naptanId": "940GZZLUERB",
+      "name": "Edgware Road (Bakerloo)",
+      "lat": 51.520299,
+      "lon": -0.17015,
+      "lines": [
+        "bakerloo"
+      ],
+      "population_500m": 15835,
+      "population_1km": 43225,
+      "annual_usage": 3720000,
+      "daily_usage": 10191,
+      "usage_per_capita_500m": 0.64,
+      "usage_per_capita_1km": 0.24
+    },
+    {
+      "naptanId": "940GZZLUHAW",
+      "name": "Harrow & Wealdstone",
+      "lat": 51.592268,
+      "lon": -0.335217,
+      "lines": [
+        "bakerloo"
+      ],
+      "population_500m": 9459,
+      "population_1km": 28442,
+      "annual_usage": 5140000,
+      "daily_usage": 14082,
+      "usage_per_capita_500m": 1.49,
+      "usage_per_capita_1km": 0.5
+    },
+    {
+      "naptanId": "940GZZLUHSN",
+      "name": "Harlesden",
+      "lat": 51.53631,
+      "lon": -0.257883,
+      "lines": [
+        "bakerloo"
+      ],
+      "population_500m": 8006,
+      "population_1km": 27418,
+      "annual_usage": 2700000,
+      "daily_usage": 7397,
+      "usage_per_capita_500m": 0.92,
+      "usage_per_capita_1km": 0.27
+    },
+    {
+      "naptanId": "940GZZLUKEN",
+      "name": "Kenton",
+      "lat": 51.581756,
+      "lon": -0.31691,
+      "lines": [
+        "bakerloo"
+      ],
+      "population_500m": 3713,
+      "population_1km": 17532,
+      "annual_usage": 1730000,
+      "daily_usage": 4739,
+      "usage_per_capita_500m": 1.28,
+      "usage_per_capita_1km": 0.27
+    },
+    {
+      "naptanId": "940GZZLUKPK",
+      "name": "Kilburn Park",
+      "lat": 51.534979,
+      "lon": -0.194232,
+      "lines": [
+        "bakerloo"
+      ],
+      "population_500m": 13235,
+      "population_1km": 49794,
+      "annual_usage": 2740000,
+      "daily_usage": 7506,
+      "usage_per_capita_500m": 0.57,
+      "usage_per_capita_1km": 0.15
+    },
+    {
+      "naptanId": "940GZZLUKSL",
+      "name": "Kensal Green",
+      "lat": 51.530539,
+      "lon": -0.225016,
+      "lines": [
+        "bakerloo"
+      ],
+      "population_500m": 9516,
+      "population_1km": 26574,
+      "annual_usage": 1980000,
+      "daily_usage": 5424,
+      "usage_per_capita_500m": 0.57,
+      "usage_per_capita_1km": 0.2
+    },
+    {
+      "naptanId": "940GZZLULBN",
+      "name": "Lambeth North",
+      "lat": 51.498808,
+      "lon": -0.112315,
+      "lines": [
+        "bakerloo"
+      ],
+      "population_500m": 7628,
+      "population_1km": 23541,
+      "annual_usage": 2730000,
+      "daily_usage": 7479,
+      "usage_per_capita_500m": 0.98,
+      "usage_per_capita_1km": 0.32
+    },
+    {
+      "naptanId": "940GZZLUMVL",
+      "name": "Maida Vale",
+      "lat": 51.529777,
+      "lon": -0.185758,
+      "lines": [
+        "bakerloo"
+      ],
+      "population_500m": 9824,
+      "population_1km": 49834,
+      "annual_usage": 2870000,
+      "daily_usage": 7863,
+      "usage_per_capita_500m": 0.8,
+      "usage_per_capita_1km": 0.16
+    },
+    {
+      "naptanId": "940GZZLUMYB",
+      "name": "Marylebone",
+      "lat": 51.522322,
+      "lon": -0.163207,
+      "lines": [
+        "bakerloo"
+      ],
+      "population_500m": 12747,
+      "population_1km": 35533,
+      "annual_usage": 8860000,
+      "daily_usage": 24273,
+      "usage_per_capita_500m": 1.9,
+      "usage_per_capita_1km": 0.68
+    },
+    {
+      "naptanId": "940GZZLUNWY",
+      "name": "North Wembley",
+      "lat": 51.562551,
+      "lon": -0.304,
+      "lines": [
+        "bakerloo"
+      ],
+      "population_500m": 6211,
+      "population_1km": 21992,
+      "annual_usage": 1390000,
+      "daily_usage": 3808,
+      "usage_per_capita_500m": 0.61,
+      "usage_per_capita_1km": 0.17
+    },
+    {
+      "naptanId": "940GZZLUOXC",
+      "name": "Oxford Circus",
+      "lat": 51.515224,
+      "lon": -0.141903,
+      "lines": [
+        "bakerloo",
+        "central",
+        "victoria"
+      ],
+      "population_500m": 5072,
+      "population_1km": 19582,
+      "annual_usage": 53180000,
+      "daily_usage": 145698,
+      "usage_per_capita_500m": 28.73,
+      "usage_per_capita_1km": 7.44
+    },
+    {
+      "naptanId": "940GZZLUPAC",
+      "name": "Paddington",
+      "lat": 51.516581,
+      "lon": -0.175689,
+      "lines": [
+        "bakerloo",
+        "circle",
+        "district"
+      ],
+      "population_500m": 10077,
+      "population_1km": 46921,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "940GZZLUPCC",
+      "name": "Piccadilly Circus",
+      "lat": 51.51005,
+      "lon": -0.133798,
+      "lines": [
+        "bakerloo",
+        "piccadilly"
+      ],
+      "population_500m": 3816,
+      "population_1km": 14011,
+      "annual_usage": 28490000,
+      "daily_usage": 78054,
+      "usage_per_capita_500m": 20.45,
+      "usage_per_capita_1km": 5.57
+    },
+    {
+      "naptanId": "940GZZLUQPS",
+      "name": "Queen's Park",
+      "lat": 51.534158,
+      "lon": -0.204574,
+      "lines": [
+        "bakerloo"
+      ],
+      "population_500m": 9060,
+      "population_1km": 45883,
+      "annual_usage": 4740000,
+      "daily_usage": 12986,
+      "usage_per_capita_500m": 1.43,
+      "usage_per_capita_1km": 0.28
+    },
+    {
+      "naptanId": "940GZZLURGP",
+      "name": "Regent's Park",
+      "lat": 51.523344,
+      "lon": -0.146444,
+      "lines": [
+        "bakerloo"
+      ],
+      "population_500m": 6214,
+      "population_1km": 24583,
+      "annual_usage": 2310000,
+      "daily_usage": 6328,
+      "usage_per_capita_500m": 1.02,
+      "usage_per_capita_1km": 0.26
+    },
+    {
+      "naptanId": "940GZZLUSGP",
+      "name": "Stonebridge Park",
+      "lat": 51.543959,
+      "lon": -0.275892,
+      "lines": [
+        "bakerloo"
+      ],
+      "population_500m": 3996,
+      "population_1km": 20088,
+      "annual_usage": 2490000,
+      "daily_usage": 6821,
+      "usage_per_capita_500m": 1.71,
+      "usage_per_capita_1km": 0.34
+    },
+    {
+      "naptanId": "940GZZLUSKT",
+      "name": "South Kenton",
+      "lat": 51.570232,
+      "lon": -0.308433,
+      "lines": [
+        "bakerloo"
+      ],
+      "population_500m": 3928,
+      "population_1km": 15326,
+      "annual_usage": 990000,
+      "daily_usage": 2712,
+      "usage_per_capita_500m": 0.69,
+      "usage_per_capita_1km": 0.18
+    },
+    {
+      "naptanId": "940GZZLUWJN",
+      "name": "Willesden Junction",
+      "lat": 51.532259,
+      "lon": -0.244283,
+      "lines": [
+        "bakerloo"
+      ],
+      "population_500m": 7858,
+      "population_1km": 23400,
+      "annual_usage": 4610000,
+      "daily_usage": 12630,
+      "usage_per_capita_500m": 1.61,
+      "usage_per_capita_1km": 0.54
+    },
+    {
+      "naptanId": "940GZZLUWKA",
+      "name": "Warwick Avenue",
+      "lat": 51.523263,
+      "lon": -0.183783,
+      "lines": [
+        "bakerloo"
+      ],
+      "population_500m": 12028,
+      "population_1km": 50962,
+      "annual_usage": 3130000,
+      "daily_usage": 8575,
+      "usage_per_capita_500m": 0.71,
+      "usage_per_capita_1km": 0.17
+    },
+    {
+      "naptanId": "940GZZLUWLO",
+      "name": "Waterloo",
+      "lat": 51.503299,
+      "lon": -0.11478,
+      "lines": [
+        "bakerloo",
+        "jubilee",
+        "northern",
+        "waterloo-city"
+      ],
+      "population_500m": 3294,
+      "population_1km": 15952,
+      "annual_usage": 77390000,
+      "daily_usage": 212027,
+      "usage_per_capita_500m": 64.37,
+      "usage_per_capita_1km": 13.29
+    },
+    {
+      "naptanId": "940GZZLUWYC",
+      "name": "Wembley Central",
+      "lat": 51.552304,
+      "lon": -0.296852,
+      "lines": [
+        "bakerloo"
+      ],
+      "population_500m": 9794,
+      "population_1km": 34468,
+      "annual_usage": 4940000,
+      "daily_usage": 13534,
+      "usage_per_capita_500m": 1.38,
+      "usage_per_capita_1km": 0.39
+    },
+    {
+      "naptanId": "940GZZLUBKE",
+      "name": "Barkingside",
+      "lat": 51.585689,
+      "lon": 0.088585,
+      "lines": [
+        "central"
+      ],
+      "population_500m": 3491,
+      "population_1km": 11187,
+      "annual_usage": 1260000,
+      "daily_usage": 3452,
+      "usage_per_capita_500m": 0.99,
+      "usage_per_capita_1km": 0.31
+    },
+    {
+      "naptanId": "940GZZLUBKH",
+      "name": "Buckhurst Hill",
+      "lat": 51.626605,
+      "lon": 0.046757,
+      "lines": [
+        "central"
+      ],
+      "population_500m": 3708,
+      "population_1km": 10274,
+      "annual_usage": 2240000,
+      "daily_usage": 6136,
+      "usage_per_capita_500m": 1.65,
+      "usage_per_capita_1km": 0.6
+    },
+    {
+      "naptanId": "940GZZLUBLG",
+      "name": "Bethnal Green",
+      "lat": 51.527222,
+      "lon": -0.055506,
+      "lines": [
+        "central"
+      ],
+      "population_500m": 13263,
+      "population_1km": 51212,
+      "annual_usage": 10120000,
+      "daily_usage": 27726,
+      "usage_per_capita_500m": 2.09,
+      "usage_per_capita_1km": 0.54
+    },
+    {
+      "naptanId": "940GZZLUBND",
+      "name": "Bond Street",
+      "lat": 51.514304,
+      "lon": -0.149723,
+      "lines": [
+        "central",
+        "jubilee"
+      ],
+      "population_500m": 3944,
+      "population_1km": 21403,
+      "annual_usage": 41110000,
+      "daily_usage": 112630,
+      "usage_per_capita_500m": 28.56,
+      "usage_per_capita_1km": 5.26
+    },
+    {
+      "naptanId": "940GZZLUBNK",
+      "name": "Bank",
+      "lat": 51.513132,
+      "lon": -0.090047,
+      "lines": [
+        "central",
+        "northern",
+        "waterloo-city"
+      ],
+      "population_500m": 798,
+      "population_1km": 11485,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "940GZZLUCHL",
+      "name": "Chancery Lane",
+      "lat": 51.518247,
+      "lon": -0.111583,
+      "lines": [
+        "central"
+      ],
+      "population_500m": 6592,
+      "population_1km": 26942,
+      "annual_usage": 8720000,
+      "daily_usage": 23890,
+      "usage_per_capita_500m": 3.62,
+      "usage_per_capita_1km": 0.89
+    },
+    {
+      "naptanId": "940GZZLUCWL",
+      "name": "Chigwell",
+      "lat": 51.617916,
+      "lon": 0.075041,
+      "lines": [
+        "central"
+      ],
+      "population_500m": 1480,
+      "population_1km": 3700,
+      "annual_usage": 310000,
+      "daily_usage": 849,
+      "usage_per_capita_500m": 0.57,
+      "usage_per_capita_1km": 0.23
+    },
+    {
+      "naptanId": "940GZZLUDBN",
+      "name": "Debden",
+      "lat": 51.645386,
+      "lon": 0.083782,
+      "lines": [
+        "central"
+      ],
+      "population_500m": 3073,
+      "population_1km": 10343,
+      "annual_usage": 1980000,
+      "daily_usage": 5424,
+      "usage_per_capita_500m": 1.77,
+      "usage_per_capita_1km": 0.52
+    },
+    {
+      "naptanId": "940GZZLUEAN",
+      "name": "East Acton",
+      "lat": 51.516612,
+      "lon": -0.247248,
+      "lines": [
+        "central"
+      ],
+      "population_500m": 5256,
+      "population_1km": 17944,
+      "annual_usage": 3690000,
+      "daily_usage": 10109,
+      "usage_per_capita_500m": 1.92,
+      "usage_per_capita_1km": 0.56
+    },
+    {
+      "naptanId": "940GZZLUEBY",
+      "name": "Ealing Broadway",
+      "lat": 51.515017,
+      "lon": -0.301457,
+      "lines": [
+        "central",
+        "district"
+      ],
+      "population_500m": 5039,
+      "population_1km": 20549,
+      "annual_usage": 17080000,
+      "daily_usage": 46794,
+      "usage_per_capita_500m": 9.29,
+      "usage_per_capita_1km": 2.28
+    },
+    {
+      "naptanId": "940GZZLUEPG",
+      "name": "Epping",
+      "lat": 51.69368,
+      "lon": 0.113767,
+      "lines": [
+        "central"
+      ],
+      "population_500m": 2801,
+      "population_1km": 8981,
+      "annual_usage": 3400000,
+      "daily_usage": 9315,
+      "usage_per_capita_500m": 3.33,
+      "usage_per_capita_1km": 1.04
+    },
+    {
+      "naptanId": "940GZZLUFLP",
+      "name": "Fairlop",
+      "lat": 51.595618,
+      "lon": 0.091004,
+      "lines": [
+        "central"
+      ],
+      "population_500m": 1435,
+      "population_1km": 13411,
+      "annual_usage": 960000,
+      "daily_usage": 2630,
+      "usage_per_capita_500m": 1.83,
+      "usage_per_capita_1km": 0.2
+    },
+    {
+      "naptanId": "940GZZLUGFD",
+      "name": "Greenford",
+      "lat": 51.542424,
+      "lon": -0.34605,
+      "lines": [
+        "central"
+      ],
+      "population_500m": 1618,
+      "population_1km": 11720,
+      "annual_usage": 3270000,
+      "daily_usage": 8958,
+      "usage_per_capita_500m": 5.54,
+      "usage_per_capita_1km": 0.76
+    },
+    {
+      "naptanId": "940GZZLUGGH",
+      "name": "Grange Hill",
+      "lat": 51.613378,
+      "lon": 0.092066,
+      "lines": [
+        "central"
+      ],
+      "population_500m": 2078,
+      "population_1km": 10178,
+      "annual_usage": 350000,
+      "daily_usage": 958,
+      "usage_per_capita_500m": 0.46,
+      "usage_per_capita_1km": 0.09
+    },
+    {
+      "naptanId": "940GZZLUGTH",
+      "name": "Gants Hill",
+      "lat": 51.576544,
+      "lon": 0.066185,
+      "lines": [
+        "central"
+      ],
+      "population_500m": 8271,
+      "population_1km": 27560,
+      "annual_usage": 4880000,
+      "daily_usage": 13369,
+      "usage_per_capita_500m": 1.62,
+      "usage_per_capita_1km": 0.49
+    },
+    {
+      "naptanId": "940GZZLUHBN",
+      "name": "Holborn",
+      "lat": 51.51758,
+      "lon": -0.120475,
+      "lines": [
+        "central",
+        "piccadilly"
+      ],
+      "population_500m": 6637,
+      "population_1km": 28102,
+      "annual_usage": 20840000,
+      "daily_usage": 57095,
+      "usage_per_capita_500m": 8.6,
+      "usage_per_capita_1km": 2.03
+    },
+    {
+      "naptanId": "940GZZLUHGR",
+      "name": "Hanger Lane",
+      "lat": 51.530177,
+      "lon": -0.292704,
+      "lines": [
+        "central"
+      ],
+      "population_500m": 4677,
+      "population_1km": 18549,
+      "annual_usage": 2890000,
+      "daily_usage": 7917,
+      "usage_per_capita_500m": 1.69,
+      "usage_per_capita_1km": 0.43
+    },
+    {
+      "naptanId": "940GZZLUHLT",
+      "name": "Hainault",
+      "lat": 51.603659,
+      "lon": 0.093482,
+      "lines": [
+        "central"
+      ],
+      "population_500m": 7817,
+      "population_1km": 19586,
+      "annual_usage": 3030000,
+      "daily_usage": 8301,
+      "usage_per_capita_500m": 1.06,
+      "usage_per_capita_1km": 0.42
+    },
+    {
+      "naptanId": "940GZZLUHPK",
+      "name": "Holland Park",
+      "lat": 51.507143,
+      "lon": -0.205679,
+      "lines": [
+        "central"
+      ],
+      "population_500m": 7641,
+      "population_1km": 39872,
+      "annual_usage": 2950000,
+      "daily_usage": 8082,
+      "usage_per_capita_500m": 1.06,
+      "usage_per_capita_1km": 0.2
+    },
+    {
+      "naptanId": "940GZZLULGN",
+      "name": "Loughton",
+      "lat": 51.641443,
+      "lon": 0.055476,
+      "lines": [
+        "central"
+      ],
+      "population_500m": 3140,
+      "population_1km": 12192,
+      "annual_usage": 2790000,
+      "daily_usage": 7643,
+      "usage_per_capita_500m": 2.43,
+      "usage_per_capita_1km": 0.63
+    },
+    {
+      "naptanId": "940GZZLULGT",
+      "name": "Lancaster Gate",
+      "lat": 51.511723,
+      "lon": -0.175494,
+      "lines": [
+        "central"
+      ],
+      "population_500m": 8000,
+      "population_1km": 31625,
+      "annual_usage": 3090000,
+      "daily_usage": 8465,
+      "usage_per_capita_500m": 1.06,
+      "usage_per_capita_1km": 0.27
+    },
+    {
+      "naptanId": "940GZZLULVT",
+      "name": "Liverpool Street",
+      "lat": 51.517372,
+      "lon": -0.083182,
+      "lines": [
+        "central",
+        "circle",
+        "hammersmith-city",
+        "metropolitan"
+      ],
+      "population_500m": 2879,
+      "population_1km": 23737,
+      "annual_usage": 61200000,
+      "daily_usage": 167671,
+      "usage_per_capita_500m": 58.24,
+      "usage_per_capita_1km": 7.06
+    },
+    {
+      "naptanId": "940GZZLULYN",
+      "name": "Leyton",
+      "lat": 51.556589,
+      "lon": -0.005523,
+      "lines": [
+        "central"
+      ],
+      "population_500m": 10317,
+      "population_1km": 36109,
+      "annual_usage": 8950000,
+      "daily_usage": 24520,
+      "usage_per_capita_500m": 2.38,
+      "usage_per_capita_1km": 0.68
+    },
+    {
+      "naptanId": "940GZZLULYS",
+      "name": "Leytonstone",
+      "lat": 51.568324,
+      "lon": 0.008194,
+      "lines": [
+        "central"
+      ],
+      "population_500m": 7236,
+      "population_1km": 26203,
+      "annual_usage": 7150000,
+      "daily_usage": 19589,
+      "usage_per_capita_500m": 2.71,
+      "usage_per_capita_1km": 0.75
+    },
+    {
+      "naptanId": "940GZZLUMBA",
+      "name": "Marble Arch",
+      "lat": 51.513424,
+      "lon": -0.158953,
+      "lines": [
+        "central"
+      ],
+      "population_500m": 7309,
+      "population_1km": 26289,
+      "annual_usage": 9200000,
+      "daily_usage": 25205,
+      "usage_per_capita_500m": 3.45,
+      "usage_per_capita_1km": 0.96
+    },
+    {
+      "naptanId": "940GZZLUMED",
+      "name": "Mile End",
+      "lat": 51.525122,
+      "lon": -0.03364,
+      "lines": [
+        "central",
+        "district",
+        "hammersmith-city"
+      ],
+      "population_500m": 11789,
+      "population_1km": 51962,
+      "annual_usage": 11280000,
+      "daily_usage": 30904,
+      "usage_per_capita_500m": 2.62,
+      "usage_per_capita_1km": 0.59
+    },
+    {
+      "naptanId": "940GZZLUNAN",
+      "name": "North Acton",
+      "lat": 51.523524,
+      "lon": -0.259755,
+      "lines": [
+        "central"
+      ],
+      "population_500m": 3663,
+      "population_1km": 12210,
+      "annual_usage": 6110000,
+      "daily_usage": 16739,
+      "usage_per_capita_500m": 4.57,
+      "usage_per_capita_1km": 1.37
+    },
+    {
+      "naptanId": "940GZZLUNBP",
+      "name": "Newbury Park",
+      "lat": 51.575726,
+      "lon": 0.090004,
+      "lines": [
+        "central"
+      ],
+      "population_500m": 6837,
+      "population_1km": 25264,
+      "annual_usage": 3310000,
+      "daily_usage": 9068,
+      "usage_per_capita_500m": 1.33,
+      "usage_per_capita_1km": 0.36
+    },
+    {
+      "naptanId": "940GZZLUNHG",
+      "name": "Notting Hill Gate",
+      "lat": 51.509128,
+      "lon": -0.196104,
+      "lines": [
+        "central",
+        "circle",
+        "district"
+      ],
+      "population_500m": 10800,
+      "population_1km": 41584,
+      "annual_usage": 12830000,
+      "daily_usage": 35150,
+      "usage_per_capita_500m": 3.25,
+      "usage_per_capita_1km": 0.85
+    },
+    {
+      "naptanId": "940GZZLUNHT",
+      "name": "Northolt",
+      "lat": 51.548236,
+      "lon": -0.368699,
+      "lines": [
+        "central"
+      ],
+      "population_500m": 5617,
+      "population_1km": 22134,
+      "annual_usage": 4280000,
+      "daily_usage": 11726,
+      "usage_per_capita_500m": 2.09,
+      "usage_per_capita_1km": 0.53
+    },
+    {
+      "naptanId": "940GZZLUPVL",
+      "name": "Perivale",
+      "lat": 51.536717,
+      "lon": -0.323446,
+      "lines": [
+        "central"
+      ],
+      "population_500m": 3330,
+      "population_1km": 11871,
+      "annual_usage": 1760000,
+      "daily_usage": 4821,
+      "usage_per_capita_500m": 1.45,
+      "usage_per_capita_1km": 0.41
+    },
+    {
+      "naptanId": "940GZZLUQWY",
+      "name": "Queensway",
+      "lat": 51.510312,
+      "lon": -0.187152,
+      "lines": [
+        "central"
+      ],
+      "population_500m": 11033,
+      "population_1km": 35914,
+      "annual_usage": 6010000,
+      "daily_usage": 16465,
+      "usage_per_capita_500m": 1.49,
+      "usage_per_capita_1km": 0.46
+    },
+    {
+      "naptanId": "940GZZLURBG",
+      "name": "Redbridge",
+      "lat": 51.576243,
+      "lon": 0.04536,
+      "lines": [
+        "central"
+      ],
+      "population_500m": 4537,
+      "population_1km": 16163,
+      "annual_usage": 2060000,
+      "daily_usage": 5643,
+      "usage_per_capita_500m": 1.24,
+      "usage_per_capita_1km": 0.35
+    },
+    {
+      "naptanId": "940GZZLURSG",
+      "name": "Ruislip Gardens",
+      "lat": 51.560736,
+      "lon": -0.41071,
+      "lines": [
+        "central"
+      ],
+      "population_500m": 4795,
+      "population_1km": 15385,
+      "annual_usage": 860000,
+      "daily_usage": 2356,
+      "usage_per_capita_500m": 0.49,
+      "usage_per_capita_1km": 0.15
+    },
+    {
+      "naptanId": "940GZZLURVY",
+      "name": "Roding Valley",
+      "lat": 51.617199,
+      "lon": 0.043647,
+      "lines": [
+        "central"
+      ],
+      "population_500m": 2731,
+      "population_1km": 9999,
+      "annual_usage": 170000,
+      "daily_usage": 465,
+      "usage_per_capita_500m": 0.17,
+      "usage_per_capita_1km": 0.05
+    },
+    {
+      "naptanId": "940GZZLUSBC",
+      "name": "Shepherd's Bush (Central)",
+      "lat": 51.504376,
+      "lon": -0.218813,
+      "lines": [
+        "central"
+      ],
+      "population_500m": 9037,
+      "population_1km": 40883,
+      "annual_usage": 13250000,
+      "daily_usage": 36301,
+      "usage_per_capita_500m": 4.02,
+      "usage_per_capita_1km": 0.89
+    },
+    {
+      "naptanId": "940GZZLUSNB",
+      "name": "Snaresbrook",
+      "lat": 51.580678,
+      "lon": 0.02144,
+      "lines": [
+        "central"
+      ],
+      "population_500m": 4971,
+      "population_1km": 16784,
+      "annual_usage": 1890000,
+      "daily_usage": 5178,
+      "usage_per_capita_500m": 1.04,
+      "usage_per_capita_1km": 0.31
+    },
+    {
+      "naptanId": "940GZZLUSPU",
+      "name": "St. Paul's",
+      "lat": 51.514936,
+      "lon": -0.097567,
+      "lines": [
+        "central"
+      ],
+      "population_500m": 4459,
+      "population_1km": 17235,
+      "annual_usage": 9420000,
+      "daily_usage": 25808,
+      "usage_per_capita_500m": 5.79,
+      "usage_per_capita_1km": 1.5
+    },
+    {
+      "naptanId": "940GZZLUSRP",
+      "name": "South Ruislip",
+      "lat": 51.556853,
+      "lon": -0.398915,
+      "lines": [
+        "central"
+      ],
+      "population_500m": 4274,
+      "population_1km": 14782,
+      "annual_usage": 1620000,
+      "daily_usage": 4438,
+      "usage_per_capita_500m": 1.04,
+      "usage_per_capita_1km": 0.3
+    },
+    {
+      "naptanId": "940GZZLUSTD",
+      "name": "Stratford",
+      "lat": 51.541806,
+      "lon": -0.003458,
+      "lines": [
+        "central",
+        "jubilee"
+      ],
+      "population_500m": 8732,
+      "population_1km": 35179,
+      "annual_usage": 55720000,
+      "daily_usage": 152657,
+      "usage_per_capita_500m": 17.48,
+      "usage_per_capita_1km": 4.34
+    },
+    {
+      "naptanId": "940GZZLUSWF",
+      "name": "South Woodford",
+      "lat": 51.591907,
+      "lon": 0.027338,
+      "lines": [
+        "central"
+      ],
+      "population_500m": 6697,
+      "population_1km": 22708,
+      "annual_usage": 4150000,
+      "daily_usage": 11369,
+      "usage_per_capita_500m": 1.7,
+      "usage_per_capita_1km": 0.5
+    },
+    {
+      "naptanId": "940GZZLUTCR",
+      "name": "Tottenham Court Road",
+      "lat": 51.516426,
+      "lon": -0.13041,
+      "lines": [
+        "central",
+        "northern"
+      ],
+      "population_500m": 5612,
+      "population_1km": 26245,
+      "annual_usage": 62060000,
+      "daily_usage": 170027,
+      "usage_per_capita_500m": 30.3,
+      "usage_per_capita_1km": 6.48
+    },
+    {
+      "naptanId": "940GZZLUTHB",
+      "name": "Theydon Bois",
+      "lat": 51.671759,
+      "lon": 0.103085,
+      "lines": [
+        "central"
+      ],
+      "population_500m": 1882,
+      "population_1km": 4185,
+      "annual_usage": 740000,
+      "daily_usage": 2027,
+      "usage_per_capita_500m": 1.08,
+      "usage_per_capita_1km": 0.48
+    },
+    {
+      "naptanId": "940GZZLUWCY",
+      "name": "White City",
+      "lat": 51.511959,
+      "lon": -0.224297,
+      "lines": [
+        "central"
+      ],
+      "population_500m": 6594,
+      "population_1km": 35344,
+      "annual_usage": 8180000,
+      "daily_usage": 22410,
+      "usage_per_capita_500m": 3.4,
+      "usage_per_capita_1km": 0.63
+    },
+    {
+      "naptanId": "940GZZLUWOF",
+      "name": "Woodford",
+      "lat": 51.606899,
+      "lon": 0.03397,
+      "lines": [
+        "central"
+      ],
+      "population_500m": 4492,
+      "population_1km": 18060,
+      "annual_usage": 4590000,
+      "daily_usage": 12575,
+      "usage_per_capita_500m": 2.8,
+      "usage_per_capita_1km": 0.7
+    },
+    {
+      "naptanId": "940GZZLUWRP",
+      "name": "West Ruislip",
+      "lat": 51.569688,
+      "lon": -0.437886,
+      "lines": [
+        "central"
+      ],
+      "population_500m": 3403,
+      "population_1km": 9528,
+      "annual_usage": 1480000,
+      "daily_usage": 4054,
+      "usage_per_capita_500m": 1.19,
+      "usage_per_capita_1km": 0.43
+    },
+    {
+      "naptanId": "940GZZLUWSD",
+      "name": "Wanstead",
+      "lat": 51.575501,
+      "lon": 0.028527,
+      "lines": [
+        "central"
+      ],
+      "population_500m": 4939,
+      "population_1km": 14555,
+      "annual_usage": 1980000,
+      "daily_usage": 5424,
+      "usage_per_capita_500m": 1.1,
+      "usage_per_capita_1km": 0.37
+    },
+    {
+      "naptanId": "940GZZLUWTA",
+      "name": "West Acton",
+      "lat": 51.518001,
+      "lon": -0.28098,
+      "lines": [
+        "central"
+      ],
+      "population_500m": 3349,
+      "population_1km": 13490,
+      "annual_usage": 1110000,
+      "daily_usage": 3041,
+      "usage_per_capita_500m": 0.91,
+      "usage_per_capita_1km": 0.23
+    },
+    {
+      "naptanId": "940GZZLUALD",
+      "name": "Aldgate",
+      "lat": 51.514246,
+      "lon": -0.075689,
+      "lines": [
+        "circle",
+        "metropolitan"
+      ],
+      "population_500m": 8536,
+      "population_1km": 30999,
+      "annual_usage": 7590000,
+      "daily_usage": 20794,
+      "usage_per_capita_500m": 2.44,
+      "usage_per_capita_1km": 0.67
+    },
+    {
+      "naptanId": "940GZZLUBBN",
+      "name": "Barbican",
+      "lat": 51.520275,
+      "lon": -0.097993,
+      "lines": [
+        "circle",
+        "hammersmith-city",
+        "metropolitan"
+      ],
+      "population_500m": 12218,
+      "population_1km": 35144,
+      "annual_usage": 5380000,
+      "daily_usage": 14739,
+      "usage_per_capita_500m": 1.21,
+      "usage_per_capita_1km": 0.42
+    },
+    {
+      "naptanId": "940GZZLUBKF",
+      "name": "Blackfriars",
+      "lat": 51.511581,
+      "lon": -0.103659,
+      "lines": [
+        "circle",
+        "district"
+      ],
+      "population_500m": 1336,
+      "population_1km": 13170,
+      "annual_usage": 11140000,
+      "daily_usage": 30520,
+      "usage_per_capita_500m": 22.84,
+      "usage_per_capita_1km": 2.32
+    },
+    {
+      "naptanId": "940GZZLUBWT",
+      "name": "Bayswater",
+      "lat": 51.512284,
+      "lon": -0.187938,
+      "lines": [
+        "circle",
+        "district"
+      ],
+      "population_500m": 15244,
+      "population_1km": 41261,
+      "annual_usage": 3860000,
+      "daily_usage": 10575,
+      "usage_per_capita_500m": 0.69,
+      "usage_per_capita_1km": 0.26
+    },
+    {
+      "naptanId": "940GZZLUCST",
+      "name": "Cannon Street",
+      "lat": 51.51151,
+      "lon": -0.090432,
+      "lines": [
+        "circle",
+        "district"
+      ],
+      "population_500m": 0,
+      "population_1km": 8928,
+      "annual_usage": 4310000,
+      "daily_usage": 11808,
+      "usage_per_capita_500m": 0,
+      "usage_per_capita_1km": 1.32
+    },
+    {
+      "naptanId": "940GZZLUERC",
+      "name": "Edgware Road (Circle Line)",
+      "lat": 51.519858,
+      "lon": -0.167832,
+      "lines": [
+        "circle",
+        "district",
+        "hammersmith-city"
+      ],
+      "population_500m": 16601,
+      "population_1km": 43325,
+      "annual_usage": 3720000,
+      "daily_usage": 10191,
+      "usage_per_capita_500m": 0.61,
+      "usage_per_capita_1km": 0.24
+    },
+    {
+      "naptanId": "940GZZLUESQ",
+      "name": "Euston Square",
+      "lat": 51.525604,
+      "lon": -0.135829,
+      "lines": [
+        "circle",
+        "hammersmith-city",
+        "metropolitan"
+      ],
+      "population_500m": 9515,
+      "population_1km": 34395,
+      "annual_usage": 12260000,
+      "daily_usage": 33589,
+      "usage_per_capita_500m": 3.53,
+      "usage_per_capita_1km": 0.98
+    },
+    {
+      "naptanId": "940GZZLUFCN",
+      "name": "Farringdon",
+      "lat": 51.520252,
+      "lon": -0.104913,
+      "lines": [
+        "circle",
+        "hammersmith-city",
+        "metropolitan"
+      ],
+      "population_500m": 9325,
+      "population_1km": 34927,
+      "annual_usage": 41260000,
+      "daily_usage": 113041,
+      "usage_per_capita_500m": 12.12,
+      "usage_per_capita_1km": 3.24
+    },
+    {
+      "naptanId": "940GZZLUGHK",
+      "name": "Goldhawk Road",
+      "lat": 51.502005,
+      "lon": -0.226715,
+      "lines": [
+        "circle",
+        "hammersmith-city"
+      ],
+      "population_500m": 11188,
+      "population_1km": 45281,
+      "annual_usage": 1900000,
+      "daily_usage": 5205,
+      "usage_per_capita_500m": 0.47,
+      "usage_per_capita_1km": 0.11
+    },
+    {
+      "naptanId": "940GZZLUGPS",
+      "name": "Great Portland Street",
+      "lat": 51.52384,
+      "lon": -0.144262,
+      "lines": [
+        "circle",
+        "hammersmith-city",
+        "metropolitan"
+      ],
+      "population_500m": 8637,
+      "population_1km": 25828,
+      "annual_usage": 5920000,
+      "daily_usage": 16219,
+      "usage_per_capita_500m": 1.88,
+      "usage_per_capita_1km": 0.63
+    },
+    {
+      "naptanId": "940GZZLUGTR",
+      "name": "Gloucester Road",
+      "lat": 51.494316,
+      "lon": -0.182658,
+      "lines": [
+        "circle",
+        "district",
+        "piccadilly"
+      ],
+      "population_500m": 8776,
+      "population_1km": 33191,
+      "annual_usage": 12030000,
+      "daily_usage": 32958,
+      "usage_per_capita_500m": 3.76,
+      "usage_per_capita_1km": 0.99
+    },
+    {
+      "naptanId": "940GZZLUHSC",
+      "name": "Hammersmith (H&C Line)",
+      "lat": 51.49339,
+      "lon": -0.22503,
+      "lines": [
+        "circle",
+        "hammersmith-city"
+      ],
+      "population_500m": 7802,
+      "population_1km": 38249,
+      "annual_usage": 9920000,
+      "daily_usage": 27178,
+      "usage_per_capita_500m": 3.48,
+      "usage_per_capita_1km": 0.71
+    },
+    {
+      "naptanId": "940GZZLUHSK",
+      "name": "High Street Kensington",
+      "lat": 51.501055,
+      "lon": -0.192792,
+      "lines": [
+        "circle",
+        "district"
+      ],
+      "population_500m": 8786,
+      "population_1km": 28403,
+      "annual_usage": 10200000,
+      "daily_usage": 27945,
+      "usage_per_capita_500m": 3.18,
+      "usage_per_capita_1km": 0.98
+    },
+    {
+      "naptanId": "940GZZLUKSX",
+      "name": "King's Cross St. Pancras",
+      "lat": 51.530663,
+      "lon": -0.123194,
+      "lines": [
+        "circle",
+        "hammersmith-city",
+        "metropolitan",
+        "northern",
+        "piccadilly",
+        "victoria"
+      ],
+      "population_500m": 5582,
+      "population_1km": 41635,
+      "annual_usage": 77130000,
+      "daily_usage": 211315,
+      "usage_per_capita_500m": 37.86,
+      "usage_per_capita_1km": 5.08
+    },
+    {
+      "naptanId": "940GZZLULAD",
+      "name": "Ladbroke Grove",
+      "lat": 51.517449,
+      "lon": -0.210391,
+      "lines": [
+        "circle",
+        "hammersmith-city"
+      ],
+      "population_500m": 13442,
+      "population_1km": 49489,
+      "annual_usage": 6130000,
+      "daily_usage": 16794,
+      "usage_per_capita_500m": 1.25,
+      "usage_per_capita_1km": 0.34
+    },
+    {
+      "naptanId": "940GZZLULRD",
+      "name": "Latimer Road",
+      "lat": 51.513389,
+      "lon": -0.217799,
+      "lines": [
+        "circle",
+        "hammersmith-city"
+      ],
+      "population_500m": 11160,
+      "population_1km": 39905,
+      "annual_usage": 3090000,
+      "daily_usage": 8465,
+      "usage_per_capita_500m": 0.76,
+      "usage_per_capita_1km": 0.21
+    },
+    {
+      "naptanId": "940GZZLUMGT",
+      "name": "Moorgate",
+      "lat": 51.518176,
+      "lon": -0.088322,
+      "lines": [
+        "circle",
+        "hammersmith-city",
+        "metropolitan",
+        "northern"
+      ],
+      "population_500m": 4646,
+      "population_1km": 24552,
+      "annual_usage": 26930000,
+      "daily_usage": 73780,
+      "usage_per_capita_500m": 15.88,
+      "usage_per_capita_1km": 3.01
+    },
+    {
+      "naptanId": "940GZZLUMMT",
+      "name": "Monument",
+      "lat": 51.5107,
+      "lon": -0.085969,
+      "lines": [
+        "circle",
+        "district"
+      ],
+      "population_500m": 252,
+      "population_1km": 8642,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "940GZZLUMSH",
+      "name": "Mansion House",
+      "lat": 51.512117,
+      "lon": -0.094009,
+      "lines": [
+        "circle",
+        "district"
+      ],
+      "population_500m": 540,
+      "population_1km": 11641,
+      "annual_usage": 4500000,
+      "daily_usage": 12328,
+      "usage_per_capita_500m": 22.83,
+      "usage_per_capita_1km": 1.06
+    },
+    {
+      "naptanId": "940GZZLUPAH",
+      "name": "Paddington (H&C Line)-Underground",
+      "lat": 51.518187,
+      "lon": -0.178306,
+      "lines": [
+        "circle",
+        "hammersmith-city"
+      ],
+      "population_500m": 9164,
+      "population_1km": 51683,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "940GZZLURYO",
+      "name": "Royal Oak",
+      "lat": 51.519113,
+      "lon": -0.188748,
+      "lines": [
+        "circle",
+        "hammersmith-city"
+      ],
+      "population_500m": 12903,
+      "population_1km": 56275,
+      "annual_usage": 2230000,
+      "daily_usage": 6109,
+      "usage_per_capita_500m": 0.47,
+      "usage_per_capita_1km": 0.11
+    },
+    {
+      "naptanId": "940GZZLUSBM",
+      "name": "Shepherd's Bush Market",
+      "lat": 51.505579,
+      "lon": -0.226375,
+      "lines": [
+        "circle",
+        "hammersmith-city"
+      ],
+      "population_500m": 8665,
+      "population_1km": 44057,
+      "annual_usage": 3400000,
+      "daily_usage": 9315,
+      "usage_per_capita_500m": 1.08,
+      "usage_per_capita_1km": 0.21
+    },
+    {
+      "naptanId": "940GZZLUSJP",
+      "name": "St. James's Park",
+      "lat": 51.499544,
+      "lon": -0.133608,
+      "lines": [
+        "circle",
+        "district"
+      ],
+      "population_500m": 2023,
+      "population_1km": 12599,
+      "annual_usage": 10570000,
+      "daily_usage": 28958,
+      "usage_per_capita_500m": 14.31,
+      "usage_per_capita_1km": 2.3
+    },
+    {
+      "naptanId": "940GZZLUSKS",
+      "name": "South Kensington",
+      "lat": 51.494094,
+      "lon": -0.174138,
+      "lines": [
+        "circle",
+        "district",
+        "piccadilly"
+      ],
+      "population_500m": 5815,
+      "population_1km": 28702,
+      "annual_usage": 29480000,
+      "daily_usage": 80767,
+      "usage_per_capita_500m": 13.89,
+      "usage_per_capita_1km": 2.81
+    },
+    {
+      "naptanId": "940GZZLUSSQ",
+      "name": "Sloane Square",
+      "lat": 51.49227,
+      "lon": -0.156377,
+      "lines": [
+        "circle",
+        "district"
+      ],
+      "population_500m": 7009,
+      "population_1km": 26083,
+      "annual_usage": 14240000,
+      "daily_usage": 39013,
+      "usage_per_capita_500m": 5.57,
+      "usage_per_capita_1km": 1.5
+    },
+    {
+      "naptanId": "940GZZLUTMP",
+      "name": "Temple",
+      "lat": 51.511006,
+      "lon": -0.11426,
+      "lines": [
+        "circle",
+        "district"
+      ],
+      "population_500m": 1860,
+      "population_1km": 15268,
+      "annual_usage": 8250000,
+      "daily_usage": 22602,
+      "usage_per_capita_500m": 12.15,
+      "usage_per_capita_1km": 1.48
+    },
+    {
+      "naptanId": "940GZZLUTWH",
+      "name": "Tower Hill",
+      "lat": 51.509971,
+      "lon": -0.076546,
+      "lines": [
+        "circle",
+        "district"
+      ],
+      "population_500m": 3816,
+      "population_1km": 26485,
+      "annual_usage": 16399999,
+      "daily_usage": 44931,
+      "usage_per_capita_500m": 11.77,
+      "usage_per_capita_1km": 1.7
+    },
+    {
+      "naptanId": "940GZZLUVIC",
+      "name": "Victoria",
+      "lat": 51.496359,
+      "lon": -0.143102,
+      "lines": [
+        "circle",
+        "district",
+        "victoria"
+      ],
+      "population_500m": 3880,
+      "population_1km": 21571,
+      "annual_usage": 62690000,
+      "daily_usage": 171753,
+      "usage_per_capita_500m": 44.27,
+      "usage_per_capita_1km": 7.96
+    },
+    {
+      "naptanId": "940GZZLUWLA",
+      "name": "Wood Lane",
+      "lat": 51.509669,
+      "lon": -0.22453,
+      "lines": [
+        "circle",
+        "hammersmith-city"
+      ],
+      "population_500m": 5415,
+      "population_1km": 38572,
+      "annual_usage": 5200000,
+      "daily_usage": 14246,
+      "usage_per_capita_500m": 2.63,
+      "usage_per_capita_1km": 0.37
+    },
+    {
+      "naptanId": "940GZZLUWSM",
+      "name": "Westminster",
+      "lat": 51.50132,
+      "lon": -0.124861,
+      "lines": [
+        "circle",
+        "district",
+        "jubilee"
+      ],
+      "population_500m": 355,
+      "population_1km": 10060,
+      "annual_usage": 19610000,
+      "daily_usage": 53726,
+      "usage_per_capita_500m": 151.34,
+      "usage_per_capita_1km": 5.34
+    },
+    {
+      "naptanId": "940GZZLUWSP",
+      "name": "Westbourne Park",
+      "lat": 51.52111,
+      "lon": -0.201065,
+      "lines": [
+        "circle",
+        "hammersmith-city"
+      ],
+      "population_500m": 15343,
+      "population_1km": 61692,
+      "annual_usage": 3920000,
+      "daily_usage": 10739,
+      "usage_per_capita_500m": 0.7,
+      "usage_per_capita_1km": 0.17
+    },
+    {
+      "naptanId": "940GZZLUACT",
+      "name": "Acton Town",
+      "lat": 51.503057,
+      "lon": -0.280462,
+      "lines": [
+        "district",
+        "piccadilly"
+      ],
+      "population_500m": 6747,
+      "population_1km": 23893,
+      "annual_usage": 5060000,
+      "daily_usage": 13863,
+      "usage_per_capita_500m": 2.05,
+      "usage_per_capita_1km": 0.58
+    },
+    {
+      "naptanId": "940GZZLUADE",
+      "name": "Aldgate East",
+      "lat": 51.515037,
+      "lon": -0.072384,
+      "lines": [
+        "district",
+        "hammersmith-city"
+      ],
+      "population_500m": 13600,
+      "population_1km": 38309,
+      "annual_usage": 12320000,
+      "daily_usage": 33753,
+      "usage_per_capita_500m": 2.48,
+      "usage_per_capita_1km": 0.88
+    },
+    {
+      "naptanId": "940GZZLUBBB",
+      "name": "Bromley-by-Bow",
+      "lat": 51.524839,
+      "lon": -0.011538,
+      "lines": [
+        "district",
+        "hammersmith-city"
+      ],
+      "population_500m": 11572,
+      "population_1km": 32418,
+      "annual_usage": 3920000,
+      "daily_usage": 10739,
+      "usage_per_capita_500m": 0.93,
+      "usage_per_capita_1km": 0.33
+    },
+    {
+      "naptanId": "940GZZLUBEC",
+      "name": "Becontree",
+      "lat": 51.540331,
+      "lon": 0.127016,
+      "lines": [
+        "district"
+      ],
+      "population_500m": 4080,
+      "population_1km": 27207,
+      "annual_usage": 2960000,
+      "daily_usage": 8109,
+      "usage_per_capita_500m": 1.99,
+      "usage_per_capita_1km": 0.3
+    },
+    {
+      "naptanId": "940GZZLUBKG",
+      "name": "Barking",
+      "lat": 51.539321,
+      "lon": 0.081053,
+      "lines": [
+        "district",
+        "hammersmith-city"
+      ],
+      "population_500m": 10100,
+      "population_1km": 33454,
+      "annual_usage": 18230000,
+      "daily_usage": 49945,
+      "usage_per_capita_500m": 4.95,
+      "usage_per_capita_1km": 1.49
+    },
+    {
+      "naptanId": "940GZZLUBSC",
+      "name": "Barons Court",
+      "lat": 51.490311,
+      "lon": -0.213427,
+      "lines": [
+        "district",
+        "piccadilly"
+      ],
+      "population_500m": 9967,
+      "population_1km": 45156,
+      "annual_usage": 5730000,
+      "daily_usage": 15698,
+      "usage_per_capita_500m": 1.57,
+      "usage_per_capita_1km": 0.35
+    },
+    {
+      "naptanId": "940GZZLUBWR",
+      "name": "Bow Road",
+      "lat": 51.52694,
+      "lon": -0.025128,
+      "lines": [
+        "district",
+        "hammersmith-city"
+      ],
+      "population_500m": 15042,
+      "population_1km": 50866,
+      "annual_usage": 4350000,
+      "daily_usage": 11917,
+      "usage_per_capita_500m": 0.79,
+      "usage_per_capita_1km": 0.23
+    },
+    {
+      "naptanId": "940GZZLUCWP",
+      "name": "Chiswick Park",
+      "lat": 51.494627,
+      "lon": -0.267972,
+      "lines": [
+        "district"
+      ],
+      "population_500m": 7934,
+      "population_1km": 29640,
+      "annual_usage": 2190000,
+      "daily_usage": 6000,
+      "usage_per_capita_500m": 0.76,
+      "usage_per_capita_1km": 0.2
+    },
+    {
+      "naptanId": "940GZZLUDGE",
+      "name": "Dagenham East",
+      "lat": 51.544096,
+      "lon": 0.166017,
+      "lines": [
+        "district"
+      ],
+      "population_500m": 4290,
+      "population_1km": 16148,
+      "annual_usage": 2700000,
+      "daily_usage": 7397,
+      "usage_per_capita_500m": 1.72,
+      "usage_per_capita_1km": 0.46
+    },
+    {
+      "naptanId": "940GZZLUDGY",
+      "name": "Dagenham Heathway",
+      "lat": 51.541639,
+      "lon": 0.147527,
+      "lines": [
+        "district"
+      ],
+      "population_500m": 8870,
+      "population_1km": 27639,
+      "annual_usage": 4920000,
+      "daily_usage": 13479,
+      "usage_per_capita_500m": 1.52,
+      "usage_per_capita_1km": 0.49
+    },
+    {
+      "naptanId": "940GZZLUECM",
+      "name": "Ealing Common",
+      "lat": 51.51014,
+      "lon": -0.288265,
+      "lines": [
+        "district",
+        "piccadilly"
+      ],
+      "population_500m": 4555,
+      "population_1km": 18635,
+      "annual_usage": 1930000,
+      "daily_usage": 5287,
+      "usage_per_capita_500m": 1.16,
+      "usage_per_capita_1km": 0.28
+    },
+    {
+      "naptanId": "940GZZLUECT",
+      "name": "Earl's Court",
+      "lat": 51.492063,
+      "lon": -0.193378,
+      "lines": [
+        "district",
+        "piccadilly"
+      ],
+      "population_500m": 14076,
+      "population_1km": 43899,
+      "annual_usage": 16590000,
+      "daily_usage": 45452,
+      "usage_per_capita_500m": 3.23,
+      "usage_per_capita_1km": 1.04
+    },
+    {
+      "naptanId": "940GZZLUEHM",
+      "name": "East Ham",
+      "lat": 51.538948,
+      "lon": 0.051186,
+      "lines": [
+        "district",
+        "hammersmith-city"
+      ],
+      "population_500m": 10550,
+      "population_1km": 53833,
+      "annual_usage": 11120000,
+      "daily_usage": 30465,
+      "usage_per_capita_500m": 2.89,
+      "usage_per_capita_1km": 0.57
+    },
+    {
+      "naptanId": "940GZZLUEPK",
+      "name": "Elm Park",
+      "lat": 51.549775,
+      "lon": 0.19864,
+      "lines": [
+        "district"
+      ],
+      "population_500m": 4943,
+      "population_1km": 16418,
+      "annual_usage": 2640000,
+      "daily_usage": 7232,
+      "usage_per_capita_500m": 1.46,
+      "usage_per_capita_1km": 0.44
+    },
+    {
+      "naptanId": "940GZZLUEPY",
+      "name": "East Putney",
+      "lat": 51.459205,
+      "lon": -0.211,
+      "lines": [
+        "district"
+      ],
+      "population_500m": 9127,
+      "population_1km": 28532,
+      "annual_usage": 6110000,
+      "daily_usage": 16739,
+      "usage_per_capita_500m": 1.83,
+      "usage_per_capita_1km": 0.59
+    },
+    {
+      "naptanId": "940GZZLUFBY",
+      "name": "Fulham Broadway",
+      "lat": 51.480081,
+      "lon": -0.195422,
+      "lines": [
+        "district"
+      ],
+      "population_500m": 10426,
+      "population_1km": 45675,
+      "annual_usage": 6890000,
+      "daily_usage": 18876,
+      "usage_per_capita_500m": 1.81,
+      "usage_per_capita_1km": 0.41
+    },
+    {
+      "naptanId": "940GZZLUGBY",
+      "name": "Gunnersbury",
+      "lat": 51.491803,
+      "lon": -0.275267,
+      "lines": [
+        "district"
+      ],
+      "population_500m": 4351,
+      "population_1km": 23329,
+      "annual_usage": 3850000,
+      "daily_usage": 10547,
+      "usage_per_capita_500m": 2.42,
+      "usage_per_capita_1km": 0.45
+    },
+    {
+      "naptanId": "940GZZLUHCH",
+      "name": "Hornchurch",
+      "lat": 51.554093,
+      "lon": 0.219116,
+      "lines": [
+        "district"
+      ],
+      "population_500m": 4120,
+      "population_1km": 15376,
+      "annual_usage": 1650000,
+      "daily_usage": 4520,
+      "usage_per_capita_500m": 1.1,
+      "usage_per_capita_1km": 0.29
+    },
+    {
+      "naptanId": "940GZZLUHSD",
+      "name": "Hammersmith (Dist&Picc Line)",
+      "lat": 51.4923,
+      "lon": -0.22362,
+      "lines": [
+        "district",
+        "piccadilly"
+      ],
+      "population_500m": 6609,
+      "population_1km": 38409,
+      "annual_usage": 9920000,
+      "daily_usage": 27178,
+      "usage_per_capita_500m": 4.11,
+      "usage_per_capita_1km": 0.71
+    },
+    {
+      "naptanId": "940GZZLUKOY",
+      "name": "Kensington (Olympia)",
+      "lat": 51.497624,
+      "lon": -0.210015,
+      "lines": [
+        "district"
+      ],
+      "population_500m": 9797,
+      "population_1km": 39209,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "940GZZLUKWG",
+      "name": "Kew Gardens",
+      "lat": 51.477058,
+      "lon": -0.285241,
+      "lines": [
+        "district"
+      ],
+      "population_500m": 4796,
+      "population_1km": 13142,
+      "annual_usage": 3080000,
+      "daily_usage": 8438,
+      "usage_per_capita_500m": 1.76,
+      "usage_per_capita_1km": 0.64
+    },
+    {
+      "naptanId": "940GZZLUPLW",
+      "name": "Plaistow",
+      "lat": 51.531341,
+      "lon": 0.017451,
+      "lines": [
+        "district",
+        "hammersmith-city"
+      ],
+      "population_500m": 13715,
+      "population_1km": 41420,
+      "annual_usage": 4660000,
+      "daily_usage": 12767,
+      "usage_per_capita_500m": 0.93,
+      "usage_per_capita_1km": 0.31
+    },
+    {
+      "naptanId": "940GZZLUPSG",
+      "name": "Parsons Green",
+      "lat": 51.475277,
+      "lon": -0.20117,
+      "lines": [
+        "district"
+      ],
+      "population_500m": 12184,
+      "population_1km": 46255,
+      "annual_usage": 5800000,
+      "daily_usage": 15890,
+      "usage_per_capita_500m": 1.3,
+      "usage_per_capita_1km": 0.34
+    },
+    {
+      "naptanId": "940GZZLUPYB",
+      "name": "Putney Bridge",
+      "lat": 51.468262,
+      "lon": -0.208731,
+      "lines": [
+        "district"
+      ],
+      "population_500m": 6851,
+      "population_1km": 28831,
+      "annual_usage": 4940000,
+      "daily_usage": 13534,
+      "usage_per_capita_500m": 1.98,
+      "usage_per_capita_1km": 0.47
+    },
+    {
+      "naptanId": "940GZZLURMD",
+      "name": "Richmond",
+      "lat": 51.463237,
+      "lon": -0.301336,
+      "lines": [
+        "district"
+      ],
+      "population_500m": 4298,
+      "population_1km": 13768,
+      "annual_usage": 11970000,
+      "daily_usage": 32794,
+      "usage_per_capita_500m": 7.63,
+      "usage_per_capita_1km": 2.38
+    },
+    {
+      "naptanId": "940GZZLURVP",
+      "name": "Ravenscourt Park",
+      "lat": 51.494122,
+      "lon": -0.235881,
+      "lines": [
+        "district"
+      ],
+      "population_500m": 9258,
+      "population_1km": 34908,
+      "annual_usage": 2730000,
+      "daily_usage": 7479,
+      "usage_per_capita_500m": 0.81,
+      "usage_per_capita_1km": 0.21
+    },
+    {
+      "naptanId": "940GZZLUSFB",
+      "name": "Stamford Brook",
+      "lat": 51.494917,
+      "lon": -0.245704,
+      "lines": [
+        "district"
+      ],
+      "population_500m": 6980,
+      "population_1km": 33618,
+      "annual_usage": 2270000,
+      "daily_usage": 6219,
+      "usage_per_capita_500m": 0.89,
+      "usage_per_capita_1km": 0.18
+    },
+    {
+      "naptanId": "940GZZLUSFS",
+      "name": "Southfields",
+      "lat": 51.445073,
+      "lon": -0.206602,
+      "lines": [
+        "district"
+      ],
+      "population_500m": 9322,
+      "population_1km": 31663,
+      "annual_usage": 5140000,
+      "daily_usage": 14082,
+      "usage_per_capita_500m": 1.51,
+      "usage_per_capita_1km": 0.44
+    },
+    {
+      "naptanId": "940GZZLUSGN",
+      "name": "Stepney Green",
+      "lat": 51.521858,
+      "lon": -0.046596,
+      "lines": [
+        "district",
+        "hammersmith-city"
+      ],
+      "population_500m": 12999,
+      "population_1km": 53387,
+      "annual_usage": 5450000,
+      "daily_usage": 14931,
+      "usage_per_capita_500m": 1.15,
+      "usage_per_capita_1km": 0.28
+    },
+    {
+      "naptanId": "940GZZLUTNG",
+      "name": "Turnham Green",
+      "lat": 51.495148,
+      "lon": -0.254555,
+      "lines": [
+        "district",
+        "piccadilly"
+      ],
+      "population_500m": 6449,
+      "population_1km": 32840,
+      "annual_usage": 5030000,
+      "daily_usage": 13780,
+      "usage_per_capita_500m": 2.14,
+      "usage_per_capita_1km": 0.42
+    },
+    {
+      "naptanId": "940GZZLUUPB",
+      "name": "Upminster Bridge",
+      "lat": 51.55856,
+      "lon": 0.235809,
+      "lines": [
+        "district"
+      ],
+      "population_500m": 3764,
+      "population_1km": 12175,
+      "annual_usage": 740000,
+      "daily_usage": 2027,
+      "usage_per_capita_500m": 0.54,
+      "usage_per_capita_1km": 0.17
+    },
+    {
+      "naptanId": "940GZZLUUPK",
+      "name": "Upton Park",
+      "lat": 51.53534,
+      "lon": 0.035263,
+      "lines": [
+        "district",
+        "hammersmith-city"
+      ],
+      "population_500m": 16887,
+      "population_1km": 63018,
+      "annual_usage": 11750000,
+      "daily_usage": 32191,
+      "usage_per_capita_500m": 1.91,
+      "usage_per_capita_1km": 0.51
+    },
+    {
+      "naptanId": "940GZZLUUPM",
+      "name": "Upminster",
+      "lat": 51.559063,
+      "lon": 0.250882,
+      "lines": [
+        "district"
+      ],
+      "population_500m": 2103,
+      "population_1km": 7685,
+      "annual_usage": 4680000,
+      "daily_usage": 12821,
+      "usage_per_capita_500m": 6.1,
+      "usage_per_capita_1km": 1.67
+    },
+    {
+      "naptanId": "940GZZLUUPY",
+      "name": "Upney",
+      "lat": 51.538372,
+      "lon": 0.10153,
+      "lines": [
+        "district"
+      ],
+      "population_500m": 6338,
+      "population_1km": 24733,
+      "annual_usage": 2270000,
+      "daily_usage": 6219,
+      "usage_per_capita_500m": 0.98,
+      "usage_per_capita_1km": 0.25
+    },
+    {
+      "naptanId": "940GZZLUWBN",
+      "name": "West Brompton",
+      "lat": 51.487268,
+      "lon": -0.195599,
+      "lines": [
+        "district"
+      ],
+      "population_500m": 11764,
+      "population_1km": 48308,
+      "annual_usage": 5080000,
+      "daily_usage": 13917,
+      "usage_per_capita_500m": 1.18,
+      "usage_per_capita_1km": 0.29
+    },
+    {
+      "naptanId": "940GZZLUWHM",
+      "name": "West Ham",
+      "lat": 51.528136,
+      "lon": 0.005055,
+      "lines": [
+        "district",
+        "hammersmith-city",
+        "jubilee"
+      ],
+      "population_500m": 5614,
+      "population_1km": 27766,
+      "annual_usage": 5490000,
+      "daily_usage": 15041,
+      "usage_per_capita_500m": 2.68,
+      "usage_per_capita_1km": 0.54
+    },
+    {
+      "naptanId": "940GZZLUWIM",
+      "name": "Wimbledon",
+      "lat": 51.421207,
+      "lon": -0.206573,
+      "lines": [
+        "district"
+      ],
+      "population_500m": 5243,
+      "population_1km": 21475,
+      "annual_usage": 17400000,
+      "daily_usage": 47671,
+      "usage_per_capita_500m": 9.09,
+      "usage_per_capita_1km": 2.22
+    },
+    {
+      "naptanId": "940GZZLUWIP",
+      "name": "Wimbledon Park",
+      "lat": 51.434573,
+      "lon": -0.199719,
+      "lines": [
+        "district"
+      ],
+      "population_500m": 5176,
+      "population_1km": 19634,
+      "annual_usage": 1920000,
+      "daily_usage": 5260,
+      "usage_per_capita_500m": 1.02,
+      "usage_per_capita_1km": 0.27
+    },
+    {
+      "naptanId": "940GZZLUWKN",
+      "name": "West Kensington",
+      "lat": 51.490459,
+      "lon": -0.206636,
+      "lines": [
+        "district"
+      ],
+      "population_500m": 13953,
+      "population_1km": 45195,
+      "annual_usage": 3990000,
+      "daily_usage": 10931,
+      "usage_per_capita_500m": 0.78,
+      "usage_per_capita_1km": 0.24
+    },
+    {
+      "naptanId": "940GZZLUWPL",
+      "name": "Whitechapel",
+      "lat": 51.519518,
+      "lon": -0.059971,
+      "lines": [
+        "district",
+        "hammersmith-city"
+      ],
+      "population_500m": 11685,
+      "population_1km": 54714,
+      "annual_usage": 18280000,
+      "daily_usage": 50082,
+      "usage_per_capita_500m": 4.29,
+      "usage_per_capita_1km": 0.92
+    },
+    {
+      "naptanId": "940GZZLUBMY",
+      "name": "Bermondsey",
+      "lat": 51.49775,
+      "lon": -0.063993,
+      "lines": [
+        "jubilee"
+      ],
+      "population_500m": 10158,
+      "population_1km": 38728,
+      "annual_usage": 7320000,
+      "daily_usage": 20054,
+      "usage_per_capita_500m": 1.97,
+      "usage_per_capita_1km": 0.52
+    },
+    {
+      "naptanId": "940GZZLUCGT",
+      "name": "Canning Town",
+      "lat": 51.513584,
+      "lon": 0.008322,
+      "lines": [
+        "jubilee"
+      ],
+      "population_500m": 9324,
+      "population_1km": 34322,
+      "annual_usage": 12620000,
+      "daily_usage": 34575,
+      "usage_per_capita_500m": 3.71,
+      "usage_per_capita_1km": 1.01
+    },
+    {
+      "naptanId": "940GZZLUCPK",
+      "name": "Canons Park",
+      "lat": 51.607701,
+      "lon": -0.294693,
+      "lines": [
+        "jubilee"
+      ],
+      "population_500m": 4612,
+      "population_1km": 14779,
+      "annual_usage": 2220000,
+      "daily_usage": 6082,
+      "usage_per_capita_500m": 1.32,
+      "usage_per_capita_1km": 0.41
+    },
+    {
+      "naptanId": "940GZZLUCWR",
+      "name": "Canada Water",
+      "lat": 51.497931,
+      "lon": -0.049405,
+      "lines": [
+        "jubilee"
+      ],
+      "population_500m": 9059,
+      "population_1km": 29359,
+      "annual_usage": 10150000,
+      "daily_usage": 27808,
+      "usage_per_capita_500m": 3.07,
+      "usage_per_capita_1km": 0.95
+    },
+    {
+      "naptanId": "940GZZLUCYF",
+      "name": "Canary Wharf",
+      "lat": 51.503488,
+      "lon": -0.018246,
+      "lines": [
+        "jubilee"
+      ],
+      "population_500m": 3469,
+      "population_1km": 43803,
+      "annual_usage": 33180000,
+      "daily_usage": 90904,
+      "usage_per_capita_500m": 26.2,
+      "usage_per_capita_1km": 2.08
+    },
+    {
+      "naptanId": "940GZZLUDOH",
+      "name": "Dollis Hill",
+      "lat": 51.551955,
+      "lon": -0.239068,
+      "lines": [
+        "jubilee"
+      ],
+      "population_500m": 6029,
+      "population_1km": 28909,
+      "annual_usage": 3180000,
+      "daily_usage": 8712,
+      "usage_per_capita_500m": 1.45,
+      "usage_per_capita_1km": 0.3
+    },
+    {
+      "naptanId": "940GZZLUFYR",
+      "name": "Finchley Road",
+      "lat": 51.546825,
+      "lon": -0.179845,
+      "lines": [
+        "jubilee",
+        "metropolitan"
+      ],
+      "population_500m": 8725,
+      "population_1km": 37982,
+      "annual_usage": 7600000,
+      "daily_usage": 20821,
+      "usage_per_capita_500m": 2.39,
+      "usage_per_capita_1km": 0.55
+    },
+    {
+      "naptanId": "940GZZLUGPK",
+      "name": "Green Park",
+      "lat": 51.506947,
+      "lon": -0.142787,
+      "lines": [
+        "jubilee",
+        "piccadilly",
+        "victoria"
+      ],
+      "population_500m": 1468,
+      "population_1km": 6846,
+      "annual_usage": 31100000,
+      "daily_usage": 85205,
+      "usage_per_capita_500m": 58.04,
+      "usage_per_capita_1km": 12.45
+    },
+    {
+      "naptanId": "940GZZLUKBN",
+      "name": "Kilburn",
+      "lat": 51.547183,
+      "lon": -0.204248,
+      "lines": [
+        "jubilee"
+      ],
+      "population_500m": 10081,
+      "population_1km": 37463,
+      "annual_usage": 5550000,
+      "daily_usage": 15205,
+      "usage_per_capita_500m": 1.51,
+      "usage_per_capita_1km": 0.41
+    },
+    {
+      "naptanId": "940GZZLUKBY",
+      "name": "Kingsbury",
+      "lat": 51.584845,
+      "lon": -0.27879,
+      "lines": [
+        "jubilee"
+      ],
+      "population_500m": 6670,
+      "population_1km": 21814,
+      "annual_usage": 3950000,
+      "daily_usage": 10821,
+      "usage_per_capita_500m": 1.62,
+      "usage_per_capita_1km": 0.5
+    },
+    {
+      "naptanId": "940GZZLULNB",
+      "name": "London Bridge",
+      "lat": 51.505721,
+      "lon": -0.088873,
+      "lines": [
+        "jubilee",
+        "northern"
+      ],
+      "population_500m": 923,
+      "population_1km": 13566,
+      "annual_usage": 57890000,
+      "daily_usage": 158602,
+      "usage_per_capita_500m": 171.83,
+      "usage_per_capita_1km": 11.69
+    },
+    {
+      "naptanId": "940GZZLUNDN",
+      "name": "Neasden",
+      "lat": 51.553986,
+      "lon": -0.249837,
+      "lines": [
+        "jubilee"
+      ],
+      "population_500m": 5579,
+      "population_1km": 23510,
+      "annual_usage": 2640000,
+      "daily_usage": 7232,
+      "usage_per_capita_500m": 1.3,
+      "usage_per_capita_1km": 0.31
+    },
+    {
+      "naptanId": "940GZZLUNGW",
+      "name": "North Greenwich",
+      "lat": 51.50047,
+      "lon": 0.004287,
+      "lines": [
+        "jubilee"
+      ],
+      "population_500m": 1588,
+      "population_1km": 13948,
+      "annual_usage": 23730000,
+      "daily_usage": 65013,
+      "usage_per_capita_500m": 40.94,
+      "usage_per_capita_1km": 4.66
+    },
+    {
+      "naptanId": "940GZZLUQBY",
+      "name": "Queensbury",
+      "lat": 51.594188,
+      "lon": -0.286219,
+      "lines": [
+        "jubilee"
+      ],
+      "population_500m": 7494,
+      "population_1km": 27105,
+      "annual_usage": 3150000,
+      "daily_usage": 8630,
+      "usage_per_capita_500m": 1.15,
+      "usage_per_capita_1km": 0.32
+    },
+    {
+      "naptanId": "940GZZLUSJW",
+      "name": "St. John's Wood",
+      "lat": 51.534521,
+      "lon": -0.173948,
+      "lines": [
+        "jubilee"
+      ],
+      "population_500m": 7064,
+      "population_1km": 31879,
+      "annual_usage": 6170000,
+      "daily_usage": 16904,
+      "usage_per_capita_500m": 2.39,
+      "usage_per_capita_1km": 0.53
+    },
+    {
+      "naptanId": "940GZZLUSTM",
+      "name": "Stanmore",
+      "lat": 51.619839,
+      "lon": -0.303266,
+      "lines": [
+        "jubilee"
+      ],
+      "population_500m": 1814,
+      "population_1km": 9598,
+      "annual_usage": 3250000,
+      "daily_usage": 8904,
+      "usage_per_capita_500m": 4.91,
+      "usage_per_capita_1km": 0.93
+    },
+    {
+      "naptanId": "940GZZLUSWC",
+      "name": "Swiss Cottage",
+      "lat": 51.543681,
+      "lon": -0.174894,
+      "lines": [
+        "jubilee"
+      ],
+      "population_500m": 10749,
+      "population_1km": 36849,
+      "annual_usage": 5620000,
+      "daily_usage": 15397,
+      "usage_per_capita_500m": 1.43,
+      "usage_per_capita_1km": 0.42
+    },
+    {
+      "naptanId": "940GZZLUSWK",
+      "name": "Southwark",
+      "lat": 51.50427,
+      "lon": -0.105331,
+      "lines": [
+        "jubilee"
+      ],
+      "population_500m": 5905,
+      "population_1km": 21166,
+      "annual_usage": 9100000,
+      "daily_usage": 24931,
+      "usage_per_capita_500m": 4.22,
+      "usage_per_capita_1km": 1.18
+    },
+    {
+      "naptanId": "940GZZLUWHP",
+      "name": "West Hampstead",
+      "lat": 51.546638,
+      "lon": -0.191059,
+      "lines": [
+        "jubilee"
+      ],
+      "population_500m": 10528,
+      "population_1km": 41556,
+      "annual_usage": 8430000,
+      "daily_usage": 23095,
+      "usage_per_capita_500m": 2.19,
+      "usage_per_capita_1km": 0.56
+    },
+    {
+      "naptanId": "940GZZLUWIG",
+      "name": "Willesden Green",
+      "lat": 51.549146,
+      "lon": -0.221537,
+      "lines": [
+        "jubilee",
+        "metropolitan"
+      ],
+      "population_500m": 7781,
+      "population_1km": 33857,
+      "annual_usage": 5800000,
+      "daily_usage": 15890,
+      "usage_per_capita_500m": 2.04,
+      "usage_per_capita_1km": 0.47
+    },
+    {
+      "naptanId": "940GZZLUWYP",
+      "name": "Wembley Park",
+      "lat": 51.563198,
+      "lon": -0.279262,
+      "lines": [
+        "jubilee",
+        "metropolitan"
+      ],
+      "population_500m": 6522,
+      "population_1km": 23582,
+      "annual_usage": 16530000,
+      "daily_usage": 45287,
+      "usage_per_capita_500m": 6.94,
+      "usage_per_capita_1km": 1.92
+    },
+    {
+      "naptanId": "940GZZLUAMS",
+      "name": "Amersham",
+      "lat": 51.674126,
+      "lon": -0.607714,
+      "lines": [
+        "metropolitan"
+      ],
+      "population_500m": 2568,
+      "population_1km": 7424,
+      "annual_usage": 1900000,
+      "daily_usage": 5205,
+      "usage_per_capita_500m": 2.03,
+      "usage_per_capita_1km": 0.7
+    },
+    {
+      "naptanId": "940GZZLUCAL",
+      "name": "Chalfont & Latimer",
+      "lat": 51.667985,
+      "lon": -0.560689,
+      "lines": [
+        "metropolitan"
+      ],
+      "population_500m": 2172,
+      "population_1km": 5027,
+      "annual_usage": 1520000,
+      "daily_usage": 4164,
+      "usage_per_capita_500m": 1.92,
+      "usage_per_capita_1km": 0.83
+    },
+    {
+      "naptanId": "940GZZLUCSM",
+      "name": "Chesham",
+      "lat": 51.705208,
+      "lon": -0.611247,
+      "lines": [
+        "metropolitan"
+      ],
+      "population_500m": 3170,
+      "population_1km": 11047,
+      "annual_usage": 1020000,
+      "daily_usage": 2794,
+      "usage_per_capita_500m": 0.88,
+      "usage_per_capita_1km": 0.25
+    },
+    {
+      "naptanId": "940GZZLUCXY",
+      "name": "Croxley",
+      "lat": 51.647044,
+      "lon": -0.441718,
+      "lines": [
+        "metropolitan"
+      ],
+      "population_500m": 4746,
+      "population_1km": 12348,
+      "annual_usage": 900000,
+      "daily_usage": 2465,
+      "usage_per_capita_500m": 0.52,
+      "usage_per_capita_1km": 0.2
+    },
+    {
+      "naptanId": "940GZZLUCYD",
+      "name": "Chorleywood",
+      "lat": 51.654358,
+      "lon": -0.518461,
+      "lines": [
+        "metropolitan"
+      ],
+      "population_500m": 1763,
+      "population_1km": 4431,
+      "annual_usage": 1400000,
+      "daily_usage": 3835,
+      "usage_per_capita_500m": 2.18,
+      "usage_per_capita_1km": 0.87
+    },
+    {
+      "naptanId": "940GZZLUEAE",
+      "name": "Eastcote",
+      "lat": 51.576506,
+      "lon": -0.397373,
+      "lines": [
+        "metropolitan",
+        "piccadilly"
+      ],
+      "population_500m": 4300,
+      "population_1km": 16727,
+      "annual_usage": 2210000,
+      "daily_usage": 6054,
+      "usage_per_capita_500m": 1.41,
+      "usage_per_capita_1km": 0.36
+    },
+    {
+      "naptanId": "940GZZLUHGD",
+      "name": "Hillingdon",
+      "lat": 51.553715,
+      "lon": -0.449828,
+      "lines": [
+        "metropolitan",
+        "piccadilly"
+      ],
+      "population_500m": 1490,
+      "population_1km": 8401,
+      "annual_usage": 1440000,
+      "daily_usage": 3945,
+      "usage_per_capita_500m": 2.65,
+      "usage_per_capita_1km": 0.47
+    },
+    {
+      "naptanId": "940GZZLUHOH",
+      "name": "Harrow-on-the-Hill",
+      "lat": 51.579195,
+      "lon": -0.337225,
+      "lines": [
+        "metropolitan"
+      ],
+      "population_500m": 8786,
+      "population_1km": 26889,
+      "annual_usage": 8640000,
+      "daily_usage": 23671,
+      "usage_per_capita_500m": 2.69,
+      "usage_per_capita_1km": 0.88
+    },
+    {
+      "naptanId": "940GZZLUICK",
+      "name": "Ickenham",
+      "lat": 51.561992,
+      "lon": -0.442001,
+      "lines": [
+        "metropolitan",
+        "piccadilly"
+      ],
+      "population_500m": 2920,
+      "population_1km": 9613,
+      "annual_usage": 870000,
+      "daily_usage": 2383,
+      "usage_per_capita_500m": 0.82,
+      "usage_per_capita_1km": 0.25
+    },
+    {
+      "naptanId": "940GZZLUMPK",
+      "name": "Moor Park",
+      "lat": 51.629845,
+      "lon": -0.432454,
+      "lines": [
+        "metropolitan"
+      ],
+      "population_500m": 351,
+      "population_1km": 1762,
+      "annual_usage": 830000,
+      "daily_usage": 2273,
+      "usage_per_capita_500m": 6.48,
+      "usage_per_capita_1km": 1.29
+    },
+    {
+      "naptanId": "940GZZLUNHA",
+      "name": "North Harrow",
+      "lat": 51.584872,
+      "lon": -0.362408,
+      "lines": [
+        "metropolitan"
+      ],
+      "population_500m": 4936,
+      "population_1km": 19435,
+      "annual_usage": 1480000,
+      "daily_usage": 4054,
+      "usage_per_capita_500m": 0.82,
+      "usage_per_capita_1km": 0.21
+    },
+    {
+      "naptanId": "940GZZLUNKP",
+      "name": "Northwick Park",
+      "lat": 51.578481,
+      "lon": -0.318056,
+      "lines": [
+        "metropolitan"
+      ],
+      "population_500m": 3566,
+      "population_1km": 15574,
+      "annual_usage": 3220000,
+      "daily_usage": 8821,
+      "usage_per_capita_500m": 2.47,
+      "usage_per_capita_1km": 0.57
+    },
+    {
+      "naptanId": "940GZZLUNOW",
+      "name": "Northwood",
+      "lat": 51.611053,
+      "lon": -0.423829,
+      "lines": [
+        "metropolitan"
+      ],
+      "population_500m": 3051,
+      "population_1km": 10502,
+      "annual_usage": 2190000,
+      "daily_usage": 6000,
+      "usage_per_capita_500m": 1.97,
+      "usage_per_capita_1km": 0.57
+    },
+    {
+      "naptanId": "940GZZLUNWH",
+      "name": "Northwood Hills",
+      "lat": 51.600572,
+      "lon": -0.409464,
+      "lines": [
+        "metropolitan"
+      ],
+      "population_500m": 4073,
+      "population_1km": 12606,
+      "annual_usage": 1400000,
+      "daily_usage": 3835,
+      "usage_per_capita_500m": 0.94,
+      "usage_per_capita_1km": 0.3
+    },
+    {
+      "naptanId": "940GZZLUPNR",
+      "name": "Pinner",
+      "lat": 51.592901,
+      "lon": -0.381161,
+      "lines": [
+        "metropolitan"
+      ],
+      "population_500m": 2131,
+      "population_1km": 10829,
+      "annual_usage": 2530000,
+      "daily_usage": 6931,
+      "usage_per_capita_500m": 3.25,
+      "usage_per_capita_1km": 0.64
+    },
+    {
+      "naptanId": "940GZZLUPRD",
+      "name": "Preston Road",
+      "lat": 51.571972,
+      "lon": -0.295107,
+      "lines": [
+        "metropolitan"
+      ],
+      "population_500m": 4375,
+      "population_1km": 19009,
+      "annual_usage": 2520000,
+      "daily_usage": 6904,
+      "usage_per_capita_500m": 1.58,
+      "usage_per_capita_1km": 0.36
+    },
+    {
+      "naptanId": "940GZZLURKW",
+      "name": "Rickmansworth",
+      "lat": 51.640207,
+      "lon": -0.473703,
+      "lines": [
+        "metropolitan"
+      ],
+      "population_500m": 1547,
+      "population_1km": 6227,
+      "annual_usage": 1880000,
+      "daily_usage": 5150,
+      "usage_per_capita_500m": 3.33,
+      "usage_per_capita_1km": 0.83
+    },
+    {
+      "naptanId": "940GZZLURSM",
+      "name": "Ruislip Manor",
+      "lat": 51.573202,
+      "lon": -0.412973,
+      "lines": [
+        "metropolitan",
+        "piccadilly"
+      ],
+      "population_500m": 3683,
+      "population_1km": 15311,
+      "annual_usage": 1420000,
+      "daily_usage": 3890,
+      "usage_per_capita_500m": 1.06,
+      "usage_per_capita_1km": 0.25
+    },
+    {
+      "naptanId": "940GZZLURSP",
+      "name": "Ruislip",
+      "lat": 51.571354,
+      "lon": -0.421898,
+      "lines": [
+        "metropolitan",
+        "piccadilly"
+      ],
+      "population_500m": 4129,
+      "population_1km": 14545,
+      "annual_usage": 1490000,
+      "daily_usage": 4082,
+      "usage_per_capita_500m": 0.99,
+      "usage_per_capita_1km": 0.28
+    },
+    {
+      "naptanId": "940GZZLURYL",
+      "name": "Rayners Lane",
+      "lat": 51.575147,
+      "lon": -0.371127,
+      "lines": [
+        "metropolitan",
+        "piccadilly"
+      ],
+      "population_500m": 4233,
+      "population_1km": 20389,
+      "annual_usage": 3390000,
+      "daily_usage": 9287,
+      "usage_per_capita_500m": 2.19,
+      "usage_per_capita_1km": 0.46
+    },
+    {
+      "naptanId": "940GZZLUUXB",
+      "name": "Uxbridge",
+      "lat": 51.546565,
+      "lon": -0.477949,
+      "lines": [
+        "metropolitan",
+        "piccadilly"
+      ],
+      "population_500m": 4328,
+      "population_1km": 12290,
+      "annual_usage": 5430000,
+      "daily_usage": 14876,
+      "usage_per_capita_500m": 3.44,
+      "usage_per_capita_1km": 1.21
+    },
+    {
+      "naptanId": "940GZZLUWAF",
+      "name": "Watford",
+      "lat": 51.657446,
+      "lon": -0.417377,
+      "lines": [
+        "metropolitan"
+      ],
+      "population_500m": 2229,
+      "population_1km": 12444,
+      "annual_usage": 1700000,
+      "daily_usage": 4657,
+      "usage_per_capita_500m": 2.09,
+      "usage_per_capita_1km": 0.37
+    },
+    {
+      "naptanId": "940GZZLUWHW",
+      "name": "West Harrow",
+      "lat": 51.57971,
+      "lon": -0.3534,
+      "lines": [
+        "metropolitan"
+      ],
+      "population_500m": 7249,
+      "population_1km": 24470,
+      "annual_usage": 1220000,
+      "daily_usage": 3342,
+      "usage_per_capita_500m": 0.46,
+      "usage_per_capita_1km": 0.14
+    },
+    {
+      "naptanId": "940GZZBPSUST",
+      "name": "Battersea Power Station",
+      "lat": 51.479932,
+      "lon": -0.142142,
+      "lines": [
+        "northern"
+      ],
+      "population_500m": 7060,
+      "population_1km": 35192,
+      "annual_usage": 9230000,
+      "daily_usage": 25287,
+      "usage_per_capita_500m": 3.58,
+      "usage_per_capita_1km": 0.72
+    },
+    {
+      "naptanId": "940GZZLUACY",
+      "name": "Archway",
+      "lat": 51.565478,
+      "lon": -0.134819,
+      "lines": [
+        "northern"
+      ],
+      "population_500m": 10985,
+      "population_1km": 37633,
+      "annual_usage": 7330000,
+      "daily_usage": 20082,
+      "usage_per_capita_500m": 1.83,
+      "usage_per_capita_1km": 0.53
+    },
+    {
+      "naptanId": "940GZZLUAGL",
+      "name": "Angel",
+      "lat": 51.532624,
+      "lon": -0.105898,
+      "lines": [
+        "northern"
+      ],
+      "population_500m": 10172,
+      "population_1km": 48243,
+      "annual_usage": 12680000,
+      "daily_usage": 34739,
+      "usage_per_capita_500m": 3.42,
+      "usage_per_capita_1km": 0.72
+    },
+    {
+      "naptanId": "940GZZLUBLM",
+      "name": "Balham",
+      "lat": 51.443288,
+      "lon": -0.152997,
+      "lines": [
+        "northern"
+      ],
+      "population_500m": 11197,
+      "population_1km": 38068,
+      "annual_usage": 10240000,
+      "daily_usage": 28054,
+      "usage_per_capita_500m": 2.51,
+      "usage_per_capita_1km": 0.74
+    },
+    {
+      "naptanId": "940GZZLUBOR",
+      "name": "Borough",
+      "lat": 51.501199,
+      "lon": -0.09337,
+      "lines": [
+        "northern"
+      ],
+      "population_500m": 8593,
+      "population_1km": 32687,
+      "annual_usage": 4179999,
+      "daily_usage": 11452,
+      "usage_per_capita_500m": 1.33,
+      "usage_per_capita_1km": 0.35
+    },
+    {
+      "naptanId": "940GZZLUBTK",
+      "name": "Burnt Oak",
+      "lat": 51.602774,
+      "lon": -0.264048,
+      "lines": [
+        "northern"
+      ],
+      "population_500m": 7181,
+      "population_1km": 29159,
+      "annual_usage": 4690000,
+      "daily_usage": 12849,
+      "usage_per_capita_500m": 1.79,
+      "usage_per_capita_1km": 0.44
+    },
+    {
+      "naptanId": "940GZZLUBTX",
+      "name": "Brent Cross",
+      "lat": 51.57665,
+      "lon": -0.213622,
+      "lines": [
+        "northern"
+      ],
+      "population_500m": 7632,
+      "population_1km": 22981,
+      "annual_usage": 1820000,
+      "daily_usage": 4986,
+      "usage_per_capita_500m": 0.65,
+      "usage_per_capita_1km": 0.22
+    },
+    {
+      "naptanId": "940GZZLUBZP",
+      "name": "Belsize Park",
+      "lat": 51.550311,
+      "lon": -0.164648,
+      "lines": [
+        "northern"
+      ],
+      "population_500m": 9233,
+      "population_1km": 35389,
+      "annual_usage": 5270000,
+      "daily_usage": 14438,
+      "usage_per_capita_500m": 1.56,
+      "usage_per_capita_1km": 0.41
+    },
+    {
+      "naptanId": "940GZZLUCFM",
+      "name": "Chalk Farm",
+      "lat": 51.544118,
+      "lon": -0.153388,
+      "lines": [
+        "northern"
+      ],
+      "population_500m": 11696,
+      "population_1km": 41087,
+      "annual_usage": 4940000,
+      "daily_usage": 13534,
+      "usage_per_capita_500m": 1.16,
+      "usage_per_capita_1km": 0.33
+    },
+    {
+      "naptanId": "940GZZLUCND",
+      "name": "Colindale",
+      "lat": 51.595424,
+      "lon": -0.249919,
+      "lines": [
+        "northern"
+      ],
+      "population_500m": 11003,
+      "population_1km": 36236,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "940GZZLUCPC",
+      "name": "Clapham Common",
+      "lat": 51.461742,
+      "lon": -0.138317,
+      "lines": [
+        "northern"
+      ],
+      "population_500m": 9441,
+      "population_1km": 40186,
+      "annual_usage": 8119999,
+      "daily_usage": 22246,
+      "usage_per_capita_500m": 2.36,
+      "usage_per_capita_1km": 0.55
+    },
+    {
+      "naptanId": "940GZZLUCPN",
+      "name": "Clapham North",
+      "lat": 51.465135,
+      "lon": -0.130016,
+      "lines": [
+        "northern"
+      ],
+      "population_500m": 12508,
+      "population_1km": 50007,
+      "annual_usage": 5180000,
+      "daily_usage": 14191,
+      "usage_per_capita_500m": 1.13,
+      "usage_per_capita_1km": 0.28
+    },
+    {
+      "naptanId": "940GZZLUCPS",
+      "name": "Clapham South",
+      "lat": 51.452654,
+      "lon": -0.147582,
+      "lines": [
+        "northern"
+      ],
+      "population_500m": 6317,
+      "population_1km": 31320,
+      "annual_usage": 6610000,
+      "daily_usage": 18109,
+      "usage_per_capita_500m": 2.87,
+      "usage_per_capita_1km": 0.58
+    },
+    {
+      "naptanId": "940GZZLUCSD",
+      "name": "Colliers Wood",
+      "lat": 51.41816,
+      "lon": -0.178086,
+      "lines": [
+        "northern"
+      ],
+      "population_500m": 8386,
+      "population_1km": 31916,
+      "annual_usage": 5540000,
+      "daily_usage": 15178,
+      "usage_per_capita_500m": 1.81,
+      "usage_per_capita_1km": 0.48
+    },
+    {
+      "naptanId": "940GZZLUCTN",
+      "name": "Camden Town",
+      "lat": 51.539292,
+      "lon": -0.14274,
+      "lines": [
+        "northern"
+      ],
+      "population_500m": 10098,
+      "population_1km": 38368,
+      "annual_usage": 18770000,
+      "daily_usage": 51424,
+      "usage_per_capita_500m": 5.09,
+      "usage_per_capita_1km": 1.34
+    },
+    {
+      "naptanId": "940GZZLUEFY",
+      "name": "East Finchley",
+      "lat": 51.587131,
+      "lon": -0.165012,
+      "lines": [
+        "northern"
+      ],
+      "population_500m": 6759,
+      "population_1km": 19656,
+      "annual_usage": 5510000,
+      "daily_usage": 15095,
+      "usage_per_capita_500m": 2.23,
+      "usage_per_capita_1km": 0.77
+    },
+    {
+      "naptanId": "940GZZLUEGW",
+      "name": "Edgware",
+      "lat": 51.613653,
+      "lon": -0.274928,
+      "lines": [
+        "northern"
+      ],
+      "population_500m": 5120,
+      "population_1km": 21554,
+      "annual_usage": 4030000,
+      "daily_usage": 11041,
+      "usage_per_capita_500m": 2.16,
+      "usage_per_capita_1km": 0.51
+    },
+    {
+      "naptanId": "940GZZLUEUS",
+      "name": "Euston",
+      "lat": 51.527824,
+      "lon": -0.131846,
+      "lines": [
+        "northern",
+        "victoria"
+      ],
+      "population_500m": 7067,
+      "population_1km": 38860,
+      "annual_usage": 33189999,
+      "daily_usage": 90931,
+      "usage_per_capita_500m": 12.87,
+      "usage_per_capita_1km": 2.34
+    },
+    {
+      "naptanId": "940GZZLUFYC",
+      "name": "Finchley Central",
+      "lat": 51.600921,
+      "lon": -0.192527,
+      "lines": [
+        "northern"
+      ],
+      "population_500m": 7714,
+      "population_1km": 20551,
+      "annual_usage": 5180000,
+      "daily_usage": 14191,
+      "usage_per_capita_500m": 1.84,
+      "usage_per_capita_1km": 0.69
+    },
+    {
+      "naptanId": "940GZZLUGDG",
+      "name": "Goodge Street",
+      "lat": 51.520599,
+      "lon": -0.134361,
+      "lines": [
+        "northern"
+      ],
+      "population_500m": 5514,
+      "population_1km": 31510,
+      "annual_usage": 5440000,
+      "daily_usage": 14904,
+      "usage_per_capita_500m": 2.7,
+      "usage_per_capita_1km": 0.47
+    },
+    {
+      "naptanId": "940GZZLUGGN",
+      "name": "Golders Green",
+      "lat": 51.572259,
+      "lon": -0.194039,
+      "lines": [
+        "northern"
+      ],
+      "population_500m": 5019,
+      "population_1km": 17427,
+      "annual_usage": 6240000,
+      "daily_usage": 17095,
+      "usage_per_capita_500m": 3.41,
+      "usage_per_capita_1km": 0.98
+    },
+    {
+      "naptanId": "940GZZLUHBT",
+      "name": "High Barnet",
+      "lat": 51.650541,
+      "lon": -0.194298,
+      "lines": [
+        "northern"
+      ],
+      "population_500m": 3044,
+      "population_1km": 14800,
+      "annual_usage": 3710000,
+      "daily_usage": 10164,
+      "usage_per_capita_500m": 3.34,
+      "usage_per_capita_1km": 0.69
+    },
+    {
+      "naptanId": "940GZZLUHCL",
+      "name": "Hendon Central",
+      "lat": 51.583301,
+      "lon": -0.226424,
+      "lines": [
+        "northern"
+      ],
+      "population_500m": 5694,
+      "population_1km": 23302,
+      "annual_usage": 7330000,
+      "daily_usage": 20082,
+      "usage_per_capita_500m": 3.53,
+      "usage_per_capita_1km": 0.86
+    },
+    {
+      "naptanId": "940GZZLUHGT",
+      "name": "Highgate",
+      "lat": 51.577532,
+      "lon": -0.145857,
+      "lines": [
+        "northern"
+      ],
+      "population_500m": 3930,
+      "population_1km": 15613,
+      "annual_usage": 4640000,
+      "daily_usage": 12712,
+      "usage_per_capita_500m": 3.23,
+      "usage_per_capita_1km": 0.81
+    },
+    {
+      "naptanId": "940GZZLUHTD",
+      "name": "Hampstead",
+      "lat": 51.556239,
+      "lon": -0.177464,
+      "lines": [
+        "northern"
+      ],
+      "population_500m": 5959,
+      "population_1km": 15542,
+      "annual_usage": 4110000,
+      "daily_usage": 11260,
+      "usage_per_capita_500m": 1.89,
+      "usage_per_capita_1km": 0.72
+    },
+    {
+      "naptanId": "940GZZLUKNG",
+      "name": "Kennington",
+      "lat": 51.488337,
+      "lon": -0.105963,
+      "lines": [
+        "northern"
+      ],
+      "population_500m": 14002,
+      "population_1km": 49716,
+      "annual_usage": 4930000,
+      "daily_usage": 13506,
+      "usage_per_capita_500m": 0.96,
+      "usage_per_capita_1km": 0.27
+    },
+    {
+      "naptanId": "940GZZLUKSH",
+      "name": "Kentish Town",
+      "lat": 51.550312,
+      "lon": -0.140733,
+      "lines": [
+        "northern"
+      ],
+      "population_500m": 9565,
+      "population_1km": 41746,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "940GZZLULSQ",
+      "name": "Leicester Square",
+      "lat": 51.511386,
+      "lon": -0.128426,
+      "lines": [
+        "northern",
+        "piccadilly"
+      ],
+      "population_500m": 5972,
+      "population_1km": 15298,
+      "annual_usage": 27560000,
+      "daily_usage": 75506,
+      "usage_per_capita_500m": 12.64,
+      "usage_per_capita_1km": 4.94
+    },
+    {
+      "naptanId": "940GZZLUMDN",
+      "name": "Morden",
+      "lat": 51.402142,
+      "lon": -0.194839,
+      "lines": [
+        "northern"
+      ],
+      "population_500m": 3595,
+      "population_1km": 15309,
+      "annual_usage": 8700000,
+      "daily_usage": 23835,
+      "usage_per_capita_500m": 6.63,
+      "usage_per_capita_1km": 1.56
+    },
+    {
+      "naptanId": "940GZZLUMHL",
+      "name": "Mill Hill East",
+      "lat": 51.608229,
+      "lon": -0.209986,
+      "lines": [
+        "northern"
+      ],
+      "population_500m": 4299,
+      "population_1km": 9965,
+      "annual_usage": 1620000,
+      "daily_usage": 4438,
+      "usage_per_capita_500m": 1.03,
+      "usage_per_capita_1km": 0.45
+    },
+    {
+      "naptanId": "940GZZLUMTC",
+      "name": "Mornington Crescent",
+      "lat": 51.534679,
+      "lon": -0.138789,
+      "lines": [
+        "northern"
+      ],
+      "population_500m": 12496,
+      "population_1km": 33741,
+      "annual_usage": 2960000,
+      "daily_usage": 8109,
+      "usage_per_capita_500m": 0.65,
+      "usage_per_capita_1km": 0.24
+    },
+    {
+      "naptanId": "940GZZLUODS",
+      "name": "Old Street",
+      "lat": 51.525864,
+      "lon": -0.08777,
+      "lines": [
+        "northern"
+      ],
+      "population_500m": 15034,
+      "population_1km": 49421,
+      "annual_usage": 16540000,
+      "daily_usage": 45315,
+      "usage_per_capita_500m": 3.01,
+      "usage_per_capita_1km": 0.92
+    },
+    {
+      "naptanId": "940GZZLUOVL",
+      "name": "Oval",
+      "lat": 51.48185,
+      "lon": -0.112439,
+      "lines": [
+        "northern"
+      ],
+      "population_500m": 8199,
+      "population_1km": 47879,
+      "annual_usage": 5410000,
+      "daily_usage": 14821,
+      "usage_per_capita_500m": 1.81,
+      "usage_per_capita_1km": 0.31
+    },
+    {
+      "naptanId": "940GZZLUSKW",
+      "name": "Stockwell",
+      "lat": 51.472184,
+      "lon": -0.122644,
+      "lines": [
+        "northern",
+        "victoria"
+      ],
+      "population_500m": 12817,
+      "population_1km": 55934,
+      "annual_usage": 7600000,
+      "daily_usage": 20821,
+      "usage_per_capita_500m": 1.62,
+      "usage_per_capita_1km": 0.37
+    },
+    {
+      "naptanId": "940GZZLUSWN",
+      "name": "South Wimbledon",
+      "lat": 51.415309,
+      "lon": -0.192005,
+      "lines": [
+        "northern"
+      ],
+      "population_500m": 8921,
+      "population_1km": 26092,
+      "annual_usage": 3800000,
+      "daily_usage": 10410,
+      "usage_per_capita_500m": 1.17,
+      "usage_per_capita_1km": 0.4
+    },
+    {
+      "naptanId": "940GZZLUTAW",
+      "name": "Totteridge & Whetstone",
+      "lat": 51.630597,
+      "lon": -0.17921,
+      "lines": [
+        "northern"
+      ],
+      "population_500m": 2906,
+      "population_1km": 11673,
+      "annual_usage": 2040000,
+      "daily_usage": 5589,
+      "usage_per_capita_500m": 1.92,
+      "usage_per_capita_1km": 0.48
+    },
+    {
+      "naptanId": "940GZZLUTBC",
+      "name": "Tooting Bec",
+      "lat": 51.435678,
+      "lon": -0.159736,
+      "lines": [
+        "northern"
+      ],
+      "population_500m": 11195,
+      "population_1km": 34018,
+      "annual_usage": 6520000,
+      "daily_usage": 17863,
+      "usage_per_capita_500m": 1.6,
+      "usage_per_capita_1km": 0.53
+    },
+    {
+      "naptanId": "940GZZLUTBY",
+      "name": "Tooting Broadway",
+      "lat": 51.42763,
+      "lon": -0.168374,
+      "lines": [
+        "northern"
+      ],
+      "population_500m": 10311,
+      "population_1km": 38220,
+      "annual_usage": 12710000,
+      "daily_usage": 34821,
+      "usage_per_capita_500m": 3.38,
+      "usage_per_capita_1km": 0.91
+    },
+    {
+      "naptanId": "940GZZLUTFP",
+      "name": "Tufnell Park",
+      "lat": 51.556822,
+      "lon": -0.138433,
+      "lines": [
+        "northern"
+      ],
+      "population_500m": 9664,
+      "population_1km": 38220,
+      "annual_usage": 4910000,
+      "daily_usage": 13452,
+      "usage_per_capita_500m": 1.39,
+      "usage_per_capita_1km": 0.35
+    },
+    {
+      "naptanId": "940GZZLUWFN",
+      "name": "West Finchley",
+      "lat": 51.609426,
+      "lon": -0.188362,
+      "lines": [
+        "northern"
+      ],
+      "population_500m": 5667,
+      "population_1km": 21554,
+      "annual_usage": 1370000,
+      "daily_usage": 3753,
+      "usage_per_capita_500m": 0.66,
+      "usage_per_capita_1km": 0.17
+    },
+    {
+      "naptanId": "940GZZLUWOP",
+      "name": "Woodside Park",
+      "lat": 51.618014,
+      "lon": -0.18542,
+      "lines": [
+        "northern"
+      ],
+      "population_500m": 4347,
+      "population_1km": 18697,
+      "annual_usage": 3230000,
+      "daily_usage": 8849,
+      "usage_per_capita_500m": 2.04,
+      "usage_per_capita_1km": 0.47
+    },
+    {
+      "naptanId": "940GZZLUWRR",
+      "name": "Warren Street",
+      "lat": 51.524951,
+      "lon": -0.138321,
+      "lines": [
+        "northern",
+        "victoria"
+      ],
+      "population_500m": 8810,
+      "population_1km": 33394,
+      "annual_usage": 14780000,
+      "daily_usage": 40493,
+      "usage_per_capita_500m": 4.6,
+      "usage_per_capita_1km": 1.21
+    },
+    {
+      "naptanId": "940GZZNEUGST",
+      "name": "Nine Elms",
+      "lat": 51.479912,
+      "lon": -0.128476,
+      "lines": [
+        "northern"
+      ],
+      "population_500m": 10123,
+      "population_1km": 38204,
+      "annual_usage": 4110000,
+      "daily_usage": 11260,
+      "usage_per_capita_500m": 1.11,
+      "usage_per_capita_1km": 0.29
+    },
+    {
+      "naptanId": "940GZZLUALP",
+      "name": "Alperton",
+      "lat": 51.540627,
+      "lon": -0.29961,
+      "lines": [
+        "piccadilly"
+      ],
+      "population_500m": 10384,
+      "population_1km": 31657,
+      "annual_usage": 2590000,
+      "daily_usage": 7095,
+      "usage_per_capita_500m": 0.68,
+      "usage_per_capita_1km": 0.22
+    },
+    {
+      "naptanId": "940GZZLUASG",
+      "name": "Arnos Grove",
+      "lat": 51.616446,
+      "lon": -0.133062,
+      "lines": [
+        "piccadilly"
+      ],
+      "population_500m": 3822,
+      "population_1km": 18986,
+      "annual_usage": 3290000,
+      "daily_usage": 9013,
+      "usage_per_capita_500m": 2.36,
+      "usage_per_capita_1km": 0.47
+    },
+    {
+      "naptanId": "940GZZLUASL",
+      "name": "Arsenal",
+      "lat": 51.558655,
+      "lon": -0.107457,
+      "lines": [
+        "piccadilly"
+      ],
+      "population_500m": 11924,
+      "population_1km": 49529,
+      "annual_usage": 2270000,
+      "daily_usage": 6219,
+      "usage_per_capita_500m": 0.52,
+      "usage_per_capita_1km": 0.13
+    },
+    {
+      "naptanId": "940GZZLUBDS",
+      "name": "Bounds Green",
+      "lat": 51.607034,
+      "lon": -0.124235,
+      "lines": [
+        "piccadilly"
+      ],
+      "population_500m": 8108,
+      "population_1km": 27555,
+      "annual_usage": 4320000,
+      "daily_usage": 11835,
+      "usage_per_capita_500m": 1.46,
+      "usage_per_capita_1km": 0.43
+    },
+    {
+      "naptanId": "940GZZLUBOS",
+      "name": "Boston Manor",
+      "lat": 51.495635,
+      "lon": -0.324939,
+      "lines": [
+        "piccadilly"
+      ],
+      "population_500m": 3925,
+      "population_1km": 17903,
+      "annual_usage": 1420000,
+      "daily_usage": 3890,
+      "usage_per_capita_500m": 0.99,
+      "usage_per_capita_1km": 0.22
+    },
+    {
+      "naptanId": "940GZZLUCAR",
+      "name": "Caledonian Road",
+      "lat": 51.548519,
+      "lon": -0.118493,
+      "lines": [
+        "piccadilly"
+      ],
+      "population_500m": 13399,
+      "population_1km": 46714,
+      "annual_usage": 3850000,
+      "daily_usage": 10547,
+      "usage_per_capita_500m": 0.79,
+      "usage_per_capita_1km": 0.23
+    },
+    {
+      "naptanId": "940GZZLUCGN",
+      "name": "Covent Garden",
+      "lat": 51.513093,
+      "lon": -0.124436,
+      "lines": [
+        "piccadilly"
+      ],
+      "population_500m": 5955,
+      "population_1km": 17850,
+      "annual_usage": 13520000,
+      "daily_usage": 37041,
+      "usage_per_capita_500m": 6.22,
+      "usage_per_capita_1km": 2.08
+    },
+    {
+      "naptanId": "940GZZLUCKS",
+      "name": "Cockfosters",
+      "lat": 51.65152,
+      "lon": -0.149171,
+      "lines": [
+        "piccadilly"
+      ],
+      "population_500m": 1099,
+      "population_1km": 6795,
+      "annual_usage": 1470000,
+      "daily_usage": 4027,
+      "usage_per_capita_500m": 3.66,
+      "usage_per_capita_1km": 0.59
+    },
+    {
+      "naptanId": "940GZZLUFPK",
+      "name": "Finsbury Park",
+      "lat": 51.564158,
+      "lon": -0.106825,
+      "lines": [
+        "piccadilly",
+        "victoria"
+      ],
+      "population_500m": 11043,
+      "population_1km": 41365,
+      "annual_usage": 21220000,
+      "daily_usage": 58136,
+      "usage_per_capita_500m": 5.26,
+      "usage_per_capita_1km": 1.41
+    },
+    {
+      "naptanId": "940GZZLUHNX",
+      "name": "Hatton Cross",
+      "lat": 51.466747,
+      "lon": -0.423191,
+      "lines": [
+        "piccadilly"
+      ],
+      "population_500m": 0,
+      "population_1km": 703,
+      "annual_usage": 3270000,
+      "daily_usage": 8958,
+      "usage_per_capita_500m": 0,
+      "usage_per_capita_1km": 12.74
+    },
+    {
+      "naptanId": "940GZZLUHPC",
+      "name": "Hyde Park Corner",
+      "lat": 51.503035,
+      "lon": -0.152441,
+      "lines": [
+        "piccadilly"
+      ],
+      "population_500m": 1243,
+      "population_1km": 7396,
+      "annual_usage": 3610000,
+      "daily_usage": 9890,
+      "usage_per_capita_500m": 7.96,
+      "usage_per_capita_1km": 1.34
+    },
+    {
+      "naptanId": "940GZZLUHR4",
+      "name": "Heathrow Terminal 4",
+      "lat": 51.458524,
+      "lon": -0.445771,
+      "lines": [
+        "piccadilly"
+      ],
+      "population_500m": 0,
+      "population_1km": 3138,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "940GZZLUHR5",
+      "name": "Heathrow Terminal 5",
+      "lat": 51.470052,
+      "lon": -0.49056,
+      "lines": [
+        "piccadilly"
+      ],
+      "population_500m": 0,
+      "population_1km": 366,
+      "annual_usage": 4099999,
+      "daily_usage": 11232,
+      "usage_per_capita_500m": 0,
+      "usage_per_capita_1km": 30.69
+    },
+    {
+      "naptanId": "940GZZLUHRC",
+      "name": "Heathrow Terminals 2 & 3",
+      "lat": 51.471235,
+      "lon": -0.452265,
+      "lines": [
+        "piccadilly"
+      ],
+      "population_500m": 0,
+      "population_1km": 0,
+      "annual_usage": 6040000,
+      "daily_usage": 16547,
+      "usage_per_capita_500m": 0,
+      "usage_per_capita_1km": 0
+    },
+    {
+      "naptanId": "940GZZLUHWC",
+      "name": "Hounslow Central",
+      "lat": 51.471295,
+      "lon": -0.366578,
+      "lines": [
+        "piccadilly"
+      ],
+      "population_500m": 6973,
+      "population_1km": 31718,
+      "annual_usage": 3240000,
+      "daily_usage": 8876,
+      "usage_per_capita_500m": 1.27,
+      "usage_per_capita_1km": 0.28
+    },
+    {
+      "naptanId": "940GZZLUHWE",
+      "name": "Hounslow East",
+      "lat": 51.473213,
+      "lon": -0.356474,
+      "lines": [
+        "piccadilly"
+      ],
+      "population_500m": 8990,
+      "population_1km": 27911,
+      "annual_usage": 3460000,
+      "daily_usage": 9479,
+      "usage_per_capita_500m": 1.05,
+      "usage_per_capita_1km": 0.34
+    },
+    {
+      "naptanId": "940GZZLUHWT",
+      "name": "Hounslow West",
+      "lat": 51.473469,
+      "lon": -0.386544,
+      "lines": [
+        "piccadilly"
+      ],
+      "population_500m": 8891,
+      "population_1km": 28174,
+      "annual_usage": 2930000,
+      "daily_usage": 8027,
+      "usage_per_capita_500m": 0.9,
+      "usage_per_capita_1km": 0.28
+    },
+    {
+      "naptanId": "940GZZLUHWY",
+      "name": "Holloway Road",
+      "lat": 51.552697,
+      "lon": -0.113244,
+      "lines": [
+        "piccadilly"
+      ],
+      "population_500m": 11607,
+      "population_1km": 48414,
+      "annual_usage": 5270000,
+      "daily_usage": 14438,
+      "usage_per_capita_500m": 1.24,
+      "usage_per_capita_1km": 0.3
+    },
+    {
+      "naptanId": "940GZZLUKNB",
+      "name": "Knightsbridge",
+      "lat": 51.501669,
+      "lon": -0.160508,
+      "lines": [
+        "piccadilly"
+      ],
+      "population_500m": 2045,
+      "population_1km": 9128,
+      "annual_usage": 14260000,
+      "daily_usage": 39068,
+      "usage_per_capita_500m": 19.1,
+      "usage_per_capita_1km": 4.28
+    },
+    {
+      "naptanId": "940GZZLUMRH",
+      "name": "Manor House",
+      "lat": 51.570738,
+      "lon": -0.096118,
+      "lines": [
+        "piccadilly"
+      ],
+      "population_500m": 9404,
+      "population_1km": 34384,
+      "annual_usage": 6000000,
+      "daily_usage": 16438,
+      "usage_per_capita_500m": 1.75,
+      "usage_per_capita_1km": 0.48
+    },
+    {
+      "naptanId": "940GZZLUNEN",
+      "name": "North Ealing",
+      "lat": 51.517505,
+      "lon": -0.288868,
+      "lines": [
+        "piccadilly"
+      ],
+      "population_500m": 3085,
+      "population_1km": 15482,
+      "annual_usage": 620000,
+      "daily_usage": 1698,
+      "usage_per_capita_500m": 0.55,
+      "usage_per_capita_1km": 0.11
+    },
+    {
+      "naptanId": "940GZZLUNFD",
+      "name": "Northfields",
+      "lat": 51.499319,
+      "lon": -0.314719,
+      "lines": [
+        "piccadilly"
+      ],
+      "population_500m": 7280,
+      "population_1km": 28056,
+      "annual_usage": 2580000,
+      "daily_usage": 7068,
+      "usage_per_capita_500m": 0.97,
+      "usage_per_capita_1km": 0.25
+    },
+    {
+      "naptanId": "940GZZLUOAK",
+      "name": "Oakwood",
+      "lat": 51.647726,
+      "lon": -0.132182,
+      "lines": [
+        "piccadilly"
+      ],
+      "population_500m": 1661,
+      "population_1km": 7879,
+      "annual_usage": 2310000,
+      "daily_usage": 6328,
+      "usage_per_capita_500m": 3.81,
+      "usage_per_capita_1km": 0.8
+    },
+    {
+      "naptanId": "940GZZLUOSY",
+      "name": "Osterley",
+      "lat": 51.481274,
+      "lon": -0.352224,
+      "lines": [
+        "piccadilly"
+      ],
+      "population_500m": 2011,
+      "population_1km": 11587,
+      "annual_usage": 1710000,
+      "daily_usage": 4684,
+      "usage_per_capita_500m": 2.33,
+      "usage_per_capita_1km": 0.4
+    },
+    {
+      "naptanId": "940GZZLUPKR",
+      "name": "Park Royal",
+      "lat": 51.527123,
+      "lon": -0.284341,
+      "lines": [
+        "piccadilly"
+      ],
+      "population_500m": 3815,
+      "population_1km": 10876,
+      "annual_usage": 1720000,
+      "daily_usage": 4712,
+      "usage_per_capita_500m": 1.24,
+      "usage_per_capita_1km": 0.43
+    },
+    {
+      "naptanId": "940GZZLURSQ",
+      "name": "Russell Square",
+      "lat": 51.523073,
+      "lon": -0.124285,
+      "lines": [
+        "piccadilly"
+      ],
+      "population_500m": 10236,
+      "population_1km": 32940,
+      "annual_usage": 8940000,
+      "daily_usage": 24493,
+      "usage_per_capita_500m": 2.39,
+      "usage_per_capita_1km": 0.74
+    },
+    {
+      "naptanId": "940GZZLUSEA",
+      "name": "South Ealing",
+      "lat": 51.501003,
+      "lon": -0.307424,
+      "lines": [
+        "piccadilly"
+      ],
+      "population_500m": 6019,
+      "population_1km": 26634,
+      "annual_usage": 2240000,
+      "daily_usage": 6136,
+      "usage_per_capita_500m": 1.02,
+      "usage_per_capita_1km": 0.23
+    },
+    {
+      "naptanId": "940GZZLUSGT",
+      "name": "Southgate",
+      "lat": 51.632315,
+      "lon": -0.127816,
+      "lines": [
+        "piccadilly"
+      ],
+      "population_500m": 5810,
+      "population_1km": 16177,
+      "annual_usage": 4080000,
+      "daily_usage": 11178,
+      "usage_per_capita_500m": 1.92,
+      "usage_per_capita_1km": 0.69
+    },
+    {
+      "naptanId": "940GZZLUSHH",
+      "name": "South Harrow",
+      "lat": 51.564888,
+      "lon": -0.352492,
+      "lines": [
+        "piccadilly"
+      ],
+      "population_500m": 8529,
+      "population_1km": 21500,
+      "annual_usage": 2080000,
+      "daily_usage": 5698,
+      "usage_per_capita_500m": 0.67,
+      "usage_per_capita_1km": 0.27
+    },
+    {
+      "naptanId": "940GZZLUSUH",
+      "name": "Sudbury Hill",
+      "lat": 51.556946,
+      "lon": -0.336435,
+      "lines": [
+        "piccadilly"
+      ],
+      "population_500m": 5250,
+      "population_1km": 18308,
+      "annual_usage": 1700000,
+      "daily_usage": 4657,
+      "usage_per_capita_500m": 0.89,
+      "usage_per_capita_1km": 0.25
+    },
+    {
+      "naptanId": "940GZZLUSUT",
+      "name": "Sudbury Town",
+      "lat": 51.550815,
+      "lon": -0.315745,
+      "lines": [
+        "piccadilly"
+      ],
+      "population_500m": 7511,
+      "population_1km": 20211,
+      "annual_usage": 1670000,
+      "daily_usage": 4575,
+      "usage_per_capita_500m": 0.61,
+      "usage_per_capita_1km": 0.23
+    },
+    {
+      "naptanId": "940GZZLUTPN",
+      "name": "Turnpike Lane",
+      "lat": 51.590272,
+      "lon": -0.102953,
+      "lines": [
+        "piccadilly"
+      ],
+      "population_500m": 10719,
+      "population_1km": 38346,
+      "annual_usage": 8170000,
+      "daily_usage": 22383,
+      "usage_per_capita_500m": 2.09,
+      "usage_per_capita_1km": 0.58
+    },
+    {
+      "naptanId": "940GZZLUWOG",
+      "name": "Wood Green",
+      "lat": 51.597479,
+      "lon": -0.109886,
+      "lines": [
+        "piccadilly"
+      ],
+      "population_500m": 9177,
+      "population_1km": 31654,
+      "annual_usage": 8990000,
+      "daily_usage": 24630,
+      "usage_per_capita_500m": 2.68,
+      "usage_per_capita_1km": 0.78
+    },
+    {
+      "naptanId": "940GZZLUBLR",
+      "name": "Blackhorse Road",
+      "lat": 51.586919,
+      "lon": -0.04115,
+      "lines": [
+        "victoria"
+      ],
+      "population_500m": 7600,
+      "population_1km": 25416,
+      "annual_usage": 9470000,
+      "daily_usage": 25945,
+      "usage_per_capita_500m": 3.41,
+      "usage_per_capita_1km": 1.02
+    },
+    {
+      "naptanId": "940GZZLUBXN",
+      "name": "Brixton",
+      "lat": 51.462618,
+      "lon": -0.114888,
+      "lines": [
+        "victoria"
+      ],
+      "population_500m": 11215,
+      "population_1km": 50313,
+      "annual_usage": 21390000,
+      "daily_usage": 58602,
+      "usage_per_capita_500m": 5.23,
+      "usage_per_capita_1km": 1.16
+    },
+    {
+      "naptanId": "940GZZLUHAI",
+      "name": "Highbury & Islington",
+      "lat": 51.54635,
+      "lon": -0.103324,
+      "lines": [
+        "victoria"
+      ],
+      "population_500m": 8340,
+      "population_1km": 45642,
+      "annual_usage": 15050000,
+      "daily_usage": 41232,
+      "usage_per_capita_500m": 4.94,
+      "usage_per_capita_1km": 0.9
+    },
+    {
+      "naptanId": "940GZZLUPCO",
+      "name": "Pimlico",
+      "lat": 51.489097,
+      "lon": -0.133761,
+      "lines": [
+        "victoria"
+      ],
+      "population_500m": 15326,
+      "population_1km": 39553,
+      "annual_usage": 7660000,
+      "daily_usage": 20986,
+      "usage_per_capita_500m": 1.37,
+      "usage_per_capita_1km": 0.53
+    },
+    {
+      "naptanId": "940GZZLUSVS",
+      "name": "Seven Sisters",
+      "lat": 51.58333,
+      "lon": -0.072584,
+      "lines": [
+        "victoria"
+      ],
+      "population_500m": 9347,
+      "population_1km": 39965,
+      "annual_usage": 12710000,
+      "daily_usage": 34821,
+      "usage_per_capita_500m": 3.73,
+      "usage_per_capita_1km": 0.87
+    },
+    {
+      "naptanId": "940GZZLUTMH",
+      "name": "Tottenham Hale",
+      "lat": 51.588108,
+      "lon": -0.060241,
+      "lines": [
+        "victoria"
+      ],
+      "population_500m": 8016,
+      "population_1km": 26519,
+      "annual_usage": 13850000,
+      "daily_usage": 37945,
+      "usage_per_capita_500m": 4.73,
+      "usage_per_capita_1km": 1.43
+    },
+    {
+      "naptanId": "940GZZLUVXL",
+      "name": "Vauxhall",
+      "lat": 51.485743,
+      "lon": -0.124204,
+      "lines": [
+        "victoria"
+      ],
+      "population_500m": 5948,
+      "population_1km": 41525,
+      "annual_usage": 22140000,
+      "daily_usage": 60657,
+      "usage_per_capita_500m": 10.2,
+      "usage_per_capita_1km": 1.46
+    },
+    {
+      "naptanId": "940GZZLUWWL",
+      "name": "Walthamstow Central",
+      "lat": 51.582965,
+      "lon": -0.019885,
+      "lines": [
+        "victoria"
+      ],
+      "population_500m": 11008,
+      "population_1km": 41144,
+      "annual_usage": 13440000,
+      "daily_usage": 36821,
+      "usage_per_capita_500m": 3.34,
+      "usage_per_capita_1km": 0.89
+    },
+    {
+      "naptanId": "910GACTNCTL",
+      "name": "Acton Central",
+      "lat": 51.508716,
+      "lon": -0.262971,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 7298,
+      "population_1km": 34187,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GANERLEY",
+      "name": "Anerley",
+      "lat": 51.412153,
+      "lon": -0.065886,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 7818,
+      "population_1km": 23096,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GBARKING",
+      "name": "Barking",
+      "lat": 51.539495,
+      "lon": 0.080903,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 8954,
+      "population_1km": 33394,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GBARKRIV",
+      "name": "Barking Riverside",
+      "lat": 51.51953,
+      "lon": 0.11596,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 2312,
+      "population_1km": 10807,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GBHILLPK",
+      "name": "Bush Hill Park",
+      "lat": 51.641519,
+      "lon": -0.069221,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 6222,
+      "population_1km": 22986,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GBLCHSRD",
+      "name": "Blackhorse Road",
+      "lat": 51.586605,
+      "lon": -0.041236,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 7600,
+      "population_1km": 25078,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GBRBY",
+      "name": "Brondesbury",
+      "lat": 51.545166,
+      "lon": -0.202309,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 11317,
+      "population_1km": 41842,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GBRBYPK",
+      "name": "Brondesbury Park",
+      "lat": 51.540699,
+      "lon": -0.210128,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 6883,
+      "population_1km": 30360,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GBROCKLY",
+      "name": "Brockley",
+      "lat": 51.464649,
+      "lon": -0.037537,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 8694,
+      "population_1km": 30242,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GBRUCGRV",
+      "name": "Bruce Grove",
+      "lat": 51.593959,
+      "lon": -0.069867,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 11924,
+      "population_1km": 40143,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GBTHNLGR",
+      "name": "Bethnal Green",
+      "lat": 51.523917,
+      "lon": -0.059568,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 12413,
+      "population_1km": 53462,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GBUSHEY",
+      "name": "Bushey",
+      "lat": 51.645582,
+      "lon": -0.384749,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 2959,
+      "population_1km": 13849,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GBUSHYDC",
+      "name": "Bushey",
+      "lat": 51.645894,
+      "lon": -0.385229,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 2796,
+      "population_1km": 14186,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GCAMHTH",
+      "name": "Cambridge Heath (London)",
+      "lat": 51.531973,
+      "lon": -0.057279,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 12981,
+      "population_1km": 48014,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GCHESHNT",
+      "name": "Cheshunt",
+      "lat": 51.702876,
+      "lon": -0.02396,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 1678,
+      "population_1km": 8705,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GCHINGFD",
+      "name": "Chingford",
+      "lat": 51.633087,
+      "lon": 0.009897,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 2175,
+      "population_1km": 7230,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GCLAPTON",
+      "name": "Clapton",
+      "lat": 51.561644,
+      "lon": -0.057025,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 15248,
+      "population_1km": 39227,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GCLDNNRB",
+      "name": "Caledonian Road & Barnsbury",
+      "lat": 51.543041,
+      "lon": -0.116729,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 12139,
+      "population_1km": 46429,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GCLPHHS",
+      "name": "Clapham High Street",
+      "lat": 51.465481,
+      "lon": -0.132522,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 12835,
+      "population_1km": 48074,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GCLPHMJ1",
+      "name": "Clapham Junction",
+      "lat": 51.464187,
+      "lon": -0.170221,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 10281,
+      "population_1km": 43996,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GCLPHMJC",
+      "name": "Clapham Junction",
+      "lat": 51.464188,
+      "lon": -0.170293,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 10281,
+      "population_1km": 44525,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GCMDNRD",
+      "name": "Camden Road",
+      "lat": 51.541791,
+      "lon": -0.138701,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 10215,
+      "population_1km": 41905,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GCNDAW",
+      "name": "Canada Water",
+      "lat": 51.49799,
+      "lon": -0.04972,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 8896,
+      "population_1km": 28993,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GCNNB",
+      "name": "Canonbury",
+      "lat": 51.548732,
+      "lon": -0.092191,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 11167,
+      "population_1km": 45056,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GCROUCHH",
+      "name": "Crouch Hill",
+      "lat": 51.571302,
+      "lon": -0.117149,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 9861,
+      "population_1km": 38450,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GCRPNDPK",
+      "name": "Carpenders Park",
+      "lat": 51.628351,
+      "lon": -0.385939,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 2853,
+      "population_1km": 11907,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GCRYSTLP",
+      "name": "Crystal Palace",
+      "lat": 51.418109,
+      "lon": -0.07261,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 3064,
+      "population_1km": 21153,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GCSEAH",
+      "name": "Imperial Wharf",
+      "lat": 51.474949,
+      "lon": -0.182823,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 7627,
+      "population_1km": 38469,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GDALS",
+      "name": "Dalston Junction",
+      "lat": 51.546116,
+      "lon": -0.075137,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 13595,
+      "population_1km": 50868,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GDALSKLD",
+      "name": "Dalston Kingsland",
+      "lat": 51.548148,
+      "lon": -0.075701,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 14220,
+      "population_1km": 50896,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GDENMRKH",
+      "name": "Denmark Hill",
+      "lat": 51.468203,
+      "lon": -0.089361,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 7796,
+      "population_1km": 40487,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GEDMNGRN",
+      "name": "Edmonton Green",
+      "lat": 51.624929,
+      "lon": -0.061112,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 9869,
+      "population_1km": 33005,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GEMRSPKH",
+      "name": "Emerson Park",
+      "lat": 51.568642,
+      "lon": 0.220113,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 2928,
+      "population_1km": 12543,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GENFLDTN",
+      "name": "Enfield Town",
+      "lat": 51.652026,
+      "lon": -0.079328,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 4757,
+      "population_1km": 19955,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GEUSTON",
+      "name": "London Euston",
+      "lat": 51.528136,
+      "lon": -0.133924,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 9456,
+      "population_1km": 36551,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GFNCHLYR",
+      "name": "Finchley Road & Frognal",
+      "lat": 51.550266,
+      "lon": -0.183141,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 6891,
+      "population_1km": 31579,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GFORESTH",
+      "name": "Forest Hill",
+      "lat": 51.43928,
+      "lon": -0.053157,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 7680,
+      "population_1km": 26351,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GGNRSBRY",
+      "name": "Gunnersbury",
+      "lat": 51.491678,
+      "lon": -0.275286,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 4351,
+      "population_1km": 23716,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GGOSPLOK",
+      "name": "Gospel Oak",
+      "lat": 51.555335,
+      "lon": -0.15077,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 6346,
+      "population_1km": 30157,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GHACKNYC",
+      "name": "Hackney Central",
+      "lat": 51.547105,
+      "lon": -0.056058,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 12010,
+      "population_1km": 47615,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GHACKNYW",
+      "name": "Hackney Wick",
+      "lat": 51.54341,
+      "lon": -0.02492,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 3454,
+      "population_1km": 18388,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GHAGGERS",
+      "name": "Haggerston",
+      "lat": 51.538705,
+      "lon": -0.075666,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 12597,
+      "population_1km": 49727,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GHAKNYNM",
+      "name": "Hackney Downs",
+      "lat": 51.548757,
+      "lon": -0.060819,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 11516,
+      "population_1km": 47746,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GHARLSDN",
+      "name": "Harlesden",
+      "lat": 51.536289,
+      "lon": -0.257667,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 8006,
+      "population_1km": 27869,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GHEDSTNL",
+      "name": "Headstone Lane",
+      "lat": 51.602649,
+      "lon": -0.35722,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 3002,
+      "population_1km": 13963,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GHGHI",
+      "name": "Highbury & Islington",
+      "lat": 51.546177,
+      "lon": -0.103764,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 9227,
+      "population_1km": 45961,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GHGHMSPK",
+      "name": "Highams Park",
+      "lat": 51.60835,
+      "lon": -0.000222,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 5427,
+      "population_1km": 19456,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GHMPSTDH",
+      "name": "Hampstead Heath",
+      "lat": 51.55521,
+      "lon": -0.165705,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 4905,
+      "population_1km": 21094,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GHOMRTON",
+      "name": "Homerton",
+      "lat": 51.547012,
+      "lon": -0.04236,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 12435,
+      "population_1km": 43805,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GHONROPK",
+      "name": "Honor Oak Park",
+      "lat": 51.449989,
+      "lon": -0.045505,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 4387,
+      "population_1km": 24411,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GHOXTON",
+      "name": "Hoxton",
+      "lat": 51.531512,
+      "lon": -0.075681,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 15112,
+      "population_1km": 54801,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GHRGYGL",
+      "name": "Harringay Green Lanes",
+      "lat": 51.577182,
+      "lon": -0.098144,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 10528,
+      "population_1km": 35812,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GHROW",
+      "name": "Harrow & Wealdstone",
+      "lat": 51.592169,
+      "lon": -0.334571,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 9459,
+      "population_1km": 26797,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GHTCHEND",
+      "name": "Hatch End",
+      "lat": 51.609417,
+      "lon": -0.368601,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 4024,
+      "population_1km": 7621,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GKENOLYM",
+      "name": "Kensington (Olympia)",
+      "lat": 51.497899,
+      "lon": -0.210364,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 9692,
+      "population_1km": 40392,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GKENR",
+      "name": "Kensal Rise",
+      "lat": 51.534554,
+      "lon": -0.219957,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 7054,
+      "population_1km": 27318,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GKENSLG",
+      "name": "Kensal Green",
+      "lat": 51.53054,
+      "lon": -0.225088,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 9516,
+      "population_1km": 26574,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GKEWGRDN",
+      "name": "Kew Gardens",
+      "lat": 51.477073,
+      "lon": -0.285054,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 5191,
+      "population_1km": 13396,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GKLBRNHR",
+      "name": "Kilburn High Road",
+      "lat": 51.537277,
+      "lon": -0.192237,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 14238,
+      "population_1km": 47885,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GKNTSHTW",
+      "name": "Kentish Town West",
+      "lat": 51.546548,
+      "lon": -0.146655,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 11303,
+      "population_1km": 42601,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GKTON",
+      "name": "Kenton",
+      "lat": 51.581802,
+      "lon": -0.316981,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 4171,
+      "population_1km": 17532,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GLEYTNMR",
+      "name": "Leyton Midland Road",
+      "lat": 51.569725,
+      "lon": -0.008051,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 12067,
+      "population_1km": 43759,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GLIVST",
+      "name": "London Liverpool Street",
+      "lat": 51.517991,
+      "lon": -0.081426,
+      "lines": [
+        "elizabeth",
+        "london-overground"
+      ],
+      "population_500m": 3787,
+      "population_1km": 27748,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GLNDNBDC",
+      "name": "London Bridge",
+      "lat": 51.505019,
+      "lon": -0.086092,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 1293,
+      "population_1km": 17644,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GLONFLDS",
+      "name": "London Fields",
+      "lat": 51.541153,
+      "lon": -0.057753,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 11072,
+      "population_1km": 47455,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GLYTNSHR",
+      "name": "Leytonstone High Road",
+      "lat": 51.563554,
+      "lon": 0.008416,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 8986,
+      "population_1km": 31840,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GNEWXGTE",
+      "name": "New Cross Gate",
+      "lat": 51.475128,
+      "lon": -0.040399,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 9011,
+      "population_1km": 36828,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GNORWDJ",
+      "name": "Norwood Junction",
+      "lat": 51.397019,
+      "lon": -0.075221,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 8410,
+      "population_1km": 29030,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GNWCRELL",
+      "name": "New Cross ELL",
+      "lat": 51.476344,
+      "lon": -0.032441,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 10150,
+      "population_1km": 35241,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GNWEMBLY",
+      "name": "North Wembley",
+      "lat": 51.562596,
+      "lon": -0.303984,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 6211,
+      "population_1km": 21992,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GPCKHMQD",
+      "name": "Queens Road Peckham",
+      "lat": 51.473566,
+      "lon": -0.057313,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 11481,
+      "population_1km": 41854,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GPCKHMRY",
+      "name": "Peckham Rye",
+      "lat": 51.470034,
+      "lon": -0.069414,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 8565,
+      "population_1km": 42679,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GPENEW",
+      "name": "Penge West",
+      "lat": 51.417555,
+      "lon": -0.06084,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 4600,
+      "population_1km": 23491,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GQPRK",
+      "name": "Queens Park (London)",
+      "lat": 51.533966,
+      "lon": -0.204985,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 9560,
+      "population_1km": 45263,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GRCTRYRD",
+      "name": "Rectory Road",
+      "lat": 51.558502,
+      "lon": -0.068267,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 14014,
+      "population_1km": 51434,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GRICHMND",
+      "name": "Richmond (London)",
+      "lat": 51.463061,
+      "lon": -0.301558,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 4298,
+      "population_1km": 13661,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GROMFORD",
+      "name": "Romford",
+      "lat": 51.574829,
+      "lon": 0.183237,
+      "lines": [
+        "elizabeth",
+        "london-overground"
+      ],
+      "population_500m": 4279,
+      "population_1km": 20687,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GRTHERHI",
+      "name": "Rotherhithe",
+      "lat": 51.500817,
+      "lon": -0.052048,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 8656,
+      "population_1km": 32639,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GSACTON",
+      "name": "South Acton",
+      "lat": 51.499695,
+      "lon": -0.270157,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 11444,
+      "population_1km": 31886,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GSBURY",
+      "name": "Southbury",
+      "lat": 51.648705,
+      "lon": -0.052437,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 3660,
+      "population_1km": 20703,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GSEVNSIS",
+      "name": "Seven Sisters",
+      "lat": 51.582268,
+      "lon": -0.07527,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 10277,
+      "population_1km": 43269,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GSHADWEL",
+      "name": "Shadwell",
+      "lat": 51.511284,
+      "lon": -0.056934,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 15703,
+      "population_1km": 56059,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GSHMPSTD",
+      "name": "South Hampstead",
+      "lat": 51.541432,
+      "lon": -0.178878,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 10427,
+      "population_1km": 39063,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GSHPDSB",
+      "name": "Shepherds Bush",
+      "lat": 51.505285,
+      "lon": -0.217654,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 9336,
+      "population_1km": 38648,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GSHRDHST",
+      "name": "Shoreditch High Street",
+      "lat": 51.523375,
+      "lon": -0.075246,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 11375,
+      "population_1km": 43731,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GSIVRST",
+      "name": "Silver Street",
+      "lat": 51.614688,
+      "lon": -0.06724,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 6945,
+      "population_1km": 35600,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GSKENTON",
+      "name": "South Kenton",
+      "lat": 51.570214,
+      "lon": -0.308462,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 3928,
+      "population_1km": 15326,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GSTFD",
+      "name": "Stratford (London)",
+      "lat": 51.541895,
+      "lon": -0.003397,
+      "lines": [
+        "elizabeth",
+        "london-overground"
+      ],
+      "population_500m": 8732,
+      "population_1km": 35179,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GSTJMSST",
+      "name": "St James Street (London)",
+      "lat": 51.580981,
+      "lon": -0.032918,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 10555,
+      "population_1km": 38712,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GSTKNWNG",
+      "name": "Stoke Newington",
+      "lat": 51.565233,
+      "lon": -0.072887,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 13181,
+      "population_1km": 48333,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GSTMFDHL",
+      "name": "Stamford Hill",
+      "lat": 51.574467,
+      "lon": -0.076682,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 13199,
+      "population_1km": 43869,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GSTNBGPK",
+      "name": "Stonebridge Park",
+      "lat": 51.544111,
+      "lon": -0.275828,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 3996,
+      "population_1km": 20542,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GSTOTNHM",
+      "name": "South Tottenham",
+      "lat": 51.580372,
+      "lon": -0.072103,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 11008,
+      "population_1km": 40847,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GSURREYQ",
+      "name": "Surrey Quays",
+      "lat": 51.493196,
+      "lon": -0.047519,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 8235,
+      "population_1km": 36248,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GSYDENHM",
+      "name": "Sydenham",
+      "lat": 51.427248,
+      "lon": -0.054244,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 6035,
+      "population_1km": 28927,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GTHBLDSG",
+      "name": "Theobalds Grove",
+      "lat": 51.692457,
+      "lon": -0.034831,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 5148,
+      "population_1km": 14701,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GTURKYST",
+      "name": "Turkey Street",
+      "lat": 51.672628,
+      "lon": -0.047217,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 5820,
+      "population_1km": 19386,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GUPMNSTR",
+      "name": "Upminster",
+      "lat": 51.559018,
+      "lon": 0.25088,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 2103,
+      "population_1km": 7685,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GUPRHLWY",
+      "name": "Upper Holloway",
+      "lat": 51.563631,
+      "lon": -0.129513,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 12451,
+      "population_1km": 45503,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GWAPPING",
+      "name": "Wapping",
+      "lat": 51.504388,
+      "lon": -0.055931,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 7997,
+      "population_1km": 41321,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GWATFDHS",
+      "name": "Watford High Street",
+      "lat": 51.652655,
+      "lon": -0.391711,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 4139,
+      "population_1km": 18841,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GWATFDJ",
+      "name": "Watford Junction",
+      "lat": 51.663908,
+      "lon": -0.395925,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 4522,
+      "population_1km": 21002,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GWATFJDC",
+      "name": "Watford Junction",
+      "lat": 51.663529,
+      "lon": -0.396517,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 4961,
+      "population_1km": 21456,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GWBRMPTN",
+      "name": "West Brompton",
+      "lat": 51.487061,
+      "lon": -0.195593,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 11943,
+      "population_1km": 47903,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GWCHAPEL",
+      "name": "Whitechapel",
+      "lat": 51.519469,
+      "lon": -0.059757,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 11398,
+      "population_1km": 54377,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GWCROYDN",
+      "name": "West Croydon",
+      "lat": 51.378428,
+      "lon": -0.102585,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 13093,
+      "population_1km": 36542,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GWDGRNPK",
+      "name": "Woodgrange Park",
+      "lat": 51.549264,
+      "lon": 0.044423,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 7546,
+      "population_1km": 33625,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GWDST",
+      "name": "Wood Street",
+      "lat": 51.58658,
+      "lon": -0.002405,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 8149,
+      "population_1km": 25828,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GWHHRTLA",
+      "name": "White Hart Lane",
+      "lat": 51.605037,
+      "lon": -0.070914,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 9264,
+      "population_1km": 30885,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GWHMDSTD",
+      "name": "West Hampstead",
+      "lat": 51.547468,
+      "lon": -0.191185,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 10615,
+      "population_1km": 38984,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GWLSDJHL",
+      "name": "Willesden Junction",
+      "lat": 51.532497,
+      "lon": -0.244548,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 8244,
+      "population_1km": 23125,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GWLTHQRD",
+      "name": "Walthamstow Queens Road",
+      "lat": 51.581503,
+      "lon": -0.023846,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 10875,
+      "population_1km": 44463,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GWLTWCEN",
+      "name": "Walthamstow Central",
+      "lat": 51.582919,
+      "lon": -0.019815,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 10636,
+      "population_1km": 41144,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GWMBY",
+      "name": "Wembley Central",
+      "lat": 51.552325,
+      "lon": -0.296433,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 10167,
+      "population_1km": 35739,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GWNDSWRD",
+      "name": "Wandsworth Road",
+      "lat": 51.470216,
+      "lon": -0.13852,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 9933,
+      "population_1km": 39475,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GWNSTDPK",
+      "name": "Wanstead Park",
+      "lat": 51.551693,
+      "lon": 0.026213,
+      "lines": [
+        "london-overground"
+      ],
+      "population_500m": 7316,
+      "population_1km": 23509,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GABWDXR",
+      "name": "Abbey Wood",
+      "lat": 51.491284,
+      "lon": 0.121087,
+      "lines": [
+        "elizabeth"
+      ],
+      "population_500m": 7322,
+      "population_1km": 22328,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GACTONML",
+      "name": "Acton Main Line",
+      "lat": 51.51718,
+      "lon": -0.266756,
+      "lines": [
+        "elizabeth"
+      ],
+      "population_500m": 5242,
+      "population_1km": 20712,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GBNHAM",
+      "name": "Burnham (Berks)",
+      "lat": 51.523506,
+      "lon": -0.646374,
+      "lines": [
+        "elizabeth"
+      ],
+      "population_500m": 3749,
+      "population_1km": 16243,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GBONDST",
+      "name": "Bond Street",
+      "lat": 51.513282,
+      "lon": -0.149317,
+      "lines": [
+        "elizabeth"
+      ],
+      "population_500m": 3190,
+      "population_1km": 19825,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GBRTWOOD",
+      "name": "Brentwood",
+      "lat": 51.613605,
+      "lon": 0.299586,
+      "lines": [
+        "elizabeth"
+      ],
+      "population_500m": 5853,
+      "population_1km": 14737,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GCANWHRF",
+      "name": "Canary Wharf",
+      "lat": 51.506321,
+      "lon": -0.018815,
+      "lines": [
+        "elizabeth"
+      ],
+      "population_500m": 7538,
+      "population_1km": 41807,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GCHDWLHT",
+      "name": "Chadwell Heath",
+      "lat": 51.568039,
+      "lon": 0.128958,
+      "lines": [
+        "elizabeth"
+      ],
+      "population_500m": 7285,
+      "population_1km": 30090,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GCUSTMHS",
+      "name": "Custom House",
+      "lat": 51.509436,
+      "lon": 0.027681,
+      "lines": [
+        "elizabeth"
+      ],
+      "population_500m": 7403,
+      "population_1km": 31256,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GEALINGB",
+      "name": "Ealing Broadway",
+      "lat": 51.514841,
+      "lon": -0.301752,
+      "lines": [
+        "elizabeth"
+      ],
+      "population_500m": 5485,
+      "population_1km": 21159,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GFRNDXR",
+      "name": "Farringdon",
+      "lat": 51.519635,
+      "lon": -0.102892,
+      "lines": [
+        "elizabeth"
+      ],
+      "population_500m": 8663,
+      "population_1km": 34195,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GFRSTGT",
+      "name": "Forest Gate",
+      "lat": 51.549432,
+      "lon": 0.024353,
+      "lines": [
+        "elizabeth"
+      ],
+      "population_500m": 10330,
+      "population_1km": 33309,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GGIDEAPK",
+      "name": "Gidea Park",
+      "lat": 51.581904,
+      "lon": 0.205964,
+      "lines": [
+        "elizabeth"
+      ],
+      "population_500m": 3978,
+      "population_1km": 14791,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GGODMAYS",
+      "name": "Goodmayes",
+      "lat": 51.565579,
+      "lon": 0.110807,
+      "lines": [
+        "elizabeth"
+      ],
+      "population_500m": 7525,
+      "population_1km": 29191,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GHANWELL",
+      "name": "Hanwell",
+      "lat": 51.511835,
+      "lon": -0.338583,
+      "lines": [
+        "elizabeth"
+      ],
+      "population_500m": 6324,
+      "population_1km": 23769,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GHAYESAH",
+      "name": "Hayes & Harlington",
+      "lat": 51.503096,
+      "lon": -0.420683,
+      "lines": [
+        "elizabeth"
+      ],
+      "population_500m": 6443,
+      "population_1km": 18900,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GHRLDWOD",
+      "name": "Harold Wood",
+      "lat": 51.592766,
+      "lon": 0.233129,
+      "lines": [
+        "elizabeth"
+      ],
+      "population_500m": 4595,
+      "population_1km": 13984,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GHTRWAPT",
+      "name": "Heathrow Terminals 2 & 3",
+      "lat": 51.471987,
+      "lon": -0.454788,
+      "lines": [
+        "elizabeth"
+      ],
+      "population_500m": 0,
+      "population_1km": 358,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GHTRWTM4",
+      "name": "Heathrow Terminal 4",
+      "lat": 51.458268,
+      "lon": -0.445463,
+      "lines": [
+        "elizabeth"
+      ],
+      "population_500m": 0,
+      "population_1km": 3632,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GHTRWTM5",
+      "name": "Heathrow Terminal 5",
+      "lat": 51.470053,
+      "lon": -0.490589,
+      "lines": [
+        "elizabeth"
+      ],
+      "population_500m": 0,
+      "population_1km": 366,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GILFORD",
+      "name": "Ilford",
+      "lat": 51.559118,
+      "lon": 0.06968,
+      "lines": [
+        "elizabeth"
+      ],
+      "population_500m": 9480,
+      "population_1km": 31676,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GIVER",
+      "name": "Iver",
+      "lat": 51.508503,
+      "lon": -0.506726,
+      "lines": [
+        "elizabeth"
+      ],
+      "population_500m": 977,
+      "population_1km": 3385,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GLANGLEY",
+      "name": "Langley (Berks)",
+      "lat": 51.508062,
+      "lon": -0.541756,
+      "lines": [
+        "elizabeth"
+      ],
+      "population_500m": 1078,
+      "population_1km": 8098,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GLIVSTLL",
+      "name": "Liverpool Street",
+      "lat": 51.517721,
+      "lon": -0.082043,
+      "lines": [
+        "elizabeth"
+      ],
+      "population_500m": 3128,
+      "population_1km": 26463,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GMANRPK",
+      "name": "Manor Park",
+      "lat": 51.552477,
+      "lon": 0.046342,
+      "lines": [
+        "elizabeth"
+      ],
+      "population_500m": 4216,
+      "population_1km": 22727,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GMDNHEAD",
+      "name": "Maidenhead",
+      "lat": 51.518669,
+      "lon": -0.72266,
+      "lines": [
+        "elizabeth"
+      ],
+      "population_500m": 3194,
+      "population_1km": 13200,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GMRYLAND",
+      "name": "Maryland",
+      "lat": 51.546081,
+      "lon": 0.005815,
+      "lines": [
+        "elizabeth"
+      ],
+      "population_500m": 10646,
+      "population_1km": 45346,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GPADTLL",
+      "name": "Paddington",
+      "lat": 51.516449,
+      "lon": -0.177107,
+      "lines": [
+        "elizabeth"
+      ],
+      "population_500m": 10205,
+      "population_1km": 47944,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GPADTON",
+      "name": "London Paddington",
+      "lat": 51.515996,
+      "lon": -0.176174,
+      "lines": [
+        "elizabeth"
+      ],
+      "population_500m": 10180,
+      "population_1km": 46044,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GRDNGSTN",
+      "name": "Reading",
+      "lat": 51.458786,
+      "lon": -0.971863,
+      "lines": [
+        "elizabeth"
+      ],
+      "population_500m": 2667,
+      "population_1km": 14147,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GSHENFLD",
+      "name": "Shenfield",
+      "lat": 51.630877,
+      "lon": 0.329851,
+      "lines": [
+        "elizabeth"
+      ],
+      "population_500m": 2408,
+      "population_1km": 6868,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GSLOUGH",
+      "name": "Slough",
+      "lat": 51.51188,
+      "lon": -0.59151,
+      "lines": [
+        "elizabeth"
+      ],
+      "population_500m": 7112,
+      "population_1km": 23972,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GSTHALL",
+      "name": "Southall",
+      "lat": 51.505957,
+      "lon": -0.37861,
+      "lines": [
+        "elizabeth"
+      ],
+      "population_500m": 7145,
+      "population_1km": 33443,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GSVNKNGS",
+      "name": "Seven Kings",
+      "lat": 51.564026,
+      "lon": 0.0971,
+      "lines": [
+        "elizabeth"
+      ],
+      "population_500m": 10738,
+      "population_1km": 33539,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GTAPLOW",
+      "name": "Taplow",
+      "lat": 51.523562,
+      "lon": -0.68137,
+      "lines": [
+        "elizabeth"
+      ],
+      "population_500m": 519,
+      "population_1km": 3870,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GTOTCTRD",
+      "name": "Tottenham Court Road",
+      "lat": 51.515075,
+      "lon": -0.130263,
+      "lines": [
+        "elizabeth"
+      ],
+      "population_500m": 4901,
+      "population_1km": 23246,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GTWYFORD",
+      "name": "Twyford",
+      "lat": 51.475534,
+      "lon": -0.863293,
+      "lines": [
+        "elizabeth"
+      ],
+      "population_500m": 2784,
+      "population_1km": 6435,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GWCHAPXR",
+      "name": "Whitechapel",
+      "lat": 51.519555,
+      "lon": -0.059537,
+      "lines": [
+        "elizabeth"
+      ],
+      "population_500m": 11926,
+      "population_1km": 54405,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GWDRYTON",
+      "name": "West Drayton",
+      "lat": 51.510055,
+      "lon": -0.472234,
+      "lines": [
+        "elizabeth"
+      ],
+      "population_500m": 7111,
+      "population_1km": 18637,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GWEALING",
+      "name": "West Ealing",
+      "lat": 51.513506,
+      "lon": -0.320133,
+      "lines": [
+        "elizabeth"
+      ],
+      "population_500m": 7490,
+      "population_1km": 30637,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "910GWOLWXR",
+      "name": "Woolwich",
+      "lat": 51.492017,
+      "lon": 0.0705,
+      "lines": [
+        "elizabeth"
+      ],
+      "population_500m": 7219,
+      "population_1km": 27977,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "940GZZDLABR",
+      "name": "Abbey Road",
+      "lat": 51.531926,
+      "lon": 0.003737,
+      "lines": [
+        "dlr"
+      ],
+      "population_500m": 7025,
+      "population_1km": 32202,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "940GZZDLALL",
+      "name": "All Saints",
+      "lat": 51.511,
+      "lon": -0.013135,
+      "lines": [
+        "dlr"
+      ],
+      "population_500m": 13916,
+      "population_1km": 48101,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "940GZZDLBEC",
+      "name": "Beckton",
+      "lat": 51.514362,
+      "lon": 0.061453,
+      "lines": [
+        "dlr"
+      ],
+      "population_500m": 4957,
+      "population_1km": 20754,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "940GZZDLBLA",
+      "name": "Blackwall",
+      "lat": 51.507991,
+      "lon": -0.006969,
+      "lines": [
+        "dlr"
+      ],
+      "population_500m": 13175,
+      "population_1km": 31976,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "940GZZDLBNK",
+      "name": "Bank",
+      "lat": 51.513233,
+      "lon": -0.088515,
+      "lines": [
+        "dlr"
+      ],
+      "population_500m": 550,
+      "population_1km": 11216,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "940GZZDLBOW",
+      "name": "Bow Church",
+      "lat": 51.527858,
+      "lon": -0.020936,
+      "lines": [
+        "dlr"
+      ],
+      "population_500m": 12479,
+      "population_1km": 43068,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "940GZZDLBPK",
+      "name": "Beckton Park",
+      "lat": 51.508793,
+      "lon": 0.054932,
+      "lines": [
+        "dlr"
+      ],
+      "population_500m": 3907,
+      "population_1km": 15369,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "940GZZDLCAN",
+      "name": "Canary Wharf",
+      "lat": 51.504838,
+      "lon": -0.020997,
+      "lines": [
+        "dlr"
+      ],
+      "population_500m": 4470,
+      "population_1km": 40242,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "940GZZDLCGT",
+      "name": "Canning Town",
+      "lat": 51.514127,
+      "lon": 0.008101,
+      "lines": [
+        "dlr"
+      ],
+      "population_500m": 9531,
+      "population_1km": 33960,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "940GZZDLCLA",
+      "name": "Crossharbour",
+      "lat": 51.495728,
+      "lon": -0.014606,
+      "lines": [
+        "dlr"
+      ],
+      "population_500m": 16584,
+      "population_1km": 36104,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "940GZZDLCUS",
+      "name": "Custom House (for ExCel)",
+      "lat": 51.509716,
+      "lon": 0.026699,
+      "lines": [
+        "dlr"
+      ],
+      "population_500m": 8075,
+      "population_1km": 33009,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "940GZZDLCUT",
+      "name": "Cutty Sark (for Maritime Greenwich)",
+      "lat": 51.481671,
+      "lon": -0.01081,
+      "lines": [
+        "dlr"
+      ],
+      "population_500m": 6308,
+      "population_1km": 29190,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "940GZZDLCYP",
+      "name": "Cyprus",
+      "lat": 51.508473,
+      "lon": 0.063925,
+      "lines": [
+        "dlr"
+      ],
+      "population_500m": 5271,
+      "population_1km": 12000,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "940GZZDLDEP",
+      "name": "Deptford Bridge",
+      "lat": 51.474215,
+      "lon": -0.022438,
+      "lines": [
+        "dlr"
+      ],
+      "population_500m": 10231,
+      "population_1km": 41380,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "940GZZDLDEV",
+      "name": "Devons Road",
+      "lat": 51.522667,
+      "lon": -0.017615,
+      "lines": [
+        "dlr"
+      ],
+      "population_500m": 15815,
+      "population_1km": 48409,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "940GZZDLEIN",
+      "name": "East India",
+      "lat": 51.509359,
+      "lon": -0.002326,
+      "lines": [
+        "dlr"
+      ],
+      "population_500m": 7100,
+      "population_1km": 27589,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "940GZZDLELV",
+      "name": "Elverson Road",
+      "lat": 51.469074,
+      "lon": -0.016728,
+      "lines": [
+        "dlr"
+      ],
+      "population_500m": 10954,
+      "population_1km": 37533,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "940GZZDLGAL",
+      "name": "Gallions Reach",
+      "lat": 51.508941,
+      "lon": 0.071555,
+      "lines": [
+        "dlr"
+      ],
+      "population_500m": 3383,
+      "population_1km": 9568,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "940GZZDLGRE",
+      "name": "Greenwich",
+      "lat": 51.478087,
+      "lon": -0.013673,
+      "lines": [
+        "dlr"
+      ],
+      "population_500m": 10480,
+      "population_1km": 32908,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "940GZZDLHEQ",
+      "name": "Heron Quays",
+      "lat": 51.503379,
+      "lon": -0.021421,
+      "lines": [
+        "dlr"
+      ],
+      "population_500m": 3758,
+      "population_1km": 39961,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "940GZZDLISL",
+      "name": "Island Gardens",
+      "lat": 51.487811,
+      "lon": -0.010139,
+      "lines": [
+        "dlr"
+      ],
+      "population_500m": 7380,
+      "population_1km": 30935,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "940GZZDLKGV",
+      "name": "King George V",
+      "lat": 51.502003,
+      "lon": 0.062624,
+      "lines": [
+        "dlr"
+      ],
+      "population_500m": 2798,
+      "population_1km": 11395,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "940GZZDLLCA",
+      "name": "London City Airport",
+      "lat": 51.503416,
+      "lon": 0.048739,
+      "lines": [
+        "dlr"
+      ],
+      "population_500m": 1680,
+      "population_1km": 9889,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "940GZZDLLDP",
+      "name": "Langdon Park",
+      "lat": 51.515172,
+      "lon": -0.01415,
+      "lines": [
+        "dlr"
+      ],
+      "population_500m": 16030,
+      "population_1km": 51564,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "940GZZDLLEW",
+      "name": "Lewisham",
+      "lat": 51.464665,
+      "lon": -0.012874,
+      "lines": [
+        "dlr"
+      ],
+      "population_500m": 10894,
+      "population_1km": 32657,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "940GZZDLLIM",
+      "name": "Limehouse",
+      "lat": 51.512393,
+      "lon": -0.039809,
+      "lines": [
+        "dlr"
+      ],
+      "population_500m": 15040,
+      "population_1km": 52360,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "940GZZDLMUD",
+      "name": "Mudchute",
+      "lat": 51.490704,
+      "lon": -0.014738,
+      "lines": [
+        "dlr"
+      ],
+      "population_500m": 6909,
+      "population_1km": 38227,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "940GZZDLPDK",
+      "name": "Pontoon Dock",
+      "lat": 51.502212,
+      "lon": 0.032115,
+      "lines": [
+        "dlr"
+      ],
+      "population_500m": 5511,
+      "population_1km": 17950,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "940GZZDLPOP",
+      "name": "Poplar",
+      "lat": 51.507744,
+      "lon": -0.017384,
+      "lines": [
+        "dlr"
+      ],
+      "population_500m": 11167,
+      "population_1km": 41319,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "940GZZDLPRE",
+      "name": "Prince Regent",
+      "lat": 51.509263,
+      "lon": 0.034158,
+      "lines": [
+        "dlr"
+      ],
+      "population_500m": 7126,
+      "population_1km": 20814,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "940GZZDLPUD",
+      "name": "Pudding Mill Lane",
+      "lat": 51.534302,
+      "lon": -0.012755,
+      "lines": [
+        "dlr"
+      ],
+      "population_500m": 3335,
+      "population_1km": 22468,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "940GZZDLRAL",
+      "name": "Royal Albert",
+      "lat": 51.508357,
+      "lon": 0.045935,
+      "lines": [
+        "dlr"
+      ],
+      "population_500m": 3409,
+      "population_1km": 16588,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "940GZZDLRVC",
+      "name": "Royal Victoria",
+      "lat": 51.509336,
+      "lon": 0.018497,
+      "lines": [
+        "dlr"
+      ],
+      "population_500m": 11463,
+      "population_1km": 34180,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "940GZZDLSHA",
+      "name": "Shadwell",
+      "lat": 51.511693,
+      "lon": -0.056643,
+      "lines": [
+        "dlr"
+      ],
+      "population_500m": 14870,
+      "population_1km": 57522,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "940GZZDLSHS",
+      "name": "Stratford High Street",
+      "lat": 51.538196,
+      "lon": -0.001078,
+      "lines": [
+        "dlr"
+      ],
+      "population_500m": 7662,
+      "population_1km": 33526,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "940GZZDLSIT",
+      "name": "Stratford International",
+      "lat": 51.545265,
+      "lon": -0.009638,
+      "lines": [
+        "dlr"
+      ],
+      "population_500m": 9819,
+      "population_1km": 22521,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "940GZZDLSOQ",
+      "name": "South Quay",
+      "lat": 51.50005,
+      "lon": -0.01597,
+      "lines": [
+        "dlr"
+      ],
+      "population_500m": 7750,
+      "population_1km": 37663,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "940GZZDLSTD",
+      "name": "Stratford",
+      "lat": 51.541758,
+      "lon": -0.003287,
+      "lines": [
+        "dlr"
+      ],
+      "population_500m": 8732,
+      "population_1km": 35179,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "940GZZDLSTL",
+      "name": "Star Lane",
+      "lat": 51.520786,
+      "lon": 0.004156,
+      "lines": [
+        "dlr"
+      ],
+      "population_500m": 3876,
+      "population_1km": 17968,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "940GZZDLTWG",
+      "name": "Tower Gateway",
+      "lat": 51.510617,
+      "lon": -0.074818,
+      "lines": [
+        "dlr"
+      ],
+      "population_500m": 8190,
+      "population_1km": 31650,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "940GZZDLWFE",
+      "name": "Westferry",
+      "lat": 51.509431,
+      "lon": -0.02675,
+      "lines": [
+        "dlr"
+      ],
+      "population_500m": 14898,
+      "population_1km": 47722,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "940GZZDLWHM",
+      "name": "West Ham",
+      "lat": 51.527894,
+      "lon": 0.004482,
+      "lines": [
+        "dlr"
+      ],
+      "population_500m": 5049,
+      "population_1km": 26742,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "940GZZDLWIQ",
+      "name": "West India Quay",
+      "lat": 51.50703,
+      "lon": -0.020311,
+      "lines": [
+        "dlr"
+      ],
+      "population_500m": 9338,
+      "population_1km": 41233,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "940GZZDLWLA",
+      "name": "Woolwich Arsenal",
+      "lat": 51.490009,
+      "lon": 0.069127,
+      "lines": [
+        "dlr"
+      ],
+      "population_500m": 9414,
+      "population_1km": 30215,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    },
+    {
+      "naptanId": "940GZZDLWSV",
+      "name": "West Silvertown",
+      "lat": 51.502838,
+      "lon": 0.02246,
+      "lines": [
+        "dlr"
+      ],
+      "population_500m": 5516,
+      "population_1km": 20202,
+      "annual_usage": 0,
+      "daily_usage": 0,
+      "usage_per_capita_500m": 0.0,
+      "usage_per_capita_1km": 0.0
+    }
+  ],
+  "line_colors": {
+    "bakerloo": "#B36305",
+    "central": "#E32017",
+    "circle": "#FFD300",
+    "district": "#00782A",
+    "hammersmith-city": "#F3A9BB",
+    "jubilee": "#A0A5A9",
+    "metropolitan": "#9B0056",
+    "northern": "#000000",
+    "piccadilly": "#003688",
+    "victoria": "#0098D4",
+    "waterloo-city": "#95CDBA",
+    "london-overground": "#EE7C0E",
+    "elizabeth": "#9364CD",
+    "dlr": "#00A4A7"
+  }
+}
