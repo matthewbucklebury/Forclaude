@@ -2,7 +2,7 @@
 """
 Create an interactive map showing London TfL rail station catchment populations.
 Includes Tube, Overground, Elizabeth Line, and DLR.
-Supports toggle between 500m and 1km radius analysis.
+Shows 1km radius analysis with station type filtering.
 """
 
 import json
@@ -15,15 +15,10 @@ DATA_DIR = Path(__file__).parent / "data"
 OUTPUT_DIR = Path(__file__).parent
 
 
-def load_dual_results():
-    """Load both 500m and 1km analysis results."""
-    with open(DATA_DIR / "analysis_results_500m.json") as f:
-        results_500m = json.load(f)
-
+def load_analysis_results():
+    """Load 1km analysis results."""
     with open(DATA_DIR / "analysis_results_1km.json") as f:
-        results_1km = json.load(f)
-
-    return results_500m, results_1km
+        return json.load(f)
 
 
 def load_enhanced_stations():
@@ -47,15 +42,53 @@ def get_line_color(station, line_stats):
     return "#666666"
 
 
-def create_map_with_toggle(results_500m, results_1km, enhanced_data=None):
-    """Create the interactive Folium map with radius toggle."""
-    print("Creating interactive map with radius toggle...")
+def calculate_station_rankings(stations):
+    """Calculate rankings for all 4 station type categories."""
+    # Filter to stations with both population and usage data
+    valid_stations = [s for s in stations if s['population_1km'] > 0 and s['daily_usage'] > 0]
 
-    stations_500 = {s["naptanId"]: s for s in results_500m["stations"]}
+    # Commuter: highest usage per capita (daily_usage / population)
+    commuter_ranked = sorted(valid_stations,
+                            key=lambda s: s['daily_usage'] / s['population_1km'],
+                            reverse=True)[:10]
+
+    # Residential: highest population per user (population / daily_usage)
+    residential_ranked = sorted(valid_stations,
+                               key=lambda s: s['population_1km'] / s['daily_usage'],
+                               reverse=True)[:10]
+
+    # Balanced: closest to 1:1 ratio
+    balanced_ranked = sorted(valid_stations,
+                            key=lambda s: abs(1.0 - (s['daily_usage'] / s['population_1km'])))[:10]
+
+    # Low Activity: lowest combined population + usage
+    low_activity_ranked = sorted(valid_stations,
+                                key=lambda s: s['population_1km'] + s['daily_usage'])[:10]
+
+    return {
+        'commuter': commuter_ranked,
+        'residential': residential_ranked,
+        'balanced': balanced_ranked,
+        'low_activity': low_activity_ranked
+    }
+
+
+def calculate_line_usage(stations, line_stats):
+    """Calculate total daily usage per line."""
+    line_usage = {}
+    for line_id in line_stats.keys():
+        total_usage = sum(s['daily_usage'] for s in stations if line_id in s.get('lines', []))
+        line_usage[line_id] = total_usage
+    return line_usage
+
+
+def create_map(results_1km, enhanced_data=None):
+    """Create the interactive Folium map with 1km radius only."""
+    print("Creating interactive map (1km radius)...")
+
     stations_1km = {s["naptanId"]: s for s in results_1km["stations"]}
-    line_stats_500 = results_500m["line_stats"]
-    line_stats_1km = results_1km["line_stats"]
-    line_colors = results_500m["line_colors"]
+    line_stats = results_1km["line_stats"]
+    line_colors = results_1km["line_colors"]
 
     # Build enhanced station lookup if available
     enhanced_lookup = {}
@@ -63,28 +96,14 @@ def create_map_with_toggle(results_500m, results_1km, enhanced_data=None):
         enhanced_lookup = {s["naptanId"]: s for s in enhanced_data.get("stations", [])}
         print(f"  Loaded usage data for {len(enhanced_lookup)} stations")
 
-    # Find population range for color scaling (use max from 1km for full range)
-    pops_500 = [s["population"] for s in results_500m["stations"] if s["population"] > 0]
-    pops_1km = [s["population"] for s in results_1km["stations"] if s["population"] > 0]
-    min_pop = min(pops_500) if pops_500 else 0
-    max_pop = max(pops_1km) if pops_1km else 1
-
-    # Create color map
-    colormap = cm.LinearColormap(
-        colors=['#fee8c8', '#fdbb84', '#e34a33'],
-        vmin=min_pop,
-        vmax=max_pop,
-        caption='Station Catchment Population - Hover to see area'
-    )
-
     # Station type colors
     type_colors = {
-        'commuter_hub': '#3498db',      # Blue
-        'residential_hub': '#27ae60',   # Green
-        'balanced': '#9b59b6',          # Purple
-        'low_activity': '#95a5a6',      # Grey
-        'no_usage_data': '#bdc3c7',     # Light grey
-        'no_population_data': '#ecf0f1' # Very light grey
+        'commuter_hub': '#2E86AB',      # Blue
+        'residential_hub': '#06A77D',   # Green
+        'balanced': '#9B59B6',          # Purple
+        'low_activity': '#95A5A6',      # Grey
+        'no_usage_data': '#bdc3c7',
+        'no_population_data': '#ecf0f1'
     }
 
     # Create base map
@@ -95,44 +114,35 @@ def create_map_with_toggle(results_500m, results_1km, enhanced_data=None):
         tiles='cartodbpositron'
     )
 
-    # Build merged station data with both populations and usage
+    # Build station data
     station_data = []
-    busiest_stations = []
 
-    for naptan_id, s500 in stations_500.items():
-        if s500["lat"] is None or s500["lon"] is None:
+    for naptan_id, s1km in stations_1km.items():
+        if s1km["lat"] is None or s1km["lon"] is None:
             continue
 
-        s1km = stations_1km.get(naptan_id, s500)
-        line_color = get_line_color(s500, line_stats_500)
+        line_color = get_line_color(s1km, line_stats)
 
         # Format line names
-        line_names = [lid.replace("-", " ").title() for lid in s500.get("lines", [])]
+        line_names = [lid.replace("-", " ").title() for lid in s1km.get("lines", [])]
         lines_text = ", ".join(line_names) if line_names else "Unknown"
-
-        # Get fill colors for both radii
-        fill_color_500 = colormap(s500["population"]) if s500["population"] > 0 else '#cccccc'
-        fill_color_1km = colormap(s1km["population"]) if s1km["population"] > 0 else '#cccccc'
 
         # Get enhanced data if available
         enhanced = enhanced_lookup.get(naptan_id, {})
         annual_usage = enhanced.get('annual_usage', 0)
         daily_usage = enhanced.get('daily_usage', 0)
-        usage_per_capita = enhanced.get('usage_per_capita_500m', 0)
+        usage_per_capita = enhanced.get('usage_per_capita_1km', 0)
         station_type = enhanced.get('station_type', 'no_usage_data')
 
         station_entry = {
             'naptanId': naptan_id,
-            'lat': s500['lat'],
-            'lon': s500['lon'],
-            'name': s500['name'],
-            'lines': s500.get('lines', []),
+            'lat': s1km['lat'],
+            'lon': s1km['lon'],
+            'name': s1km['name'],
+            'lines': s1km.get('lines', []),
             'lines_text': lines_text,
-            'population_500m': s500['population'],
             'population_1km': s1km['population'],
             'line_color': line_color,
-            'fill_color_500m': fill_color_500,
-            'fill_color_1km': fill_color_1km,
             'annual_usage': annual_usage,
             'daily_usage': daily_usage,
             'usage_per_capita': usage_per_capita,
@@ -142,38 +152,44 @@ def create_map_with_toggle(results_500m, results_1km, enhanced_data=None):
 
         station_data.append(station_entry)
 
-        # Track busiest stations
-        if annual_usage > 0:
-            busiest_stations.append({
-                'name': s500['name'],
-                'annual_usage': annual_usage,
-                'daily_usage': daily_usage
-            })
+    # Calculate line usage totals
+    line_usage = calculate_line_usage(station_data, line_stats)
 
-    # Sort busiest stations
-    busiest_stations.sort(key=lambda x: -x['annual_usage'])
-    top_10_busiest = busiest_stations[:10]
+    # Calculate station rankings
+    rankings = calculate_station_rankings(station_data)
 
-    # Convert line stats to JSON-friendly format
-    line_stats_500_json = {lid: {
-        'name': stats['name'],
-        'color': stats['color'],
-        'station_count': stats['station_count'],
-        'total_population': stats['total_population']
-    } for lid, stats in line_stats_500.items()}
-
-    line_stats_1km_json = {lid: {
-        'name': stats['name'],
-        'color': stats['color'],
-        'station_count': stats['station_count'],
-        'total_population': stats['total_population']
-    } for lid, stats in line_stats_1km.items()}
-
+    # Convert to JSON for JavaScript
     js_stations = json.dumps(station_data)
-    js_line_stats_500 = json.dumps(line_stats_500_json)
-    js_line_stats_1km = json.dumps(line_stats_1km_json)
+    js_line_stats = json.dumps({lid: {
+        'name': stats['name'],
+        'color': stats['color'],
+        'station_count': stats['station_count'],
+        'total_population': stats['total_population'],
+        'daily_usage': line_usage.get(lid, 0)
+    } for lid, stats in line_stats.items()})
 
-    # Main script with toggle functionality
+    # Format rankings data for both JS and HTML use
+    formatted_rankings = {
+        'commuter': [{'name': s['name'], 'population': s['population_1km'],
+                     'usage': s['daily_usage'],
+                     'ratio': round(s['daily_usage'] / s['population_1km'], 1) if s['population_1km'] > 0 else 0}
+                    for s in rankings['commuter']],
+        'residential': [{'name': s['name'], 'population': s['population_1km'],
+                        'usage': s['daily_usage'],
+                        'ratio': round(s['population_1km'] / s['daily_usage'], 1) if s['daily_usage'] > 0 else 0}
+                       for s in rankings['residential']],
+        'balanced': [{'name': s['name'], 'population': s['population_1km'],
+                     'usage': s['daily_usage'],
+                     'ratio': round(s['daily_usage'] / s['population_1km'], 2) if s['population_1km'] > 0 else 0}
+                    for s in rankings['balanced']],
+        'low_activity': [{'name': s['name'], 'population': s['population_1km'],
+                         'usage': s['daily_usage'],
+                         'combined': s['population_1km'] + s['daily_usage']}
+                        for s in rankings['low_activity']]
+    }
+    js_rankings = json.dumps(formatted_rankings)
+
+    # Main script
     main_script = f"""
     <style>
     .station-tooltip {{
@@ -183,67 +199,69 @@ def create_map_with_toggle(results_500m, results_1km, enhanced_data=None):
         box-shadow: 0 2px 8px rgba(0,0,0,0.15);
         padding: 0;
     }}
-    .station-tooltip .leaflet-tooltip-content {{
-        margin: 0;
-    }}
-    .radius-toggle {{
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    .type-filter {{
         margin: 10px 0;
         padding: 10px;
-        background: #f5f5f5;
+        background: #f8f9fa;
         border-radius: 6px;
     }}
-    .radius-toggle label {{
-        font-size: 12px;
+    .type-filter label {{
+        display: flex;
+        align-items: center;
+        margin: 4px 0;
+        cursor: pointer;
+        font-size: 11px;
+    }}
+    .type-filter input {{
+        margin-right: 8px;
+    }}
+    .type-badge {{
+        display: inline-block;
+        padding: 2px 6px;
+        border-radius: 3px;
+        color: white;
+        font-size: 10px;
+        margin-left: 4px;
+    }}
+    .collapsible {{
+        cursor: pointer;
+        padding: 8px;
+        background: #f0f0f0;
+        border: none;
+        text-align: left;
+        width: 100%;
+        font-size: 11px;
         font-weight: bold;
-        color: #333;
-        cursor: pointer;
+        border-radius: 4px;
+        margin-top: 8px;
     }}
-    .radius-toggle .toggle-switch {{
-        position: relative;
-        width: 50px;
-        height: 24px;
-        margin: 0 10px;
+    .collapsible:hover {{
+        background: #e0e0e0;
     }}
-    .radius-toggle .toggle-switch input {{
-        opacity: 0;
-        width: 0;
-        height: 0;
+    .collapsible:before {{
+        content: '▶ ';
+        font-size: 10px;
     }}
-    .radius-toggle .slider {{
-        position: absolute;
-        cursor: pointer;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-color: #0098D4;
-        transition: .3s;
-        border-radius: 24px;
+    .collapsible.active:before {{
+        content: '▼ ';
     }}
-    .radius-toggle .slider:before {{
-        position: absolute;
-        content: "";
-        height: 18px;
-        width: 18px;
-        left: 3px;
-        bottom: 3px;
-        background-color: white;
-        transition: .3s;
-        border-radius: 50%;
+    .collapse-content {{
+        display: none;
+        padding: 8px;
+        background: #fafafa;
+        border-radius: 0 0 4px 4px;
+        font-size: 10px;
     }}
-    .radius-toggle input:checked + .slider {{
-        background-color: #E32017;
+    .collapse-content.show {{
+        display: block;
     }}
-    .radius-toggle input:checked + .slider:before {{
-        transform: translateX(26px);
+    .ranking-item {{
+        padding: 4px 0;
+        border-bottom: 1px solid #eee;
     }}
-    .label-500m {{ color: #0098D4; }}
-    .label-1km {{ color: #666; }}
-    .radius-toggle input:checked ~ .label-500m {{ color: #666; }}
-    .radius-toggle input:checked ~ .label-1km {{ color: #E32017; }}
+    .ranking-item:last-child {{
+        border-bottom: none;
+    }}
     </style>
 
     <script>
@@ -265,22 +283,25 @@ def create_map_with_toggle(results_500m, results_1km, enhanced_data=None):
             if (!map) return;
 
             var stations = {js_stations};
-            var lineStats500 = {js_line_stats_500};
-            var lineStats1km = {js_line_stats_1km};
-            var currentRadius = 500;
+            var lineStats = {js_line_stats};
+            var rankings = {js_rankings};
 
-            // Store references to markers and circles
+            var typeColors = {{
+                'commuter_hub': '#2E86AB',
+                'residential_hub': '#06A77D',
+                'balanced': '#9B59B6',
+                'low_activity': '#95A5A6'
+            }};
+
             var stationLayers = [];
 
-            // Format number with commas
             function formatNumber(num) {{
                 return num.toString().replace(/\\B(?=(\\d{{3}})+(?!\\d))/g, ",");
             }}
 
-            // Get station type label
             function getTypeLabel(type) {{
                 var labels = {{
-                    'commuter_hub': 'Commuter Hub',
+                    'commuter_hub': 'Commuter',
                     'residential_hub': 'Residential',
                     'balanced': 'Balanced',
                     'low_activity': 'Low Activity',
@@ -290,12 +311,15 @@ def create_map_with_toggle(results_500m, results_1km, enhanced_data=None):
                 return labels[type] || type;
             }}
 
-            // Create tooltip HTML with usage data
-            function createTooltip(s, radius) {{
-                var pop = radius === 500 ? s.population_500m : s.population_1km;
+            function createTooltip(s) {{
                 var usageHtml = '';
+                var ratioHtml = '';
                 if (s.daily_usage > 0) {{
-                    usageHtml = '<span style="color: #666; font-size: 11px;">Daily usage:</span> <strong>' + formatNumber(s.daily_usage) + '</strong><br>';
+                    usageHtml = '<span style="color: #666; font-size: 11px;">Daily Usage:</span> <strong>' + formatNumber(s.daily_usage) + '</strong><br>';
+                    if (s.population_1km > 0) {{
+                        var ratio = (s.daily_usage / s.population_1km).toFixed(1);
+                        ratioHtml = '<span style="color: #666; font-size: 11px;">Usage/Capita:</span> <strong>' + ratio + 'x</strong><br>';
+                    }}
                 }}
                 var typeHtml = '';
                 if (s.station_type && s.station_type !== 'no_usage_data') {{
@@ -304,15 +328,14 @@ def create_map_with_toggle(results_500m, results_1km, enhanced_data=None):
                 return '<div style="font-family: Arial, sans-serif; padding: 4px;">' +
                     '<strong style="font-size: 13px;">' + s.name + '</strong><br>' +
                     typeHtml +
-                    '<span style="color: #666; font-size: 11px;">Population (' + radius + 'm):</span> <strong>' + formatNumber(pop) + '</strong><br>' +
+                    '<span style="color: #666; font-size: 11px;">Population (1km):</span> <strong>' + formatNumber(s.population_1km) + '</strong><br>' +
                     usageHtml +
+                    ratioHtml +
                     '<span style="color: #666; font-size: 10px;">' + s.lines_text + '</span>' +
                     '</div>';
             }}
 
-            // Create popup HTML with full usage data
-            function createPopup(s, radius) {{
-                var pop = radius === 500 ? s.population_500m : s.population_1km;
+            function createPopup(s) {{
                 var linesHtml = '';
                 var lineColors = {json.dumps(line_colors)};
                 s.lines.forEach(function(lid) {{
@@ -323,7 +346,7 @@ def create_map_with_toggle(results_500m, results_1km, enhanced_data=None):
 
                 var usageSection = '';
                 if (s.daily_usage > 0) {{
-                    var usageRatio = s.usage_per_capita > 0 ? s.usage_per_capita.toFixed(1) + 'x' : 'N/A';
+                    var usageRatio = s.population_1km > 0 ? (s.daily_usage / s.population_1km).toFixed(1) + 'x' : 'N/A';
                     usageSection = '<div style="margin-top:10px; padding-top:10px; border-top:1px solid #eee;">' +
                         '<p style="margin:4px 0;"><strong>Station Usage (2024)</strong></p>' +
                         '<p style="margin:2px 0;"><span style="color:#666;font-size:11px;">Annual:</span> ' + formatNumber(s.annual_usage) + '</p>' +
@@ -340,8 +363,8 @@ def create_map_with_toggle(results_500m, results_1km, enhanced_data=None):
                 return '<div style="font-family: Arial, sans-serif; min-width: 220px;">' +
                     '<h4 style="margin:0 0 4px 0; color: #333;">' + s.name + '</h4>' +
                     typeHtml +
-                    '<p style="margin:8px 0 4px 0;"><strong>Population within ' + radius + 'm:</strong></p>' +
-                    '<p style="font-size: 24px; font-weight: bold; color: #1a73e8; margin: 4px 0;">' + formatNumber(pop) + '</p>' +
+                    '<p style="margin:8px 0 4px 0;"><strong>Population within 1km:</strong></p>' +
+                    '<p style="font-size: 24px; font-weight: bold; color: #1a73e8; margin: 4px 0;">' + formatNumber(s.population_1km) + '</p>' +
                     usageSection +
                     '<p style="margin:10px 0 4px 0;"><strong>Lines:</strong></p>' +
                     '<p style="margin:4px 0;">' + linesHtml + '</p>' +
@@ -351,11 +374,11 @@ def create_map_with_toggle(results_500m, results_1km, enhanced_data=None):
             // Create all station markers and circles
             stations.forEach(function(s) {{
                 var circle = L.circle([s.lat, s.lon], {{
-                    radius: currentRadius,
+                    radius: 1000,
                     color: s.line_color,
                     weight: 2,
                     fill: true,
-                    fillColor: s.fill_color_500m,
+                    fillColor: s.type_color,
                     fillOpacity: 0,
                     opacity: 0,
                     interactive: false
@@ -371,13 +394,13 @@ def create_map_with_toggle(results_500m, results_1km, enhanced_data=None):
                     opacity: 1
                 }}).addTo(map);
 
-                marker.bindTooltip(createTooltip(s, currentRadius), {{
+                marker.bindTooltip(createTooltip(s), {{
                     direction: 'top',
                     offset: [0, -10],
                     className: 'station-tooltip'
                 }});
 
-                marker.bindPopup(createPopup(s, currentRadius), {{maxWidth: 300}});
+                marker.bindPopup(createPopup(s), {{maxWidth: 300}});
 
                 marker.on('mouseover', function(e) {{
                     if (!map.hasLayer(circle)) {{
@@ -388,7 +411,11 @@ def create_map_with_toggle(results_500m, results_1km, enhanced_data=None):
 
                 marker.on('mouseout', function(e) {{
                     if (!marker.isPopupOpen()) {{
-                        circle.setStyle({{opacity: 0, fillOpacity: 0}});
+                        var highlighted = isTypeHighlighted(s.station_type);
+                        circle.setStyle({{
+                            opacity: highlighted ? 1 : 0,
+                            fillOpacity: highlighted ? 0.5 : 0
+                        }});
                     }}
                 }});
 
@@ -400,7 +427,11 @@ def create_map_with_toggle(results_500m, results_1km, enhanced_data=None):
                 }});
 
                 marker.on('popupclose', function(e) {{
-                    circle.setStyle({{opacity: 0, fillOpacity: 0}});
+                    var highlighted = isTypeHighlighted(s.station_type);
+                    circle.setStyle({{
+                        opacity: highlighted ? 1 : 0,
+                        fillOpacity: highlighted ? 0.5 : 0
+                    }});
                 }});
 
                 stationLayers.push({{
@@ -410,81 +441,64 @@ def create_map_with_toggle(results_500m, results_1km, enhanced_data=None):
                 }});
             }});
 
-            // Update line stats table
-            function updateLineTable(radius) {{
-                var stats = radius === 500 ? lineStats500 : lineStats1km;
-                var sortedLines = Object.entries(stats).sort(function(a, b) {{
-                    return b[1].total_population - a[1].total_population;
-                }});
+            // Track which types are highlighted
+            var highlightedTypes = {{}};
 
-                sortedLines.forEach(function(entry, index) {{
-                    var lineId = entry[0];
-                    var lineData = entry[1];
-                    var row = document.getElementById('line-row-' + lineId);
-                    if (row) {{
-                        var popCell = row.querySelector('.line-pop');
-                        if (popCell) {{
-                            popCell.textContent = formatNumber(lineData.total_population);
-                        }}
-                    }}
-                }});
-
-                // Update subtitle
-                var subtitle = document.getElementById('legend-subtitle');
-                if (subtitle) {{
-                    subtitle.textContent = 'Population within ' + radius + 'm of stations';
-                }}
-
-                // Update title subtitle
-                var titleSubtitle = document.getElementById('title-subtitle');
-                if (titleSubtitle) {{
-                    titleSubtitle.textContent = 'Hover over a station to see its ' + radius + 'm catchment area';
-                }}
+            function isTypeHighlighted(type) {{
+                return highlightedTypes[type] === true;
             }}
 
-            // Update all markers and circles for new radius
-            function updateRadius(radius) {{
-                currentRadius = radius;
+            function updateHighlighting() {{
                 stationLayers.forEach(function(layer) {{
                     var s = layer.station;
-                    var fillColor = radius === 500 ? s.fill_color_500m : s.fill_color_1km;
+                    var highlighted = isTypeHighlighted(s.station_type);
 
-                    // Update circle radius and color
-                    layer.circle.setRadius(radius);
-                    layer.circle.setStyle({{ fillColor: fillColor }});
+                    if (highlighted) {{
+                        if (!map.hasLayer(layer.circle)) {{
+                            layer.circle.addTo(map);
+                        }}
+                        layer.circle.setStyle({{
+                            opacity: 1,
+                            fillOpacity: 0.5,
+                            fillColor: typeColors[s.station_type] || '#bdc3c7'
+                        }});
+                    }} else {{
+                        layer.circle.setStyle({{
+                            opacity: 0,
+                            fillOpacity: 0
+                        }});
+                    }}
+                }});
+            }}
 
-                    // Update tooltip
-                    layer.marker.unbindTooltip();
-                    layer.marker.bindTooltip(createTooltip(s, radius), {{
-                        direction: 'top',
-                        offset: [0, -10],
-                        className: 'station-tooltip'
+            // Set up type filter checkboxes
+            ['commuter_hub', 'residential_hub', 'balanced', 'low_activity'].forEach(function(type) {{
+                var checkbox = document.getElementById('filter-' + type);
+                if (checkbox) {{
+                    checkbox.addEventListener('change', function() {{
+                        highlightedTypes[type] = this.checked;
+                        updateHighlighting();
                     }});
+                }}
+            }});
 
-                    // Update popup
-                    layer.marker.unbindPopup();
-                    layer.marker.bindPopup(createPopup(s, radius), {{maxWidth: 300}});
+            // Set up collapsible sections
+            var collapsibles = document.querySelectorAll('.collapsible');
+            collapsibles.forEach(function(btn) {{
+                btn.addEventListener('click', function() {{
+                    this.classList.toggle('active');
+                    var content = this.nextElementSibling;
+                    content.classList.toggle('show');
                 }});
-
-                updateLineTable(radius);
-            }}
-
-            // Set up toggle event listener
-            var toggle = document.getElementById('radius-toggle');
-            if (toggle) {{
-                toggle.addEventListener('change', function() {{
-                    var radius = this.checked ? 1000 : 500;
-                    updateRadius(radius);
-                }});
-            }}
+            }});
 
         }}, 500);
     }});
     </script>
     """
 
-    # Create legend panel HTML with toggle
-    sorted_lines = sorted(line_stats_500.items(), key=lambda x: -x[1]["total_population"])
+    # Create legend panel HTML
+    sorted_lines = sorted(line_stats.items(), key=lambda x: -x[1]["total_population"])
 
     legend_html = """
     <div id="legend-panel" style="
@@ -499,48 +513,55 @@ def create_map_with_toggle(results_500m, results_1km, enhanced_data=None):
         max-height: 90vh;
         overflow-y: auto;
         font-family: Arial, sans-serif;
-        width: 280px;
+        width: 300px;
     ">
-        <h3 style="margin: 0 0 5px 0; font-size: 14px;">TfL Rail Population Rankings</h3>
-        <p id="legend-subtitle" style="font-size: 11px; color: #666; margin: 0 0 10px 0;">Population within 500m of stations</p>
+        <h3 style="margin: 0 0 5px 0; font-size: 14px;">TfL Rail Population & Usage</h3>
+        <p style="font-size: 11px; color: #666; margin: 0 0 10px 0;">Population within 1km of stations</p>
 
-        <div class="radius-toggle">
-            <label class="label-500m">500m</label>
-            <label class="toggle-switch">
-                <input type="checkbox" id="radius-toggle">
-                <span class="slider"></span>
+        <div class="type-filter">
+            <div style="font-weight: bold; margin-bottom: 6px; font-size: 11px;">Highlight Station Types:</div>
+            <label><input type="checkbox" id="filter-commuter_hub">
+                <span class="type-badge" style="background:#2E86AB;">Commuter</span>
             </label>
-            <label class="label-1km">1km</label>
+            <label><input type="checkbox" id="filter-residential_hub">
+                <span class="type-badge" style="background:#06A77D;">Residential</span>
+            </label>
+            <label><input type="checkbox" id="filter-balanced">
+                <span class="type-badge" style="background:#9B59B6;">Balanced</span>
+            </label>
+            <label><input type="checkbox" id="filter-low_activity">
+                <span class="type-badge" style="background:#95A5A6;">Low Activity</span>
+            </label>
         </div>
 
-        <table style="width: 100%; font-size: 12px; border-collapse: collapse;">
-            <tr style="border-bottom: 1px solid #ddd;">
+        <table style="width: 100%; font-size: 11px; border-collapse: collapse; margin-top: 10px;">
+            <tr style="border-bottom: 1px solid #ddd; background: #f5f5f5;">
                 <th style="text-align: left; padding: 4px;">Line</th>
-                <th style="text-align: right; padding: 4px;">Stations</th>
-                <th style="text-align: right; padding: 4px;">Population</th>
+                <th style="text-align: right; padding: 4px;">Stns</th>
+                <th style="text-align: right; padding: 4px;">Pop</th>
+                <th style="text-align: right; padding: 4px;">Daily Use</th>
             </tr>
     """
 
     for line_id, stats in sorted_lines:
         color = stats["color"]
         text_color = "white" if color not in ["#FFD300", "#F3A9BB", "#95CDBA", "#A0A5A9"] else "black"
+        daily_use = line_usage.get(line_id, 0)
 
         legend_html += f"""
-            <tr id="line-row-{line_id}" style="border-bottom: 1px solid #eee;">
-                <td style="padding: 4px;">
+            <tr style="border-bottom: 1px solid #eee;">
+                <td style="padding: 3px;">
                     <span style="
                         background-color: {color};
                         color: {text_color};
-                        padding: 2px 6px;
-                        border-radius: 3px;
-                        font-size: 10px;
-                        display: inline-block;
-                        min-width: 80px;
-                        text-align: center;
-                    ">{stats['name']}</span>
+                        padding: 1px 4px;
+                        border-radius: 2px;
+                        font-size: 9px;
+                    ">{stats['name'][:12]}</span>
                 </td>
-                <td style="text-align: right; padding: 4px;">{stats['station_count']}</td>
-                <td class="line-pop" style="text-align: right; padding: 4px; font-weight: bold;">{stats['total_population']:,}</td>
+                <td style="text-align: right; padding: 3px;">{stats['station_count']}</td>
+                <td style="text-align: right; padding: 3px;">{stats['total_population']:,}</td>
+                <td style="text-align: right; padding: 3px;">{daily_use:,}</td>
             </tr>
         """
 
@@ -548,40 +569,68 @@ def create_map_with_toggle(results_500m, results_1km, enhanced_data=None):
         </table>
     """
 
-    # Add busiest stations section if we have usage data
-    if top_10_busiest:
-        legend_html += """
-        <div style="margin-top: 12px; padding-top: 10px; border-top: 1px solid #ddd;">
-            <h4 style="margin: 0 0 8px 0; font-size: 12px; color: #333;">Busiest Stations (2024)</h4>
-            <table style="width: 100%; font-size: 10px; border-collapse: collapse;">
+    # Add ranking sections
+    def format_ranking_html(title, subtitle, items, value_key, ratio_key=None, ratio_label="Ratio"):
+        html = f"""
+        <button class="collapsible">{title}</button>
+        <div class="collapse-content">
+            <div style="color:#666;font-size:9px;margin-bottom:6px;">{subtitle}</div>
         """
-        for i, station in enumerate(top_10_busiest[:10], 1):
-            legend_html += f"""
-                <tr style="border-bottom: 1px solid #f0f0f0;">
-                    <td style="padding: 2px 4px; color: #666;">{i}.</td>
-                    <td style="padding: 2px 4px;">{station['name'][:18]}</td>
-                    <td style="padding: 2px 4px; text-align: right; font-weight: bold;">{station['annual_usage']/1000000:.1f}M</td>
-                </tr>
-            """
-        legend_html += """
-            </table>
-        </div>
-        """
+        for i, item in enumerate(items, 1):
+            ratio_display = ""
+            if ratio_key and ratio_key in item:
+                ratio_display = f"<br><span style='color:#888;'>{ratio_label}: {item[ratio_key]}x</span>"
+            elif 'combined' in item:
+                ratio_display = f"<br><span style='color:#888;'>Combined: {item['combined']:,}</span>"
 
-    # Add station type legend
-    legend_html += """
-        <div style="margin-top: 12px; padding-top: 10px; border-top: 1px solid #ddd;">
-            <h4 style="margin: 0 0 6px 0; font-size: 11px; color: #333;">Station Types</h4>
-            <div style="font-size: 9px; line-height: 1.6;">
-                <span style="background:#3498db;color:white;padding:1px 4px;border-radius:2px;">Commuter</span> Low pop, high usage<br>
-                <span style="background:#27ae60;color:white;padding:1px 4px;border-radius:2px;">Residential</span> High pop, low usage<br>
-                <span style="background:#9b59b6;color:white;padding:1px 4px;border-radius:2px;">Balanced</span> High pop, high usage<br>
-                <span style="background:#95a5a6;color:white;padding:1px 4px;border-radius:2px;">Low Activity</span> Outer areas
+            html += f"""
+            <div class="ranking-item">
+                <strong>{i}.</strong> {item['name'][:20]}<br>
+                <span style="color:#666;">Pop: {item['population']:,} | Use: {item['usage']:,}</span>
+                {ratio_display}
             </div>
-        </div>
-        <div style="margin-top: 8px; padding-top: 8px; border-top: 1px solid #ddd;">
+            """
+        html += "</div>"
+        return html
+
+    legend_html += format_ranking_html(
+        "Top 10 Commuter Stations",
+        "Highest Usage per Capita",
+        formatted_rankings['commuter'],
+        'usage',
+        'ratio',
+        "Ratio"
+    )
+
+    legend_html += format_ranking_html(
+        "Top 10 Residential Stations",
+        "Highest Population per Daily User",
+        formatted_rankings['residential'],
+        'population',
+        'ratio',
+        "Pop/User"
+    )
+
+    legend_html += format_ranking_html(
+        "Top 10 Balanced Stations",
+        "Closest to 1:1 Population/Usage",
+        formatted_rankings['balanced'],
+        'usage',
+        'ratio',
+        "Ratio"
+    )
+
+    legend_html += format_ranking_html(
+        "Top 10 Lowest Activity Stations",
+        "Lowest Combined Population + Usage",
+        formatted_rankings['low_activity'],
+        'usage'
+    )
+
+    legend_html += """
+        <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #ddd;">
             <p style="font-size: 9px; color: #666; margin: 0;">
-                Data: TfL + 2021 Census + Wikipedia Usage 2024
+                Data: TfL + 2021 Census + Usage 2024
             </p>
         </div>
     </div>
@@ -600,12 +649,12 @@ def create_map_with_toggle(results_500m, results_1km, enhanced_data=None):
         box-shadow: 0 2px 10px rgba(0,0,0,0.2);
         font-family: Arial, sans-serif;
     ">
-        <h2 style="margin: 0; font-size: 16px; color: #333;">London TfL Rail Population Catchment</h2>
-        <p id="title-subtitle" style="margin: 5px 0 0 0; font-size: 12px; color: #666;">Hover over a station to see its 500m catchment area</p>
+        <h2 style="margin: 0; font-size: 16px; color: #333;">London TfL Rail Population & Usage</h2>
+        <p style="margin: 5px 0 0 0; font-size: 12px; color: #666;">Hover over stations to see 1km catchment area</p>
     </div>
     """
 
-    # Add all elements to map (colormap legend removed per user request)
+    # Add all elements to map
     m.get_root().html.add_child(folium.Element(legend_html))
     m.get_root().html.add_child(folium.Element(title_html))
     m.get_root().html.add_child(folium.Element(main_script))
@@ -619,25 +668,24 @@ def create_map_with_toggle(results_500m, results_1km, enhanced_data=None):
 
 
 def main():
-    results_500m, results_1km = load_dual_results()
+    results_1km = load_analysis_results()
     enhanced_data = load_enhanced_stations()
 
     if enhanced_data:
-        print(f"Loaded enhanced station data with usage information")
+        print("Loaded enhanced station data with usage information")
 
-    create_map_with_toggle(results_500m, results_1km, enhanced_data)
+    create_map(results_1km, enhanced_data)
 
     print("\n" + "=" * 60)
     print("MAP CREATION COMPLETE")
     print("=" * 60)
     print("Open 'tube_population_map.html' in a browser to view the interactive map.")
     print("\nFeatures:")
-    print("- Toggle between 500m and 1km radius analysis")
-    print("- Hover over stations to see catchment circles and usage data")
-    print("- Click stations for detailed popup with annual/daily usage")
-    print("- Line rankings update with radius toggle")
-    print("- Busiest stations list (top 10 by annual usage)")
-    print("- Station type classification (Commuter/Residential/Balanced)")
+    print("- 1km radius catchment analysis")
+    print("- Station type filter checkboxes")
+    print("- Line rankings with daily usage")
+    print("- Top 10 stations by type (Commuter/Residential/Balanced/Low Activity)")
+    print("- Hover over stations to see circles and data")
 
 
 if __name__ == "__main__":
