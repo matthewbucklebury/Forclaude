@@ -19,7 +19,8 @@
       "daily_usage": 62794,
       "usage_per_capita_500m": 11.95,
       "usage_per_capita_1km": 2.23,
-      "station_type": "commuter_hub"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUCHX",
@@ -36,7 +37,8 @@
       "daily_usage": 45232,
       "usage_per_capita_500m": 17.4,
       "usage_per_capita_1km": 3.85,
-      "station_type": "commuter_hub"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUEAC",
@@ -53,7 +55,8 @@
       "daily_usage": 38712,
       "usage_per_capita_500m": 2.73,
       "usage_per_capita_1km": 0.76,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUEMB",
@@ -72,7 +75,8 @@
       "daily_usage": 49232,
       "usage_per_capita_500m": 23.62,
       "usage_per_capita_1km": 4.62,
-      "station_type": "commuter_hub"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUERB",
@@ -88,7 +92,8 @@
       "daily_usage": 10191,
       "usage_per_capita_500m": 0.64,
       "usage_per_capita_1km": 0.24,
-      "station_type": "residential_hub"
+      "station_type": "residential_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUHAW",
@@ -104,7 +109,8 @@
       "daily_usage": 14082,
       "usage_per_capita_500m": 1.49,
       "usage_per_capita_1km": 0.5,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUHSN",
@@ -120,7 +126,8 @@
       "daily_usage": 7397,
       "usage_per_capita_500m": 0.92,
       "usage_per_capita_1km": 0.27,
-      "station_type": "residential_hub"
+      "station_type": "residential_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUKEN",
@@ -136,7 +143,8 @@
       "daily_usage": 4739,
       "usage_per_capita_500m": 1.28,
       "usage_per_capita_1km": 0.27,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUKPK",
@@ -152,7 +160,8 @@
       "daily_usage": 7506,
       "usage_per_capita_500m": 0.57,
       "usage_per_capita_1km": 0.15,
-      "station_type": "residential_hub"
+      "station_type": "residential_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUKSL",
@@ -168,7 +177,8 @@
       "daily_usage": 5424,
       "usage_per_capita_500m": 0.57,
       "usage_per_capita_1km": 0.2,
-      "station_type": "residential_hub"
+      "station_type": "residential_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLULBN",
@@ -184,7 +194,8 @@
       "daily_usage": 7479,
       "usage_per_capita_500m": 0.98,
       "usage_per_capita_1km": 0.32,
-      "station_type": "residential_hub"
+      "station_type": "residential_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUMVL",
@@ -200,7 +211,8 @@
       "daily_usage": 7863,
       "usage_per_capita_500m": 0.8,
       "usage_per_capita_1km": 0.16,
-      "station_type": "residential_hub"
+      "station_type": "residential_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUMYB",
@@ -216,7 +228,8 @@
       "daily_usage": 24273,
       "usage_per_capita_500m": 1.9,
       "usage_per_capita_1km": 0.68,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUNWY",
@@ -232,7 +245,8 @@
       "daily_usage": 3808,
       "usage_per_capita_500m": 0.61,
       "usage_per_capita_1km": 0.17,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUOXC",
@@ -250,7 +264,8 @@
       "daily_usage": 145698,
       "usage_per_capita_500m": 28.73,
       "usage_per_capita_1km": 7.44,
-      "station_type": "commuter_hub"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUPAC",
@@ -285,7 +300,8 @@
       "daily_usage": 78054,
       "usage_per_capita_500m": 20.45,
       "usage_per_capita_1km": 5.57,
-      "station_type": "commuter_hub"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUQPS",
@@ -301,7 +317,8 @@
       "daily_usage": 12986,
       "usage_per_capita_500m": 1.43,
       "usage_per_capita_1km": 0.28,
-      "station_type": "residential_hub"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLURGP",
@@ -317,7 +334,8 @@
       "daily_usage": 6328,
       "usage_per_capita_500m": 1.02,
       "usage_per_capita_1km": 0.26,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUSGP",
@@ -333,7 +351,8 @@
       "daily_usage": 6821,
       "usage_per_capita_500m": 1.71,
       "usage_per_capita_1km": 0.34,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUSKT",
@@ -349,7 +368,8 @@
       "daily_usage": 2712,
       "usage_per_capita_500m": 0.69,
       "usage_per_capita_1km": 0.18,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUWJN",
@@ -361,11 +381,12 @@
       ],
       "population_500m": 7858,
       "population_1km": 23400,
-      "annual_usage": 4610000,
-      "daily_usage": 12630,
-      "usage_per_capita_500m": 1.61,
-      "usage_per_capita_1km": 0.54,
-      "station_type": "residential_hub"
+      "annual_usage": 7041954,
+      "daily_usage": 19293,
+      "usage_per_capita_500m": 2.46,
+      "usage_per_capita_1km": 0.82,
+      "station_type": "balanced",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "940GZZLUWKA",
@@ -381,7 +402,8 @@
       "daily_usage": 8575,
       "usage_per_capita_500m": 0.71,
       "usage_per_capita_1km": 0.17,
-      "station_type": "residential_hub"
+      "station_type": "residential_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUWLO",
@@ -400,7 +422,8 @@
       "daily_usage": 212027,
       "usage_per_capita_500m": 64.37,
       "usage_per_capita_1km": 13.29,
-      "station_type": "commuter_hub"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUWYC",
@@ -416,7 +439,8 @@
       "daily_usage": 13534,
       "usage_per_capita_500m": 1.38,
       "usage_per_capita_1km": 0.39,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUBKE",
@@ -432,7 +456,8 @@
       "daily_usage": 3452,
       "usage_per_capita_500m": 0.99,
       "usage_per_capita_1km": 0.31,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUBKH",
@@ -448,7 +473,8 @@
       "daily_usage": 6136,
       "usage_per_capita_500m": 1.65,
       "usage_per_capita_1km": 0.6,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUBLG",
@@ -460,11 +486,12 @@
       ],
       "population_500m": 13263,
       "population_1km": 51212,
-      "annual_usage": 10120000,
-      "daily_usage": 27726,
-      "usage_per_capita_500m": 2.09,
-      "usage_per_capita_1km": 0.54,
-      "station_type": "balanced"
+      "annual_usage": 1564066,
+      "daily_usage": 4285,
+      "usage_per_capita_500m": 0.32,
+      "usage_per_capita_1km": 0.08,
+      "station_type": "residential_hub",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "940GZZLUBND",
@@ -481,7 +508,8 @@
       "daily_usage": 112630,
       "usage_per_capita_500m": 28.56,
       "usage_per_capita_1km": 5.26,
-      "station_type": "commuter_hub"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUBNK",
@@ -495,11 +523,12 @@
       ],
       "population_500m": 798,
       "population_1km": 11485,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 37200000,
+      "daily_usage": 101917,
+      "usage_per_capita_500m": 127.72,
+      "usage_per_capita_1km": 8.87,
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia DLR"
     },
     {
       "naptanId": "940GZZLUCHL",
@@ -515,7 +544,8 @@
       "daily_usage": 23890,
       "usage_per_capita_500m": 3.62,
       "usage_per_capita_1km": 0.89,
-      "station_type": "commuter_hub"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUCWL",
@@ -531,7 +561,8 @@
       "daily_usage": 849,
       "usage_per_capita_500m": 0.57,
       "usage_per_capita_1km": 0.23,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUDBN",
@@ -547,7 +578,8 @@
       "daily_usage": 5424,
       "usage_per_capita_500m": 1.77,
       "usage_per_capita_1km": 0.52,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUEAN",
@@ -563,7 +595,8 @@
       "daily_usage": 10109,
       "usage_per_capita_500m": 1.92,
       "usage_per_capita_1km": 0.56,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUEBY",
@@ -576,11 +609,12 @@
       ],
       "population_500m": 5039,
       "population_1km": 20549,
-      "annual_usage": 17080000,
-      "daily_usage": 46794,
-      "usage_per_capita_500m": 9.29,
-      "usage_per_capita_1km": 2.28,
-      "station_type": "commuter_hub"
+      "annual_usage": 15456598,
+      "daily_usage": 42346,
+      "usage_per_capita_500m": 8.4,
+      "usage_per_capita_1km": 2.06,
+      "station_type": "commuter_hub",
+      "usage_source": "ORR (Elizabeth line)"
     },
     {
       "naptanId": "940GZZLUEPG",
@@ -596,7 +630,8 @@
       "daily_usage": 9315,
       "usage_per_capita_500m": 3.33,
       "usage_per_capita_1km": 1.04,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUFLP",
@@ -612,7 +647,8 @@
       "daily_usage": 2630,
       "usage_per_capita_500m": 1.83,
       "usage_per_capita_1km": 0.2,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUGFD",
@@ -628,7 +664,8 @@
       "daily_usage": 8958,
       "usage_per_capita_500m": 5.54,
       "usage_per_capita_1km": 0.76,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUGGH",
@@ -644,7 +681,8 @@
       "daily_usage": 958,
       "usage_per_capita_500m": 0.46,
       "usage_per_capita_1km": 0.09,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUGTH",
@@ -660,7 +698,8 @@
       "daily_usage": 13369,
       "usage_per_capita_500m": 1.62,
       "usage_per_capita_1km": 0.49,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUHBN",
@@ -677,7 +716,8 @@
       "daily_usage": 57095,
       "usage_per_capita_500m": 8.6,
       "usage_per_capita_1km": 2.03,
-      "station_type": "commuter_hub"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUHGR",
@@ -693,7 +733,8 @@
       "daily_usage": 7917,
       "usage_per_capita_500m": 1.69,
       "usage_per_capita_1km": 0.43,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUHLT",
@@ -709,7 +750,8 @@
       "daily_usage": 8301,
       "usage_per_capita_500m": 1.06,
       "usage_per_capita_1km": 0.42,
-      "station_type": "residential_hub"
+      "station_type": "residential_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUHPK",
@@ -725,7 +767,8 @@
       "daily_usage": 8082,
       "usage_per_capita_500m": 1.06,
       "usage_per_capita_1km": 0.2,
-      "station_type": "residential_hub"
+      "station_type": "residential_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLULGN",
@@ -741,7 +784,8 @@
       "daily_usage": 7643,
       "usage_per_capita_500m": 2.43,
       "usage_per_capita_1km": 0.63,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLULGT",
@@ -757,7 +801,8 @@
       "daily_usage": 8465,
       "usage_per_capita_500m": 1.06,
       "usage_per_capita_1km": 0.27,
-      "station_type": "residential_hub"
+      "station_type": "residential_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLULVT",
@@ -776,7 +821,8 @@
       "daily_usage": 167671,
       "usage_per_capita_500m": 58.24,
       "usage_per_capita_1km": 7.06,
-      "station_type": "commuter_hub"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLULYN",
@@ -792,7 +838,8 @@
       "daily_usage": 24520,
       "usage_per_capita_500m": 2.38,
       "usage_per_capita_1km": 0.68,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLULYS",
@@ -808,7 +855,8 @@
       "daily_usage": 19589,
       "usage_per_capita_500m": 2.71,
       "usage_per_capita_1km": 0.75,
-      "station_type": "balanced"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUMBA",
@@ -824,7 +872,8 @@
       "daily_usage": 25205,
       "usage_per_capita_500m": 3.45,
       "usage_per_capita_1km": 0.96,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUMED",
@@ -842,7 +891,8 @@
       "daily_usage": 30904,
       "usage_per_capita_500m": 2.62,
       "usage_per_capita_1km": 0.59,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUNAN",
@@ -858,7 +908,8 @@
       "daily_usage": 16739,
       "usage_per_capita_500m": 4.57,
       "usage_per_capita_1km": 1.37,
-      "station_type": "commuter_hub"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUNBP",
@@ -874,7 +925,8 @@
       "daily_usage": 9068,
       "usage_per_capita_500m": 1.33,
       "usage_per_capita_1km": 0.36,
-      "station_type": "residential_hub"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUNHG",
@@ -892,7 +944,8 @@
       "daily_usage": 35150,
       "usage_per_capita_500m": 3.25,
       "usage_per_capita_1km": 0.85,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUNHT",
@@ -908,7 +961,8 @@
       "daily_usage": 11726,
       "usage_per_capita_500m": 2.09,
       "usage_per_capita_1km": 0.53,
-      "station_type": "low_activity"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUPVL",
@@ -924,7 +978,8 @@
       "daily_usage": 4821,
       "usage_per_capita_500m": 1.45,
       "usage_per_capita_1km": 0.41,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUQWY",
@@ -940,7 +995,8 @@
       "daily_usage": 16465,
       "usage_per_capita_500m": 1.49,
       "usage_per_capita_1km": 0.46,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLURBG",
@@ -956,7 +1012,8 @@
       "daily_usage": 5643,
       "usage_per_capita_500m": 1.24,
       "usage_per_capita_1km": 0.35,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLURSG",
@@ -972,7 +1029,8 @@
       "daily_usage": 2356,
       "usage_per_capita_500m": 0.49,
       "usage_per_capita_1km": 0.15,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLURVY",
@@ -988,7 +1046,8 @@
       "daily_usage": 465,
       "usage_per_capita_500m": 0.17,
       "usage_per_capita_1km": 0.05,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUSBC",
@@ -1000,11 +1059,12 @@
       ],
       "population_500m": 9037,
       "population_1km": 40883,
-      "annual_usage": 13250000,
-      "daily_usage": 36301,
-      "usage_per_capita_500m": 4.02,
-      "usage_per_capita_1km": 0.89,
-      "station_type": "balanced"
+      "annual_usage": 6931918,
+      "daily_usage": 18991,
+      "usage_per_capita_500m": 2.1,
+      "usage_per_capita_1km": 0.46,
+      "station_type": "balanced",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "940GZZLUSNB",
@@ -1020,7 +1080,8 @@
       "daily_usage": 5178,
       "usage_per_capita_500m": 1.04,
       "usage_per_capita_1km": 0.31,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUSPU",
@@ -1036,7 +1097,8 @@
       "daily_usage": 25808,
       "usage_per_capita_500m": 5.79,
       "usage_per_capita_1km": 1.5,
-      "station_type": "commuter_hub"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUSRP",
@@ -1052,7 +1114,8 @@
       "daily_usage": 4438,
       "usage_per_capita_500m": 1.04,
       "usage_per_capita_1km": 0.3,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUSTD",
@@ -1065,11 +1128,12 @@
       ],
       "population_500m": 8732,
       "population_1km": 35179,
-      "annual_usage": 55720000,
-      "daily_usage": 152657,
-      "usage_per_capita_500m": 17.48,
-      "usage_per_capita_1km": 4.34,
-      "station_type": "balanced"
+      "annual_usage": 51473518,
+      "daily_usage": 141023,
+      "usage_per_capita_500m": 16.15,
+      "usage_per_capita_1km": 4.01,
+      "station_type": "balanced",
+      "usage_source": "ORR (Elizabeth line)"
     },
     {
       "naptanId": "940GZZLUSWF",
@@ -1085,7 +1149,8 @@
       "daily_usage": 11369,
       "usage_per_capita_500m": 1.7,
       "usage_per_capita_1km": 0.5,
-      "station_type": "residential_hub"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUTCR",
@@ -1102,7 +1167,8 @@
       "daily_usage": 170027,
       "usage_per_capita_500m": 30.3,
       "usage_per_capita_1km": 6.48,
-      "station_type": "commuter_hub"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUTHB",
@@ -1118,7 +1184,8 @@
       "daily_usage": 2027,
       "usage_per_capita_500m": 1.08,
       "usage_per_capita_1km": 0.48,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUWCY",
@@ -1134,7 +1201,8 @@
       "daily_usage": 22410,
       "usage_per_capita_500m": 3.4,
       "usage_per_capita_1km": 0.63,
-      "station_type": "commuter_hub"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUWOF",
@@ -1150,7 +1218,8 @@
       "daily_usage": 12575,
       "usage_per_capita_500m": 2.8,
       "usage_per_capita_1km": 0.7,
-      "station_type": "low_activity"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUWRP",
@@ -1166,7 +1235,8 @@
       "daily_usage": 4054,
       "usage_per_capita_500m": 1.19,
       "usage_per_capita_1km": 0.43,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUWSD",
@@ -1182,7 +1252,8 @@
       "daily_usage": 5424,
       "usage_per_capita_500m": 1.1,
       "usage_per_capita_1km": 0.37,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUWTA",
@@ -1198,7 +1269,8 @@
       "daily_usage": 3041,
       "usage_per_capita_500m": 0.91,
       "usage_per_capita_1km": 0.23,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUALD",
@@ -1215,7 +1287,8 @@
       "daily_usage": 20794,
       "usage_per_capita_500m": 2.44,
       "usage_per_capita_1km": 0.67,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUBBN",
@@ -1233,7 +1306,8 @@
       "daily_usage": 14739,
       "usage_per_capita_500m": 1.21,
       "usage_per_capita_1km": 0.42,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUBKF",
@@ -1250,7 +1324,8 @@
       "daily_usage": 30520,
       "usage_per_capita_500m": 22.84,
       "usage_per_capita_1km": 2.32,
-      "station_type": "commuter_hub"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUBWT",
@@ -1267,7 +1342,8 @@
       "daily_usage": 10575,
       "usage_per_capita_500m": 0.69,
       "usage_per_capita_1km": 0.26,
-      "station_type": "residential_hub"
+      "station_type": "residential_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUCST",
@@ -1284,7 +1360,8 @@
       "daily_usage": 11808,
       "usage_per_capita_500m": 0,
       "usage_per_capita_1km": 1.32,
-      "station_type": "no_population_data"
+      "station_type": "no_population_data",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUERC",
@@ -1302,7 +1379,8 @@
       "daily_usage": 10191,
       "usage_per_capita_500m": 0.61,
       "usage_per_capita_1km": 0.24,
-      "station_type": "residential_hub"
+      "station_type": "residential_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUESQ",
@@ -1320,7 +1398,8 @@
       "daily_usage": 33589,
       "usage_per_capita_500m": 3.53,
       "usage_per_capita_1km": 0.98,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUFCN",
@@ -1338,7 +1417,8 @@
       "daily_usage": 113041,
       "usage_per_capita_500m": 12.12,
       "usage_per_capita_1km": 3.24,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUGHK",
@@ -1355,7 +1435,8 @@
       "daily_usage": 5205,
       "usage_per_capita_500m": 0.47,
       "usage_per_capita_1km": 0.11,
-      "station_type": "residential_hub"
+      "station_type": "residential_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUGPS",
@@ -1373,7 +1454,8 @@
       "daily_usage": 16219,
       "usage_per_capita_500m": 1.88,
       "usage_per_capita_1km": 0.63,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUGTR",
@@ -1391,7 +1473,8 @@
       "daily_usage": 32958,
       "usage_per_capita_500m": 3.76,
       "usage_per_capita_1km": 0.99,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUHSC",
@@ -1408,7 +1491,8 @@
       "daily_usage": 27178,
       "usage_per_capita_500m": 3.48,
       "usage_per_capita_1km": 0.71,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUHSK",
@@ -1425,7 +1509,8 @@
       "daily_usage": 27945,
       "usage_per_capita_500m": 3.18,
       "usage_per_capita_1km": 0.98,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUKSX",
@@ -1446,7 +1531,8 @@
       "daily_usage": 211315,
       "usage_per_capita_500m": 37.86,
       "usage_per_capita_1km": 5.08,
-      "station_type": "commuter_hub"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLULAD",
@@ -1463,7 +1549,8 @@
       "daily_usage": 16794,
       "usage_per_capita_500m": 1.25,
       "usage_per_capita_1km": 0.34,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLULRD",
@@ -1480,7 +1567,8 @@
       "daily_usage": 8465,
       "usage_per_capita_500m": 0.76,
       "usage_per_capita_1km": 0.21,
-      "station_type": "residential_hub"
+      "station_type": "residential_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUMGT",
@@ -1499,7 +1587,8 @@
       "daily_usage": 73780,
       "usage_per_capita_500m": 15.88,
       "usage_per_capita_1km": 3.01,
-      "station_type": "commuter_hub"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUMMT",
@@ -1533,7 +1622,8 @@
       "daily_usage": 12328,
       "usage_per_capita_500m": 22.83,
       "usage_per_capita_1km": 1.06,
-      "station_type": "low_activity"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUPAH",
@@ -1567,7 +1657,8 @@
       "daily_usage": 6109,
       "usage_per_capita_500m": 0.47,
       "usage_per_capita_1km": 0.11,
-      "station_type": "residential_hub"
+      "station_type": "residential_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUSBM",
@@ -1584,7 +1675,8 @@
       "daily_usage": 9315,
       "usage_per_capita_500m": 1.08,
       "usage_per_capita_1km": 0.21,
-      "station_type": "residential_hub"
+      "station_type": "residential_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUSJP",
@@ -1601,7 +1693,8 @@
       "daily_usage": 28958,
       "usage_per_capita_500m": 14.31,
       "usage_per_capita_1km": 2.3,
-      "station_type": "commuter_hub"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUSKS",
@@ -1619,7 +1712,8 @@
       "daily_usage": 80767,
       "usage_per_capita_500m": 13.89,
       "usage_per_capita_1km": 2.81,
-      "station_type": "commuter_hub"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUSSQ",
@@ -1636,7 +1730,8 @@
       "daily_usage": 39013,
       "usage_per_capita_500m": 5.57,
       "usage_per_capita_1km": 1.5,
-      "station_type": "balanced"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUTMP",
@@ -1653,7 +1748,8 @@
       "daily_usage": 22602,
       "usage_per_capita_500m": 12.15,
       "usage_per_capita_1km": 1.48,
-      "station_type": "commuter_hub"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUTWH",
@@ -1670,7 +1766,8 @@
       "daily_usage": 44931,
       "usage_per_capita_500m": 11.77,
       "usage_per_capita_1km": 1.7,
-      "station_type": "commuter_hub"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUVIC",
@@ -1688,7 +1785,8 @@
       "daily_usage": 171753,
       "usage_per_capita_500m": 44.27,
       "usage_per_capita_1km": 7.96,
-      "station_type": "commuter_hub"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUWLA",
@@ -1705,7 +1803,8 @@
       "daily_usage": 14246,
       "usage_per_capita_500m": 2.63,
       "usage_per_capita_1km": 0.37,
-      "station_type": "commuter_hub"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUWSM",
@@ -1723,7 +1822,8 @@
       "daily_usage": 53726,
       "usage_per_capita_500m": 151.34,
       "usage_per_capita_1km": 5.34,
-      "station_type": "commuter_hub"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUWSP",
@@ -1740,7 +1840,8 @@
       "daily_usage": 10739,
       "usage_per_capita_500m": 0.7,
       "usage_per_capita_1km": 0.17,
-      "station_type": "residential_hub"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUACT",
@@ -1757,7 +1858,8 @@
       "daily_usage": 13863,
       "usage_per_capita_500m": 2.05,
       "usage_per_capita_1km": 0.58,
-      "station_type": "balanced"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUADE",
@@ -1774,7 +1876,8 @@
       "daily_usage": 33753,
       "usage_per_capita_500m": 2.48,
       "usage_per_capita_1km": 0.88,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUBBB",
@@ -1791,7 +1894,8 @@
       "daily_usage": 10739,
       "usage_per_capita_500m": 0.93,
       "usage_per_capita_1km": 0.33,
-      "station_type": "residential_hub"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUBEC",
@@ -1807,7 +1911,8 @@
       "daily_usage": 8109,
       "usage_per_capita_500m": 1.99,
       "usage_per_capita_1km": 0.3,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUBKG",
@@ -1824,7 +1929,8 @@
       "daily_usage": 49945,
       "usage_per_capita_500m": 4.95,
       "usage_per_capita_1km": 1.49,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUBSC",
@@ -1841,7 +1947,8 @@
       "daily_usage": 15698,
       "usage_per_capita_500m": 1.57,
       "usage_per_capita_1km": 0.35,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUBWR",
@@ -1858,7 +1965,8 @@
       "daily_usage": 11917,
       "usage_per_capita_500m": 0.79,
       "usage_per_capita_1km": 0.23,
-      "station_type": "residential_hub"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUCWP",
@@ -1874,7 +1982,8 @@
       "daily_usage": 6000,
       "usage_per_capita_500m": 0.76,
       "usage_per_capita_1km": 0.2,
-      "station_type": "residential_hub"
+      "station_type": "residential_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUDGE",
@@ -1890,7 +1999,8 @@
       "daily_usage": 7397,
       "usage_per_capita_500m": 1.72,
       "usage_per_capita_1km": 0.46,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUDGY",
@@ -1906,7 +2016,8 @@
       "daily_usage": 13479,
       "usage_per_capita_500m": 1.52,
       "usage_per_capita_1km": 0.49,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUECM",
@@ -1923,7 +2034,8 @@
       "daily_usage": 5287,
       "usage_per_capita_500m": 1.16,
       "usage_per_capita_1km": 0.28,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUECT",
@@ -1940,7 +2052,8 @@
       "daily_usage": 45452,
       "usage_per_capita_500m": 3.23,
       "usage_per_capita_1km": 1.04,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUEHM",
@@ -1957,7 +2070,8 @@
       "daily_usage": 30465,
       "usage_per_capita_500m": 2.89,
       "usage_per_capita_1km": 0.57,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUEPK",
@@ -1973,7 +2087,8 @@
       "daily_usage": 7232,
       "usage_per_capita_500m": 1.46,
       "usage_per_capita_1km": 0.44,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUEPY",
@@ -1989,7 +2104,8 @@
       "daily_usage": 16739,
       "usage_per_capita_500m": 1.83,
       "usage_per_capita_1km": 0.59,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUFBY",
@@ -2005,7 +2121,8 @@
       "daily_usage": 18876,
       "usage_per_capita_500m": 1.81,
       "usage_per_capita_1km": 0.41,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUGBY",
@@ -2021,7 +2138,8 @@
       "daily_usage": 10547,
       "usage_per_capita_500m": 2.42,
       "usage_per_capita_1km": 0.45,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUHCH",
@@ -2037,7 +2155,8 @@
       "daily_usage": 4520,
       "usage_per_capita_500m": 1.1,
       "usage_per_capita_1km": 0.29,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUHSD",
@@ -2054,7 +2173,8 @@
       "daily_usage": 27178,
       "usage_per_capita_500m": 4.11,
       "usage_per_capita_1km": 0.71,
-      "station_type": "commuter_hub"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUKOY",
@@ -2086,7 +2206,8 @@
       "daily_usage": 8438,
       "usage_per_capita_500m": 1.76,
       "usage_per_capita_1km": 0.64,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUPLW",
@@ -2103,7 +2224,8 @@
       "daily_usage": 12767,
       "usage_per_capita_500m": 0.93,
       "usage_per_capita_1km": 0.31,
-      "station_type": "residential_hub"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUPSG",
@@ -2119,7 +2241,8 @@
       "daily_usage": 15890,
       "usage_per_capita_500m": 1.3,
       "usage_per_capita_1km": 0.34,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUPYB",
@@ -2135,7 +2258,8 @@
       "daily_usage": 13534,
       "usage_per_capita_500m": 1.98,
       "usage_per_capita_1km": 0.47,
-      "station_type": "balanced"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLURMD",
@@ -2151,7 +2275,8 @@
       "daily_usage": 32794,
       "usage_per_capita_500m": 7.63,
       "usage_per_capita_1km": 2.38,
-      "station_type": "commuter_hub"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLURVP",
@@ -2167,7 +2292,8 @@
       "daily_usage": 7479,
       "usage_per_capita_500m": 0.81,
       "usage_per_capita_1km": 0.21,
-      "station_type": "residential_hub"
+      "station_type": "residential_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUSFB",
@@ -2183,7 +2309,8 @@
       "daily_usage": 6219,
       "usage_per_capita_500m": 0.89,
       "usage_per_capita_1km": 0.18,
-      "station_type": "residential_hub"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUSFS",
@@ -2199,7 +2326,8 @@
       "daily_usage": 14082,
       "usage_per_capita_500m": 1.51,
       "usage_per_capita_1km": 0.44,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUSGN",
@@ -2216,7 +2344,8 @@
       "daily_usage": 14931,
       "usage_per_capita_500m": 1.15,
       "usage_per_capita_1km": 0.28,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUTNG",
@@ -2233,7 +2362,8 @@
       "daily_usage": 13780,
       "usage_per_capita_500m": 2.14,
       "usage_per_capita_1km": 0.42,
-      "station_type": "commuter_hub"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUUPB",
@@ -2249,7 +2379,8 @@
       "daily_usage": 2027,
       "usage_per_capita_500m": 0.54,
       "usage_per_capita_1km": 0.17,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUUPK",
@@ -2266,7 +2397,8 @@
       "daily_usage": 32191,
       "usage_per_capita_500m": 1.91,
       "usage_per_capita_1km": 0.51,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUUPM",
@@ -2282,7 +2414,8 @@
       "daily_usage": 12821,
       "usage_per_capita_500m": 6.1,
       "usage_per_capita_1km": 1.67,
-      "station_type": "low_activity"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUUPY",
@@ -2298,7 +2431,8 @@
       "daily_usage": 6219,
       "usage_per_capita_500m": 0.98,
       "usage_per_capita_1km": 0.25,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUWBN",
@@ -2314,7 +2448,8 @@
       "daily_usage": 13917,
       "usage_per_capita_500m": 1.18,
       "usage_per_capita_1km": 0.29,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUWHM",
@@ -2332,7 +2467,8 @@
       "daily_usage": 15041,
       "usage_per_capita_500m": 2.68,
       "usage_per_capita_1km": 0.54,
-      "station_type": "commuter_hub"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUWIM",
@@ -2348,7 +2484,8 @@
       "daily_usage": 47671,
       "usage_per_capita_500m": 9.09,
       "usage_per_capita_1km": 2.22,
-      "station_type": "commuter_hub"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUWIP",
@@ -2364,7 +2501,8 @@
       "daily_usage": 5260,
       "usage_per_capita_500m": 1.02,
       "usage_per_capita_1km": 0.27,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUWKN",
@@ -2380,7 +2518,8 @@
       "daily_usage": 10931,
       "usage_per_capita_500m": 0.78,
       "usage_per_capita_1km": 0.24,
-      "station_type": "residential_hub"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUWPL",
@@ -2397,7 +2536,8 @@
       "daily_usage": 50082,
       "usage_per_capita_500m": 4.29,
       "usage_per_capita_1km": 0.92,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUBMY",
@@ -2413,7 +2553,8 @@
       "daily_usage": 20054,
       "usage_per_capita_500m": 1.97,
       "usage_per_capita_1km": 0.52,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUCGT",
@@ -2429,7 +2570,8 @@
       "daily_usage": 34575,
       "usage_per_capita_500m": 3.71,
       "usage_per_capita_1km": 1.01,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUCPK",
@@ -2445,7 +2587,8 @@
       "daily_usage": 6082,
       "usage_per_capita_500m": 1.32,
       "usage_per_capita_1km": 0.41,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUCWR",
@@ -2461,7 +2604,8 @@
       "daily_usage": 27808,
       "usage_per_capita_500m": 3.07,
       "usage_per_capita_1km": 0.95,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUCYF",
@@ -2473,11 +2617,12 @@
       ],
       "population_500m": 3469,
       "population_1km": 43803,
-      "annual_usage": 33180000,
-      "daily_usage": 90904,
-      "usage_per_capita_500m": 26.2,
-      "usage_per_capita_1km": 2.08,
-      "station_type": "commuter_hub"
+      "annual_usage": 15927588,
+      "daily_usage": 43637,
+      "usage_per_capita_500m": 12.58,
+      "usage_per_capita_1km": 1.0,
+      "station_type": "commuter_hub",
+      "usage_source": "ORR (Elizabeth line)"
     },
     {
       "naptanId": "940GZZLUDOH",
@@ -2493,7 +2638,8 @@
       "daily_usage": 8712,
       "usage_per_capita_500m": 1.45,
       "usage_per_capita_1km": 0.3,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUFYR",
@@ -2510,7 +2656,8 @@
       "daily_usage": 20821,
       "usage_per_capita_500m": 2.39,
       "usage_per_capita_1km": 0.55,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUGPK",
@@ -2528,7 +2675,8 @@
       "daily_usage": 85205,
       "usage_per_capita_500m": 58.04,
       "usage_per_capita_1km": 12.45,
-      "station_type": "commuter_hub"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUKBN",
@@ -2544,7 +2692,8 @@
       "daily_usage": 15205,
       "usage_per_capita_500m": 1.51,
       "usage_per_capita_1km": 0.41,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUKBY",
@@ -2560,7 +2709,8 @@
       "daily_usage": 10821,
       "usage_per_capita_500m": 1.62,
       "usage_per_capita_1km": 0.5,
-      "station_type": "low_activity"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLULNB",
@@ -2577,7 +2727,8 @@
       "daily_usage": 158602,
       "usage_per_capita_500m": 171.83,
       "usage_per_capita_1km": 11.69,
-      "station_type": "commuter_hub"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUNDN",
@@ -2593,7 +2744,8 @@
       "daily_usage": 7232,
       "usage_per_capita_500m": 1.3,
       "usage_per_capita_1km": 0.31,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUNGW",
@@ -2609,7 +2761,8 @@
       "daily_usage": 65013,
       "usage_per_capita_500m": 40.94,
       "usage_per_capita_1km": 4.66,
-      "station_type": "commuter_hub"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUQBY",
@@ -2625,7 +2778,8 @@
       "daily_usage": 8630,
       "usage_per_capita_500m": 1.15,
       "usage_per_capita_1km": 0.32,
-      "station_type": "residential_hub"
+      "station_type": "residential_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUSJW",
@@ -2641,7 +2795,8 @@
       "daily_usage": 16904,
       "usage_per_capita_500m": 2.39,
       "usage_per_capita_1km": 0.53,
-      "station_type": "balanced"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUSTM",
@@ -2657,7 +2812,8 @@
       "daily_usage": 8904,
       "usage_per_capita_500m": 4.91,
       "usage_per_capita_1km": 0.93,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUSWC",
@@ -2673,7 +2829,8 @@
       "daily_usage": 15397,
       "usage_per_capita_500m": 1.43,
       "usage_per_capita_1km": 0.42,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUSWK",
@@ -2689,7 +2846,8 @@
       "daily_usage": 24931,
       "usage_per_capita_500m": 4.22,
       "usage_per_capita_1km": 1.18,
-      "station_type": "commuter_hub"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUWHP",
@@ -2701,11 +2859,12 @@
       ],
       "population_500m": 10528,
       "population_1km": 41556,
-      "annual_usage": 8430000,
-      "daily_usage": 23095,
-      "usage_per_capita_500m": 2.19,
-      "usage_per_capita_1km": 0.56,
-      "station_type": "balanced"
+      "annual_usage": 3944888,
+      "daily_usage": 10807,
+      "usage_per_capita_500m": 1.03,
+      "usage_per_capita_1km": 0.26,
+      "station_type": "balanced",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "940GZZLUWIG",
@@ -2722,7 +2881,8 @@
       "daily_usage": 15890,
       "usage_per_capita_500m": 2.04,
       "usage_per_capita_1km": 0.47,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUWYP",
@@ -2739,7 +2899,8 @@
       "daily_usage": 45287,
       "usage_per_capita_500m": 6.94,
       "usage_per_capita_1km": 1.92,
-      "station_type": "commuter_hub"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUAMS",
@@ -2755,7 +2916,8 @@
       "daily_usage": 5205,
       "usage_per_capita_500m": 2.03,
       "usage_per_capita_1km": 0.7,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUCAL",
@@ -2771,7 +2933,8 @@
       "daily_usage": 4164,
       "usage_per_capita_500m": 1.92,
       "usage_per_capita_1km": 0.83,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUCSM",
@@ -2787,7 +2950,8 @@
       "daily_usage": 2794,
       "usage_per_capita_500m": 0.88,
       "usage_per_capita_1km": 0.25,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUCXY",
@@ -2803,7 +2967,8 @@
       "daily_usage": 2465,
       "usage_per_capita_500m": 0.52,
       "usage_per_capita_1km": 0.2,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUCYD",
@@ -2819,7 +2984,8 @@
       "daily_usage": 3835,
       "usage_per_capita_500m": 2.18,
       "usage_per_capita_1km": 0.87,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUEAE",
@@ -2836,7 +3002,8 @@
       "daily_usage": 6054,
       "usage_per_capita_500m": 1.41,
       "usage_per_capita_1km": 0.36,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUHGD",
@@ -2853,7 +3020,8 @@
       "daily_usage": 3945,
       "usage_per_capita_500m": 2.65,
       "usage_per_capita_1km": 0.47,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUHOH",
@@ -2869,7 +3037,8 @@
       "daily_usage": 23671,
       "usage_per_capita_500m": 2.69,
       "usage_per_capita_1km": 0.88,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUICK",
@@ -2886,7 +3055,8 @@
       "daily_usage": 2383,
       "usage_per_capita_500m": 0.82,
       "usage_per_capita_1km": 0.25,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUMPK",
@@ -2902,7 +3072,8 @@
       "daily_usage": 2273,
       "usage_per_capita_500m": 6.48,
       "usage_per_capita_1km": 1.29,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUNHA",
@@ -2918,7 +3089,8 @@
       "daily_usage": 4054,
       "usage_per_capita_500m": 0.82,
       "usage_per_capita_1km": 0.21,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUNKP",
@@ -2934,7 +3106,8 @@
       "daily_usage": 8821,
       "usage_per_capita_500m": 2.47,
       "usage_per_capita_1km": 0.57,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUNOW",
@@ -2950,7 +3123,8 @@
       "daily_usage": 6000,
       "usage_per_capita_500m": 1.97,
       "usage_per_capita_1km": 0.57,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUNWH",
@@ -2966,7 +3140,8 @@
       "daily_usage": 3835,
       "usage_per_capita_500m": 0.94,
       "usage_per_capita_1km": 0.3,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUPNR",
@@ -2982,7 +3157,8 @@
       "daily_usage": 6931,
       "usage_per_capita_500m": 3.25,
       "usage_per_capita_1km": 0.64,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUPRD",
@@ -2998,7 +3174,8 @@
       "daily_usage": 6904,
       "usage_per_capita_500m": 1.58,
       "usage_per_capita_1km": 0.36,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLURKW",
@@ -3014,7 +3191,8 @@
       "daily_usage": 5150,
       "usage_per_capita_500m": 3.33,
       "usage_per_capita_1km": 0.83,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLURSM",
@@ -3031,7 +3209,8 @@
       "daily_usage": 3890,
       "usage_per_capita_500m": 1.06,
       "usage_per_capita_1km": 0.25,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLURSP",
@@ -3048,7 +3227,8 @@
       "daily_usage": 4082,
       "usage_per_capita_500m": 0.99,
       "usage_per_capita_1km": 0.28,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLURYL",
@@ -3065,7 +3245,8 @@
       "daily_usage": 9287,
       "usage_per_capita_500m": 2.19,
       "usage_per_capita_1km": 0.46,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUUXB",
@@ -3082,7 +3263,8 @@
       "daily_usage": 14876,
       "usage_per_capita_500m": 3.44,
       "usage_per_capita_1km": 1.21,
-      "station_type": "commuter_hub"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUWAF",
@@ -3098,7 +3280,8 @@
       "daily_usage": 4657,
       "usage_per_capita_500m": 2.09,
       "usage_per_capita_1km": 0.37,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUWHW",
@@ -3114,7 +3297,8 @@
       "daily_usage": 3342,
       "usage_per_capita_500m": 0.46,
       "usage_per_capita_1km": 0.14,
-      "station_type": "residential_hub"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZBPSUST",
@@ -3130,7 +3314,8 @@
       "daily_usage": 25287,
       "usage_per_capita_500m": 3.58,
       "usage_per_capita_1km": 0.72,
-      "station_type": "balanced"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUACY",
@@ -3146,7 +3331,8 @@
       "daily_usage": 20082,
       "usage_per_capita_500m": 1.83,
       "usage_per_capita_1km": 0.53,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUAGL",
@@ -3162,7 +3348,8 @@
       "daily_usage": 34739,
       "usage_per_capita_500m": 3.42,
       "usage_per_capita_1km": 0.72,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUBLM",
@@ -3178,7 +3365,8 @@
       "daily_usage": 28054,
       "usage_per_capita_500m": 2.51,
       "usage_per_capita_1km": 0.74,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUBOR",
@@ -3194,7 +3382,8 @@
       "daily_usage": 11452,
       "usage_per_capita_500m": 1.33,
       "usage_per_capita_1km": 0.35,
-      "station_type": "residential_hub"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUBTK",
@@ -3210,7 +3399,8 @@
       "daily_usage": 12849,
       "usage_per_capita_500m": 1.79,
       "usage_per_capita_1km": 0.44,
-      "station_type": "residential_hub"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUBTX",
@@ -3226,7 +3416,8 @@
       "daily_usage": 4986,
       "usage_per_capita_500m": 0.65,
       "usage_per_capita_1km": 0.22,
-      "station_type": "residential_hub"
+      "station_type": "residential_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUBZP",
@@ -3242,7 +3433,8 @@
       "daily_usage": 14438,
       "usage_per_capita_500m": 1.56,
       "usage_per_capita_1km": 0.41,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUCFM",
@@ -3258,7 +3450,8 @@
       "daily_usage": 13534,
       "usage_per_capita_500m": 1.16,
       "usage_per_capita_1km": 0.33,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUCND",
@@ -3290,7 +3483,8 @@
       "daily_usage": 22246,
       "usage_per_capita_500m": 2.36,
       "usage_per_capita_1km": 0.55,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUCPN",
@@ -3306,7 +3500,8 @@
       "daily_usage": 14191,
       "usage_per_capita_500m": 1.13,
       "usage_per_capita_1km": 0.28,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUCPS",
@@ -3322,7 +3517,8 @@
       "daily_usage": 18109,
       "usage_per_capita_500m": 2.87,
       "usage_per_capita_1km": 0.58,
-      "station_type": "commuter_hub"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUCSD",
@@ -3338,7 +3534,8 @@
       "daily_usage": 15178,
       "usage_per_capita_500m": 1.81,
       "usage_per_capita_1km": 0.48,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUCTN",
@@ -3354,7 +3551,8 @@
       "daily_usage": 51424,
       "usage_per_capita_500m": 5.09,
       "usage_per_capita_1km": 1.34,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUEFY",
@@ -3370,7 +3568,8 @@
       "daily_usage": 15095,
       "usage_per_capita_500m": 2.23,
       "usage_per_capita_1km": 0.77,
-      "station_type": "balanced"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUEGW",
@@ -3386,7 +3585,8 @@
       "daily_usage": 11041,
       "usage_per_capita_500m": 2.16,
       "usage_per_capita_1km": 0.51,
-      "station_type": "low_activity"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUEUS",
@@ -3403,7 +3603,8 @@
       "daily_usage": 90931,
       "usage_per_capita_500m": 12.87,
       "usage_per_capita_1km": 2.34,
-      "station_type": "balanced"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUFYC",
@@ -3419,7 +3620,8 @@
       "daily_usage": 14191,
       "usage_per_capita_500m": 1.84,
       "usage_per_capita_1km": 0.69,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUGDG",
@@ -3435,7 +3637,8 @@
       "daily_usage": 14904,
       "usage_per_capita_500m": 2.7,
       "usage_per_capita_1km": 0.47,
-      "station_type": "commuter_hub"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUGGN",
@@ -3451,7 +3654,8 @@
       "daily_usage": 17095,
       "usage_per_capita_500m": 3.41,
       "usage_per_capita_1km": 0.98,
-      "station_type": "commuter_hub"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUHBT",
@@ -3467,7 +3671,8 @@
       "daily_usage": 10164,
       "usage_per_capita_500m": 3.34,
       "usage_per_capita_1km": 0.69,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUHCL",
@@ -3483,7 +3688,8 @@
       "daily_usage": 20082,
       "usage_per_capita_500m": 3.53,
       "usage_per_capita_1km": 0.86,
-      "station_type": "commuter_hub"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUHGT",
@@ -3499,7 +3705,8 @@
       "daily_usage": 12712,
       "usage_per_capita_500m": 3.23,
       "usage_per_capita_1km": 0.81,
-      "station_type": "low_activity"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUHTD",
@@ -3515,7 +3722,8 @@
       "daily_usage": 11260,
       "usage_per_capita_500m": 1.89,
       "usage_per_capita_1km": 0.72,
-      "station_type": "low_activity"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUKNG",
@@ -3531,7 +3739,8 @@
       "daily_usage": 13506,
       "usage_per_capita_500m": 0.96,
       "usage_per_capita_1km": 0.27,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUKSH",
@@ -3564,7 +3773,8 @@
       "daily_usage": 75506,
       "usage_per_capita_500m": 12.64,
       "usage_per_capita_1km": 4.94,
-      "station_type": "commuter_hub"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUMDN",
@@ -3580,7 +3790,8 @@
       "daily_usage": 23835,
       "usage_per_capita_500m": 6.63,
       "usage_per_capita_1km": 1.56,
-      "station_type": "commuter_hub"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUMHL",
@@ -3596,7 +3807,8 @@
       "daily_usage": 4438,
       "usage_per_capita_500m": 1.03,
       "usage_per_capita_1km": 0.45,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUMTC",
@@ -3612,7 +3824,8 @@
       "daily_usage": 8109,
       "usage_per_capita_500m": 0.65,
       "usage_per_capita_1km": 0.24,
-      "station_type": "residential_hub"
+      "station_type": "residential_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUODS",
@@ -3628,7 +3841,8 @@
       "daily_usage": 45315,
       "usage_per_capita_500m": 3.01,
       "usage_per_capita_1km": 0.92,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUOVL",
@@ -3644,7 +3858,8 @@
       "daily_usage": 14821,
       "usage_per_capita_500m": 1.81,
       "usage_per_capita_1km": 0.31,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUSKW",
@@ -3661,7 +3876,8 @@
       "daily_usage": 20821,
       "usage_per_capita_500m": 1.62,
       "usage_per_capita_1km": 0.37,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUSWN",
@@ -3677,7 +3893,8 @@
       "daily_usage": 10410,
       "usage_per_capita_500m": 1.17,
       "usage_per_capita_1km": 0.4,
-      "station_type": "residential_hub"
+      "station_type": "residential_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUTAW",
@@ -3693,7 +3910,8 @@
       "daily_usage": 5589,
       "usage_per_capita_500m": 1.92,
       "usage_per_capita_1km": 0.48,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUTBC",
@@ -3709,7 +3927,8 @@
       "daily_usage": 17863,
       "usage_per_capita_500m": 1.6,
       "usage_per_capita_1km": 0.53,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUTBY",
@@ -3725,7 +3944,8 @@
       "daily_usage": 34821,
       "usage_per_capita_500m": 3.38,
       "usage_per_capita_1km": 0.91,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUTFP",
@@ -3741,7 +3961,8 @@
       "daily_usage": 13452,
       "usage_per_capita_500m": 1.39,
       "usage_per_capita_1km": 0.35,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUWFN",
@@ -3757,7 +3978,8 @@
       "daily_usage": 3753,
       "usage_per_capita_500m": 0.66,
       "usage_per_capita_1km": 0.17,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUWOP",
@@ -3773,7 +3995,8 @@
       "daily_usage": 8849,
       "usage_per_capita_500m": 2.04,
       "usage_per_capita_1km": 0.47,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUWRR",
@@ -3790,7 +4013,8 @@
       "daily_usage": 40493,
       "usage_per_capita_500m": 4.6,
       "usage_per_capita_1km": 1.21,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZNEUGST",
@@ -3806,7 +4030,8 @@
       "daily_usage": 11260,
       "usage_per_capita_500m": 1.11,
       "usage_per_capita_1km": 0.29,
-      "station_type": "residential_hub"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUALP",
@@ -3822,7 +4047,8 @@
       "daily_usage": 7095,
       "usage_per_capita_500m": 0.68,
       "usage_per_capita_1km": 0.22,
-      "station_type": "residential_hub"
+      "station_type": "residential_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUASG",
@@ -3838,7 +4064,8 @@
       "daily_usage": 9013,
       "usage_per_capita_500m": 2.36,
       "usage_per_capita_1km": 0.47,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUASL",
@@ -3854,7 +4081,8 @@
       "daily_usage": 6219,
       "usage_per_capita_500m": 0.52,
       "usage_per_capita_1km": 0.13,
-      "station_type": "residential_hub"
+      "station_type": "residential_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUBDS",
@@ -3870,7 +4098,8 @@
       "daily_usage": 11835,
       "usage_per_capita_500m": 1.46,
       "usage_per_capita_1km": 0.43,
-      "station_type": "residential_hub"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUBOS",
@@ -3886,7 +4115,8 @@
       "daily_usage": 3890,
       "usage_per_capita_500m": 0.99,
       "usage_per_capita_1km": 0.22,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUCAR",
@@ -3902,7 +4132,8 @@
       "daily_usage": 10547,
       "usage_per_capita_500m": 0.79,
       "usage_per_capita_1km": 0.23,
-      "station_type": "residential_hub"
+      "station_type": "residential_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUCGN",
@@ -3918,7 +4149,8 @@
       "daily_usage": 37041,
       "usage_per_capita_500m": 6.22,
       "usage_per_capita_1km": 2.08,
-      "station_type": "commuter_hub"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUCKS",
@@ -3934,7 +4166,8 @@
       "daily_usage": 4027,
       "usage_per_capita_500m": 3.66,
       "usage_per_capita_1km": 0.59,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUFPK",
@@ -3951,7 +4184,8 @@
       "daily_usage": 58136,
       "usage_per_capita_500m": 5.26,
       "usage_per_capita_1km": 1.41,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUHNX",
@@ -3967,7 +4201,8 @@
       "daily_usage": 8958,
       "usage_per_capita_500m": 0,
       "usage_per_capita_1km": 12.74,
-      "station_type": "no_population_data"
+      "station_type": "no_population_data",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUHPC",
@@ -3983,7 +4218,8 @@
       "daily_usage": 9890,
       "usage_per_capita_500m": 7.96,
       "usage_per_capita_1km": 1.34,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUHR4",
@@ -4015,7 +4251,8 @@
       "daily_usage": 11232,
       "usage_per_capita_500m": 0,
       "usage_per_capita_1km": 30.69,
-      "station_type": "no_population_data"
+      "station_type": "no_population_data",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUHRC",
@@ -4031,7 +4268,8 @@
       "daily_usage": 16547,
       "usage_per_capita_500m": 0,
       "usage_per_capita_1km": 0,
-      "station_type": "no_population_data"
+      "station_type": "no_population_data",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUHWC",
@@ -4047,7 +4285,8 @@
       "daily_usage": 8876,
       "usage_per_capita_500m": 1.27,
       "usage_per_capita_1km": 0.28,
-      "station_type": "residential_hub"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUHWE",
@@ -4063,7 +4302,8 @@
       "daily_usage": 9479,
       "usage_per_capita_500m": 1.05,
       "usage_per_capita_1km": 0.34,
-      "station_type": "residential_hub"
+      "station_type": "residential_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUHWT",
@@ -4079,7 +4319,8 @@
       "daily_usage": 8027,
       "usage_per_capita_500m": 0.9,
       "usage_per_capita_1km": 0.28,
-      "station_type": "residential_hub"
+      "station_type": "residential_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUHWY",
@@ -4095,7 +4336,8 @@
       "daily_usage": 14438,
       "usage_per_capita_500m": 1.24,
       "usage_per_capita_1km": 0.3,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUKNB",
@@ -4111,7 +4353,8 @@
       "daily_usage": 39068,
       "usage_per_capita_500m": 19.1,
       "usage_per_capita_1km": 4.28,
-      "station_type": "commuter_hub"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUMRH",
@@ -4127,7 +4370,8 @@
       "daily_usage": 16438,
       "usage_per_capita_500m": 1.75,
       "usage_per_capita_1km": 0.48,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUNEN",
@@ -4143,7 +4387,8 @@
       "daily_usage": 1698,
       "usage_per_capita_500m": 0.55,
       "usage_per_capita_1km": 0.11,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUNFD",
@@ -4159,7 +4404,8 @@
       "daily_usage": 7068,
       "usage_per_capita_500m": 0.97,
       "usage_per_capita_1km": 0.25,
-      "station_type": "residential_hub"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUOAK",
@@ -4175,7 +4421,8 @@
       "daily_usage": 6328,
       "usage_per_capita_500m": 3.81,
       "usage_per_capita_1km": 0.8,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUOSY",
@@ -4191,7 +4438,8 @@
       "daily_usage": 4684,
       "usage_per_capita_500m": 2.33,
       "usage_per_capita_1km": 0.4,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUPKR",
@@ -4207,7 +4455,8 @@
       "daily_usage": 4712,
       "usage_per_capita_500m": 1.24,
       "usage_per_capita_1km": 0.43,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLURSQ",
@@ -4223,7 +4472,8 @@
       "daily_usage": 24493,
       "usage_per_capita_500m": 2.39,
       "usage_per_capita_1km": 0.74,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUSEA",
@@ -4239,7 +4489,8 @@
       "daily_usage": 6136,
       "usage_per_capita_500m": 1.02,
       "usage_per_capita_1km": 0.23,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUSGT",
@@ -4255,7 +4506,8 @@
       "daily_usage": 11178,
       "usage_per_capita_500m": 1.92,
       "usage_per_capita_1km": 0.69,
-      "station_type": "low_activity"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUSHH",
@@ -4271,7 +4523,8 @@
       "daily_usage": 5698,
       "usage_per_capita_500m": 0.67,
       "usage_per_capita_1km": 0.27,
-      "station_type": "residential_hub"
+      "station_type": "residential_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUSUH",
@@ -4287,7 +4540,8 @@
       "daily_usage": 4657,
       "usage_per_capita_500m": 0.89,
       "usage_per_capita_1km": 0.25,
-      "station_type": "low_activity"
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUSUT",
@@ -4303,7 +4557,8 @@
       "daily_usage": 4575,
       "usage_per_capita_500m": 0.61,
       "usage_per_capita_1km": 0.23,
-      "station_type": "residential_hub"
+      "station_type": "residential_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUTPN",
@@ -4319,7 +4574,8 @@
       "daily_usage": 22383,
       "usage_per_capita_500m": 2.09,
       "usage_per_capita_1km": 0.58,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUWOG",
@@ -4335,7 +4591,8 @@
       "daily_usage": 24630,
       "usage_per_capita_500m": 2.68,
       "usage_per_capita_1km": 0.78,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUBLR",
@@ -4351,7 +4608,8 @@
       "daily_usage": 25945,
       "usage_per_capita_500m": 3.41,
       "usage_per_capita_1km": 1.02,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUBXN",
@@ -4367,7 +4625,8 @@
       "daily_usage": 58602,
       "usage_per_capita_500m": 5.23,
       "usage_per_capita_1km": 1.16,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUHAI",
@@ -4383,7 +4642,8 @@
       "daily_usage": 41232,
       "usage_per_capita_500m": 4.94,
       "usage_per_capita_1km": 0.9,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUPCO",
@@ -4399,7 +4659,8 @@
       "daily_usage": 20986,
       "usage_per_capita_500m": 1.37,
       "usage_per_capita_1km": 0.53,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUSVS",
@@ -4411,11 +4672,12 @@
       ],
       "population_500m": 9347,
       "population_1km": 39965,
-      "annual_usage": 12710000,
-      "daily_usage": 34821,
-      "usage_per_capita_500m": 3.73,
-      "usage_per_capita_1km": 0.87,
-      "station_type": "balanced"
+      "annual_usage": 8394182,
+      "daily_usage": 22997,
+      "usage_per_capita_500m": 2.46,
+      "usage_per_capita_1km": 0.58,
+      "station_type": "balanced",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "940GZZLUTMH",
@@ -4431,7 +4693,8 @@
       "daily_usage": 37945,
       "usage_per_capita_500m": 4.73,
       "usage_per_capita_1km": 1.43,
-      "station_type": "balanced"
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUVXL",
@@ -4447,7 +4710,8 @@
       "daily_usage": 60657,
       "usage_per_capita_500m": 10.2,
       "usage_per_capita_1km": 1.46,
-      "station_type": "commuter_hub"
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZLUWWL",
@@ -4459,11 +4723,12 @@
       ],
       "population_500m": 11008,
       "population_1km": 41144,
-      "annual_usage": 13440000,
-      "daily_usage": 36821,
-      "usage_per_capita_500m": 3.34,
-      "usage_per_capita_1km": 0.89,
-      "station_type": "balanced"
+      "annual_usage": 4272090,
+      "daily_usage": 11704,
+      "usage_per_capita_500m": 1.06,
+      "usage_per_capita_1km": 0.28,
+      "station_type": "balanced",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GACTNCTL",
@@ -4475,11 +4740,12 @@
       ],
       "population_500m": 7298,
       "population_1km": 34187,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 1574010,
+      "daily_usage": 4312,
+      "usage_per_capita_500m": 0.59,
+      "usage_per_capita_1km": 0.13,
+      "station_type": "residential_hub",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GANERLEY",
@@ -4491,11 +4757,12 @@
       ],
       "population_500m": 7818,
       "population_1km": 23096,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 948840,
+      "daily_usage": 2599,
+      "usage_per_capita_500m": 0.33,
+      "usage_per_capita_1km": 0.11,
+      "station_type": "residential_hub",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GBARKING",
@@ -4507,11 +4774,12 @@
       ],
       "population_500m": 8954,
       "population_1km": 33394,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 18230000,
+      "daily_usage": 49945,
+      "usage_per_capita_500m": 5.58,
+      "usage_per_capita_1km": 1.5,
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "910GBARKRIV",
@@ -4523,11 +4791,12 @@
       ],
       "population_500m": 2312,
       "population_1km": 10807,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 1209476,
+      "daily_usage": 3313,
+      "usage_per_capita_500m": 1.43,
+      "usage_per_capita_1km": 0.31,
+      "station_type": "low_activity",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GBHILLPK",
@@ -4539,11 +4808,12 @@
       ],
       "population_500m": 6222,
       "population_1km": 22986,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 1188288,
+      "daily_usage": 3255,
+      "usage_per_capita_500m": 0.52,
+      "usage_per_capita_1km": 0.14,
+      "station_type": "low_activity",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GBLCHSRD",
@@ -4555,11 +4825,12 @@
       ],
       "population_500m": 7600,
       "population_1km": 25078,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 9470000,
+      "daily_usage": 25945,
+      "usage_per_capita_500m": 3.41,
+      "usage_per_capita_1km": 1.03,
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "910GBRBY",
@@ -4571,11 +4842,12 @@
       ],
       "population_500m": 11317,
       "population_1km": 41842,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 2442938,
+      "daily_usage": 6692,
+      "usage_per_capita_500m": 0.59,
+      "usage_per_capita_1km": 0.16,
+      "station_type": "residential_hub",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GBRBYPK",
@@ -4587,11 +4859,12 @@
       ],
       "population_500m": 6883,
       "population_1km": 30360,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 1067324,
+      "daily_usage": 2924,
+      "usage_per_capita_500m": 0.42,
+      "usage_per_capita_1km": 0.1,
+      "station_type": "low_activity",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GBROCKLY",
@@ -4603,11 +4876,12 @@
       ],
       "population_500m": 8694,
       "population_1km": 30242,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 3668366,
+      "daily_usage": 10050,
+      "usage_per_capita_500m": 1.16,
+      "usage_per_capita_1km": 0.33,
+      "station_type": "residential_hub",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GBRUCGRV",
@@ -4619,11 +4893,12 @@
       ],
       "population_500m": 11924,
       "population_1km": 40143,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 1364934,
+      "daily_usage": 3739,
+      "usage_per_capita_500m": 0.31,
+      "usage_per_capita_1km": 0.09,
+      "station_type": "residential_hub",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GBTHNLGR",
@@ -4635,11 +4910,12 @@
       ],
       "population_500m": 12413,
       "population_1km": 53462,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 1564066,
+      "daily_usage": 4285,
+      "usage_per_capita_500m": 0.35,
+      "usage_per_capita_1km": 0.08,
+      "station_type": "residential_hub",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GBUSHEY",
@@ -4651,11 +4927,12 @@
       ],
       "population_500m": 2959,
       "population_1km": 13849,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 1225400,
+      "daily_usage": 3357,
+      "usage_per_capita_500m": 1.13,
+      "usage_per_capita_1km": 0.24,
+      "station_type": "low_activity",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GBUSHYDC",
@@ -4667,11 +4944,12 @@
       ],
       "population_500m": 2796,
       "population_1km": 14186,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 1225400,
+      "daily_usage": 3357,
+      "usage_per_capita_500m": 1.2,
+      "usage_per_capita_1km": 0.24,
+      "station_type": "low_activity",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GCAMHTH",
@@ -4683,11 +4961,12 @@
       ],
       "population_500m": 12981,
       "population_1km": 48014,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 1050568,
+      "daily_usage": 2878,
+      "usage_per_capita_500m": 0.22,
+      "usage_per_capita_1km": 0.06,
+      "station_type": "residential_hub",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GCHESHNT",
@@ -4715,11 +4994,12 @@
       ],
       "population_500m": 2175,
       "population_1km": 7230,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 2036058,
+      "daily_usage": 5578,
+      "usage_per_capita_500m": 2.56,
+      "usage_per_capita_1km": 0.77,
+      "station_type": "low_activity",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GCLAPTON",
@@ -4731,11 +5011,12 @@
       ],
       "population_500m": 15248,
       "population_1km": 39227,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 2130232,
+      "daily_usage": 5836,
+      "usage_per_capita_500m": 0.38,
+      "usage_per_capita_1km": 0.15,
+      "station_type": "residential_hub",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GCLDNNRB",
@@ -4747,11 +5028,12 @@
       ],
       "population_500m": 12139,
       "population_1km": 46429,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 1566788,
+      "daily_usage": 4292,
+      "usage_per_capita_500m": 0.35,
+      "usage_per_capita_1km": 0.09,
+      "station_type": "residential_hub",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GCLPHHS",
@@ -4763,11 +5045,12 @@
       ],
       "population_500m": 12835,
       "population_1km": 48074,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 1383296,
+      "daily_usage": 3789,
+      "usage_per_capita_500m": 0.3,
+      "usage_per_capita_1km": 0.08,
+      "station_type": "residential_hub",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GCLPHMJ1",
@@ -4811,11 +5094,12 @@
       ],
       "population_500m": 10215,
       "population_1km": 41905,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 4330314,
+      "daily_usage": 11863,
+      "usage_per_capita_500m": 1.16,
+      "usage_per_capita_1km": 0.28,
+      "station_type": "balanced",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GCNDAW",
@@ -4827,11 +5111,12 @@
       ],
       "population_500m": 8896,
       "population_1km": 28993,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 10150000,
+      "daily_usage": 27808,
+      "usage_per_capita_500m": 3.13,
+      "usage_per_capita_1km": 0.96,
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "910GCNNB",
@@ -4843,11 +5128,12 @@
       ],
       "population_500m": 11167,
       "population_1km": 45056,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 2834562,
+      "daily_usage": 7765,
+      "usage_per_capita_500m": 0.7,
+      "usage_per_capita_1km": 0.17,
+      "station_type": "residential_hub",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GCROUCHH",
@@ -4859,11 +5145,12 @@
       ],
       "population_500m": 9861,
       "population_1km": 38450,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 901274,
+      "daily_usage": 2469,
+      "usage_per_capita_500m": 0.25,
+      "usage_per_capita_1km": 0.06,
+      "station_type": "residential_hub",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GCRPNDPK",
@@ -4875,11 +5162,12 @@
       ],
       "population_500m": 2853,
       "population_1km": 11907,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 1224684,
+      "daily_usage": 3355,
+      "usage_per_capita_500m": 1.18,
+      "usage_per_capita_1km": 0.28,
+      "station_type": "low_activity",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GCRYSTLP",
@@ -4891,11 +5179,12 @@
       ],
       "population_500m": 3064,
       "population_1km": 21153,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 2781506,
+      "daily_usage": 7620,
+      "usage_per_capita_500m": 2.49,
+      "usage_per_capita_1km": 0.36,
+      "station_type": "low_activity",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GCSEAH",
@@ -4907,11 +5196,12 @@
       ],
       "population_500m": 7627,
       "population_1km": 38469,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 2859328,
+      "daily_usage": 7833,
+      "usage_per_capita_500m": 1.03,
+      "usage_per_capita_1km": 0.2,
+      "station_type": "residential_hub",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GDALS",
@@ -4923,11 +5213,12 @@
       ],
       "population_500m": 13595,
       "population_1km": 50868,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 5648732,
+      "daily_usage": 15475,
+      "usage_per_capita_500m": 1.14,
+      "usage_per_capita_1km": 0.3,
+      "station_type": "balanced",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GDALSKLD",
@@ -4939,11 +5230,12 @@
       ],
       "population_500m": 14220,
       "population_1km": 50896,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 5308786,
+      "daily_usage": 14544,
+      "usage_per_capita_500m": 1.02,
+      "usage_per_capita_1km": 0.29,
+      "station_type": "balanced",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GDENMRKH",
@@ -4971,11 +5263,12 @@
       ],
       "population_500m": 9869,
       "population_1km": 33005,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 3486764,
+      "daily_usage": 9552,
+      "usage_per_capita_500m": 0.97,
+      "usage_per_capita_1km": 0.29,
+      "station_type": "residential_hub",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GEMRSPKH",
@@ -4987,11 +5280,12 @@
       ],
       "population_500m": 2928,
       "population_1km": 12543,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 302740,
+      "daily_usage": 829,
+      "usage_per_capita_500m": 0.28,
+      "usage_per_capita_1km": 0.07,
+      "station_type": "low_activity",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GENFLDTN",
@@ -5003,11 +5297,12 @@
       ],
       "population_500m": 4757,
       "population_1km": 19955,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 2343318,
+      "daily_usage": 6420,
+      "usage_per_capita_500m": 1.35,
+      "usage_per_capita_1km": 0.32,
+      "station_type": "low_activity",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GEUSTON",
@@ -5019,11 +5314,12 @@
       ],
       "population_500m": 9456,
       "population_1km": 36551,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 33189999,
+      "daily_usage": 90931,
+      "usage_per_capita_500m": 9.62,
+      "usage_per_capita_1km": 2.49,
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "910GFNCHLYR",
@@ -5035,11 +5331,12 @@
       ],
       "population_500m": 6891,
       "population_1km": 31579,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 1876386,
+      "daily_usage": 5140,
+      "usage_per_capita_500m": 0.75,
+      "usage_per_capita_1km": 0.16,
+      "station_type": "low_activity",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GFORESTH",
@@ -5051,11 +5348,12 @@
       ],
       "population_500m": 7680,
       "population_1km": 26351,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 4229240,
+      "daily_usage": 11586,
+      "usage_per_capita_500m": 1.51,
+      "usage_per_capita_1km": 0.44,
+      "station_type": "balanced",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GGNRSBRY",
@@ -5067,11 +5365,12 @@
       ],
       "population_500m": 4351,
       "population_1km": 23716,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 3850000,
+      "daily_usage": 10547,
+      "usage_per_capita_500m": 2.42,
+      "usage_per_capita_1km": 0.44,
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "910GGOSPLOK",
@@ -5083,11 +5382,12 @@
       ],
       "population_500m": 6346,
       "population_1km": 30157,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 2664268,
+      "daily_usage": 7299,
+      "usage_per_capita_500m": 1.15,
+      "usage_per_capita_1km": 0.24,
+      "station_type": "low_activity",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GHACKNYC",
@@ -5099,11 +5399,12 @@
       ],
       "population_500m": 12010,
       "population_1km": 47615,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 5316954,
+      "daily_usage": 14566,
+      "usage_per_capita_500m": 1.21,
+      "usage_per_capita_1km": 0.31,
+      "station_type": "balanced",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GHACKNYW",
@@ -5115,11 +5416,12 @@
       ],
       "population_500m": 3454,
       "population_1km": 18388,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 4211192,
+      "daily_usage": 11537,
+      "usage_per_capita_500m": 3.34,
+      "usage_per_capita_1km": 0.63,
+      "station_type": "commuter_hub",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GHAGGERS",
@@ -5131,11 +5433,12 @@
       ],
       "population_500m": 12597,
       "population_1km": 49727,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 3651250,
+      "daily_usage": 10003,
+      "usage_per_capita_500m": 0.79,
+      "usage_per_capita_1km": 0.2,
+      "station_type": "residential_hub",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GHAKNYNM",
@@ -5147,11 +5450,12 @@
       ],
       "population_500m": 11516,
       "population_1km": 47746,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 3015486,
+      "daily_usage": 8261,
+      "usage_per_capita_500m": 0.72,
+      "usage_per_capita_1km": 0.17,
+      "station_type": "residential_hub",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GHARLSDN",
@@ -5163,11 +5467,12 @@
       ],
       "population_500m": 8006,
       "population_1km": 27869,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 2700000,
+      "daily_usage": 7397,
+      "usage_per_capita_500m": 0.92,
+      "usage_per_capita_1km": 0.27,
+      "station_type": "residential_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "910GHEDSTNL",
@@ -5179,11 +5484,12 @@
       ],
       "population_500m": 3002,
       "population_1km": 13963,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 516542,
+      "daily_usage": 1415,
+      "usage_per_capita_500m": 0.47,
+      "usage_per_capita_1km": 0.1,
+      "station_type": "low_activity",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GHGHI",
@@ -5195,11 +5501,12 @@
       ],
       "population_500m": 9227,
       "population_1km": 45961,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 15050000,
+      "daily_usage": 41232,
+      "usage_per_capita_500m": 4.47,
+      "usage_per_capita_1km": 0.9,
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "910GHGHMSPK",
@@ -5211,11 +5518,12 @@
       ],
       "population_500m": 5427,
       "population_1km": 19456,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 2737710,
+      "daily_usage": 7500,
+      "usage_per_capita_500m": 1.38,
+      "usage_per_capita_1km": 0.39,
+      "station_type": "low_activity",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GHMPSTDH",
@@ -5227,11 +5535,12 @@
       ],
       "population_500m": 4905,
       "population_1km": 21094,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 3511646,
+      "daily_usage": 9620,
+      "usage_per_capita_500m": 1.96,
+      "usage_per_capita_1km": 0.46,
+      "station_type": "low_activity",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GHOMRTON",
@@ -5243,11 +5552,12 @@
       ],
       "population_500m": 12435,
       "population_1km": 43805,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 4685786,
+      "daily_usage": 12837,
+      "usage_per_capita_500m": 1.03,
+      "usage_per_capita_1km": 0.29,
+      "station_type": "balanced",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GHONROPK",
@@ -5259,11 +5569,12 @@
       ],
       "population_500m": 4387,
       "population_1km": 24411,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 2553270,
+      "daily_usage": 6995,
+      "usage_per_capita_500m": 1.59,
+      "usage_per_capita_1km": 0.29,
+      "station_type": "low_activity",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GHOXTON",
@@ -5275,11 +5586,12 @@
       ],
       "population_500m": 15112,
       "population_1km": 54801,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 4083552,
+      "daily_usage": 11187,
+      "usage_per_capita_500m": 0.74,
+      "usage_per_capita_1km": 0.2,
+      "station_type": "balanced",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GHRGYGL",
@@ -5291,11 +5603,12 @@
       ],
       "population_500m": 10528,
       "population_1km": 35812,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 1425034,
+      "daily_usage": 3904,
+      "usage_per_capita_500m": 0.37,
+      "usage_per_capita_1km": 0.11,
+      "station_type": "residential_hub",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GHROW",
@@ -5307,11 +5620,12 @@
       ],
       "population_500m": 9459,
       "population_1km": 26797,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 5140000,
+      "daily_usage": 14082,
+      "usage_per_capita_500m": 1.49,
+      "usage_per_capita_1km": 0.53,
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "910GHTCHEND",
@@ -5323,11 +5637,12 @@
       ],
       "population_500m": 4024,
       "population_1km": 7621,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 695916,
+      "daily_usage": 1906,
+      "usage_per_capita_500m": 0.47,
+      "usage_per_capita_1km": 0.25,
+      "station_type": "low_activity",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GKENOLYM",
@@ -5355,11 +5670,12 @@
       ],
       "population_500m": 7054,
       "population_1km": 27318,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 2607790,
+      "daily_usage": 7144,
+      "usage_per_capita_500m": 1.01,
+      "usage_per_capita_1km": 0.26,
+      "station_type": "low_activity",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GKENSLG",
@@ -5371,11 +5687,12 @@
       ],
       "population_500m": 9516,
       "population_1km": 26574,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 1980000,
+      "daily_usage": 5424,
+      "usage_per_capita_500m": 0.57,
+      "usage_per_capita_1km": 0.2,
+      "station_type": "residential_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "910GKEWGRDN",
@@ -5387,11 +5704,12 @@
       ],
       "population_500m": 5191,
       "population_1km": 13396,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 3080000,
+      "daily_usage": 8438,
+      "usage_per_capita_500m": 1.63,
+      "usage_per_capita_1km": 0.63,
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "910GKLBRNHR",
@@ -5403,11 +5721,12 @@
       ],
       "population_500m": 14238,
       "population_1km": 47885,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 758448,
+      "daily_usage": 2077,
+      "usage_per_capita_500m": 0.15,
+      "usage_per_capita_1km": 0.04,
+      "station_type": "residential_hub",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GKNTSHTW",
@@ -5419,11 +5738,12 @@
       ],
       "population_500m": 11303,
       "population_1km": 42601,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 1886418,
+      "daily_usage": 5168,
+      "usage_per_capita_500m": 0.46,
+      "usage_per_capita_1km": 0.12,
+      "station_type": "residential_hub",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GKTON",
@@ -5435,11 +5755,12 @@
       ],
       "population_500m": 4171,
       "population_1km": 17532,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 1730000,
+      "daily_usage": 4739,
+      "usage_per_capita_500m": 1.14,
+      "usage_per_capita_1km": 0.27,
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "910GLEYTNMR",
@@ -5451,11 +5772,12 @@
       ],
       "population_500m": 12067,
       "population_1km": 43759,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 1551332,
+      "daily_usage": 4250,
+      "usage_per_capita_500m": 0.35,
+      "usage_per_capita_1km": 0.1,
+      "station_type": "residential_hub",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GLIVST",
@@ -5468,11 +5790,12 @@
       ],
       "population_500m": 3787,
       "population_1km": 27748,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 61200000,
+      "daily_usage": 167671,
+      "usage_per_capita_500m": 44.28,
+      "usage_per_capita_1km": 6.04,
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "910GLNDNBDC",
@@ -5484,11 +5807,12 @@
       ],
       "population_500m": 1293,
       "population_1km": 17644,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 57890000,
+      "daily_usage": 158602,
+      "usage_per_capita_500m": 122.66,
+      "usage_per_capita_1km": 8.99,
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "910GLONFLDS",
@@ -5500,11 +5824,12 @@
       ],
       "population_500m": 11072,
       "population_1km": 47455,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 1911346,
+      "daily_usage": 5236,
+      "usage_per_capita_500m": 0.47,
+      "usage_per_capita_1km": 0.11,
+      "station_type": "residential_hub",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GLYTNSHR",
@@ -5516,11 +5841,12 @@
       ],
       "population_500m": 8986,
       "population_1km": 31840,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 1151934,
+      "daily_usage": 3155,
+      "usage_per_capita_500m": 0.35,
+      "usage_per_capita_1km": 0.1,
+      "station_type": "residential_hub",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GNEWXGTE",
@@ -5532,11 +5858,12 @@
       ],
       "population_500m": 9011,
       "population_1km": 36828,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 4550170,
+      "daily_usage": 12466,
+      "usage_per_capita_500m": 1.38,
+      "usage_per_capita_1km": 0.34,
+      "station_type": "balanced",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GNORWDJ",
@@ -5548,11 +5875,12 @@
       ],
       "population_500m": 8410,
       "population_1km": 29030,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 4627090,
+      "daily_usage": 12676,
+      "usage_per_capita_500m": 1.51,
+      "usage_per_capita_1km": 0.44,
+      "station_type": "balanced",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GNWCRELL",
@@ -5580,11 +5908,12 @@
       ],
       "population_500m": 6211,
       "population_1km": 21992,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 1390000,
+      "daily_usage": 3808,
+      "usage_per_capita_500m": 0.61,
+      "usage_per_capita_1km": 0.17,
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "910GPCKHMQD",
@@ -5628,11 +5957,12 @@
       ],
       "population_500m": 4600,
       "population_1km": 23491,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 634966,
+      "daily_usage": 1739,
+      "usage_per_capita_500m": 0.38,
+      "usage_per_capita_1km": 0.07,
+      "station_type": "low_activity",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GQPRK",
@@ -5644,11 +5974,12 @@
       ],
       "population_500m": 9560,
       "population_1km": 45263,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 4740000,
+      "daily_usage": 12986,
+      "usage_per_capita_500m": 1.36,
+      "usage_per_capita_1km": 0.29,
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "910GRCTRYRD",
@@ -5660,11 +5991,12 @@
       ],
       "population_500m": 14014,
       "population_1km": 51434,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 1325536,
+      "daily_usage": 3631,
+      "usage_per_capita_500m": 0.26,
+      "usage_per_capita_1km": 0.07,
+      "station_type": "residential_hub",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GRICHMND",
@@ -5676,11 +6008,12 @@
       ],
       "population_500m": 4298,
       "population_1km": 13661,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 11970000,
+      "daily_usage": 32794,
+      "usage_per_capita_500m": 7.63,
+      "usage_per_capita_1km": 2.4,
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "910GROMFORD",
@@ -5693,11 +6026,12 @@
       ],
       "population_500m": 4279,
       "population_1km": 20687,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 12143302,
+      "daily_usage": 33269,
+      "usage_per_capita_500m": 7.77,
+      "usage_per_capita_1km": 1.61,
+      "station_type": "commuter_hub",
+      "usage_source": "ORR (Elizabeth line)"
     },
     {
       "naptanId": "910GRTHERHI",
@@ -5709,11 +6043,12 @@
       ],
       "population_500m": 8656,
       "population_1km": 32639,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 1739436,
+      "daily_usage": 4765,
+      "usage_per_capita_500m": 0.55,
+      "usage_per_capita_1km": 0.15,
+      "station_type": "residential_hub",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GSACTON",
@@ -5725,11 +6060,12 @@
       ],
       "population_500m": 11444,
       "population_1km": 31886,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 747478,
+      "daily_usage": 2047,
+      "usage_per_capita_500m": 0.18,
+      "usage_per_capita_1km": 0.06,
+      "station_type": "residential_hub",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GSBURY",
@@ -5741,11 +6077,12 @@
       ],
       "population_500m": 3660,
       "population_1km": 20703,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 1038924,
+      "daily_usage": 2846,
+      "usage_per_capita_500m": 0.78,
+      "usage_per_capita_1km": 0.14,
+      "station_type": "low_activity",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GSEVNSIS",
@@ -5757,11 +6094,12 @@
       ],
       "population_500m": 10277,
       "population_1km": 43269,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 8394182,
+      "daily_usage": 22997,
+      "usage_per_capita_500m": 2.24,
+      "usage_per_capita_1km": 0.53,
+      "station_type": "balanced",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GSHADWEL",
@@ -5773,11 +6111,12 @@
       ],
       "population_500m": 15703,
       "population_1km": 56059,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 3917292,
+      "daily_usage": 10732,
+      "usage_per_capita_500m": 0.68,
+      "usage_per_capita_1km": 0.19,
+      "station_type": "balanced",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GSHMPSTD",
@@ -5789,11 +6128,12 @@
       ],
       "population_500m": 10427,
       "population_1km": 39063,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 477560,
+      "daily_usage": 1308,
+      "usage_per_capita_500m": 0.13,
+      "usage_per_capita_1km": 0.03,
+      "station_type": "residential_hub",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GSHPDSB",
@@ -5805,11 +6145,12 @@
       ],
       "population_500m": 9336,
       "population_1km": 38648,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 6931918,
+      "daily_usage": 18991,
+      "usage_per_capita_500m": 2.03,
+      "usage_per_capita_1km": 0.49,
+      "station_type": "balanced",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GSHRDHST",
@@ -5821,11 +6162,12 @@
       ],
       "population_500m": 11375,
       "population_1km": 43731,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 7294534,
+      "daily_usage": 19985,
+      "usage_per_capita_500m": 1.76,
+      "usage_per_capita_1km": 0.46,
+      "station_type": "balanced",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GSIVRST",
@@ -5837,11 +6179,12 @@
       ],
       "population_500m": 6945,
       "population_1km": 35600,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 2136452,
+      "daily_usage": 5853,
+      "usage_per_capita_500m": 0.84,
+      "usage_per_capita_1km": 0.16,
+      "station_type": "low_activity",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GSKENTON",
@@ -5853,11 +6196,12 @@
       ],
       "population_500m": 3928,
       "population_1km": 15326,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 990000,
+      "daily_usage": 2712,
+      "usage_per_capita_500m": 0.69,
+      "usage_per_capita_1km": 0.18,
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "910GSTFD",
@@ -5870,11 +6214,12 @@
       ],
       "population_500m": 8732,
       "population_1km": 35179,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 51473518,
+      "daily_usage": 141023,
+      "usage_per_capita_500m": 16.15,
+      "usage_per_capita_1km": 4.01,
+      "station_type": "balanced",
+      "usage_source": "ORR (Elizabeth line)"
     },
     {
       "naptanId": "910GSTJMSST",
@@ -5886,11 +6231,12 @@
       ],
       "population_500m": 10555,
       "population_1km": 38712,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 1551778,
+      "daily_usage": 4251,
+      "usage_per_capita_500m": 0.4,
+      "usage_per_capita_1km": 0.11,
+      "station_type": "residential_hub",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GSTKNWNG",
@@ -5902,11 +6248,12 @@
       ],
       "population_500m": 13181,
       "population_1km": 48333,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 1465574,
+      "daily_usage": 4015,
+      "usage_per_capita_500m": 0.3,
+      "usage_per_capita_1km": 0.08,
+      "station_type": "residential_hub",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GSTMFDHL",
@@ -5918,11 +6265,12 @@
       ],
       "population_500m": 13199,
       "population_1km": 43869,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 676276,
+      "daily_usage": 1852,
+      "usage_per_capita_500m": 0.14,
+      "usage_per_capita_1km": 0.04,
+      "station_type": "residential_hub",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GSTNBGPK",
@@ -5934,11 +6282,12 @@
       ],
       "population_500m": 3996,
       "population_1km": 20542,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 2490000,
+      "daily_usage": 6821,
+      "usage_per_capita_500m": 1.71,
+      "usage_per_capita_1km": 0.33,
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "910GSTOTNHM",
@@ -5950,11 +6299,12 @@
       ],
       "population_500m": 11008,
       "population_1km": 40847,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 1357436,
+      "daily_usage": 3719,
+      "usage_per_capita_500m": 0.34,
+      "usage_per_capita_1km": 0.09,
+      "station_type": "residential_hub",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GSURREYQ",
@@ -5966,11 +6316,12 @@
       ],
       "population_500m": 8235,
       "population_1km": 36248,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 4933592,
+      "daily_usage": 13516,
+      "usage_per_capita_500m": 1.64,
+      "usage_per_capita_1km": 0.37,
+      "station_type": "balanced",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GSYDENHM",
@@ -5982,11 +6333,12 @@
       ],
       "population_500m": 6035,
       "population_1km": 28927,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 3541540,
+      "daily_usage": 9702,
+      "usage_per_capita_500m": 1.61,
+      "usage_per_capita_1km": 0.34,
+      "station_type": "low_activity",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GTHBLDSG",
@@ -5998,11 +6350,12 @@
       ],
       "population_500m": 5148,
       "population_1km": 14701,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 751174,
+      "daily_usage": 2058,
+      "usage_per_capita_500m": 0.4,
+      "usage_per_capita_1km": 0.14,
+      "station_type": "low_activity",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GTURKYST",
@@ -6014,11 +6367,12 @@
       ],
       "population_500m": 5820,
       "population_1km": 19386,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 990634,
+      "daily_usage": 2714,
+      "usage_per_capita_500m": 0.47,
+      "usage_per_capita_1km": 0.14,
+      "station_type": "low_activity",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GUPMNSTR",
@@ -6030,11 +6384,12 @@
       ],
       "population_500m": 2103,
       "population_1km": 7685,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 4680000,
+      "daily_usage": 12821,
+      "usage_per_capita_500m": 6.1,
+      "usage_per_capita_1km": 1.67,
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "910GUPRHLWY",
@@ -6046,11 +6401,12 @@
       ],
       "population_500m": 12451,
       "population_1km": 45503,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 1425670,
+      "daily_usage": 3905,
+      "usage_per_capita_500m": 0.31,
+      "usage_per_capita_1km": 0.09,
+      "station_type": "residential_hub",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GWAPPING",
@@ -6062,11 +6418,12 @@
       ],
       "population_500m": 7997,
       "population_1km": 41321,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 2471208,
+      "daily_usage": 6770,
+      "usage_per_capita_500m": 0.85,
+      "usage_per_capita_1km": 0.16,
+      "station_type": "residential_hub",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GWATFDHS",
@@ -6078,11 +6435,12 @@
       ],
       "population_500m": 4139,
       "population_1km": 18841,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 1363368,
+      "daily_usage": 3735,
+      "usage_per_capita_500m": 0.9,
+      "usage_per_capita_1km": 0.2,
+      "station_type": "low_activity",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GWATFDJ",
@@ -6126,11 +6484,12 @@
       ],
       "population_500m": 11943,
       "population_1km": 47903,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 5080000,
+      "daily_usage": 13917,
+      "usage_per_capita_500m": 1.17,
+      "usage_per_capita_1km": 0.29,
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "910GWCHAPEL",
@@ -6142,11 +6501,12 @@
       ],
       "population_500m": 11398,
       "population_1km": 54377,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 18280000,
+      "daily_usage": 50082,
+      "usage_per_capita_500m": 4.39,
+      "usage_per_capita_1km": 0.92,
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "910GWCROYDN",
@@ -6158,11 +6518,12 @@
       ],
       "population_500m": 13093,
       "population_1km": 36542,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 4370176,
+      "daily_usage": 11973,
+      "usage_per_capita_500m": 0.91,
+      "usage_per_capita_1km": 0.33,
+      "station_type": "balanced",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GWDGRNPK",
@@ -6174,11 +6535,12 @@
       ],
       "population_500m": 7546,
       "population_1km": 33625,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 938768,
+      "daily_usage": 2571,
+      "usage_per_capita_500m": 0.34,
+      "usage_per_capita_1km": 0.08,
+      "station_type": "residential_hub",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GWDST",
@@ -6190,11 +6552,12 @@
       ],
       "population_500m": 8149,
       "population_1km": 25828,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 1938180,
+      "daily_usage": 5310,
+      "usage_per_capita_500m": 0.65,
+      "usage_per_capita_1km": 0.21,
+      "station_type": "residential_hub",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GWHHRTLA",
@@ -6206,11 +6569,12 @@
       ],
       "population_500m": 9264,
       "population_1km": 30885,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 2616980,
+      "daily_usage": 7169,
+      "usage_per_capita_500m": 0.77,
+      "usage_per_capita_1km": 0.23,
+      "station_type": "residential_hub",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GWHMDSTD",
@@ -6222,11 +6586,12 @@
       ],
       "population_500m": 10615,
       "population_1km": 38984,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 3944888,
+      "daily_usage": 10807,
+      "usage_per_capita_500m": 1.02,
+      "usage_per_capita_1km": 0.28,
+      "station_type": "balanced",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GWLSDJHL",
@@ -6238,11 +6603,12 @@
       ],
       "population_500m": 8244,
       "population_1km": 23125,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 7041954,
+      "daily_usage": 19293,
+      "usage_per_capita_500m": 2.34,
+      "usage_per_capita_1km": 0.83,
+      "station_type": "balanced",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GWLTHQRD",
@@ -6254,11 +6620,12 @@
       ],
       "population_500m": 10875,
       "population_1km": 44463,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 997432,
+      "daily_usage": 2732,
+      "usage_per_capita_500m": 0.25,
+      "usage_per_capita_1km": 0.06,
+      "station_type": "residential_hub",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GWLTWCEN",
@@ -6270,11 +6637,12 @@
       ],
       "population_500m": 10636,
       "population_1km": 41144,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 4272090,
+      "daily_usage": 11704,
+      "usage_per_capita_500m": 1.1,
+      "usage_per_capita_1km": 0.28,
+      "station_type": "balanced",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GWMBY",
@@ -6286,11 +6654,12 @@
       ],
       "population_500m": 10167,
       "population_1km": 35739,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 4940000,
+      "daily_usage": 13534,
+      "usage_per_capita_500m": 1.33,
+      "usage_per_capita_1km": 0.38,
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "910GWNDSWRD",
@@ -6302,11 +6671,12 @@
       ],
       "population_500m": 9933,
       "population_1km": 39475,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 610410,
+      "daily_usage": 1672,
+      "usage_per_capita_500m": 0.17,
+      "usage_per_capita_1km": 0.04,
+      "station_type": "residential_hub",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GWNSTDPK",
@@ -6318,11 +6688,12 @@
       ],
       "population_500m": 7316,
       "population_1km": 23509,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 1071144,
+      "daily_usage": 2934,
+      "usage_per_capita_500m": 0.4,
+      "usage_per_capita_1km": 0.12,
+      "station_type": "residential_hub",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "910GABWDXR",
@@ -6334,11 +6705,12 @@
       ],
       "population_500m": 7322,
       "population_1km": 22328,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 11873686,
+      "daily_usage": 32530,
+      "usage_per_capita_500m": 4.44,
+      "usage_per_capita_1km": 1.46,
+      "station_type": "balanced",
+      "usage_source": "ORR (Elizabeth line)"
     },
     {
       "naptanId": "910GACTONML",
@@ -6350,11 +6722,12 @@
       ],
       "population_500m": 5242,
       "population_1km": 20712,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 2699464,
+      "daily_usage": 7395,
+      "usage_per_capita_500m": 1.41,
+      "usage_per_capita_1km": 0.36,
+      "station_type": "low_activity",
+      "usage_source": "ORR (Elizabeth line)"
     },
     {
       "naptanId": "910GBNHAM",
@@ -6366,11 +6739,12 @@
       ],
       "population_500m": 3749,
       "population_1km": 16243,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 1725890,
+      "daily_usage": 4728,
+      "usage_per_capita_500m": 1.26,
+      "usage_per_capita_1km": 0.29,
+      "station_type": "low_activity",
+      "usage_source": "ORR (Elizabeth line)"
     },
     {
       "naptanId": "910GBONDST",
@@ -6382,11 +6756,12 @@
       ],
       "population_500m": 3190,
       "population_1km": 19825,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 41110000,
+      "daily_usage": 112630,
+      "usage_per_capita_500m": 35.31,
+      "usage_per_capita_1km": 5.68,
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "910GBRTWOOD",
@@ -6398,11 +6773,12 @@
       ],
       "population_500m": 5853,
       "population_1km": 14737,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 3232020,
+      "daily_usage": 8854,
+      "usage_per_capita_500m": 1.51,
+      "usage_per_capita_1km": 0.6,
+      "station_type": "low_activity",
+      "usage_source": "ORR (Elizabeth line)"
     },
     {
       "naptanId": "910GCANWHRF",
@@ -6414,11 +6790,12 @@
       ],
       "population_500m": 7538,
       "population_1km": 41807,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 15927588,
+      "daily_usage": 43637,
+      "usage_per_capita_500m": 5.79,
+      "usage_per_capita_1km": 1.04,
+      "station_type": "balanced",
+      "usage_source": "ORR (Elizabeth line)"
     },
     {
       "naptanId": "910GCHDWLHT",
@@ -6430,11 +6807,12 @@
       ],
       "population_500m": 7285,
       "population_1km": 30090,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 4874090,
+      "daily_usage": 13353,
+      "usage_per_capita_500m": 1.83,
+      "usage_per_capita_1km": 0.44,
+      "station_type": "balanced",
+      "usage_source": "ORR (Elizabeth line)"
     },
     {
       "naptanId": "910GCUSTMHS",
@@ -6446,11 +6824,12 @@
       ],
       "population_500m": 7403,
       "population_1km": 31256,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 9794628,
+      "daily_usage": 26834,
+      "usage_per_capita_500m": 3.62,
+      "usage_per_capita_1km": 0.86,
+      "station_type": "balanced",
+      "usage_source": "ORR (Elizabeth line)"
     },
     {
       "naptanId": "910GEALINGB",
@@ -6462,11 +6841,12 @@
       ],
       "population_500m": 5485,
       "population_1km": 21159,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 15456598,
+      "daily_usage": 42346,
+      "usage_per_capita_500m": 7.72,
+      "usage_per_capita_1km": 2.0,
+      "station_type": "commuter_hub",
+      "usage_source": "ORR (Elizabeth line)"
     },
     {
       "naptanId": "910GFRNDXR",
@@ -6478,11 +6858,12 @@
       ],
       "population_500m": 8663,
       "population_1km": 34195,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 41260000,
+      "daily_usage": 113041,
+      "usage_per_capita_500m": 13.05,
+      "usage_per_capita_1km": 3.31,
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "910GFRSTGT",
@@ -6494,11 +6875,12 @@
       ],
       "population_500m": 10330,
       "population_1km": 33309,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 5835876,
+      "daily_usage": 15988,
+      "usage_per_capita_500m": 1.55,
+      "usage_per_capita_1km": 0.48,
+      "station_type": "balanced",
+      "usage_source": "ORR (Elizabeth line)"
     },
     {
       "naptanId": "910GGIDEAPK",
@@ -6510,11 +6892,12 @@
       ],
       "population_500m": 3978,
       "population_1km": 14791,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 2998252,
+      "daily_usage": 8214,
+      "usage_per_capita_500m": 2.06,
+      "usage_per_capita_1km": 0.56,
+      "station_type": "low_activity",
+      "usage_source": "ORR (Elizabeth line)"
     },
     {
       "naptanId": "910GGODMAYS",
@@ -6526,11 +6909,12 @@
       ],
       "population_500m": 7525,
       "population_1km": 29191,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 4772640,
+      "daily_usage": 13075,
+      "usage_per_capita_500m": 1.74,
+      "usage_per_capita_1km": 0.45,
+      "station_type": "balanced",
+      "usage_source": "ORR (Elizabeth line)"
     },
     {
       "naptanId": "910GHANWELL",
@@ -6542,11 +6926,12 @@
       ],
       "population_500m": 6324,
       "population_1km": 23769,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 1691400,
+      "daily_usage": 4633,
+      "usage_per_capita_500m": 0.73,
+      "usage_per_capita_1km": 0.19,
+      "station_type": "low_activity",
+      "usage_source": "ORR (Elizabeth line)"
     },
     {
       "naptanId": "910GHAYESAH",
@@ -6558,11 +6943,12 @@
       ],
       "population_500m": 6443,
       "population_1km": 18900,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 8450164,
+      "daily_usage": 23151,
+      "usage_per_capita_500m": 3.59,
+      "usage_per_capita_1km": 1.22,
+      "station_type": "commuter_hub",
+      "usage_source": "ORR (Elizabeth line)"
     },
     {
       "naptanId": "910GHRLDWOD",
@@ -6574,11 +6960,12 @@
       ],
       "population_500m": 4595,
       "population_1km": 13984,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 3637666,
+      "daily_usage": 9966,
+      "usage_per_capita_500m": 2.17,
+      "usage_per_capita_1km": 0.71,
+      "station_type": "low_activity",
+      "usage_source": "ORR (Elizabeth line)"
     },
     {
       "naptanId": "910GHTRWAPT",
@@ -6590,11 +6977,12 @@
       ],
       "population_500m": 0,
       "population_1km": 358,
-      "annual_usage": 0,
-      "daily_usage": 0,
+      "annual_usage": 6040000,
+      "daily_usage": 16547,
       "usage_per_capita_500m": 0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "usage_per_capita_1km": 46.22,
+      "station_type": "no_population_data",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "910GHTRWTM4",
@@ -6622,11 +7010,12 @@
       ],
       "population_500m": 0,
       "population_1km": 366,
-      "annual_usage": 0,
-      "daily_usage": 0,
+      "annual_usage": 4099999,
+      "daily_usage": 11232,
       "usage_per_capita_500m": 0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "usage_per_capita_1km": 30.69,
+      "station_type": "no_population_data",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "910GILFORD",
@@ -6638,11 +7027,12 @@
       ],
       "population_500m": 9480,
       "population_1km": 31676,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 10927468,
+      "daily_usage": 29938,
+      "usage_per_capita_500m": 3.16,
+      "usage_per_capita_1km": 0.95,
+      "station_type": "balanced",
+      "usage_source": "ORR (Elizabeth line)"
     },
     {
       "naptanId": "910GIVER",
@@ -6654,11 +7044,12 @@
       ],
       "population_500m": 977,
       "population_1km": 3385,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 362658,
+      "daily_usage": 993,
+      "usage_per_capita_500m": 1.02,
+      "usage_per_capita_1km": 0.29,
+      "station_type": "low_activity",
+      "usage_source": "ORR (Elizabeth line)"
     },
     {
       "naptanId": "910GLANGLEY",
@@ -6670,11 +7061,12 @@
       ],
       "population_500m": 1078,
       "population_1km": 8098,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 1153338,
+      "daily_usage": 3159,
+      "usage_per_capita_500m": 2.93,
+      "usage_per_capita_1km": 0.39,
+      "station_type": "low_activity",
+      "usage_source": "ORR (Elizabeth line)"
     },
     {
       "naptanId": "910GLIVSTLL",
@@ -6686,11 +7078,12 @@
       ],
       "population_500m": 3128,
       "population_1km": 26463,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 61200000,
+      "daily_usage": 167671,
+      "usage_per_capita_500m": 53.6,
+      "usage_per_capita_1km": 6.34,
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "910GMANRPK",
@@ -6702,11 +7095,12 @@
       ],
       "population_500m": 4216,
       "population_1km": 22727,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 4426692,
+      "daily_usage": 12127,
+      "usage_per_capita_500m": 2.88,
+      "usage_per_capita_1km": 0.53,
+      "station_type": "commuter_hub",
+      "usage_source": "ORR (Elizabeth line)"
     },
     {
       "naptanId": "910GMDNHEAD",
@@ -6734,11 +7128,12 @@
       ],
       "population_500m": 10646,
       "population_1km": 45346,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 4055440,
+      "daily_usage": 11110,
+      "usage_per_capita_500m": 1.04,
+      "usage_per_capita_1km": 0.25,
+      "station_type": "balanced",
+      "usage_source": "ORR (Elizabeth line)"
     },
     {
       "naptanId": "910GPADTLL",
@@ -6830,11 +7225,12 @@
       ],
       "population_500m": 7145,
       "population_1km": 33443,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 7669160,
+      "daily_usage": 21011,
+      "usage_per_capita_500m": 2.94,
+      "usage_per_capita_1km": 0.63,
+      "station_type": "commuter_hub",
+      "usage_source": "ORR (Elizabeth line)"
     },
     {
       "naptanId": "910GSVNKNGS",
@@ -6846,11 +7242,12 @@
       ],
       "population_500m": 10738,
       "population_1km": 33539,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 4084206,
+      "daily_usage": 11189,
+      "usage_per_capita_500m": 1.04,
+      "usage_per_capita_1km": 0.33,
+      "station_type": "balanced",
+      "usage_source": "ORR (Elizabeth line)"
     },
     {
       "naptanId": "910GTAPLOW",
@@ -6862,11 +7259,12 @@
       ],
       "population_500m": 519,
       "population_1km": 3870,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 528968,
+      "daily_usage": 1449,
+      "usage_per_capita_500m": 2.79,
+      "usage_per_capita_1km": 0.37,
+      "station_type": "low_activity",
+      "usage_source": "ORR (Elizabeth line)"
     },
     {
       "naptanId": "910GTOTCTRD",
@@ -6878,11 +7276,12 @@
       ],
       "population_500m": 4901,
       "population_1km": 23246,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 62060000,
+      "daily_usage": 170027,
+      "usage_per_capita_500m": 34.69,
+      "usage_per_capita_1km": 7.31,
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "910GTWYFORD",
@@ -6910,11 +7309,12 @@
       ],
       "population_500m": 11926,
       "population_1km": 54405,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 18280000,
+      "daily_usage": 50082,
+      "usage_per_capita_500m": 4.2,
+      "usage_per_capita_1km": 0.92,
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "910GWDRYTON",
@@ -6926,11 +7326,12 @@
       ],
       "population_500m": 7111,
       "population_1km": 18637,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 3533610,
+      "daily_usage": 9681,
+      "usage_per_capita_500m": 1.36,
+      "usage_per_capita_1km": 0.52,
+      "station_type": "low_activity",
+      "usage_source": "ORR (Elizabeth line)"
     },
     {
       "naptanId": "910GWEALING",
@@ -6942,11 +7343,12 @@
       ],
       "population_500m": 7490,
       "population_1km": 30637,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 2548676,
+      "daily_usage": 6982,
+      "usage_per_capita_500m": 0.93,
+      "usage_per_capita_1km": 0.23,
+      "station_type": "residential_hub",
+      "usage_source": "ORR (Elizabeth line)"
     },
     {
       "naptanId": "910GWOLWXR",
@@ -6958,11 +7360,12 @@
       ],
       "population_500m": 7219,
       "population_1km": 27977,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 13755990,
+      "daily_usage": 37687,
+      "usage_per_capita_500m": 5.22,
+      "usage_per_capita_1km": 1.35,
+      "station_type": "commuter_hub",
+      "usage_source": "ORR (Elizabeth line)"
     },
     {
       "naptanId": "940GZZDLABR",
@@ -6974,11 +7377,12 @@
       ],
       "population_500m": 7025,
       "population_1km": 32202,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 1340000,
+      "daily_usage": 3671,
+      "usage_per_capita_500m": 0.52,
+      "usage_per_capita_1km": 0.11,
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia DLR"
     },
     {
       "naptanId": "940GZZDLALL",
@@ -6990,11 +7394,12 @@
       ],
       "population_500m": 13916,
       "population_1km": 48101,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 1810000,
+      "daily_usage": 4958,
+      "usage_per_capita_500m": 0.36,
+      "usage_per_capita_1km": 0.1,
+      "station_type": "residential_hub",
+      "usage_source": "Wikipedia DLR"
     },
     {
       "naptanId": "940GZZDLBEC",
@@ -7006,11 +7411,12 @@
       ],
       "population_500m": 4957,
       "population_1km": 20754,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 2180000,
+      "daily_usage": 5972,
+      "usage_per_capita_500m": 1.2,
+      "usage_per_capita_1km": 0.29,
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia DLR"
     },
     {
       "naptanId": "940GZZDLBLA",
@@ -7022,11 +7428,12 @@
       ],
       "population_500m": 13175,
       "population_1km": 31976,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 1510000,
+      "daily_usage": 4136,
+      "usage_per_capita_500m": 0.31,
+      "usage_per_capita_1km": 0.13,
+      "station_type": "residential_hub",
+      "usage_source": "Wikipedia DLR"
     },
     {
       "naptanId": "940GZZDLBNK",
@@ -7038,11 +7445,12 @@
       ],
       "population_500m": 550,
       "population_1km": 11216,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 37200000,
+      "daily_usage": 101917,
+      "usage_per_capita_500m": 185.3,
+      "usage_per_capita_1km": 9.09,
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia DLR"
     },
     {
       "naptanId": "940GZZDLBOW",
@@ -7054,11 +7462,12 @@
       ],
       "population_500m": 12479,
       "population_1km": 43068,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 3050000,
+      "daily_usage": 8356,
+      "usage_per_capita_500m": 0.67,
+      "usage_per_capita_1km": 0.19,
+      "station_type": "residential_hub",
+      "usage_source": "Wikipedia DLR"
     },
     {
       "naptanId": "940GZZDLBPK",
@@ -7070,11 +7479,12 @@
       ],
       "population_500m": 3907,
       "population_1km": 15369,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 520000,
+      "daily_usage": 1424,
+      "usage_per_capita_500m": 0.36,
+      "usage_per_capita_1km": 0.09,
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia DLR"
     },
     {
       "naptanId": "940GZZDLCAN",
@@ -7086,11 +7496,12 @@
       ],
       "population_500m": 4470,
       "population_1km": 40242,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 15927588,
+      "daily_usage": 43637,
+      "usage_per_capita_500m": 9.76,
+      "usage_per_capita_1km": 1.08,
+      "station_type": "commuter_hub",
+      "usage_source": "ORR (Elizabeth line)"
     },
     {
       "naptanId": "940GZZDLCGT",
@@ -7102,11 +7513,12 @@
       ],
       "population_500m": 9531,
       "population_1km": 33960,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 12620000,
+      "daily_usage": 34575,
+      "usage_per_capita_500m": 3.63,
+      "usage_per_capita_1km": 1.02,
+      "station_type": "balanced",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZDLCLA",
@@ -7118,11 +7530,12 @@
       ],
       "population_500m": 16584,
       "population_1km": 36104,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 3700000,
+      "daily_usage": 10136,
+      "usage_per_capita_500m": 0.61,
+      "usage_per_capita_1km": 0.28,
+      "station_type": "residential_hub",
+      "usage_source": "Wikipedia DLR"
     },
     {
       "naptanId": "940GZZDLCUS",
@@ -7134,11 +7547,12 @@
       ],
       "population_500m": 8075,
       "population_1km": 33009,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 9794628,
+      "daily_usage": 26834,
+      "usage_per_capita_500m": 3.32,
+      "usage_per_capita_1km": 0.81,
+      "station_type": "balanced",
+      "usage_source": "ORR (Elizabeth line)"
     },
     {
       "naptanId": "940GZZDLCUT",
@@ -7166,11 +7580,12 @@
       ],
       "population_500m": 5271,
       "population_1km": 12000,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 2270000,
+      "daily_usage": 6219,
+      "usage_per_capita_500m": 1.18,
+      "usage_per_capita_1km": 0.52,
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia DLR"
     },
     {
       "naptanId": "940GZZDLDEP",
@@ -7182,11 +7597,12 @@
       ],
       "population_500m": 10231,
       "population_1km": 41380,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 3100000,
+      "daily_usage": 8493,
+      "usage_per_capita_500m": 0.83,
+      "usage_per_capita_1km": 0.21,
+      "station_type": "residential_hub",
+      "usage_source": "Wikipedia DLR"
     },
     {
       "naptanId": "940GZZDLDEV",
@@ -7198,11 +7614,12 @@
       ],
       "population_500m": 15815,
       "population_1km": 48409,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 2410000,
+      "daily_usage": 6602,
+      "usage_per_capita_500m": 0.42,
+      "usage_per_capita_1km": 0.14,
+      "station_type": "residential_hub",
+      "usage_source": "Wikipedia DLR"
     },
     {
       "naptanId": "940GZZDLEIN",
@@ -7214,11 +7631,12 @@
       ],
       "population_500m": 7100,
       "population_1km": 27589,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 4410000,
+      "daily_usage": 12082,
+      "usage_per_capita_500m": 1.7,
+      "usage_per_capita_1km": 0.44,
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia DLR"
     },
     {
       "naptanId": "940GZZDLELV",
@@ -7230,11 +7648,12 @@
       ],
       "population_500m": 10954,
       "population_1km": 37533,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 1470000,
+      "daily_usage": 4027,
+      "usage_per_capita_500m": 0.37,
+      "usage_per_capita_1km": 0.11,
+      "station_type": "residential_hub",
+      "usage_source": "Wikipedia DLR"
     },
     {
       "naptanId": "940GZZDLGAL",
@@ -7246,11 +7665,12 @@
       ],
       "population_500m": 3383,
       "population_1km": 9568,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 2029999,
+      "daily_usage": 5561,
+      "usage_per_capita_500m": 1.64,
+      "usage_per_capita_1km": 0.58,
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia DLR"
     },
     {
       "naptanId": "940GZZDLGRE",
@@ -7262,11 +7682,12 @@
       ],
       "population_500m": 10480,
       "population_1km": 32908,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 5330000,
+      "daily_usage": 14602,
+      "usage_per_capita_500m": 1.39,
+      "usage_per_capita_1km": 0.44,
+      "station_type": "balanced",
+      "usage_source": "Wikipedia DLR"
     },
     {
       "naptanId": "940GZZDLHEQ",
@@ -7278,11 +7699,12 @@
       ],
       "population_500m": 3758,
       "population_1km": 39961,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 5940000,
+      "daily_usage": 16273,
+      "usage_per_capita_500m": 4.33,
+      "usage_per_capita_1km": 0.41,
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia DLR"
     },
     {
       "naptanId": "940GZZDLISL",
@@ -7294,11 +7716,12 @@
       ],
       "population_500m": 7380,
       "population_1km": 30935,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 2360000,
+      "daily_usage": 6465,
+      "usage_per_capita_500m": 0.88,
+      "usage_per_capita_1km": 0.21,
+      "station_type": "residential_hub",
+      "usage_source": "Wikipedia DLR"
     },
     {
       "naptanId": "940GZZDLKGV",
@@ -7310,11 +7733,12 @@
       ],
       "population_500m": 2798,
       "population_1km": 11395,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 1590000,
+      "daily_usage": 4356,
+      "usage_per_capita_500m": 1.56,
+      "usage_per_capita_1km": 0.38,
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia DLR"
     },
     {
       "naptanId": "940GZZDLLCA",
@@ -7326,11 +7750,12 @@
       ],
       "population_500m": 1680,
       "population_1km": 9889,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 3480000,
+      "daily_usage": 9534,
+      "usage_per_capita_500m": 5.67,
+      "usage_per_capita_1km": 0.96,
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia DLR"
     },
     {
       "naptanId": "940GZZDLLDP",
@@ -7342,11 +7767,12 @@
       ],
       "population_500m": 16030,
       "population_1km": 51564,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 4120000,
+      "daily_usage": 11287,
+      "usage_per_capita_500m": 0.7,
+      "usage_per_capita_1km": 0.22,
+      "station_type": "balanced",
+      "usage_source": "Wikipedia DLR"
     },
     {
       "naptanId": "940GZZDLLEW",
@@ -7358,11 +7784,12 @@
       ],
       "population_500m": 10894,
       "population_1km": 32657,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 7560000,
+      "daily_usage": 20712,
+      "usage_per_capita_500m": 1.9,
+      "usage_per_capita_1km": 0.63,
+      "station_type": "balanced",
+      "usage_source": "Wikipedia DLR"
     },
     {
       "naptanId": "940GZZDLLIM",
@@ -7374,11 +7801,12 @@
       ],
       "population_500m": 15040,
       "population_1km": 52360,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 8540000,
+      "daily_usage": 23397,
+      "usage_per_capita_500m": 1.56,
+      "usage_per_capita_1km": 0.45,
+      "station_type": "balanced",
+      "usage_source": "Wikipedia DLR"
     },
     {
       "naptanId": "940GZZDLMUD",
@@ -7390,11 +7818,12 @@
       ],
       "population_500m": 6909,
       "population_1km": 38227,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 1760000,
+      "daily_usage": 4821,
+      "usage_per_capita_500m": 0.7,
+      "usage_per_capita_1km": 0.13,
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia DLR"
     },
     {
       "naptanId": "940GZZDLPDK",
@@ -7406,11 +7835,12 @@
       ],
       "population_500m": 5511,
       "population_1km": 17950,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 2830000,
+      "daily_usage": 7753,
+      "usage_per_capita_500m": 1.41,
+      "usage_per_capita_1km": 0.43,
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia DLR"
     },
     {
       "naptanId": "940GZZDLPOP",
@@ -7422,11 +7852,12 @@
       ],
       "population_500m": 11167,
       "population_1km": 41319,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 1810000,
+      "daily_usage": 4958,
+      "usage_per_capita_500m": 0.44,
+      "usage_per_capita_1km": 0.12,
+      "station_type": "residential_hub",
+      "usage_source": "Wikipedia DLR"
     },
     {
       "naptanId": "940GZZDLPRE",
@@ -7438,11 +7869,12 @@
       ],
       "population_500m": 7126,
       "population_1km": 20814,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 1690000,
+      "daily_usage": 4630,
+      "usage_per_capita_500m": 0.65,
+      "usage_per_capita_1km": 0.22,
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia DLR"
     },
     {
       "naptanId": "940GZZDLPUD",
@@ -7454,11 +7886,12 @@
       ],
       "population_500m": 3335,
       "population_1km": 22468,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 2310000,
+      "daily_usage": 6328,
+      "usage_per_capita_500m": 1.9,
+      "usage_per_capita_1km": 0.28,
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia DLR"
     },
     {
       "naptanId": "940GZZDLRAL",
@@ -7470,11 +7903,12 @@
       ],
       "population_500m": 3409,
       "population_1km": 16588,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 1490000,
+      "daily_usage": 4082,
+      "usage_per_capita_500m": 1.2,
+      "usage_per_capita_1km": 0.25,
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia DLR"
     },
     {
       "naptanId": "940GZZDLRVC",
@@ -7486,11 +7920,12 @@
       ],
       "population_500m": 11463,
       "population_1km": 34180,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 2910000,
+      "daily_usage": 7972,
+      "usage_per_capita_500m": 0.7,
+      "usage_per_capita_1km": 0.23,
+      "station_type": "residential_hub",
+      "usage_source": "Wikipedia DLR"
     },
     {
       "naptanId": "940GZZDLSHA",
@@ -7502,11 +7937,12 @@
       ],
       "population_500m": 14870,
       "population_1km": 57522,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 3917292,
+      "daily_usage": 10732,
+      "usage_per_capita_500m": 0.72,
+      "usage_per_capita_1km": 0.19,
+      "station_type": "balanced",
+      "usage_source": "ORR (London Overground)"
     },
     {
       "naptanId": "940GZZDLSHS",
@@ -7534,11 +7970,12 @@
       ],
       "population_500m": 9819,
       "population_1km": 22521,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 51473518,
+      "daily_usage": 141023,
+      "usage_per_capita_500m": 14.36,
+      "usage_per_capita_1km": 6.26,
+      "station_type": "balanced",
+      "usage_source": "ORR (Elizabeth line)"
     },
     {
       "naptanId": "940GZZDLSOQ",
@@ -7550,11 +7987,12 @@
       ],
       "population_500m": 7750,
       "population_1km": 37663,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 4550000,
+      "daily_usage": 12465,
+      "usage_per_capita_500m": 1.61,
+      "usage_per_capita_1km": 0.33,
+      "station_type": "balanced",
+      "usage_source": "Wikipedia DLR"
     },
     {
       "naptanId": "940GZZDLSTD",
@@ -7566,11 +8004,12 @@
       ],
       "population_500m": 8732,
       "population_1km": 35179,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 51473518,
+      "daily_usage": 141023,
+      "usage_per_capita_500m": 16.15,
+      "usage_per_capita_1km": 4.01,
+      "station_type": "balanced",
+      "usage_source": "ORR (Elizabeth line)"
     },
     {
       "naptanId": "940GZZDLSTL",
@@ -7582,11 +8021,12 @@
       ],
       "population_500m": 3876,
       "population_1km": 17968,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 1690000,
+      "daily_usage": 4630,
+      "usage_per_capita_500m": 1.19,
+      "usage_per_capita_1km": 0.26,
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia DLR"
     },
     {
       "naptanId": "940GZZDLTWG",
@@ -7598,11 +8038,12 @@
       ],
       "population_500m": 8190,
       "population_1km": 31650,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 3140000,
+      "daily_usage": 8602,
+      "usage_per_capita_500m": 1.05,
+      "usage_per_capita_1km": 0.27,
+      "station_type": "residential_hub",
+      "usage_source": "Wikipedia DLR"
     },
     {
       "naptanId": "940GZZDLWFE",
@@ -7614,11 +8055,12 @@
       ],
       "population_500m": 14898,
       "population_1km": 47722,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 3380000,
+      "daily_usage": 9260,
+      "usage_per_capita_500m": 0.62,
+      "usage_per_capita_1km": 0.19,
+      "station_type": "residential_hub",
+      "usage_source": "Wikipedia DLR"
     },
     {
       "naptanId": "940GZZDLWHM",
@@ -7630,11 +8072,12 @@
       ],
       "population_500m": 5049,
       "population_1km": 26742,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 5490000,
+      "daily_usage": 15041,
+      "usage_per_capita_500m": 2.98,
+      "usage_per_capita_1km": 0.56,
+      "station_type": "commuter_hub",
+      "usage_source": "Wikipedia Tube"
     },
     {
       "naptanId": "940GZZDLWIQ",
@@ -7646,11 +8089,12 @@
       ],
       "population_500m": 9338,
       "population_1km": 41233,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 3090000,
+      "daily_usage": 8465,
+      "usage_per_capita_500m": 0.91,
+      "usage_per_capita_1km": 0.21,
+      "station_type": "residential_hub",
+      "usage_source": "Wikipedia DLR"
     },
     {
       "naptanId": "940GZZDLWLA",
@@ -7662,11 +8106,12 @@
       ],
       "population_500m": 9414,
       "population_1km": 30215,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 6980000,
+      "daily_usage": 19123,
+      "usage_per_capita_500m": 2.03,
+      "usage_per_capita_1km": 0.63,
+      "station_type": "balanced",
+      "usage_source": "Wikipedia DLR"
     },
     {
       "naptanId": "940GZZDLWSV",
@@ -7678,11 +8123,12 @@
       ],
       "population_500m": 5516,
       "population_1km": 20202,
-      "annual_usage": 0,
-      "daily_usage": 0,
-      "usage_per_capita_500m": 0.0,
-      "usage_per_capita_1km": 0.0,
-      "station_type": "no_usage_data"
+      "annual_usage": 2440000,
+      "daily_usage": 6684,
+      "usage_per_capita_500m": 1.21,
+      "usage_per_capita_1km": 0.33,
+      "station_type": "low_activity",
+      "usage_source": "Wikipedia DLR"
     }
   ],
   "line_colors": {
@@ -7702,11 +8148,7 @@
     "dlr": "#00A4A7"
   },
   "thresholds": {
-    "population_threshold": 6697,
-    "usage_threshold": 13369,
-    "pop_25": 4080,
-    "pop_75": 9515,
-    "usage_25": 6931,
-    "usage_75": 25945
+    "population_threshold": 7285,
+    "usage_threshold": 10732
   }
 }

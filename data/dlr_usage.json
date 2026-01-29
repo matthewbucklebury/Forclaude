@@ -1,0 +1,320 @@
+{
+  "mode": "dlr",
+  "stations": [
+    {
+      "name": "Abbey Road",
+      "mode": "dlr",
+      "annual_millions": 1.34,
+      "annual_usage": 1340000,
+      "daily_avg": 3671
+    },
+    {
+      "name": "All Saints",
+      "mode": "dlr",
+      "annual_millions": 1.81,
+      "annual_usage": 1810000,
+      "daily_avg": 4958
+    },
+    {
+      "name": "Bank ( from Monument)",
+      "mode": "dlr",
+      "annual_millions": 37.2,
+      "annual_usage": 37200000,
+      "daily_avg": 101917
+    },
+    {
+      "name": "Beckton",
+      "mode": "dlr",
+      "annual_millions": 2.18,
+      "annual_usage": 2180000,
+      "daily_avg": 5972
+    },
+    {
+      "name": "Beckton Park",
+      "mode": "dlr",
+      "annual_millions": 0.52,
+      "annual_usage": 520000,
+      "daily_avg": 1424
+    },
+    {
+      "name": "Blackwall",
+      "mode": "dlr",
+      "annual_millions": 1.51,
+      "annual_usage": 1510000,
+      "daily_avg": 4136
+    },
+    {
+      "name": "Bow Church ( from Bow Road tube station )",
+      "mode": "dlr",
+      "annual_millions": 3.05,
+      "annual_usage": 3050000,
+      "daily_avg": 8356
+    },
+    {
+      "name": "Canary Wharf",
+      "mode": "dlr",
+      "annual_millions": 12.71,
+      "annual_usage": 12710000,
+      "daily_avg": 34821
+    },
+    {
+      "name": "Canning Town (High Level)",
+      "mode": "dlr",
+      "annual_millions": 12.33,
+      "annual_usage": 12330000,
+      "daily_avg": 33780
+    },
+    {
+      "name": "Crossharbour",
+      "mode": "dlr",
+      "annual_millions": 3.7,
+      "annual_usage": 3700000,
+      "daily_avg": 10136
+    },
+    {
+      "name": "Custom House",
+      "mode": "dlr",
+      "annual_millions": 5.07,
+      "annual_usage": 5070000,
+      "daily_avg": 13890
+    },
+    {
+      "name": "Cutty Sark for Maritime Greenwich",
+      "mode": "dlr",
+      "annual_millions": 7.63,
+      "annual_usage": 7630000,
+      "daily_avg": 20904
+    },
+    {
+      "name": "Cyprus",
+      "mode": "dlr",
+      "annual_millions": 2.27,
+      "annual_usage": 2270000,
+      "daily_avg": 6219
+    },
+    {
+      "name": "Deptford Bridge",
+      "mode": "dlr",
+      "annual_millions": 3.1,
+      "annual_usage": 3100000,
+      "daily_avg": 8493
+    },
+    {
+      "name": "Devons Road",
+      "mode": "dlr",
+      "annual_millions": 2.41,
+      "annual_usage": 2410000,
+      "daily_avg": 6602
+    },
+    {
+      "name": "East India",
+      "mode": "dlr",
+      "annual_millions": 4.41,
+      "annual_usage": 4410000,
+      "daily_avg": 12082
+    },
+    {
+      "name": "Elverson Road",
+      "mode": "dlr",
+      "annual_millions": 1.47,
+      "annual_usage": 1470000,
+      "daily_avg": 4027
+    },
+    {
+      "name": "Gallions Reach",
+      "mode": "dlr",
+      "annual_millions": 2.03,
+      "annual_usage": 2029999,
+      "daily_avg": 5561
+    },
+    {
+      "name": "Greenwich",
+      "mode": "dlr",
+      "annual_millions": 5.33,
+      "annual_usage": 5330000,
+      "daily_avg": 14602
+    },
+    {
+      "name": "Heron Quays ( from Canary Wharf tube station )",
+      "mode": "dlr",
+      "annual_millions": 5.94,
+      "annual_usage": 5940000,
+      "daily_avg": 16273
+    },
+    {
+      "name": "Island Gardens",
+      "mode": "dlr",
+      "annual_millions": 2.36,
+      "annual_usage": 2360000,
+      "daily_avg": 6465
+    },
+    {
+      "name": "King George V",
+      "mode": "dlr",
+      "annual_millions": 1.59,
+      "annual_usage": 1590000,
+      "daily_avg": 4356
+    },
+    {
+      "name": "Langdon Park",
+      "mode": "dlr",
+      "annual_millions": 4.12,
+      "annual_usage": 4120000,
+      "daily_avg": 11287
+    },
+    {
+      "name": "Lewisham",
+      "mode": "dlr",
+      "annual_millions": 7.56,
+      "annual_usage": 7560000,
+      "daily_avg": 20712
+    },
+    {
+      "name": "Limehouse",
+      "mode": "dlr",
+      "annual_millions": 8.54,
+      "annual_usage": 8540000,
+      "daily_avg": 23397
+    },
+    {
+      "name": "London City Airport",
+      "mode": "dlr",
+      "annual_millions": 3.48,
+      "annual_usage": 3480000,
+      "daily_avg": 9534
+    },
+    {
+      "name": "Mudchute",
+      "mode": "dlr",
+      "annual_millions": 1.76,
+      "annual_usage": 1760000,
+      "daily_avg": 4821
+    },
+    {
+      "name": "Pontoon Dock",
+      "mode": "dlr",
+      "annual_millions": 2.83,
+      "annual_usage": 2830000,
+      "daily_avg": 7753
+    },
+    {
+      "name": "Poplar ( from Canary Wharf railway station )",
+      "mode": "dlr",
+      "annual_millions": 1.81,
+      "annual_usage": 1810000,
+      "daily_avg": 4958
+    },
+    {
+      "name": "Prince Regent",
+      "mode": "dlr",
+      "annual_millions": 1.69,
+      "annual_usage": 1690000,
+      "daily_avg": 4630
+    },
+    {
+      "name": "Pudding Mill Lane",
+      "mode": "dlr",
+      "annual_millions": 2.31,
+      "annual_usage": 2310000,
+      "daily_avg": 6328
+    },
+    {
+      "name": "Royal Albert",
+      "mode": "dlr",
+      "annual_millions": 1.49,
+      "annual_usage": 1490000,
+      "daily_avg": 4082
+    },
+    {
+      "name": "Royal Victoria ( from IFS Cloud Royal Docks )",
+      "mode": "dlr",
+      "annual_millions": 2.91,
+      "annual_usage": 2910000,
+      "daily_avg": 7972
+    },
+    {
+      "name": "Shadwell",
+      "mode": "dlr",
+      "annual_millions": 6.36,
+      "annual_usage": 6360000,
+      "daily_avg": 17424
+    },
+    {
+      "name": "South Quay",
+      "mode": "dlr",
+      "annual_millions": 4.55,
+      "annual_usage": 4550000,
+      "daily_avg": 12465
+    },
+    {
+      "name": "Star Lane",
+      "mode": "dlr",
+      "annual_millions": 1.69,
+      "annual_usage": 1690000,
+      "daily_avg": 4630
+    },
+    {
+      "name": "Stratford (High Level)",
+      "mode": "dlr",
+      "annual_millions": 54.38,
+      "annual_usage": 54380000,
+      "daily_avg": 148986
+    },
+    {
+      "name": "Stratford High Street",
+      "mode": "dlr",
+      "annual_millions": 1.29,
+      "annual_usage": 1290000,
+      "daily_avg": 3534
+    },
+    {
+      "name": "Stratford International",
+      "mode": "dlr",
+      "annual_millions": 4.44,
+      "annual_usage": 4440000,
+      "daily_avg": 12164
+    },
+    {
+      "name": "Tower Gateway ( from Fenchurch Street railway station and from Tower Hill tube station )",
+      "mode": "dlr",
+      "annual_millions": 3.14,
+      "annual_usage": 3140000,
+      "daily_avg": 8602
+    },
+    {
+      "name": "West Ham",
+      "mode": "dlr",
+      "annual_millions": 5.34,
+      "annual_usage": 5340000,
+      "daily_avg": 14630
+    },
+    {
+      "name": "West India Quay ( from Canary Wharf railway station )",
+      "mode": "dlr",
+      "annual_millions": 3.09,
+      "annual_usage": 3090000,
+      "daily_avg": 8465
+    },
+    {
+      "name": "West Silvertown",
+      "mode": "dlr",
+      "annual_millions": 2.44,
+      "annual_usage": 2440000,
+      "daily_avg": 6684
+    },
+    {
+      "name": "Westferry",
+      "mode": "dlr",
+      "annual_millions": 3.38,
+      "annual_usage": 3380000,
+      "daily_avg": 9260
+    },
+    {
+      "name": "Woolwich Arsenal ( from Woolwich railway station )",
+      "mode": "dlr",
+      "annual_millions": 6.98,
+      "annual_usage": 6980000,
+      "daily_avg": 19123
+    }
+  ]
+}

@@ -1,0 +1,2448 @@
+{
+  "source": "ORR Station Usage 2024-25",
+  "stations": [
+    {
+      "name": "London Liverpool Street",
+      "region": "London",
+      "owner": "Network Rail",
+      "annual_usage": 98015658,
+      "daily_avg": 268536
+    },
+    {
+      "name": "London Waterloo",
+      "region": "London",
+      "owner": "Network Rail",
+      "annual_usage": 70389546,
+      "daily_avg": 192848
+    },
+    {
+      "name": "London Paddington",
+      "region": "London",
+      "owner": "Network Rail",
+      "annual_usage": 69897084,
+      "daily_avg": 191498
+    },
+    {
+      "name": "Tottenham Court Road",
+      "region": "London",
+      "owner": "London Underground",
+      "annual_usage": 68133826,
+      "daily_avg": 186668
+    },
+    {
+      "name": "London Bridge",
+      "region": "London",
+      "owner": "Network Rail",
+      "annual_usage": 54685648,
+      "daily_avg": 149823
+    },
+    {
+      "name": "London Victoria",
+      "region": "London",
+      "owner": "Network Rail",
+      "annual_usage": 53784358,
+      "daily_avg": 147354
+    },
+    {
+      "name": "Stratford (London)",
+      "region": "London",
+      "owner": "Elizabeth line",
+      "annual_usage": 51473518,
+      "daily_avg": 141023
+    },
+    {
+      "name": "Farringdon",
+      "region": "London",
+      "owner": "London Underground",
+      "annual_usage": 50171290,
+      "daily_avg": 137455
+    },
+    {
+      "name": "Bond Street",
+      "region": "London",
+      "owner": "London Underground",
+      "annual_usage": 42752242,
+      "daily_avg": 117129
+    },
+    {
+      "name": "London Euston",
+      "region": "London",
+      "owner": "Network Rail",
+      "annual_usage": 40248974,
+      "daily_avg": 110271
+    },
+    {
+      "name": "London St Pancras International",
+      "region": "London",
+      "owner": "Network Rail",
+      "annual_usage": 38842772,
+      "daily_avg": 106418
+    },
+    {
+      "name": "Whitechapel",
+      "region": "London",
+      "owner": "London Underground",
+      "annual_usage": 37140828,
+      "daily_avg": 101755
+    },
+    {
+      "name": "London Kings Cross",
+      "region": "London",
+      "owner": "Network Rail",
+      "annual_usage": 27727108,
+      "daily_avg": 75964
+    },
+    {
+      "name": "Clapham Junction",
+      "region": "London",
+      "owner": "Network Rail",
+      "annual_usage": 24447510,
+      "daily_avg": 66979
+    },
+    {
+      "name": "Highbury and Islington",
+      "region": "London",
+      "owner": "London Underground",
+      "annual_usage": 23982528,
+      "daily_avg": 65705
+    },
+    {
+      "name": "East Croydon",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Southern)",
+      "annual_usage": 20592106,
+      "daily_avg": 56416
+    },
+    {
+      "name": "London Charing Cross",
+      "region": "London",
+      "owner": "Network Rail",
+      "annual_usage": 19767784,
+      "daily_avg": 54158
+    },
+    {
+      "name": "Canada Water",
+      "region": "London",
+      "owner": "London Underground",
+      "annual_usage": 18668762,
+      "daily_avg": 51147
+    },
+    {
+      "name": "Canary Wharf",
+      "region": "London",
+      "owner": "Elizabeth line",
+      "annual_usage": 15927588,
+      "daily_avg": 43637
+    },
+    {
+      "name": "Vauxhall",
+      "region": "London",
+      "owner": "South Western Railway",
+      "annual_usage": 15534168,
+      "daily_avg": 42559
+    },
+    {
+      "name": "Ealing Broadway",
+      "region": "London",
+      "owner": "Elizabeth line",
+      "annual_usage": 15456598,
+      "daily_avg": 42346
+    },
+    {
+      "name": "London Blackfriars",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Thameslink)",
+      "annual_usage": 15193088,
+      "daily_avg": 41624
+    },
+    {
+      "name": "Woolwich",
+      "region": "London",
+      "owner": "Elizabeth line",
+      "annual_usage": 13755990,
+      "daily_avg": 37687
+    },
+    {
+      "name": "Barking",
+      "region": "London",
+      "owner": "c2c",
+      "annual_usage": 13359426,
+      "daily_avg": 36601
+    },
+    {
+      "name": "Wimbledon",
+      "region": "London",
+      "owner": "South Western Railway",
+      "annual_usage": 13244436,
+      "daily_avg": 36286
+    },
+    {
+      "name": "Romford",
+      "region": "London",
+      "owner": "Elizabeth line",
+      "annual_usage": 12143302,
+      "daily_avg": 33269
+    },
+    {
+      "name": "Abbey Wood",
+      "region": "London",
+      "owner": "Elizabeth line",
+      "annual_usage": 11873686,
+      "daily_avg": 32530
+    },
+    {
+      "name": "London Marylebone",
+      "region": "London",
+      "owner": "Chiltern Railways",
+      "annual_usage": 11772892,
+      "daily_avg": 32254
+    },
+    {
+      "name": "Finsbury Park",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Great Northern)",
+      "annual_usage": 11176026,
+      "daily_avg": 30619
+    },
+    {
+      "name": "West Ham",
+      "region": "London",
+      "owner": "London Underground",
+      "annual_usage": 11065018,
+      "daily_avg": 30315
+    },
+    {
+      "name": "Ilford",
+      "region": "London",
+      "owner": "Elizabeth line",
+      "annual_usage": 10927468,
+      "daily_avg": 29938
+    },
+    {
+      "name": "London Fenchurch Street",
+      "region": "London",
+      "owner": "c2c",
+      "annual_usage": 10862630,
+      "daily_avg": 29760
+    },
+    {
+      "name": "Custom House",
+      "region": "London",
+      "owner": "Elizabeth line",
+      "annual_usage": 9794628,
+      "daily_avg": 26834
+    },
+    {
+      "name": "Richmond (London)",
+      "region": "London",
+      "owner": "South Western Railway",
+      "annual_usage": 9515642,
+      "daily_avg": 26070
+    },
+    {
+      "name": "Tottenham Hale",
+      "region": "London",
+      "owner": "Greater Anglia",
+      "annual_usage": 9256456,
+      "daily_avg": 25360
+    },
+    {
+      "name": "Moorgate",
+      "region": "London",
+      "owner": "London Underground",
+      "annual_usage": 8791382,
+      "daily_avg": 24085
+    },
+    {
+      "name": "Hayes and Harlington",
+      "region": "London",
+      "owner": "Elizabeth line",
+      "annual_usage": 8450164,
+      "daily_avg": 23151
+    },
+    {
+      "name": "Seven Sisters",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 8394182,
+      "daily_avg": 22997
+    },
+    {
+      "name": "Heathrow Terminals 2 and 3 (Rail Station Only)",
+      "region": "London",
+      "owner": "Heathrow Express",
+      "annual_usage": 7938962,
+      "daily_avg": 21750
+    },
+    {
+      "name": "Southall",
+      "region": "London",
+      "owner": "Elizabeth line",
+      "annual_usage": 7669160,
+      "daily_avg": 21011
+    },
+    {
+      "name": "City Thameslink",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Thameslink)",
+      "annual_usage": 7635634,
+      "daily_avg": 20919
+    },
+    {
+      "name": "Surbiton",
+      "region": "London",
+      "owner": "South Western Railway",
+      "annual_usage": 7589564,
+      "daily_avg": 20793
+    },
+    {
+      "name": "London Cannon Street",
+      "region": "London",
+      "owner": "Network Rail",
+      "annual_usage": 7507972,
+      "daily_avg": 20569
+    },
+    {
+      "name": "Shoreditch High Street",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 7294534,
+      "daily_avg": 19985
+    },
+    {
+      "name": "Willesden Junction",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 7041954,
+      "daily_avg": 19293
+    },
+    {
+      "name": "Lewisham",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 7023970,
+      "daily_avg": 19243
+    },
+    {
+      "name": "Shepherd's Bush",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 6931918,
+      "daily_avg": 18991
+    },
+    {
+      "name": "London Waterloo East",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 6841002,
+      "daily_avg": 18742
+    },
+    {
+      "name": "Bromley South",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 6193798,
+      "daily_avg": 16969
+    },
+    {
+      "name": "Peckham Rye",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Southern)",
+      "annual_usage": 6136674,
+      "daily_avg": 16812
+    },
+    {
+      "name": "Old Street",
+      "region": "London",
+      "owner": "London Underground",
+      "annual_usage": 6077166,
+      "daily_avg": 16649
+    },
+    {
+      "name": "Denmark Hill",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Thameslink)",
+      "annual_usage": 6020036,
+      "daily_avg": 16493
+    },
+    {
+      "name": "Balham",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Southern)",
+      "annual_usage": 5955232,
+      "daily_avg": 16315
+    },
+    {
+      "name": "Forest Gate",
+      "region": "London",
+      "owner": "Elizabeth line",
+      "annual_usage": 5835876,
+      "daily_avg": 15988
+    },
+    {
+      "name": "Dalston Junction",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 5648732,
+      "daily_avg": 15475
+    },
+    {
+      "name": "Putney",
+      "region": "London",
+      "owner": "South Western Railway",
+      "annual_usage": 5645484,
+      "daily_avg": 15467
+    },
+    {
+      "name": "Earlsfield",
+      "region": "London",
+      "owner": "South Western Railway",
+      "annual_usage": 5569216,
+      "daily_avg": 15258
+    },
+    {
+      "name": "Hackney Central",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 5316954,
+      "daily_avg": 14566
+    },
+    {
+      "name": "Dalston Kingsland",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 5308786,
+      "daily_avg": 14544
+    },
+    {
+      "name": "Upminster",
+      "region": "London",
+      "owner": "c2c",
+      "annual_usage": 5020900,
+      "daily_avg": 13755
+    },
+    {
+      "name": "Orpington",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 4989622,
+      "daily_avg": 13670
+    },
+    {
+      "name": "Twickenham",
+      "region": "London",
+      "owner": "South Western Railway",
+      "annual_usage": 4972204,
+      "daily_avg": 13622
+    },
+    {
+      "name": "Surrey Quays",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 4933592,
+      "daily_avg": 13516
+    },
+    {
+      "name": "Queens Park (London)",
+      "region": "London",
+      "owner": "London Underground",
+      "annual_usage": 4882030,
+      "daily_avg": 13375
+    },
+    {
+      "name": "Chadwell Heath",
+      "region": "London",
+      "owner": "Elizabeth line",
+      "annual_usage": 4874090,
+      "daily_avg": 13353
+    },
+    {
+      "name": "Goodmayes",
+      "region": "London",
+      "owner": "Elizabeth line",
+      "annual_usage": 4772640,
+      "daily_avg": 13075
+    },
+    {
+      "name": "Heathrow Terminal 5 (Rail Station Only)",
+      "region": "London",
+      "owner": "Heathrow Express",
+      "annual_usage": 4704568,
+      "daily_avg": 12889
+    },
+    {
+      "name": "Homerton",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 4685786,
+      "daily_avg": 12837
+    },
+    {
+      "name": "Sutton (London)",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Southern)",
+      "annual_usage": 4639520,
+      "daily_avg": 12711
+    },
+    {
+      "name": "Norwood Junction",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 4627090,
+      "daily_avg": 12676
+    },
+    {
+      "name": "New Cross Gate",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 4550170,
+      "daily_avg": 12466
+    },
+    {
+      "name": "West Brompton",
+      "region": "London",
+      "owner": "London Underground",
+      "annual_usage": 4515126,
+      "daily_avg": 12370
+    },
+    {
+      "name": "Wembley Central",
+      "region": "London",
+      "owner": "London Underground",
+      "annual_usage": 4445524,
+      "daily_avg": 12179
+    },
+    {
+      "name": "Manor Park",
+      "region": "London",
+      "owner": "Elizabeth line",
+      "annual_usage": 4426692,
+      "daily_avg": 12127
+    },
+    {
+      "name": "West Croydon",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 4370176,
+      "daily_avg": 11973
+    },
+    {
+      "name": "Kingston",
+      "region": "London",
+      "owner": "South Western Railway",
+      "annual_usage": 4360664,
+      "daily_avg": 11947
+    },
+    {
+      "name": "Camden Road",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 4330314,
+      "daily_avg": 11863
+    },
+    {
+      "name": "Walthamstow Central",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 4272090,
+      "daily_avg": 11704
+    },
+    {
+      "name": "Forest Hill",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 4229240,
+      "daily_avg": 11586
+    },
+    {
+      "name": "Hackney Wick",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 4211192,
+      "daily_avg": 11537
+    },
+    {
+      "name": "Seven Kings",
+      "region": "London",
+      "owner": "Elizabeth line",
+      "annual_usage": 4084206,
+      "daily_avg": 11189
+    },
+    {
+      "name": "Hoxton",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 4083552,
+      "daily_avg": 11187
+    },
+    {
+      "name": "Maryland",
+      "region": "London",
+      "owner": "Elizabeth line",
+      "annual_usage": 4055440,
+      "daily_avg": 11110
+    },
+    {
+      "name": "Harrow and Wealdstone",
+      "region": "London",
+      "owner": "London Underground",
+      "annual_usage": 3966818,
+      "daily_avg": 10867
+    },
+    {
+      "name": "West Hampstead",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 3944888,
+      "daily_avg": 10807
+    },
+    {
+      "name": "Shadwell",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 3917292,
+      "daily_avg": 10732
+    },
+    {
+      "name": "Wandsworth Town",
+      "region": "London",
+      "owner": "South Western Railway",
+      "annual_usage": 3786146,
+      "daily_avg": 10373
+    },
+    {
+      "name": "Brockley",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 3668366,
+      "daily_avg": 10050
+    },
+    {
+      "name": "Haggerston",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 3651250,
+      "daily_avg": 10003
+    },
+    {
+      "name": "Harold Wood",
+      "region": "London",
+      "owner": "Elizabeth line",
+      "annual_usage": 3637666,
+      "daily_avg": 9966
+    },
+    {
+      "name": "Feltham",
+      "region": "London",
+      "owner": "South Western Railway",
+      "annual_usage": 3626102,
+      "daily_avg": 9934
+    },
+    {
+      "name": "Sydenham (London)",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 3541540,
+      "daily_avg": 9702
+    },
+    {
+      "name": "West Drayton",
+      "region": "London",
+      "owner": "Elizabeth line",
+      "annual_usage": 3533610,
+      "daily_avg": 9681
+    },
+    {
+      "name": "Hampstead Heath",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 3511646,
+      "daily_avg": 9620
+    },
+    {
+      "name": "Raynes Park",
+      "region": "London",
+      "owner": "South Western Railway",
+      "annual_usage": 3497682,
+      "daily_avg": 9582
+    },
+    {
+      "name": "Edmonton Green",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 3486764,
+      "daily_avg": 9552
+    },
+    {
+      "name": "Brentwood",
+      "region": "East of England",
+      "owner": "Elizabeth line",
+      "annual_usage": 3232020,
+      "daily_avg": 8854
+    },
+    {
+      "name": "New Cross",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 3180844,
+      "daily_avg": 8714
+    },
+    {
+      "name": "West Hampstead Thameslink",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Thameslink)",
+      "annual_usage": 3147648,
+      "daily_avg": 8623
+    },
+    {
+      "name": "New Malden",
+      "region": "London",
+      "owner": "South Western Railway",
+      "annual_usage": 3077144,
+      "daily_avg": 8430
+    },
+    {
+      "name": "Harrow-On-The-Hill",
+      "region": "London",
+      "owner": "London Underground",
+      "annual_usage": 3069228,
+      "daily_avg": 8408
+    },
+    {
+      "name": "Hackney Downs",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 3015486,
+      "daily_avg": 8261
+    },
+    {
+      "name": "Gidea Park",
+      "region": "London",
+      "owner": "Elizabeth line",
+      "annual_usage": 2998252,
+      "daily_avg": 8214
+    },
+    {
+      "name": "Queens Road (Peckham)",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Southern)",
+      "annual_usage": 2914668,
+      "daily_avg": 7985
+    },
+    {
+      "name": "Hither Green",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 2899052,
+      "daily_avg": 7942
+    },
+    {
+      "name": "Imperial Wharf",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 2859328,
+      "daily_avg": 7833
+    },
+    {
+      "name": "Canonbury",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 2834562,
+      "daily_avg": 7765
+    },
+    {
+      "name": "Kensington Olympia",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 2831588,
+      "daily_avg": 7757
+    },
+    {
+      "name": "Crystal Palace",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 2781506,
+      "daily_avg": 7620
+    },
+    {
+      "name": "Purley",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Southern)",
+      "annual_usage": 2777102,
+      "daily_avg": 7608
+    },
+    {
+      "name": "Streatham Common",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Southern)",
+      "annual_usage": 2765402,
+      "daily_avg": 7576
+    },
+    {
+      "name": "Stratford International",
+      "region": "London",
+      "owner": "HS1 Ltd",
+      "annual_usage": 2738944,
+      "daily_avg": 7503
+    },
+    {
+      "name": "Highams Park",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 2737710,
+      "daily_avg": 7500
+    },
+    {
+      "name": "Acton Main Line",
+      "region": "London",
+      "owner": "Elizabeth line",
+      "annual_usage": 2699464,
+      "daily_avg": 7395
+    },
+    {
+      "name": "Blackhorse Road",
+      "region": "London",
+      "owner": "London Underground",
+      "annual_usage": 2693538,
+      "daily_avg": 7379
+    },
+    {
+      "name": "Gospel Oak",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 2664268,
+      "daily_avg": 7299
+    },
+    {
+      "name": "White Hart Lane",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 2616980,
+      "daily_avg": 7169
+    },
+    {
+      "name": "Sidcup",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 2614930,
+      "daily_avg": 7164
+    },
+    {
+      "name": "Kensal Rise",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 2607790,
+      "daily_avg": 7144
+    },
+    {
+      "name": "Kentish Town",
+      "region": "London",
+      "owner": "London Underground",
+      "annual_usage": 2589668,
+      "daily_avg": 7094
+    },
+    {
+      "name": "Limehouse",
+      "region": "London",
+      "owner": "c2c",
+      "annual_usage": 2559778,
+      "daily_avg": 7013
+    },
+    {
+      "name": "Honor Oak Park",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 2553270,
+      "daily_avg": 6995
+    },
+    {
+      "name": "West Ealing",
+      "region": "London",
+      "owner": "Elizabeth line",
+      "annual_usage": 2548676,
+      "daily_avg": 6982
+    },
+    {
+      "name": "Catford Bridge",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 2512134,
+      "daily_avg": 6882
+    },
+    {
+      "name": "Wapping",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 2471208,
+      "daily_avg": 6770
+    },
+    {
+      "name": "Brondesbury",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 2442938,
+      "daily_avg": 6692
+    },
+    {
+      "name": "Greenwich",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 2439476,
+      "daily_avg": 6683
+    },
+    {
+      "name": "Streatham (Greater London)",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Southern)",
+      "annual_usage": 2437720,
+      "daily_avg": 6678
+    },
+    {
+      "name": "Herne Hill",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 2434224,
+      "daily_avg": 6669
+    },
+    {
+      "name": "Thornton Heath",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Southern)",
+      "annual_usage": 2432008,
+      "daily_avg": 6663
+    },
+    {
+      "name": "Norbury",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Southern)",
+      "annual_usage": 2348766,
+      "daily_avg": 6434
+    },
+    {
+      "name": "Enfield Town",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 2343318,
+      "daily_avg": 6420
+    },
+    {
+      "name": "Grove Park",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 2296634,
+      "daily_avg": 6292
+    },
+    {
+      "name": "Blackheath",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 2278510,
+      "daily_avg": 6242
+    },
+    {
+      "name": "Norbiton",
+      "region": "London",
+      "owner": "South Western Railway",
+      "annual_usage": 2269820,
+      "daily_avg": 6218
+    },
+    {
+      "name": "Woolwich Arsenal",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 2269060,
+      "daily_avg": 6216
+    },
+    {
+      "name": "Barnes",
+      "region": "London",
+      "owner": "South Western Railway",
+      "annual_usage": 2251810,
+      "daily_avg": 6169
+    },
+    {
+      "name": "Battersea Park",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Southern)",
+      "annual_usage": 2183506,
+      "daily_avg": 5982
+    },
+    {
+      "name": "Tulse Hill",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Southern)",
+      "annual_usage": 2181520,
+      "daily_avg": 5976
+    },
+    {
+      "name": "Elephant and Castle",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Thameslink)",
+      "annual_usage": 2169236,
+      "daily_avg": 5943
+    },
+    {
+      "name": "Silver Street",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 2136452,
+      "daily_avg": 5853
+    },
+    {
+      "name": "Clapton",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 2130232,
+      "daily_avg": 5836
+    },
+    {
+      "name": "Heathrow Terminal 4 (Rail Station Only)",
+      "region": "London",
+      "owner": "Heathrow Express",
+      "annual_usage": 2058248,
+      "daily_avg": 5639
+    },
+    {
+      "name": "New Eltham",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 2038220,
+      "daily_avg": 5584
+    },
+    {
+      "name": "Chingford",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 2036058,
+      "daily_avg": 5578
+    },
+    {
+      "name": "Gunnersbury",
+      "region": "London",
+      "owner": "London Underground",
+      "annual_usage": 1961546,
+      "daily_avg": 5374
+    },
+    {
+      "name": "Coulsdon South",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Southern)",
+      "annual_usage": 1959570,
+      "daily_avg": 5368
+    },
+    {
+      "name": "Wood Street",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 1938180,
+      "daily_avg": 5310
+    },
+    {
+      "name": "London Fields",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 1911346,
+      "daily_avg": 5236
+    },
+    {
+      "name": "Kentish Town West",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 1886418,
+      "daily_avg": 5168
+    },
+    {
+      "name": "Finchley Road and Frognal",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 1876386,
+      "daily_avg": 5140
+    },
+    {
+      "name": "Mill Hill Broadway",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Thameslink)",
+      "annual_usage": 1874860,
+      "daily_avg": 5136
+    },
+    {
+      "name": "Alexandra Palace",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Great Northern)",
+      "annual_usage": 1855806,
+      "daily_avg": 5084
+    },
+    {
+      "name": "Streatham Hill",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Southern)",
+      "annual_usage": 1824266,
+      "daily_avg": 4997
+    },
+    {
+      "name": "Eltham",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 1758352,
+      "daily_avg": 4817
+    },
+    {
+      "name": "Rotherhithe",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 1739436,
+      "daily_avg": 4765
+    },
+    {
+      "name": "Burnham (Buckinghamshire)",
+      "region": "South East",
+      "owner": "Elizabeth line",
+      "annual_usage": 1725890,
+      "daily_avg": 4728
+    },
+    {
+      "name": "Teddington",
+      "region": "London",
+      "owner": "South Western Railway",
+      "annual_usage": 1717082,
+      "daily_avg": 4704
+    },
+    {
+      "name": "Petts Wood",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 1707602,
+      "daily_avg": 4678
+    },
+    {
+      "name": "Beckenham Junction",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 1694068,
+      "daily_avg": 4641
+    },
+    {
+      "name": "Hanwell",
+      "region": "London",
+      "owner": "Elizabeth line",
+      "annual_usage": 1691400,
+      "daily_avg": 4633
+    },
+    {
+      "name": "Hornsey",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Great Northern)",
+      "annual_usage": 1664926,
+      "daily_avg": 4561
+    },
+    {
+      "name": "Deptford",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 1643802,
+      "daily_avg": 4503
+    },
+    {
+      "name": "Kidbrooke",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 1620822,
+      "daily_avg": 4440
+    },
+    {
+      "name": "Wallington",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Southern)",
+      "annual_usage": 1609134,
+      "daily_avg": 4408
+    },
+    {
+      "name": "Acton Central",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 1574010,
+      "daily_avg": 4312
+    },
+    {
+      "name": "Caledonian Road and Barnsbury",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 1566788,
+      "daily_avg": 4292
+    },
+    {
+      "name": "Bethnal Green",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 1564066,
+      "daily_avg": 4285
+    },
+    {
+      "name": "Palmers Green",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Great Northern)",
+      "annual_usage": 1557022,
+      "daily_avg": 4265
+    },
+    {
+      "name": "Harlesden",
+      "region": "London",
+      "owner": "London Underground",
+      "annual_usage": 1553164,
+      "daily_avg": 4255
+    },
+    {
+      "name": "St James Street (Walthamstow)",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 1551778,
+      "daily_avg": 4251
+    },
+    {
+      "name": "Leyton Midland Road",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 1551332,
+      "daily_avg": 4250
+    },
+    {
+      "name": "Mortlake",
+      "region": "London",
+      "owner": "South Western Railway",
+      "annual_usage": 1546638,
+      "daily_avg": 4237
+    },
+    {
+      "name": "Welling",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 1527888,
+      "daily_avg": 4185
+    },
+    {
+      "name": "Rainham (Essex)",
+      "region": "London",
+      "owner": "c2c",
+      "annual_usage": 1525196,
+      "daily_avg": 4178
+    },
+    {
+      "name": "West Norwood",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Southern)",
+      "annual_usage": 1507342,
+      "daily_avg": 4129
+    },
+    {
+      "name": "Lee (London)",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 1482668,
+      "daily_avg": 4062
+    },
+    {
+      "name": "Bexleyheath",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 1475374,
+      "daily_avg": 4042
+    },
+    {
+      "name": "Stoke Newington",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 1465574,
+      "daily_avg": 4015
+    },
+    {
+      "name": "Enfield Lock",
+      "region": "London",
+      "owner": "Greater Anglia",
+      "annual_usage": 1459366,
+      "daily_avg": 3998
+    },
+    {
+      "name": "Kenton",
+      "region": "London",
+      "owner": "London Underground",
+      "annual_usage": 1438022,
+      "daily_avg": 3939
+    },
+    {
+      "name": "Upper Holloway",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 1425670,
+      "daily_avg": 3905
+    },
+    {
+      "name": "Harringay Green Lanes",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 1425034,
+      "daily_avg": 3904
+    },
+    {
+      "name": "Worcester Park",
+      "region": "London",
+      "owner": "South Western Railway",
+      "annual_usage": 1422222,
+      "daily_avg": 3896
+    },
+    {
+      "name": "Winchmore Hill",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Great Northern)",
+      "annual_usage": 1408426,
+      "daily_avg": 3858
+    },
+    {
+      "name": "Gipsy Hill",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Southern)",
+      "annual_usage": 1401264,
+      "daily_avg": 3839
+    },
+    {
+      "name": "Maze Hill",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 1397904,
+      "daily_avg": 3829
+    },
+    {
+      "name": "Clapham High Street",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 1383296,
+      "daily_avg": 3789
+    },
+    {
+      "name": "Mottingham",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 1374680,
+      "daily_avg": 3766
+    },
+    {
+      "name": "Kew Gardens",
+      "region": "London",
+      "owner": "London Underground",
+      "annual_usage": 1368612,
+      "daily_avg": 3749
+    },
+    {
+      "name": "Bruce Grove",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 1364934,
+      "daily_avg": 3739
+    },
+    {
+      "name": "Watford High Street",
+      "region": "East of England",
+      "owner": "London Overground",
+      "annual_usage": 1363368,
+      "daily_avg": 3735
+    },
+    {
+      "name": "South Tottenham",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 1357436,
+      "daily_avg": 3719
+    },
+    {
+      "name": "Stonebridge Park",
+      "region": "London",
+      "owner": "London Underground",
+      "annual_usage": 1355426,
+      "daily_avg": 3713
+    },
+    {
+      "name": "East Dulwich",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Southern)",
+      "annual_usage": 1335792,
+      "daily_avg": 3659
+    },
+    {
+      "name": "St Mary Cray",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 1334744,
+      "daily_avg": 3656
+    },
+    {
+      "name": "Rectory Road",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 1325536,
+      "daily_avg": 3631
+    },
+    {
+      "name": "Mitcham Eastfields",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Southern)",
+      "annual_usage": 1318094,
+      "daily_avg": 3611
+    },
+    {
+      "name": "Whitton (London)",
+      "region": "London",
+      "owner": "South Western Railway",
+      "annual_usage": 1291066,
+      "daily_avg": 3537
+    },
+    {
+      "name": "New Barnet",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Great Northern)",
+      "annual_usage": 1272760,
+      "daily_avg": 3487
+    },
+    {
+      "name": "Charlton",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 1269452,
+      "daily_avg": 3477
+    },
+    {
+      "name": "Ladywell",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 1254886,
+      "daily_avg": 3438
+    },
+    {
+      "name": "Penge East",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 1235544,
+      "daily_avg": 3385
+    },
+    {
+      "name": "Loughborough Junction",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Thameslink)",
+      "annual_usage": 1233640,
+      "daily_avg": 3379
+    },
+    {
+      "name": "North Wembley",
+      "region": "London",
+      "owner": "London Underground",
+      "annual_usage": 1231422,
+      "daily_avg": 3373
+    },
+    {
+      "name": "Bushey",
+      "region": "East of England",
+      "owner": "London Overground",
+      "annual_usage": 1225400,
+      "daily_avg": 3357
+    },
+    {
+      "name": "Carpenders Park",
+      "region": "East of England",
+      "owner": "London Overground",
+      "annual_usage": 1224684,
+      "daily_avg": 3355
+    },
+    {
+      "name": "Selhurst",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Southern)",
+      "annual_usage": 1217928,
+      "daily_avg": 3336
+    },
+    {
+      "name": "Barking Riverside",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 1209476,
+      "daily_avg": 3313
+    },
+    {
+      "name": "Bush Hill Park",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 1188288,
+      "daily_avg": 3255
+    },
+    {
+      "name": "Enfield Chase",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Great Northern)",
+      "annual_usage": 1166152,
+      "daily_avg": 3194
+    },
+    {
+      "name": "Kew Bridge",
+      "region": "London",
+      "owner": "South Western Railway",
+      "annual_usage": 1162156,
+      "daily_avg": 3183
+    },
+    {
+      "name": "Langley (Berks)",
+      "region": "South East",
+      "owner": "Elizabeth line",
+      "annual_usage": 1153338,
+      "daily_avg": 3159
+    },
+    {
+      "name": "Gordon Hill",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Great Northern)",
+      "annual_usage": 1152836,
+      "daily_avg": 3158
+    },
+    {
+      "name": "Leytonstone High Road",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 1151934,
+      "daily_avg": 3155
+    },
+    {
+      "name": "Harringay",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Great Northern)",
+      "annual_usage": 1140210,
+      "daily_avg": 3123
+    },
+    {
+      "name": "Carshalton",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Southern)",
+      "annual_usage": 1139060,
+      "daily_avg": 3120
+    },
+    {
+      "name": "Brimsdown",
+      "region": "London",
+      "owner": "Greater Anglia",
+      "annual_usage": 1135474,
+      "daily_avg": 3110
+    },
+    {
+      "name": "Shortlands",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 1128652,
+      "daily_avg": 3092
+    },
+    {
+      "name": "Slade Green",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 1103814,
+      "daily_avg": 3024
+    },
+    {
+      "name": "Bexley",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 1096808,
+      "daily_avg": 3004
+    },
+    {
+      "name": "South Croydon",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Southern)",
+      "annual_usage": 1088648,
+      "daily_avg": 2982
+    },
+    {
+      "name": "Crayford",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 1086958,
+      "daily_avg": 2977
+    },
+    {
+      "name": "Wanstead Park",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 1071144,
+      "daily_avg": 2934
+    },
+    {
+      "name": "Brondesbury Park",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 1067324,
+      "daily_avg": 2924
+    },
+    {
+      "name": "Clock House",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 1067284,
+      "daily_avg": 2924
+    },
+    {
+      "name": "Northumberland Park",
+      "region": "London",
+      "owner": "Greater Anglia",
+      "annual_usage": 1052358,
+      "daily_avg": 2883
+    },
+    {
+      "name": "Cambridge Heath",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 1050568,
+      "daily_avg": 2878
+    },
+    {
+      "name": "Southbury",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 1038924,
+      "daily_avg": 2846
+    },
+    {
+      "name": "Hendon",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Thameslink)",
+      "annual_usage": 1027036,
+      "daily_avg": 2813
+    },
+    {
+      "name": "St Margarets (London)",
+      "region": "London",
+      "owner": "South Western Railway",
+      "annual_usage": 1014718,
+      "daily_avg": 2780
+    },
+    {
+      "name": "Chislehurst",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 1012880,
+      "daily_avg": 2775
+    },
+    {
+      "name": "Kensal Green",
+      "region": "London",
+      "owner": "London Underground",
+      "annual_usage": 999796,
+      "daily_avg": 2739
+    },
+    {
+      "name": "Walthamstow Queen's Road",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 997432,
+      "daily_avg": 2732
+    },
+    {
+      "name": "Nunhead",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Thameslink)",
+      "annual_usage": 997310,
+      "daily_avg": 2732
+    },
+    {
+      "name": "Turkey Street",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 990634,
+      "daily_avg": 2714
+    },
+    {
+      "name": "Brentford",
+      "region": "London",
+      "owner": "South Western Railway",
+      "annual_usage": 976928,
+      "daily_avg": 2676
+    },
+    {
+      "name": "Wandsworth Common",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Southern)",
+      "annual_usage": 961536,
+      "daily_avg": 2634
+    },
+    {
+      "name": "Isleworth",
+      "region": "London",
+      "owner": "South Western Railway",
+      "annual_usage": 956838,
+      "daily_avg": 2621
+    },
+    {
+      "name": "Barnehurst",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 955890,
+      "daily_avg": 2618
+    },
+    {
+      "name": "Anerley",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 948840,
+      "daily_avg": 2599
+    },
+    {
+      "name": "Hampton (London)",
+      "region": "London",
+      "owner": "South Western Railway",
+      "annual_usage": 948726,
+      "daily_avg": 2599
+    },
+    {
+      "name": "Hayes (Kent)",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 940160,
+      "daily_avg": 2575
+    },
+    {
+      "name": "Woodgrange Park",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 938768,
+      "daily_avg": 2571
+    },
+    {
+      "name": "Cheam",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Southern)",
+      "annual_usage": 932574,
+      "daily_avg": 2554
+    },
+    {
+      "name": "Westcombe Park",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 931670,
+      "daily_avg": 2552
+    },
+    {
+      "name": "Elmstead Woods",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 927220,
+      "daily_avg": 2540
+    },
+    {
+      "name": "Oakleigh Park",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Great Northern)",
+      "annual_usage": 924194,
+      "daily_avg": 2532
+    },
+    {
+      "name": "Plumstead",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 923038,
+      "daily_avg": 2528
+    },
+    {
+      "name": "New Southgate",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Great Northern)",
+      "annual_usage": 920392,
+      "daily_avg": 2521
+    },
+    {
+      "name": "Hackbridge",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Southern)",
+      "annual_usage": 911110,
+      "daily_avg": 2496
+    },
+    {
+      "name": "Crouch Hill",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 901274,
+      "daily_avg": 2469
+    },
+    {
+      "name": "Wembley Stadium",
+      "region": "London",
+      "owner": "Chiltern Railways",
+      "annual_usage": 884860,
+      "daily_avg": 2424
+    },
+    {
+      "name": "Ponders End",
+      "region": "London",
+      "owner": "Greater Anglia",
+      "annual_usage": 884028,
+      "daily_avg": 2421
+    },
+    {
+      "name": "Lea Bridge",
+      "region": "London",
+      "owner": "Greater Anglia",
+      "annual_usage": 877314,
+      "daily_avg": 2403
+    },
+    {
+      "name": "Barnes Bridge",
+      "region": "London",
+      "owner": "South Western Railway",
+      "annual_usage": 872264,
+      "daily_avg": 2389
+    },
+    {
+      "name": "Syon Lane",
+      "region": "London",
+      "owner": "South Western Railway",
+      "annual_usage": 868730,
+      "daily_avg": 2380
+    },
+    {
+      "name": "West Dulwich",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 864428,
+      "daily_avg": 2368
+    },
+    {
+      "name": "Cricklewood",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Thameslink)",
+      "annual_usage": 859464,
+      "daily_avg": 2354
+    },
+    {
+      "name": "Hounslow",
+      "region": "London",
+      "owner": "South Western Railway",
+      "annual_usage": 850306,
+      "daily_avg": 2329
+    },
+    {
+      "name": "Sanderstead",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Southern)",
+      "annual_usage": 844182,
+      "daily_avg": 2312
+    },
+    {
+      "name": "St Johns (London)",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 842382,
+      "daily_avg": 2307
+    },
+    {
+      "name": "Falconwood",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 823276,
+      "daily_avg": 2255
+    },
+    {
+      "name": "Motspur Park",
+      "region": "London",
+      "owner": "South Western Railway",
+      "annual_usage": 822372,
+      "daily_avg": 2253
+    },
+    {
+      "name": "Kent House",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 814336,
+      "daily_avg": 2231
+    },
+    {
+      "name": "Hampton Wick",
+      "region": "London",
+      "owner": "South Western Railway",
+      "annual_usage": 810634,
+      "daily_avg": 2220
+    },
+    {
+      "name": "Queenstown Road (Battersea)",
+      "region": "London",
+      "owner": "South Western Railway",
+      "annual_usage": 806010,
+      "daily_avg": 2208
+    },
+    {
+      "name": "Brixton",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 804378,
+      "daily_avg": 2203
+    },
+    {
+      "name": "Tooting",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Thameslink)",
+      "annual_usage": 803666,
+      "daily_avg": 2201
+    },
+    {
+      "name": "Elmers End",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 802120,
+      "daily_avg": 2197
+    },
+    {
+      "name": "West Wickham",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 792638,
+      "daily_avg": 2171
+    },
+    {
+      "name": "Carshalton Beeches",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Southern)",
+      "annual_usage": 786788,
+      "daily_avg": 2155
+    },
+    {
+      "name": "Lower Sydenham",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 786602,
+      "daily_avg": 2155
+    },
+    {
+      "name": "Catford",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Thameslink)",
+      "annual_usage": 777398,
+      "daily_avg": 2129
+    },
+    {
+      "name": "Albany Park",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 775024,
+      "daily_avg": 2123
+    },
+    {
+      "name": "Kilburn High Road",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 758448,
+      "daily_avg": 2077
+    },
+    {
+      "name": "Theobalds Grove",
+      "region": "East of England",
+      "owner": "London Overground",
+      "annual_usage": 751174,
+      "daily_avg": 2058
+    },
+    {
+      "name": "South Acton",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 747478,
+      "daily_avg": 2047
+    },
+    {
+      "name": "Erith",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 740404,
+      "daily_avg": 2028
+    },
+    {
+      "name": "Bickley",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 738246,
+      "daily_avg": 2022
+    },
+    {
+      "name": "North Dulwich",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Southern)",
+      "annual_usage": 730666,
+      "daily_avg": 2001
+    },
+    {
+      "name": "Drayton Park",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Great Northern)",
+      "annual_usage": 728922,
+      "daily_avg": 1997
+    },
+    {
+      "name": "New Beckenham",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 721184,
+      "daily_avg": 1975
+    },
+    {
+      "name": "Chiswick",
+      "region": "London",
+      "owner": "South Western Railway",
+      "annual_usage": 707048,
+      "daily_avg": 1937
+    },
+    {
+      "name": "Crofton Park",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Thameslink)",
+      "annual_usage": 699392,
+      "daily_avg": 1916
+    },
+    {
+      "name": "Essex Road",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Great Northern)",
+      "annual_usage": 697932,
+      "daily_avg": 1912
+    },
+    {
+      "name": "Belvedere",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 696406,
+      "daily_avg": 1907
+    },
+    {
+      "name": "Hatch End",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 695916,
+      "daily_avg": 1906
+    },
+    {
+      "name": "Sydenham Hill",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 694346,
+      "daily_avg": 1902
+    },
+    {
+      "name": "Strawberry Hill",
+      "region": "London",
+      "owner": "South Western Railway",
+      "annual_usage": 687594,
+      "daily_avg": 1883
+    },
+    {
+      "name": "Stamford Hill",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 676276,
+      "daily_avg": 1852
+    },
+    {
+      "name": "Brent Cross West",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Thameslink)",
+      "annual_usage": 675392,
+      "daily_avg": 1850
+    },
+    {
+      "name": "South Kenton",
+      "region": "London",
+      "owner": "London Underground",
+      "annual_usage": 643152,
+      "daily_avg": 1762
+    },
+    {
+      "name": "Penge West",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 634966,
+      "daily_avg": 1739
+    },
+    {
+      "name": "South Bermondsey",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Southern)",
+      "annual_usage": 632694,
+      "daily_avg": 1733
+    },
+    {
+      "name": "Bellingham",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Thameslink)",
+      "annual_usage": 623114,
+      "daily_avg": 1707
+    },
+    {
+      "name": "Wandsworth Road",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 610410,
+      "daily_avg": 1672
+    },
+    {
+      "name": "Waddon",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Southern)",
+      "annual_usage": 604552,
+      "daily_avg": 1656
+    },
+    {
+      "name": "Chelsfield",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 593350,
+      "daily_avg": 1625
+    },
+    {
+      "name": "Tolworth",
+      "region": "London",
+      "owner": "South Western Railway",
+      "annual_usage": 575870,
+      "daily_avg": 1577
+    },
+    {
+      "name": "Eden Park",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 558530,
+      "daily_avg": 1530
+    },
+    {
+      "name": "Taplow",
+      "region": "South East",
+      "owner": "Elizabeth line",
+      "annual_usage": 528968,
+      "daily_avg": 1449
+    },
+    {
+      "name": "Bowes Park",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Great Northern)",
+      "annual_usage": 524702,
+      "daily_avg": 1437
+    },
+    {
+      "name": "Headstone Lane",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 516542,
+      "daily_avg": 1415
+    },
+    {
+      "name": "Meridian Water",
+      "region": "London",
+      "owner": "Greater Anglia",
+      "annual_usage": 494354,
+      "daily_avg": 1354
+    },
+    {
+      "name": "Grange Park",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Great Northern)",
+      "annual_usage": 493126,
+      "daily_avg": 1351
+    },
+    {
+      "name": "Chessington North",
+      "region": "London",
+      "owner": "South Western Railway",
+      "annual_usage": 488812,
+      "daily_avg": 1339
+    },
+    {
+      "name": "Malden Manor",
+      "region": "London",
+      "owner": "South Western Railway",
+      "annual_usage": 484006,
+      "daily_avg": 1326
+    },
+    {
+      "name": "Purley Oaks",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Southern)",
+      "annual_usage": 480890,
+      "daily_avg": 1317
+    },
+    {
+      "name": "South Hampstead",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 477560,
+      "daily_avg": 1308
+    },
+    {
+      "name": "Fulwell",
+      "region": "London",
+      "owner": "South Western Railway",
+      "annual_usage": 437388,
+      "daily_avg": 1198
+    },
+    {
+      "name": "Dagenham Dock",
+      "region": "London",
+      "owner": "c2c",
+      "annual_usage": 424946,
+      "daily_avg": 1164
+    },
+    {
+      "name": "Mitcham Junction",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Southern)",
+      "annual_usage": 408018,
+      "daily_avg": 1117
+    },
+    {
+      "name": "Beckenham Hill",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Thameslink)",
+      "annual_usage": 378666,
+      "daily_avg": 1037
+    },
+    {
+      "name": "Berrylands",
+      "region": "London",
+      "owner": "South Western Railway",
+      "annual_usage": 363954,
+      "daily_avg": 997
+    },
+    {
+      "name": "Iver",
+      "region": "South East",
+      "owner": "Elizabeth line",
+      "annual_usage": 362658,
+      "daily_avg": 993
+    },
+    {
+      "name": "Hadley Wood",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Great Northern)",
+      "annual_usage": 362264,
+      "daily_avg": 992
+    },
+    {
+      "name": "Chessington South",
+      "region": "London",
+      "owner": "South Western Railway",
+      "annual_usage": 344218,
+      "daily_avg": 943
+    },
+    {
+      "name": "North Sheen",
+      "region": "London",
+      "owner": "South Western Railway",
+      "annual_usage": 342020,
+      "daily_avg": 937
+    },
+    {
+      "name": "Haydons Road",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Thameslink)",
+      "annual_usage": 322800,
+      "daily_avg": 884
+    },
+    {
+      "name": "Woolwich Dockyard",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 315464,
+      "daily_avg": 864
+    },
+    {
+      "name": "Emerson Park",
+      "region": "London",
+      "owner": "London Overground",
+      "annual_usage": 302740,
+      "daily_avg": 829
+    },
+    {
+      "name": "Riddlesdown",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Southern)",
+      "annual_usage": 287038,
+      "daily_avg": 786
+    },
+    {
+      "name": "Wimbledon Chase",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Thameslink)",
+      "annual_usage": 271590,
+      "daily_avg": 744
+    },
+    {
+      "name": "Kenley",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Southern)",
+      "annual_usage": 268508,
+      "daily_avg": 735
+    },
+    {
+      "name": "West Sutton",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Thameslink)",
+      "annual_usage": 265900,
+      "daily_avg": 728
+    },
+    {
+      "name": "Sutton Common",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Thameslink)",
+      "annual_usage": 265722,
+      "daily_avg": 728
+    },
+    {
+      "name": "Ravensbourne",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Thameslink)",
+      "annual_usage": 235210,
+      "daily_avg": 644
+    },
+    {
+      "name": "Bromley North",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 226164,
+      "daily_avg": 619
+    },
+    {
+      "name": "Belmont",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Southern)",
+      "annual_usage": 200356,
+      "daily_avg": 548
+    },
+    {
+      "name": "Sundridge Park",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 193024,
+      "daily_avg": 528
+    },
+    {
+      "name": "Knockholt",
+      "region": "London",
+      "owner": "Southeastern",
+      "annual_usage": 188588,
+      "daily_avg": 516
+    },
+    {
+      "name": "Northolt Park",
+      "region": "London",
+      "owner": "Chiltern Railways",
+      "annual_usage": 176218,
+      "daily_avg": 482
+    },
+    {
+      "name": "South Ruislip",
+      "region": "London",
+      "owner": "London Underground",
+      "annual_usage": 165020,
+      "daily_avg": 452
+    },
+    {
+      "name": "St Helier (London)",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Thameslink)",
+      "annual_usage": 156764,
+      "daily_avg": 429
+    },
+    {
+      "name": "Greenford",
+      "region": "London",
+      "owner": "London Underground",
+      "annual_usage": 140064,
+      "daily_avg": 383
+    },
+    {
+      "name": "West Ruislip",
+      "region": "London",
+      "owner": "London Underground",
+      "annual_usage": 136408,
+      "daily_avg": 373
+    },
+    {
+      "name": "Woodmansterne",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Southern)",
+      "annual_usage": 126744,
+      "daily_avg": 347
+    },
+    {
+      "name": "South Merton",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Thameslink)",
+      "annual_usage": 125436,
+      "daily_avg": 343
+    },
+    {
+      "name": "Crews Hill",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Great Northern)",
+      "annual_usage": 119492,
+      "daily_avg": 327
+    },
+    {
+      "name": "Castle Bar Park",
+      "region": "London",
+      "owner": "Great Western Railway",
+      "annual_usage": 112884,
+      "daily_avg": 309
+    },
+    {
+      "name": "Reedham (London)",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Southern)",
+      "annual_usage": 105708,
+      "daily_avg": 289
+    },
+    {
+      "name": "Birkbeck",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Southern)",
+      "annual_usage": 105178,
+      "daily_avg": 288
+    },
+    {
+      "name": "Coulsdon Town",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Southern)",
+      "annual_usage": 97562,
+      "daily_avg": 267
+    },
+    {
+      "name": "Morden South",
+      "region": "London",
+      "owner": "Govia Thameslink Railway (Thameslink)",
+      "annual_usage": 75948,
+      "daily_avg": 208
+    },
+    {
+      "name": "Sudbury Hill Harrow",
+      "region": "London",
+      "owner": "Chiltern Railways",
+      "annual_usage": 53868,
+      "daily_avg": 147
+    },
+    {
+      "name": "South Greenford",
+      "region": "London",
+      "owner": "Great Western Railway",
+      "annual_usage": 52212,
+      "daily_avg": 143
+    },
+    {
+      "name": "Drayton Green",
+      "region": "London",
+      "owner": "Great Western Railway",
+      "annual_usage": 23270,
+      "daily_avg": 63
+    },
+    {
+      "name": "Sudbury and Harrow Road",
+      "region": "London",
+      "owner": "Chiltern Railways",
+      "annual_usage": 22952,
+      "daily_avg": 62
+    }
+  ]
+}
