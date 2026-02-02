@@ -467,9 +467,13 @@ def create_map(results_1km, enhanced_data=None):
 
     <script>
     document.addEventListener('DOMContentLoaded', function() {{
-        setTimeout(function() {{
+        // Recursive function to wait for map initialization
+        function initializeWhenReady() {{
             var mapElement = document.querySelector('.folium-map');
-            if (!mapElement) return;
+            if (!mapElement) {{
+                setTimeout(initializeWhenReady, 100);
+                return;
+            }}
 
             var mapId = mapElement.id;
             var map = window[mapId];
@@ -481,7 +485,14 @@ def create_map(results_1km, enhanced_data=None):
                     }}
                 }}
             }}
-            if (!map) return;
+
+            // Keep retrying if map isn't ready yet
+            if (!map) {{
+                setTimeout(initializeWhenReady, 100);
+                return;
+            }}
+
+            console.log('Map found, initializing controls...');
 
             var stations = {js_stations};
             var lineStats = {js_line_stats};
@@ -959,7 +970,10 @@ def create_map(results_1km, enhanced_data=None):
                 }});
             }});
 
-        }}, 500);
+        }} // End of initializeWhenReady function
+
+        // Start the initialization process
+        initializeWhenReady();
     }});
     </script>
     """
