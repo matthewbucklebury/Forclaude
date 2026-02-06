@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>World Bank: Inequality &amp; Income Explorer</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: #fff;
+    color: #1d1d1d;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 16px 24px;
+    border-bottom: 1px solid #e0e0e0;
+    background: #fafafa;
+  }
+
+  header h1 {
+    font-size: 1.15rem;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  .selector-wrapper {
+    position: relative;
+    width: 300px;
+    max-width: 100%;
+  }
+
+  .selector-wrapper input {
+    width: 100%;
+    padding: 8px 12px;
+    font-size: 0.95rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    background: #fff;
+  }
+
+  .selector-wrapper input:focus {
+    border-color: #457b9d;
+    box-shadow: 0 0 0 2px rgba(69, 123, 157, 0.2);
+  }
+
+  .dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    max-height: 280px;
+    overflow-y: auto;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 0 0 6px 6px;
+    z-index: 100;
+    display: none;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+
+  .dropdown.open { display: block; }
+
+  .dropdown-item {
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+
+  .dropdown-item:hover,
+  .dropdown-item.highlighted {
+    background: #e8f0fe;
+  }
+
+  .dropdown-empty {
+    padding: 8px 12px;
+    color: #888;
+    font-size: 0.9rem;
+  }
+
+  main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 24px 8px;
+    position: relative;
+    min-height: 0;
+  }
+
+  .chart-container {
+    width: 100%;
+    flex: 1;
+    position: relative;
+    min-height: 300px;
+  }
+
+  .chart-container canvas {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  #message {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 24px;
+    font-size: 1rem;
+    color: #555;
+    pointer-events: none;
+  }
+
+  #message.error { color: #c0392b; }
+
+  .spinner {
+    width: 36px;
+    height: 36px;
+    border: 4px solid #e0e0e0;
+    border-top-color: #457b9d;
+    border-radius: 50%;
+    animation: spin 0.7s linear infinite;
+    margin: 0 auto 12px;
+  }
+
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  footer {
+    text-align: center;
+    padding: 10px 24px;
+    font-size: 0.75rem;
+    color: #888;
+    border-top: 1px solid #e0e0e0;
+  }
+
+  @media (max-width: 600px) {
+    header {
+      flex-direction: column;
+      align-items: stretch;
+    }
+    .selector-wrapper { width: 100%; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>World Bank: Inequality &amp; Income Explorer</h1>
+  <div class="selector-wrapper">
+    <input
+      type="text"
+      id="country-input"
+      placeholder="Loading countries..."
+      disabled
+      autocomplete="off"
+      aria-label="Search and select a country"
+    />
+    <div class="dropdown" id="dropdown"></div>
+  </div>
+</header>
+
+<main>
+  <div id="message">Select a country to view data.</div>
+  <div class="chart-container">
+    <canvas id="chart"></canvas>
+  </div>
+</main>
+
+<footer>
+  Source: World Bank Open Data | GINI data availability varies by country.
+</footer>
+
+<script>
+(function () {
+  const GINI_COLOR = '#e63946';
+  const GDP_COLOR = '#457b9d';
+  const YEARS = Array.from({ length: 36 }, (_, i) => String(1990 + i));
+
+  const countryInput = document.getElementById('country-input');
+  const dropdown = document.getElementById('dropdown');
+  const messageEl = document.getElementById('message');
+  const canvas = document.getElementById('chart');
+
+  let countries = [];
+  let filteredCountries = [];
+  let highlightedIndex = -1;
+  let chartInstance = null;
+  let selectedCountry = null;
+  let dropdownOpen = false;
+
+  // --- Helpers ---
+
+  function showMessage(text, isError) {
+    messageEl.textContent = '';
+    messageEl.className = isError ? 'error' : '';
+    messageEl.textContent = text;
+    messageEl.style.display = 'flex';
+  }
+
+  function showLoading() {
+    messageEl.innerHTML = '<div><div class="spinner"></div>Loading data...</div>';
+    messageEl.className = '';
+    messageEl.style.display = 'flex';
+  }
+
+  function hideMessage() {
+    messageEl.style.display = 'none';
+  }
+
+  function formatDollars(value) {
+    if (value == null) return 'N/A';
+    return '$' + value.toLocaleString('en-US', { maximumFractionDigits: 0 });
+  }
+
+  function formatGini(value) {
+    if (value == null) return 'N/A';
+    return value.toFixed(2);
+  }
+
+  // --- Country loading ---
+
+  async function loadCountries() {
+    try {
+      const res = await fetch(
+        'https://api.worldbank.org/v2/country?format=json&per_page=300&type=country'
+      );
+      if (!res.ok) throw new Error('Failed to fetch country list');
+      const json = await res.json();
+      countries = json[1]
+        .map(c => ({ id: c.id, name: c.name }))
+        .sort((a, b) => a.name.localeCompare(b.name));
+      countryInput.disabled = false;
+      countryInput.placeholder = 'Search for a country...';
+    } catch (err) {
+      countryInput.placeholder = 'Failed to load countries';
+      showMessage('Could not load country list. Please refresh.', true);
+    }
+  }
+
+  // --- Dropdown logic ---
+
+  function renderDropdown() {
+    dropdown.innerHTML = '';
+    if (filteredCountries.length === 0) {
+      const empty = document.createElement('div');
+      empty.className = 'dropdown-empty';
+      empty.textContent = 'No countries found';
+      dropdown.appendChild(empty);
+    } else {
+      filteredCountries.forEach((c, i) => {
+        const item = document.createElement('div');
+        item.className = 'dropdown-item' + (i === highlightedIndex ? ' highlighted' : '');
+        item.textContent = c.name;
+        item.addEventListener('mousedown', e => {
+          e.preventDefault();
+          selectCountry(c);
+        });
+        dropdown.appendChild(item);
+      });
+    }
+  }
+
+  function openDropdown() {
+    dropdownOpen = true;
+    dropdown.classList.add('open');
+  }
+
+  function closeDropdown() {
+    dropdownOpen = false;
+    dropdown.classList.remove('open');
+    highlightedIndex = -1;
+  }
+
+  function filterCountries(query) {
+    const q = query.toLowerCase().trim();
+    filteredCountries = q
+      ? countries.filter(c => c.name.toLowerCase().includes(q))
+      : countries.slice();
+    highlightedIndex = -1;
+    renderDropdown();
+  }
+
+  countryInput.addEventListener('focus', () => {
+    filterCountries(countryInput.value);
+    openDropdown();
+  });
+
+  countryInput.addEventListener('input', () => {
+    filterCountries(countryInput.value);
+    openDropdown();
+  });
+
+  countryInput.addEventListener('blur', () => {
+    closeDropdown();
+  });
+
+  countryInput.addEventListener('keydown', e => {
+    if (!dropdownOpen) return;
+    if (e.key === 'ArrowDown') {
+      e.preventDefault();
+      highlightedIndex = Math.min(highlightedIndex + 1, filteredCountries.length - 1);
+      renderDropdown();
+      scrollToHighlighted();
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault();
+      highlightedIndex = Math.max(highlightedIndex - 1, 0);
+      renderDropdown();
+      scrollToHighlighted();
+    } else if (e.key === 'Enter') {
+      e.preventDefault();
+      if (highlightedIndex >= 0 && highlightedIndex < filteredCountries.length) {
+        selectCountry(filteredCountries[highlightedIndex]);
+      }
+    } else if (e.key === 'Escape') {
+      closeDropdown();
+      countryInput.blur();
+    }
+  });
+
+  function scrollToHighlighted() {
+    const highlighted = dropdown.querySelector('.highlighted');
+    if (highlighted) highlighted.scrollIntoView({ block: 'nearest' });
+  }
+
+  // --- Data fetching & chart ---
+
+  function selectCountry(country) {
+    selectedCountry = country;
+    countryInput.value = country.name;
+    closeDropdown();
+    fetchAndRender(country);
+  }
+
+  async function fetchIndicator(iso3, indicator) {
+    const url = `https://api.worldbank.org/v2/country/${iso3}/indicator/${indicator}?date=1990:2025&format=json&per_page=100`;
+    const res = await fetch(url);
+    if (!res.ok) throw new Error(`API error (${res.status}) fetching ${indicator}`);
+    const json = await res.json();
+    if (!json[1]) return {};
+    const map = {};
+    json[1].forEach(d => {
+      if (d.value != null) map[d.date] = d.value;
+    });
+    return map;
+  }
+
+  async function fetchAndRender(country) {
+    showLoading();
+    if (chartInstance) {
+      chartInstance.destroy();
+      chartInstance = null;
+    }
+
+    try {
+      const [giniRaw, gdpRaw] = await Promise.all([
+        fetchIndicator(country.id, 'SI.POV.GINI'),
+        fetchIndicator(country.id, 'NY.GDP.PCAP.PP.CD'),
+      ]);
+
+      const hasGini = Object.keys(giniRaw).length > 0;
+      const hasGdp = Object.keys(gdpRaw).length > 0;
+
+      if (!hasGini && !hasGdp) {
+        showMessage(`No GINI or GDP per capita data available for ${country.name}.`, false);
+        return;
+      }
+
+      const warnings = [];
+      if (!hasGini) warnings.push('GINI Index data is not available');
+      if (!hasGdp) warnings.push('GDP per capita PPP data is not available');
+
+      const giniData = YEARS.map(y => (giniRaw[y] != null ? giniRaw[y] / 100 : null));
+      const gdpData = YEARS.map(y => (gdpRaw[y] != null ? gdpRaw[y] : null));
+
+      hideMessage();
+      buildChart(country.name, giniData, gdpData, warnings);
+    } catch (err) {
+      showMessage('Failed to fetch data. Please try again.', true);
+    }
+  }
+
+  function buildChart(countryName, giniData, gdpData, warnings) {
+    const ctx = canvas.getContext('2d');
+
+    const subtitleText = warnings.length
+      ? warnings.join(' | ') + ' for ' + countryName + '.'
+      : '';
+
+    chartInstance = new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: YEARS,
+        datasets: [
+          {
+            label: 'GINI Index',
+            data: giniData,
+            borderColor: GINI_COLOR,
+            backgroundColor: GINI_COLOR,
+            yAxisID: 'yGini',
+            spanGaps: false,
+            pointRadius: 3,
+            pointHoverRadius: 5,
+            tension: 0,
+            borderWidth: 2,
+          },
+          {
+            label: 'GDP per capita, PPP ($)',
+            data: gdpData,
+            borderColor: GDP_COLOR,
+            backgroundColor: GDP_COLOR,
+            yAxisID: 'yGdp',
+            spanGaps: false,
+            pointRadius: 3,
+            pointHoverRadius: 5,
+            tension: 0,
+            borderWidth: 2,
+          },
+        ],
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        interaction: {
+          mode: 'index',
+          intersect: false,
+        },
+        plugins: {
+          title: {
+            display: true,
+            text: countryName,
+            font: { size: 16, weight: '600' },
+            color: '#1d1d1d',
+            padding: { bottom: 4 },
+          },
+          subtitle: {
+            display: subtitleText.length > 0,
+            text: subtitleText,
+            font: { size: 12, style: 'italic' },
+            color: '#c0392b',
+            padding: { bottom: 12 },
+          },
+          tooltip: {
+            callbacks: {
+              title: items => items[0].label + ' \u2014 ' + countryName,
+              label: item => {
+                if (item.datasetIndex === 0) {
+                  return 'GINI Index: ' + formatGini(item.raw);
+                }
+                return 'GDP per capita PPP: ' + formatDollars(item.raw);
+              },
+            },
+          },
+          legend: {
+            position: 'bottom',
+            labels: { usePointStyle: true, padding: 20 },
+          },
+        },
+        scales: {
+          x: {
+            title: { display: true, text: 'Year' },
+            ticks: {
+              maxRotation: 45,
+              autoSkip: true,
+              autoSkipPadding: 10,
+            },
+          },
+          yGini: {
+            type: 'linear',
+            position: 'left',
+            min: 0.20,
+            max: 0.70,
+            title: {
+              display: true,
+              text: 'GINI Index',
+              color: GINI_COLOR,
+            },
+            ticks: {
+              color: GINI_COLOR,
+              callback: v => v.toFixed(2),
+            },
+            grid: { drawOnChartArea: true },
+          },
+          yGdp: {
+            type: 'linear',
+            position: 'right',
+            title: {
+              display: true,
+              text: 'GDP per capita, PPP ($)',
+              color: GDP_COLOR,
+            },
+            ticks: {
+              color: GDP_COLOR,
+              callback: v => '$' + v.toLocaleString('en-US'),
+            },
+            grid: { drawOnChartArea: false },
+            grace: '10%',
+          },
+        },
+      },
+    });
+  }
+
+  // --- Init ---
+  loadCountries();
+})();
+</script>
+
+</body>
+</html>
