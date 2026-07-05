@@ -17,7 +17,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_c468990cc5b458d1b9160231650a0097 {
+                #map_2b0964617579037b23512ba0cbad6227 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -178,8 +178,9 @@
 
         <div class="export-controls">
             <h4>Export & Share:</h4>
-            <button id="exportPNGBtn" class="export-btn">Download Map as PNG</button>
-            <button id="shareBtn" class="export-btn" style="background:#e3f2fd;border-color:#90caf9;">Copy Link to Share</button>
+            <button id="exportPNGBtn" class="export-btn" title="Press E for quick export">&#x1F4F7; Download Map as PNG</button>
+            <button id="shareBtn" class="export-btn" style="background:#e3f2fd;border-color:#90caf9;" title="Share your current view with classmates">&#x1F517; Copy Link to Share</button>
+            <button id="quizBtn" class="export-btn" style="background:#fce4ec;border-color:#f48fb1;" title="Press Q for quick access">&#x1F3AE; Take the Quiz</button>
         </div>
 
         <table style="width: 100%; font-size: 11px; border-collapse: collapse; margin-top: 15px;">
@@ -1578,6 +1579,218 @@
         cursor: pointer;
         color: #999;
     }
+
+    /* Quiz Modal */
+    .quiz-modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.85);
+        z-index: 10000;
+        display: none;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .quiz-modal.visible {
+        display: flex;
+    }
+
+    .quiz-content {
+        background: white;
+        border-radius: 16px;
+        padding: 30px;
+        max-width: 500px;
+        width: 90%;
+        position: relative;
+        animation: slideUp 0.3s ease;
+    }
+
+    body.dark-mode .quiz-content {
+        background: var(--card-dark);
+        color: var(--text-dark);
+    }
+
+    .quiz-close {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        background: none;
+        border: none;
+        font-size: 24px;
+        cursor: pointer;
+        color: #999;
+    }
+
+    .quiz-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .quiz-header h2 {
+        margin: 0;
+        font-size: 24px;
+        background: linear-gradient(135deg, #E74C3C, #9B59B6);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+
+    .quiz-stats {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .quiz-score, .quiz-streak, .quiz-best {
+        background: #f0f0f0;
+        padding: 6px 12px;
+        border-radius: 15px;
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+    .quiz-streak {
+        background: #fff3e0;
+        color: #e65100;
+    }
+
+    .quiz-streak.on-fire {
+        background: linear-gradient(135deg, #ff6b35, #f7931e);
+        color: white;
+        animation: pulse 0.5s ease-in-out infinite alternate;
+    }
+
+    @keyframes pulse {
+        from { transform: scale(1); }
+        to { transform: scale(1.05); }
+    }
+
+    .quiz-best {
+        background: #e8f5e9;
+        color: #2e7d32;
+    }
+
+    body.dark-mode .quiz-score, body.dark-mode .quiz-best {
+        background: var(--border-dark);
+    }
+
+    .quiz-content.shake-correct {
+        animation: shakeCorrect 0.3s ease;
+    }
+
+    .quiz-content.shake-incorrect {
+        animation: shakeIncorrect 0.3s ease;
+    }
+
+    @keyframes shakeCorrect {
+        0%, 100% { transform: translateY(0); }
+        25% { transform: translateY(-5px); }
+        50% { transform: translateY(0); }
+        75% { transform: translateY(-3px); }
+    }
+
+    @keyframes shakeIncorrect {
+        0%, 100% { transform: translateX(0); }
+        20% { transform: translateX(-10px); }
+        40% { transform: translateX(10px); }
+        60% { transform: translateX(-5px); }
+        80% { transform: translateX(5px); }
+    }
+
+    .quiz-question {
+        font-size: 18px;
+        margin-bottom: 20px;
+        line-height: 1.5;
+    }
+
+    .quiz-options {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .quiz-option {
+        padding: 15px;
+        border: 2px solid #e0e0e0;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all 0.2s;
+        font-size: 14px;
+    }
+
+    .quiz-option:hover {
+        border-color: #1E5A8E;
+        background: #f8f9fa;
+    }
+
+    body.dark-mode .quiz-option {
+        border-color: var(--border-dark);
+    }
+
+    body.dark-mode .quiz-option:hover {
+        background: var(--border-dark);
+    }
+
+    .quiz-option.correct {
+        border-color: #27AE60;
+        background: #d4edda;
+    }
+
+    .quiz-option.incorrect {
+        border-color: #E74C3C;
+        background: #f8d7da;
+    }
+
+    .quiz-option.disabled {
+        pointer-events: none;
+        opacity: 0.7;
+    }
+
+    .quiz-feedback {
+        margin-top: 15px;
+        padding: 15px;
+        border-radius: 10px;
+        display: none;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .quiz-feedback.visible {
+        display: block;
+    }
+
+    .quiz-feedback.correct {
+        background: #d4edda;
+        color: #155724;
+    }
+
+    .quiz-feedback.incorrect {
+        background: #f8d7da;
+        color: #721c24;
+    }
+
+    .quiz-next {
+        margin-top: 20px;
+        width: 100%;
+        padding: 15px;
+        background: linear-gradient(135deg, #1E5A8E, #27AE60);
+        color: white;
+        border: none;
+        border-radius: 10px;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: transform 0.2s;
+    }
+
+    .quiz-next:hover {
+        transform: translateY(-2px);
+    }
     </style>
 
     <!-- Loading Overlay -->
@@ -1634,7 +1847,27 @@
         <div class="shortcut-item"><span>Toggle dark mode</span><kbd>D</kbd></div>
         <div class="shortcut-item"><span>Next fun fact</span><kbd>F</kbd></div>
         <div class="shortcut-item"><span>Export PNG</span><kbd>E</kbd></div>
+        <div class="shortcut-item"><span>Take Quiz</span><kbd>Q</kbd></div>
         <div class="shortcut-item"><span>Close this</span><kbd>?</kbd></div>
+    </div>
+
+    <!-- Quiz Modal -->
+    <div class="quiz-modal" id="quizModal">
+        <div class="quiz-content">
+            <button class="quiz-close" id="closeQuiz">&times;</button>
+            <div class="quiz-header">
+                <h2>&#x1F687; Transport Quiz</h2>
+                <div class="quiz-stats">
+                    <div class="quiz-score">Score: <span id="quizScore">0</span>/<span id="quizTotal">0</span></div>
+                    <div class="quiz-streak">Streak: <span id="quizStreak">0</span> &#x1F525;</div>
+                    <div class="quiz-best">Best: <span id="quizBestStreak">0</span></div>
+                </div>
+            </div>
+            <div class="quiz-question" id="quizQuestion">Loading question...</div>
+            <div class="quiz-options" id="quizOptions"></div>
+            <div class="quiz-feedback" id="quizFeedback"></div>
+            <button class="quiz-next" id="nextQuestion" style="display:none;">Next Question</button>
+        </div>
     </div>
 
     <!-- Comparison Panel -->
@@ -2370,10 +2603,239 @@
                             shareBtn.style.background = '#e3f2fd';
                         }, 2000);
                     }).catch(function() {
-                        // Fallback for older browsers
                         prompt('Copy this link:', window.location.href);
                     });
                 });
+            }
+
+            // Quiz functionality
+            var quizModal = document.getElementById('quizModal');
+            var quizBtn = document.getElementById('quizBtn');
+            var closeQuiz = document.getElementById('closeQuiz');
+            var quizContent = document.querySelector('.quiz-content');
+            var quizQuestion = document.getElementById('quizQuestion');
+            var quizOptions = document.getElementById('quizOptions');
+            var quizFeedback = document.getElementById('quizFeedback');
+            var nextQuestion = document.getElementById('nextQuestion');
+            var quizScoreEl = document.getElementById('quizScore');
+            var quizTotalEl = document.getElementById('quizTotal');
+
+            var quizScore = 0;
+            var quizTotal = 0;
+            var quizStreak = 0;
+            var quizBestStreak = parseInt(localStorage.getItem('tflQuizBestStreak') || '0');
+            var currentQuestion = null;
+
+            function updateStreakDisplay() {
+                var streakEl = document.getElementById('quizStreak');
+                var bestStreakEl = document.getElementById('quizBestStreak');
+                if (streakEl) {
+                    streakEl.textContent = quizStreak;
+                    if (quizStreak >= 3) {
+                        streakEl.parentElement.classList.add('on-fire');
+                    } else {
+                        streakEl.parentElement.classList.remove('on-fire');
+                    }
+                }
+                if (bestStreakEl) {
+                    bestStreakEl.textContent = quizBestStreak;
+                }
+            }
+
+            function generateQuestion() {
+                var questionTypes = [
+                    'highest_population',
+                    'highest_usage',
+                    'station_type',
+                    'comparison',
+                    'line_stations'
+                ];
+
+                var type = questionTypes[Math.floor(Math.random() * questionTypes.length)];
+                var validStations = stations.filter(function(s) { return s.population_1km > 0 && s.daily_usage > 0; });
+
+                if (type === 'highest_population') {
+                    var options = [];
+                    while (options.length < 4) {
+                        var s = validStations[Math.floor(Math.random() * validStations.length)];
+                        if (!options.find(function(o) { return o.name === s.name; })) {
+                            options.push(s);
+                        }
+                    }
+                    options.sort(function(a, b) { return b.population_1km - a.population_1km; });
+                    var correct = options[0];
+                    options = shuffleArray(options);
+
+                    return {
+                        question: 'Which station has the HIGHEST population within 1km?',
+                        options: options.map(function(s) { return s.name; }),
+                        correct: correct.name,
+                        explanation: correct.name + ' has ' + formatNumber(correct.population_1km) + ' people within 1km!'
+                    };
+
+                } else if (type === 'highest_usage') {
+                    var options = [];
+                    while (options.length < 4) {
+                        var s = validStations[Math.floor(Math.random() * validStations.length)];
+                        if (!options.find(function(o) { return o.name === s.name; })) {
+                            options.push(s);
+                        }
+                    }
+                    options.sort(function(a, b) { return b.daily_usage - a.daily_usage; });
+                    var correct = options[0];
+                    options = shuffleArray(options);
+
+                    return {
+                        question: 'Which station has the HIGHEST daily usage?',
+                        options: options.map(function(s) { return s.name; }),
+                        correct: correct.name,
+                        explanation: correct.name + ' sees ' + formatNumber(correct.daily_usage) + ' passengers daily!'
+                    };
+
+                } else if (type === 'station_type') {
+                    var s = validStations[Math.floor(Math.random() * validStations.length)];
+                    var types = ['commuter_hub', 'residential_hub', 'balanced', 'low_activity'];
+                    var typeLabels = {
+                        'commuter_hub': 'Commuter Hub',
+                        'residential_hub': 'Residential Area',
+                        'balanced': 'Balanced',
+                        'low_activity': 'Low Activity'
+                    };
+
+                    return {
+                        question: 'What type of station is ' + s.name + '?',
+                        options: types.map(function(t) { return typeLabels[t]; }),
+                        correct: typeLabels[s.station_type] || 'Low Activity',
+                        explanation: s.name + ' is classified as ' + (typeLabels[s.station_type] || 'Low Activity') + ' based on its population-to-usage ratio.'
+                    };
+
+                } else if (type === 'comparison') {
+                    var s1 = validStations[Math.floor(Math.random() * validStations.length)];
+                    var s2 = validStations[Math.floor(Math.random() * validStations.length)];
+                    while (s2.name === s1.name) {
+                        s2 = validStations[Math.floor(Math.random() * validStations.length)];
+                    }
+                    var metric = Math.random() > 0.5 ? 'population_1km' : 'daily_usage';
+                    var metricLabel = metric === 'population_1km' ? 'population' : 'daily usage';
+                    var higher = s1[metric] > s2[metric] ? s1 : s2;
+
+                    return {
+                        question: 'Which station has higher ' + metricLabel + ': ' + s1.name + ' or ' + s2.name + '?',
+                        options: [s1.name, s2.name],
+                        correct: higher.name,
+                        explanation: higher.name + ' has ' + formatNumber(higher[metric]) + ' vs ' + formatNumber((higher === s1 ? s2 : s1)[metric]) + '!'
+                    };
+
+                } else {
+                    var lines = Object.keys(lineStats);
+                    var line = lines[Math.floor(Math.random() * lines.length)];
+                    var lineStations = stations.filter(function(s) { return s.lines.includes(line); });
+                    var correct = lineStations.length;
+                    var options = [correct];
+                    while (options.length < 4) {
+                        var opt = correct + Math.floor(Math.random() * 20) - 10;
+                        if (opt > 0 && !options.includes(opt)) {
+                            options.push(opt);
+                        }
+                    }
+                    options = shuffleArray(options);
+
+                    return {
+                        question: 'How many stations are on the ' + lineStats[line].name + ' line?',
+                        options: options.map(function(n) { return n.toString(); }),
+                        correct: correct.toString(),
+                        explanation: 'The ' + lineStats[line].name + ' line has ' + correct + ' stations!'
+                    };
+                }
+            }
+
+            function shuffleArray(array) {
+                var shuffled = array.slice();
+                for (var i = shuffled.length - 1; i > 0; i--) {
+                    var j = Math.floor(Math.random() * (i + 1));
+                    var temp = shuffled[i];
+                    shuffled[i] = shuffled[j];
+                    shuffled[j] = temp;
+                }
+                return shuffled;
+            }
+
+            function showQuestion() {
+                currentQuestion = generateQuestion();
+                quizQuestion.textContent = currentQuestion.question;
+                quizOptions.innerHTML = currentQuestion.options.map(function(opt) {
+                    return '<div class="quiz-option" data-answer="' + opt + '">' + opt + '</div>';
+                }).join('');
+                quizFeedback.classList.remove('visible', 'correct', 'incorrect');
+                nextQuestion.style.display = 'none';
+
+                quizOptions.querySelectorAll('.quiz-option').forEach(function(opt) {
+                    opt.addEventListener('click', function() {
+                        checkAnswer(this.dataset.answer);
+                    });
+                });
+            }
+
+            function checkAnswer(answer) {
+                quizTotal++;
+                quizTotalEl.textContent = quizTotal;
+
+                quizOptions.querySelectorAll('.quiz-option').forEach(function(opt) {
+                    opt.classList.add('disabled');
+                    if (opt.dataset.answer === currentQuestion.correct) {
+                        opt.classList.add('correct');
+                    } else if (opt.dataset.answer === answer) {
+                        opt.classList.add('incorrect');
+                    }
+                });
+
+                if (answer === currentQuestion.correct) {
+                    quizScore++;
+                    quizStreak++;
+                    if (quizStreak > quizBestStreak) {
+                        quizBestStreak = quizStreak;
+                        localStorage.setItem('tflQuizBestStreak', quizBestStreak.toString());
+                    }
+                    quizScoreEl.textContent = quizScore;
+                    var streakBonus = quizStreak >= 3 ? ' \uD83D\uDD25 ' + quizStreak + ' in a row!' : '';
+                    quizFeedback.textContent = 'Correct! ' + currentQuestion.explanation + streakBonus;
+                    quizFeedback.classList.add('visible', 'correct');
+                    quizContent.classList.add('shake-correct');
+                    setTimeout(function() { quizContent.classList.remove('shake-correct'); }, 300);
+                } else {
+                    quizStreak = 0;
+                    quizFeedback.textContent = 'Not quite. ' + currentQuestion.explanation;
+                    quizFeedback.classList.add('visible', 'incorrect');
+                    quizContent.classList.add('shake-incorrect');
+                    setTimeout(function() { quizContent.classList.remove('shake-incorrect'); }, 300);
+                }
+                updateStreakDisplay();
+
+                nextQuestion.style.display = 'block';
+            }
+
+            if (quizBtn) {
+                quizBtn.addEventListener('click', function() {
+                    quizModal.classList.add('visible');
+                    quizScore = 0;
+                    quizTotal = 0;
+                    quizStreak = 0;
+                    quizBestStreak = parseInt(localStorage.getItem('tflQuizBestStreak') || '0');
+                    quizScoreEl.textContent = '0';
+                    quizTotalEl.textContent = '0';
+                    updateStreakDisplay();
+                    showQuestion();
+                });
+            }
+
+            if (closeQuiz) {
+                closeQuiz.addEventListener('click', function() {
+                    quizModal.classList.remove('visible');
+                });
+            }
+
+            if (nextQuestion) {
+                nextQuestion.addEventListener('click', showQuestion);
             }
 
             var collapsibles = document.querySelectorAll('.collapsible');
@@ -2401,6 +2863,7 @@
                     case 'Escape':
                         searchResults.classList.remove('visible');
                         shortcutsPanel.classList.remove('visible');
+                        quizModal.classList.remove('visible');
                         if (searchInput) searchInput.blur();
                         var allRadio = document.querySelector('input[name="stationType"][value="all"]');
                         if (allRadio) {
@@ -2422,6 +2885,20 @@
                     case 'e':
                     case 'E':
                         exportPNG();
+                        break;
+                    case 'q':
+                    case 'Q':
+                        if (quizModal && !quizModal.classList.contains('visible')) {
+                            quizModal.classList.add('visible');
+                            quizScore = 0;
+                            quizTotal = 0;
+                            quizStreak = 0;
+                            quizBestStreak = parseInt(localStorage.getItem('tflQuizBestStreak') || '0');
+                            quizScoreEl.textContent = '0';
+                            quizTotalEl.textContent = '0';
+                            updateStreakDisplay();
+                            showQuestion();
+                        }
                         break;
                 }
             });
@@ -2448,14 +2925,14 @@
     </script>
     
     
-            <div class="folium-map" id="map_c468990cc5b458d1b9160231650a0097" ></div>
+            <div class="folium-map" id="map_2b0964617579037b23512ba0cbad6227" ></div>
         
 </body>
 <script>
     
     
-            var map_c468990cc5b458d1b9160231650a0097 = L.map(
-                "map_c468990cc5b458d1b9160231650a0097",
+            var map_2b0964617579037b23512ba0cbad6227 = L.map(
+                "map_2b0964617579037b23512ba0cbad6227",
                 {
                     center: [51.509, -0.118],
                     crs: L.CRS.EPSG3857,
@@ -2472,7 +2949,7 @@
 
         
     
-            var tile_layer_a93057fb9cc4500fb710e64e1a87a8bc = L.tileLayer(
+            var tile_layer_6f3384a161b32145c0f46dcbcee3b42b = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {
   "minZoom": 0,
@@ -2489,7 +2966,7 @@
             );
         
     
-            tile_layer_a93057fb9cc4500fb710e64e1a87a8bc.addTo(map_c468990cc5b458d1b9160231650a0097);
+            tile_layer_6f3384a161b32145c0f46dcbcee3b42b.addTo(map_2b0964617579037b23512ba0cbad6227);
         
 </script>
 </html>
