@@ -1,0 +1,7347 @@
+{
+  "stations": [
+    {
+      "naptanId": "940GZZLUBST",
+      "name": "Baker Street",
+      "lat": 51.522883,
+      "lon": -0.15713,
+      "lines": [
+        "bakerloo",
+        "circle",
+        "hammersmith-city",
+        "jubilee",
+        "metropolitan"
+      ],
+      "population": 5254
+    },
+    {
+      "naptanId": "940GZZLUCHX",
+      "name": "Charing Cross",
+      "lat": 51.50741,
+      "lon": -0.127277,
+      "lines": [
+        "bakerloo",
+        "northern"
+      ],
+      "population": 2600
+    },
+    {
+      "naptanId": "940GZZLUEAC",
+      "name": "Elephant & Castle",
+      "lat": 51.494536,
+      "lon": -0.100606,
+      "lines": [
+        "bakerloo",
+        "northern"
+      ],
+      "population": 14169
+    },
+    {
+      "naptanId": "940GZZLUEMB",
+      "name": "Embankment",
+      "lat": 51.507058,
+      "lon": -0.122666,
+      "lines": [
+        "bakerloo",
+        "circle",
+        "district",
+        "northern"
+      ],
+      "population": 2084
+    },
+    {
+      "naptanId": "940GZZLUERB",
+      "name": "Edgware Road (Bakerloo)",
+      "lat": 51.520299,
+      "lon": -0.17015,
+      "lines": [
+        "bakerloo"
+      ],
+      "population": 15835
+    },
+    {
+      "naptanId": "940GZZLUHAW",
+      "name": "Harrow & Wealdstone",
+      "lat": 51.592268,
+      "lon": -0.335217,
+      "lines": [
+        "bakerloo"
+      ],
+      "population": 9459
+    },
+    {
+      "naptanId": "940GZZLUHSN",
+      "name": "Harlesden",
+      "lat": 51.53631,
+      "lon": -0.257883,
+      "lines": [
+        "bakerloo"
+      ],
+      "population": 8006
+    },
+    {
+      "naptanId": "940GZZLUKEN",
+      "name": "Kenton",
+      "lat": 51.581756,
+      "lon": -0.31691,
+      "lines": [
+        "bakerloo"
+      ],
+      "population": 3713
+    },
+    {
+      "naptanId": "940GZZLUKPK",
+      "name": "Kilburn Park",
+      "lat": 51.534979,
+      "lon": -0.194232,
+      "lines": [
+        "bakerloo"
+      ],
+      "population": 13235
+    },
+    {
+      "naptanId": "940GZZLUKSL",
+      "name": "Kensal Green",
+      "lat": 51.530539,
+      "lon": -0.225016,
+      "lines": [
+        "bakerloo"
+      ],
+      "population": 9516
+    },
+    {
+      "naptanId": "940GZZLULBN",
+      "name": "Lambeth North",
+      "lat": 51.498808,
+      "lon": -0.112315,
+      "lines": [
+        "bakerloo"
+      ],
+      "population": 7628
+    },
+    {
+      "naptanId": "940GZZLUMVL",
+      "name": "Maida Vale",
+      "lat": 51.529777,
+      "lon": -0.185758,
+      "lines": [
+        "bakerloo"
+      ],
+      "population": 9824
+    },
+    {
+      "naptanId": "940GZZLUMYB",
+      "name": "Marylebone",
+      "lat": 51.522322,
+      "lon": -0.163207,
+      "lines": [
+        "bakerloo"
+      ],
+      "population": 12747
+    },
+    {
+      "naptanId": "940GZZLUNWY",
+      "name": "North Wembley",
+      "lat": 51.562551,
+      "lon": -0.304,
+      "lines": [
+        "bakerloo"
+      ],
+      "population": 6211
+    },
+    {
+      "naptanId": "940GZZLUOXC",
+      "name": "Oxford Circus",
+      "lat": 51.515224,
+      "lon": -0.141903,
+      "lines": [
+        "bakerloo",
+        "central",
+        "victoria"
+      ],
+      "population": 5072
+    },
+    {
+      "naptanId": "940GZZLUPAC",
+      "name": "Paddington",
+      "lat": 51.516581,
+      "lon": -0.175689,
+      "lines": [
+        "bakerloo",
+        "circle",
+        "district"
+      ],
+      "population": 10077
+    },
+    {
+      "naptanId": "940GZZLUPCC",
+      "name": "Piccadilly Circus",
+      "lat": 51.51005,
+      "lon": -0.133798,
+      "lines": [
+        "bakerloo",
+        "piccadilly"
+      ],
+      "population": 3816
+    },
+    {
+      "naptanId": "940GZZLUQPS",
+      "name": "Queen's Park",
+      "lat": 51.534158,
+      "lon": -0.204574,
+      "lines": [
+        "bakerloo"
+      ],
+      "population": 9060
+    },
+    {
+      "naptanId": "940GZZLURGP",
+      "name": "Regent's Park",
+      "lat": 51.523344,
+      "lon": -0.146444,
+      "lines": [
+        "bakerloo"
+      ],
+      "population": 6214
+    },
+    {
+      "naptanId": "940GZZLUSGP",
+      "name": "Stonebridge Park",
+      "lat": 51.543959,
+      "lon": -0.275892,
+      "lines": [
+        "bakerloo"
+      ],
+      "population": 3996
+    },
+    {
+      "naptanId": "940GZZLUSKT",
+      "name": "South Kenton",
+      "lat": 51.570232,
+      "lon": -0.308433,
+      "lines": [
+        "bakerloo"
+      ],
+      "population": 3928
+    },
+    {
+      "naptanId": "940GZZLUWJN",
+      "name": "Willesden Junction",
+      "lat": 51.532259,
+      "lon": -0.244283,
+      "lines": [
+        "bakerloo"
+      ],
+      "population": 7858
+    },
+    {
+      "naptanId": "940GZZLUWKA",
+      "name": "Warwick Avenue",
+      "lat": 51.523263,
+      "lon": -0.183783,
+      "lines": [
+        "bakerloo"
+      ],
+      "population": 12028
+    },
+    {
+      "naptanId": "940GZZLUWLO",
+      "name": "Waterloo",
+      "lat": 51.503299,
+      "lon": -0.11478,
+      "lines": [
+        "bakerloo",
+        "jubilee",
+        "northern",
+        "waterloo-city"
+      ],
+      "population": 3294
+    },
+    {
+      "naptanId": "940GZZLUWYC",
+      "name": "Wembley Central",
+      "lat": 51.552304,
+      "lon": -0.296852,
+      "lines": [
+        "bakerloo"
+      ],
+      "population": 9794
+    },
+    {
+      "naptanId": "940GZZLUBKE",
+      "name": "Barkingside",
+      "lat": 51.585689,
+      "lon": 0.088585,
+      "lines": [
+        "central"
+      ],
+      "population": 3491
+    },
+    {
+      "naptanId": "940GZZLUBKH",
+      "name": "Buckhurst Hill",
+      "lat": 51.626605,
+      "lon": 0.046757,
+      "lines": [
+        "central"
+      ],
+      "population": 3708
+    },
+    {
+      "naptanId": "940GZZLUBLG",
+      "name": "Bethnal Green",
+      "lat": 51.527222,
+      "lon": -0.055506,
+      "lines": [
+        "central"
+      ],
+      "population": 13263
+    },
+    {
+      "naptanId": "940GZZLUBND",
+      "name": "Bond Street",
+      "lat": 51.514304,
+      "lon": -0.149723,
+      "lines": [
+        "central",
+        "jubilee"
+      ],
+      "population": 3944
+    },
+    {
+      "naptanId": "940GZZLUBNK",
+      "name": "Bank",
+      "lat": 51.513132,
+      "lon": -0.090047,
+      "lines": [
+        "central",
+        "northern",
+        "waterloo-city"
+      ],
+      "population": 798
+    },
+    {
+      "naptanId": "940GZZLUCHL",
+      "name": "Chancery Lane",
+      "lat": 51.518247,
+      "lon": -0.111583,
+      "lines": [
+        "central"
+      ],
+      "population": 6592
+    },
+    {
+      "naptanId": "940GZZLUCWL",
+      "name": "Chigwell",
+      "lat": 51.617916,
+      "lon": 0.075041,
+      "lines": [
+        "central"
+      ],
+      "population": 1480
+    },
+    {
+      "naptanId": "940GZZLUDBN",
+      "name": "Debden",
+      "lat": 51.645386,
+      "lon": 0.083782,
+      "lines": [
+        "central"
+      ],
+      "population": 3073
+    },
+    {
+      "naptanId": "940GZZLUEAN",
+      "name": "East Acton",
+      "lat": 51.516612,
+      "lon": -0.247248,
+      "lines": [
+        "central"
+      ],
+      "population": 5256
+    },
+    {
+      "naptanId": "940GZZLUEBY",
+      "name": "Ealing Broadway",
+      "lat": 51.515017,
+      "lon": -0.301457,
+      "lines": [
+        "central",
+        "district"
+      ],
+      "population": 5039
+    },
+    {
+      "naptanId": "940GZZLUEPG",
+      "name": "Epping",
+      "lat": 51.69368,
+      "lon": 0.113767,
+      "lines": [
+        "central"
+      ],
+      "population": 2801
+    },
+    {
+      "naptanId": "940GZZLUFLP",
+      "name": "Fairlop",
+      "lat": 51.595618,
+      "lon": 0.091004,
+      "lines": [
+        "central"
+      ],
+      "population": 1435
+    },
+    {
+      "naptanId": "940GZZLUGFD",
+      "name": "Greenford",
+      "lat": 51.542424,
+      "lon": -0.34605,
+      "lines": [
+        "central"
+      ],
+      "population": 1618
+    },
+    {
+      "naptanId": "940GZZLUGGH",
+      "name": "Grange Hill",
+      "lat": 51.613378,
+      "lon": 0.092066,
+      "lines": [
+        "central"
+      ],
+      "population": 2078
+    },
+    {
+      "naptanId": "940GZZLUGTH",
+      "name": "Gants Hill",
+      "lat": 51.576544,
+      "lon": 0.066185,
+      "lines": [
+        "central"
+      ],
+      "population": 8271
+    },
+    {
+      "naptanId": "940GZZLUHBN",
+      "name": "Holborn",
+      "lat": 51.51758,
+      "lon": -0.120475,
+      "lines": [
+        "central",
+        "piccadilly"
+      ],
+      "population": 6637
+    },
+    {
+      "naptanId": "940GZZLUHGR",
+      "name": "Hanger Lane",
+      "lat": 51.530177,
+      "lon": -0.292704,
+      "lines": [
+        "central"
+      ],
+      "population": 4677
+    },
+    {
+      "naptanId": "940GZZLUHLT",
+      "name": "Hainault",
+      "lat": 51.603659,
+      "lon": 0.093482,
+      "lines": [
+        "central"
+      ],
+      "population": 7817
+    },
+    {
+      "naptanId": "940GZZLUHPK",
+      "name": "Holland Park",
+      "lat": 51.507143,
+      "lon": -0.205679,
+      "lines": [
+        "central"
+      ],
+      "population": 7641
+    },
+    {
+      "naptanId": "940GZZLULGN",
+      "name": "Loughton",
+      "lat": 51.641443,
+      "lon": 0.055476,
+      "lines": [
+        "central"
+      ],
+      "population": 3140
+    },
+    {
+      "naptanId": "940GZZLULGT",
+      "name": "Lancaster Gate",
+      "lat": 51.511723,
+      "lon": -0.175494,
+      "lines": [
+        "central"
+      ],
+      "population": 8000
+    },
+    {
+      "naptanId": "940GZZLULVT",
+      "name": "Liverpool Street",
+      "lat": 51.517372,
+      "lon": -0.083182,
+      "lines": [
+        "central",
+        "circle",
+        "hammersmith-city",
+        "metropolitan"
+      ],
+      "population": 2879
+    },
+    {
+      "naptanId": "940GZZLULYN",
+      "name": "Leyton",
+      "lat": 51.556589,
+      "lon": -0.005523,
+      "lines": [
+        "central"
+      ],
+      "population": 10317
+    },
+    {
+      "naptanId": "940GZZLULYS",
+      "name": "Leytonstone",
+      "lat": 51.568324,
+      "lon": 0.008194,
+      "lines": [
+        "central"
+      ],
+      "population": 7236
+    },
+    {
+      "naptanId": "940GZZLUMBA",
+      "name": "Marble Arch",
+      "lat": 51.513424,
+      "lon": -0.158953,
+      "lines": [
+        "central"
+      ],
+      "population": 7309
+    },
+    {
+      "naptanId": "940GZZLUMED",
+      "name": "Mile End",
+      "lat": 51.525122,
+      "lon": -0.03364,
+      "lines": [
+        "central",
+        "district",
+        "hammersmith-city"
+      ],
+      "population": 11789
+    },
+    {
+      "naptanId": "940GZZLUNAN",
+      "name": "North Acton",
+      "lat": 51.523524,
+      "lon": -0.259755,
+      "lines": [
+        "central"
+      ],
+      "population": 3663
+    },
+    {
+      "naptanId": "940GZZLUNBP",
+      "name": "Newbury Park",
+      "lat": 51.575726,
+      "lon": 0.090004,
+      "lines": [
+        "central"
+      ],
+      "population": 6837
+    },
+    {
+      "naptanId": "940GZZLUNHG",
+      "name": "Notting Hill Gate",
+      "lat": 51.509128,
+      "lon": -0.196104,
+      "lines": [
+        "central",
+        "circle",
+        "district"
+      ],
+      "population": 10800
+    },
+    {
+      "naptanId": "940GZZLUNHT",
+      "name": "Northolt",
+      "lat": 51.548236,
+      "lon": -0.368699,
+      "lines": [
+        "central"
+      ],
+      "population": 5617
+    },
+    {
+      "naptanId": "940GZZLUPVL",
+      "name": "Perivale",
+      "lat": 51.536717,
+      "lon": -0.323446,
+      "lines": [
+        "central"
+      ],
+      "population": 3330
+    },
+    {
+      "naptanId": "940GZZLUQWY",
+      "name": "Queensway",
+      "lat": 51.510312,
+      "lon": -0.187152,
+      "lines": [
+        "central"
+      ],
+      "population": 11033
+    },
+    {
+      "naptanId": "940GZZLURBG",
+      "name": "Redbridge",
+      "lat": 51.576243,
+      "lon": 0.04536,
+      "lines": [
+        "central"
+      ],
+      "population": 4537
+    },
+    {
+      "naptanId": "940GZZLURSG",
+      "name": "Ruislip Gardens",
+      "lat": 51.560736,
+      "lon": -0.41071,
+      "lines": [
+        "central"
+      ],
+      "population": 4795
+    },
+    {
+      "naptanId": "940GZZLURVY",
+      "name": "Roding Valley",
+      "lat": 51.617199,
+      "lon": 0.043647,
+      "lines": [
+        "central"
+      ],
+      "population": 2731
+    },
+    {
+      "naptanId": "940GZZLUSBC",
+      "name": "Shepherd's Bush (Central)",
+      "lat": 51.504376,
+      "lon": -0.218813,
+      "lines": [
+        "central"
+      ],
+      "population": 9037
+    },
+    {
+      "naptanId": "940GZZLUSNB",
+      "name": "Snaresbrook",
+      "lat": 51.580678,
+      "lon": 0.02144,
+      "lines": [
+        "central"
+      ],
+      "population": 4971
+    },
+    {
+      "naptanId": "940GZZLUSPU",
+      "name": "St. Paul's",
+      "lat": 51.514936,
+      "lon": -0.097567,
+      "lines": [
+        "central"
+      ],
+      "population": 4459
+    },
+    {
+      "naptanId": "940GZZLUSRP",
+      "name": "South Ruislip",
+      "lat": 51.556853,
+      "lon": -0.398915,
+      "lines": [
+        "central"
+      ],
+      "population": 4274
+    },
+    {
+      "naptanId": "940GZZLUSTD",
+      "name": "Stratford",
+      "lat": 51.541806,
+      "lon": -0.003458,
+      "lines": [
+        "central",
+        "jubilee"
+      ],
+      "population": 8732
+    },
+    {
+      "naptanId": "940GZZLUSWF",
+      "name": "South Woodford",
+      "lat": 51.591907,
+      "lon": 0.027338,
+      "lines": [
+        "central"
+      ],
+      "population": 6697
+    },
+    {
+      "naptanId": "940GZZLUTCR",
+      "name": "Tottenham Court Road",
+      "lat": 51.516426,
+      "lon": -0.13041,
+      "lines": [
+        "central",
+        "northern"
+      ],
+      "population": 5612
+    },
+    {
+      "naptanId": "940GZZLUTHB",
+      "name": "Theydon Bois",
+      "lat": 51.671759,
+      "lon": 0.103085,
+      "lines": [
+        "central"
+      ],
+      "population": 1882
+    },
+    {
+      "naptanId": "940GZZLUWCY",
+      "name": "White City",
+      "lat": 51.511959,
+      "lon": -0.224297,
+      "lines": [
+        "central"
+      ],
+      "population": 6594
+    },
+    {
+      "naptanId": "940GZZLUWOF",
+      "name": "Woodford",
+      "lat": 51.606899,
+      "lon": 0.03397,
+      "lines": [
+        "central"
+      ],
+      "population": 4492
+    },
+    {
+      "naptanId": "940GZZLUWRP",
+      "name": "West Ruislip",
+      "lat": 51.569688,
+      "lon": -0.437886,
+      "lines": [
+        "central"
+      ],
+      "population": 3403
+    },
+    {
+      "naptanId": "940GZZLUWSD",
+      "name": "Wanstead",
+      "lat": 51.575501,
+      "lon": 0.028527,
+      "lines": [
+        "central"
+      ],
+      "population": 4939
+    },
+    {
+      "naptanId": "940GZZLUWTA",
+      "name": "West Acton",
+      "lat": 51.518001,
+      "lon": -0.28098,
+      "lines": [
+        "central"
+      ],
+      "population": 3349
+    },
+    {
+      "naptanId": "940GZZLUALD",
+      "name": "Aldgate",
+      "lat": 51.514246,
+      "lon": -0.075689,
+      "lines": [
+        "circle",
+        "metropolitan"
+      ],
+      "population": 8536
+    },
+    {
+      "naptanId": "940GZZLUBBN",
+      "name": "Barbican",
+      "lat": 51.520275,
+      "lon": -0.097993,
+      "lines": [
+        "circle",
+        "hammersmith-city",
+        "metropolitan"
+      ],
+      "population": 12218
+    },
+    {
+      "naptanId": "940GZZLUBKF",
+      "name": "Blackfriars",
+      "lat": 51.511581,
+      "lon": -0.103659,
+      "lines": [
+        "circle",
+        "district"
+      ],
+      "population": 1336
+    },
+    {
+      "naptanId": "940GZZLUBWT",
+      "name": "Bayswater",
+      "lat": 51.512284,
+      "lon": -0.187938,
+      "lines": [
+        "circle",
+        "district"
+      ],
+      "population": 15244
+    },
+    {
+      "naptanId": "940GZZLUCST",
+      "name": "Cannon Street",
+      "lat": 51.51151,
+      "lon": -0.090432,
+      "lines": [
+        "circle",
+        "district"
+      ],
+      "population": 0
+    },
+    {
+      "naptanId": "940GZZLUERC",
+      "name": "Edgware Road (Circle Line)",
+      "lat": 51.519858,
+      "lon": -0.167832,
+      "lines": [
+        "circle",
+        "district",
+        "hammersmith-city"
+      ],
+      "population": 16601
+    },
+    {
+      "naptanId": "940GZZLUESQ",
+      "name": "Euston Square",
+      "lat": 51.525604,
+      "lon": -0.135829,
+      "lines": [
+        "circle",
+        "hammersmith-city",
+        "metropolitan"
+      ],
+      "population": 9515
+    },
+    {
+      "naptanId": "940GZZLUFCN",
+      "name": "Farringdon",
+      "lat": 51.520252,
+      "lon": -0.104913,
+      "lines": [
+        "circle",
+        "hammersmith-city",
+        "metropolitan"
+      ],
+      "population": 9325
+    },
+    {
+      "naptanId": "940GZZLUGHK",
+      "name": "Goldhawk Road",
+      "lat": 51.502005,
+      "lon": -0.226715,
+      "lines": [
+        "circle",
+        "hammersmith-city"
+      ],
+      "population": 11188
+    },
+    {
+      "naptanId": "940GZZLUGPS",
+      "name": "Great Portland Street",
+      "lat": 51.52384,
+      "lon": -0.144262,
+      "lines": [
+        "circle",
+        "hammersmith-city",
+        "metropolitan"
+      ],
+      "population": 8637
+    },
+    {
+      "naptanId": "940GZZLUGTR",
+      "name": "Gloucester Road",
+      "lat": 51.494316,
+      "lon": -0.182658,
+      "lines": [
+        "circle",
+        "district",
+        "piccadilly"
+      ],
+      "population": 8776
+    },
+    {
+      "naptanId": "940GZZLUHSC",
+      "name": "Hammersmith (H&C Line)",
+      "lat": 51.49339,
+      "lon": -0.22503,
+      "lines": [
+        "circle",
+        "hammersmith-city"
+      ],
+      "population": 7802
+    },
+    {
+      "naptanId": "940GZZLUHSK",
+      "name": "High Street Kensington",
+      "lat": 51.501055,
+      "lon": -0.192792,
+      "lines": [
+        "circle",
+        "district"
+      ],
+      "population": 8786
+    },
+    {
+      "naptanId": "940GZZLUKSX",
+      "name": "King's Cross St. Pancras",
+      "lat": 51.530663,
+      "lon": -0.123194,
+      "lines": [
+        "circle",
+        "hammersmith-city",
+        "metropolitan",
+        "northern",
+        "piccadilly",
+        "victoria"
+      ],
+      "population": 5582
+    },
+    {
+      "naptanId": "940GZZLULAD",
+      "name": "Ladbroke Grove",
+      "lat": 51.517449,
+      "lon": -0.210391,
+      "lines": [
+        "circle",
+        "hammersmith-city"
+      ],
+      "population": 13442
+    },
+    {
+      "naptanId": "940GZZLULRD",
+      "name": "Latimer Road",
+      "lat": 51.513389,
+      "lon": -0.217799,
+      "lines": [
+        "circle",
+        "hammersmith-city"
+      ],
+      "population": 11160
+    },
+    {
+      "naptanId": "940GZZLUMGT",
+      "name": "Moorgate",
+      "lat": 51.518176,
+      "lon": -0.088322,
+      "lines": [
+        "circle",
+        "hammersmith-city",
+        "metropolitan",
+        "northern"
+      ],
+      "population": 4646
+    },
+    {
+      "naptanId": "940GZZLUMMT",
+      "name": "Monument",
+      "lat": 51.5107,
+      "lon": -0.085969,
+      "lines": [
+        "circle",
+        "district"
+      ],
+      "population": 252
+    },
+    {
+      "naptanId": "940GZZLUMSH",
+      "name": "Mansion House",
+      "lat": 51.512117,
+      "lon": -0.094009,
+      "lines": [
+        "circle",
+        "district"
+      ],
+      "population": 540
+    },
+    {
+      "naptanId": "940GZZLUPAH",
+      "name": "Paddington (H&C Line)-Underground",
+      "lat": 51.518187,
+      "lon": -0.178306,
+      "lines": [
+        "circle",
+        "hammersmith-city"
+      ],
+      "population": 9164
+    },
+    {
+      "naptanId": "940GZZLURYO",
+      "name": "Royal Oak",
+      "lat": 51.519113,
+      "lon": -0.188748,
+      "lines": [
+        "circle",
+        "hammersmith-city"
+      ],
+      "population": 12903
+    },
+    {
+      "naptanId": "940GZZLUSBM",
+      "name": "Shepherd's Bush Market",
+      "lat": 51.505579,
+      "lon": -0.226375,
+      "lines": [
+        "circle",
+        "hammersmith-city"
+      ],
+      "population": 8665
+    },
+    {
+      "naptanId": "940GZZLUSJP",
+      "name": "St. James's Park",
+      "lat": 51.499544,
+      "lon": -0.133608,
+      "lines": [
+        "circle",
+        "district"
+      ],
+      "population": 2023
+    },
+    {
+      "naptanId": "940GZZLUSKS",
+      "name": "South Kensington",
+      "lat": 51.494094,
+      "lon": -0.174138,
+      "lines": [
+        "circle",
+        "district",
+        "piccadilly"
+      ],
+      "population": 5815
+    },
+    {
+      "naptanId": "940GZZLUSSQ",
+      "name": "Sloane Square",
+      "lat": 51.49227,
+      "lon": -0.156377,
+      "lines": [
+        "circle",
+        "district"
+      ],
+      "population": 7009
+    },
+    {
+      "naptanId": "940GZZLUTMP",
+      "name": "Temple",
+      "lat": 51.511006,
+      "lon": -0.11426,
+      "lines": [
+        "circle",
+        "district"
+      ],
+      "population": 1860
+    },
+    {
+      "naptanId": "940GZZLUTWH",
+      "name": "Tower Hill",
+      "lat": 51.509971,
+      "lon": -0.076546,
+      "lines": [
+        "circle",
+        "district"
+      ],
+      "population": 3816
+    },
+    {
+      "naptanId": "940GZZLUVIC",
+      "name": "Victoria",
+      "lat": 51.496359,
+      "lon": -0.143102,
+      "lines": [
+        "circle",
+        "district",
+        "victoria"
+      ],
+      "population": 3880
+    },
+    {
+      "naptanId": "940GZZLUWLA",
+      "name": "Wood Lane",
+      "lat": 51.509669,
+      "lon": -0.22453,
+      "lines": [
+        "circle",
+        "hammersmith-city"
+      ],
+      "population": 5415
+    },
+    {
+      "naptanId": "940GZZLUWSM",
+      "name": "Westminster",
+      "lat": 51.50132,
+      "lon": -0.124861,
+      "lines": [
+        "circle",
+        "district",
+        "jubilee"
+      ],
+      "population": 355
+    },
+    {
+      "naptanId": "940GZZLUWSP",
+      "name": "Westbourne Park",
+      "lat": 51.52111,
+      "lon": -0.201065,
+      "lines": [
+        "circle",
+        "hammersmith-city"
+      ],
+      "population": 15343
+    },
+    {
+      "naptanId": "940GZZLUACT",
+      "name": "Acton Town",
+      "lat": 51.503057,
+      "lon": -0.280462,
+      "lines": [
+        "district",
+        "piccadilly"
+      ],
+      "population": 6747
+    },
+    {
+      "naptanId": "940GZZLUADE",
+      "name": "Aldgate East",
+      "lat": 51.515037,
+      "lon": -0.072384,
+      "lines": [
+        "district",
+        "hammersmith-city"
+      ],
+      "population": 13600
+    },
+    {
+      "naptanId": "940GZZLUBBB",
+      "name": "Bromley-by-Bow",
+      "lat": 51.524839,
+      "lon": -0.011538,
+      "lines": [
+        "district",
+        "hammersmith-city"
+      ],
+      "population": 11572
+    },
+    {
+      "naptanId": "940GZZLUBEC",
+      "name": "Becontree",
+      "lat": 51.540331,
+      "lon": 0.127016,
+      "lines": [
+        "district"
+      ],
+      "population": 4080
+    },
+    {
+      "naptanId": "940GZZLUBKG",
+      "name": "Barking",
+      "lat": 51.539321,
+      "lon": 0.081053,
+      "lines": [
+        "district",
+        "hammersmith-city"
+      ],
+      "population": 10100
+    },
+    {
+      "naptanId": "940GZZLUBSC",
+      "name": "Barons Court",
+      "lat": 51.490311,
+      "lon": -0.213427,
+      "lines": [
+        "district",
+        "piccadilly"
+      ],
+      "population": 9967
+    },
+    {
+      "naptanId": "940GZZLUBWR",
+      "name": "Bow Road",
+      "lat": 51.52694,
+      "lon": -0.025128,
+      "lines": [
+        "district",
+        "hammersmith-city"
+      ],
+      "population": 15042
+    },
+    {
+      "naptanId": "940GZZLUCWP",
+      "name": "Chiswick Park",
+      "lat": 51.494627,
+      "lon": -0.267972,
+      "lines": [
+        "district"
+      ],
+      "population": 7934
+    },
+    {
+      "naptanId": "940GZZLUDGE",
+      "name": "Dagenham East",
+      "lat": 51.544096,
+      "lon": 0.166017,
+      "lines": [
+        "district"
+      ],
+      "population": 4290
+    },
+    {
+      "naptanId": "940GZZLUDGY",
+      "name": "Dagenham Heathway",
+      "lat": 51.541639,
+      "lon": 0.147527,
+      "lines": [
+        "district"
+      ],
+      "population": 8870
+    },
+    {
+      "naptanId": "940GZZLUECM",
+      "name": "Ealing Common",
+      "lat": 51.51014,
+      "lon": -0.288265,
+      "lines": [
+        "district",
+        "piccadilly"
+      ],
+      "population": 4555
+    },
+    {
+      "naptanId": "940GZZLUECT",
+      "name": "Earl's Court",
+      "lat": 51.492063,
+      "lon": -0.193378,
+      "lines": [
+        "district",
+        "piccadilly"
+      ],
+      "population": 14076
+    },
+    {
+      "naptanId": "940GZZLUEHM",
+      "name": "East Ham",
+      "lat": 51.538948,
+      "lon": 0.051186,
+      "lines": [
+        "district",
+        "hammersmith-city"
+      ],
+      "population": 10550
+    },
+    {
+      "naptanId": "940GZZLUEPK",
+      "name": "Elm Park",
+      "lat": 51.549775,
+      "lon": 0.19864,
+      "lines": [
+        "district"
+      ],
+      "population": 4943
+    },
+    {
+      "naptanId": "940GZZLUEPY",
+      "name": "East Putney",
+      "lat": 51.459205,
+      "lon": -0.211,
+      "lines": [
+        "district"
+      ],
+      "population": 9127
+    },
+    {
+      "naptanId": "940GZZLUFBY",
+      "name": "Fulham Broadway",
+      "lat": 51.480081,
+      "lon": -0.195422,
+      "lines": [
+        "district"
+      ],
+      "population": 10426
+    },
+    {
+      "naptanId": "940GZZLUGBY",
+      "name": "Gunnersbury",
+      "lat": 51.491803,
+      "lon": -0.275267,
+      "lines": [
+        "district"
+      ],
+      "population": 4351
+    },
+    {
+      "naptanId": "940GZZLUHCH",
+      "name": "Hornchurch",
+      "lat": 51.554093,
+      "lon": 0.219116,
+      "lines": [
+        "district"
+      ],
+      "population": 4120
+    },
+    {
+      "naptanId": "940GZZLUHSD",
+      "name": "Hammersmith (Dist&Picc Line)",
+      "lat": 51.4923,
+      "lon": -0.22362,
+      "lines": [
+        "district",
+        "piccadilly"
+      ],
+      "population": 6609
+    },
+    {
+      "naptanId": "940GZZLUKOY",
+      "name": "Kensington (Olympia)",
+      "lat": 51.497624,
+      "lon": -0.210015,
+      "lines": [
+        "district"
+      ],
+      "population": 9797
+    },
+    {
+      "naptanId": "940GZZLUKWG",
+      "name": "Kew Gardens",
+      "lat": 51.477058,
+      "lon": -0.285241,
+      "lines": [
+        "district"
+      ],
+      "population": 4796
+    },
+    {
+      "naptanId": "940GZZLUPLW",
+      "name": "Plaistow",
+      "lat": 51.531341,
+      "lon": 0.017451,
+      "lines": [
+        "district",
+        "hammersmith-city"
+      ],
+      "population": 13715
+    },
+    {
+      "naptanId": "940GZZLUPSG",
+      "name": "Parsons Green",
+      "lat": 51.475277,
+      "lon": -0.20117,
+      "lines": [
+        "district"
+      ],
+      "population": 12184
+    },
+    {
+      "naptanId": "940GZZLUPYB",
+      "name": "Putney Bridge",
+      "lat": 51.468262,
+      "lon": -0.208731,
+      "lines": [
+        "district"
+      ],
+      "population": 6851
+    },
+    {
+      "naptanId": "940GZZLURMD",
+      "name": "Richmond",
+      "lat": 51.463237,
+      "lon": -0.301336,
+      "lines": [
+        "district"
+      ],
+      "population": 4298
+    },
+    {
+      "naptanId": "940GZZLURVP",
+      "name": "Ravenscourt Park",
+      "lat": 51.494122,
+      "lon": -0.235881,
+      "lines": [
+        "district"
+      ],
+      "population": 9258
+    },
+    {
+      "naptanId": "940GZZLUSFB",
+      "name": "Stamford Brook",
+      "lat": 51.494917,
+      "lon": -0.245704,
+      "lines": [
+        "district"
+      ],
+      "population": 6980
+    },
+    {
+      "naptanId": "940GZZLUSFS",
+      "name": "Southfields",
+      "lat": 51.445073,
+      "lon": -0.206602,
+      "lines": [
+        "district"
+      ],
+      "population": 9322
+    },
+    {
+      "naptanId": "940GZZLUSGN",
+      "name": "Stepney Green",
+      "lat": 51.521858,
+      "lon": -0.046596,
+      "lines": [
+        "district",
+        "hammersmith-city"
+      ],
+      "population": 12999
+    },
+    {
+      "naptanId": "940GZZLUTNG",
+      "name": "Turnham Green",
+      "lat": 51.495148,
+      "lon": -0.254555,
+      "lines": [
+        "district",
+        "piccadilly"
+      ],
+      "population": 6449
+    },
+    {
+      "naptanId": "940GZZLUUPB",
+      "name": "Upminster Bridge",
+      "lat": 51.55856,
+      "lon": 0.235809,
+      "lines": [
+        "district"
+      ],
+      "population": 3764
+    },
+    {
+      "naptanId": "940GZZLUUPK",
+      "name": "Upton Park",
+      "lat": 51.53534,
+      "lon": 0.035263,
+      "lines": [
+        "district",
+        "hammersmith-city"
+      ],
+      "population": 16887
+    },
+    {
+      "naptanId": "940GZZLUUPM",
+      "name": "Upminster",
+      "lat": 51.559063,
+      "lon": 0.250882,
+      "lines": [
+        "district"
+      ],
+      "population": 2103
+    },
+    {
+      "naptanId": "940GZZLUUPY",
+      "name": "Upney",
+      "lat": 51.538372,
+      "lon": 0.10153,
+      "lines": [
+        "district"
+      ],
+      "population": 6338
+    },
+    {
+      "naptanId": "940GZZLUWBN",
+      "name": "West Brompton",
+      "lat": 51.487268,
+      "lon": -0.195599,
+      "lines": [
+        "district"
+      ],
+      "population": 11764
+    },
+    {
+      "naptanId": "940GZZLUWHM",
+      "name": "West Ham",
+      "lat": 51.528136,
+      "lon": 0.005055,
+      "lines": [
+        "district",
+        "hammersmith-city",
+        "jubilee"
+      ],
+      "population": 5614
+    },
+    {
+      "naptanId": "940GZZLUWIM",
+      "name": "Wimbledon",
+      "lat": 51.421207,
+      "lon": -0.206573,
+      "lines": [
+        "district"
+      ],
+      "population": 5243
+    },
+    {
+      "naptanId": "940GZZLUWIP",
+      "name": "Wimbledon Park",
+      "lat": 51.434573,
+      "lon": -0.199719,
+      "lines": [
+        "district"
+      ],
+      "population": 5176
+    },
+    {
+      "naptanId": "940GZZLUWKN",
+      "name": "West Kensington",
+      "lat": 51.490459,
+      "lon": -0.206636,
+      "lines": [
+        "district"
+      ],
+      "population": 13953
+    },
+    {
+      "naptanId": "940GZZLUWPL",
+      "name": "Whitechapel",
+      "lat": 51.519518,
+      "lon": -0.059971,
+      "lines": [
+        "district",
+        "hammersmith-city"
+      ],
+      "population": 11685
+    },
+    {
+      "naptanId": "940GZZLUBMY",
+      "name": "Bermondsey",
+      "lat": 51.49775,
+      "lon": -0.063993,
+      "lines": [
+        "jubilee"
+      ],
+      "population": 10158
+    },
+    {
+      "naptanId": "940GZZLUCGT",
+      "name": "Canning Town",
+      "lat": 51.513584,
+      "lon": 0.008322,
+      "lines": [
+        "jubilee"
+      ],
+      "population": 9324
+    },
+    {
+      "naptanId": "940GZZLUCPK",
+      "name": "Canons Park",
+      "lat": 51.607701,
+      "lon": -0.294693,
+      "lines": [
+        "jubilee"
+      ],
+      "population": 4612
+    },
+    {
+      "naptanId": "940GZZLUCWR",
+      "name": "Canada Water",
+      "lat": 51.497931,
+      "lon": -0.049405,
+      "lines": [
+        "jubilee"
+      ],
+      "population": 9059
+    },
+    {
+      "naptanId": "940GZZLUCYF",
+      "name": "Canary Wharf",
+      "lat": 51.503488,
+      "lon": -0.018246,
+      "lines": [
+        "jubilee"
+      ],
+      "population": 3469
+    },
+    {
+      "naptanId": "940GZZLUDOH",
+      "name": "Dollis Hill",
+      "lat": 51.551955,
+      "lon": -0.239068,
+      "lines": [
+        "jubilee"
+      ],
+      "population": 6029
+    },
+    {
+      "naptanId": "940GZZLUFYR",
+      "name": "Finchley Road",
+      "lat": 51.546825,
+      "lon": -0.179845,
+      "lines": [
+        "jubilee",
+        "metropolitan"
+      ],
+      "population": 8725
+    },
+    {
+      "naptanId": "940GZZLUGPK",
+      "name": "Green Park",
+      "lat": 51.506947,
+      "lon": -0.142787,
+      "lines": [
+        "jubilee",
+        "piccadilly",
+        "victoria"
+      ],
+      "population": 1468
+    },
+    {
+      "naptanId": "940GZZLUKBN",
+      "name": "Kilburn",
+      "lat": 51.547183,
+      "lon": -0.204248,
+      "lines": [
+        "jubilee"
+      ],
+      "population": 10081
+    },
+    {
+      "naptanId": "940GZZLUKBY",
+      "name": "Kingsbury",
+      "lat": 51.584845,
+      "lon": -0.27879,
+      "lines": [
+        "jubilee"
+      ],
+      "population": 6670
+    },
+    {
+      "naptanId": "940GZZLULNB",
+      "name": "London Bridge",
+      "lat": 51.505721,
+      "lon": -0.088873,
+      "lines": [
+        "jubilee",
+        "northern"
+      ],
+      "population": 923
+    },
+    {
+      "naptanId": "940GZZLUNDN",
+      "name": "Neasden",
+      "lat": 51.553986,
+      "lon": -0.249837,
+      "lines": [
+        "jubilee"
+      ],
+      "population": 5579
+    },
+    {
+      "naptanId": "940GZZLUNGW",
+      "name": "North Greenwich",
+      "lat": 51.50047,
+      "lon": 0.004287,
+      "lines": [
+        "jubilee"
+      ],
+      "population": 1588
+    },
+    {
+      "naptanId": "940GZZLUQBY",
+      "name": "Queensbury",
+      "lat": 51.594188,
+      "lon": -0.286219,
+      "lines": [
+        "jubilee"
+      ],
+      "population": 7494
+    },
+    {
+      "naptanId": "940GZZLUSJW",
+      "name": "St. John's Wood",
+      "lat": 51.534521,
+      "lon": -0.173948,
+      "lines": [
+        "jubilee"
+      ],
+      "population": 7064
+    },
+    {
+      "naptanId": "940GZZLUSTM",
+      "name": "Stanmore",
+      "lat": 51.619839,
+      "lon": -0.303266,
+      "lines": [
+        "jubilee"
+      ],
+      "population": 1814
+    },
+    {
+      "naptanId": "940GZZLUSWC",
+      "name": "Swiss Cottage",
+      "lat": 51.543681,
+      "lon": -0.174894,
+      "lines": [
+        "jubilee"
+      ],
+      "population": 10749
+    },
+    {
+      "naptanId": "940GZZLUSWK",
+      "name": "Southwark",
+      "lat": 51.50427,
+      "lon": -0.105331,
+      "lines": [
+        "jubilee"
+      ],
+      "population": 5905
+    },
+    {
+      "naptanId": "940GZZLUWHP",
+      "name": "West Hampstead",
+      "lat": 51.546638,
+      "lon": -0.191059,
+      "lines": [
+        "jubilee"
+      ],
+      "population": 10528
+    },
+    {
+      "naptanId": "940GZZLUWIG",
+      "name": "Willesden Green",
+      "lat": 51.549146,
+      "lon": -0.221537,
+      "lines": [
+        "jubilee",
+        "metropolitan"
+      ],
+      "population": 7781
+    },
+    {
+      "naptanId": "940GZZLUWYP",
+      "name": "Wembley Park",
+      "lat": 51.563198,
+      "lon": -0.279262,
+      "lines": [
+        "jubilee",
+        "metropolitan"
+      ],
+      "population": 6522
+    },
+    {
+      "naptanId": "940GZZLUAMS",
+      "name": "Amersham",
+      "lat": 51.674126,
+      "lon": -0.607714,
+      "lines": [
+        "metropolitan"
+      ],
+      "population": 2568
+    },
+    {
+      "naptanId": "940GZZLUCAL",
+      "name": "Chalfont & Latimer",
+      "lat": 51.667985,
+      "lon": -0.560689,
+      "lines": [
+        "metropolitan"
+      ],
+      "population": 2172
+    },
+    {
+      "naptanId": "940GZZLUCSM",
+      "name": "Chesham",
+      "lat": 51.705208,
+      "lon": -0.611247,
+      "lines": [
+        "metropolitan"
+      ],
+      "population": 3170
+    },
+    {
+      "naptanId": "940GZZLUCXY",
+      "name": "Croxley",
+      "lat": 51.647044,
+      "lon": -0.441718,
+      "lines": [
+        "metropolitan"
+      ],
+      "population": 4746
+    },
+    {
+      "naptanId": "940GZZLUCYD",
+      "name": "Chorleywood",
+      "lat": 51.654358,
+      "lon": -0.518461,
+      "lines": [
+        "metropolitan"
+      ],
+      "population": 1763
+    },
+    {
+      "naptanId": "940GZZLUEAE",
+      "name": "Eastcote",
+      "lat": 51.576506,
+      "lon": -0.397373,
+      "lines": [
+        "metropolitan",
+        "piccadilly"
+      ],
+      "population": 4300
+    },
+    {
+      "naptanId": "940GZZLUHGD",
+      "name": "Hillingdon",
+      "lat": 51.553715,
+      "lon": -0.449828,
+      "lines": [
+        "metropolitan",
+        "piccadilly"
+      ],
+      "population": 1490
+    },
+    {
+      "naptanId": "940GZZLUHOH",
+      "name": "Harrow-on-the-Hill",
+      "lat": 51.579195,
+      "lon": -0.337225,
+      "lines": [
+        "metropolitan"
+      ],
+      "population": 8786
+    },
+    {
+      "naptanId": "940GZZLUICK",
+      "name": "Ickenham",
+      "lat": 51.561992,
+      "lon": -0.442001,
+      "lines": [
+        "metropolitan",
+        "piccadilly"
+      ],
+      "population": 2920
+    },
+    {
+      "naptanId": "940GZZLUMPK",
+      "name": "Moor Park",
+      "lat": 51.629845,
+      "lon": -0.432454,
+      "lines": [
+        "metropolitan"
+      ],
+      "population": 351
+    },
+    {
+      "naptanId": "940GZZLUNHA",
+      "name": "North Harrow",
+      "lat": 51.584872,
+      "lon": -0.362408,
+      "lines": [
+        "metropolitan"
+      ],
+      "population": 4936
+    },
+    {
+      "naptanId": "940GZZLUNKP",
+      "name": "Northwick Park",
+      "lat": 51.578481,
+      "lon": -0.318056,
+      "lines": [
+        "metropolitan"
+      ],
+      "population": 3566
+    },
+    {
+      "naptanId": "940GZZLUNOW",
+      "name": "Northwood",
+      "lat": 51.611053,
+      "lon": -0.423829,
+      "lines": [
+        "metropolitan"
+      ],
+      "population": 3051
+    },
+    {
+      "naptanId": "940GZZLUNWH",
+      "name": "Northwood Hills",
+      "lat": 51.600572,
+      "lon": -0.409464,
+      "lines": [
+        "metropolitan"
+      ],
+      "population": 4073
+    },
+    {
+      "naptanId": "940GZZLUPNR",
+      "name": "Pinner",
+      "lat": 51.592901,
+      "lon": -0.381161,
+      "lines": [
+        "metropolitan"
+      ],
+      "population": 2131
+    },
+    {
+      "naptanId": "940GZZLUPRD",
+      "name": "Preston Road",
+      "lat": 51.571972,
+      "lon": -0.295107,
+      "lines": [
+        "metropolitan"
+      ],
+      "population": 4375
+    },
+    {
+      "naptanId": "940GZZLURKW",
+      "name": "Rickmansworth",
+      "lat": 51.640207,
+      "lon": -0.473703,
+      "lines": [
+        "metropolitan"
+      ],
+      "population": 1547
+    },
+    {
+      "naptanId": "940GZZLURSM",
+      "name": "Ruislip Manor",
+      "lat": 51.573202,
+      "lon": -0.412973,
+      "lines": [
+        "metropolitan",
+        "piccadilly"
+      ],
+      "population": 3683
+    },
+    {
+      "naptanId": "940GZZLURSP",
+      "name": "Ruislip",
+      "lat": 51.571354,
+      "lon": -0.421898,
+      "lines": [
+        "metropolitan",
+        "piccadilly"
+      ],
+      "population": 4129
+    },
+    {
+      "naptanId": "940GZZLURYL",
+      "name": "Rayners Lane",
+      "lat": 51.575147,
+      "lon": -0.371127,
+      "lines": [
+        "metropolitan",
+        "piccadilly"
+      ],
+      "population": 4233
+    },
+    {
+      "naptanId": "940GZZLUUXB",
+      "name": "Uxbridge",
+      "lat": 51.546565,
+      "lon": -0.477949,
+      "lines": [
+        "metropolitan",
+        "piccadilly"
+      ],
+      "population": 4328
+    },
+    {
+      "naptanId": "940GZZLUWAF",
+      "name": "Watford",
+      "lat": 51.657446,
+      "lon": -0.417377,
+      "lines": [
+        "metropolitan"
+      ],
+      "population": 2229
+    },
+    {
+      "naptanId": "940GZZLUWHW",
+      "name": "West Harrow",
+      "lat": 51.57971,
+      "lon": -0.3534,
+      "lines": [
+        "metropolitan"
+      ],
+      "population": 7249
+    },
+    {
+      "naptanId": "940GZZBPSUST",
+      "name": "Battersea Power Station",
+      "lat": 51.479932,
+      "lon": -0.142142,
+      "lines": [
+        "northern"
+      ],
+      "population": 7060
+    },
+    {
+      "naptanId": "940GZZLUACY",
+      "name": "Archway",
+      "lat": 51.565478,
+      "lon": -0.134819,
+      "lines": [
+        "northern"
+      ],
+      "population": 10985
+    },
+    {
+      "naptanId": "940GZZLUAGL",
+      "name": "Angel",
+      "lat": 51.532624,
+      "lon": -0.105898,
+      "lines": [
+        "northern"
+      ],
+      "population": 10172
+    },
+    {
+      "naptanId": "940GZZLUBLM",
+      "name": "Balham",
+      "lat": 51.443288,
+      "lon": -0.152997,
+      "lines": [
+        "northern"
+      ],
+      "population": 11197
+    },
+    {
+      "naptanId": "940GZZLUBOR",
+      "name": "Borough",
+      "lat": 51.501199,
+      "lon": -0.09337,
+      "lines": [
+        "northern"
+      ],
+      "population": 8593
+    },
+    {
+      "naptanId": "940GZZLUBTK",
+      "name": "Burnt Oak",
+      "lat": 51.602774,
+      "lon": -0.264048,
+      "lines": [
+        "northern"
+      ],
+      "population": 7181
+    },
+    {
+      "naptanId": "940GZZLUBTX",
+      "name": "Brent Cross",
+      "lat": 51.57665,
+      "lon": -0.213622,
+      "lines": [
+        "northern"
+      ],
+      "population": 7632
+    },
+    {
+      "naptanId": "940GZZLUBZP",
+      "name": "Belsize Park",
+      "lat": 51.550311,
+      "lon": -0.164648,
+      "lines": [
+        "northern"
+      ],
+      "population": 9233
+    },
+    {
+      "naptanId": "940GZZLUCFM",
+      "name": "Chalk Farm",
+      "lat": 51.544118,
+      "lon": -0.153388,
+      "lines": [
+        "northern"
+      ],
+      "population": 11696
+    },
+    {
+      "naptanId": "940GZZLUCND",
+      "name": "Colindale",
+      "lat": 51.595424,
+      "lon": -0.249919,
+      "lines": [
+        "northern"
+      ],
+      "population": 11003
+    },
+    {
+      "naptanId": "940GZZLUCPC",
+      "name": "Clapham Common",
+      "lat": 51.461742,
+      "lon": -0.138317,
+      "lines": [
+        "northern"
+      ],
+      "population": 9441
+    },
+    {
+      "naptanId": "940GZZLUCPN",
+      "name": "Clapham North",
+      "lat": 51.465135,
+      "lon": -0.130016,
+      "lines": [
+        "northern"
+      ],
+      "population": 12508
+    },
+    {
+      "naptanId": "940GZZLUCPS",
+      "name": "Clapham South",
+      "lat": 51.452654,
+      "lon": -0.147582,
+      "lines": [
+        "northern"
+      ],
+      "population": 6317
+    },
+    {
+      "naptanId": "940GZZLUCSD",
+      "name": "Colliers Wood",
+      "lat": 51.41816,
+      "lon": -0.178086,
+      "lines": [
+        "northern"
+      ],
+      "population": 8386
+    },
+    {
+      "naptanId": "940GZZLUCTN",
+      "name": "Camden Town",
+      "lat": 51.539292,
+      "lon": -0.14274,
+      "lines": [
+        "northern"
+      ],
+      "population": 10098
+    },
+    {
+      "naptanId": "940GZZLUEFY",
+      "name": "East Finchley",
+      "lat": 51.587131,
+      "lon": -0.165012,
+      "lines": [
+        "northern"
+      ],
+      "population": 6759
+    },
+    {
+      "naptanId": "940GZZLUEGW",
+      "name": "Edgware",
+      "lat": 51.613653,
+      "lon": -0.274928,
+      "lines": [
+        "northern"
+      ],
+      "population": 5120
+    },
+    {
+      "naptanId": "940GZZLUEUS",
+      "name": "Euston",
+      "lat": 51.527824,
+      "lon": -0.131846,
+      "lines": [
+        "northern",
+        "victoria"
+      ],
+      "population": 7067
+    },
+    {
+      "naptanId": "940GZZLUFYC",
+      "name": "Finchley Central",
+      "lat": 51.600921,
+      "lon": -0.192527,
+      "lines": [
+        "northern"
+      ],
+      "population": 7714
+    },
+    {
+      "naptanId": "940GZZLUGDG",
+      "name": "Goodge Street",
+      "lat": 51.520599,
+      "lon": -0.134361,
+      "lines": [
+        "northern"
+      ],
+      "population": 5514
+    },
+    {
+      "naptanId": "940GZZLUGGN",
+      "name": "Golders Green",
+      "lat": 51.572259,
+      "lon": -0.194039,
+      "lines": [
+        "northern"
+      ],
+      "population": 5019
+    },
+    {
+      "naptanId": "940GZZLUHBT",
+      "name": "High Barnet",
+      "lat": 51.650541,
+      "lon": -0.194298,
+      "lines": [
+        "northern"
+      ],
+      "population": 3044
+    },
+    {
+      "naptanId": "940GZZLUHCL",
+      "name": "Hendon Central",
+      "lat": 51.583301,
+      "lon": -0.226424,
+      "lines": [
+        "northern"
+      ],
+      "population": 5694
+    },
+    {
+      "naptanId": "940GZZLUHGT",
+      "name": "Highgate",
+      "lat": 51.577532,
+      "lon": -0.145857,
+      "lines": [
+        "northern"
+      ],
+      "population": 3930
+    },
+    {
+      "naptanId": "940GZZLUHTD",
+      "name": "Hampstead",
+      "lat": 51.556239,
+      "lon": -0.177464,
+      "lines": [
+        "northern"
+      ],
+      "population": 5959
+    },
+    {
+      "naptanId": "940GZZLUKNG",
+      "name": "Kennington",
+      "lat": 51.488337,
+      "lon": -0.105963,
+      "lines": [
+        "northern"
+      ],
+      "population": 14002
+    },
+    {
+      "naptanId": "940GZZLUKSH",
+      "name": "Kentish Town",
+      "lat": 51.550312,
+      "lon": -0.140733,
+      "lines": [
+        "northern"
+      ],
+      "population": 9565
+    },
+    {
+      "naptanId": "940GZZLULSQ",
+      "name": "Leicester Square",
+      "lat": 51.511386,
+      "lon": -0.128426,
+      "lines": [
+        "northern",
+        "piccadilly"
+      ],
+      "population": 5972
+    },
+    {
+      "naptanId": "940GZZLUMDN",
+      "name": "Morden",
+      "lat": 51.402142,
+      "lon": -0.194839,
+      "lines": [
+        "northern"
+      ],
+      "population": 3595
+    },
+    {
+      "naptanId": "940GZZLUMHL",
+      "name": "Mill Hill East",
+      "lat": 51.608229,
+      "lon": -0.209986,
+      "lines": [
+        "northern"
+      ],
+      "population": 4299
+    },
+    {
+      "naptanId": "940GZZLUMTC",
+      "name": "Mornington Crescent",
+      "lat": 51.534679,
+      "lon": -0.138789,
+      "lines": [
+        "northern"
+      ],
+      "population": 12496
+    },
+    {
+      "naptanId": "940GZZLUODS",
+      "name": "Old Street",
+      "lat": 51.525864,
+      "lon": -0.08777,
+      "lines": [
+        "northern"
+      ],
+      "population": 15034
+    },
+    {
+      "naptanId": "940GZZLUOVL",
+      "name": "Oval",
+      "lat": 51.48185,
+      "lon": -0.112439,
+      "lines": [
+        "northern"
+      ],
+      "population": 8199
+    },
+    {
+      "naptanId": "940GZZLUSKW",
+      "name": "Stockwell",
+      "lat": 51.472184,
+      "lon": -0.122644,
+      "lines": [
+        "northern",
+        "victoria"
+      ],
+      "population": 12817
+    },
+    {
+      "naptanId": "940GZZLUSWN",
+      "name": "South Wimbledon",
+      "lat": 51.415309,
+      "lon": -0.192005,
+      "lines": [
+        "northern"
+      ],
+      "population": 8921
+    },
+    {
+      "naptanId": "940GZZLUTAW",
+      "name": "Totteridge & Whetstone",
+      "lat": 51.630597,
+      "lon": -0.17921,
+      "lines": [
+        "northern"
+      ],
+      "population": 2906
+    },
+    {
+      "naptanId": "940GZZLUTBC",
+      "name": "Tooting Bec",
+      "lat": 51.435678,
+      "lon": -0.159736,
+      "lines": [
+        "northern"
+      ],
+      "population": 11195
+    },
+    {
+      "naptanId": "940GZZLUTBY",
+      "name": "Tooting Broadway",
+      "lat": 51.42763,
+      "lon": -0.168374,
+      "lines": [
+        "northern"
+      ],
+      "population": 10311
+    },
+    {
+      "naptanId": "940GZZLUTFP",
+      "name": "Tufnell Park",
+      "lat": 51.556822,
+      "lon": -0.138433,
+      "lines": [
+        "northern"
+      ],
+      "population": 9664
+    },
+    {
+      "naptanId": "940GZZLUWFN",
+      "name": "West Finchley",
+      "lat": 51.609426,
+      "lon": -0.188362,
+      "lines": [
+        "northern"
+      ],
+      "population": 5667
+    },
+    {
+      "naptanId": "940GZZLUWOP",
+      "name": "Woodside Park",
+      "lat": 51.618014,
+      "lon": -0.18542,
+      "lines": [
+        "northern"
+      ],
+      "population": 4347
+    },
+    {
+      "naptanId": "940GZZLUWRR",
+      "name": "Warren Street",
+      "lat": 51.524951,
+      "lon": -0.138321,
+      "lines": [
+        "northern",
+        "victoria"
+      ],
+      "population": 8810
+    },
+    {
+      "naptanId": "940GZZNEUGST",
+      "name": "Nine Elms",
+      "lat": 51.479912,
+      "lon": -0.128476,
+      "lines": [
+        "northern"
+      ],
+      "population": 10123
+    },
+    {
+      "naptanId": "940GZZLUALP",
+      "name": "Alperton",
+      "lat": 51.540627,
+      "lon": -0.29961,
+      "lines": [
+        "piccadilly"
+      ],
+      "population": 10384
+    },
+    {
+      "naptanId": "940GZZLUASG",
+      "name": "Arnos Grove",
+      "lat": 51.616446,
+      "lon": -0.133062,
+      "lines": [
+        "piccadilly"
+      ],
+      "population": 3822
+    },
+    {
+      "naptanId": "940GZZLUASL",
+      "name": "Arsenal",
+      "lat": 51.558655,
+      "lon": -0.107457,
+      "lines": [
+        "piccadilly"
+      ],
+      "population": 11924
+    },
+    {
+      "naptanId": "940GZZLUBDS",
+      "name": "Bounds Green",
+      "lat": 51.607034,
+      "lon": -0.124235,
+      "lines": [
+        "piccadilly"
+      ],
+      "population": 8108
+    },
+    {
+      "naptanId": "940GZZLUBOS",
+      "name": "Boston Manor",
+      "lat": 51.495635,
+      "lon": -0.324939,
+      "lines": [
+        "piccadilly"
+      ],
+      "population": 3925
+    },
+    {
+      "naptanId": "940GZZLUCAR",
+      "name": "Caledonian Road",
+      "lat": 51.548519,
+      "lon": -0.118493,
+      "lines": [
+        "piccadilly"
+      ],
+      "population": 13399
+    },
+    {
+      "naptanId": "940GZZLUCGN",
+      "name": "Covent Garden",
+      "lat": 51.513093,
+      "lon": -0.124436,
+      "lines": [
+        "piccadilly"
+      ],
+      "population": 5955
+    },
+    {
+      "naptanId": "940GZZLUCKS",
+      "name": "Cockfosters",
+      "lat": 51.65152,
+      "lon": -0.149171,
+      "lines": [
+        "piccadilly"
+      ],
+      "population": 1099
+    },
+    {
+      "naptanId": "940GZZLUFPK",
+      "name": "Finsbury Park",
+      "lat": 51.564158,
+      "lon": -0.106825,
+      "lines": [
+        "piccadilly",
+        "victoria"
+      ],
+      "population": 11043
+    },
+    {
+      "naptanId": "940GZZLUHNX",
+      "name": "Hatton Cross",
+      "lat": 51.466747,
+      "lon": -0.423191,
+      "lines": [
+        "piccadilly"
+      ],
+      "population": 0
+    },
+    {
+      "naptanId": "940GZZLUHPC",
+      "name": "Hyde Park Corner",
+      "lat": 51.503035,
+      "lon": -0.152441,
+      "lines": [
+        "piccadilly"
+      ],
+      "population": 1243
+    },
+    {
+      "naptanId": "940GZZLUHR4",
+      "name": "Heathrow Terminal 4",
+      "lat": 51.458524,
+      "lon": -0.445771,
+      "lines": [
+        "piccadilly"
+      ],
+      "population": 0
+    },
+    {
+      "naptanId": "940GZZLUHR5",
+      "name": "Heathrow Terminal 5",
+      "lat": 51.470052,
+      "lon": -0.49056,
+      "lines": [
+        "piccadilly"
+      ],
+      "population": 0
+    },
+    {
+      "naptanId": "940GZZLUHRC",
+      "name": "Heathrow Terminals 2 & 3",
+      "lat": 51.471235,
+      "lon": -0.452265,
+      "lines": [
+        "piccadilly"
+      ],
+      "population": 0
+    },
+    {
+      "naptanId": "940GZZLUHWC",
+      "name": "Hounslow Central",
+      "lat": 51.471295,
+      "lon": -0.366578,
+      "lines": [
+        "piccadilly"
+      ],
+      "population": 6973
+    },
+    {
+      "naptanId": "940GZZLUHWE",
+      "name": "Hounslow East",
+      "lat": 51.473213,
+      "lon": -0.356474,
+      "lines": [
+        "piccadilly"
+      ],
+      "population": 8990
+    },
+    {
+      "naptanId": "940GZZLUHWT",
+      "name": "Hounslow West",
+      "lat": 51.473469,
+      "lon": -0.386544,
+      "lines": [
+        "piccadilly"
+      ],
+      "population": 8891
+    },
+    {
+      "naptanId": "940GZZLUHWY",
+      "name": "Holloway Road",
+      "lat": 51.552697,
+      "lon": -0.113244,
+      "lines": [
+        "piccadilly"
+      ],
+      "population": 11607
+    },
+    {
+      "naptanId": "940GZZLUKNB",
+      "name": "Knightsbridge",
+      "lat": 51.501669,
+      "lon": -0.160508,
+      "lines": [
+        "piccadilly"
+      ],
+      "population": 2045
+    },
+    {
+      "naptanId": "940GZZLUMRH",
+      "name": "Manor House",
+      "lat": 51.570738,
+      "lon": -0.096118,
+      "lines": [
+        "piccadilly"
+      ],
+      "population": 9404
+    },
+    {
+      "naptanId": "940GZZLUNEN",
+      "name": "North Ealing",
+      "lat": 51.517505,
+      "lon": -0.288868,
+      "lines": [
+        "piccadilly"
+      ],
+      "population": 3085
+    },
+    {
+      "naptanId": "940GZZLUNFD",
+      "name": "Northfields",
+      "lat": 51.499319,
+      "lon": -0.314719,
+      "lines": [
+        "piccadilly"
+      ],
+      "population": 7280
+    },
+    {
+      "naptanId": "940GZZLUOAK",
+      "name": "Oakwood",
+      "lat": 51.647726,
+      "lon": -0.132182,
+      "lines": [
+        "piccadilly"
+      ],
+      "population": 1661
+    },
+    {
+      "naptanId": "940GZZLUOSY",
+      "name": "Osterley",
+      "lat": 51.481274,
+      "lon": -0.352224,
+      "lines": [
+        "piccadilly"
+      ],
+      "population": 2011
+    },
+    {
+      "naptanId": "940GZZLUPKR",
+      "name": "Park Royal",
+      "lat": 51.527123,
+      "lon": -0.284341,
+      "lines": [
+        "piccadilly"
+      ],
+      "population": 3815
+    },
+    {
+      "naptanId": "940GZZLURSQ",
+      "name": "Russell Square",
+      "lat": 51.523073,
+      "lon": -0.124285,
+      "lines": [
+        "piccadilly"
+      ],
+      "population": 10236
+    },
+    {
+      "naptanId": "940GZZLUSEA",
+      "name": "South Ealing",
+      "lat": 51.501003,
+      "lon": -0.307424,
+      "lines": [
+        "piccadilly"
+      ],
+      "population": 6019
+    },
+    {
+      "naptanId": "940GZZLUSGT",
+      "name": "Southgate",
+      "lat": 51.632315,
+      "lon": -0.127816,
+      "lines": [
+        "piccadilly"
+      ],
+      "population": 5810
+    },
+    {
+      "naptanId": "940GZZLUSHH",
+      "name": "South Harrow",
+      "lat": 51.564888,
+      "lon": -0.352492,
+      "lines": [
+        "piccadilly"
+      ],
+      "population": 8529
+    },
+    {
+      "naptanId": "940GZZLUSUH",
+      "name": "Sudbury Hill",
+      "lat": 51.556946,
+      "lon": -0.336435,
+      "lines": [
+        "piccadilly"
+      ],
+      "population": 5250
+    },
+    {
+      "naptanId": "940GZZLUSUT",
+      "name": "Sudbury Town",
+      "lat": 51.550815,
+      "lon": -0.315745,
+      "lines": [
+        "piccadilly"
+      ],
+      "population": 7511
+    },
+    {
+      "naptanId": "940GZZLUTPN",
+      "name": "Turnpike Lane",
+      "lat": 51.590272,
+      "lon": -0.102953,
+      "lines": [
+        "piccadilly"
+      ],
+      "population": 10719
+    },
+    {
+      "naptanId": "940GZZLUWOG",
+      "name": "Wood Green",
+      "lat": 51.597479,
+      "lon": -0.109886,
+      "lines": [
+        "piccadilly"
+      ],
+      "population": 9177
+    },
+    {
+      "naptanId": "940GZZLUBLR",
+      "name": "Blackhorse Road",
+      "lat": 51.586919,
+      "lon": -0.04115,
+      "lines": [
+        "victoria"
+      ],
+      "population": 7600
+    },
+    {
+      "naptanId": "940GZZLUBXN",
+      "name": "Brixton",
+      "lat": 51.462618,
+      "lon": -0.114888,
+      "lines": [
+        "victoria"
+      ],
+      "population": 11215
+    },
+    {
+      "naptanId": "940GZZLUHAI",
+      "name": "Highbury & Islington",
+      "lat": 51.54635,
+      "lon": -0.103324,
+      "lines": [
+        "victoria"
+      ],
+      "population": 8340
+    },
+    {
+      "naptanId": "940GZZLUPCO",
+      "name": "Pimlico",
+      "lat": 51.489097,
+      "lon": -0.133761,
+      "lines": [
+        "victoria"
+      ],
+      "population": 15326
+    },
+    {
+      "naptanId": "940GZZLUSVS",
+      "name": "Seven Sisters",
+      "lat": 51.58333,
+      "lon": -0.072584,
+      "lines": [
+        "victoria"
+      ],
+      "population": 9347
+    },
+    {
+      "naptanId": "940GZZLUTMH",
+      "name": "Tottenham Hale",
+      "lat": 51.588108,
+      "lon": -0.060241,
+      "lines": [
+        "victoria"
+      ],
+      "population": 8016
+    },
+    {
+      "naptanId": "940GZZLUVXL",
+      "name": "Vauxhall",
+      "lat": 51.485743,
+      "lon": -0.124204,
+      "lines": [
+        "victoria"
+      ],
+      "population": 5948
+    },
+    {
+      "naptanId": "940GZZLUWWL",
+      "name": "Walthamstow Central",
+      "lat": 51.582965,
+      "lon": -0.019885,
+      "lines": [
+        "victoria"
+      ],
+      "population": 11008
+    },
+    {
+      "naptanId": "910GACTNCTL",
+      "name": "Acton Central",
+      "lat": 51.508716,
+      "lon": -0.262971,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 7298
+    },
+    {
+      "naptanId": "910GANERLEY",
+      "name": "Anerley",
+      "lat": 51.412153,
+      "lon": -0.065886,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 7818
+    },
+    {
+      "naptanId": "910GBARKING",
+      "name": "Barking",
+      "lat": 51.539495,
+      "lon": 0.080903,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 8954
+    },
+    {
+      "naptanId": "910GBARKRIV",
+      "name": "Barking Riverside",
+      "lat": 51.51953,
+      "lon": 0.11596,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 2312
+    },
+    {
+      "naptanId": "910GBHILLPK",
+      "name": "Bush Hill Park",
+      "lat": 51.641519,
+      "lon": -0.069221,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 6222
+    },
+    {
+      "naptanId": "910GBLCHSRD",
+      "name": "Blackhorse Road",
+      "lat": 51.586605,
+      "lon": -0.041236,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 7600
+    },
+    {
+      "naptanId": "910GBRBY",
+      "name": "Brondesbury",
+      "lat": 51.545166,
+      "lon": -0.202309,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 11317
+    },
+    {
+      "naptanId": "910GBRBYPK",
+      "name": "Brondesbury Park",
+      "lat": 51.540699,
+      "lon": -0.210128,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 6883
+    },
+    {
+      "naptanId": "910GBROCKLY",
+      "name": "Brockley",
+      "lat": 51.464649,
+      "lon": -0.037537,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 8694
+    },
+    {
+      "naptanId": "910GBRUCGRV",
+      "name": "Bruce Grove",
+      "lat": 51.593959,
+      "lon": -0.069867,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 11924
+    },
+    {
+      "naptanId": "910GBTHNLGR",
+      "name": "Bethnal Green",
+      "lat": 51.523917,
+      "lon": -0.059568,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 12413
+    },
+    {
+      "naptanId": "910GBUSHEY",
+      "name": "Bushey",
+      "lat": 51.645582,
+      "lon": -0.384749,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 2959
+    },
+    {
+      "naptanId": "910GBUSHYDC",
+      "name": "Bushey",
+      "lat": 51.645894,
+      "lon": -0.385229,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 2796
+    },
+    {
+      "naptanId": "910GCAMHTH",
+      "name": "Cambridge Heath (London)",
+      "lat": 51.531973,
+      "lon": -0.057279,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 12981
+    },
+    {
+      "naptanId": "910GCHESHNT",
+      "name": "Cheshunt",
+      "lat": 51.702876,
+      "lon": -0.02396,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 1678
+    },
+    {
+      "naptanId": "910GCHINGFD",
+      "name": "Chingford",
+      "lat": 51.633087,
+      "lon": 0.009897,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 2175
+    },
+    {
+      "naptanId": "910GCLAPTON",
+      "name": "Clapton",
+      "lat": 51.561644,
+      "lon": -0.057025,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 15248
+    },
+    {
+      "naptanId": "910GCLDNNRB",
+      "name": "Caledonian Road & Barnsbury",
+      "lat": 51.543041,
+      "lon": -0.116729,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 12139
+    },
+    {
+      "naptanId": "910GCLPHHS",
+      "name": "Clapham High Street",
+      "lat": 51.465481,
+      "lon": -0.132522,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 12835
+    },
+    {
+      "naptanId": "910GCLPHMJ1",
+      "name": "Clapham Junction",
+      "lat": 51.464187,
+      "lon": -0.170221,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 10281
+    },
+    {
+      "naptanId": "910GCLPHMJC",
+      "name": "Clapham Junction",
+      "lat": 51.464188,
+      "lon": -0.170293,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 10281
+    },
+    {
+      "naptanId": "910GCMDNRD",
+      "name": "Camden Road",
+      "lat": 51.541791,
+      "lon": -0.138701,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 10215
+    },
+    {
+      "naptanId": "910GCNDAW",
+      "name": "Canada Water",
+      "lat": 51.49799,
+      "lon": -0.04972,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 8896
+    },
+    {
+      "naptanId": "910GCNNB",
+      "name": "Canonbury",
+      "lat": 51.548732,
+      "lon": -0.092191,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 11167
+    },
+    {
+      "naptanId": "910GCROUCHH",
+      "name": "Crouch Hill",
+      "lat": 51.571302,
+      "lon": -0.117149,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 9861
+    },
+    {
+      "naptanId": "910GCRPNDPK",
+      "name": "Carpenders Park",
+      "lat": 51.628351,
+      "lon": -0.385939,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 2853
+    },
+    {
+      "naptanId": "910GCRYSTLP",
+      "name": "Crystal Palace",
+      "lat": 51.418109,
+      "lon": -0.07261,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 3064
+    },
+    {
+      "naptanId": "910GCSEAH",
+      "name": "Imperial Wharf",
+      "lat": 51.474949,
+      "lon": -0.182823,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 7627
+    },
+    {
+      "naptanId": "910GDALS",
+      "name": "Dalston Junction",
+      "lat": 51.546116,
+      "lon": -0.075137,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 13595
+    },
+    {
+      "naptanId": "910GDALSKLD",
+      "name": "Dalston Kingsland",
+      "lat": 51.548148,
+      "lon": -0.075701,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 14220
+    },
+    {
+      "naptanId": "910GDENMRKH",
+      "name": "Denmark Hill",
+      "lat": 51.468203,
+      "lon": -0.089361,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 7796
+    },
+    {
+      "naptanId": "910GEDMNGRN",
+      "name": "Edmonton Green",
+      "lat": 51.624929,
+      "lon": -0.061112,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 9869
+    },
+    {
+      "naptanId": "910GEMRSPKH",
+      "name": "Emerson Park",
+      "lat": 51.568642,
+      "lon": 0.220113,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 2928
+    },
+    {
+      "naptanId": "910GENFLDTN",
+      "name": "Enfield Town",
+      "lat": 51.652026,
+      "lon": -0.079328,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 4757
+    },
+    {
+      "naptanId": "910GEUSTON",
+      "name": "London Euston",
+      "lat": 51.528136,
+      "lon": -0.133924,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 9456
+    },
+    {
+      "naptanId": "910GFNCHLYR",
+      "name": "Finchley Road & Frognal",
+      "lat": 51.550266,
+      "lon": -0.183141,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 6891
+    },
+    {
+      "naptanId": "910GFORESTH",
+      "name": "Forest Hill",
+      "lat": 51.43928,
+      "lon": -0.053157,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 7680
+    },
+    {
+      "naptanId": "910GGNRSBRY",
+      "name": "Gunnersbury",
+      "lat": 51.491678,
+      "lon": -0.275286,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 4351
+    },
+    {
+      "naptanId": "910GGOSPLOK",
+      "name": "Gospel Oak",
+      "lat": 51.555335,
+      "lon": -0.15077,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 6346
+    },
+    {
+      "naptanId": "910GHACKNYC",
+      "name": "Hackney Central",
+      "lat": 51.547105,
+      "lon": -0.056058,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 12010
+    },
+    {
+      "naptanId": "910GHACKNYW",
+      "name": "Hackney Wick",
+      "lat": 51.54341,
+      "lon": -0.02492,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 3454
+    },
+    {
+      "naptanId": "910GHAGGERS",
+      "name": "Haggerston",
+      "lat": 51.538705,
+      "lon": -0.075666,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 12597
+    },
+    {
+      "naptanId": "910GHAKNYNM",
+      "name": "Hackney Downs",
+      "lat": 51.548757,
+      "lon": -0.060819,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 11516
+    },
+    {
+      "naptanId": "910GHARLSDN",
+      "name": "Harlesden",
+      "lat": 51.536289,
+      "lon": -0.257667,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 8006
+    },
+    {
+      "naptanId": "910GHEDSTNL",
+      "name": "Headstone Lane",
+      "lat": 51.602649,
+      "lon": -0.35722,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 3002
+    },
+    {
+      "naptanId": "910GHGHI",
+      "name": "Highbury & Islington",
+      "lat": 51.546177,
+      "lon": -0.103764,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 9227
+    },
+    {
+      "naptanId": "910GHGHMSPK",
+      "name": "Highams Park",
+      "lat": 51.60835,
+      "lon": -0.000222,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 5427
+    },
+    {
+      "naptanId": "910GHMPSTDH",
+      "name": "Hampstead Heath",
+      "lat": 51.55521,
+      "lon": -0.165705,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 4905
+    },
+    {
+      "naptanId": "910GHOMRTON",
+      "name": "Homerton",
+      "lat": 51.547012,
+      "lon": -0.04236,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 12435
+    },
+    {
+      "naptanId": "910GHONROPK",
+      "name": "Honor Oak Park",
+      "lat": 51.449989,
+      "lon": -0.045505,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 4387
+    },
+    {
+      "naptanId": "910GHOXTON",
+      "name": "Hoxton",
+      "lat": 51.531512,
+      "lon": -0.075681,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 15112
+    },
+    {
+      "naptanId": "910GHRGYGL",
+      "name": "Harringay Green Lanes",
+      "lat": 51.577182,
+      "lon": -0.098144,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 10528
+    },
+    {
+      "naptanId": "910GHROW",
+      "name": "Harrow & Wealdstone",
+      "lat": 51.592169,
+      "lon": -0.334571,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 9459
+    },
+    {
+      "naptanId": "910GHTCHEND",
+      "name": "Hatch End",
+      "lat": 51.609417,
+      "lon": -0.368601,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 4024
+    },
+    {
+      "naptanId": "910GKENOLYM",
+      "name": "Kensington (Olympia)",
+      "lat": 51.497899,
+      "lon": -0.210364,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 9692
+    },
+    {
+      "naptanId": "910GKENR",
+      "name": "Kensal Rise",
+      "lat": 51.534554,
+      "lon": -0.219957,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 7054
+    },
+    {
+      "naptanId": "910GKENSLG",
+      "name": "Kensal Green",
+      "lat": 51.53054,
+      "lon": -0.225088,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 9516
+    },
+    {
+      "naptanId": "910GKEWGRDN",
+      "name": "Kew Gardens",
+      "lat": 51.477073,
+      "lon": -0.285054,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 5191
+    },
+    {
+      "naptanId": "910GKLBRNHR",
+      "name": "Kilburn High Road",
+      "lat": 51.537277,
+      "lon": -0.192237,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 14238
+    },
+    {
+      "naptanId": "910GKNTSHTW",
+      "name": "Kentish Town West",
+      "lat": 51.546548,
+      "lon": -0.146655,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 11303
+    },
+    {
+      "naptanId": "910GKTON",
+      "name": "Kenton",
+      "lat": 51.581802,
+      "lon": -0.316981,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 4171
+    },
+    {
+      "naptanId": "910GLEYTNMR",
+      "name": "Leyton Midland Road",
+      "lat": 51.569725,
+      "lon": -0.008051,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 12067
+    },
+    {
+      "naptanId": "910GLIVST",
+      "name": "London Liverpool Street",
+      "lat": 51.517991,
+      "lon": -0.081426,
+      "lines": [
+        "elizabeth",
+        "london-overground"
+      ],
+      "population": 3787
+    },
+    {
+      "naptanId": "910GLNDNBDC",
+      "name": "London Bridge",
+      "lat": 51.505019,
+      "lon": -0.086092,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 1293
+    },
+    {
+      "naptanId": "910GLONFLDS",
+      "name": "London Fields",
+      "lat": 51.541153,
+      "lon": -0.057753,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 11072
+    },
+    {
+      "naptanId": "910GLYTNSHR",
+      "name": "Leytonstone High Road",
+      "lat": 51.563554,
+      "lon": 0.008416,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 8986
+    },
+    {
+      "naptanId": "910GNEWXGTE",
+      "name": "New Cross Gate",
+      "lat": 51.475128,
+      "lon": -0.040399,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 9011
+    },
+    {
+      "naptanId": "910GNORWDJ",
+      "name": "Norwood Junction",
+      "lat": 51.397019,
+      "lon": -0.075221,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 8410
+    },
+    {
+      "naptanId": "910GNWCRELL",
+      "name": "New Cross ELL",
+      "lat": 51.476344,
+      "lon": -0.032441,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 10150
+    },
+    {
+      "naptanId": "910GNWEMBLY",
+      "name": "North Wembley",
+      "lat": 51.562596,
+      "lon": -0.303984,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 6211
+    },
+    {
+      "naptanId": "910GPCKHMQD",
+      "name": "Queens Road Peckham",
+      "lat": 51.473566,
+      "lon": -0.057313,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 11481
+    },
+    {
+      "naptanId": "910GPCKHMRY",
+      "name": "Peckham Rye",
+      "lat": 51.470034,
+      "lon": -0.069414,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 8565
+    },
+    {
+      "naptanId": "910GPENEW",
+      "name": "Penge West",
+      "lat": 51.417555,
+      "lon": -0.06084,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 4600
+    },
+    {
+      "naptanId": "910GQPRK",
+      "name": "Queens Park (London)",
+      "lat": 51.533966,
+      "lon": -0.204985,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 9560
+    },
+    {
+      "naptanId": "910GRCTRYRD",
+      "name": "Rectory Road",
+      "lat": 51.558502,
+      "lon": -0.068267,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 14014
+    },
+    {
+      "naptanId": "910GRICHMND",
+      "name": "Richmond (London)",
+      "lat": 51.463061,
+      "lon": -0.301558,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 4298
+    },
+    {
+      "naptanId": "910GROMFORD",
+      "name": "Romford",
+      "lat": 51.574829,
+      "lon": 0.183237,
+      "lines": [
+        "elizabeth",
+        "london-overground"
+      ],
+      "population": 4279
+    },
+    {
+      "naptanId": "910GRTHERHI",
+      "name": "Rotherhithe",
+      "lat": 51.500817,
+      "lon": -0.052048,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 8656
+    },
+    {
+      "naptanId": "910GSACTON",
+      "name": "South Acton",
+      "lat": 51.499695,
+      "lon": -0.270157,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 11444
+    },
+    {
+      "naptanId": "910GSBURY",
+      "name": "Southbury",
+      "lat": 51.648705,
+      "lon": -0.052437,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 3660
+    },
+    {
+      "naptanId": "910GSEVNSIS",
+      "name": "Seven Sisters",
+      "lat": 51.582268,
+      "lon": -0.07527,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 10277
+    },
+    {
+      "naptanId": "910GSHADWEL",
+      "name": "Shadwell",
+      "lat": 51.511284,
+      "lon": -0.056934,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 15703
+    },
+    {
+      "naptanId": "910GSHMPSTD",
+      "name": "South Hampstead",
+      "lat": 51.541432,
+      "lon": -0.178878,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 10427
+    },
+    {
+      "naptanId": "910GSHPDSB",
+      "name": "Shepherds Bush",
+      "lat": 51.505285,
+      "lon": -0.217654,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 9336
+    },
+    {
+      "naptanId": "910GSHRDHST",
+      "name": "Shoreditch High Street",
+      "lat": 51.523375,
+      "lon": -0.075246,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 11375
+    },
+    {
+      "naptanId": "910GSIVRST",
+      "name": "Silver Street",
+      "lat": 51.614688,
+      "lon": -0.06724,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 6945
+    },
+    {
+      "naptanId": "910GSKENTON",
+      "name": "South Kenton",
+      "lat": 51.570214,
+      "lon": -0.308462,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 3928
+    },
+    {
+      "naptanId": "910GSTFD",
+      "name": "Stratford (London)",
+      "lat": 51.541895,
+      "lon": -0.003397,
+      "lines": [
+        "elizabeth",
+        "london-overground"
+      ],
+      "population": 8732
+    },
+    {
+      "naptanId": "910GSTJMSST",
+      "name": "St James Street (London)",
+      "lat": 51.580981,
+      "lon": -0.032918,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 10555
+    },
+    {
+      "naptanId": "910GSTKNWNG",
+      "name": "Stoke Newington",
+      "lat": 51.565233,
+      "lon": -0.072887,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 13181
+    },
+    {
+      "naptanId": "910GSTMFDHL",
+      "name": "Stamford Hill",
+      "lat": 51.574467,
+      "lon": -0.076682,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 13199
+    },
+    {
+      "naptanId": "910GSTNBGPK",
+      "name": "Stonebridge Park",
+      "lat": 51.544111,
+      "lon": -0.275828,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 3996
+    },
+    {
+      "naptanId": "910GSTOTNHM",
+      "name": "South Tottenham",
+      "lat": 51.580372,
+      "lon": -0.072103,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 11008
+    },
+    {
+      "naptanId": "910GSURREYQ",
+      "name": "Surrey Quays",
+      "lat": 51.493196,
+      "lon": -0.047519,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 8235
+    },
+    {
+      "naptanId": "910GSYDENHM",
+      "name": "Sydenham",
+      "lat": 51.427248,
+      "lon": -0.054244,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 6035
+    },
+    {
+      "naptanId": "910GTHBLDSG",
+      "name": "Theobalds Grove",
+      "lat": 51.692457,
+      "lon": -0.034831,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 5148
+    },
+    {
+      "naptanId": "910GTURKYST",
+      "name": "Turkey Street",
+      "lat": 51.672628,
+      "lon": -0.047217,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 5820
+    },
+    {
+      "naptanId": "910GUPMNSTR",
+      "name": "Upminster",
+      "lat": 51.559018,
+      "lon": 0.25088,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 2103
+    },
+    {
+      "naptanId": "910GUPRHLWY",
+      "name": "Upper Holloway",
+      "lat": 51.563631,
+      "lon": -0.129513,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 12451
+    },
+    {
+      "naptanId": "910GWAPPING",
+      "name": "Wapping",
+      "lat": 51.504388,
+      "lon": -0.055931,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 7997
+    },
+    {
+      "naptanId": "910GWATFDHS",
+      "name": "Watford High Street",
+      "lat": 51.652655,
+      "lon": -0.391711,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 4139
+    },
+    {
+      "naptanId": "910GWATFDJ",
+      "name": "Watford Junction",
+      "lat": 51.663908,
+      "lon": -0.395925,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 4522
+    },
+    {
+      "naptanId": "910GWATFJDC",
+      "name": "Watford Junction",
+      "lat": 51.663529,
+      "lon": -0.396517,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 4961
+    },
+    {
+      "naptanId": "910GWBRMPTN",
+      "name": "West Brompton",
+      "lat": 51.487061,
+      "lon": -0.195593,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 11943
+    },
+    {
+      "naptanId": "910GWCHAPEL",
+      "name": "Whitechapel",
+      "lat": 51.519469,
+      "lon": -0.059757,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 11398
+    },
+    {
+      "naptanId": "910GWCROYDN",
+      "name": "West Croydon",
+      "lat": 51.378428,
+      "lon": -0.102585,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 13093
+    },
+    {
+      "naptanId": "910GWDGRNPK",
+      "name": "Woodgrange Park",
+      "lat": 51.549264,
+      "lon": 0.044423,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 7546
+    },
+    {
+      "naptanId": "910GWDST",
+      "name": "Wood Street",
+      "lat": 51.58658,
+      "lon": -0.002405,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 8149
+    },
+    {
+      "naptanId": "910GWHHRTLA",
+      "name": "White Hart Lane",
+      "lat": 51.605037,
+      "lon": -0.070914,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 9264
+    },
+    {
+      "naptanId": "910GWHMDSTD",
+      "name": "West Hampstead",
+      "lat": 51.547468,
+      "lon": -0.191185,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 10615
+    },
+    {
+      "naptanId": "910GWLSDJHL",
+      "name": "Willesden Junction",
+      "lat": 51.532497,
+      "lon": -0.244548,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 8244
+    },
+    {
+      "naptanId": "910GWLTHQRD",
+      "name": "Walthamstow Queens Road",
+      "lat": 51.581503,
+      "lon": -0.023846,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 10875
+    },
+    {
+      "naptanId": "910GWLTWCEN",
+      "name": "Walthamstow Central",
+      "lat": 51.582919,
+      "lon": -0.019815,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 10636
+    },
+    {
+      "naptanId": "910GWMBY",
+      "name": "Wembley Central",
+      "lat": 51.552325,
+      "lon": -0.296433,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 10167
+    },
+    {
+      "naptanId": "910GWNDSWRD",
+      "name": "Wandsworth Road",
+      "lat": 51.470216,
+      "lon": -0.13852,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 9933
+    },
+    {
+      "naptanId": "910GWNSTDPK",
+      "name": "Wanstead Park",
+      "lat": 51.551693,
+      "lon": 0.026213,
+      "lines": [
+        "london-overground"
+      ],
+      "population": 7316
+    },
+    {
+      "naptanId": "910GABWDXR",
+      "name": "Abbey Wood",
+      "lat": 51.491284,
+      "lon": 0.121087,
+      "lines": [
+        "elizabeth"
+      ],
+      "population": 7322
+    },
+    {
+      "naptanId": "910GACTONML",
+      "name": "Acton Main Line",
+      "lat": 51.51718,
+      "lon": -0.266756,
+      "lines": [
+        "elizabeth"
+      ],
+      "population": 5242
+    },
+    {
+      "naptanId": "910GBNHAM",
+      "name": "Burnham (Berks)",
+      "lat": 51.523506,
+      "lon": -0.646374,
+      "lines": [
+        "elizabeth"
+      ],
+      "population": 3749
+    },
+    {
+      "naptanId": "910GBONDST",
+      "name": "Bond Street",
+      "lat": 51.513282,
+      "lon": -0.149317,
+      "lines": [
+        "elizabeth"
+      ],
+      "population": 3190
+    },
+    {
+      "naptanId": "910GBRTWOOD",
+      "name": "Brentwood",
+      "lat": 51.613605,
+      "lon": 0.299586,
+      "lines": [
+        "elizabeth"
+      ],
+      "population": 5853
+    },
+    {
+      "naptanId": "910GCANWHRF",
+      "name": "Canary Wharf",
+      "lat": 51.506321,
+      "lon": -0.018815,
+      "lines": [
+        "elizabeth"
+      ],
+      "population": 7538
+    },
+    {
+      "naptanId": "910GCHDWLHT",
+      "name": "Chadwell Heath",
+      "lat": 51.568039,
+      "lon": 0.128958,
+      "lines": [
+        "elizabeth"
+      ],
+      "population": 7285
+    },
+    {
+      "naptanId": "910GCUSTMHS",
+      "name": "Custom House",
+      "lat": 51.509436,
+      "lon": 0.027681,
+      "lines": [
+        "elizabeth"
+      ],
+      "population": 7403
+    },
+    {
+      "naptanId": "910GEALINGB",
+      "name": "Ealing Broadway",
+      "lat": 51.514841,
+      "lon": -0.301752,
+      "lines": [
+        "elizabeth"
+      ],
+      "population": 5485
+    },
+    {
+      "naptanId": "910GFRNDXR",
+      "name": "Farringdon",
+      "lat": 51.519635,
+      "lon": -0.102892,
+      "lines": [
+        "elizabeth"
+      ],
+      "population": 8663
+    },
+    {
+      "naptanId": "910GFRSTGT",
+      "name": "Forest Gate",
+      "lat": 51.549432,
+      "lon": 0.024353,
+      "lines": [
+        "elizabeth"
+      ],
+      "population": 10330
+    },
+    {
+      "naptanId": "910GGIDEAPK",
+      "name": "Gidea Park",
+      "lat": 51.581904,
+      "lon": 0.205964,
+      "lines": [
+        "elizabeth"
+      ],
+      "population": 3978
+    },
+    {
+      "naptanId": "910GGODMAYS",
+      "name": "Goodmayes",
+      "lat": 51.565579,
+      "lon": 0.110807,
+      "lines": [
+        "elizabeth"
+      ],
+      "population": 7525
+    },
+    {
+      "naptanId": "910GHANWELL",
+      "name": "Hanwell",
+      "lat": 51.511835,
+      "lon": -0.338583,
+      "lines": [
+        "elizabeth"
+      ],
+      "population": 6324
+    },
+    {
+      "naptanId": "910GHAYESAH",
+      "name": "Hayes & Harlington",
+      "lat": 51.503096,
+      "lon": -0.420683,
+      "lines": [
+        "elizabeth"
+      ],
+      "population": 6443
+    },
+    {
+      "naptanId": "910GHRLDWOD",
+      "name": "Harold Wood",
+      "lat": 51.592766,
+      "lon": 0.233129,
+      "lines": [
+        "elizabeth"
+      ],
+      "population": 4595
+    },
+    {
+      "naptanId": "910GHTRWAPT",
+      "name": "Heathrow Terminals 2 & 3",
+      "lat": 51.471987,
+      "lon": -0.454788,
+      "lines": [
+        "elizabeth"
+      ],
+      "population": 0
+    },
+    {
+      "naptanId": "910GHTRWTM4",
+      "name": "Heathrow Terminal 4",
+      "lat": 51.458268,
+      "lon": -0.445463,
+      "lines": [
+        "elizabeth"
+      ],
+      "population": 0
+    },
+    {
+      "naptanId": "910GHTRWTM5",
+      "name": "Heathrow Terminal 5",
+      "lat": 51.470053,
+      "lon": -0.490589,
+      "lines": [
+        "elizabeth"
+      ],
+      "population": 0
+    },
+    {
+      "naptanId": "910GILFORD",
+      "name": "Ilford",
+      "lat": 51.559118,
+      "lon": 0.06968,
+      "lines": [
+        "elizabeth"
+      ],
+      "population": 9480
+    },
+    {
+      "naptanId": "910GIVER",
+      "name": "Iver",
+      "lat": 51.508503,
+      "lon": -0.506726,
+      "lines": [
+        "elizabeth"
+      ],
+      "population": 977
+    },
+    {
+      "naptanId": "910GLANGLEY",
+      "name": "Langley (Berks)",
+      "lat": 51.508062,
+      "lon": -0.541756,
+      "lines": [
+        "elizabeth"
+      ],
+      "population": 1078
+    },
+    {
+      "naptanId": "910GLIVSTLL",
+      "name": "Liverpool Street",
+      "lat": 51.517721,
+      "lon": -0.082043,
+      "lines": [
+        "elizabeth"
+      ],
+      "population": 3128
+    },
+    {
+      "naptanId": "910GMANRPK",
+      "name": "Manor Park",
+      "lat": 51.552477,
+      "lon": 0.046342,
+      "lines": [
+        "elizabeth"
+      ],
+      "population": 4216
+    },
+    {
+      "naptanId": "910GMDNHEAD",
+      "name": "Maidenhead",
+      "lat": 51.518669,
+      "lon": -0.72266,
+      "lines": [
+        "elizabeth"
+      ],
+      "population": 3194
+    },
+    {
+      "naptanId": "910GMRYLAND",
+      "name": "Maryland",
+      "lat": 51.546081,
+      "lon": 0.005815,
+      "lines": [
+        "elizabeth"
+      ],
+      "population": 10646
+    },
+    {
+      "naptanId": "910GPADTLL",
+      "name": "Paddington",
+      "lat": 51.516449,
+      "lon": -0.177107,
+      "lines": [
+        "elizabeth"
+      ],
+      "population": 10205
+    },
+    {
+      "naptanId": "910GPADTON",
+      "name": "London Paddington",
+      "lat": 51.515996,
+      "lon": -0.176174,
+      "lines": [
+        "elizabeth"
+      ],
+      "population": 10180
+    },
+    {
+      "naptanId": "910GRDNGSTN",
+      "name": "Reading",
+      "lat": 51.458786,
+      "lon": -0.971863,
+      "lines": [
+        "elizabeth"
+      ],
+      "population": 2667
+    },
+    {
+      "naptanId": "910GSHENFLD",
+      "name": "Shenfield",
+      "lat": 51.630877,
+      "lon": 0.329851,
+      "lines": [
+        "elizabeth"
+      ],
+      "population": 2408
+    },
+    {
+      "naptanId": "910GSLOUGH",
+      "name": "Slough",
+      "lat": 51.51188,
+      "lon": -0.59151,
+      "lines": [
+        "elizabeth"
+      ],
+      "population": 7112
+    },
+    {
+      "naptanId": "910GSTHALL",
+      "name": "Southall",
+      "lat": 51.505957,
+      "lon": -0.37861,
+      "lines": [
+        "elizabeth"
+      ],
+      "population": 7145
+    },
+    {
+      "naptanId": "910GSVNKNGS",
+      "name": "Seven Kings",
+      "lat": 51.564026,
+      "lon": 0.0971,
+      "lines": [
+        "elizabeth"
+      ],
+      "population": 10738
+    },
+    {
+      "naptanId": "910GTAPLOW",
+      "name": "Taplow",
+      "lat": 51.523562,
+      "lon": -0.68137,
+      "lines": [
+        "elizabeth"
+      ],
+      "population": 519
+    },
+    {
+      "naptanId": "910GTOTCTRD",
+      "name": "Tottenham Court Road",
+      "lat": 51.515075,
+      "lon": -0.130263,
+      "lines": [
+        "elizabeth"
+      ],
+      "population": 4901
+    },
+    {
+      "naptanId": "910GTWYFORD",
+      "name": "Twyford",
+      "lat": 51.475534,
+      "lon": -0.863293,
+      "lines": [
+        "elizabeth"
+      ],
+      "population": 2784
+    },
+    {
+      "naptanId": "910GWCHAPXR",
+      "name": "Whitechapel",
+      "lat": 51.519555,
+      "lon": -0.059537,
+      "lines": [
+        "elizabeth"
+      ],
+      "population": 11926
+    },
+    {
+      "naptanId": "910GWDRYTON",
+      "name": "West Drayton",
+      "lat": 51.510055,
+      "lon": -0.472234,
+      "lines": [
+        "elizabeth"
+      ],
+      "population": 7111
+    },
+    {
+      "naptanId": "910GWEALING",
+      "name": "West Ealing",
+      "lat": 51.513506,
+      "lon": -0.320133,
+      "lines": [
+        "elizabeth"
+      ],
+      "population": 7490
+    },
+    {
+      "naptanId": "910GWOLWXR",
+      "name": "Woolwich",
+      "lat": 51.492017,
+      "lon": 0.0705,
+      "lines": [
+        "elizabeth"
+      ],
+      "population": 7219
+    },
+    {
+      "naptanId": "940GZZDLABR",
+      "name": "Abbey Road",
+      "lat": 51.531926,
+      "lon": 0.003737,
+      "lines": [
+        "dlr"
+      ],
+      "population": 7025
+    },
+    {
+      "naptanId": "940GZZDLALL",
+      "name": "All Saints",
+      "lat": 51.511,
+      "lon": -0.013135,
+      "lines": [
+        "dlr"
+      ],
+      "population": 13916
+    },
+    {
+      "naptanId": "940GZZDLBEC",
+      "name": "Beckton",
+      "lat": 51.514362,
+      "lon": 0.061453,
+      "lines": [
+        "dlr"
+      ],
+      "population": 4957
+    },
+    {
+      "naptanId": "940GZZDLBLA",
+      "name": "Blackwall",
+      "lat": 51.507991,
+      "lon": -0.006969,
+      "lines": [
+        "dlr"
+      ],
+      "population": 13175
+    },
+    {
+      "naptanId": "940GZZDLBNK",
+      "name": "Bank",
+      "lat": 51.513233,
+      "lon": -0.088515,
+      "lines": [
+        "dlr"
+      ],
+      "population": 550
+    },
+    {
+      "naptanId": "940GZZDLBOW",
+      "name": "Bow Church",
+      "lat": 51.527858,
+      "lon": -0.020936,
+      "lines": [
+        "dlr"
+      ],
+      "population": 12479
+    },
+    {
+      "naptanId": "940GZZDLBPK",
+      "name": "Beckton Park",
+      "lat": 51.508793,
+      "lon": 0.054932,
+      "lines": [
+        "dlr"
+      ],
+      "population": 3907
+    },
+    {
+      "naptanId": "940GZZDLCAN",
+      "name": "Canary Wharf",
+      "lat": 51.504838,
+      "lon": -0.020997,
+      "lines": [
+        "dlr"
+      ],
+      "population": 4470
+    },
+    {
+      "naptanId": "940GZZDLCGT",
+      "name": "Canning Town",
+      "lat": 51.514127,
+      "lon": 0.008101,
+      "lines": [
+        "dlr"
+      ],
+      "population": 9531
+    },
+    {
+      "naptanId": "940GZZDLCLA",
+      "name": "Crossharbour",
+      "lat": 51.495728,
+      "lon": -0.014606,
+      "lines": [
+        "dlr"
+      ],
+      "population": 16584
+    },
+    {
+      "naptanId": "940GZZDLCUS",
+      "name": "Custom House (for ExCel)",
+      "lat": 51.509716,
+      "lon": 0.026699,
+      "lines": [
+        "dlr"
+      ],
+      "population": 8075
+    },
+    {
+      "naptanId": "940GZZDLCUT",
+      "name": "Cutty Sark (for Maritime Greenwich)",
+      "lat": 51.481671,
+      "lon": -0.01081,
+      "lines": [
+        "dlr"
+      ],
+      "population": 6308
+    },
+    {
+      "naptanId": "940GZZDLCYP",
+      "name": "Cyprus",
+      "lat": 51.508473,
+      "lon": 0.063925,
+      "lines": [
+        "dlr"
+      ],
+      "population": 5271
+    },
+    {
+      "naptanId": "940GZZDLDEP",
+      "name": "Deptford Bridge",
+      "lat": 51.474215,
+      "lon": -0.022438,
+      "lines": [
+        "dlr"
+      ],
+      "population": 10231
+    },
+    {
+      "naptanId": "940GZZDLDEV",
+      "name": "Devons Road",
+      "lat": 51.522667,
+      "lon": -0.017615,
+      "lines": [
+        "dlr"
+      ],
+      "population": 15815
+    },
+    {
+      "naptanId": "940GZZDLEIN",
+      "name": "East India",
+      "lat": 51.509359,
+      "lon": -0.002326,
+      "lines": [
+        "dlr"
+      ],
+      "population": 7100
+    },
+    {
+      "naptanId": "940GZZDLELV",
+      "name": "Elverson Road",
+      "lat": 51.469074,
+      "lon": -0.016728,
+      "lines": [
+        "dlr"
+      ],
+      "population": 10954
+    },
+    {
+      "naptanId": "940GZZDLGAL",
+      "name": "Gallions Reach",
+      "lat": 51.508941,
+      "lon": 0.071555,
+      "lines": [
+        "dlr"
+      ],
+      "population": 3383
+    },
+    {
+      "naptanId": "940GZZDLGRE",
+      "name": "Greenwich",
+      "lat": 51.478087,
+      "lon": -0.013673,
+      "lines": [
+        "dlr"
+      ],
+      "population": 10480
+    },
+    {
+      "naptanId": "940GZZDLHEQ",
+      "name": "Heron Quays",
+      "lat": 51.503379,
+      "lon": -0.021421,
+      "lines": [
+        "dlr"
+      ],
+      "population": 3758
+    },
+    {
+      "naptanId": "940GZZDLISL",
+      "name": "Island Gardens",
+      "lat": 51.487811,
+      "lon": -0.010139,
+      "lines": [
+        "dlr"
+      ],
+      "population": 7380
+    },
+    {
+      "naptanId": "940GZZDLKGV",
+      "name": "King George V",
+      "lat": 51.502003,
+      "lon": 0.062624,
+      "lines": [
+        "dlr"
+      ],
+      "population": 2798
+    },
+    {
+      "naptanId": "940GZZDLLCA",
+      "name": "London City Airport",
+      "lat": 51.503416,
+      "lon": 0.048739,
+      "lines": [
+        "dlr"
+      ],
+      "population": 1680
+    },
+    {
+      "naptanId": "940GZZDLLDP",
+      "name": "Langdon Park",
+      "lat": 51.515172,
+      "lon": -0.01415,
+      "lines": [
+        "dlr"
+      ],
+      "population": 16030
+    },
+    {
+      "naptanId": "940GZZDLLEW",
+      "name": "Lewisham",
+      "lat": 51.464665,
+      "lon": -0.012874,
+      "lines": [
+        "dlr"
+      ],
+      "population": 10894
+    },
+    {
+      "naptanId": "940GZZDLLIM",
+      "name": "Limehouse",
+      "lat": 51.512393,
+      "lon": -0.039809,
+      "lines": [
+        "dlr"
+      ],
+      "population": 15040
+    },
+    {
+      "naptanId": "940GZZDLMUD",
+      "name": "Mudchute",
+      "lat": 51.490704,
+      "lon": -0.014738,
+      "lines": [
+        "dlr"
+      ],
+      "population": 6909
+    },
+    {
+      "naptanId": "940GZZDLPDK",
+      "name": "Pontoon Dock",
+      "lat": 51.502212,
+      "lon": 0.032115,
+      "lines": [
+        "dlr"
+      ],
+      "population": 5511
+    },
+    {
+      "naptanId": "940GZZDLPOP",
+      "name": "Poplar",
+      "lat": 51.507744,
+      "lon": -0.017384,
+      "lines": [
+        "dlr"
+      ],
+      "population": 11167
+    },
+    {
+      "naptanId": "940GZZDLPRE",
+      "name": "Prince Regent",
+      "lat": 51.509263,
+      "lon": 0.034158,
+      "lines": [
+        "dlr"
+      ],
+      "population": 7126
+    },
+    {
+      "naptanId": "940GZZDLPUD",
+      "name": "Pudding Mill Lane",
+      "lat": 51.534302,
+      "lon": -0.012755,
+      "lines": [
+        "dlr"
+      ],
+      "population": 3335
+    },
+    {
+      "naptanId": "940GZZDLRAL",
+      "name": "Royal Albert",
+      "lat": 51.508357,
+      "lon": 0.045935,
+      "lines": [
+        "dlr"
+      ],
+      "population": 3409
+    },
+    {
+      "naptanId": "940GZZDLRVC",
+      "name": "Royal Victoria",
+      "lat": 51.509336,
+      "lon": 0.018497,
+      "lines": [
+        "dlr"
+      ],
+      "population": 11463
+    },
+    {
+      "naptanId": "940GZZDLSHA",
+      "name": "Shadwell",
+      "lat": 51.511693,
+      "lon": -0.056643,
+      "lines": [
+        "dlr"
+      ],
+      "population": 14870
+    },
+    {
+      "naptanId": "940GZZDLSHS",
+      "name": "Stratford High Street",
+      "lat": 51.538196,
+      "lon": -0.001078,
+      "lines": [
+        "dlr"
+      ],
+      "population": 7662
+    },
+    {
+      "naptanId": "940GZZDLSIT",
+      "name": "Stratford International",
+      "lat": 51.545265,
+      "lon": -0.009638,
+      "lines": [
+        "dlr"
+      ],
+      "population": 9819
+    },
+    {
+      "naptanId": "940GZZDLSOQ",
+      "name": "South Quay",
+      "lat": 51.50005,
+      "lon": -0.01597,
+      "lines": [
+        "dlr"
+      ],
+      "population": 7750
+    },
+    {
+      "naptanId": "940GZZDLSTD",
+      "name": "Stratford",
+      "lat": 51.541758,
+      "lon": -0.003287,
+      "lines": [
+        "dlr"
+      ],
+      "population": 8732
+    },
+    {
+      "naptanId": "940GZZDLSTL",
+      "name": "Star Lane",
+      "lat": 51.520786,
+      "lon": 0.004156,
+      "lines": [
+        "dlr"
+      ],
+      "population": 3876
+    },
+    {
+      "naptanId": "940GZZDLTWG",
+      "name": "Tower Gateway",
+      "lat": 51.510617,
+      "lon": -0.074818,
+      "lines": [
+        "dlr"
+      ],
+      "population": 8190
+    },
+    {
+      "naptanId": "940GZZDLWFE",
+      "name": "Westferry",
+      "lat": 51.509431,
+      "lon": -0.02675,
+      "lines": [
+        "dlr"
+      ],
+      "population": 14898
+    },
+    {
+      "naptanId": "940GZZDLWHM",
+      "name": "West Ham",
+      "lat": 51.527894,
+      "lon": 0.004482,
+      "lines": [
+        "dlr"
+      ],
+      "population": 5049
+    },
+    {
+      "naptanId": "940GZZDLWIQ",
+      "name": "West India Quay",
+      "lat": 51.50703,
+      "lon": -0.020311,
+      "lines": [
+        "dlr"
+      ],
+      "population": 9338
+    },
+    {
+      "naptanId": "940GZZDLWLA",
+      "name": "Woolwich Arsenal",
+      "lat": 51.490009,
+      "lon": 0.069127,
+      "lines": [
+        "dlr"
+      ],
+      "population": 9414
+    },
+    {
+      "naptanId": "940GZZDLWSV",
+      "name": "West Silvertown",
+      "lat": 51.502838,
+      "lon": 0.02246,
+      "lines": [
+        "dlr"
+      ],
+      "population": 5516
+    }
+  ],
+  "line_stats": {
+    "bakerloo": {
+      "name": "Bakerloo",
+      "color": "#B36305",
+      "station_count": 25,
+      "total_population": 195418,
+      "avg_population_per_station": 7816,
+      "stations": [
+        [
+          "Edgware Road (Bakerloo)",
+          15835
+        ],
+        [
+          "Elephant & Castle",
+          14169
+        ],
+        [
+          "Kilburn Park",
+          13235
+        ],
+        [
+          "Marylebone",
+          12747
+        ],
+        [
+          "Warwick Avenue",
+          12028
+        ],
+        [
+          "Paddington",
+          10077
+        ],
+        [
+          "Maida Vale",
+          9824
+        ],
+        [
+          "Wembley Central",
+          9794
+        ],
+        [
+          "Kensal Green",
+          9516
+        ],
+        [
+          "Harrow & Wealdstone",
+          9459
+        ],
+        [
+          "Queen's Park",
+          9060
+        ],
+        [
+          "Harlesden",
+          8006
+        ],
+        [
+          "Willesden Junction",
+          7858
+        ],
+        [
+          "Lambeth North",
+          7628
+        ],
+        [
+          "Regent's Park",
+          6214
+        ],
+        [
+          "North Wembley",
+          6211
+        ],
+        [
+          "Baker Street",
+          5254
+        ],
+        [
+          "Oxford Circus",
+          5072
+        ],
+        [
+          "Stonebridge Park",
+          3996
+        ],
+        [
+          "South Kenton",
+          3928
+        ],
+        [
+          "Piccadilly Circus",
+          3816
+        ],
+        [
+          "Kenton",
+          3713
+        ],
+        [
+          "Waterloo",
+          3294
+        ],
+        [
+          "Charing Cross",
+          2600
+        ],
+        [
+          "Embankment",
+          2084
+        ]
+      ]
+    },
+    "central": {
+      "name": "Central",
+      "color": "#E32017",
+      "station_count": 49,
+      "total_population": 267145,
+      "avg_population_per_station": 5451,
+      "stations": [
+        [
+          "Bethnal Green",
+          13263
+        ],
+        [
+          "Mile End",
+          11789
+        ],
+        [
+          "Queensway",
+          11033
+        ],
+        [
+          "Notting Hill Gate",
+          10800
+        ],
+        [
+          "Leyton",
+          10317
+        ],
+        [
+          "Shepherd's Bush (Central)",
+          9037
+        ],
+        [
+          "Stratford",
+          8732
+        ],
+        [
+          "Gants Hill",
+          8271
+        ],
+        [
+          "Lancaster Gate",
+          8000
+        ],
+        [
+          "Hainault",
+          7817
+        ],
+        [
+          "Holland Park",
+          7641
+        ],
+        [
+          "Marble Arch",
+          7309
+        ],
+        [
+          "Leytonstone",
+          7236
+        ],
+        [
+          "Newbury Park",
+          6837
+        ],
+        [
+          "South Woodford",
+          6697
+        ],
+        [
+          "Holborn",
+          6637
+        ],
+        [
+          "White City",
+          6594
+        ],
+        [
+          "Chancery Lane",
+          6592
+        ],
+        [
+          "Northolt",
+          5617
+        ],
+        [
+          "Tottenham Court Road",
+          5612
+        ],
+        [
+          "East Acton",
+          5256
+        ],
+        [
+          "Oxford Circus",
+          5072
+        ],
+        [
+          "Ealing Broadway",
+          5039
+        ],
+        [
+          "Snaresbrook",
+          4971
+        ],
+        [
+          "Wanstead",
+          4939
+        ],
+        [
+          "Ruislip Gardens",
+          4795
+        ],
+        [
+          "Hanger Lane",
+          4677
+        ],
+        [
+          "Redbridge",
+          4537
+        ],
+        [
+          "Woodford",
+          4492
+        ],
+        [
+          "St. Paul's",
+          4459
+        ],
+        [
+          "South Ruislip",
+          4274
+        ],
+        [
+          "Bond Street",
+          3944
+        ],
+        [
+          "Buckhurst Hill",
+          3708
+        ],
+        [
+          "North Acton",
+          3663
+        ],
+        [
+          "Barkingside",
+          3491
+        ],
+        [
+          "West Ruislip",
+          3403
+        ],
+        [
+          "West Acton",
+          3349
+        ],
+        [
+          "Perivale",
+          3330
+        ],
+        [
+          "Loughton",
+          3140
+        ],
+        [
+          "Debden",
+          3073
+        ],
+        [
+          "Liverpool Street",
+          2879
+        ],
+        [
+          "Epping",
+          2801
+        ],
+        [
+          "Roding Valley",
+          2731
+        ],
+        [
+          "Grange Hill",
+          2078
+        ],
+        [
+          "Theydon Bois",
+          1882
+        ],
+        [
+          "Greenford",
+          1618
+        ],
+        [
+          "Chigwell",
+          1480
+        ],
+        [
+          "Fairlop",
+          1435
+        ],
+        [
+          "Bank",
+          798
+        ]
+      ]
+    },
+    "circle": {
+      "name": "Circle",
+      "color": "#FFD300",
+      "station_count": 36,
+      "total_population": 260928,
+      "avg_population_per_station": 7248,
+      "stations": [
+        [
+          "Edgware Road (Circle Line)",
+          16601
+        ],
+        [
+          "Westbourne Park",
+          15343
+        ],
+        [
+          "Bayswater",
+          15244
+        ],
+        [
+          "Ladbroke Grove",
+          13442
+        ],
+        [
+          "Royal Oak",
+          12903
+        ],
+        [
+          "Barbican",
+          12218
+        ],
+        [
+          "Goldhawk Road",
+          11188
+        ],
+        [
+          "Latimer Road",
+          11160
+        ],
+        [
+          "Notting Hill Gate",
+          10800
+        ],
+        [
+          "Paddington",
+          10077
+        ],
+        [
+          "Euston Square",
+          9515
+        ],
+        [
+          "Farringdon",
+          9325
+        ],
+        [
+          "Paddington (H&C Line)-Underground",
+          9164
+        ],
+        [
+          "High Street Kensington",
+          8786
+        ],
+        [
+          "Gloucester Road",
+          8776
+        ],
+        [
+          "Shepherd's Bush Market",
+          8665
+        ],
+        [
+          "Great Portland Street",
+          8637
+        ],
+        [
+          "Aldgate",
+          8536
+        ],
+        [
+          "Hammersmith (H&C Line)",
+          7802
+        ],
+        [
+          "Sloane Square",
+          7009
+        ],
+        [
+          "South Kensington",
+          5815
+        ],
+        [
+          "King's Cross St. Pancras",
+          5582
+        ],
+        [
+          "Wood Lane",
+          5415
+        ],
+        [
+          "Baker Street",
+          5254
+        ],
+        [
+          "Moorgate",
+          4646
+        ],
+        [
+          "Victoria",
+          3880
+        ],
+        [
+          "Tower Hill",
+          3816
+        ],
+        [
+          "Liverpool Street",
+          2879
+        ],
+        [
+          "Embankment",
+          2084
+        ],
+        [
+          "St. James's Park",
+          2023
+        ],
+        [
+          "Temple",
+          1860
+        ],
+        [
+          "Blackfriars",
+          1336
+        ],
+        [
+          "Mansion House",
+          540
+        ],
+        [
+          "Westminster",
+          355
+        ],
+        [
+          "Monument",
+          252
+        ],
+        [
+          "Cannon Street",
+          0
+        ]
+      ]
+    },
+    "district": {
+      "name": "District",
+      "color": "#00782A",
+      "station_count": 60,
+      "total_population": 456217,
+      "avg_population_per_station": 7603,
+      "stations": [
+        [
+          "Upton Park",
+          16887
+        ],
+        [
+          "Edgware Road (Circle Line)",
+          16601
+        ],
+        [
+          "Bayswater",
+          15244
+        ],
+        [
+          "Bow Road",
+          15042
+        ],
+        [
+          "Earl's Court",
+          14076
+        ],
+        [
+          "West Kensington",
+          13953
+        ],
+        [
+          "Plaistow",
+          13715
+        ],
+        [
+          "Aldgate East",
+          13600
+        ],
+        [
+          "Stepney Green",
+          12999
+        ],
+        [
+          "Parsons Green",
+          12184
+        ],
+        [
+          "Mile End",
+          11789
+        ],
+        [
+          "West Brompton",
+          11764
+        ],
+        [
+          "Whitechapel",
+          11685
+        ],
+        [
+          "Bromley-by-Bow",
+          11572
+        ],
+        [
+          "Notting Hill Gate",
+          10800
+        ],
+        [
+          "East Ham",
+          10550
+        ],
+        [
+          "Fulham Broadway",
+          10426
+        ],
+        [
+          "Barking",
+          10100
+        ],
+        [
+          "Paddington",
+          10077
+        ],
+        [
+          "Barons Court",
+          9967
+        ],
+        [
+          "Kensington (Olympia)",
+          9797
+        ],
+        [
+          "Southfields",
+          9322
+        ],
+        [
+          "Ravenscourt Park",
+          9258
+        ],
+        [
+          "East Putney",
+          9127
+        ],
+        [
+          "Dagenham Heathway",
+          8870
+        ],
+        [
+          "High Street Kensington",
+          8786
+        ],
+        [
+          "Gloucester Road",
+          8776
+        ],
+        [
+          "Chiswick Park",
+          7934
+        ],
+        [
+          "Sloane Square",
+          7009
+        ],
+        [
+          "Stamford Brook",
+          6980
+        ],
+        [
+          "Putney Bridge",
+          6851
+        ],
+        [
+          "Acton Town",
+          6747
+        ],
+        [
+          "Hammersmith (Dist&Picc Line)",
+          6609
+        ],
+        [
+          "Turnham Green",
+          6449
+        ],
+        [
+          "Upney",
+          6338
+        ],
+        [
+          "South Kensington",
+          5815
+        ],
+        [
+          "West Ham",
+          5614
+        ],
+        [
+          "Wimbledon",
+          5243
+        ],
+        [
+          "Wimbledon Park",
+          5176
+        ],
+        [
+          "Ealing Broadway",
+          5039
+        ],
+        [
+          "Elm Park",
+          4943
+        ],
+        [
+          "Kew Gardens",
+          4796
+        ],
+        [
+          "Ealing Common",
+          4555
+        ],
+        [
+          "Gunnersbury",
+          4351
+        ],
+        [
+          "Richmond",
+          4298
+        ],
+        [
+          "Dagenham East",
+          4290
+        ],
+        [
+          "Hornchurch",
+          4120
+        ],
+        [
+          "Becontree",
+          4080
+        ],
+        [
+          "Victoria",
+          3880
+        ],
+        [
+          "Tower Hill",
+          3816
+        ],
+        [
+          "Upminster Bridge",
+          3764
+        ],
+        [
+          "Upminster",
+          2103
+        ],
+        [
+          "Embankment",
+          2084
+        ],
+        [
+          "St. James's Park",
+          2023
+        ],
+        [
+          "Temple",
+          1860
+        ],
+        [
+          "Blackfriars",
+          1336
+        ],
+        [
+          "Mansion House",
+          540
+        ],
+        [
+          "Westminster",
+          355
+        ],
+        [
+          "Monument",
+          252
+        ],
+        [
+          "Cannon Street",
+          0
+        ]
+      ]
+    },
+    "hammersmith-city": {
+      "name": "Hammersmith City",
+      "color": "#F3A9BB",
+      "station_count": 29,
+      "total_population": 303292,
+      "avg_population_per_station": 10458,
+      "stations": [
+        [
+          "Upton Park",
+          16887
+        ],
+        [
+          "Edgware Road (Circle Line)",
+          16601
+        ],
+        [
+          "Westbourne Park",
+          15343
+        ],
+        [
+          "Bow Road",
+          15042
+        ],
+        [
+          "Plaistow",
+          13715
+        ],
+        [
+          "Aldgate East",
+          13600
+        ],
+        [
+          "Ladbroke Grove",
+          13442
+        ],
+        [
+          "Stepney Green",
+          12999
+        ],
+        [
+          "Royal Oak",
+          12903
+        ],
+        [
+          "Barbican",
+          12218
+        ],
+        [
+          "Mile End",
+          11789
+        ],
+        [
+          "Whitechapel",
+          11685
+        ],
+        [
+          "Bromley-by-Bow",
+          11572
+        ],
+        [
+          "Goldhawk Road",
+          11188
+        ],
+        [
+          "Latimer Road",
+          11160
+        ],
+        [
+          "East Ham",
+          10550
+        ],
+        [
+          "Barking",
+          10100
+        ],
+        [
+          "Euston Square",
+          9515
+        ],
+        [
+          "Farringdon",
+          9325
+        ],
+        [
+          "Paddington (H&C Line)-Underground",
+          9164
+        ],
+        [
+          "Shepherd's Bush Market",
+          8665
+        ],
+        [
+          "Great Portland Street",
+          8637
+        ],
+        [
+          "Hammersmith (H&C Line)",
+          7802
+        ],
+        [
+          "West Ham",
+          5614
+        ],
+        [
+          "King's Cross St. Pancras",
+          5582
+        ],
+        [
+          "Wood Lane",
+          5415
+        ],
+        [
+          "Baker Street",
+          5254
+        ],
+        [
+          "Moorgate",
+          4646
+        ],
+        [
+          "Liverpool Street",
+          2879
+        ]
+      ]
+    },
+    "jubilee": {
+      "name": "Jubilee",
+      "color": "#A0A5A9",
+      "station_count": 27,
+      "total_population": 162735,
+      "avg_population_per_station": 6027,
+      "stations": [
+        [
+          "Swiss Cottage",
+          10749
+        ],
+        [
+          "West Hampstead",
+          10528
+        ],
+        [
+          "Bermondsey",
+          10158
+        ],
+        [
+          "Kilburn",
+          10081
+        ],
+        [
+          "Canning Town",
+          9324
+        ],
+        [
+          "Canada Water",
+          9059
+        ],
+        [
+          "Stratford",
+          8732
+        ],
+        [
+          "Finchley Road",
+          8725
+        ],
+        [
+          "Willesden Green",
+          7781
+        ],
+        [
+          "Queensbury",
+          7494
+        ],
+        [
+          "St. John's Wood",
+          7064
+        ],
+        [
+          "Kingsbury",
+          6670
+        ],
+        [
+          "Wembley Park",
+          6522
+        ],
+        [
+          "Dollis Hill",
+          6029
+        ],
+        [
+          "Southwark",
+          5905
+        ],
+        [
+          "West Ham",
+          5614
+        ],
+        [
+          "Neasden",
+          5579
+        ],
+        [
+          "Baker Street",
+          5254
+        ],
+        [
+          "Canons Park",
+          4612
+        ],
+        [
+          "Bond Street",
+          3944
+        ],
+        [
+          "Canary Wharf",
+          3469
+        ],
+        [
+          "Waterloo",
+          3294
+        ],
+        [
+          "Stanmore",
+          1814
+        ],
+        [
+          "North Greenwich",
+          1588
+        ],
+        [
+          "Green Park",
+          1468
+        ],
+        [
+          "London Bridge",
+          923
+        ],
+        [
+          "Westminster",
+          355
+        ]
+      ]
+    },
+    "metropolitan": {
+      "name": "Metropolitan",
+      "color": "#9B0056",
+      "station_count": 35,
+      "total_population": 171416,
+      "avg_population_per_station": 4897,
+      "stations": [
+        [
+          "Barbican",
+          12218
+        ],
+        [
+          "Euston Square",
+          9515
+        ],
+        [
+          "Farringdon",
+          9325
+        ],
+        [
+          "Harrow-on-the-Hill",
+          8786
+        ],
+        [
+          "Finchley Road",
+          8725
+        ],
+        [
+          "Great Portland Street",
+          8637
+        ],
+        [
+          "Aldgate",
+          8536
+        ],
+        [
+          "Willesden Green",
+          7781
+        ],
+        [
+          "West Harrow",
+          7249
+        ],
+        [
+          "Wembley Park",
+          6522
+        ],
+        [
+          "King's Cross St. Pancras",
+          5582
+        ],
+        [
+          "Baker Street",
+          5254
+        ],
+        [
+          "North Harrow",
+          4936
+        ],
+        [
+          "Croxley",
+          4746
+        ],
+        [
+          "Moorgate",
+          4646
+        ],
+        [
+          "Preston Road",
+          4375
+        ],
+        [
+          "Uxbridge",
+          4328
+        ],
+        [
+          "Eastcote",
+          4300
+        ],
+        [
+          "Rayners Lane",
+          4233
+        ],
+        [
+          "Ruislip",
+          4129
+        ],
+        [
+          "Northwood Hills",
+          4073
+        ],
+        [
+          "Ruislip Manor",
+          3683
+        ],
+        [
+          "Northwick Park",
+          3566
+        ],
+        [
+          "Chesham",
+          3170
+        ],
+        [
+          "Northwood",
+          3051
+        ],
+        [
+          "Ickenham",
+          2920
+        ],
+        [
+          "Liverpool Street",
+          2879
+        ],
+        [
+          "Amersham",
+          2568
+        ],
+        [
+          "Watford",
+          2229
+        ],
+        [
+          "Chalfont & Latimer",
+          2172
+        ],
+        [
+          "Pinner",
+          2131
+        ],
+        [
+          "Chorleywood",
+          1763
+        ],
+        [
+          "Rickmansworth",
+          1547
+        ],
+        [
+          "Hillingdon",
+          1490
+        ],
+        [
+          "Moor Park",
+          351
+        ]
+      ]
+    },
+    "northern": {
+      "name": "Northern",
+      "color": "#000000",
+      "station_count": 52,
+      "total_population": 394953,
+      "avg_population_per_station": 7595,
+      "stations": [
+        [
+          "Old Street",
+          15034
+        ],
+        [
+          "Elephant & Castle",
+          14169
+        ],
+        [
+          "Kennington",
+          14002
+        ],
+        [
+          "Stockwell",
+          12817
+        ],
+        [
+          "Clapham North",
+          12508
+        ],
+        [
+          "Mornington Crescent",
+          12496
+        ],
+        [
+          "Chalk Farm",
+          11696
+        ],
+        [
+          "Balham",
+          11197
+        ],
+        [
+          "Tooting Bec",
+          11195
+        ],
+        [
+          "Colindale",
+          11003
+        ],
+        [
+          "Archway",
+          10985
+        ],
+        [
+          "Tooting Broadway",
+          10311
+        ],
+        [
+          "Angel",
+          10172
+        ],
+        [
+          "Nine Elms",
+          10123
+        ],
+        [
+          "Camden Town",
+          10098
+        ],
+        [
+          "Tufnell Park",
+          9664
+        ],
+        [
+          "Kentish Town",
+          9565
+        ],
+        [
+          "Clapham Common",
+          9441
+        ],
+        [
+          "Belsize Park",
+          9233
+        ],
+        [
+          "South Wimbledon",
+          8921
+        ],
+        [
+          "Warren Street",
+          8810
+        ],
+        [
+          "Borough",
+          8593
+        ],
+        [
+          "Colliers Wood",
+          8386
+        ],
+        [
+          "Oval",
+          8199
+        ],
+        [
+          "Finchley Central",
+          7714
+        ],
+        [
+          "Brent Cross",
+          7632
+        ],
+        [
+          "Burnt Oak",
+          7181
+        ],
+        [
+          "Euston",
+          7067
+        ],
+        [
+          "Battersea Power Station",
+          7060
+        ],
+        [
+          "East Finchley",
+          6759
+        ],
+        [
+          "Clapham South",
+          6317
+        ],
+        [
+          "Leicester Square",
+          5972
+        ],
+        [
+          "Hampstead",
+          5959
+        ],
+        [
+          "Hendon Central",
+          5694
+        ],
+        [
+          "West Finchley",
+          5667
+        ],
+        [
+          "Tottenham Court Road",
+          5612
+        ],
+        [
+          "King's Cross St. Pancras",
+          5582
+        ],
+        [
+          "Goodge Street",
+          5514
+        ],
+        [
+          "Edgware",
+          5120
+        ],
+        [
+          "Golders Green",
+          5019
+        ],
+        [
+          "Moorgate",
+          4646
+        ],
+        [
+          "Woodside Park",
+          4347
+        ],
+        [
+          "Mill Hill East",
+          4299
+        ],
+        [
+          "Highgate",
+          3930
+        ],
+        [
+          "Morden",
+          3595
+        ],
+        [
+          "Waterloo",
+          3294
+        ],
+        [
+          "High Barnet",
+          3044
+        ],
+        [
+          "Totteridge & Whetstone",
+          2906
+        ],
+        [
+          "Charing Cross",
+          2600
+        ],
+        [
+          "Embankment",
+          2084
+        ],
+        [
+          "London Bridge",
+          923
+        ],
+        [
+          "Bank",
+          798
+        ]
+      ]
+    },
+    "piccadilly": {
+      "name": "Piccadilly",
+      "color": "#003688",
+      "station_count": 53,
+      "total_population": 311467,
+      "avg_population_per_station": 5876,
+      "stations": [
+        [
+          "Earl's Court",
+          14076
+        ],
+        [
+          "Caledonian Road",
+          13399
+        ],
+        [
+          "Arsenal",
+          11924
+        ],
+        [
+          "Holloway Road",
+          11607
+        ],
+        [
+          "Finsbury Park",
+          11043
+        ],
+        [
+          "Turnpike Lane",
+          10719
+        ],
+        [
+          "Alperton",
+          10384
+        ],
+        [
+          "Russell Square",
+          10236
+        ],
+        [
+          "Barons Court",
+          9967
+        ],
+        [
+          "Manor House",
+          9404
+        ],
+        [
+          "Wood Green",
+          9177
+        ],
+        [
+          "Hounslow East",
+          8990
+        ],
+        [
+          "Hounslow West",
+          8891
+        ],
+        [
+          "Gloucester Road",
+          8776
+        ],
+        [
+          "South Harrow",
+          8529
+        ],
+        [
+          "Bounds Green",
+          8108
+        ],
+        [
+          "Sudbury Town",
+          7511
+        ],
+        [
+          "Northfields",
+          7280
+        ],
+        [
+          "Hounslow Central",
+          6973
+        ],
+        [
+          "Acton Town",
+          6747
+        ],
+        [
+          "Holborn",
+          6637
+        ],
+        [
+          "Hammersmith (Dist&Picc Line)",
+          6609
+        ],
+        [
+          "Turnham Green",
+          6449
+        ],
+        [
+          "South Ealing",
+          6019
+        ],
+        [
+          "Leicester Square",
+          5972
+        ],
+        [
+          "Covent Garden",
+          5955
+        ],
+        [
+          "South Kensington",
+          5815
+        ],
+        [
+          "Southgate",
+          5810
+        ],
+        [
+          "King's Cross St. Pancras",
+          5582
+        ],
+        [
+          "Sudbury Hill",
+          5250
+        ],
+        [
+          "Ealing Common",
+          4555
+        ],
+        [
+          "Uxbridge",
+          4328
+        ],
+        [
+          "Eastcote",
+          4300
+        ],
+        [
+          "Rayners Lane",
+          4233
+        ],
+        [
+          "Ruislip",
+          4129
+        ],
+        [
+          "Boston Manor",
+          3925
+        ],
+        [
+          "Arnos Grove",
+          3822
+        ],
+        [
+          "Piccadilly Circus",
+          3816
+        ],
+        [
+          "Park Royal",
+          3815
+        ],
+        [
+          "Ruislip Manor",
+          3683
+        ],
+        [
+          "North Ealing",
+          3085
+        ],
+        [
+          "Ickenham",
+          2920
+        ],
+        [
+          "Knightsbridge",
+          2045
+        ],
+        [
+          "Osterley",
+          2011
+        ],
+        [
+          "Oakwood",
+          1661
+        ],
+        [
+          "Hillingdon",
+          1490
+        ],
+        [
+          "Green Park",
+          1468
+        ],
+        [
+          "Hyde Park Corner",
+          1243
+        ],
+        [
+          "Cockfosters",
+          1099
+        ],
+        [
+          "Hatton Cross",
+          0
+        ],
+        [
+          "Heathrow Terminal 4",
+          0
+        ],
+        [
+          "Heathrow Terminal 5",
+          0
+        ],
+        [
+          "Heathrow Terminals 2 & 3",
+          0
+        ]
+      ]
+    },
+    "victoria": {
+      "name": "Victoria",
+      "color": "#0098D4",
+      "station_count": 16,
+      "total_population": 132539,
+      "avg_population_per_station": 8283,
+      "stations": [
+        [
+          "Pimlico",
+          15326
+        ],
+        [
+          "Stockwell",
+          12817
+        ],
+        [
+          "Brixton",
+          11215
+        ],
+        [
+          "Finsbury Park",
+          11043
+        ],
+        [
+          "Walthamstow Central",
+          11008
+        ],
+        [
+          "Seven Sisters",
+          9347
+        ],
+        [
+          "Warren Street",
+          8810
+        ],
+        [
+          "Highbury & Islington",
+          8340
+        ],
+        [
+          "Tottenham Hale",
+          8016
+        ],
+        [
+          "Blackhorse Road",
+          7600
+        ],
+        [
+          "Euston",
+          7067
+        ],
+        [
+          "Vauxhall",
+          5948
+        ],
+        [
+          "King's Cross St. Pancras",
+          5582
+        ],
+        [
+          "Oxford Circus",
+          5072
+        ],
+        [
+          "Victoria",
+          3880
+        ],
+        [
+          "Green Park",
+          1468
+        ]
+      ]
+    },
+    "waterloo-city": {
+      "name": "Waterloo City",
+      "color": "#95CDBA",
+      "station_count": 2,
+      "total_population": 4092,
+      "avg_population_per_station": 2046,
+      "stations": [
+        [
+          "Waterloo",
+          3294
+        ],
+        [
+          "Bank",
+          798
+        ]
+      ]
+    },
+    "london-overground": {
+      "name": "London Overground",
+      "color": "#EE7C0E",
+      "station_count": 116,
+      "total_population": 974430,
+      "avg_population_per_station": 8400,
+      "stations": [
+        [
+          "Shadwell",
+          15703
+        ],
+        [
+          "Clapton",
+          15248
+        ],
+        [
+          "Hoxton",
+          15112
+        ],
+        [
+          "Kilburn High Road",
+          14238
+        ],
+        [
+          "Dalston Kingsland",
+          14220
+        ],
+        [
+          "Rectory Road",
+          14014
+        ],
+        [
+          "Dalston Junction",
+          13595
+        ],
+        [
+          "Stamford Hill",
+          13199
+        ],
+        [
+          "Stoke Newington",
+          13181
+        ],
+        [
+          "West Croydon",
+          13093
+        ],
+        [
+          "Cambridge Heath (London)",
+          12981
+        ],
+        [
+          "Clapham High Street",
+          12835
+        ],
+        [
+          "Haggerston",
+          12597
+        ],
+        [
+          "Upper Holloway",
+          12451
+        ],
+        [
+          "Homerton",
+          12435
+        ],
+        [
+          "Bethnal Green",
+          12413
+        ],
+        [
+          "Caledonian Road & Barnsbury",
+          12139
+        ],
+        [
+          "Leyton Midland Road",
+          12067
+        ],
+        [
+          "Hackney Central",
+          12010
+        ],
+        [
+          "West Brompton",
+          11943
+        ],
+        [
+          "Bruce Grove",
+          11924
+        ],
+        [
+          "Hackney Downs",
+          11516
+        ],
+        [
+          "Queens Road Peckham",
+          11481
+        ],
+        [
+          "South Acton",
+          11444
+        ],
+        [
+          "Whitechapel",
+          11398
+        ],
+        [
+          "Shoreditch High Street",
+          11375
+        ],
+        [
+          "Brondesbury",
+          11317
+        ],
+        [
+          "Kentish Town West",
+          11303
+        ],
+        [
+          "Canonbury",
+          11167
+        ],
+        [
+          "London Fields",
+          11072
+        ],
+        [
+          "South Tottenham",
+          11008
+        ],
+        [
+          "Walthamstow Queens Road",
+          10875
+        ],
+        [
+          "Walthamstow Central",
+          10636
+        ],
+        [
+          "West Hampstead",
+          10615
+        ],
+        [
+          "St James Street (London)",
+          10555
+        ],
+        [
+          "Harringay Green Lanes",
+          10528
+        ],
+        [
+          "South Hampstead",
+          10427
+        ],
+        [
+          "Clapham Junction",
+          10281
+        ],
+        [
+          "Clapham Junction",
+          10281
+        ],
+        [
+          "Seven Sisters",
+          10277
+        ],
+        [
+          "Camden Road",
+          10215
+        ],
+        [
+          "Wembley Central",
+          10167
+        ],
+        [
+          "New Cross ELL",
+          10150
+        ],
+        [
+          "Wandsworth Road",
+          9933
+        ],
+        [
+          "Edmonton Green",
+          9869
+        ],
+        [
+          "Crouch Hill",
+          9861
+        ],
+        [
+          "Kensington (Olympia)",
+          9692
+        ],
+        [
+          "Queens Park (London)",
+          9560
+        ],
+        [
+          "Kensal Green",
+          9516
+        ],
+        [
+          "Harrow & Wealdstone",
+          9459
+        ],
+        [
+          "London Euston",
+          9456
+        ],
+        [
+          "Shepherds Bush",
+          9336
+        ],
+        [
+          "White Hart Lane",
+          9264
+        ],
+        [
+          "Highbury & Islington",
+          9227
+        ],
+        [
+          "New Cross Gate",
+          9011
+        ],
+        [
+          "Leytonstone High Road",
+          8986
+        ],
+        [
+          "Barking",
+          8954
+        ],
+        [
+          "Canada Water",
+          8896
+        ],
+        [
+          "Stratford (London)",
+          8732
+        ],
+        [
+          "Brockley",
+          8694
+        ],
+        [
+          "Rotherhithe",
+          8656
+        ],
+        [
+          "Peckham Rye",
+          8565
+        ],
+        [
+          "Norwood Junction",
+          8410
+        ],
+        [
+          "Willesden Junction",
+          8244
+        ],
+        [
+          "Surrey Quays",
+          8235
+        ],
+        [
+          "Wood Street",
+          8149
+        ],
+        [
+          "Harlesden",
+          8006
+        ],
+        [
+          "Wapping",
+          7997
+        ],
+        [
+          "Anerley",
+          7818
+        ],
+        [
+          "Denmark Hill",
+          7796
+        ],
+        [
+          "Forest Hill",
+          7680
+        ],
+        [
+          "Imperial Wharf",
+          7627
+        ],
+        [
+          "Blackhorse Road",
+          7600
+        ],
+        [
+          "Woodgrange Park",
+          7546
+        ],
+        [
+          "Wanstead Park",
+          7316
+        ],
+        [
+          "Acton Central",
+          7298
+        ],
+        [
+          "Kensal Rise",
+          7054
+        ],
+        [
+          "Silver Street",
+          6945
+        ],
+        [
+          "Finchley Road & Frognal",
+          6891
+        ],
+        [
+          "Brondesbury Park",
+          6883
+        ],
+        [
+          "Gospel Oak",
+          6346
+        ],
+        [
+          "Bush Hill Park",
+          6222
+        ],
+        [
+          "North Wembley",
+          6211
+        ],
+        [
+          "Sydenham",
+          6035
+        ],
+        [
+          "Turkey Street",
+          5820
+        ],
+        [
+          "Highams Park",
+          5427
+        ],
+        [
+          "Kew Gardens",
+          5191
+        ],
+        [
+          "Theobalds Grove",
+          5148
+        ],
+        [
+          "Watford Junction",
+          4961
+        ],
+        [
+          "Hampstead Heath",
+          4905
+        ],
+        [
+          "Enfield Town",
+          4757
+        ],
+        [
+          "Penge West",
+          4600
+        ],
+        [
+          "Watford Junction",
+          4522
+        ],
+        [
+          "Honor Oak Park",
+          4387
+        ],
+        [
+          "Gunnersbury",
+          4351
+        ],
+        [
+          "Richmond (London)",
+          4298
+        ],
+        [
+          "Romford",
+          4279
+        ],
+        [
+          "Kenton",
+          4171
+        ],
+        [
+          "Watford High Street",
+          4139
+        ],
+        [
+          "Hatch End",
+          4024
+        ],
+        [
+          "Stonebridge Park",
+          3996
+        ],
+        [
+          "South Kenton",
+          3928
+        ],
+        [
+          "London Liverpool Street",
+          3787
+        ],
+        [
+          "Southbury",
+          3660
+        ],
+        [
+          "Hackney Wick",
+          3454
+        ],
+        [
+          "Crystal Palace",
+          3064
+        ],
+        [
+          "Headstone Lane",
+          3002
+        ],
+        [
+          "Bushey",
+          2959
+        ],
+        [
+          "Emerson Park",
+          2928
+        ],
+        [
+          "Carpenders Park",
+          2853
+        ],
+        [
+          "Bushey",
+          2796
+        ],
+        [
+          "Barking Riverside",
+          2312
+        ],
+        [
+          "Chingford",
+          2175
+        ],
+        [
+          "Upminster",
+          2103
+        ],
+        [
+          "Cheshunt",
+          1678
+        ],
+        [
+          "London Bridge",
+          1293
+        ]
+      ]
+    },
+    "elizabeth": {
+      "name": "Elizabeth",
+      "color": "#9364CD",
+      "station_count": 43,
+      "total_population": 242847,
+      "avg_population_per_station": 5647,
+      "stations": [
+        [
+          "Whitechapel",
+          11926
+        ],
+        [
+          "Seven Kings",
+          10738
+        ],
+        [
+          "Maryland",
+          10646
+        ],
+        [
+          "Forest Gate",
+          10330
+        ],
+        [
+          "Paddington",
+          10205
+        ],
+        [
+          "London Paddington",
+          10180
+        ],
+        [
+          "Ilford",
+          9480
+        ],
+        [
+          "Stratford (London)",
+          8732
+        ],
+        [
+          "Farringdon",
+          8663
+        ],
+        [
+          "Canary Wharf",
+          7538
+        ],
+        [
+          "Goodmayes",
+          7525
+        ],
+        [
+          "West Ealing",
+          7490
+        ],
+        [
+          "Custom House",
+          7403
+        ],
+        [
+          "Abbey Wood",
+          7322
+        ],
+        [
+          "Chadwell Heath",
+          7285
+        ],
+        [
+          "Woolwich",
+          7219
+        ],
+        [
+          "Southall",
+          7145
+        ],
+        [
+          "Slough",
+          7112
+        ],
+        [
+          "West Drayton",
+          7111
+        ],
+        [
+          "Hayes & Harlington",
+          6443
+        ],
+        [
+          "Hanwell",
+          6324
+        ],
+        [
+          "Brentwood",
+          5853
+        ],
+        [
+          "Ealing Broadway",
+          5485
+        ],
+        [
+          "Acton Main Line",
+          5242
+        ],
+        [
+          "Tottenham Court Road",
+          4901
+        ],
+        [
+          "Harold Wood",
+          4595
+        ],
+        [
+          "Romford",
+          4279
+        ],
+        [
+          "Manor Park",
+          4216
+        ],
+        [
+          "Gidea Park",
+          3978
+        ],
+        [
+          "London Liverpool Street",
+          3787
+        ],
+        [
+          "Burnham (Berks)",
+          3749
+        ],
+        [
+          "Maidenhead",
+          3194
+        ],
+        [
+          "Bond Street",
+          3190
+        ],
+        [
+          "Liverpool Street",
+          3128
+        ],
+        [
+          "Twyford",
+          2784
+        ],
+        [
+          "Reading",
+          2667
+        ],
+        [
+          "Shenfield",
+          2408
+        ],
+        [
+          "Langley (Berks)",
+          1078
+        ],
+        [
+          "Iver",
+          977
+        ],
+        [
+          "Taplow",
+          519
+        ],
+        [
+          "Heathrow Terminals 2 & 3",
+          0
+        ],
+        [
+          "Heathrow Terminal 4",
+          0
+        ],
+        [
+          "Heathrow Terminal 5",
+          0
+        ]
+      ]
+    },
+    "dlr": {
+      "name": "Dlr",
+      "color": "#00A4A7",
+      "station_count": 45,
+      "total_population": 375825,
+      "avg_population_per_station": 8351,
+      "stations": [
+        [
+          "Crossharbour",
+          16584
+        ],
+        [
+          "Langdon Park",
+          16030
+        ],
+        [
+          "Devons Road",
+          15815
+        ],
+        [
+          "Limehouse",
+          15040
+        ],
+        [
+          "Westferry",
+          14898
+        ],
+        [
+          "Shadwell",
+          14870
+        ],
+        [
+          "All Saints",
+          13916
+        ],
+        [
+          "Blackwall",
+          13175
+        ],
+        [
+          "Bow Church",
+          12479
+        ],
+        [
+          "Royal Victoria",
+          11463
+        ],
+        [
+          "Poplar",
+          11167
+        ],
+        [
+          "Elverson Road",
+          10954
+        ],
+        [
+          "Lewisham",
+          10894
+        ],
+        [
+          "Greenwich",
+          10480
+        ],
+        [
+          "Deptford Bridge",
+          10231
+        ],
+        [
+          "Stratford International",
+          9819
+        ],
+        [
+          "Canning Town",
+          9531
+        ],
+        [
+          "Woolwich Arsenal",
+          9414
+        ],
+        [
+          "West India Quay",
+          9338
+        ],
+        [
+          "Stratford",
+          8732
+        ],
+        [
+          "Tower Gateway",
+          8190
+        ],
+        [
+          "Custom House (for ExCel)",
+          8075
+        ],
+        [
+          "South Quay",
+          7750
+        ],
+        [
+          "Stratford High Street",
+          7662
+        ],
+        [
+          "Island Gardens",
+          7380
+        ],
+        [
+          "Prince Regent",
+          7126
+        ],
+        [
+          "East India",
+          7100
+        ],
+        [
+          "Abbey Road",
+          7025
+        ],
+        [
+          "Mudchute",
+          6909
+        ],
+        [
+          "Cutty Sark (for Maritime Greenwich)",
+          6308
+        ],
+        [
+          "West Silvertown",
+          5516
+        ],
+        [
+          "Pontoon Dock",
+          5511
+        ],
+        [
+          "Cyprus",
+          5271
+        ],
+        [
+          "West Ham",
+          5049
+        ],
+        [
+          "Beckton",
+          4957
+        ],
+        [
+          "Canary Wharf",
+          4470
+        ],
+        [
+          "Beckton Park",
+          3907
+        ],
+        [
+          "Star Lane",
+          3876
+        ],
+        [
+          "Heron Quays",
+          3758
+        ],
+        [
+          "Royal Albert",
+          3409
+        ],
+        [
+          "Gallions Reach",
+          3383
+        ],
+        [
+          "Pudding Mill Lane",
+          3335
+        ],
+        [
+          "King George V",
+          2798
+        ],
+        [
+          "London City Airport",
+          1680
+        ],
+        [
+          "Bank",
+          550
+        ]
+      ]
+    }
+  },
+  "line_colors": {
+    "bakerloo": "#B36305",
+    "central": "#E32017",
+    "circle": "#FFD300",
+    "district": "#00782A",
+    "hammersmith-city": "#F3A9BB",
+    "jubilee": "#A0A5A9",
+    "metropolitan": "#9B0056",
+    "northern": "#000000",
+    "piccadilly": "#003688",
+    "victoria": "#0098D4",
+    "waterloo-city": "#95CDBA",
+    "london-overground": "#EE7C0E",
+    "elizabeth": "#9364CD",
+    "dlr": "#00A4A7"
+  },
+  "radius_meters": 500,
+  "analysis_notes": "Population estimated within 500m radius of each station"
+}

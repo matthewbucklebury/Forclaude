@@ -1,0 +1,1733 @@
+{
+  "thresholds": {
+    "population_threshold": 6697,
+    "usage_threshold": 13369,
+    "pop_25": 4080,
+    "pop_75": 9515,
+    "usage_25": 6931,
+    "usage_75": 25945
+  },
+  "type_counts": {
+    "commuter_hub": 46,
+    "balanced": 84,
+    "residential_hub": 46,
+    "low_activity": 84,
+    "no_usage_data": 209,
+    "no_population_data": 4
+  },
+  "line_metrics": {
+    "bakerloo": {
+      "name": "Bakerloo",
+      "color": "#B36305",
+      "station_count": 25,
+      "stations_with_usage": 24,
+      "total_population_500m": 195418,
+      "total_population_1km": 736700,
+      "total_annual_usage": 287660000,
+      "total_daily_usage": 788097,
+      "avg_daily_per_station": 31523,
+      "avg_pop_per_station": 7816,
+      "efficiency_ratio": 4.03
+    },
+    "central": {
+      "name": "Central",
+      "color": "#E32017",
+      "station_count": 49,
+      "stations_with_usage": 48,
+      "total_population_500m": 267145,
+      "total_population_1km": 1050199,
+      "total_annual_usage": 489500000,
+      "total_daily_usage": 1341072,
+      "avg_daily_per_station": 27368,
+      "avg_pop_per_station": 5451,
+      "efficiency_ratio": 5.02
+    },
+    "circle": {
+      "name": "Circle",
+      "color": "#FFD300",
+      "station_count": 36,
+      "stations_with_usage": 33,
+      "total_population_500m": 260928,
+      "total_population_1km": 1133110,
+      "total_annual_usage": 538179999,
+      "total_daily_usage": 1474450,
+      "avg_daily_per_station": 40956,
+      "avg_pop_per_station": 7248,
+      "efficiency_ratio": 5.65
+    },
+    "district": {
+      "name": "District",
+      "color": "#00782A",
+      "station_count": 60,
+      "stations_with_usage": 57,
+      "total_population_500m": 456217,
+      "total_population_1km": 1803576,
+      "total_annual_usage": 515909999,
+      "total_daily_usage": 1413425,
+      "avg_daily_per_station": 23557,
+      "avg_pop_per_station": 7603,
+      "efficiency_ratio": 3.1
+    },
+    "hammersmith-city": {
+      "name": "Hammersmith City",
+      "color": "#F3A9BB",
+      "station_count": 29,
+      "stations_with_usage": 28,
+      "total_population_500m": 303292,
+      "total_population_1km": 1218098,
+      "total_annual_usage": 399360000,
+      "total_daily_usage": 1094125,
+      "avg_daily_per_station": 37728,
+      "avg_pop_per_station": 10458,
+      "efficiency_ratio": 3.61
+    },
+    "jubilee": {
+      "name": "Jubilee",
+      "color": "#A0A5A9",
+      "station_count": 27,
+      "stations_with_usage": 27,
+      "total_population_500m": 162735,
+      "total_population_1km": 709186,
+      "total_annual_usage": 481420000,
+      "total_daily_usage": 1318947,
+      "avg_daily_per_station": 48849,
+      "avg_pop_per_station": 6027,
+      "efficiency_ratio": 8.1
+    },
+    "metropolitan": {
+      "name": "Metropolitan",
+      "color": "#9B0056",
+      "station_count": 35,
+      "stations_with_usage": 35,
+      "total_population_500m": 171416,
+      "total_population_1km": 672143,
+      "total_annual_usage": 341120000,
+      "total_daily_usage": 934558,
+      "avg_daily_per_station": 26701,
+      "avg_pop_per_station": 4897,
+      "efficiency_ratio": 5.45
+    },
+    "northern": {
+      "name": "Northern",
+      "color": "#000000",
+      "station_count": 52,
+      "stations_with_usage": 49,
+      "total_population_500m": 394953,
+      "total_population_1km": 1553237,
+      "total_annual_usage": 662779997,
+      "total_daily_usage": 1815812,
+      "avg_daily_per_station": 34919,
+      "avg_pop_per_station": 7595,
+      "efficiency_ratio": 4.6
+    },
+    "piccadilly": {
+      "name": "Piccadilly",
+      "color": "#003688",
+      "station_count": 53,
+      "stations_with_usage": 52,
+      "total_population_500m": 311467,
+      "total_population_1km": 1197229,
+      "total_annual_usage": 440079999,
+      "total_daily_usage": 1205671,
+      "avg_daily_per_station": 22748,
+      "avg_pop_per_station": 5876,
+      "efficiency_ratio": 3.87
+    },
+    "victoria": {
+      "name": "Victoria",
+      "color": "#0098D4",
+      "station_count": 16,
+      "stations_with_usage": 16,
+      "total_population_500m": 132539,
+      "total_population_1km": 569264,
+      "total_annual_usage": 416599999,
+      "total_daily_usage": 1141361,
+      "avg_daily_per_station": 71335,
+      "avg_pop_per_station": 8283,
+      "efficiency_ratio": 8.61
+    },
+    "waterloo-city": {
+      "name": "Waterloo City",
+      "color": "#95CDBA",
+      "station_count": 2,
+      "stations_with_usage": 1,
+      "total_population_500m": 4092,
+      "total_population_1km": 27437,
+      "total_annual_usage": 77390000,
+      "total_daily_usage": 212027,
+      "avg_daily_per_station": 106013,
+      "avg_pop_per_station": 2046,
+      "efficiency_ratio": 51.82
+    }
+  },
+  "stations_by_type": {
+    "commuter_hub": [
+      {
+        "name": "Baker Street",
+        "daily_usage": 62794,
+        "population_500m": 5254,
+        "usage_per_capita": 11.95
+      },
+      {
+        "name": "Charing Cross",
+        "daily_usage": 45232,
+        "population_500m": 2600,
+        "usage_per_capita": 17.4
+      },
+      {
+        "name": "Embankment",
+        "daily_usage": 49232,
+        "population_500m": 2084,
+        "usage_per_capita": 23.62
+      },
+      {
+        "name": "Oxford Circus",
+        "daily_usage": 145698,
+        "population_500m": 5072,
+        "usage_per_capita": 28.73
+      },
+      {
+        "name": "Piccadilly Circus",
+        "daily_usage": 78054,
+        "population_500m": 3816,
+        "usage_per_capita": 20.45
+      },
+      {
+        "name": "Waterloo",
+        "daily_usage": 212027,
+        "population_500m": 3294,
+        "usage_per_capita": 64.37
+      },
+      {
+        "name": "Bond Street",
+        "daily_usage": 112630,
+        "population_500m": 3944,
+        "usage_per_capita": 28.56
+      },
+      {
+        "name": "Chancery Lane",
+        "daily_usage": 23890,
+        "population_500m": 6592,
+        "usage_per_capita": 3.62
+      },
+      {
+        "name": "Ealing Broadway",
+        "daily_usage": 46794,
+        "population_500m": 5039,
+        "usage_per_capita": 9.29
+      },
+      {
+        "name": "Holborn",
+        "daily_usage": 57095,
+        "population_500m": 6637,
+        "usage_per_capita": 8.6
+      },
+      {
+        "name": "Liverpool Street",
+        "daily_usage": 167671,
+        "population_500m": 2879,
+        "usage_per_capita": 58.24
+      },
+      {
+        "name": "North Acton",
+        "daily_usage": 16739,
+        "population_500m": 3663,
+        "usage_per_capita": 4.57
+      },
+      {
+        "name": "St. Paul's",
+        "daily_usage": 25808,
+        "population_500m": 4459,
+        "usage_per_capita": 5.79
+      },
+      {
+        "name": "Tottenham Court Road",
+        "daily_usage": 170027,
+        "population_500m": 5612,
+        "usage_per_capita": 30.3
+      },
+      {
+        "name": "White City",
+        "daily_usage": 22410,
+        "population_500m": 6594,
+        "usage_per_capita": 3.4
+      },
+      {
+        "name": "Blackfriars",
+        "daily_usage": 30520,
+        "population_500m": 1336,
+        "usage_per_capita": 22.84
+      },
+      {
+        "name": "King's Cross St. Pancras",
+        "daily_usage": 211315,
+        "population_500m": 5582,
+        "usage_per_capita": 37.86
+      },
+      {
+        "name": "Moorgate",
+        "daily_usage": 73780,
+        "population_500m": 4646,
+        "usage_per_capita": 15.88
+      },
+      {
+        "name": "St. James's Park",
+        "daily_usage": 28958,
+        "population_500m": 2023,
+        "usage_per_capita": 14.31
+      },
+      {
+        "name": "South Kensington",
+        "daily_usage": 80767,
+        "population_500m": 5815,
+        "usage_per_capita": 13.89
+      },
+      {
+        "name": "Temple",
+        "daily_usage": 22602,
+        "population_500m": 1860,
+        "usage_per_capita": 12.15
+      },
+      {
+        "name": "Tower Hill",
+        "daily_usage": 44931,
+        "population_500m": 3816,
+        "usage_per_capita": 11.77
+      },
+      {
+        "name": "Victoria",
+        "daily_usage": 171753,
+        "population_500m": 3880,
+        "usage_per_capita": 44.27
+      },
+      {
+        "name": "Wood Lane",
+        "daily_usage": 14246,
+        "population_500m": 5415,
+        "usage_per_capita": 2.63
+      },
+      {
+        "name": "Westminster",
+        "daily_usage": 53726,
+        "population_500m": 355,
+        "usage_per_capita": 151.34
+      },
+      {
+        "name": "Hammersmith (Dist&Picc Line)",
+        "daily_usage": 27178,
+        "population_500m": 6609,
+        "usage_per_capita": 4.11
+      },
+      {
+        "name": "Richmond",
+        "daily_usage": 32794,
+        "population_500m": 4298,
+        "usage_per_capita": 7.63
+      },
+      {
+        "name": "Turnham Green",
+        "daily_usage": 13780,
+        "population_500m": 6449,
+        "usage_per_capita": 2.14
+      },
+      {
+        "name": "West Ham",
+        "daily_usage": 15041,
+        "population_500m": 5614,
+        "usage_per_capita": 2.68
+      },
+      {
+        "name": "Wimbledon",
+        "daily_usage": 47671,
+        "population_500m": 5243,
+        "usage_per_capita": 9.09
+      },
+      {
+        "name": "Canary Wharf",
+        "daily_usage": 90904,
+        "population_500m": 3469,
+        "usage_per_capita": 26.2
+      },
+      {
+        "name": "Green Park",
+        "daily_usage": 85205,
+        "population_500m": 1468,
+        "usage_per_capita": 58.04
+      },
+      {
+        "name": "London Bridge",
+        "daily_usage": 158602,
+        "population_500m": 923,
+        "usage_per_capita": 171.83
+      },
+      {
+        "name": "North Greenwich",
+        "daily_usage": 65013,
+        "population_500m": 1588,
+        "usage_per_capita": 40.94
+      },
+      {
+        "name": "Southwark",
+        "daily_usage": 24931,
+        "population_500m": 5905,
+        "usage_per_capita": 4.22
+      },
+      {
+        "name": "Wembley Park",
+        "daily_usage": 45287,
+        "population_500m": 6522,
+        "usage_per_capita": 6.94
+      },
+      {
+        "name": "Uxbridge",
+        "daily_usage": 14876,
+        "population_500m": 4328,
+        "usage_per_capita": 3.44
+      },
+      {
+        "name": "Clapham South",
+        "daily_usage": 18109,
+        "population_500m": 6317,
+        "usage_per_capita": 2.87
+      },
+      {
+        "name": "Goodge Street",
+        "daily_usage": 14904,
+        "population_500m": 5514,
+        "usage_per_capita": 2.7
+      },
+      {
+        "name": "Golders Green",
+        "daily_usage": 17095,
+        "population_500m": 5019,
+        "usage_per_capita": 3.41
+      },
+      {
+        "name": "Hendon Central",
+        "daily_usage": 20082,
+        "population_500m": 5694,
+        "usage_per_capita": 3.53
+      },
+      {
+        "name": "Leicester Square",
+        "daily_usage": 75506,
+        "population_500m": 5972,
+        "usage_per_capita": 12.64
+      },
+      {
+        "name": "Morden",
+        "daily_usage": 23835,
+        "population_500m": 3595,
+        "usage_per_capita": 6.63
+      },
+      {
+        "name": "Covent Garden",
+        "daily_usage": 37041,
+        "population_500m": 5955,
+        "usage_per_capita": 6.22
+      },
+      {
+        "name": "Knightsbridge",
+        "daily_usage": 39068,
+        "population_500m": 2045,
+        "usage_per_capita": 19.1
+      },
+      {
+        "name": "Vauxhall",
+        "daily_usage": 60657,
+        "population_500m": 5948,
+        "usage_per_capita": 10.2
+      }
+    ],
+    "residential_hub": [
+      {
+        "name": "Edgware Road (Bakerloo)",
+        "daily_usage": 10191,
+        "population_500m": 15835,
+        "usage_per_capita": 0.64
+      },
+      {
+        "name": "Harlesden",
+        "daily_usage": 7397,
+        "population_500m": 8006,
+        "usage_per_capita": 0.92
+      },
+      {
+        "name": "Kilburn Park",
+        "daily_usage": 7506,
+        "population_500m": 13235,
+        "usage_per_capita": 0.57
+      },
+      {
+        "name": "Kensal Green",
+        "daily_usage": 5424,
+        "population_500m": 9516,
+        "usage_per_capita": 0.57
+      },
+      {
+        "name": "Lambeth North",
+        "daily_usage": 7479,
+        "population_500m": 7628,
+        "usage_per_capita": 0.98
+      },
+      {
+        "name": "Maida Vale",
+        "daily_usage": 7863,
+        "population_500m": 9824,
+        "usage_per_capita": 0.8
+      },
+      {
+        "name": "Queen's Park",
+        "daily_usage": 12986,
+        "population_500m": 9060,
+        "usage_per_capita": 1.43
+      },
+      {
+        "name": "Willesden Junction",
+        "daily_usage": 12630,
+        "population_500m": 7858,
+        "usage_per_capita": 1.61
+      },
+      {
+        "name": "Warwick Avenue",
+        "daily_usage": 8575,
+        "population_500m": 12028,
+        "usage_per_capita": 0.71
+      },
+      {
+        "name": "Hainault",
+        "daily_usage": 8301,
+        "population_500m": 7817,
+        "usage_per_capita": 1.06
+      },
+      {
+        "name": "Holland Park",
+        "daily_usage": 8082,
+        "population_500m": 7641,
+        "usage_per_capita": 1.06
+      },
+      {
+        "name": "Lancaster Gate",
+        "daily_usage": 8465,
+        "population_500m": 8000,
+        "usage_per_capita": 1.06
+      },
+      {
+        "name": "Newbury Park",
+        "daily_usage": 9068,
+        "population_500m": 6837,
+        "usage_per_capita": 1.33
+      },
+      {
+        "name": "South Woodford",
+        "daily_usage": 11369,
+        "population_500m": 6697,
+        "usage_per_capita": 1.7
+      },
+      {
+        "name": "Bayswater",
+        "daily_usage": 10575,
+        "population_500m": 15244,
+        "usage_per_capita": 0.69
+      },
+      {
+        "name": "Edgware Road (Circle Line)",
+        "daily_usage": 10191,
+        "population_500m": 16601,
+        "usage_per_capita": 0.61
+      },
+      {
+        "name": "Goldhawk Road",
+        "daily_usage": 5205,
+        "population_500m": 11188,
+        "usage_per_capita": 0.47
+      },
+      {
+        "name": "Latimer Road",
+        "daily_usage": 8465,
+        "population_500m": 11160,
+        "usage_per_capita": 0.76
+      },
+      {
+        "name": "Royal Oak",
+        "daily_usage": 6109,
+        "population_500m": 12903,
+        "usage_per_capita": 0.47
+      },
+      {
+        "name": "Shepherd's Bush Market",
+        "daily_usage": 9315,
+        "population_500m": 8665,
+        "usage_per_capita": 1.08
+      },
+      {
+        "name": "Westbourne Park",
+        "daily_usage": 10739,
+        "population_500m": 15343,
+        "usage_per_capita": 0.7
+      },
+      {
+        "name": "Bromley-by-Bow",
+        "daily_usage": 10739,
+        "population_500m": 11572,
+        "usage_per_capita": 0.93
+      },
+      {
+        "name": "Bow Road",
+        "daily_usage": 11917,
+        "population_500m": 15042,
+        "usage_per_capita": 0.79
+      },
+      {
+        "name": "Chiswick Park",
+        "daily_usage": 6000,
+        "population_500m": 7934,
+        "usage_per_capita": 0.76
+      },
+      {
+        "name": "Plaistow",
+        "daily_usage": 12767,
+        "population_500m": 13715,
+        "usage_per_capita": 0.93
+      },
+      {
+        "name": "Ravenscourt Park",
+        "daily_usage": 7479,
+        "population_500m": 9258,
+        "usage_per_capita": 0.81
+      },
+      {
+        "name": "Stamford Brook",
+        "daily_usage": 6219,
+        "population_500m": 6980,
+        "usage_per_capita": 0.89
+      },
+      {
+        "name": "West Kensington",
+        "daily_usage": 10931,
+        "population_500m": 13953,
+        "usage_per_capita": 0.78
+      },
+      {
+        "name": "Queensbury",
+        "daily_usage": 8630,
+        "population_500m": 7494,
+        "usage_per_capita": 1.15
+      },
+      {
+        "name": "West Harrow",
+        "daily_usage": 3342,
+        "population_500m": 7249,
+        "usage_per_capita": 0.46
+      },
+      {
+        "name": "Borough",
+        "daily_usage": 11452,
+        "population_500m": 8593,
+        "usage_per_capita": 1.33
+      },
+      {
+        "name": "Burnt Oak",
+        "daily_usage": 12849,
+        "population_500m": 7181,
+        "usage_per_capita": 1.79
+      },
+      {
+        "name": "Brent Cross",
+        "daily_usage": 4986,
+        "population_500m": 7632,
+        "usage_per_capita": 0.65
+      },
+      {
+        "name": "Mornington Crescent",
+        "daily_usage": 8109,
+        "population_500m": 12496,
+        "usage_per_capita": 0.65
+      },
+      {
+        "name": "South Wimbledon",
+        "daily_usage": 10410,
+        "population_500m": 8921,
+        "usage_per_capita": 1.17
+      },
+      {
+        "name": "Nine Elms",
+        "daily_usage": 11260,
+        "population_500m": 10123,
+        "usage_per_capita": 1.11
+      },
+      {
+        "name": "Alperton",
+        "daily_usage": 7095,
+        "population_500m": 10384,
+        "usage_per_capita": 0.68
+      },
+      {
+        "name": "Arsenal",
+        "daily_usage": 6219,
+        "population_500m": 11924,
+        "usage_per_capita": 0.52
+      },
+      {
+        "name": "Bounds Green",
+        "daily_usage": 11835,
+        "population_500m": 8108,
+        "usage_per_capita": 1.46
+      },
+      {
+        "name": "Caledonian Road",
+        "daily_usage": 10547,
+        "population_500m": 13399,
+        "usage_per_capita": 0.79
+      },
+      {
+        "name": "Hounslow Central",
+        "daily_usage": 8876,
+        "population_500m": 6973,
+        "usage_per_capita": 1.27
+      },
+      {
+        "name": "Hounslow East",
+        "daily_usage": 9479,
+        "population_500m": 8990,
+        "usage_per_capita": 1.05
+      },
+      {
+        "name": "Hounslow West",
+        "daily_usage": 8027,
+        "population_500m": 8891,
+        "usage_per_capita": 0.9
+      },
+      {
+        "name": "Northfields",
+        "daily_usage": 7068,
+        "population_500m": 7280,
+        "usage_per_capita": 0.97
+      },
+      {
+        "name": "South Harrow",
+        "daily_usage": 5698,
+        "population_500m": 8529,
+        "usage_per_capita": 0.67
+      },
+      {
+        "name": "Sudbury Town",
+        "daily_usage": 4575,
+        "population_500m": 7511,
+        "usage_per_capita": 0.61
+      }
+    ],
+    "balanced": [
+      {
+        "name": "Elephant & Castle",
+        "daily_usage": 38712,
+        "population_500m": 14169,
+        "usage_per_capita": 2.73
+      },
+      {
+        "name": "Harrow & Wealdstone",
+        "daily_usage": 14082,
+        "population_500m": 9459,
+        "usage_per_capita": 1.49
+      },
+      {
+        "name": "Marylebone",
+        "daily_usage": 24273,
+        "population_500m": 12747,
+        "usage_per_capita": 1.9
+      },
+      {
+        "name": "Wembley Central",
+        "daily_usage": 13534,
+        "population_500m": 9794,
+        "usage_per_capita": 1.38
+      },
+      {
+        "name": "Bethnal Green",
+        "daily_usage": 27726,
+        "population_500m": 13263,
+        "usage_per_capita": 2.09
+      },
+      {
+        "name": "Gants Hill",
+        "daily_usage": 13369,
+        "population_500m": 8271,
+        "usage_per_capita": 1.62
+      },
+      {
+        "name": "Leyton",
+        "daily_usage": 24520,
+        "population_500m": 10317,
+        "usage_per_capita": 2.38
+      },
+      {
+        "name": "Leytonstone",
+        "daily_usage": 19589,
+        "population_500m": 7236,
+        "usage_per_capita": 2.71
+      },
+      {
+        "name": "Marble Arch",
+        "daily_usage": 25205,
+        "population_500m": 7309,
+        "usage_per_capita": 3.45
+      },
+      {
+        "name": "Mile End",
+        "daily_usage": 30904,
+        "population_500m": 11789,
+        "usage_per_capita": 2.62
+      },
+      {
+        "name": "Notting Hill Gate",
+        "daily_usage": 35150,
+        "population_500m": 10800,
+        "usage_per_capita": 3.25
+      },
+      {
+        "name": "Queensway",
+        "daily_usage": 16465,
+        "population_500m": 11033,
+        "usage_per_capita": 1.49
+      },
+      {
+        "name": "Shepherd's Bush (Central)",
+        "daily_usage": 36301,
+        "population_500m": 9037,
+        "usage_per_capita": 4.02
+      },
+      {
+        "name": "Stratford",
+        "daily_usage": 152657,
+        "population_500m": 8732,
+        "usage_per_capita": 17.48
+      },
+      {
+        "name": "Aldgate",
+        "daily_usage": 20794,
+        "population_500m": 8536,
+        "usage_per_capita": 2.44
+      },
+      {
+        "name": "Barbican",
+        "daily_usage": 14739,
+        "population_500m": 12218,
+        "usage_per_capita": 1.21
+      },
+      {
+        "name": "Euston Square",
+        "daily_usage": 33589,
+        "population_500m": 9515,
+        "usage_per_capita": 3.53
+      },
+      {
+        "name": "Farringdon",
+        "daily_usage": 113041,
+        "population_500m": 9325,
+        "usage_per_capita": 12.12
+      },
+      {
+        "name": "Great Portland Street",
+        "daily_usage": 16219,
+        "population_500m": 8637,
+        "usage_per_capita": 1.88
+      },
+      {
+        "name": "Gloucester Road",
+        "daily_usage": 32958,
+        "population_500m": 8776,
+        "usage_per_capita": 3.76
+      },
+      {
+        "name": "Hammersmith (H&C Line)",
+        "daily_usage": 27178,
+        "population_500m": 7802,
+        "usage_per_capita": 3.48
+      },
+      {
+        "name": "High Street Kensington",
+        "daily_usage": 27945,
+        "population_500m": 8786,
+        "usage_per_capita": 3.18
+      },
+      {
+        "name": "Ladbroke Grove",
+        "daily_usage": 16794,
+        "population_500m": 13442,
+        "usage_per_capita": 1.25
+      },
+      {
+        "name": "Sloane Square",
+        "daily_usage": 39013,
+        "population_500m": 7009,
+        "usage_per_capita": 5.57
+      },
+      {
+        "name": "Acton Town",
+        "daily_usage": 13863,
+        "population_500m": 6747,
+        "usage_per_capita": 2.05
+      },
+      {
+        "name": "Aldgate East",
+        "daily_usage": 33753,
+        "population_500m": 13600,
+        "usage_per_capita": 2.48
+      },
+      {
+        "name": "Barking",
+        "daily_usage": 49945,
+        "population_500m": 10100,
+        "usage_per_capita": 4.95
+      },
+      {
+        "name": "Barons Court",
+        "daily_usage": 15698,
+        "population_500m": 9967,
+        "usage_per_capita": 1.57
+      },
+      {
+        "name": "Dagenham Heathway",
+        "daily_usage": 13479,
+        "population_500m": 8870,
+        "usage_per_capita": 1.52
+      },
+      {
+        "name": "Earl's Court",
+        "daily_usage": 45452,
+        "population_500m": 14076,
+        "usage_per_capita": 3.23
+      },
+      {
+        "name": "East Ham",
+        "daily_usage": 30465,
+        "population_500m": 10550,
+        "usage_per_capita": 2.89
+      },
+      {
+        "name": "East Putney",
+        "daily_usage": 16739,
+        "population_500m": 9127,
+        "usage_per_capita": 1.83
+      },
+      {
+        "name": "Fulham Broadway",
+        "daily_usage": 18876,
+        "population_500m": 10426,
+        "usage_per_capita": 1.81
+      },
+      {
+        "name": "Parsons Green",
+        "daily_usage": 15890,
+        "population_500m": 12184,
+        "usage_per_capita": 1.3
+      },
+      {
+        "name": "Putney Bridge",
+        "daily_usage": 13534,
+        "population_500m": 6851,
+        "usage_per_capita": 1.98
+      },
+      {
+        "name": "Southfields",
+        "daily_usage": 14082,
+        "population_500m": 9322,
+        "usage_per_capita": 1.51
+      },
+      {
+        "name": "Stepney Green",
+        "daily_usage": 14931,
+        "population_500m": 12999,
+        "usage_per_capita": 1.15
+      },
+      {
+        "name": "Upton Park",
+        "daily_usage": 32191,
+        "population_500m": 16887,
+        "usage_per_capita": 1.91
+      },
+      {
+        "name": "West Brompton",
+        "daily_usage": 13917,
+        "population_500m": 11764,
+        "usage_per_capita": 1.18
+      },
+      {
+        "name": "Whitechapel",
+        "daily_usage": 50082,
+        "population_500m": 11685,
+        "usage_per_capita": 4.29
+      },
+      {
+        "name": "Bermondsey",
+        "daily_usage": 20054,
+        "population_500m": 10158,
+        "usage_per_capita": 1.97
+      },
+      {
+        "name": "Canning Town",
+        "daily_usage": 34575,
+        "population_500m": 9324,
+        "usage_per_capita": 3.71
+      },
+      {
+        "name": "Canada Water",
+        "daily_usage": 27808,
+        "population_500m": 9059,
+        "usage_per_capita": 3.07
+      },
+      {
+        "name": "Finchley Road",
+        "daily_usage": 20821,
+        "population_500m": 8725,
+        "usage_per_capita": 2.39
+      },
+      {
+        "name": "Kilburn",
+        "daily_usage": 15205,
+        "population_500m": 10081,
+        "usage_per_capita": 1.51
+      },
+      {
+        "name": "St. John's Wood",
+        "daily_usage": 16904,
+        "population_500m": 7064,
+        "usage_per_capita": 2.39
+      },
+      {
+        "name": "Swiss Cottage",
+        "daily_usage": 15397,
+        "population_500m": 10749,
+        "usage_per_capita": 1.43
+      },
+      {
+        "name": "West Hampstead",
+        "daily_usage": 23095,
+        "population_500m": 10528,
+        "usage_per_capita": 2.19
+      },
+      {
+        "name": "Willesden Green",
+        "daily_usage": 15890,
+        "population_500m": 7781,
+        "usage_per_capita": 2.04
+      },
+      {
+        "name": "Harrow-on-the-Hill",
+        "daily_usage": 23671,
+        "population_500m": 8786,
+        "usage_per_capita": 2.69
+      },
+      {
+        "name": "Battersea Power Station",
+        "daily_usage": 25287,
+        "population_500m": 7060,
+        "usage_per_capita": 3.58
+      },
+      {
+        "name": "Archway",
+        "daily_usage": 20082,
+        "population_500m": 10985,
+        "usage_per_capita": 1.83
+      },
+      {
+        "name": "Angel",
+        "daily_usage": 34739,
+        "population_500m": 10172,
+        "usage_per_capita": 3.42
+      },
+      {
+        "name": "Balham",
+        "daily_usage": 28054,
+        "population_500m": 11197,
+        "usage_per_capita": 2.51
+      },
+      {
+        "name": "Belsize Park",
+        "daily_usage": 14438,
+        "population_500m": 9233,
+        "usage_per_capita": 1.56
+      },
+      {
+        "name": "Chalk Farm",
+        "daily_usage": 13534,
+        "population_500m": 11696,
+        "usage_per_capita": 1.16
+      },
+      {
+        "name": "Clapham Common",
+        "daily_usage": 22246,
+        "population_500m": 9441,
+        "usage_per_capita": 2.36
+      },
+      {
+        "name": "Clapham North",
+        "daily_usage": 14191,
+        "population_500m": 12508,
+        "usage_per_capita": 1.13
+      },
+      {
+        "name": "Colliers Wood",
+        "daily_usage": 15178,
+        "population_500m": 8386,
+        "usage_per_capita": 1.81
+      },
+      {
+        "name": "Camden Town",
+        "daily_usage": 51424,
+        "population_500m": 10098,
+        "usage_per_capita": 5.09
+      },
+      {
+        "name": "East Finchley",
+        "daily_usage": 15095,
+        "population_500m": 6759,
+        "usage_per_capita": 2.23
+      },
+      {
+        "name": "Euston",
+        "daily_usage": 90931,
+        "population_500m": 7067,
+        "usage_per_capita": 12.87
+      },
+      {
+        "name": "Finchley Central",
+        "daily_usage": 14191,
+        "population_500m": 7714,
+        "usage_per_capita": 1.84
+      },
+      {
+        "name": "Kennington",
+        "daily_usage": 13506,
+        "population_500m": 14002,
+        "usage_per_capita": 0.96
+      },
+      {
+        "name": "Old Street",
+        "daily_usage": 45315,
+        "population_500m": 15034,
+        "usage_per_capita": 3.01
+      },
+      {
+        "name": "Oval",
+        "daily_usage": 14821,
+        "population_500m": 8199,
+        "usage_per_capita": 1.81
+      },
+      {
+        "name": "Stockwell",
+        "daily_usage": 20821,
+        "population_500m": 12817,
+        "usage_per_capita": 1.62
+      },
+      {
+        "name": "Tooting Bec",
+        "daily_usage": 17863,
+        "population_500m": 11195,
+        "usage_per_capita": 1.6
+      },
+      {
+        "name": "Tooting Broadway",
+        "daily_usage": 34821,
+        "population_500m": 10311,
+        "usage_per_capita": 3.38
+      },
+      {
+        "name": "Tufnell Park",
+        "daily_usage": 13452,
+        "population_500m": 9664,
+        "usage_per_capita": 1.39
+      },
+      {
+        "name": "Warren Street",
+        "daily_usage": 40493,
+        "population_500m": 8810,
+        "usage_per_capita": 4.6
+      },
+      {
+        "name": "Finsbury Park",
+        "daily_usage": 58136,
+        "population_500m": 11043,
+        "usage_per_capita": 5.26
+      },
+      {
+        "name": "Holloway Road",
+        "daily_usage": 14438,
+        "population_500m": 11607,
+        "usage_per_capita": 1.24
+      },
+      {
+        "name": "Manor House",
+        "daily_usage": 16438,
+        "population_500m": 9404,
+        "usage_per_capita": 1.75
+      },
+      {
+        "name": "Russell Square",
+        "daily_usage": 24493,
+        "population_500m": 10236,
+        "usage_per_capita": 2.39
+      },
+      {
+        "name": "Turnpike Lane",
+        "daily_usage": 22383,
+        "population_500m": 10719,
+        "usage_per_capita": 2.09
+      },
+      {
+        "name": "Wood Green",
+        "daily_usage": 24630,
+        "population_500m": 9177,
+        "usage_per_capita": 2.68
+      },
+      {
+        "name": "Blackhorse Road",
+        "daily_usage": 25945,
+        "population_500m": 7600,
+        "usage_per_capita": 3.41
+      },
+      {
+        "name": "Brixton",
+        "daily_usage": 58602,
+        "population_500m": 11215,
+        "usage_per_capita": 5.23
+      },
+      {
+        "name": "Highbury & Islington",
+        "daily_usage": 41232,
+        "population_500m": 8340,
+        "usage_per_capita": 4.94
+      },
+      {
+        "name": "Pimlico",
+        "daily_usage": 20986,
+        "population_500m": 15326,
+        "usage_per_capita": 1.37
+      },
+      {
+        "name": "Seven Sisters",
+        "daily_usage": 34821,
+        "population_500m": 9347,
+        "usage_per_capita": 3.73
+      },
+      {
+        "name": "Tottenham Hale",
+        "daily_usage": 37945,
+        "population_500m": 8016,
+        "usage_per_capita": 4.73
+      },
+      {
+        "name": "Walthamstow Central",
+        "daily_usage": 36821,
+        "population_500m": 11008,
+        "usage_per_capita": 3.34
+      }
+    ],
+    "low_activity": [
+      {
+        "name": "Kenton",
+        "daily_usage": 4739,
+        "population_500m": 3713,
+        "usage_per_capita": 1.28
+      },
+      {
+        "name": "North Wembley",
+        "daily_usage": 3808,
+        "population_500m": 6211,
+        "usage_per_capita": 0.61
+      },
+      {
+        "name": "Regent's Park",
+        "daily_usage": 6328,
+        "population_500m": 6214,
+        "usage_per_capita": 1.02
+      },
+      {
+        "name": "Stonebridge Park",
+        "daily_usage": 6821,
+        "population_500m": 3996,
+        "usage_per_capita": 1.71
+      },
+      {
+        "name": "South Kenton",
+        "daily_usage": 2712,
+        "population_500m": 3928,
+        "usage_per_capita": 0.69
+      },
+      {
+        "name": "Barkingside",
+        "daily_usage": 3452,
+        "population_500m": 3491,
+        "usage_per_capita": 0.99
+      },
+      {
+        "name": "Buckhurst Hill",
+        "daily_usage": 6136,
+        "population_500m": 3708,
+        "usage_per_capita": 1.65
+      },
+      {
+        "name": "Chigwell",
+        "daily_usage": 849,
+        "population_500m": 1480,
+        "usage_per_capita": 0.57
+      },
+      {
+        "name": "Debden",
+        "daily_usage": 5424,
+        "population_500m": 3073,
+        "usage_per_capita": 1.77
+      },
+      {
+        "name": "East Acton",
+        "daily_usage": 10109,
+        "population_500m": 5256,
+        "usage_per_capita": 1.92
+      },
+      {
+        "name": "Epping",
+        "daily_usage": 9315,
+        "population_500m": 2801,
+        "usage_per_capita": 3.33
+      },
+      {
+        "name": "Fairlop",
+        "daily_usage": 2630,
+        "population_500m": 1435,
+        "usage_per_capita": 1.83
+      },
+      {
+        "name": "Greenford",
+        "daily_usage": 8958,
+        "population_500m": 1618,
+        "usage_per_capita": 5.54
+      },
+      {
+        "name": "Grange Hill",
+        "daily_usage": 958,
+        "population_500m": 2078,
+        "usage_per_capita": 0.46
+      },
+      {
+        "name": "Hanger Lane",
+        "daily_usage": 7917,
+        "population_500m": 4677,
+        "usage_per_capita": 1.69
+      },
+      {
+        "name": "Loughton",
+        "daily_usage": 7643,
+        "population_500m": 3140,
+        "usage_per_capita": 2.43
+      },
+      {
+        "name": "Northolt",
+        "daily_usage": 11726,
+        "population_500m": 5617,
+        "usage_per_capita": 2.09
+      },
+      {
+        "name": "Perivale",
+        "daily_usage": 4821,
+        "population_500m": 3330,
+        "usage_per_capita": 1.45
+      },
+      {
+        "name": "Redbridge",
+        "daily_usage": 5643,
+        "population_500m": 4537,
+        "usage_per_capita": 1.24
+      },
+      {
+        "name": "Ruislip Gardens",
+        "daily_usage": 2356,
+        "population_500m": 4795,
+        "usage_per_capita": 0.49
+      },
+      {
+        "name": "Roding Valley",
+        "daily_usage": 465,
+        "population_500m": 2731,
+        "usage_per_capita": 0.17
+      },
+      {
+        "name": "Snaresbrook",
+        "daily_usage": 5178,
+        "population_500m": 4971,
+        "usage_per_capita": 1.04
+      },
+      {
+        "name": "South Ruislip",
+        "daily_usage": 4438,
+        "population_500m": 4274,
+        "usage_per_capita": 1.04
+      },
+      {
+        "name": "Theydon Bois",
+        "daily_usage": 2027,
+        "population_500m": 1882,
+        "usage_per_capita": 1.08
+      },
+      {
+        "name": "Woodford",
+        "daily_usage": 12575,
+        "population_500m": 4492,
+        "usage_per_capita": 2.8
+      },
+      {
+        "name": "West Ruislip",
+        "daily_usage": 4054,
+        "population_500m": 3403,
+        "usage_per_capita": 1.19
+      },
+      {
+        "name": "Wanstead",
+        "daily_usage": 5424,
+        "population_500m": 4939,
+        "usage_per_capita": 1.1
+      },
+      {
+        "name": "West Acton",
+        "daily_usage": 3041,
+        "population_500m": 3349,
+        "usage_per_capita": 0.91
+      },
+      {
+        "name": "Mansion House",
+        "daily_usage": 12328,
+        "population_500m": 540,
+        "usage_per_capita": 22.83
+      },
+      {
+        "name": "Becontree",
+        "daily_usage": 8109,
+        "population_500m": 4080,
+        "usage_per_capita": 1.99
+      },
+      {
+        "name": "Dagenham East",
+        "daily_usage": 7397,
+        "population_500m": 4290,
+        "usage_per_capita": 1.72
+      },
+      {
+        "name": "Ealing Common",
+        "daily_usage": 5287,
+        "population_500m": 4555,
+        "usage_per_capita": 1.16
+      },
+      {
+        "name": "Elm Park",
+        "daily_usage": 7232,
+        "population_500m": 4943,
+        "usage_per_capita": 1.46
+      },
+      {
+        "name": "Gunnersbury",
+        "daily_usage": 10547,
+        "population_500m": 4351,
+        "usage_per_capita": 2.42
+      },
+      {
+        "name": "Hornchurch",
+        "daily_usage": 4520,
+        "population_500m": 4120,
+        "usage_per_capita": 1.1
+      },
+      {
+        "name": "Kew Gardens",
+        "daily_usage": 8438,
+        "population_500m": 4796,
+        "usage_per_capita": 1.76
+      },
+      {
+        "name": "Upminster Bridge",
+        "daily_usage": 2027,
+        "population_500m": 3764,
+        "usage_per_capita": 0.54
+      },
+      {
+        "name": "Upminster",
+        "daily_usage": 12821,
+        "population_500m": 2103,
+        "usage_per_capita": 6.1
+      },
+      {
+        "name": "Upney",
+        "daily_usage": 6219,
+        "population_500m": 6338,
+        "usage_per_capita": 0.98
+      },
+      {
+        "name": "Wimbledon Park",
+        "daily_usage": 5260,
+        "population_500m": 5176,
+        "usage_per_capita": 1.02
+      },
+      {
+        "name": "Canons Park",
+        "daily_usage": 6082,
+        "population_500m": 4612,
+        "usage_per_capita": 1.32
+      },
+      {
+        "name": "Dollis Hill",
+        "daily_usage": 8712,
+        "population_500m": 6029,
+        "usage_per_capita": 1.45
+      },
+      {
+        "name": "Kingsbury",
+        "daily_usage": 10821,
+        "population_500m": 6670,
+        "usage_per_capita": 1.62
+      },
+      {
+        "name": "Neasden",
+        "daily_usage": 7232,
+        "population_500m": 5579,
+        "usage_per_capita": 1.3
+      },
+      {
+        "name": "Stanmore",
+        "daily_usage": 8904,
+        "population_500m": 1814,
+        "usage_per_capita": 4.91
+      },
+      {
+        "name": "Amersham",
+        "daily_usage": 5205,
+        "population_500m": 2568,
+        "usage_per_capita": 2.03
+      },
+      {
+        "name": "Chalfont & Latimer",
+        "daily_usage": 4164,
+        "population_500m": 2172,
+        "usage_per_capita": 1.92
+      },
+      {
+        "name": "Chesham",
+        "daily_usage": 2794,
+        "population_500m": 3170,
+        "usage_per_capita": 0.88
+      },
+      {
+        "name": "Croxley",
+        "daily_usage": 2465,
+        "population_500m": 4746,
+        "usage_per_capita": 0.52
+      },
+      {
+        "name": "Chorleywood",
+        "daily_usage": 3835,
+        "population_500m": 1763,
+        "usage_per_capita": 2.18
+      },
+      {
+        "name": "Eastcote",
+        "daily_usage": 6054,
+        "population_500m": 4300,
+        "usage_per_capita": 1.41
+      },
+      {
+        "name": "Hillingdon",
+        "daily_usage": 3945,
+        "population_500m": 1490,
+        "usage_per_capita": 2.65
+      },
+      {
+        "name": "Ickenham",
+        "daily_usage": 2383,
+        "population_500m": 2920,
+        "usage_per_capita": 0.82
+      },
+      {
+        "name": "Moor Park",
+        "daily_usage": 2273,
+        "population_500m": 351,
+        "usage_per_capita": 6.48
+      },
+      {
+        "name": "North Harrow",
+        "daily_usage": 4054,
+        "population_500m": 4936,
+        "usage_per_capita": 0.82
+      },
+      {
+        "name": "Northwick Park",
+        "daily_usage": 8821,
+        "population_500m": 3566,
+        "usage_per_capita": 2.47
+      },
+      {
+        "name": "Northwood",
+        "daily_usage": 6000,
+        "population_500m": 3051,
+        "usage_per_capita": 1.97
+      },
+      {
+        "name": "Northwood Hills",
+        "daily_usage": 3835,
+        "population_500m": 4073,
+        "usage_per_capita": 0.94
+      },
+      {
+        "name": "Pinner",
+        "daily_usage": 6931,
+        "population_500m": 2131,
+        "usage_per_capita": 3.25
+      },
+      {
+        "name": "Preston Road",
+        "daily_usage": 6904,
+        "population_500m": 4375,
+        "usage_per_capita": 1.58
+      },
+      {
+        "name": "Rickmansworth",
+        "daily_usage": 5150,
+        "population_500m": 1547,
+        "usage_per_capita": 3.33
+      },
+      {
+        "name": "Ruislip Manor",
+        "daily_usage": 3890,
+        "population_500m": 3683,
+        "usage_per_capita": 1.06
+      },
+      {
+        "name": "Ruislip",
+        "daily_usage": 4082,
+        "population_500m": 4129,
+        "usage_per_capita": 0.99
+      },
+      {
+        "name": "Rayners Lane",
+        "daily_usage": 9287,
+        "population_500m": 4233,
+        "usage_per_capita": 2.19
+      },
+      {
+        "name": "Watford",
+        "daily_usage": 4657,
+        "population_500m": 2229,
+        "usage_per_capita": 2.09
+      },
+      {
+        "name": "Edgware",
+        "daily_usage": 11041,
+        "population_500m": 5120,
+        "usage_per_capita": 2.16
+      },
+      {
+        "name": "High Barnet",
+        "daily_usage": 10164,
+        "population_500m": 3044,
+        "usage_per_capita": 3.34
+      },
+      {
+        "name": "Highgate",
+        "daily_usage": 12712,
+        "population_500m": 3930,
+        "usage_per_capita": 3.23
+      },
+      {
+        "name": "Hampstead",
+        "daily_usage": 11260,
+        "population_500m": 5959,
+        "usage_per_capita": 1.89
+      },
+      {
+        "name": "Mill Hill East",
+        "daily_usage": 4438,
+        "population_500m": 4299,
+        "usage_per_capita": 1.03
+      },
+      {
+        "name": "Totteridge & Whetstone",
+        "daily_usage": 5589,
+        "population_500m": 2906,
+        "usage_per_capita": 1.92
+      },
+      {
+        "name": "West Finchley",
+        "daily_usage": 3753,
+        "population_500m": 5667,
+        "usage_per_capita": 0.66
+      },
+      {
+        "name": "Woodside Park",
+        "daily_usage": 8849,
+        "population_500m": 4347,
+        "usage_per_capita": 2.04
+      },
+      {
+        "name": "Arnos Grove",
+        "daily_usage": 9013,
+        "population_500m": 3822,
+        "usage_per_capita": 2.36
+      },
+      {
+        "name": "Boston Manor",
+        "daily_usage": 3890,
+        "population_500m": 3925,
+        "usage_per_capita": 0.99
+      },
+      {
+        "name": "Cockfosters",
+        "daily_usage": 4027,
+        "population_500m": 1099,
+        "usage_per_capita": 3.66
+      },
+      {
+        "name": "Hyde Park Corner",
+        "daily_usage": 9890,
+        "population_500m": 1243,
+        "usage_per_capita": 7.96
+      },
+      {
+        "name": "North Ealing",
+        "daily_usage": 1698,
+        "population_500m": 3085,
+        "usage_per_capita": 0.55
+      },
+      {
+        "name": "Oakwood",
+        "daily_usage": 6328,
+        "population_500m": 1661,
+        "usage_per_capita": 3.81
+      },
+      {
+        "name": "Osterley",
+        "daily_usage": 4684,
+        "population_500m": 2011,
+        "usage_per_capita": 2.33
+      },
+      {
+        "name": "Park Royal",
+        "daily_usage": 4712,
+        "population_500m": 3815,
+        "usage_per_capita": 1.24
+      },
+      {
+        "name": "South Ealing",
+        "daily_usage": 6136,
+        "population_500m": 6019,
+        "usage_per_capita": 1.02
+      },
+      {
+        "name": "Southgate",
+        "daily_usage": 11178,
+        "population_500m": 5810,
+        "usage_per_capita": 1.92
+      },
+      {
+        "name": "Sudbury Hill",
+        "daily_usage": 4657,
+        "population_500m": 5250,
+        "usage_per_capita": 0.89
+      }
+    ]
+  }
+}

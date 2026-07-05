@@ -1,0 +1,1910 @@
+{
+  "source": "Wikipedia - List of London Underground stations",
+  "year": 2024,
+  "stations": [
+    {
+      "name": "Waterloo",
+      "zone": "1",
+      "annual_millions_2024": 77.39,
+      "annual_usage": 77390000,
+      "daily_avg": 212027
+    },
+    {
+      "name": "King's Cross St Pancras",
+      "zone": "1",
+      "annual_millions_2024": 77.13,
+      "annual_usage": 77130000,
+      "daily_avg": 211315
+    },
+    {
+      "name": "Victoria",
+      "zone": "1",
+      "annual_millions_2024": 62.69,
+      "annual_usage": 62690000,
+      "daily_avg": 171753
+    },
+    {
+      "name": "Tottenham Court Road",
+      "zone": "1",
+      "annual_millions_2024": 62.06,
+      "annual_usage": 62060000,
+      "daily_avg": 170027
+    },
+    {
+      "name": "Liverpool Street",
+      "zone": "1",
+      "annual_millions_2024": 61.2,
+      "annual_usage": 61200000,
+      "daily_avg": 167671
+    },
+    {
+      "name": "London Bridge",
+      "zone": "1",
+      "annual_millions_2024": 57.89,
+      "annual_usage": 57890000,
+      "daily_avg": 158602
+    },
+    {
+      "name": "Stratford",
+      "zone": "2 3",
+      "annual_millions_2024": 55.72,
+      "annual_usage": 55720000,
+      "daily_avg": 152657
+    },
+    {
+      "name": "Oxford Circus",
+      "zone": "1",
+      "annual_millions_2024": 53.18,
+      "annual_usage": 53180000,
+      "daily_avg": 145698
+    },
+    {
+      "name": "Farringdon",
+      "zone": "1",
+      "annual_millions_2024": 41.26,
+      "annual_usage": 41260000,
+      "daily_avg": 113041
+    },
+    {
+      "name": "Bond Street",
+      "zone": "1",
+      "annual_millions_2024": 41.11,
+      "annual_usage": 41110000,
+      "daily_avg": 112630
+    },
+    {
+      "name": "Euston",
+      "zone": "1",
+      "annual_millions_2024": 33.19,
+      "annual_usage": 33189999,
+      "daily_avg": 90931
+    },
+    {
+      "name": "Canary Wharf",
+      "zone": "2",
+      "annual_millions_2024": 33.18,
+      "annual_usage": 33180000,
+      "daily_avg": 90904
+    },
+    {
+      "name": "Green Park",
+      "zone": "1",
+      "annual_millions_2024": 31.1,
+      "annual_usage": 31100000,
+      "daily_avg": 85205
+    },
+    {
+      "name": "South Kensington",
+      "zone": "1",
+      "annual_millions_2024": 29.48,
+      "annual_usage": 29480000,
+      "daily_avg": 80767
+    },
+    {
+      "name": "Piccadilly Circus",
+      "zone": "1",
+      "annual_millions_2024": 28.49,
+      "annual_usage": 28490000,
+      "daily_avg": 78054
+    },
+    {
+      "name": "Leicester Square",
+      "zone": "1",
+      "annual_millions_2024": 27.56,
+      "annual_usage": 27560000,
+      "daily_avg": 75506
+    },
+    {
+      "name": "Moorgate",
+      "zone": "1",
+      "annual_millions_2024": 26.93,
+      "annual_usage": 26930000,
+      "daily_avg": 73780
+    },
+    {
+      "name": "North Greenwich",
+      "zone": "2 3",
+      "annual_millions_2024": 23.73,
+      "annual_usage": 23730000,
+      "daily_avg": 65013
+    },
+    {
+      "name": "Baker Street",
+      "zone": "1",
+      "annual_millions_2024": 22.92,
+      "annual_usage": 22920000,
+      "daily_avg": 62794
+    },
+    {
+      "name": "Hammersmith",
+      "zone": "2",
+      "annual_millions_2024": 22.48,
+      "annual_usage": 22480000,
+      "daily_avg": 61589
+    },
+    {
+      "name": "Vauxhall",
+      "zone": "1 2",
+      "annual_millions_2024": 22.14,
+      "annual_usage": 22140000,
+      "daily_avg": 60657
+    },
+    {
+      "name": "Brixton",
+      "zone": "2",
+      "annual_millions_2024": 21.39,
+      "annual_usage": 21390000,
+      "daily_avg": 58602
+    },
+    {
+      "name": "Finsbury Park",
+      "zone": "2",
+      "annual_millions_2024": 21.22,
+      "annual_usage": 21220000,
+      "daily_avg": 58136
+    },
+    {
+      "name": "Holborn",
+      "zone": "1",
+      "annual_millions_2024": 20.84,
+      "annual_usage": 20840000,
+      "daily_avg": 57095
+    },
+    {
+      "name": "Westminster",
+      "zone": "1",
+      "annual_millions_2024": 19.61,
+      "annual_usage": 19610000,
+      "daily_avg": 53726
+    },
+    {
+      "name": "Camden Town",
+      "zone": "2",
+      "annual_millions_2024": 18.77,
+      "annual_usage": 18770000,
+      "daily_avg": 51424
+    },
+    {
+      "name": "Whitechapel",
+      "zone": "2",
+      "annual_millions_2024": 18.28,
+      "annual_usage": 18280000,
+      "daily_avg": 50082
+    },
+    {
+      "name": "Barking",
+      "zone": "4",
+      "annual_millions_2024": 18.23,
+      "annual_usage": 18230000,
+      "daily_avg": 49945
+    },
+    {
+      "name": "Embankment",
+      "zone": "1",
+      "annual_millions_2024": 17.97,
+      "annual_usage": 17970000,
+      "daily_avg": 49232
+    },
+    {
+      "name": "Wimbledon",
+      "zone": "3",
+      "annual_millions_2024": 17.4,
+      "annual_usage": 17400000,
+      "daily_avg": 47671
+    },
+    {
+      "name": "Ealing Broadway",
+      "zone": "3",
+      "annual_millions_2024": 17.08,
+      "annual_usage": 17080000,
+      "daily_avg": 46794
+    },
+    {
+      "name": "Earl's Court",
+      "zone": "1 2",
+      "annual_millions_2024": 16.59,
+      "annual_usage": 16590000,
+      "daily_avg": 45452
+    },
+    {
+      "name": "Old Street",
+      "zone": "1",
+      "annual_millions_2024": 16.54,
+      "annual_usage": 16540000,
+      "daily_avg": 45315
+    },
+    {
+      "name": "Wembley Park",
+      "zone": "4",
+      "annual_millions_2024": 16.53,
+      "annual_usage": 16530000,
+      "daily_avg": 45287
+    },
+    {
+      "name": "Charing Cross",
+      "zone": "1",
+      "annual_millions_2024": 16.51,
+      "annual_usage": 16510000,
+      "daily_avg": 45232
+    },
+    {
+      "name": "Tower Hill",
+      "zone": "1",
+      "annual_millions_2024": 16.4,
+      "annual_usage": 16399999,
+      "daily_avg": 44931
+    },
+    {
+      "name": "Highbury &amp; Islington",
+      "zone": "2",
+      "annual_millions_2024": 15.05,
+      "annual_usage": 15050000,
+      "daily_avg": 41232
+    },
+    {
+      "name": "Warren Street",
+      "zone": "1",
+      "annual_millions_2024": 14.78,
+      "annual_usage": 14780000,
+      "daily_avg": 40493
+    },
+    {
+      "name": "Knightsbridge",
+      "zone": "1",
+      "annual_millions_2024": 14.26,
+      "annual_usage": 14260000,
+      "daily_avg": 39068
+    },
+    {
+      "name": "Sloane Square",
+      "zone": "1",
+      "annual_millions_2024": 14.24,
+      "annual_usage": 14240000,
+      "daily_avg": 39013
+    },
+    {
+      "name": "Elephant &amp; Castle",
+      "zone": "1 2",
+      "annual_millions_2024": 14.13,
+      "annual_usage": 14130000,
+      "daily_avg": 38712
+    },
+    {
+      "name": "Tottenham Hale",
+      "zone": "3",
+      "annual_millions_2024": 13.85,
+      "annual_usage": 13850000,
+      "daily_avg": 37945
+    },
+    {
+      "name": "Covent Garden",
+      "zone": "1",
+      "annual_millions_2024": 13.52,
+      "annual_usage": 13520000,
+      "daily_avg": 37041
+    },
+    {
+      "name": "Walthamstow Central",
+      "zone": "3",
+      "annual_millions_2024": 13.44,
+      "annual_usage": 13440000,
+      "daily_avg": 36821
+    },
+    {
+      "name": "Shepherd's Bush",
+      "zone": "2",
+      "annual_millions_2024": 13.25,
+      "annual_usage": 13250000,
+      "daily_avg": 36301
+    },
+    {
+      "name": "Notting Hill Gate",
+      "zone": "1 2",
+      "annual_millions_2024": 12.83,
+      "annual_usage": 12830000,
+      "daily_avg": 35150
+    },
+    {
+      "name": "Seven Sisters",
+      "zone": "3",
+      "annual_millions_2024": 12.71,
+      "annual_usage": 12710000,
+      "daily_avg": 34821
+    },
+    {
+      "name": "Tooting Broadway",
+      "zone": "3",
+      "annual_millions_2024": 12.71,
+      "annual_usage": 12710000,
+      "daily_avg": 34821
+    },
+    {
+      "name": "Angel",
+      "zone": "1",
+      "annual_millions_2024": 12.68,
+      "annual_usage": 12680000,
+      "daily_avg": 34739
+    },
+    {
+      "name": "Canning Town",
+      "zone": "2 3",
+      "annual_millions_2024": 12.62,
+      "annual_usage": 12620000,
+      "daily_avg": 34575
+    },
+    {
+      "name": "Aldgate East",
+      "zone": "1",
+      "annual_millions_2024": 12.32,
+      "annual_usage": 12320000,
+      "daily_avg": 33753
+    },
+    {
+      "name": "Euston Square",
+      "zone": "1",
+      "annual_millions_2024": 12.26,
+      "annual_usage": 12260000,
+      "daily_avg": 33589
+    },
+    {
+      "name": "Gloucester Road",
+      "zone": "1",
+      "annual_millions_2024": 12.03,
+      "annual_usage": 12030000,
+      "daily_avg": 32958
+    },
+    {
+      "name": "Richmond",
+      "zone": "4",
+      "annual_millions_2024": 11.97,
+      "annual_usage": 11970000,
+      "daily_avg": 32794
+    },
+    {
+      "name": "Upton Park",
+      "zone": "3",
+      "annual_millions_2024": 11.75,
+      "annual_usage": 11750000,
+      "daily_avg": 32191
+    },
+    {
+      "name": "Mile End",
+      "zone": "2",
+      "annual_millions_2024": 11.28,
+      "annual_usage": 11280000,
+      "daily_avg": 30904
+    },
+    {
+      "name": "Blackfriars",
+      "zone": "1",
+      "annual_millions_2024": 11.14,
+      "annual_usage": 11140000,
+      "daily_avg": 30520
+    },
+    {
+      "name": "East Ham",
+      "zone": "3 4",
+      "annual_millions_2024": 11.12,
+      "annual_usage": 11120000,
+      "daily_avg": 30465
+    },
+    {
+      "name": "St James's Park",
+      "zone": "1",
+      "annual_millions_2024": 10.57,
+      "annual_usage": 10570000,
+      "daily_avg": 28958
+    },
+    {
+      "name": "Balham",
+      "zone": "3",
+      "annual_millions_2024": 10.24,
+      "annual_usage": 10240000,
+      "daily_avg": 28054
+    },
+    {
+      "name": "High Street Kensington",
+      "zone": "1",
+      "annual_millions_2024": 10.2,
+      "annual_usage": 10200000,
+      "daily_avg": 27945
+    },
+    {
+      "name": "Canada Water",
+      "zone": "2",
+      "annual_millions_2024": 10.15,
+      "annual_usage": 10150000,
+      "daily_avg": 27808
+    },
+    {
+      "name": "Bethnal Green",
+      "zone": "2",
+      "annual_millions_2024": 10.12,
+      "annual_usage": 10120000,
+      "daily_avg": 27726
+    },
+    {
+      "name": "Hammersmith",
+      "zone": "2",
+      "annual_millions_2024": 9.92,
+      "annual_usage": 9920000,
+      "daily_avg": 27178
+    },
+    {
+      "name": "Blackhorse Road",
+      "zone": "3",
+      "annual_millions_2024": 9.47,
+      "annual_usage": 9470000,
+      "daily_avg": 25945
+    },
+    {
+      "name": "St Paul's",
+      "zone": "1",
+      "annual_millions_2024": 9.42,
+      "annual_usage": 9420000,
+      "daily_avg": 25808
+    },
+    {
+      "name": "Battersea Power Station",
+      "zone": "1",
+      "annual_millions_2024": 9.23,
+      "annual_usage": 9230000,
+      "daily_avg": 25287
+    },
+    {
+      "name": "Marble Arch",
+      "zone": "1",
+      "annual_millions_2024": 9.2,
+      "annual_usage": 9200000,
+      "daily_avg": 25205
+    },
+    {
+      "name": "Southwark",
+      "zone": "1",
+      "annual_millions_2024": 9.1,
+      "annual_usage": 9100000,
+      "daily_avg": 24931
+    },
+    {
+      "name": "Wood Green",
+      "zone": "3",
+      "annual_millions_2024": 8.99,
+      "annual_usage": 8990000,
+      "daily_avg": 24630
+    },
+    {
+      "name": "Leyton",
+      "zone": "3",
+      "annual_millions_2024": 8.95,
+      "annual_usage": 8950000,
+      "daily_avg": 24520
+    },
+    {
+      "name": "Russell Square",
+      "zone": "1",
+      "annual_millions_2024": 8.94,
+      "annual_usage": 8940000,
+      "daily_avg": 24493
+    },
+    {
+      "name": "Marylebone",
+      "zone": "1",
+      "annual_millions_2024": 8.86,
+      "annual_usage": 8860000,
+      "daily_avg": 24273
+    },
+    {
+      "name": "Chancery Lane",
+      "zone": "1",
+      "annual_millions_2024": 8.72,
+      "annual_usage": 8720000,
+      "daily_avg": 23890
+    },
+    {
+      "name": "Morden",
+      "zone": "4",
+      "annual_millions_2024": 8.7,
+      "annual_usage": 8700000,
+      "daily_avg": 23835
+    },
+    {
+      "name": "Harrow-on-the-Hill",
+      "zone": "5",
+      "annual_millions_2024": 8.64,
+      "annual_usage": 8640000,
+      "daily_avg": 23671
+    },
+    {
+      "name": "West Hampstead",
+      "zone": "2",
+      "annual_millions_2024": 8.43,
+      "annual_usage": 8430000,
+      "daily_avg": 23095
+    },
+    {
+      "name": "Temple",
+      "zone": "1",
+      "annual_millions_2024": 8.25,
+      "annual_usage": 8250000,
+      "daily_avg": 22602
+    },
+    {
+      "name": "White City",
+      "zone": "2",
+      "annual_millions_2024": 8.18,
+      "annual_usage": 8180000,
+      "daily_avg": 22410
+    },
+    {
+      "name": "Turnpike Lane",
+      "zone": "3",
+      "annual_millions_2024": 8.17,
+      "annual_usage": 8170000,
+      "daily_avg": 22383
+    },
+    {
+      "name": "Clapham Common",
+      "zone": "2",
+      "annual_millions_2024": 8.12,
+      "annual_usage": 8119999,
+      "daily_avg": 22246
+    },
+    {
+      "name": "Pimlico",
+      "zone": "1",
+      "annual_millions_2024": 7.66,
+      "annual_usage": 7660000,
+      "daily_avg": 20986
+    },
+    {
+      "name": "Finchley Road",
+      "zone": "2",
+      "annual_millions_2024": 7.6,
+      "annual_usage": 7600000,
+      "daily_avg": 20821
+    },
+    {
+      "name": "Stockwell",
+      "zone": "2",
+      "annual_millions_2024": 7.6,
+      "annual_usage": 7600000,
+      "daily_avg": 20821
+    },
+    {
+      "name": "Aldgate",
+      "zone": "1",
+      "annual_millions_2024": 7.59,
+      "annual_usage": 7590000,
+      "daily_avg": 20794
+    },
+    {
+      "name": "Archway",
+      "zone": ".mw-parser-output ul.cslist,.mw-parser-output ul.sslist,.mw-parser-output ul.andlist,.mw-parser-output ul.andlistoxford{margin:0;padding:0;display:inline-block;list-style:none}.mw-parser-output ul.cslist-embedded{display:inline}.mw-parser-output .cslist li,.mw-parser-output .sslist li,.mw-parser-output .andlist li,.mw-parser-output .andlistoxford li{margin:0;padding:0 0.25em 0 0;display:inline-block}.mw-parser-output .cslist li:after,.mw-parser-output .andlistoxford li:after{content:\", \"}.mw-parser-output .sslist li:after{content:\"; \"}.mw-parser-output .cslist li:last-child:after,.mw-parser-output .sslist li:last-child:after,.mw-parser-output .andlist li:last-child:after,.mw-parser-output .andlistoxford li:last-child:after{content:none}.mw-parser-output .andlist li:nth-last-child(2):after{content:\" and \"}.mw-parser-output .andlistoxford li:nth-last-child(2):after{content:\", and \"} 2 3",
+      "annual_millions_2024": 7.33,
+      "annual_usage": 7330000,
+      "daily_avg": 20082
+    },
+    {
+      "name": "Hendon Central",
+      "zone": "3 4",
+      "annual_millions_2024": 7.33,
+      "annual_usage": 7330000,
+      "daily_avg": 20082
+    },
+    {
+      "name": "Bermondsey",
+      "zone": "2",
+      "annual_millions_2024": 7.32,
+      "annual_usage": 7320000,
+      "daily_avg": 20054
+    },
+    {
+      "name": "Leytonstone",
+      "zone": "3 4",
+      "annual_millions_2024": 7.15,
+      "annual_usage": 7150000,
+      "daily_avg": 19589
+    },
+    {
+      "name": "Fulham Broadway",
+      "zone": "2",
+      "annual_millions_2024": 6.89,
+      "annual_usage": 6890000,
+      "daily_avg": 18876
+    },
+    {
+      "name": "Clapham South",
+      "zone": "2 3",
+      "annual_millions_2024": 6.61,
+      "annual_usage": 6610000,
+      "daily_avg": 18109
+    },
+    {
+      "name": "Tooting Bec",
+      "zone": "3",
+      "annual_millions_2024": 6.52,
+      "annual_usage": 6520000,
+      "daily_avg": 17863
+    },
+    {
+      "name": "Golders Green",
+      "zone": "3",
+      "annual_millions_2024": 6.24,
+      "annual_usage": 6240000,
+      "daily_avg": 17095
+    },
+    {
+      "name": "St John's Wood",
+      "zone": "2",
+      "annual_millions_2024": 6.17,
+      "annual_usage": 6170000,
+      "daily_avg": 16904
+    },
+    {
+      "name": "Ladbroke Grove",
+      "zone": "2",
+      "annual_millions_2024": 6.13,
+      "annual_usage": 6130000,
+      "daily_avg": 16794
+    },
+    {
+      "name": "East Putney",
+      "zone": "2 3",
+      "annual_millions_2024": 6.11,
+      "annual_usage": 6110000,
+      "daily_avg": 16739
+    },
+    {
+      "name": "North Acton",
+      "zone": "2 3",
+      "annual_millions_2024": 6.11,
+      "annual_usage": 6110000,
+      "daily_avg": 16739
+    },
+    {
+      "name": "Heathrow Terminals 2 &amp; 3",
+      "zone": "6",
+      "annual_millions_2024": 6.04,
+      "annual_usage": 6040000,
+      "daily_avg": 16547
+    },
+    {
+      "name": "Queensway",
+      "zone": "1",
+      "annual_millions_2024": 6.01,
+      "annual_usage": 6010000,
+      "daily_avg": 16465
+    },
+    {
+      "name": "Manor House",
+      "zone": "2 3",
+      "annual_millions_2024": 6.0,
+      "annual_usage": 6000000,
+      "daily_avg": 16438
+    },
+    {
+      "name": "Edgware Road",
+      "zone": "1",
+      "annual_millions_2024": 5.96,
+      "annual_usage": 5960000,
+      "daily_avg": 16328
+    },
+    {
+      "name": "Great Portland Street",
+      "zone": "1",
+      "annual_millions_2024": 5.92,
+      "annual_usage": 5920000,
+      "daily_avg": 16219
+    },
+    {
+      "name": "Parsons Green",
+      "zone": "2",
+      "annual_millions_2024": 5.8,
+      "annual_usage": 5800000,
+      "daily_avg": 15890
+    },
+    {
+      "name": "Willesden Green",
+      "zone": "2 3",
+      "annual_millions_2024": 5.8,
+      "annual_usage": 5800000,
+      "daily_avg": 15890
+    },
+    {
+      "name": "Barons Court",
+      "zone": "2",
+      "annual_millions_2024": 5.73,
+      "annual_usage": 5730000,
+      "daily_avg": 15698
+    },
+    {
+      "name": "Swiss Cottage",
+      "zone": "2",
+      "annual_millions_2024": 5.62,
+      "annual_usage": 5620000,
+      "daily_avg": 15397
+    },
+    {
+      "name": "Kilburn",
+      "zone": "2",
+      "annual_millions_2024": 5.55,
+      "annual_usage": 5550000,
+      "daily_avg": 15205
+    },
+    {
+      "name": "Colliers Wood",
+      "zone": "3",
+      "annual_millions_2024": 5.54,
+      "annual_usage": 5540000,
+      "daily_avg": 15178
+    },
+    {
+      "name": "East Finchley",
+      "zone": "3",
+      "annual_millions_2024": 5.51,
+      "annual_usage": 5510000,
+      "daily_avg": 15095
+    },
+    {
+      "name": "West Ham",
+      "zone": "2 3",
+      "annual_millions_2024": 5.49,
+      "annual_usage": 5490000,
+      "daily_avg": 15041
+    },
+    {
+      "name": "Stepney Green",
+      "zone": "2",
+      "annual_millions_2024": 5.45,
+      "annual_usage": 5450000,
+      "daily_avg": 14931
+    },
+    {
+      "name": "Goodge Street",
+      "zone": "1",
+      "annual_millions_2024": 5.44,
+      "annual_usage": 5440000,
+      "daily_avg": 14904
+    },
+    {
+      "name": "Uxbridge",
+      "zone": "6",
+      "annual_millions_2024": 5.43,
+      "annual_usage": 5430000,
+      "daily_avg": 14876
+    },
+    {
+      "name": "Oval",
+      "zone": "2",
+      "annual_millions_2024": 5.41,
+      "annual_usage": 5410000,
+      "daily_avg": 14821
+    },
+    {
+      "name": "Barbican",
+      "zone": "1",
+      "annual_millions_2024": 5.38,
+      "annual_usage": 5380000,
+      "daily_avg": 14739
+    },
+    {
+      "name": "Belsize Park",
+      "zone": "2",
+      "annual_millions_2024": 5.27,
+      "annual_usage": 5270000,
+      "daily_avg": 14438
+    },
+    {
+      "name": "Holloway Road",
+      "zone": "2",
+      "annual_millions_2024": 5.27,
+      "annual_usage": 5270000,
+      "daily_avg": 14438
+    },
+    {
+      "name": "Wood Lane",
+      "zone": "2",
+      "annual_millions_2024": 5.2,
+      "annual_usage": 5200000,
+      "daily_avg": 14246
+    },
+    {
+      "name": "Clapham North",
+      "zone": "2",
+      "annual_millions_2024": 5.18,
+      "annual_usage": 5180000,
+      "daily_avg": 14191
+    },
+    {
+      "name": "Finchley Central",
+      "zone": "4",
+      "annual_millions_2024": 5.18,
+      "annual_usage": 5180000,
+      "daily_avg": 14191
+    },
+    {
+      "name": "Harrow &amp; Wealdstone",
+      "zone": "5",
+      "annual_millions_2024": 5.14,
+      "annual_usage": 5140000,
+      "daily_avg": 14082
+    },
+    {
+      "name": "Southfields",
+      "zone": "3",
+      "annual_millions_2024": 5.14,
+      "annual_usage": 5140000,
+      "daily_avg": 14082
+    },
+    {
+      "name": "West Brompton",
+      "zone": "2",
+      "annual_millions_2024": 5.08,
+      "annual_usage": 5080000,
+      "daily_avg": 13917
+    },
+    {
+      "name": "Acton Town",
+      "zone": "3",
+      "annual_millions_2024": 5.06,
+      "annual_usage": 5060000,
+      "daily_avg": 13863
+    },
+    {
+      "name": "Turnham Green",
+      "zone": "2 3",
+      "annual_millions_2024": 5.03,
+      "annual_usage": 5030000,
+      "daily_avg": 13780
+    },
+    {
+      "name": "Chalk Farm",
+      "zone": "2",
+      "annual_millions_2024": 4.94,
+      "annual_usage": 4940000,
+      "daily_avg": 13534
+    },
+    {
+      "name": "Putney Bridge",
+      "zone": "2",
+      "annual_millions_2024": 4.94,
+      "annual_usage": 4940000,
+      "daily_avg": 13534
+    },
+    {
+      "name": "Wembley Central",
+      "zone": "4",
+      "annual_millions_2024": 4.94,
+      "annual_usage": 4940000,
+      "daily_avg": 13534
+    },
+    {
+      "name": "Kennington",
+      "zone": "1 2",
+      "annual_millions_2024": 4.93,
+      "annual_usage": 4930000,
+      "daily_avg": 13506
+    },
+    {
+      "name": "Dagenham Heathway",
+      "zone": "5",
+      "annual_millions_2024": 4.92,
+      "annual_usage": 4920000,
+      "daily_avg": 13479
+    },
+    {
+      "name": "Tufnell Park",
+      "zone": "2",
+      "annual_millions_2024": 4.91,
+      "annual_usage": 4910000,
+      "daily_avg": 13452
+    },
+    {
+      "name": "Gants Hill",
+      "zone": "4",
+      "annual_millions_2024": 4.88,
+      "annual_usage": 4880000,
+      "daily_avg": 13369
+    },
+    {
+      "name": "Queen's Park",
+      "zone": "2",
+      "annual_millions_2024": 4.74,
+      "annual_usage": 4740000,
+      "daily_avg": 12986
+    },
+    {
+      "name": "Burnt Oak",
+      "zone": "4",
+      "annual_millions_2024": 4.69,
+      "annual_usage": 4690000,
+      "daily_avg": 12849
+    },
+    {
+      "name": "Upminster",
+      "zone": "6",
+      "annual_millions_2024": 4.68,
+      "annual_usage": 4680000,
+      "daily_avg": 12821
+    },
+    {
+      "name": "Plaistow",
+      "zone": "3",
+      "annual_millions_2024": 4.66,
+      "annual_usage": 4660000,
+      "daily_avg": 12767
+    },
+    {
+      "name": "Highgate",
+      "zone": "3",
+      "annual_millions_2024": 4.64,
+      "annual_usage": 4640000,
+      "daily_avg": 12712
+    },
+    {
+      "name": "Willesden Junction",
+      "zone": "2 3",
+      "annual_millions_2024": 4.61,
+      "annual_usage": 4610000,
+      "daily_avg": 12630
+    },
+    {
+      "name": "Woodford",
+      "zone": "4",
+      "annual_millions_2024": 4.59,
+      "annual_usage": 4590000,
+      "daily_avg": 12575
+    },
+    {
+      "name": "Mansion House",
+      "zone": "1",
+      "annual_millions_2024": 4.5,
+      "annual_usage": 4500000,
+      "daily_avg": 12328
+    },
+    {
+      "name": "Bow Road",
+      "zone": "2",
+      "annual_millions_2024": 4.35,
+      "annual_usage": 4350000,
+      "daily_avg": 11917
+    },
+    {
+      "name": "Bounds Green",
+      "zone": "3 4",
+      "annual_millions_2024": 4.32,
+      "annual_usage": 4320000,
+      "daily_avg": 11835
+    },
+    {
+      "name": "Cannon Street",
+      "zone": "1",
+      "annual_millions_2024": 4.31,
+      "annual_usage": 4310000,
+      "daily_avg": 11808
+    },
+    {
+      "name": "Northolt",
+      "zone": "5",
+      "annual_millions_2024": 4.28,
+      "annual_usage": 4280000,
+      "daily_avg": 11726
+    },
+    {
+      "name": "Borough",
+      "zone": "1",
+      "annual_millions_2024": 4.18,
+      "annual_usage": 4179999,
+      "daily_avg": 11452
+    },
+    {
+      "name": "South Woodford",
+      "zone": "4",
+      "annual_millions_2024": 4.15,
+      "annual_usage": 4150000,
+      "daily_avg": 11369
+    },
+    {
+      "name": "Hampstead",
+      "zone": "2 3",
+      "annual_millions_2024": 4.11,
+      "annual_usage": 4110000,
+      "daily_avg": 11260
+    },
+    {
+      "name": "Nine Elms",
+      "zone": "1",
+      "annual_millions_2024": 4.11,
+      "annual_usage": 4110000,
+      "daily_avg": 11260
+    },
+    {
+      "name": "Heathrow Terminal 5",
+      "zone": "6",
+      "annual_millions_2024": 4.1,
+      "annual_usage": 4099999,
+      "daily_avg": 11232
+    },
+    {
+      "name": "Southgate",
+      "zone": "4",
+      "annual_millions_2024": 4.08,
+      "annual_usage": 4080000,
+      "daily_avg": 11178
+    },
+    {
+      "name": "Edgware",
+      "zone": "5",
+      "annual_millions_2024": 4.03,
+      "annual_usage": 4030000,
+      "daily_avg": 11041
+    },
+    {
+      "name": "West Kensington",
+      "zone": "2",
+      "annual_millions_2024": 3.99,
+      "annual_usage": 3990000,
+      "daily_avg": 10931
+    },
+    {
+      "name": "Kingsbury",
+      "zone": "4",
+      "annual_millions_2024": 3.95,
+      "annual_usage": 3950000,
+      "daily_avg": 10821
+    },
+    {
+      "name": "Bromley-by-Bow",
+      "zone": "2 3",
+      "annual_millions_2024": 3.92,
+      "annual_usage": 3920000,
+      "daily_avg": 10739
+    },
+    {
+      "name": "Westbourne Park",
+      "zone": "2",
+      "annual_millions_2024": 3.92,
+      "annual_usage": 3920000,
+      "daily_avg": 10739
+    },
+    {
+      "name": "Bayswater",
+      "zone": "1",
+      "annual_millions_2024": 3.86,
+      "annual_usage": 3860000,
+      "daily_avg": 10575
+    },
+    {
+      "name": "Caledonian Road",
+      "zone": "2",
+      "annual_millions_2024": 3.85,
+      "annual_usage": 3850000,
+      "daily_avg": 10547
+    },
+    {
+      "name": "Gunnersbury",
+      "zone": "3",
+      "annual_millions_2024": 3.85,
+      "annual_usage": 3850000,
+      "daily_avg": 10547
+    },
+    {
+      "name": "South Wimbledon",
+      "zone": "3 4",
+      "annual_millions_2024": 3.8,
+      "annual_usage": 3800000,
+      "daily_avg": 10410
+    },
+    {
+      "name": "Edgware Road",
+      "zone": "1",
+      "annual_millions_2024": 3.72,
+      "annual_usage": 3720000,
+      "daily_avg": 10191
+    },
+    {
+      "name": "High Barnet",
+      "zone": "5",
+      "annual_millions_2024": 3.71,
+      "annual_usage": 3710000,
+      "daily_avg": 10164
+    },
+    {
+      "name": "East Acton",
+      "zone": "2",
+      "annual_millions_2024": 3.69,
+      "annual_usage": 3690000,
+      "daily_avg": 10109
+    },
+    {
+      "name": "Hyde Park Corner",
+      "zone": "1",
+      "annual_millions_2024": 3.61,
+      "annual_usage": 3610000,
+      "daily_avg": 9890
+    },
+    {
+      "name": "Hounslow East",
+      "zone": "4",
+      "annual_millions_2024": 3.46,
+      "annual_usage": 3460000,
+      "daily_avg": 9479
+    },
+    {
+      "name": "Epping",
+      "zone": "6",
+      "annual_millions_2024": 3.4,
+      "annual_usage": 3400000,
+      "daily_avg": 9315
+    },
+    {
+      "name": "Shepherd's Bush Market",
+      "zone": "2",
+      "annual_millions_2024": 3.4,
+      "annual_usage": 3400000,
+      "daily_avg": 9315
+    },
+    {
+      "name": "Rayners Lane",
+      "zone": "5",
+      "annual_millions_2024": 3.39,
+      "annual_usage": 3390000,
+      "daily_avg": 9287
+    },
+    {
+      "name": "Newbury Park",
+      "zone": "4",
+      "annual_millions_2024": 3.31,
+      "annual_usage": 3310000,
+      "daily_avg": 9068
+    },
+    {
+      "name": "Arnos Grove",
+      "zone": "4",
+      "annual_millions_2024": 3.29,
+      "annual_usage": 3290000,
+      "daily_avg": 9013
+    },
+    {
+      "name": "Greenford",
+      "zone": "4",
+      "annual_millions_2024": 3.27,
+      "annual_usage": 3270000,
+      "daily_avg": 8958
+    },
+    {
+      "name": "Hatton Cross",
+      "zone": "5 6",
+      "annual_millions_2024": 3.27,
+      "annual_usage": 3270000,
+      "daily_avg": 8958
+    },
+    {
+      "name": "Stanmore",
+      "zone": "5",
+      "annual_millions_2024": 3.25,
+      "annual_usage": 3250000,
+      "daily_avg": 8904
+    },
+    {
+      "name": "Hounslow Central",
+      "zone": "4",
+      "annual_millions_2024": 3.24,
+      "annual_usage": 3240000,
+      "daily_avg": 8876
+    },
+    {
+      "name": "Woodside Park",
+      "zone": "4",
+      "annual_millions_2024": 3.23,
+      "annual_usage": 3230000,
+      "daily_avg": 8849
+    },
+    {
+      "name": "Northwick Park",
+      "zone": "4",
+      "annual_millions_2024": 3.22,
+      "annual_usage": 3220000,
+      "daily_avg": 8821
+    },
+    {
+      "name": "Dollis Hill",
+      "zone": "3",
+      "annual_millions_2024": 3.18,
+      "annual_usage": 3180000,
+      "daily_avg": 8712
+    },
+    {
+      "name": "Queensbury",
+      "zone": "4",
+      "annual_millions_2024": 3.15,
+      "annual_usage": 3150000,
+      "daily_avg": 8630
+    },
+    {
+      "name": "Warwick Avenue",
+      "zone": "2",
+      "annual_millions_2024": 3.13,
+      "annual_usage": 3130000,
+      "daily_avg": 8575
+    },
+    {
+      "name": "Lancaster Gate",
+      "zone": "1",
+      "annual_millions_2024": 3.09,
+      "annual_usage": 3090000,
+      "daily_avg": 8465
+    },
+    {
+      "name": "Latimer Road",
+      "zone": "2",
+      "annual_millions_2024": 3.09,
+      "annual_usage": 3090000,
+      "daily_avg": 8465
+    },
+    {
+      "name": "Kew Gardens",
+      "zone": "3 4",
+      "annual_millions_2024": 3.08,
+      "annual_usage": 3080000,
+      "daily_avg": 8438
+    },
+    {
+      "name": "Hainault",
+      "zone": "4",
+      "annual_millions_2024": 3.03,
+      "annual_usage": 3030000,
+      "daily_avg": 8301
+    },
+    {
+      "name": "Becontree",
+      "zone": "5",
+      "annual_millions_2024": 2.96,
+      "annual_usage": 2960000,
+      "daily_avg": 8109
+    },
+    {
+      "name": "Mornington Crescent",
+      "zone": "2",
+      "annual_millions_2024": 2.96,
+      "annual_usage": 2960000,
+      "daily_avg": 8109
+    },
+    {
+      "name": "Holland Park",
+      "zone": "2",
+      "annual_millions_2024": 2.95,
+      "annual_usage": 2950000,
+      "daily_avg": 8082
+    },
+    {
+      "name": "Hounslow West",
+      "zone": "5",
+      "annual_millions_2024": 2.93,
+      "annual_usage": 2930000,
+      "daily_avg": 8027
+    },
+    {
+      "name": "Hanger Lane",
+      "zone": "3",
+      "annual_millions_2024": 2.89,
+      "annual_usage": 2890000,
+      "daily_avg": 7917
+    },
+    {
+      "name": "Maida Vale",
+      "zone": "2",
+      "annual_millions_2024": 2.87,
+      "annual_usage": 2870000,
+      "daily_avg": 7863
+    },
+    {
+      "name": "Loughton",
+      "zone": "6",
+      "annual_millions_2024": 2.79,
+      "annual_usage": 2790000,
+      "daily_avg": 7643
+    },
+    {
+      "name": "Kilburn Park",
+      "zone": "2",
+      "annual_millions_2024": 2.74,
+      "annual_usage": 2740000,
+      "daily_avg": 7506
+    },
+    {
+      "name": "Lambeth North",
+      "zone": "1",
+      "annual_millions_2024": 2.73,
+      "annual_usage": 2730000,
+      "daily_avg": 7479
+    },
+    {
+      "name": "Ravenscourt Park",
+      "zone": "2",
+      "annual_millions_2024": 2.73,
+      "annual_usage": 2730000,
+      "daily_avg": 7479
+    },
+    {
+      "name": "Dagenham East",
+      "zone": "5",
+      "annual_millions_2024": 2.7,
+      "annual_usage": 2700000,
+      "daily_avg": 7397
+    },
+    {
+      "name": "Harlesden",
+      "zone": "3",
+      "annual_millions_2024": 2.7,
+      "annual_usage": 2700000,
+      "daily_avg": 7397
+    },
+    {
+      "name": "Elm Park",
+      "zone": "6",
+      "annual_millions_2024": 2.64,
+      "annual_usage": 2640000,
+      "daily_avg": 7232
+    },
+    {
+      "name": "Neasden",
+      "zone": "3",
+      "annual_millions_2024": 2.64,
+      "annual_usage": 2640000,
+      "daily_avg": 7232
+    },
+    {
+      "name": "Alperton",
+      "zone": "4",
+      "annual_millions_2024": 2.59,
+      "annual_usage": 2590000,
+      "daily_avg": 7095
+    },
+    {
+      "name": "Northfields",
+      "zone": "3",
+      "annual_millions_2024": 2.58,
+      "annual_usage": 2580000,
+      "daily_avg": 7068
+    },
+    {
+      "name": "Pinner",
+      "zone": "5",
+      "annual_millions_2024": 2.53,
+      "annual_usage": 2530000,
+      "daily_avg": 6931
+    },
+    {
+      "name": "Preston Road",
+      "zone": "4",
+      "annual_millions_2024": 2.52,
+      "annual_usage": 2520000,
+      "daily_avg": 6904
+    },
+    {
+      "name": "Stonebridge Park",
+      "zone": "3",
+      "annual_millions_2024": 2.49,
+      "annual_usage": 2490000,
+      "daily_avg": 6821
+    },
+    {
+      "name": "Oakwood",
+      "zone": "5",
+      "annual_millions_2024": 2.31,
+      "annual_usage": 2310000,
+      "daily_avg": 6328
+    },
+    {
+      "name": "Regent's Park",
+      "zone": "1",
+      "annual_millions_2024": 2.31,
+      "annual_usage": 2310000,
+      "daily_avg": 6328
+    },
+    {
+      "name": "Arsenal",
+      "zone": "2",
+      "annual_millions_2024": 2.27,
+      "annual_usage": 2270000,
+      "daily_avg": 6219
+    },
+    {
+      "name": "Stamford Brook",
+      "zone": "2",
+      "annual_millions_2024": 2.27,
+      "annual_usage": 2270000,
+      "daily_avg": 6219
+    },
+    {
+      "name": "Upney",
+      "zone": "4",
+      "annual_millions_2024": 2.27,
+      "annual_usage": 2270000,
+      "daily_avg": 6219
+    },
+    {
+      "name": "Buckhurst Hill",
+      "zone": "5",
+      "annual_millions_2024": 2.24,
+      "annual_usage": 2240000,
+      "daily_avg": 6136
+    },
+    {
+      "name": "South Ealing",
+      "zone": "3",
+      "annual_millions_2024": 2.24,
+      "annual_usage": 2240000,
+      "daily_avg": 6136
+    },
+    {
+      "name": "Royal Oak",
+      "zone": "2",
+      "annual_millions_2024": 2.23,
+      "annual_usage": 2230000,
+      "daily_avg": 6109
+    },
+    {
+      "name": "Canons Park",
+      "zone": "5",
+      "annual_millions_2024": 2.22,
+      "annual_usage": 2220000,
+      "daily_avg": 6082
+    },
+    {
+      "name": "Eastcote",
+      "zone": "5",
+      "annual_millions_2024": 2.21,
+      "annual_usage": 2210000,
+      "daily_avg": 6054
+    },
+    {
+      "name": "Chiswick Park",
+      "zone": "3",
+      "annual_millions_2024": 2.19,
+      "annual_usage": 2190000,
+      "daily_avg": 6000
+    },
+    {
+      "name": "Northwood",
+      "zone": "6",
+      "annual_millions_2024": 2.19,
+      "annual_usage": 2190000,
+      "daily_avg": 6000
+    },
+    {
+      "name": "South Harrow",
+      "zone": "5",
+      "annual_millions_2024": 2.08,
+      "annual_usage": 2080000,
+      "daily_avg": 5698
+    },
+    {
+      "name": "Redbridge",
+      "zone": "4",
+      "annual_millions_2024": 2.06,
+      "annual_usage": 2060000,
+      "daily_avg": 5643
+    },
+    {
+      "name": "Totteridge &amp; Whetstone",
+      "zone": "4",
+      "annual_millions_2024": 2.04,
+      "annual_usage": 2040000,
+      "daily_avg": 5589
+    },
+    {
+      "name": "Debden",
+      "zone": "6",
+      "annual_millions_2024": 1.98,
+      "annual_usage": 1980000,
+      "daily_avg": 5424
+    },
+    {
+      "name": "Kensal Green",
+      "zone": "2",
+      "annual_millions_2024": 1.98,
+      "annual_usage": 1980000,
+      "daily_avg": 5424
+    },
+    {
+      "name": "Wanstead",
+      "zone": "4",
+      "annual_millions_2024": 1.98,
+      "annual_usage": 1980000,
+      "daily_avg": 5424
+    },
+    {
+      "name": "Ealing Common",
+      "zone": "3",
+      "annual_millions_2024": 1.93,
+      "annual_usage": 1930000,
+      "daily_avg": 5287
+    },
+    {
+      "name": "Wimbledon Park",
+      "zone": "3",
+      "annual_millions_2024": 1.92,
+      "annual_usage": 1920000,
+      "daily_avg": 5260
+    },
+    {
+      "name": "Amersham",
+      "zone": "9",
+      "annual_millions_2024": 1.9,
+      "annual_usage": 1900000,
+      "daily_avg": 5205
+    },
+    {
+      "name": "Goldhawk Road",
+      "zone": "2",
+      "annual_millions_2024": 1.9,
+      "annual_usage": 1900000,
+      "daily_avg": 5205
+    },
+    {
+      "name": "Snaresbrook",
+      "zone": "4",
+      "annual_millions_2024": 1.89,
+      "annual_usage": 1890000,
+      "daily_avg": 5178
+    },
+    {
+      "name": "Rickmansworth",
+      "zone": "7",
+      "annual_millions_2024": 1.88,
+      "annual_usage": 1880000,
+      "daily_avg": 5150
+    },
+    {
+      "name": "Brent Cross",
+      "zone": "3",
+      "annual_millions_2024": 1.82,
+      "annual_usage": 1820000,
+      "daily_avg": 4986
+    },
+    {
+      "name": "Perivale",
+      "zone": "4",
+      "annual_millions_2024": 1.76,
+      "annual_usage": 1760000,
+      "daily_avg": 4821
+    },
+    {
+      "name": "Kenton",
+      "zone": "4",
+      "annual_millions_2024": 1.73,
+      "annual_usage": 1730000,
+      "daily_avg": 4739
+    },
+    {
+      "name": "Park Royal",
+      "zone": "3",
+      "annual_millions_2024": 1.72,
+      "annual_usage": 1720000,
+      "daily_avg": 4712
+    },
+    {
+      "name": "Osterley",
+      "zone": "4",
+      "annual_millions_2024": 1.71,
+      "annual_usage": 1710000,
+      "daily_avg": 4684
+    },
+    {
+      "name": "Sudbury Hill",
+      "zone": "4",
+      "annual_millions_2024": 1.7,
+      "annual_usage": 1700000,
+      "daily_avg": 4657
+    },
+    {
+      "name": "Watford",
+      "zone": "7",
+      "annual_millions_2024": 1.7,
+      "annual_usage": 1700000,
+      "daily_avg": 4657
+    },
+    {
+      "name": "Sudbury Town",
+      "zone": "4",
+      "annual_millions_2024": 1.67,
+      "annual_usage": 1670000,
+      "daily_avg": 4575
+    },
+    {
+      "name": "Hornchurch",
+      "zone": "6",
+      "annual_millions_2024": 1.65,
+      "annual_usage": 1650000,
+      "daily_avg": 4520
+    },
+    {
+      "name": "Mill Hill East",
+      "zone": "4",
+      "annual_millions_2024": 1.62,
+      "annual_usage": 1620000,
+      "daily_avg": 4438
+    },
+    {
+      "name": "South Ruislip",
+      "zone": "5",
+      "annual_millions_2024": 1.62,
+      "annual_usage": 1620000,
+      "daily_avg": 4438
+    },
+    {
+      "name": "Chalfont &amp; Latimer",
+      "zone": "8",
+      "annual_millions_2024": 1.52,
+      "annual_usage": 1520000,
+      "daily_avg": 4164
+    },
+    {
+      "name": "Ruislip",
+      "zone": "6",
+      "annual_millions_2024": 1.49,
+      "annual_usage": 1490000,
+      "daily_avg": 4082
+    },
+    {
+      "name": "North Harrow",
+      "zone": "5",
+      "annual_millions_2024": 1.48,
+      "annual_usage": 1480000,
+      "daily_avg": 4054
+    },
+    {
+      "name": "West Ruislip",
+      "zone": "6",
+      "annual_millions_2024": 1.48,
+      "annual_usage": 1480000,
+      "daily_avg": 4054
+    },
+    {
+      "name": "Cockfosters",
+      "zone": "5",
+      "annual_millions_2024": 1.47,
+      "annual_usage": 1470000,
+      "daily_avg": 4027
+    },
+    {
+      "name": "Hillingdon",
+      "zone": "6",
+      "annual_millions_2024": 1.44,
+      "annual_usage": 1440000,
+      "daily_avg": 3945
+    },
+    {
+      "name": "Boston Manor",
+      "zone": "4",
+      "annual_millions_2024": 1.42,
+      "annual_usage": 1420000,
+      "daily_avg": 3890
+    },
+    {
+      "name": "Ruislip Manor",
+      "zone": "6",
+      "annual_millions_2024": 1.42,
+      "annual_usage": 1420000,
+      "daily_avg": 3890
+    },
+    {
+      "name": "Chorleywood",
+      "zone": "7",
+      "annual_millions_2024": 1.4,
+      "annual_usage": 1400000,
+      "daily_avg": 3835
+    },
+    {
+      "name": "Northwood Hills",
+      "zone": "6",
+      "annual_millions_2024": 1.4,
+      "annual_usage": 1400000,
+      "daily_avg": 3835
+    },
+    {
+      "name": "North Wembley",
+      "zone": "4",
+      "annual_millions_2024": 1.39,
+      "annual_usage": 1390000,
+      "daily_avg": 3808
+    },
+    {
+      "name": "West Finchley",
+      "zone": "4",
+      "annual_millions_2024": 1.37,
+      "annual_usage": 1370000,
+      "daily_avg": 3753
+    },
+    {
+      "name": "Barkingside",
+      "zone": "4",
+      "annual_millions_2024": 1.26,
+      "annual_usage": 1260000,
+      "daily_avg": 3452
+    },
+    {
+      "name": "West Harrow",
+      "zone": "5",
+      "annual_millions_2024": 1.22,
+      "annual_usage": 1220000,
+      "daily_avg": 3342
+    },
+    {
+      "name": "West Acton",
+      "zone": "3",
+      "annual_millions_2024": 1.11,
+      "annual_usage": 1110000,
+      "daily_avg": 3041
+    },
+    {
+      "name": "Chesham",
+      "zone": "9",
+      "annual_millions_2024": 1.02,
+      "annual_usage": 1020000,
+      "daily_avg": 2794
+    },
+    {
+      "name": "South Kenton",
+      "zone": "4",
+      "annual_millions_2024": 0.99,
+      "annual_usage": 990000,
+      "daily_avg": 2712
+    },
+    {
+      "name": "Fairlop",
+      "zone": "4",
+      "annual_millions_2024": 0.96,
+      "annual_usage": 960000,
+      "daily_avg": 2630
+    },
+    {
+      "name": "Croxley",
+      "zone": "7",
+      "annual_millions_2024": 0.9,
+      "annual_usage": 900000,
+      "daily_avg": 2465
+    },
+    {
+      "name": "Ickenham",
+      "zone": "6",
+      "annual_millions_2024": 0.87,
+      "annual_usage": 870000,
+      "daily_avg": 2383
+    },
+    {
+      "name": "Ruislip Gardens",
+      "zone": "5",
+      "annual_millions_2024": 0.86,
+      "annual_usage": 860000,
+      "daily_avg": 2356
+    },
+    {
+      "name": "Moor Park",
+      "zone": "6 7",
+      "annual_millions_2024": 0.83,
+      "annual_usage": 830000,
+      "daily_avg": 2273
+    },
+    {
+      "name": "Theydon Bois",
+      "zone": "6",
+      "annual_millions_2024": 0.74,
+      "annual_usage": 740000,
+      "daily_avg": 2027
+    },
+    {
+      "name": "Upminster Bridge",
+      "zone": "6",
+      "annual_millions_2024": 0.74,
+      "annual_usage": 740000,
+      "daily_avg": 2027
+    },
+    {
+      "name": "North Ealing",
+      "zone": "3",
+      "annual_millions_2024": 0.62,
+      "annual_usage": 620000,
+      "daily_avg": 1698
+    },
+    {
+      "name": "Grange Hill",
+      "zone": "4",
+      "annual_millions_2024": 0.35,
+      "annual_usage": 350000,
+      "daily_avg": 958
+    },
+    {
+      "name": "Chigwell",
+      "zone": "4",
+      "annual_millions_2024": 0.31,
+      "annual_usage": 310000,
+      "daily_avg": 849
+    },
+    {
+      "name": "Roding Valley",
+      "zone": "4",
+      "annual_millions_2024": 0.17,
+      "annual_usage": 170000,
+      "daily_avg": 465
+    },
+    {
+      "name": "Bank",
+      "zone": "1",
+      "annual_millions_2024": 0,
+      "annual_usage": 0,
+      "daily_avg": 0
+    },
+    {
+      "name": "Colindale",
+      "zone": "4",
+      "annual_millions_2024": 0.0,
+      "annual_usage": 0,
+      "daily_avg": 0
+    },
+    {
+      "name": "Heathrow Terminal 4",
+      "zone": "6",
+      "annual_millions_2024": 0,
+      "annual_usage": 0,
+      "daily_avg": 0
+    },
+    {
+      "name": "Kensington (Olympia)",
+      "zone": "2",
+      "annual_millions_2024": 0.0,
+      "annual_usage": 0,
+      "daily_avg": 0
+    },
+    {
+      "name": "Kentish Town",
+      "zone": "2",
+      "annual_millions_2024": 0.0,
+      "annual_usage": 0,
+      "daily_avg": 0
+    },
+    {
+      "name": "Monument",
+      "zone": "1",
+      "annual_millions_2024": 0,
+      "annual_usage": 0,
+      "daily_avg": 0
+    },
+    {
+      "name": "Paddington",
+      "zone": "1",
+      "annual_millions_2024": 0,
+      "annual_usage": 0,
+      "daily_avg": 0
+    },
+    {
+      "name": "Paddington",
+      "zone": "1",
+      "annual_millions_2024": 0,
+      "annual_usage": 0,
+      "daily_avg": 0
+    }
+  ]
+}
