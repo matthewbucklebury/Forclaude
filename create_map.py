@@ -1461,8 +1461,131 @@ def create_map(results_1km, enhanced_data=None):
                     usageSection +
                     '<p style="margin:10px 0 4px 0;"><strong>Lines:</strong></p>' +
                     '<p style="margin:4px 0;">' + linesHtml + '</p>' +
+                    '<button onclick="addToComparison(\\'' + s.name + '\\')" style="width:100%;margin-top:10px;padding:8px;background:#1E5A8E;color:white;border:none;border-radius:6px;cursor:pointer;font-size:12px;">Add to Compare</button>' +
                     '</div>';
             }}
+
+            // Comparison functionality
+            window.addToComparison = function(stationName) {{
+                var station = stations.find(function(s) {{ return s.name === stationName; }});
+                if (!station) return;
+
+                if (comparisonStations.length >= 2) {{
+                    comparisonStations = [station];
+                }} else if (comparisonStations.find(function(s) {{ return s.name === stationName; }})) {{
+                    return; // Already in comparison
+                }} else {{
+                    comparisonStations.push(station);
+                }}
+
+                updateComparisonPanel();
+            }};
+
+            function updateComparisonPanel() {{
+                var panel = document.getElementById('comparisonPanel');
+                var station1El = document.getElementById('compStation1');
+                var station2El = document.getElementById('compStation2');
+
+                if (comparisonStations.length === 0) {{
+                    panel.classList.remove('visible');
+                    return;
+                }}
+
+                panel.classList.add('visible');
+
+                if (comparisonStations[0]) {{
+                    var s1 = comparisonStations[0];
+                    station1El.innerHTML = '<div class="name" style="color:' + s1.type_color_main + '">' + s1.name + '</div>' +
+                        '<div class="stats">Pop: ' + formatNumber(s1.population_1km) + '<br>Usage: ' + formatNumber(s1.daily_usage) + '</div>';
+                }}
+
+                if (comparisonStations[1]) {{
+                    var s2 = comparisonStations[1];
+                    station2El.innerHTML = '<div class="name" style="color:' + s2.type_color_main + '">' + s2.name + '</div>' +
+                        '<div class="stats">Pop: ' + formatNumber(s2.population_1km) + '<br>Usage: ' + formatNumber(s2.daily_usage) + '</div>';
+
+                    // Draw line between stations
+                    if (window.comparisonLine) {{
+                        map.removeLayer(window.comparisonLine);
+                    }}
+                    window.comparisonLine = L.polyline([
+                        [comparisonStations[0].lat, comparisonStations[0].lon],
+                        [comparisonStations[1].lat, comparisonStations[1].lon]
+                    ], {{color: '#E74C3C', weight: 3, dashArray: '10, 10', opacity: 0.8}}).addTo(map);
+
+                    // Fit map to show both
+                    var bounds = L.latLngBounds([
+                        [comparisonStations[0].lat, comparisonStations[0].lon],
+                        [comparisonStations[1].lat, comparisonStations[1].lon]
+                    ]);
+                    map.fitBounds(bounds.pad(0.3));
+                }} else {{
+                    station2El.innerHTML = '<div class="name">-</div><div class="stats">Click another station</div>';
+                    if (window.comparisonLine) {{
+                        map.removeLayer(window.comparisonLine);
+                    }}
+                }}
+            }}
+
+            // Close comparison
+            document.getElementById('closeComparison').addEventListener('click', function() {{
+                comparisonStations = [];
+                document.getElementById('comparisonPanel').classList.remove('visible');
+                if (window.comparisonLine) {{
+                    map.removeLayer(window.comparisonLine);
+                }}
+            }});
+
+            // URL state management
+            function updateURLState() {{
+                var params = new URLSearchParams();
+                if (currentFilter !== 'all') {{
+                    params.set('filter', currentFilter);
+                }}
+                if (currentVizMode !== 'markers') {{
+                    params.set('viz', currentVizMode);
+                }}
+                var center = map.getCenter();
+                params.set('lat', center.lat.toFixed(4));
+                params.set('lng', center.lng.toFixed(4));
+                params.set('zoom', map.getZoom());
+
+                var newUrl = window.location.pathname + (params.toString() ? '?' + params.toString() : '');
+                window.history.replaceState(null, '', newUrl);
+            }}
+
+            function loadURLState() {{
+                var params = new URLSearchParams(window.location.search);
+                var filter = params.get('filter');
+                var viz = params.get('viz');
+                var lat = parseFloat(params.get('lat'));
+                var lng = parseFloat(params.get('lng'));
+                var zoom = parseInt(params.get('zoom'));
+
+                if (filter && ['commuter_hub', 'residential_hub', 'balanced', 'low_activity'].includes(filter)) {{
+                    var radio = document.querySelector('input[name="stationType"][value="' + filter + '"]');
+                    if (radio) {{
+                        radio.checked = true;
+                        updateStationDisplay(filter);
+                    }}
+                }}
+
+                if (viz && ['heatmap-population', 'heatmap-usage'].includes(viz)) {{
+                    var vizRadio = document.querySelector('input[name="vizMode"][value="' + viz + '"]');
+                    if (vizRadio) {{
+                        vizRadio.checked = true;
+                        updateVizMode(viz);
+                    }}
+                }}
+
+                if (!isNaN(lat) && !isNaN(lng) && !isNaN(zoom)) {{
+                    map.setView([lat, lng], zoom);
+                }}
+            }}
+
+            // Update URL when map moves or filters change
+            map.on('moveend', updateURLState);
+            map.on('zoomend', updateURLState);
 
             // Create station markers
             stations.forEach(function(s) {{
@@ -1775,6 +1898,7 @@ def create_map(results_1km, enhanced_data=None):
             stationTypeRadios.forEach(function(radio) {{
                 radio.addEventListener('change', function() {{
                     updateStationDisplay(this.value);
+                    updateURLState();
                 }});
             }});
 
@@ -1799,6 +1923,7 @@ def create_map(results_1km, enhanced_data=None):
             vizModeRadios.forEach(function(radio) {{
                 radio.addEventListener('change', function() {{
                     updateVizMode(this.value);
+                    updateURLState();
                 }});
             }});
 
@@ -1811,6 +1936,25 @@ def create_map(results_1km, enhanced_data=None):
             var exportBtn = document.getElementById('exportPNGBtn');
             if (exportBtn) {{
                 exportBtn.addEventListener('click', exportPNG);
+            }}
+
+            // Share button
+            var shareBtn = document.getElementById('shareBtn');
+            if (shareBtn) {{
+                shareBtn.addEventListener('click', function() {{
+                    updateURLState();
+                    navigator.clipboard.writeText(window.location.href).then(function() {{
+                        shareBtn.textContent = 'Link Copied!';
+                        shareBtn.style.background = '#c8e6c9';
+                        setTimeout(function() {{
+                            shareBtn.textContent = 'Copy Link to Share';
+                            shareBtn.style.background = '#e3f2fd';
+                        }}, 2000);
+                    }}).catch(function() {{
+                        // Fallback for older browsers
+                        prompt('Copy this link:', window.location.href);
+                    }});
+                }});
             }}
 
             var collapsibles = document.querySelectorAll('.collapsible');
@@ -1872,6 +2016,9 @@ def create_map(results_1km, enhanced_data=None):
                     this.textContent = dashboard.classList.contains('collapsed') ? '\\u25B6' : '\\u25C0';
                 }});
             }}
+
+            // Load URL state (filters, viz mode, map position)
+            loadURLState();
 
             console.log('Enhanced TfL Map initialized successfully!');
 
@@ -2011,8 +2158,9 @@ def create_map(results_1km, enhanced_data=None):
         </div>
 
         <div class="export-controls">
-            <h4>Export:</h4>
+            <h4>Export & Share:</h4>
             <button id="exportPNGBtn" class="export-btn">Download Map as PNG</button>
+            <button id="shareBtn" class="export-btn" style="background:#e3f2fd;border-color:#90caf9;">Copy Link to Share</button>
         </div>
 
         <table style="width: 100%; font-size: 11px; border-collapse: collapse; margin-top: 15px;">
