@@ -864,6 +864,81 @@ def create_map(results_1km, enhanced_data=None):
         margin-right: 8px;
     }}
 
+    /* Line filter */
+    .line-filter {{
+        margin: 15px 0;
+        padding: 12px;
+        background: #e3f2fd;
+        border-radius: 10px;
+        border: 1px solid #90caf9;
+    }}
+
+    body.dark-mode .line-filter {{
+        background: rgba(33, 150, 243, 0.15);
+        border-color: rgba(33, 150, 243, 0.3);
+    }}
+
+    .line-filter h4 {{
+        margin: 0 0 10px 0;
+        font-size: 12px;
+        color: #1565c0;
+    }}
+
+    .line-select {{
+        width: 100%;
+        padding: 10px 12px;
+        border: 2px solid #90caf9;
+        border-radius: 8px;
+        font-size: 13px;
+        cursor: pointer;
+        background: white;
+        transition: all 0.2s;
+    }}
+
+    .line-select:focus {{
+        outline: none;
+        border-color: #1E5A8E;
+        box-shadow: 0 0 0 3px rgba(30, 90, 142, 0.1);
+    }}
+
+    body.dark-mode .line-select {{
+        background: var(--card-dark);
+        border-color: var(--border-dark);
+        color: var(--text-dark);
+    }}
+
+    .line-stats {{
+        margin-top: 10px;
+        padding: 10px;
+        background: white;
+        border-radius: 8px;
+        font-size: 11px;
+        display: none;
+    }}
+
+    .line-stats.visible {{
+        display: block;
+    }}
+
+    body.dark-mode .line-stats {{
+        background: var(--border-dark);
+    }}
+
+    .line-stats-row {{
+        display: flex;
+        justify-content: space-between;
+        padding: 4px 0;
+    }}
+
+    .line-color-indicator {{
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        border-radius: 3px;
+        margin-right: 6px;
+        vertical-align: middle;
+    }}
+
     /* Heatmap legend */
     .heatmap-legend {{
         display: none;
@@ -1538,6 +1613,7 @@ def create_map(results_1km, enhanced_data=None):
 
             var stationLayers = [];
             var currentFilter = 'all';
+            var currentLineFilter = 'all';
             var currentVizMode = 'markers';
             var populationHeat = null;
             var usageHeat = null;
@@ -1559,6 +1635,154 @@ def create_map(results_1km, enhanced_data=None):
                     'no_population_data': 'No Pop Data'
                 }};
                 return labels[type] || type;
+            }}
+
+            // Populate line filter dropdown
+            var lineSelect = document.getElementById('lineSelect');
+            var lineStatsEl = document.getElementById('lineStats');
+            if (lineSelect) {{
+                var sortedLines = Object.entries(lineStats).sort(function(a, b) {{
+                    return a[1].name.localeCompare(b[1].name);
+                }});
+                sortedLines.forEach(function(entry) {{
+                    var lid = entry[0];
+                    var stats = entry[1];
+                    var option = document.createElement('option');
+                    option.value = lid;
+                    option.textContent = stats.name;
+                    option.style.color = stats.color;
+                    lineSelect.appendChild(option);
+                }});
+
+                lineSelect.addEventListener('change', function() {{
+                    currentLineFilter = this.value;
+                    updateLineStats(this.value);
+                    applyFilters();
+                }});
+            }}
+
+            function updateLineStats(lineId) {{
+                if (!lineStatsEl) return;
+                if (lineId === 'all') {{
+                    lineStatsEl.classList.remove('visible');
+                    return;
+                }}
+                var lineStations = stations.filter(function(s) {{
+                    return s.lines && s.lines.includes(lineId);
+                }});
+                var totalPop = lineStations.reduce(function(sum, s) {{ return sum + s.population_1km; }}, 0);
+                var totalUsage = lineStations.reduce(function(sum, s) {{ return sum + s.daily_usage; }}, 0);
+
+                document.getElementById('lineStationCount').textContent = lineStations.length;
+                document.getElementById('linePopulation').textContent = formatNumber(totalPop);
+                document.getElementById('lineUsage').textContent = formatNumber(totalUsage);
+                lineStatsEl.classList.add('visible');
+            }}
+
+            function applyFilters() {{
+                stationLayers.forEach(function(layer) {{
+                    var s = layer.station;
+                    var marker = layer.marker;
+                    var circle = layer.circle;
+                    var colors = typeColors[s.station_type] || typeColors['no_usage_data'];
+
+                    var matchesType = currentFilter === 'all' || s.station_type === currentFilter;
+                    var matchesLine = currentLineFilter === 'all' || (s.lines && s.lines.includes(currentLineFilter));
+                    var matches = matchesType && matchesLine;
+
+                    if (matches) {{
+                        if (currentFilter === 'all' && currentLineFilter === 'all') {{
+                            marker.setStyle({{
+                                radius: 5,
+                                weight: 2,
+                                color: s.line_color,
+                                fillColor: 'white',
+                                fillOpacity: 1,
+                                opacity: 1
+                            }});
+                            marker.setZIndexOffset(500);
+                            circle.setStyle({{opacity: 0, fillOpacity: 0}});
+                            if (map.hasLayer(circle)) {{
+                                map.removeLayer(circle);
+                            }}
+                        }} else {{
+                            var displayColor = currentLineFilter !== 'all' ? lineStats[currentLineFilter].color : colors.main;
+                            marker.setStyle({{
+                                radius: 8,
+                                weight: 3,
+                                color: displayColor,
+                                fillColor: currentLineFilter !== 'all' ? displayColor : colors.light,
+                                fillOpacity: 0.9,
+                                opacity: 1
+                            }});
+                            marker.setZIndexOffset(1000);
+
+                            if (currentFilter !== 'all') {{
+                                if (!map.hasLayer(circle)) {{
+                                    circle.addTo(map);
+                                }}
+                                circle.setStyle({{
+                                    color: colors.main,
+                                    fillColor: colors.light,
+                                    fillOpacity: 0.15,
+                                    opacity: 0.6,
+                                    weight: 2
+                                }});
+                            }} else {{
+                                circle.setStyle({{opacity: 0, fillOpacity: 0}});
+                                if (map.hasLayer(circle)) {{
+                                    map.removeLayer(circle);
+                                }}
+                            }}
+                        }}
+                    }} else {{
+                        marker.setStyle({{
+                            radius: 4,
+                            weight: 1,
+                            color: '#ccc',
+                            fillColor: '#eee',
+                            fillOpacity: 0.3,
+                            opacity: 0.3
+                        }});
+                        marker.setZIndexOffset(0);
+                        circle.setStyle({{opacity: 0, fillOpacity: 0}});
+                        if (map.hasLayer(circle)) {{
+                            map.removeLayer(circle);
+                        }}
+                    }}
+                }});
+
+                // Update filter status
+                updateFilterStatus();
+            }}
+
+            function updateFilterStatus() {{
+                var statusEl = document.getElementById('filterStatus');
+                if (!statusEl) return;
+
+                if (currentFilter === 'all' && currentLineFilter === 'all') {{
+                    statusEl.classList.remove('visible');
+                    return;
+                }}
+
+                var matchingStations = stationLayers.filter(function(l) {{
+                    var s = l.station;
+                    var matchesType = currentFilter === 'all' || s.station_type === currentFilter;
+                    var matchesLine = currentLineFilter === 'all' || (s.lines && s.lines.includes(currentLineFilter));
+                    return matchesType && matchesLine;
+                }});
+
+                var filterParts = [];
+                if (currentFilter !== 'all') {{
+                    filterParts.push(getTypeLabel(currentFilter));
+                }}
+                if (currentLineFilter !== 'all') {{
+                    filterParts.push(lineStats[currentLineFilter].name);
+                }}
+
+                statusEl.textContent = 'Showing ' + matchingStations.length + ' stations' +
+                    (filterParts.length > 0 ? ' (' + filterParts.join(' + ') + ')' : '');
+                statusEl.classList.add('visible');
             }}
 
             // Update fun fact
@@ -1902,24 +2126,10 @@ def create_map(results_1km, enhanced_data=None):
 
                 var clearBtn = document.getElementById('clearFilterBtn');
                 if (clearBtn) {{
-                    if (selectedType === 'all') {{
+                    if (selectedType === 'all' && currentLineFilter === 'all') {{
                         clearBtn.classList.remove('visible');
                     }} else {{
                         clearBtn.classList.add('visible');
-                    }}
-                }}
-
-                var statusEl = document.getElementById('filterStatus');
-                if (statusEl) {{
-                    if (selectedType === 'all') {{
-                        statusEl.classList.remove('visible');
-                    }} else {{
-                        var typeLabel = getTypeLabel(selectedType);
-                        var count = stationLayers.filter(function(l) {{
-                            return l.station.station_type === selectedType;
-                        }}).length;
-                        statusEl.textContent = 'Showing ' + count + ' ' + typeLabel + ' stations';
-                        statusEl.classList.add('visible');
                     }}
                 }}
 
@@ -1931,65 +2141,7 @@ def create_map(results_1km, enhanced_data=None):
                     selectedLabel.parentElement.classList.add('selected');
                 }}
 
-                stationLayers.forEach(function(layer) {{
-                    var s = layer.station;
-                    var marker = layer.marker;
-                    var circle = layer.circle;
-                    var colors = typeColors[s.station_type] || typeColors['no_usage_data'];
-
-                    if (selectedType === 'all') {{
-                        marker.setStyle({{
-                            radius: 5,
-                            weight: 2,
-                            color: s.line_color,
-                            fillColor: 'white',
-                            fillOpacity: 1,
-                            opacity: 1
-                        }});
-                        marker.setZIndexOffset(500);
-                        circle.setStyle({{opacity: 0, fillOpacity: 0}});
-                        if (map.hasLayer(circle)) {{
-                            map.removeLayer(circle);
-                        }}
-
-                    }} else if (s.station_type === selectedType) {{
-                        marker.setStyle({{
-                            radius: 8,
-                            weight: 3,
-                            color: colors.main,
-                            fillColor: colors.light,
-                            fillOpacity: 0.9,
-                            opacity: 1
-                        }});
-                        marker.setZIndexOffset(1000);
-
-                        if (!map.hasLayer(circle)) {{
-                            circle.addTo(map);
-                        }}
-                        circle.setStyle({{
-                            color: colors.main,
-                            fillColor: colors.light,
-                            fillOpacity: 0.15,
-                            opacity: 0.6,
-                            weight: 2
-                        }});
-
-                    }} else {{
-                        marker.setStyle({{
-                            radius: 4,
-                            weight: 1,
-                            color: '#999999',
-                            fillColor: '#CCCCCC',
-                            fillOpacity: 0.3,
-                            opacity: 0.3
-                        }});
-                        marker.setZIndexOffset(100);
-                        circle.setStyle({{opacity: 0, fillOpacity: 0}});
-                        if (map.hasLayer(circle)) {{
-                            map.removeLayer(circle);
-                        }}
-                    }}
-                }});
+                applyFilters();
             }}
 
             function initHeatmaps() {{
@@ -2146,8 +2298,13 @@ def create_map(results_1km, enhanced_data=None):
                     var allRadio = document.querySelector('input[name="stationType"][value="all"]');
                     if (allRadio) {{
                         allRadio.checked = true;
-                        updateStationDisplay('all');
                     }}
+                    if (lineSelect) {{
+                        lineSelect.value = 'all';
+                        currentLineFilter = 'all';
+                        updateLineStats('all');
+                    }}
+                    updateStationDisplay('all');
                 }});
             }}
 
@@ -2615,6 +2772,27 @@ def create_map(results_1km, enhanced_data=None):
             </label>
         </div>
 
+        <div class="line-filter">
+            <h4>&#x1F687; Filter by Line:</h4>
+            <select id="lineSelect" class="line-select">
+                <option value="all">All Lines</option>
+            </select>
+            <div id="lineStats" class="line-stats">
+                <div class="line-stats-row">
+                    <span>Stations:</span>
+                    <span id="lineStationCount">-</span>
+                </div>
+                <div class="line-stats-row">
+                    <span>Total Population:</span>
+                    <span id="linePopulation">-</span>
+                </div>
+                <div class="line-stats-row">
+                    <span>Daily Usage:</span>
+                    <span id="lineUsage">-</span>
+                </div>
+            </div>
+        </div>
+
         <div id="heatmapLegendPop" class="heatmap-legend">
             <h5>Population Density</h5>
             <div class="gradient-bar population"></div>
@@ -2776,6 +2954,7 @@ def main():
     print("- PNG export")
     print("- Quiz mode with streak tracking (press Q)")
     print("- Station comparison mode")
+    print("- Line filter (explore by tube line)")
     print("- Mobile responsive design")
 
 
