@@ -2,7 +2,7 @@
 """
 Create an interactive map showing London TfL rail station catchment populations.
 Includes Tube, Overground, Elizabeth Line, and DLR.
-Shows 1km radius analysis with station type filtering and heatmap visualization.
+Enhanced version with student-friendly UX features.
 """
 
 import json
@@ -44,24 +44,19 @@ def get_line_color(station, line_stats):
 
 def calculate_station_rankings(stations):
     """Calculate rankings for all 4 station type categories."""
-    # Filter to stations with both population and usage data
     valid_stations = [s for s in stations if s['population_1km'] > 0 and s['daily_usage'] > 0]
 
-    # Commuter: highest usage per capita (daily_usage / population)
     commuter_ranked = sorted(valid_stations,
                             key=lambda s: s['daily_usage'] / s['population_1km'],
                             reverse=True)[:10]
 
-    # Residential: highest population per user (population / daily_usage)
     residential_ranked = sorted(valid_stations,
                                key=lambda s: s['population_1km'] / s['daily_usage'],
                                reverse=True)[:10]
 
-    # Balanced: closest to 1:1 ratio
     balanced_ranked = sorted(valid_stations,
                             key=lambda s: abs(1.0 - (s['daily_usage'] / s['population_1km'])))[:10]
 
-    # Low Activity: lowest combined population + usage
     low_activity_ranked = sorted(valid_stations,
                                 key=lambda s: s['population_1km'] + s['daily_usage'])[:10]
 
@@ -82,41 +77,69 @@ def calculate_line_usage(stations, line_stats):
     return line_usage
 
 
+def calculate_summary_stats(station_data):
+    """Calculate summary statistics for the dashboard."""
+    total_stations = len(station_data)
+    total_population = sum(s['population_1km'] for s in station_data)
+    total_daily_usage = sum(s['daily_usage'] for s in station_data)
+
+    stations_with_usage = [s for s in station_data if s['daily_usage'] > 0]
+    avg_usage = total_daily_usage / len(stations_with_usage) if stations_with_usage else 0
+
+    max_pop_station = max(station_data, key=lambda s: s['population_1km'])
+    max_usage_station = max(station_data, key=lambda s: s['daily_usage'])
+
+    type_counts = {}
+    for s in station_data:
+        t = s['station_type']
+        type_counts[t] = type_counts.get(t, 0) + 1
+
+    return {
+        'total_stations': total_stations,
+        'total_population': total_population,
+        'total_daily_usage': total_daily_usage,
+        'avg_daily_usage': int(avg_usage),
+        'max_pop_station': max_pop_station['name'],
+        'max_pop_value': max_pop_station['population_1km'],
+        'max_usage_station': max_usage_station['name'],
+        'max_usage_value': max_usage_station['daily_usage'],
+        'type_counts': type_counts
+    }
+
+
 def create_map(results_1km, enhanced_data=None):
-    """Create the interactive Folium map with 1km radius only."""
-    print("Creating interactive map (1km radius)...")
+    """Create the interactive Folium map with enhanced UX."""
+    print("Creating interactive map with enhanced UX...")
 
     stations_1km = {s["naptanId"]: s for s in results_1km["stations"]}
     line_stats = results_1km["line_stats"]
     line_colors = results_1km["line_colors"]
 
-    # Build enhanced station lookup if available
     enhanced_lookup = {}
     if enhanced_data:
         enhanced_lookup = {s["naptanId"]: s for s in enhanced_data.get("stations", [])}
         print(f"  Loaded usage data for {len(enhanced_lookup)} stations")
 
-    # Station type colors - enhanced color system
     type_colors = {
         'commuter_hub': {
-            'main': '#1E5A8E',      # Deep blue
-            'light': '#3498DB',     # Bright blue
-            'accent': '#5DADE2'     # Light blue
+            'main': '#1E5A8E',
+            'light': '#3498DB',
+            'accent': '#5DADE2'
         },
         'residential_hub': {
-            'main': '#0D7A4F',      # Deep green
-            'light': '#27AE60',     # Bright green
-            'accent': '#58D68D'     # Light green
+            'main': '#0D7A4F',
+            'light': '#27AE60',
+            'accent': '#58D68D'
         },
         'balanced': {
-            'main': '#6C3483',      # Deep purple
-            'light': '#8E44AD',     # Bright purple
-            'accent': '#BB8FCE'     # Light purple
+            'main': '#6C3483',
+            'light': '#8E44AD',
+            'accent': '#BB8FCE'
         },
         'low_activity': {
-            'main': '#BA4A00',      # Deep orange
-            'light': '#E67E22',     # Bright orange
-            'accent': '#F39C12'     # Light orange
+            'main': '#BA4A00',
+            'light': '#E67E22',
+            'accent': '#F39C12'
         },
         'no_usage_data': {
             'main': '#7F8C8D',
@@ -130,15 +153,13 @@ def create_map(results_1km, enhanced_data=None):
         }
     }
 
-    # Create base map with grayscale tiles for better contrast
     london_center = [51.509, -0.118]
     m = folium.Map(
         location=london_center,
         zoom_start=11,
-        tiles='cartodbpositron'  # Light grayscale map
+        tiles='cartodbpositron'
     )
 
-    # Build station data
     station_data = []
 
     for naptan_id, s1km in stations_1km.items():
@@ -146,19 +167,15 @@ def create_map(results_1km, enhanced_data=None):
             continue
 
         line_color = get_line_color(s1km, line_stats)
-
-        # Format line names
         line_names = [lid.replace("-", " ").title() for lid in s1km.get("lines", [])]
         lines_text = ", ".join(line_names) if line_names else "Unknown"
 
-        # Get enhanced data if available
         enhanced = enhanced_lookup.get(naptan_id, {})
         annual_usage = enhanced.get('annual_usage', 0)
         daily_usage = enhanced.get('daily_usage', 0)
         usage_per_capita = enhanced.get('usage_per_capita_1km', 0)
         station_type = enhanced.get('station_type', 'no_usage_data')
 
-        # Get type colors
         type_color_set = type_colors.get(station_type, type_colors['no_usage_data'])
 
         station_entry = {
@@ -181,13 +198,10 @@ def create_map(results_1km, enhanced_data=None):
 
         station_data.append(station_entry)
 
-    # Calculate line usage totals
     line_usage = calculate_line_usage(station_data, line_stats)
-
-    # Calculate station rankings
     rankings = calculate_station_rankings(station_data)
+    summary_stats = calculate_summary_stats(station_data)
 
-    # Convert to JSON for JavaScript
     js_stations = json.dumps(station_data)
     js_line_stats = json.dumps({lid: {
         'name': stats['name'],
@@ -197,7 +211,6 @@ def create_map(results_1km, enhanced_data=None):
         'daily_usage': line_usage.get(lid, 0)
     } for lid, stats in line_stats.items()})
 
-    # Format rankings data for both JS and HTML use
     formatted_rankings = {
         'commuter': [{'name': s['name'], 'population': s['population_1km'],
                      'usage': s['daily_usage'],
@@ -218,20 +231,503 @@ def create_map(results_1km, enhanced_data=None):
     }
     js_rankings = json.dumps(formatted_rankings)
     js_type_colors = json.dumps(type_colors)
+    js_summary_stats = json.dumps(summary_stats)
 
-    # Main script with redesigned UX
+    # Fun facts for students
+    fun_facts = [
+        f"The busiest station ({summary_stats['max_usage_station']}) sees {summary_stats['max_usage_value']:,} people daily - that's like filling Wembley Stadium!",
+        f"Total catchment population: {summary_stats['total_population']:,} people live within 1km of a TfL station",
+        f"The London Underground is the world's oldest metro system, opened in 1863",
+        f"If you walked 1km from every station, you'd cover {summary_stats['total_stations']}km - about the distance from London to Edinburgh!",
+        f"Daily usage across all stations: {summary_stats['total_daily_usage']:,} journeys",
+        "The Victoria line is the fastest, averaging 50mph between stations",
+        "Bank station has more escalators (15) than any other station on the network",
+        f"Average station sees {summary_stats['avg_daily_usage']:,} passengers per day"
+    ]
+    js_fun_facts = json.dumps(fun_facts)
+
     main_script = f"""
     <script src="https://cdn.jsdelivr.net/npm/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/leaflet-image@0.4.0/leaflet-image.js"></script>
 
     <style>
-    /* Base styles */
+    :root {{
+        --primary: #1E5A8E;
+        --success: #0D7A4F;
+        --warning: #E67E22;
+        --danger: #E74C3C;
+        --bg-light: #ffffff;
+        --bg-dark: #1a1a2e;
+        --text-light: #333333;
+        --text-dark: #e0e0e0;
+        --card-light: #ffffff;
+        --card-dark: #16213e;
+        --border-light: #e0e0e0;
+        --border-dark: #0f3460;
+    }}
+
+    body.dark-mode {{
+        background: var(--bg-dark);
+    }}
+
+    body.dark-mode .leaflet-container {{
+        background: var(--bg-dark);
+    }}
+
+    /* Welcome Modal */
+    .welcome-modal {{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.8);
+        z-index: 10000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 1;
+        transition: opacity 0.3s ease;
+    }}
+
+    .welcome-modal.hidden {{
+        opacity: 0;
+        pointer-events: none;
+    }}
+
+    .welcome-content {{
+        background: white;
+        border-radius: 16px;
+        padding: 30px;
+        max-width: 600px;
+        width: 90%;
+        max-height: 80vh;
+        overflow-y: auto;
+        box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        animation: slideUp 0.4s ease;
+    }}
+
+    @keyframes slideUp {{
+        from {{ transform: translateY(30px); opacity: 0; }}
+        to {{ transform: translateY(0); opacity: 1; }}
+    }}
+
+    .welcome-content h1 {{
+        margin: 0 0 10px 0;
+        font-size: 28px;
+        background: linear-gradient(135deg, #1E5A8E, #27AE60);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }}
+
+    .welcome-content .subtitle {{
+        color: #666;
+        margin-bottom: 20px;
+        font-size: 14px;
+    }}
+
+    .feature-grid {{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        margin: 20px 0;
+    }}
+
+    .feature-item {{
+        background: #f8f9fa;
+        padding: 15px;
+        border-radius: 10px;
+        text-align: center;
+    }}
+
+    .feature-item .icon {{
+        font-size: 24px;
+        margin-bottom: 8px;
+    }}
+
+    .feature-item h4 {{
+        margin: 0 0 5px 0;
+        font-size: 13px;
+        color: #333;
+    }}
+
+    .feature-item p {{
+        margin: 0;
+        font-size: 11px;
+        color: #666;
+    }}
+
+    .start-btn {{
+        width: 100%;
+        padding: 15px;
+        background: linear-gradient(135deg, #1E5A8E, #27AE60);
+        color: white;
+        border: none;
+        border-radius: 10px;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: transform 0.2s, box-shadow 0.2s;
+    }}
+
+    .start-btn:hover {{
+        transform: translateY(-2px);
+        box-shadow: 0 5px 20px rgba(30, 90, 142, 0.4);
+    }}
+
+    .keyboard-hint {{
+        text-align: center;
+        margin-top: 15px;
+        font-size: 11px;
+        color: #888;
+    }}
+
+    .keyboard-hint kbd {{
+        background: #eee;
+        padding: 2px 6px;
+        border-radius: 4px;
+        font-family: monospace;
+        border: 1px solid #ddd;
+    }}
+
+    /* Stats Dashboard */
+    .stats-dashboard {{
+        position: fixed;
+        top: 10px;
+        left: 60px;
+        z-index: 1000;
+        background: white;
+        padding: 15px;
+        border-radius: 12px;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+        font-family: Arial, sans-serif;
+        max-width: 380px;
+        transition: all 0.3s ease;
+    }}
+
+    body.dark-mode .stats-dashboard {{
+        background: var(--card-dark);
+        color: var(--text-dark);
+    }}
+
+    .stats-dashboard.collapsed {{
+        max-width: 50px;
+        padding: 10px;
+        cursor: pointer;
+    }}
+
+    .stats-dashboard.collapsed .dashboard-content {{
+        display: none;
+    }}
+
+    .dashboard-header {{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 12px;
+    }}
+
+    .dashboard-header h2 {{
+        margin: 0;
+        font-size: 16px;
+        color: #333;
+    }}
+
+    body.dark-mode .dashboard-header h2 {{
+        color: var(--text-dark);
+    }}
+
+    .toggle-dashboard {{
+        background: none;
+        border: none;
+        font-size: 18px;
+        cursor: pointer;
+        padding: 5px;
+        border-radius: 5px;
+        transition: background 0.2s;
+    }}
+
+    .toggle-dashboard:hover {{
+        background: #f0f0f0;
+    }}
+
+    .stat-cards {{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        margin-bottom: 12px;
+    }}
+
+    .stat-card {{
+        background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+        padding: 12px;
+        border-radius: 10px;
+        text-align: center;
+    }}
+
+    body.dark-mode .stat-card {{
+        background: linear-gradient(135deg, #0f3460, #16213e);
+    }}
+
+    .stat-card .stat-value {{
+        font-size: 20px;
+        font-weight: 700;
+        color: #1E5A8E;
+        margin-bottom: 4px;
+    }}
+
+    .stat-card .stat-label {{
+        font-size: 10px;
+        color: #666;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }}
+
+    body.dark-mode .stat-card .stat-label {{
+        color: #aaa;
+    }}
+
+    .fun-fact-box {{
+        background: linear-gradient(135deg, #fff3e0, #ffe0b2);
+        border-left: 4px solid #E67E22;
+        padding: 12px;
+        border-radius: 0 10px 10px 0;
+        margin-top: 10px;
+    }}
+
+    body.dark-mode .fun-fact-box {{
+        background: linear-gradient(135deg, #3d2914, #2d1f0f);
+    }}
+
+    .fun-fact-box .fact-label {{
+        font-size: 10px;
+        color: #E67E22;
+        font-weight: 600;
+        margin-bottom: 5px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }}
+
+    .fun-fact-box .fact-text {{
+        font-size: 12px;
+        color: #333;
+        line-height: 1.4;
+    }}
+
+    body.dark-mode .fun-fact-box .fact-text {{
+        color: var(--text-dark);
+    }}
+
+    /* Search Box */
+    .search-container {{
+        position: relative;
+        margin-bottom: 15px;
+    }}
+
+    .search-input {{
+        width: 100%;
+        padding: 12px 15px 12px 40px;
+        border: 2px solid #e0e0e0;
+        border-radius: 10px;
+        font-size: 14px;
+        transition: all 0.2s;
+        box-sizing: border-box;
+    }}
+
+    .search-input:focus {{
+        outline: none;
+        border-color: #1E5A8E;
+        box-shadow: 0 0 0 3px rgba(30, 90, 142, 0.1);
+    }}
+
+    body.dark-mode .search-input {{
+        background: var(--card-dark);
+        border-color: var(--border-dark);
+        color: var(--text-dark);
+    }}
+
+    .search-icon {{
+        position: absolute;
+        left: 14px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #999;
+        font-size: 16px;
+    }}
+
+    .search-results {{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: white;
+        border: 1px solid #e0e0e0;
+        border-radius: 10px;
+        margin-top: 5px;
+        max-height: 250px;
+        overflow-y: auto;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        z-index: 100;
+        display: none;
+    }}
+
+    .search-results.visible {{
+        display: block;
+    }}
+
+    body.dark-mode .search-results {{
+        background: var(--card-dark);
+        border-color: var(--border-dark);
+    }}
+
+    .search-result-item {{
+        padding: 12px 15px;
+        cursor: pointer;
+        border-bottom: 1px solid #f0f0f0;
+        transition: background 0.2s;
+    }}
+
+    .search-result-item:hover {{
+        background: #f8f9fa;
+    }}
+
+    body.dark-mode .search-result-item:hover {{
+        background: var(--border-dark);
+    }}
+
+    .search-result-item:last-child {{
+        border-bottom: none;
+    }}
+
+    .search-result-item .station-name {{
+        font-weight: 600;
+        font-size: 13px;
+        color: #333;
+    }}
+
+    body.dark-mode .search-result-item .station-name {{
+        color: var(--text-dark);
+    }}
+
+    .search-result-item .station-lines {{
+        font-size: 11px;
+        color: #666;
+        margin-top: 3px;
+    }}
+
+    /* Dark mode toggle */
+    .dark-mode-toggle {{
+        position: fixed;
+        bottom: 20px;
+        left: 20px;
+        z-index: 1000;
+        background: white;
+        border: none;
+        padding: 12px;
+        border-radius: 50%;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        cursor: pointer;
+        font-size: 20px;
+        transition: all 0.3s;
+    }}
+
+    .dark-mode-toggle:hover {{
+        transform: scale(1.1);
+    }}
+
+    body.dark-mode .dark-mode-toggle {{
+        background: var(--card-dark);
+    }}
+
+    /* Keyboard shortcuts panel */
+    .shortcuts-panel {{
+        position: fixed;
+        bottom: 80px;
+        left: 20px;
+        z-index: 1000;
+        background: white;
+        padding: 15px;
+        border-radius: 12px;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+        font-family: Arial, sans-serif;
+        font-size: 12px;
+        display: none;
+        min-width: 200px;
+    }}
+
+    .shortcuts-panel.visible {{
+        display: block;
+        animation: fadeIn 0.2s ease;
+    }}
+
+    body.dark-mode .shortcuts-panel {{
+        background: var(--card-dark);
+        color: var(--text-dark);
+    }}
+
+    @keyframes fadeIn {{
+        from {{ opacity: 0; transform: translateY(10px); }}
+        to {{ opacity: 1; transform: translateY(0); }}
+    }}
+
+    .shortcuts-panel h4 {{
+        margin: 0 0 10px 0;
+        font-size: 13px;
+        color: #333;
+    }}
+
+    body.dark-mode .shortcuts-panel h4 {{
+        color: var(--text-dark);
+    }}
+
+    .shortcut-item {{
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 0;
+    }}
+
+    .shortcut-item kbd {{
+        background: #f0f0f0;
+        padding: 3px 8px;
+        border-radius: 4px;
+        font-family: monospace;
+        font-size: 11px;
+        border: 1px solid #ddd;
+    }}
+
+    body.dark-mode .shortcut-item kbd {{
+        background: var(--border-dark);
+        border-color: #444;
+    }}
+
+    /* Station tooltip */
     .station-tooltip {{
         background-color: white;
         border: 1px solid #ccc;
-        border-radius: 6px;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+        border-radius: 8px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.15);
         padding: 0;
+    }}
+
+    /* Legend panel */
+    #legend-panel {{
+        transition: all 0.3s ease;
+    }}
+
+    body.dark-mode #legend-panel {{
+        background: var(--card-dark) !important;
+        color: var(--text-dark);
+    }}
+
+    body.dark-mode #legend-panel h3,
+    body.dark-mode #legend-panel h4 {{
+        color: var(--text-dark) !important;
+    }}
+
+    body.dark-mode #legend-panel p {{
+        color: #aaa !important;
     }}
 
     /* Radio button filter styles */
@@ -239,13 +735,19 @@ def create_map(results_1km, enhanced_data=None):
         margin: 10px 0;
         padding: 12px;
         background: #f8f9fa;
-        border-radius: 8px;
+        border-radius: 10px;
     }}
+
+    body.dark-mode .station-type-filter {{
+        background: var(--border-dark);
+    }}
+
     .station-type-filter h4 {{
         margin: 0 0 10px 0;
         font-size: 12px;
         color: #333;
     }}
+
     .station-type-filter label {{
         display: flex;
         align-items: center;
@@ -253,31 +755,39 @@ def create_map(results_1km, enhanced_data=None):
         margin: 4px 0;
         cursor: pointer;
         font-size: 12px;
-        border-radius: 6px;
+        border-radius: 8px;
         transition: all 0.2s ease;
     }}
+
     .station-type-filter label:hover {{
         background: #e9ecef;
     }}
+
+    body.dark-mode .station-type-filter label:hover {{
+        background: rgba(255,255,255,0.1);
+    }}
+
     .station-type-filter label.selected {{
         background: #e3f2fd;
         font-weight: 500;
     }}
+
+    body.dark-mode .station-type-filter label.selected {{
+        background: rgba(30, 90, 142, 0.3);
+    }}
+
     .station-type-filter input[type="radio"] {{
         margin-right: 10px;
         cursor: pointer;
     }}
-    .type-icon {{
-        margin-right: 8px;
-        font-size: 14px;
-    }}
+
     .type-color-dot {{
         display: inline-block;
-        width: 12px;
-        height: 12px;
+        width: 14px;
+        height: 14px;
         border-radius: 50%;
-        margin-right: 8px;
-        border: 2px solid rgba(0,0,0,0.2);
+        margin-right: 10px;
+        border: 2px solid rgba(0,0,0,0.15);
     }}
 
     /* Clear filter button */
@@ -287,33 +797,41 @@ def create_map(results_1km, enhanced_data=None):
         margin-top: 10px;
         background: #ECF0F1;
         border: 1px solid #BDC3C7;
-        border-radius: 6px;
+        border-radius: 8px;
         cursor: pointer;
         font-size: 12px;
         transition: all 0.2s ease;
         display: none;
     }}
+
     .clear-filter-btn:hover {{
         background: #BDC3C7;
-        border-color: #95A5A6;
     }}
+
     .clear-filter-btn.visible {{
         display: block;
     }}
 
-    /* Visualization mode toggle */
+    /* Viz mode toggle */
     .viz-mode-toggle {{
         margin: 15px 0;
         padding: 12px;
         background: #fff3e0;
-        border-radius: 8px;
+        border-radius: 10px;
         border: 1px solid #ffe0b2;
     }}
+
+    body.dark-mode .viz-mode-toggle {{
+        background: rgba(230, 126, 34, 0.15);
+        border-color: rgba(230, 126, 34, 0.3);
+    }}
+
     .viz-mode-toggle h4 {{
         margin: 0 0 10px 0;
         font-size: 12px;
         color: #e65100;
     }}
+
     .viz-mode-toggle label {{
         display: flex;
         align-items: center;
@@ -321,16 +839,27 @@ def create_map(results_1km, enhanced_data=None):
         margin: 3px 0;
         cursor: pointer;
         font-size: 11px;
-        border-radius: 4px;
+        border-radius: 6px;
         transition: background 0.2s;
     }}
+
     .viz-mode-toggle label:hover {{
         background: #ffe0b2;
     }}
+
+    body.dark-mode .viz-mode-toggle label:hover {{
+        background: rgba(230, 126, 34, 0.2);
+    }}
+
     .viz-mode-toggle label.selected {{
         background: #ffcc80;
         font-weight: 500;
     }}
+
+    body.dark-mode .viz-mode-toggle label.selected {{
+        background: rgba(230, 126, 34, 0.4);
+    }}
+
     .viz-mode-toggle input[type="radio"] {{
         margin-right: 8px;
     }}
@@ -339,32 +868,42 @@ def create_map(results_1km, enhanced_data=None):
     .heatmap-legend {{
         display: none;
         margin: 10px 0;
-        padding: 10px;
+        padding: 12px;
         background: #fafafa;
-        border-radius: 6px;
+        border-radius: 8px;
     }}
+
+    body.dark-mode .heatmap-legend {{
+        background: var(--border-dark);
+    }}
+
     .heatmap-legend.visible {{
         display: block;
     }}
+
     .heatmap-legend h5 {{
         margin: 0 0 8px 0;
         font-size: 11px;
     }}
+
     .gradient-bar {{
-        height: 15px;
-        border-radius: 3px;
-        margin-bottom: 4px;
+        height: 16px;
+        border-radius: 4px;
+        margin-bottom: 5px;
     }}
+
     .gradient-bar.population {{
         background: linear-gradient(to right, #ffffcc, #c7e9b4, #7fcdbb, #41b6c4, #2c7fb8, #253494);
     }}
+
     .gradient-bar.usage {{
         background: linear-gradient(to right, #fff5f0, #fee0d2, #fcbba1, #fc9272, #fb6a4a, #a50f15);
     }}
+
     .gradient-labels {{
         display: flex;
         justify-content: space-between;
-        font-size: 9px;
+        font-size: 10px;
         color: #666;
     }}
 
@@ -373,30 +912,38 @@ def create_map(results_1km, enhanced_data=None):
         margin: 15px 0;
         padding: 12px;
         background: #e8f5e9;
-        border-radius: 8px;
+        border-radius: 10px;
         border: 1px solid #c8e6c9;
     }}
+
+    body.dark-mode .export-controls {{
+        background: rgba(39, 174, 96, 0.15);
+        border-color: rgba(39, 174, 96, 0.3);
+    }}
+
     .export-controls h4 {{
         margin: 0 0 10px 0;
         font-size: 12px;
         color: #2e7d32;
     }}
+
     .export-btn {{
         width: 100%;
-        padding: 8px 12px;
+        padding: 10px 12px;
         margin: 4px 0;
         background: white;
         border: 1px solid #a5d6a7;
-        border-radius: 4px;
+        border-radius: 6px;
         cursor: pointer;
-        font-size: 11px;
+        font-size: 12px;
         transition: all 0.2s;
-        text-align: left;
+        text-align: center;
     }}
+
     .export-btn:hover {{
         background: #c8e6c9;
-        border-color: #81c784;
     }}
+
     .export-btn:disabled {{
         opacity: 0.6;
         cursor: not-allowed;
@@ -405,69 +952,326 @@ def create_map(results_1km, enhanced_data=None):
     /* Collapsible sections */
     .collapsible {{
         cursor: pointer;
-        padding: 10px;
+        padding: 12px;
         background: #f0f0f0;
         border: none;
         text-align: left;
         width: 100%;
-        font-size: 11px;
-        font-weight: bold;
-        border-radius: 6px;
-        margin-top: 8px;
+        font-size: 12px;
+        font-weight: 600;
+        border-radius: 8px;
+        margin-top: 10px;
         transition: background 0.2s;
     }}
+
+    body.dark-mode .collapsible {{
+        background: var(--border-dark);
+        color: var(--text-dark);
+    }}
+
     .collapsible:hover {{
         background: #e0e0e0;
     }}
+
+    body.dark-mode .collapsible:hover {{
+        background: rgba(255,255,255,0.1);
+    }}
+
     .collapsible:before {{
-        content: '▶ ';
+        content: '\\25B6 ';
         font-size: 10px;
     }}
+
     .collapsible.active:before {{
-        content: '▼ ';
+        content: '\\25BC ';
     }}
+
     .collapse-content {{
         display: none;
-        padding: 10px;
+        padding: 12px;
         background: #fafafa;
-        border-radius: 0 0 6px 6px;
-        font-size: 10px;
+        border-radius: 0 0 8px 8px;
+        font-size: 11px;
     }}
+
+    body.dark-mode .collapse-content {{
+        background: var(--border-dark);
+    }}
+
     .collapse-content.show {{
         display: block;
     }}
+
     .ranking-item {{
-        padding: 6px 0;
+        padding: 8px 0;
         border-bottom: 1px solid #eee;
     }}
+
+    body.dark-mode .ranking-item {{
+        border-color: #333;
+    }}
+
     .ranking-item:last-child {{
         border-bottom: none;
     }}
 
-    /* Smooth transitions for markers */
-    .leaflet-marker-icon,
-    .leaflet-marker-shadow {{
-        transition: opacity 0.3s ease;
-    }}
-
-    /* Status indicator */
+    /* Filter status */
     .filter-status {{
-        padding: 8px;
+        padding: 10px;
         background: #e3f2fd;
-        border-radius: 4px;
+        border-radius: 8px;
         margin-bottom: 10px;
-        font-size: 11px;
+        font-size: 12px;
         color: #1565c0;
         display: none;
     }}
+
+    body.dark-mode .filter-status {{
+        background: rgba(30, 90, 142, 0.2);
+        color: #5DADE2;
+    }}
+
     .filter-status.visible {{
         display: block;
     }}
+
+    /* Mobile responsive */
+    @media (max-width: 768px) {{
+        .stats-dashboard {{
+            left: 10px;
+            max-width: calc(100% - 20px);
+            top: auto;
+            bottom: 80px;
+        }}
+
+        #legend-panel {{
+            width: 280px !important;
+            max-height: 60vh !important;
+        }}
+
+        .feature-grid {{
+            grid-template-columns: 1fr;
+        }}
+
+        .welcome-content {{
+            margin: 20px;
+            padding: 20px;
+        }}
+    }}
+
+    /* Loading overlay */
+    .loading-overlay {{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: white;
+        z-index: 9999;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: opacity 0.5s ease;
+    }}
+
+    .loading-overlay.hidden {{
+        opacity: 0;
+        pointer-events: none;
+    }}
+
+    .loading-spinner {{
+        width: 50px;
+        height: 50px;
+        border: 4px solid #f0f0f0;
+        border-top-color: #1E5A8E;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+    }}
+
+    @keyframes spin {{
+        to {{ transform: rotate(360deg); }}
+    }}
+
+    .loading-text {{
+        margin-top: 20px;
+        font-family: Arial, sans-serif;
+        color: #666;
+        font-size: 14px;
+    }}
+
+    /* Comparison mode */
+    .comparison-panel {{
+        position: fixed;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1000;
+        background: white;
+        padding: 15px 20px;
+        border-radius: 12px;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+        display: none;
+        font-family: Arial, sans-serif;
+    }}
+
+    .comparison-panel.visible {{
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        animation: slideUp 0.3s ease;
+    }}
+
+    body.dark-mode .comparison-panel {{
+        background: var(--card-dark);
+        color: var(--text-dark);
+    }}
+
+    .comparison-station {{
+        text-align: center;
+        min-width: 150px;
+    }}
+
+    .comparison-station .name {{
+        font-weight: 600;
+        font-size: 14px;
+        margin-bottom: 8px;
+    }}
+
+    .comparison-station .stats {{
+        font-size: 12px;
+        color: #666;
+    }}
+
+    .comparison-vs {{
+        font-size: 18px;
+        font-weight: bold;
+        color: #999;
+    }}
+
+    .comparison-close {{
+        position: absolute;
+        top: 8px;
+        right: 12px;
+        background: none;
+        border: none;
+        font-size: 18px;
+        cursor: pointer;
+        color: #999;
+    }}
     </style>
+
+    <!-- Loading Overlay -->
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-spinner"></div>
+        <div class="loading-text">Loading London TfL Map...</div>
+    </div>
+
+    <!-- Welcome Modal -->
+    <div class="welcome-modal" id="welcomeModal">
+        <div class="welcome-content">
+            <h1>London Transport Explorer</h1>
+            <p class="subtitle">Discover population patterns around TfL stations using real census and usage data</p>
+
+            <div class="feature-grid">
+                <div class="feature-item">
+                    <div class="icon">&#x1F50D;</div>
+                    <h4>Search Stations</h4>
+                    <p>Find any of 473 stations instantly</p>
+                </div>
+                <div class="feature-item">
+                    <div class="icon">&#x1F3AF;</div>
+                    <h4>Filter by Type</h4>
+                    <p>Commuter, residential, balanced, or low activity</p>
+                </div>
+                <div class="feature-item">
+                    <div class="icon">&#x1F525;</div>
+                    <h4>Heatmaps</h4>
+                    <p>Visualize population and usage density</p>
+                </div>
+                <div class="feature-item">
+                    <div class="icon">&#x1F4CA;</div>
+                    <h4>Statistics</h4>
+                    <p>Real data from 2021 Census + 2024 TfL</p>
+                </div>
+            </div>
+
+            <button class="start-btn" id="startExploring">Start Exploring</button>
+
+            <p class="keyboard-hint">
+                Pro tip: Press <kbd>?</kbd> for keyboard shortcuts, <kbd>/</kbd> to search
+            </p>
+        </div>
+    </div>
+
+    <!-- Dark Mode Toggle -->
+    <button class="dark-mode-toggle" id="darkModeToggle" title="Toggle dark mode">&#x1F319;</button>
+
+    <!-- Keyboard Shortcuts Panel -->
+    <div class="shortcuts-panel" id="shortcutsPanel">
+        <h4>Keyboard Shortcuts</h4>
+        <div class="shortcut-item"><span>Search</span><kbd>/</kbd></div>
+        <div class="shortcut-item"><span>Reset filters</span><kbd>Esc</kbd></div>
+        <div class="shortcut-item"><span>Toggle dark mode</span><kbd>D</kbd></div>
+        <div class="shortcut-item"><span>Next fun fact</span><kbd>F</kbd></div>
+        <div class="shortcut-item"><span>Export PNG</span><kbd>E</kbd></div>
+        <div class="shortcut-item"><span>Close this</span><kbd>?</kbd></div>
+    </div>
+
+    <!-- Comparison Panel -->
+    <div class="comparison-panel" id="comparisonPanel">
+        <button class="comparison-close" id="closeComparison">&times;</button>
+        <div class="comparison-station" id="compStation1">
+            <div class="name">-</div>
+            <div class="stats">Click a station to compare</div>
+        </div>
+        <div class="comparison-vs">VS</div>
+        <div class="comparison-station" id="compStation2">
+            <div class="name">-</div>
+            <div class="stats">Click another station</div>
+        </div>
+    </div>
 
     <script>
     document.addEventListener('DOMContentLoaded', function() {{
-        // Recursive function to wait for map initialization
+        // Hide loading after a short delay
+        setTimeout(function() {{
+            document.getElementById('loadingOverlay').classList.add('hidden');
+        }}, 800);
+
+        // Welcome modal
+        var welcomeModal = document.getElementById('welcomeModal');
+        var startBtn = document.getElementById('startExploring');
+
+        // Check if user has seen welcome before
+        if (localStorage.getItem('tflMapWelcomeSeen')) {{
+            welcomeModal.classList.add('hidden');
+        }}
+
+        startBtn.addEventListener('click', function() {{
+            welcomeModal.classList.add('hidden');
+            localStorage.setItem('tflMapWelcomeSeen', 'true');
+        }});
+
+        // Dark mode
+        var darkModeToggle = document.getElementById('darkModeToggle');
+        var isDarkMode = localStorage.getItem('tflMapDarkMode') === 'true';
+
+        if (isDarkMode) {{
+            document.body.classList.add('dark-mode');
+            darkModeToggle.textContent = '\\u2600\\uFE0F';
+        }}
+
+        darkModeToggle.addEventListener('click', function() {{
+            document.body.classList.toggle('dark-mode');
+            isDarkMode = document.body.classList.contains('dark-mode');
+            localStorage.setItem('tflMapDarkMode', isDarkMode);
+            darkModeToggle.textContent = isDarkMode ? '\\u2600\\uFE0F' : '\\u1F319';
+        }});
+
+        // Keyboard shortcuts panel
+        var shortcutsPanel = document.getElementById('shortcutsPanel');
+
         function initializeWhenReady() {{
             var mapElement = document.querySelector('.folium-map');
             if (!mapElement) {{
@@ -486,24 +1290,28 @@ def create_map(results_1km, enhanced_data=None):
                 }}
             }}
 
-            // Keep retrying if map isn't ready yet
             if (!map) {{
                 setTimeout(initializeWhenReady, 100);
                 return;
             }}
 
-            console.log('Map found, initializing controls...');
+            console.log('Map ready, initializing enhanced controls...');
 
             var stations = {js_stations};
             var lineStats = {js_line_stats};
             var rankings = {js_rankings};
             var typeColors = {js_type_colors};
+            var summaryStats = {js_summary_stats};
+            var funFacts = {js_fun_facts};
 
             var stationLayers = [];
             var currentFilter = 'all';
             var currentVizMode = 'markers';
             var populationHeat = null;
             var usageHeat = null;
+            var currentFactIndex = 0;
+            var comparisonMode = false;
+            var comparisonStations = [];
 
             function formatNumber(num) {{
                 return num.toString().replace(/\\B(?=(\\d{{3}})+(?!\\d))/g, ",");
@@ -519,6 +1327,81 @@ def create_map(results_1km, enhanced_data=None):
                     'no_population_data': 'No Pop Data'
                 }};
                 return labels[type] || type;
+            }}
+
+            // Update fun fact
+            function updateFunFact() {{
+                var factText = document.querySelector('.fact-text');
+                if (factText) {{
+                    currentFactIndex = (currentFactIndex + 1) % funFacts.length;
+                    factText.textContent = funFacts[currentFactIndex];
+                }}
+            }}
+
+            // Set initial fun fact
+            var factTextEl = document.querySelector('.fact-text');
+            if (factTextEl) {{
+                factTextEl.textContent = funFacts[0];
+            }}
+
+            // Rotate fun facts every 10 seconds
+            setInterval(updateFunFact, 10000);
+
+            // Search functionality
+            var searchInput = document.getElementById('stationSearch');
+            var searchResults = document.getElementById('searchResults');
+
+            if (searchInput) {{
+                searchInput.addEventListener('input', function() {{
+                    var query = this.value.toLowerCase().trim();
+                    if (query.length < 2) {{
+                        searchResults.classList.remove('visible');
+                        return;
+                    }}
+
+                    var matches = stations.filter(function(s) {{
+                        return s.name.toLowerCase().includes(query);
+                    }}).slice(0, 8);
+
+                    if (matches.length > 0) {{
+                        searchResults.innerHTML = matches.map(function(s) {{
+                            return '<div class="search-result-item" data-lat="' + s.lat + '" data-lon="' + s.lon + '" data-name="' + s.name + '">' +
+                                '<div class="station-name">' + s.name + '</div>' +
+                                '<div class="station-lines">' + s.lines_text + '</div>' +
+                            '</div>';
+                        }}).join('');
+                        searchResults.classList.add('visible');
+
+                        // Add click handlers
+                        searchResults.querySelectorAll('.search-result-item').forEach(function(item) {{
+                            item.addEventListener('click', function() {{
+                                var lat = parseFloat(this.dataset.lat);
+                                var lon = parseFloat(this.dataset.lon);
+                                var name = this.dataset.name;
+
+                                map.setView([lat, lon], 15);
+                                searchInput.value = name;
+                                searchResults.classList.remove('visible');
+
+                                // Find and open popup
+                                stationLayers.forEach(function(layer) {{
+                                    if (layer.station.name === name) {{
+                                        layer.marker.openPopup();
+                                    }}
+                                }});
+                            }});
+                        }});
+                    }} else {{
+                        searchResults.innerHTML = '<div class="search-result-item"><div class="station-name">No stations found</div></div>';
+                        searchResults.classList.add('visible');
+                    }}
+                }});
+
+                searchInput.addEventListener('blur', function() {{
+                    setTimeout(function() {{
+                        searchResults.classList.remove('visible');
+                    }}, 200);
+                }});
             }}
 
             function createTooltip(s) {{
@@ -581,7 +1464,7 @@ def create_map(results_1km, enhanced_data=None):
                     '</div>';
             }}
 
-            // Create all station markers and circles
+            // Create station markers
             stations.forEach(function(s) {{
                 var circle = L.circle([s.lat, s.lon], {{
                     radius: 1000,
@@ -612,10 +1495,8 @@ def create_map(results_1km, enhanced_data=None):
 
                 marker.bindPopup(createPopup(s), {{maxWidth: 300}});
 
-                // Hover behavior depends on current filter
                 marker.on('mouseover', function(e) {{
                     if (currentFilter === 'all') {{
-                        // Show circle on hover when no filter active
                         if (!map.hasLayer(circle)) {{
                             circle.addTo(map);
                         }}
@@ -661,11 +1542,9 @@ def create_map(results_1km, enhanced_data=None):
                 }});
             }});
 
-            // Update station display based on filter
             function updateStationDisplay(selectedType) {{
                 currentFilter = selectedType;
 
-                // Update clear button visibility
                 var clearBtn = document.getElementById('clearFilterBtn');
                 if (clearBtn) {{
                     if (selectedType === 'all') {{
@@ -675,7 +1554,6 @@ def create_map(results_1km, enhanced_data=None):
                     }}
                 }}
 
-                // Update filter status
                 var statusEl = document.getElementById('filterStatus');
                 if (statusEl) {{
                     if (selectedType === 'all') {{
@@ -690,7 +1568,6 @@ def create_map(results_1km, enhanced_data=None):
                     }}
                 }}
 
-                // Update radio label styling
                 document.querySelectorAll('.station-type-filter label').forEach(function(label) {{
                     label.classList.remove('selected');
                 }});
@@ -706,7 +1583,6 @@ def create_map(results_1km, enhanced_data=None):
                     var colors = typeColors[s.station_type] || typeColors['no_usage_data'];
 
                     if (selectedType === 'all') {{
-                        // NEUTRAL STATE: All stations visible, no circles
                         marker.setStyle({{
                             radius: 5,
                             weight: 2,
@@ -722,7 +1598,6 @@ def create_map(results_1km, enhanced_data=None):
                         }}
 
                     }} else if (s.station_type === selectedType) {{
-                        // SELECTED TYPE: Prominent with visible circle
                         marker.setStyle({{
                             radius: 8,
                             weight: 3,
@@ -733,7 +1608,6 @@ def create_map(results_1km, enhanced_data=None):
                         }});
                         marker.setZIndexOffset(1000);
 
-                        // Show circle permanently for selected type
                         if (!map.hasLayer(circle)) {{
                             circle.addTo(map);
                         }}
@@ -746,7 +1620,6 @@ def create_map(results_1km, enhanced_data=None):
                         }});
 
                     }} else {{
-                        // OTHER TYPES: Faded, no circle
                         marker.setStyle({{
                             radius: 4,
                             weight: 1,
@@ -764,9 +1637,7 @@ def create_map(results_1km, enhanced_data=None):
                 }});
             }}
 
-            // Create heatmap layers
             function initHeatmaps() {{
-                // Population heatmap
                 var popHeatData = stations
                     .filter(function(s) {{ return s.population_1km > 0; }})
                     .map(function(s) {{
@@ -788,7 +1659,6 @@ def create_map(results_1km, enhanced_data=None):
                     }}
                 }});
 
-                // Usage heatmap
                 var usageHeatData = stations
                     .filter(function(s) {{ return s.daily_usage > 0; }})
                     .map(function(s) {{
@@ -811,11 +1681,9 @@ def create_map(results_1km, enhanced_data=None):
                 }});
             }}
 
-            // Update visualization mode
             function updateVizMode(mode) {{
                 currentVizMode = mode;
 
-                // Update radio label styling
                 document.querySelectorAll('.viz-mode-toggle label').forEach(function(label) {{
                     label.classList.remove('selected');
                 }});
@@ -824,7 +1692,6 @@ def create_map(results_1km, enhanced_data=None):
                     selectedLabel.parentElement.classList.add('selected');
                 }}
 
-                // Remove heatmap layers
                 if (populationHeat && map.hasLayer(populationHeat)) {{
                     map.removeLayer(populationHeat);
                 }}
@@ -832,22 +1699,18 @@ def create_map(results_1km, enhanced_data=None):
                     map.removeLayer(usageHeat);
                 }}
 
-                // Update heatmap legend
                 var popLegend = document.getElementById('heatmapLegendPop');
                 var usageLegend = document.getElementById('heatmapLegendUsage');
                 if (popLegend) popLegend.classList.remove('visible');
                 if (usageLegend) usageLegend.classList.remove('visible');
 
                 if (mode === 'markers') {{
-                    // Show markers at full opacity
                     stationLayers.forEach(function(layer) {{
                         layer.marker.setStyle({{opacity: 1, fillOpacity: 1}});
                     }});
-                    // Re-apply current filter
                     updateStationDisplay(currentFilter);
 
                 }} else if (mode === 'heatmap-population') {{
-                    // Dim markers, show population heatmap
                     stationLayers.forEach(function(layer) {{
                         layer.marker.setStyle({{opacity: 0.3, fillOpacity: 0.3}});
                         layer.circle.setStyle({{opacity: 0, fillOpacity: 0}});
@@ -858,7 +1721,6 @@ def create_map(results_1km, enhanced_data=None):
                     if (popLegend) popLegend.classList.add('visible');
 
                 }} else if (mode === 'heatmap-usage') {{
-                    // Dim markers, show usage heatmap
                     stationLayers.forEach(function(layer) {{
                         layer.marker.setStyle({{opacity: 0.3, fillOpacity: 0.3}});
                         layer.circle.setStyle({{opacity: 0, fillOpacity: 0}});
@@ -870,7 +1732,6 @@ def create_map(results_1km, enhanced_data=None):
                 }}
             }}
 
-            // Export functions
             function exportPNG() {{
                 var btn = document.getElementById('exportPNGBtn');
                 if (btn) {{
@@ -890,7 +1751,6 @@ def create_map(results_1km, enhanced_data=None):
                         return;
                     }}
 
-                    // Add metadata overlay
                     var ctx = canvas.getContext('2d');
                     ctx.fillStyle = 'rgba(255, 255, 255, 0.9)';
                     ctx.fillRect(10, 10, 350, 70);
@@ -901,18 +1761,16 @@ def create_map(results_1km, enhanced_data=None):
                     ctx.fillText('Filter: ' + (currentFilter === 'all' ? 'All Stations' : getTypeLabel(currentFilter)), 20, 50);
                     ctx.fillText('Generated: ' + new Date().toLocaleDateString(), 20, 68);
 
-                    // Download
                     var link = document.createElement('a');
-                    link.download = 'tube-analysis-' + currentFilter + '-' + Date.now() + '.png';
+                    link.download = 'london-tfl-map-' + Date.now() + '.png';
                     link.href = canvas.toDataURL('image/png');
                     link.click();
                 }});
             }}
 
-            // Initialize heatmaps
             initHeatmaps();
 
-            // Set up station type filter (radio buttons)
+            // Set up radio buttons
             var stationTypeRadios = document.querySelectorAll('input[name="stationType"]');
             stationTypeRadios.forEach(function(radio) {{
                 radio.addEventListener('change', function() {{
@@ -920,14 +1778,12 @@ def create_map(results_1km, enhanced_data=None):
                 }});
             }});
 
-            // Initialize with "all" selected
             var allRadio = document.querySelector('input[name="stationType"][value="all"]');
             if (allRadio) {{
                 allRadio.checked = true;
                 allRadio.parentElement.classList.add('selected');
             }}
 
-            // Clear filter button
             var clearBtn = document.getElementById('clearFilterBtn');
             if (clearBtn) {{
                 clearBtn.addEventListener('click', function() {{
@@ -939,7 +1795,6 @@ def create_map(results_1km, enhanced_data=None):
                 }});
             }}
 
-            // Set up visualization mode toggle
             var vizModeRadios = document.querySelectorAll('input[name="vizMode"]');
             vizModeRadios.forEach(function(radio) {{
                 radio.addEventListener('change', function() {{
@@ -947,20 +1802,17 @@ def create_map(results_1km, enhanced_data=None):
                 }});
             }});
 
-            // Initialize markers mode
             var markersRadio = document.querySelector('input[name="vizMode"][value="markers"]');
             if (markersRadio) {{
                 markersRadio.checked = true;
                 markersRadio.parentElement.classList.add('selected');
             }}
 
-            // Export button
             var exportBtn = document.getElementById('exportPNGBtn');
             if (exportBtn) {{
                 exportBtn.addEventListener('click', exportPNG);
             }}
 
-            // Set up collapsible sections
             var collapsibles = document.querySelectorAll('.collapsible');
             collapsibles.forEach(function(btn) {{
                 btn.addEventListener('click', function() {{
@@ -970,15 +1822,108 @@ def create_map(results_1km, enhanced_data=None):
                 }});
             }});
 
-        }} // End of initializeWhenReady function
+            // Keyboard shortcuts
+            document.addEventListener('keydown', function(e) {{
+                // Ignore if typing in input
+                if (e.target.tagName === 'INPUT') return;
 
-        // Start the initialization process
+                switch(e.key) {{
+                    case '/':
+                        e.preventDefault();
+                        if (searchInput) searchInput.focus();
+                        break;
+                    case '?':
+                        shortcutsPanel.classList.toggle('visible');
+                        break;
+                    case 'Escape':
+                        searchResults.classList.remove('visible');
+                        shortcutsPanel.classList.remove('visible');
+                        if (searchInput) searchInput.blur();
+                        var allRadio = document.querySelector('input[name="stationType"][value="all"]');
+                        if (allRadio) {{
+                            allRadio.checked = true;
+                            updateStationDisplay('all');
+                        }}
+                        break;
+                    case 'd':
+                    case 'D':
+                        document.body.classList.toggle('dark-mode');
+                        var isDark = document.body.classList.contains('dark-mode');
+                        localStorage.setItem('tflMapDarkMode', isDark);
+                        darkModeToggle.textContent = isDark ? '\\u2600\\uFE0F' : '\\u1F319';
+                        break;
+                    case 'f':
+                    case 'F':
+                        updateFunFact();
+                        break;
+                    case 'e':
+                    case 'E':
+                        exportPNG();
+                        break;
+                }}
+            }});
+
+            // Dashboard toggle
+            var toggleDashboard = document.getElementById('toggleDashboard');
+            var dashboard = document.querySelector('.stats-dashboard');
+            if (toggleDashboard && dashboard) {{
+                toggleDashboard.addEventListener('click', function() {{
+                    dashboard.classList.toggle('collapsed');
+                    this.textContent = dashboard.classList.contains('collapsed') ? '\\u25B6' : '\\u25C0';
+                }});
+            }}
+
+            console.log('Enhanced TfL Map initialized successfully!');
+
+        }} // End initializeWhenReady
+
         initializeWhenReady();
     }});
     </script>
     """
 
-    # Create legend panel HTML
+    # Stats Dashboard HTML
+    dashboard_html = f"""
+    <div class="stats-dashboard">
+        <div class="dashboard-header">
+            <h2>London TfL Explorer</h2>
+            <button class="toggle-dashboard" id="toggleDashboard">&#x25C0;</button>
+        </div>
+        <div class="dashboard-content">
+            <div class="search-container">
+                <span class="search-icon">&#x1F50D;</span>
+                <input type="text" class="search-input" id="stationSearch" placeholder="Search stations... (press /)">
+                <div class="search-results" id="searchResults"></div>
+            </div>
+
+            <div class="stat-cards">
+                <div class="stat-card">
+                    <div class="stat-value">{summary_stats['total_stations']}</div>
+                    <div class="stat-label">Stations</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">{summary_stats['total_population'] // 1000000:.1f}M</div>
+                    <div class="stat-label">People in 1km</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">{summary_stats['total_daily_usage'] // 1000000:.1f}M</div>
+                    <div class="stat-label">Daily Trips</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">{summary_stats['avg_daily_usage'] // 1000:.0f}K</div>
+                    <div class="stat-label">Avg per Station</div>
+                </div>
+            </div>
+
+            <div class="fun-fact-box">
+                <div class="fact-label">&#x1F4A1; Did You Know?</div>
+                <div class="fact-text"></div>
+            </div>
+        </div>
+    </div>
+    """
+
+    # Legend panel HTML
     sorted_lines = sorted(line_stats.items(), key=lambda x: -x[1]["total_population"])
 
     legend_html = """
@@ -989,15 +1934,15 @@ def create_map(results_1km, enhanced_data=None):
         z-index: 1000;
         background: white;
         padding: 15px;
-        border-radius: 10px;
+        border-radius: 12px;
         box-shadow: 0 4px 20px rgba(0,0,0,0.15);
         max-height: 90vh;
         overflow-y: auto;
         font-family: Arial, sans-serif;
         width: 320px;
     ">
-        <h3 style="margin: 0 0 5px 0; font-size: 15px; color: #333;">TfL Rail Population & Usage</h3>
-        <p style="font-size: 11px; color: #666; margin: 0 0 10px 0;">Population within 1km radius of stations</p>
+        <h3 style="margin: 0 0 5px 0; font-size: 15px; color: #333;">Filters & Controls</h3>
+        <p style="font-size: 11px; color: #666; margin: 0 0 10px 0;">Explore population and usage patterns</p>
 
         <div id="filterStatus" class="filter-status"></div>
 
@@ -1006,7 +1951,7 @@ def create_map(results_1km, enhanced_data=None):
             <label>
                 <input type="radio" name="stationType" value="all">
                 <span class="type-color-dot" style="background: linear-gradient(135deg, #3498DB, #27AE60, #8E44AD, #E67E22);"></span>
-                All Stations (No Filter)
+                All Stations
             </label>
             <label>
                 <input type="radio" name="stationType" value="commuter_hub">
@@ -1026,13 +1971,13 @@ def create_map(results_1km, enhanced_data=None):
             <label>
                 <input type="radio" name="stationType" value="low_activity">
                 <span class="type-color-dot" style="background: #BA4A00;"></span>
-                Low Activity Areas
+                Low Activity
             </label>
-            <button id="clearFilterBtn" class="clear-filter-btn">Reset to All Stations</button>
+            <button id="clearFilterBtn" class="clear-filter-btn">Reset to All</button>
         </div>
 
         <div class="viz-mode-toggle">
-            <h4>Visualization Mode:</h4>
+            <h4>Visualization:</h4>
             <label>
                 <input type="radio" name="vizMode" value="markers">
                 Station Markers
@@ -1057,7 +2002,7 @@ def create_map(results_1km, enhanced_data=None):
         </div>
 
         <div id="heatmapLegendUsage" class="heatmap-legend">
-            <h5>Station Usage Intensity</h5>
+            <h5>Usage Intensity</h5>
             <div class="gradient-bar usage"></div>
             <div class="gradient-labels">
                 <span>Low</span>
@@ -1067,7 +2012,7 @@ def create_map(results_1km, enhanced_data=None):
 
         <div class="export-controls">
             <h4>Export:</h4>
-            <button id="exportPNGBtn" class="export-btn">Download as PNG</button>
+            <button id="exportPNGBtn" class="export-btn">Download Map as PNG</button>
         </div>
 
         <table style="width: 100%; font-size: 11px; border-collapse: collapse; margin-top: 15px;">
@@ -1075,7 +2020,7 @@ def create_map(results_1km, enhanced_data=None):
                 <th style="text-align: left; padding: 6px;">Line</th>
                 <th style="text-align: right; padding: 6px;">Stns</th>
                 <th style="text-align: right; padding: 6px;">Pop</th>
-                <th style="text-align: right; padding: 6px;">Daily Use</th>
+                <th style="text-align: right; padding: 6px;">Daily</th>
             </tr>
     """
 
@@ -1105,7 +2050,6 @@ def create_map(results_1km, enhanced_data=None):
         </table>
     """
 
-    # Add ranking sections
     def format_ranking_html(title, subtitle, items, value_key, ratio_key=None, ratio_label="Ratio"):
         html = f"""
         <button class="collapsible">{title}</button>
@@ -1166,36 +2110,16 @@ def create_map(results_1km, enhanced_data=None):
     legend_html += """
         <div style="margin-top: 12px; padding-top: 10px; border-top: 1px solid #ddd;">
             <p style="font-size: 9px; color: #888; margin: 0;">
-                Data: TfL API + 2021 Census + Usage 2024
+                Data: TfL API + ONS Census 2021 + TfL Usage 2024
             </p>
         </div>
     </div>
     """
 
-    # Title panel
-    title_html = """
-    <div style="
-        position: fixed;
-        top: 10px;
-        left: 60px;
-        z-index: 1000;
-        background: white;
-        padding: 12px 18px;
-        border-radius: 10px;
-        box-shadow: 0 4px 20px rgba(0,0,0,0.15);
-        font-family: Arial, sans-serif;
-    ">
-        <h2 style="margin: 0; font-size: 17px; color: #333;">London TfL Rail Population & Usage</h2>
-        <p style="margin: 5px 0 0 0; font-size: 12px; color: #666;">Select a station type to explore catchment areas</p>
-    </div>
-    """
-
-    # Add all elements to map
+    m.get_root().html.add_child(folium.Element(dashboard_html))
     m.get_root().html.add_child(folium.Element(legend_html))
-    m.get_root().html.add_child(folium.Element(title_html))
     m.get_root().html.add_child(folium.Element(main_script))
 
-    # Save map
     output_file = OUTPUT_DIR / "tube_population_map.html"
     m.save(str(output_file))
     print(f"Map saved to {output_file}")
@@ -1213,16 +2137,19 @@ def main():
     create_map(results_1km, enhanced_data)
 
     print("\n" + "=" * 60)
-    print("MAP CREATION COMPLETE")
+    print("ENHANCED MAP CREATION COMPLETE")
     print("=" * 60)
-    print("Open 'tube_population_map.html' in a browser to view the interactive map.")
-    print("\nNew Features:")
-    print("- Radio button filters (single-select)")
-    print("- Smart opacity system (faded background stations)")
-    print("- Clear filter functionality")
-    print("- Heatmap visualization modes (Population/Usage)")
-    print("- PNG export capability")
-    print("- Enhanced color system with visual hierarchy")
+    print("Open 'tube_population_map.html' in a browser to explore!")
+    print("\nStudent-Friendly Features:")
+    print("- Welcome tutorial modal")
+    print("- Station search with autocomplete")
+    print("- Statistics dashboard with key metrics")
+    print("- Fun facts that rotate automatically")
+    print("- Dark mode toggle")
+    print("- Keyboard shortcuts (press ? to see)")
+    print("- Heatmap visualizations")
+    print("- PNG export")
+    print("- Mobile responsive design")
 
 
 if __name__ == "__main__":
